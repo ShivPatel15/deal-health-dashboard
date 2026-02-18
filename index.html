@@ -145,9 +145,9 @@ function renderList(){
 
   Object.entries(grouped).forEach(([owner,deals])=>{
     if(!deals.length)return;
-    const ownerMcv=deals.reduce((s,o)=>s+(o.revenue?.mcv||0),0);
+    const ownerPbr=deals.reduce((s,o)=>s+(o.projectedBilledRevenue||0),0);
     html+=`<div class="owner-group"><div class="owner-header"><div class="owner-name">${owner}</div>
-      <div class="owner-stats"><span>${deals.length} deals</span><span>MCV: ${fmtK(ownerMcv)}</span></div></div>
+      <div class="owner-stats"><span>${deals.length} deals</span><span>Proj Billed Rev: ${fmtK(ownerPbr)}</span></div></div>
       <table><thead><tr><th>Account</th><th>Stage</th><th>Close</th><th>MCV</th><th>Proj Billed Rev</th><th>Rev (3yr)</th><th style="width:140px">Health</th><th>Intent</th></tr></thead>
       <tbody>${deals.map(o=>{
         const dtc=Math.ceil((new Date(o.closeDate)-Date.now())/864e5);
