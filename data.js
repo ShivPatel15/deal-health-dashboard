@@ -2,10 +2,11 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-18T22:04:22.423Z",
+  "generatedAt": "2026-02-18T22:30:01.836Z",
   "owners": [
     "Adriana Colacicco",
-    "Ben Rees"
+    "Ben Rees",
+    "Maissa Fatte"
   ],
   "opportunities": [
     {
@@ -4131,6 +4132,981 @@ const DEAL_DATA = {
             "Identify Pain": 6.5,
             "Champion": 4,
             "Competition": 2.5
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "006OG00000HnVs8YAF",
+      "name": "Wacoal Europe - Plus",
+      "accountName": "Wacoal Europe",
+      "accountId": "0018V00002sPF8RQAW",
+      "owner": "Maissa Fatte",
+      "ownerEmail": "maissa.fatte@shopify.com",
+      "stage": "Deal Craft",
+      "closeDate": "2026-02-28",
+      "forecastCategory": "Commit",
+      "probability": 80,
+      "merchantIntent": "Committed - At Risk",
+      "type": "New Business",
+      "created": "2025-10-16",
+      "revenue": {
+        "mcv": 285200,
+        "totalRev3yr": 1244375,
+        "d2cGmv": 29000000,
+        "b2bGmv": null,
+        "retailGmv": null,
+        "paymentsGpv": 18850000,
+        "paymentsAttached": true,
+        "ipp": 0
+      },
+      "projectedBilledRevenue": 647389.47,
+      "products": [
+        "Plus Product Suite",
+        "D2C - Multi Brand",
+        "Shopify Payments - D2C Plus"
+      ],
+      "competitor": "Not specified",
+      "compellingEvent": "SAP Hybris contract expires January 2027. Must go-live November 2026. 4 brands (Freya, Fantasie, Elomi, Goddess) consolidating 16 SAP websites into 4 Shopify stores with Markets. £400K total budget constraint. VML fixed-price estimate required before signing. Bravissimo (£30M online, 25 stores) is Phase 2 upside.",
+      "nextStep": "13/02 MF: Will have a decision by 27/02. Contract reviewed and rates presented. Offer expires March 13th.",
+      "narrative": {
+        "oppSummary": "Wacoal Europe is a UK-based lingerie/intimates company evaluating Shopify Plus to replace its aging SAP Hybris platform across four brands (Freya, Fantasie, Elomi, Goddess). The deal is valued at $285,200 MCV ($1.24M total 3-year revenue) with £20M (~$29M) in D2C GMV and $18.85M in Payments GPV. The opportunity involves consolidating 16 separate SAP websites into 4 Shopify Plus stores using Markets for international expansion. A fifth brand, Bravissimo (£30M online, 25 retail stores), is excluded from Phase 1 but represents significant Phase 2 upside. The deal is commercially contingent on VML (SI partner) delivering a fixed-price implementation estimate within Danny Dawes’ £400K total budget constraint, which must also cover middleware to decouple from legacy ERP. Decision expected by Feb 27, offer expires March 13.",
+        "whyChange": "Wacoal Europe’s SAP Hybris contract expires in January 2027, creating a hard platform end-of-life deadline. They are currently managing 16 separate SAP Hybris websites across four brands and multiple markets — an operationally complex and costly architecture that is unsustainable. Multiple technical blockers related to SAP (product hierarchy limitations, 2048 variant cap, multi-brand architecture challenges) were identified during discovery. The need to build a middleware layer to decouple from legacy ERP indicates deep technical debt. The consolidation from 16 sites to 4 stores represents a desire to dramatically simplify operations, reduce TCO, and modernize their digital commerce infrastructure.",
+        "whyShopify": "Shopify Plus was selected after technical discovery confirmed it could address all identified SAP Hybris blockers — including product hierarchy requirements, the 2048 variant limitation, and multi-brand architecture. Shopify Markets enables consolidation of 16 separate country/brand websites into 4 brand-level stores with built-in international selling. VML (formerly Wunderman Thompson), a well-known Shopify Plus agency, referred this deal and is the implementation partner, suggesting confidence in the Shopify ecosystem. The SE confirmed ‘no technical blockers’ remain. Shopify Payments is included with $18.85M projected GPV.",
+        "whyNow": "The SAP Hybris contract expires January 2027, creating an immovable deadline. Working backward, Wacoal must go live on Shopify by November 2026 (proposed launch date), meaning build needs to start as early as possible in 2026. The Shopify offer expires March 13, 2026, adding commercial urgency. Any further delay compresses the implementation timeline and puts the November 2026 go-live at risk, which would leave Wacoal without a platform when SAP expires.",
+        "supportNeeded": "1) VML fixed-price estimate within budget — Danny will not sign without it. The £400K total budget must cover middleware + Shopify build. If VML comes in high, creative commercial solutions may be needed.\n2) Budget gap resolution — If VML estimate + middleware exceeds £400K, explore extended free months, phased billing, or reduced rates.\n3) Contract/legal review acceleration — Draft contract sent for legal review. Must resolve by Feb 27 decision date.\n4) Implementation timeline confidence — Reinforce feasibility of Nov 2026 go-live through references or case studies.\n5) Phase 2 (Bravissimo) vision building — Seed the conversation about £30M online + 25 stores on Shopify POS.\n6) Stakeholder mapping — Danny is the ONLY contact. Must identify broader buying committee, C-suite, and decision-makers."
+      },
+      "meddpicc": {
+        "metrics": {
+          "label": "Metrics",
+          "questions": [
+            {
+              "q": "Do we know the business reasons as to why they are migrating?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "SAP Hybris contract expiring Jan 2027; 16 websites across 4 brands is operationally unsustainable; technical debt with legacy ERP; product hierarchy and variant limitations.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we have specific quantifiable goals aligned with the project?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "£20M B2C GMV and 16→4 consolidation known, but no specific KPIs for conversion improvement, cost reduction, or revenue growth goals.",
+              "solution": "Define measurable success criteria.",
+              "action": "Maissa to ask Danny what success looks like 12 months post-launch — specific metrics around cost savings, efficiency, or growth.",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do they need to make a platform change to achieve this goal?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "SAP Hybris expires Jan 2027 — platform change is mandatory. 16-site architecture cannot be maintained.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we understand the impact if this goal isn't achieved?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "They lose their commerce platform if they don't migrate. But specific business impact (revenue at risk, cost of SAP extension) not quantified.",
+              "solution": "Quantify cost of delay.",
+              "action": "Ask Danny: 'What happens if you don't go live by November? What does an SAP extension cost?'",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Is there a compelling event in place driving action?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "SAP Hybris contract expiry Jan 2027. Nov 2026 go-live required. Shopify offer expires March 13.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have I validated the metrics with the customer?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "£20M GMV, 16-site consolidation, SAP expiry discussed with Danny. No call transcripts to confirm deeper validation. SE confirmed technical validation but commercial metrics validation unclear.",
+              "solution": "Validate business case metrics directly.",
+              "action": "Confirm with Danny that business case numbers are accurate and agreed internally.",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are the metrics compelling enough to justify change?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Platform expiry forces change regardless. £20M GMV at stake, 16→4 consolidation offers clear savings, SAP end is non-negotiable.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            }
+          ]
+        },
+        "economicBuyer": {
+          "label": "Economic Buyer",
+          "questions": [
+            {
+              "q": "Have I identified the true economic buyer?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Danny Dawes is primary/only contact, controls £400K budget, sets decision timeline. But his title is unspecified — unclear if he’s the true EB or if there’s a CFO/CEO/MD above him. Wacoal Europe is a subsidiary of Wacoal Holdings (Japan).",
+              "solution": "Confirm Danny’s authority.",
+              "action": "Maissa to ask Danny: 'Are you the final approver for this investment, or does anyone else need to sign off?'",
+              "due": "02/20/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know who's signing the contract?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Draft contract sent for legal review, presumably through Danny. Actual signatory not confirmed.",
+              "solution": "Confirm signatory.",
+              "action": "Maissa to confirm: 'Who will be signing the contract on Wacoal’s side?'",
+              "due": "02/20/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we have access to this individual?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Danny is actively engaged — discovery calls, budget sharing, decision timelines, contract review. Direct email access.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Can we get access?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Active access to Danny. VML’s Scott Armstrong may also be a path to other stakeholders if needed.",
+              "solution": "N/A",
+              "action": "If Danny is not the EB, request introduction to the true EB.",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what the economic buyer cares about most?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Danny cares about budget (£400K cap) and timeline (Nov 2026 go-live). Requires VML fixed-price estimate. Broader strategic priorities (growth, brand experience, international expansion) unknown.",
+              "solution": "Understand Danny’s personal success criteria.",
+              "action": "Explore: 'Beyond budget and timeline, what does success look like for you personally?'",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do you know how they make decisions and allocate budget?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "£400K budget known, VML estimate required before committing. Don’t know if formal procurement, board approval, or how £400K was allocated.",
+              "solution": "Map full approval process.",
+              "action": "Ask Danny: 'Once you have VML’s estimate and want to proceed, what’s the internal approval process?'",
+              "due": "02/20/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "decisionProcess": {
+          "label": "Decision Process",
+          "questions": [
+            {
+              "q": "Do we know how they will be making the decision?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Danny waiting for VML estimate, then decision by Feb 27. Contract in legal review. But full internal decision process unknown.",
+              "solution": "Map complete decision process.",
+              "action": "Walk through step-by-step with Danny: 'After VML estimate, what are the exact steps to signature?'",
+              "due": "02/20/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know who's involved / buying committee?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Danny Dawes is the ONLY contact in Salesforce. For a £400K+ investment at a subsidiary of a Japanese public company, others are almost certainly involved. Zero visibility into buying committee.",
+              "solution": "Map the full buying committee immediately.",
+              "action": "Ask Danny: 'Who else at Wacoal is involved in this decision?' Also ask VML’s Scott Armstrong who they’ve been interfacing with.",
+              "due": "02/20/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know when they want to make a decision by?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "AE notes: 'Will have a decision by 27/02.' Offer expires March 13.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what is driving this timeline?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "SAP Hybris expires Jan 2027. Must go-live Nov 2026. Build needs to start ASAP. Offer expiry March 13 adds commercial urgency.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know if they have tried to solve this problem before?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No information about previous platform evaluations or migration attempts.",
+              "solution": "Understand migration history.",
+              "action": "Ask Danny: 'Have you explored re-platforming before, or is this the first time?'",
+              "due": "02/20/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what will happen if they do nothing?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "SAP expires Jan 2027, 16 websites go dark, £20M B2C revenue at risk. Not a discretionary project.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have you validated this process with the buyer?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Feb 27 decision date and VML estimate dependency communicated by Danny. No formal MAP documented. No call transcripts.",
+              "solution": "Create mutual action plan.",
+              "action": "Propose a mutual close plan: VML estimate → internal review → legal → signature → build kickoff.",
+              "due": "02/20/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "decisionCriteria": {
+          "label": "Decision Criteria",
+          "questions": [
+            {
+              "q": "Do we know what criteria the customer is using to evaluate vendors?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Danny cares about: total cost within £400K, 16→4 consolidation, product hierarchy/variant support, Nov 2026 go-live. No formal evaluation criteria or weighting.",
+              "solution": "Document formal criteria.",
+              "action": "Ask Danny: 'What are the top 3-5 things that will determine whether you go with Shopify?'",
+              "due": "02/22/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "D2C well-covered (4 brands, Markets, multi-store). No B2B or POS discussion. Bravissimo (25 stores) is Phase 2 and could involve POS.",
+              "solution": "Seed Phase 2 POS conversation.",
+              "action": "Ask: 'When you think about Bravissimo, would unified commerce across online and 25 stores be valuable?'",
+              "due": "03/01/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have we surfaced technical complications (integrations)?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "All SAP Hybris blockers resolved (product hierarchy, 2048 variant limit, multi-brand architecture). Middleware layer for ERP decoupling identified. VML ran 8-week discovery. 'No technical blockers' per SE.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how payments play into their decision?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Shopify Payments included with $18.85M projected GPV. But current payment provider, existing contracts, and whether pricing was a factor unknown.",
+              "solution": "Understand current payment setup.",
+              "action": "Confirm: 'Who handles payments today? Any existing contracts we should know about?'",
+              "due": "02/22/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we have a mutual action plan in place?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Implicit timeline exists (VML estimate → decision Feb 27 → offer expiry March 13 → build → Nov go-live) but no documented MAP.",
+              "solution": "Formalize MAP.",
+              "action": "Create and share written close plan with Danny.",
+              "due": "02/20/2026",
+              "highlight": false
+            },
+            {
+              "q": "Did we help shape those criteria in our favour?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "SE resolved all SAP blockers during discovery. Multi-store + Markets architecture recommendation shapes criteria around Shopify strengths. VML referral reinforces Shopify-centric evaluation.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know who defined the decision criteria?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Danny drives criteria (budget, fixed-price, timeline). VML shaped technical criteria through discovery. Unknown if others at Wacoal have input.",
+              "solution": "Confirm Danny’s criteria represent full org view.",
+              "action": "Ask: 'Are there other teams whose requirements we should address?'",
+              "due": "02/22/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "paperProcess": {
+          "label": "Paper Process",
+          "questions": [
+            {
+              "q": "Do we know what their procurement process is?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Draft contract sent for legal review, decision by Feb 27. Don’t know if formal procurement team, PO process, or additional approvals needed.",
+              "solution": "Map procurement process.",
+              "action": "Ask Danny: 'Once you decide, what does contract execution look like internally? Procurement team involved?'",
+              "due": "02/20/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are there likely to be redlines?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Contract in legal review. Wacoal is a subsidiary of Japanese public company — legal review likely thorough. No specific concerns raised yet.",
+              "solution": "Proactively identify redline areas.",
+              "action": "Check with Danny: 'Has your legal team flagged any concerns on the contract?'",
+              "due": "02/20/2026",
+              "highlight": false
+            },
+            {
+              "q": "If redlines, how long does review take?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Contract sent late Nov, decision expected Feb 27 — review has been ~3 months (possibly paused pending VML estimate). No timeline for legal turnaround.",
+              "solution": "Understand legal review status.",
+              "action": "Ask: 'Where does the contract review stand? Outstanding items, or ready to sign once VML estimate received?'",
+              "due": "02/20/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how long it will take?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Decision by Feb 27, offer expires March 13. Unclear how long from 'decision' to actual contract execution.",
+              "solution": "Clarify decision-to-signature gap.",
+              "action": "Ask: 'When you say decision by Feb 27, does that mean ready to sign, or is there a gap?'",
+              "due": "02/20/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we have contract details?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Contract drafted and sent. Rates presented. 5 months free ($46K credit) originally offered.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have we sent the contract?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "SE confirms 'Draft contract sent for legal review.' AE confirms 'Contract reviewed and rates presented.'",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know target date for signature?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Decision by Feb 27. Offer expires March 13. Target signature between Feb 27 and March 13.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            }
+          ]
+        },
+        "identifyPain": {
+          "label": "Identify Pain",
+          "questions": [
+            {
+              "q": "Do we know their current issues and why they are reviewing their tech stack?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "SAP Hybris expiring Jan 2027; 16 websites across 4 brands operationally complex; technical limitations (product hierarchy, 2048 variant cap); legacy ERP tightly coupled requiring middleware.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have they tried to resolve this issue in the past?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No information on previous re-platforming attempts or modernization efforts.",
+              "solution": "Understand migration history.",
+              "action": "Ask Danny: 'Have you explored re-platforming before, or is this the first time?'",
+              "due": "02/22/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how pains are affecting business operations?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Operational complexity of 16 websites, technical limitations, ERP coupling known. But specific business impact (cost of current setup, developer overhead, lost revenue) not quantified.",
+              "solution": "Quantify business impact.",
+              "action": "Explore: 'What is the operational cost of maintaining 16 websites? How many people? What capabilities can’t you deliver?'",
+              "due": "02/22/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what teams are affected and to what extent?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No information on which internal teams are most affected. Only Danny in our contact list.",
+              "solution": "Map affected teams.",
+              "action": "Ask Danny: 'Which teams are most affected by current platform challenges? Should we include any in our conversations?'",
+              "due": "02/22/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how urgent it is to solve this pain?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Extremely urgent — SAP expires Jan 2027, must go-live Nov 2026, build starts upon signing. Danny set Feb 27 decision date.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Can they solve this pain using another option?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "No competitor listed. VML referred to Shopify, suggesting preferred direction. But alternatives exist (SFCC, commercetools, BigCommerce, SAP renewal). Haven’t confirmed these were ruled out.",
+              "solution": "Confirm competitive landscape.",
+              "action": "Ask Danny and/or VML: 'Are you evaluating other platforms, or committed to Shopify?'",
+              "due": "02/20/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know why this problem is important to solve now?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "SAP contract expiry is the forcing function. Cannot stay on current platform. Nov 2026 go-live requires signing imminently.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Is our solution uniquely positioned to solve this pain?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Shopify Plus with Markets solves 16→4 consolidation elegantly. All SAP blockers resolved. VML’s referral suggests strong fit. But haven’t documented why Shopify is uniquely better than SFCC/commercetools for this use case.",
+              "solution": "Articulate unique differentiation.",
+              "action": "Stephen (SE) to prepare competitive differentiation summary for Wacoal’s specific requirements.",
+              "due": "02/25/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "champion": {
+          "label": "Champion",
+          "questions": [
+            {
+              "q": "Have you identified a true champion (influence + motivation)?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Danny Dawes drives the evaluation, has budget authority (£400K), sets timelines. Motivated by SAP expiry. But title unknown and unclear if he’s actively championing Shopify or running neutral procurement.",
+              "solution": "Validate Danny’s champion status.",
+              "action": "Assess: Is Danny selling Shopify internally or neutrally evaluating? Look for champion signals.",
+              "due": "02/22/2026",
+              "highlight": false
+            },
+            {
+              "q": "Does your champion have political capital and credibility?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Controls £400K budget, appears to be primary decision-maker. Suggests credibility. But title unknown, position in org chart unclear. Being only contact raises questions.",
+              "solution": "Understand Danny’s role and org position.",
+              "action": "Research Danny’s title on LinkedIn. Ask: 'What’s your role in the broader Wacoal organization? Who do you report to?'",
+              "due": "02/20/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have they given insights you wouldn't get otherwise?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Danny shared £400K budget constraint, VML fixed-price requirement, Feb 27 timeline, Bravissimo Phase 2 exclusion. Insider insights.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Are they connected with the key decision makers?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Danny appears to be a key DM himself. Don’t know if there are more senior DMs (CEO, CFO, board) and whether Danny connects to them. Wacoal Europe is subsidiary of Wacoal Holdings (Japan).",
+              "solution": "Understand decision hierarchy.",
+              "action": "Ask: 'Is there anyone else at Wacoal who needs to approve this investment?'",
+              "due": "02/20/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have you been introduced to the decision maker?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "If Danny is the EB, we have direct access. If someone above him, we haven’t been introduced. Critical unknown.",
+              "solution": "Confirm EB identity.",
+              "action": "Confirm Danny’s authority level.",
+              "due": "02/20/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are they willing to bring you into the board/buying group?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No evidence Danny has offered to introduce Shopify to other stakeholders or executives. Don’t even know if there IS a buying committee beyond Danny.",
+              "solution": "Request broader access.",
+              "action": "Ask: 'Would it be helpful for us to present the migration plan to your broader leadership team?'",
+              "due": "02/22/2026",
+              "highlight": false
+            },
+            {
+              "q": "Why are they such a champion for you?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Motivation appears pragmatic — SAP expiring, needs a platform, VML recommended Shopify. Whether emotionally invested in Shopify or would switch is unclear.",
+              "solution": "Deepen personal commitment.",
+              "action": "Connect Danny with a peer reference — another multi-brand retailer who migrated from SAP to Shopify.",
+              "due": "02/25/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "competition": {
+          "label": "Competition",
+          "questions": [
+            {
+              "q": "Do we know who else the customer is evaluating?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No competitor listed in Salesforce. No call transcripts. VML partner referral may mean Shopify is only platform — but not confirmed.",
+              "solution": "Confirm competitive landscape.",
+              "action": "Ask Danny directly: 'Are you evaluating other platforms alongside Shopify?' Also check with VML.",
+              "due": "02/20/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have we asked if doing nothing is an option?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Doing nothing means SAP expires. But 'doing nothing' could mean renewing/extending SAP, which hasn’t been ruled out.",
+              "solution": "Confirm SAP renewal is off the table.",
+              "action": "Ask: 'Is extending your SAP contract an option, or is the move away definite?'",
+              "due": "02/20/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are there internal alternatives to our solution?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No information about internal build options. Given 16-website architecture and ERP coupling, internal build seems unlikely but not discussed.",
+              "solution": "Rule out internal alternatives.",
+              "action": "Ask: 'Have you considered building a custom solution or a different approach?'",
+              "due": "02/22/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know why alternatives are being evaluated?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Don’t know if alternatives are being evaluated. Zero competitive intelligence.",
+              "solution": "Understand if alternatives are in play.",
+              "action": "Dependent on confirming competitive landscape.",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know why we would win or lose?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Win: VML recommendation, all technical blockers resolved, Markets consolidation story. Lose: £400K budget too tight, VML estimate delay, unknown competitors could emerge.",
+              "solution": "Address primary risk (budget/VML estimate).",
+              "action": "Check with VML on estimate status and expected range. If above £400K combined, explore creative commercial solutions.",
+              "due": "02/20/2026",
+              "highlight": false
+            }
+          ]
+        }
+      },
+      "scores": {
+        "Metrics": {
+          "score": 5.5,
+          "max": 7,
+          "pct": 79
+        },
+        "Economic Buyer": {
+          "score": 4,
+          "max": 6,
+          "pct": 67
+        },
+        "Decision Process": {
+          "score": 4,
+          "max": 7,
+          "pct": 57
+        },
+        "Decision Criteria": {
+          "score": 4.5,
+          "max": 7,
+          "pct": 64
+        },
+        "Paper Process": {
+          "score": 4.5,
+          "max": 7,
+          "pct": 64
+        },
+        "Identify Pain": {
+          "score": 4.5,
+          "max": 8,
+          "pct": 56
+        },
+        "Champion": {
+          "score": 3.5,
+          "max": 7,
+          "pct": 50
+        },
+        "Competition": {
+          "score": 1,
+          "max": 5,
+          "pct": 20
+        },
+        "_total": {
+          "score": 31.5,
+          "max": 54,
+          "pct": 58,
+          "status": "on-track"
+        }
+      },
+      "nextSteps": [
+        {
+          "p": 1,
+          "cat": "Metrics",
+          "issue": "£20M B2C GMV and 16→4 consolidation known, but no specific KPIs for conversion improvement, cost reduction, or revenue growth goals.",
+          "rec": "Maissa to ask Danny what success looks like 12 months post-launch — specific metrics around cost savings, efficiency, or growth.",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 2,
+          "cat": "Metrics",
+          "issue": "They lose their commerce platform if they don't migrate. But specific business impact (revenue at risk, cost of SAP extension) not quantified.",
+          "rec": "Ask Danny: 'What happens if you don't go live by November? What does an SAP extension cost?'",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 3,
+          "cat": "Metrics",
+          "issue": "£20M GMV, 16-site consolidation, SAP expiry discussed with Danny. No call transcripts to confirm deeper validation. SE confirmed technical validation but commercial metrics validation unclear.",
+          "rec": "Confirm with Danny that business case numbers are accurate and agreed internally.",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 4,
+          "cat": "Economic Buyer",
+          "issue": "Danny Dawes is primary/only contact, controls £400K budget, sets decision timeline. But his title is unspecified — unclear if he’s the true EB or if there’s a CFO/CEO/MD above him. Wacoal Europe is a subsidiary of Wacoal Holdings (Japan).",
+          "rec": "Maissa to ask Danny: 'Are you the final approver for this investment, or does anyone else need to sign off?'",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 5,
+          "cat": "Economic Buyer",
+          "issue": "Draft contract sent for legal review, presumably through Danny. Actual signatory not confirmed.",
+          "rec": "Maissa to confirm: 'Who will be signing the contract on Wacoal’s side?'",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 6,
+          "cat": "Economic Buyer",
+          "issue": "Active access to Danny. VML’s Scott Armstrong may also be a path to other stakeholders if needed.",
+          "rec": "If Danny is not the EB, request introduction to the true EB.",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 7,
+          "cat": "Economic Buyer",
+          "issue": "Danny cares about budget (£400K cap) and timeline (Nov 2026 go-live). Requires VML fixed-price estimate. Broader strategic priorities (growth, brand experience, international expansion) unknown.",
+          "rec": "Explore: 'Beyond budget and timeline, what does success look like for you personally?'",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 8,
+          "cat": "Economic Buyer",
+          "issue": "£400K budget known, VML estimate required before committing. Don’t know if formal procurement, board approval, or how £400K was allocated.",
+          "rec": "Ask Danny: 'Once you have VML’s estimate and want to proceed, what’s the internal approval process?'",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 9,
+          "cat": "Decision Process",
+          "issue": "Danny waiting for VML estimate, then decision by Feb 27. Contract in legal review. But full internal decision process unknown.",
+          "rec": "Walk through step-by-step with Danny: 'After VML estimate, what are the exact steps to signature?'",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 10,
+          "cat": "Decision Process",
+          "issue": "Danny Dawes is the ONLY contact in Salesforce. For a £400K+ investment at a subsidiary of a Japanese public company, others are almost certainly involved. Zero visibility into buying committee.",
+          "rec": "Ask Danny: 'Who else at Wacoal is involved in this decision?' Also ask VML’s Scott Armstrong who they’ve been interfacing with.",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 11,
+          "cat": "Decision Process",
+          "issue": "No information about previous platform evaluations or migration attempts.",
+          "rec": "Ask Danny: 'Have you explored re-platforming before, or is this the first time?'",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 12,
+          "cat": "Decision Process",
+          "issue": "Feb 27 decision date and VML estimate dependency communicated by Danny. No formal MAP documented. No call transcripts.",
+          "rec": "Propose a mutual close plan: VML estimate → internal review → legal → signature → build kickoff.",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 13,
+          "cat": "Decision Criteria",
+          "issue": "Danny cares about: total cost within £400K, 16→4 consolidation, product hierarchy/variant support, Nov 2026 go-live. No formal evaluation criteria or weighting.",
+          "rec": "Ask Danny: 'What are the top 3-5 things that will determine whether you go with Shopify?'",
+          "due": "02/22/2026"
+        },
+        {
+          "p": 14,
+          "cat": "Decision Criteria",
+          "issue": "D2C well-covered (4 brands, Markets, multi-store). No B2B or POS discussion. Bravissimo (25 stores) is Phase 2 and could involve POS.",
+          "rec": "Ask: 'When you think about Bravissimo, would unified commerce across online and 25 stores be valuable?'",
+          "due": "03/01/2026"
+        },
+        {
+          "p": 15,
+          "cat": "Decision Criteria",
+          "issue": "Shopify Payments included with $18.85M projected GPV. But current payment provider, existing contracts, and whether pricing was a factor unknown.",
+          "rec": "Confirm: 'Who handles payments today? Any existing contracts we should know about?'",
+          "due": "02/22/2026"
+        },
+        {
+          "p": 16,
+          "cat": "Decision Criteria",
+          "issue": "Implicit timeline exists (VML estimate → decision Feb 27 → offer expiry March 13 → build → Nov go-live) but no documented MAP.",
+          "rec": "Create and share written close plan with Danny.",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 17,
+          "cat": "Decision Criteria",
+          "issue": "Danny drives criteria (budget, fixed-price, timeline). VML shaped technical criteria through discovery. Unknown if others at Wacoal have input.",
+          "rec": "Ask: 'Are there other teams whose requirements we should address?'",
+          "due": "02/22/2026"
+        },
+        {
+          "p": 18,
+          "cat": "Paper Process",
+          "issue": "Draft contract sent for legal review, decision by Feb 27. Don’t know if formal procurement team, PO process, or additional approvals needed.",
+          "rec": "Ask Danny: 'Once you decide, what does contract execution look like internally? Procurement team involved?'",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 19,
+          "cat": "Paper Process",
+          "issue": "Contract in legal review. Wacoal is a subsidiary of Japanese public company — legal review likely thorough. No specific concerns raised yet.",
+          "rec": "Check with Danny: 'Has your legal team flagged any concerns on the contract?'",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 20,
+          "cat": "Paper Process",
+          "issue": "Contract sent late Nov, decision expected Feb 27 — review has been ~3 months (possibly paused pending VML estimate). No timeline for legal turnaround.",
+          "rec": "Ask: 'Where does the contract review stand? Outstanding items, or ready to sign once VML estimate received?'",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 21,
+          "cat": "Paper Process",
+          "issue": "Decision by Feb 27, offer expires March 13. Unclear how long from 'decision' to actual contract execution.",
+          "rec": "Ask: 'When you say decision by Feb 27, does that mean ready to sign, or is there a gap?'",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 22,
+          "cat": "Identify Pain",
+          "issue": "No information on previous re-platforming attempts or modernization efforts.",
+          "rec": "Ask Danny: 'Have you explored re-platforming before, or is this the first time?'",
+          "due": "02/22/2026"
+        },
+        {
+          "p": 23,
+          "cat": "Identify Pain",
+          "issue": "Operational complexity of 16 websites, technical limitations, ERP coupling known. But specific business impact (cost of current setup, developer overhead, lost revenue) not quantified.",
+          "rec": "Explore: 'What is the operational cost of maintaining 16 websites? How many people? What capabilities can’t you deliver?'",
+          "due": "02/22/2026"
+        },
+        {
+          "p": 24,
+          "cat": "Identify Pain",
+          "issue": "No information on which internal teams are most affected. Only Danny in our contact list.",
+          "rec": "Ask Danny: 'Which teams are most affected by current platform challenges? Should we include any in our conversations?'",
+          "due": "02/22/2026"
+        },
+        {
+          "p": 25,
+          "cat": "Identify Pain",
+          "issue": "No competitor listed. VML referred to Shopify, suggesting preferred direction. But alternatives exist (SFCC, commercetools, BigCommerce, SAP renewal). Haven’t confirmed these were ruled out.",
+          "rec": "Ask Danny and/or VML: 'Are you evaluating other platforms, or committed to Shopify?'",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 26,
+          "cat": "Identify Pain",
+          "issue": "Shopify Plus with Markets solves 16→4 consolidation elegantly. All SAP blockers resolved. VML’s referral suggests strong fit. But haven’t documented why Shopify is uniquely better than SFCC/commercetools for this use case.",
+          "rec": "Stephen (SE) to prepare competitive differentiation summary for Wacoal’s specific requirements.",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 27,
+          "cat": "Champion",
+          "issue": "Danny Dawes drives the evaluation, has budget authority (£400K), sets timelines. Motivated by SAP expiry. But title unknown and unclear if he’s actively championing Shopify or running neutral procurement.",
+          "rec": "Assess: Is Danny selling Shopify internally or neutrally evaluating? Look for champion signals.",
+          "due": "02/22/2026"
+        },
+        {
+          "p": 28,
+          "cat": "Champion",
+          "issue": "Controls £400K budget, appears to be primary decision-maker. Suggests credibility. But title unknown, position in org chart unclear. Being only contact raises questions.",
+          "rec": "Research Danny’s title on LinkedIn. Ask: 'What’s your role in the broader Wacoal organization? Who do you report to?'",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 29,
+          "cat": "Champion",
+          "issue": "Danny appears to be a key DM himself. Don’t know if there are more senior DMs (CEO, CFO, board) and whether Danny connects to them. Wacoal Europe is subsidiary of Wacoal Holdings (Japan).",
+          "rec": "Ask: 'Is there anyone else at Wacoal who needs to approve this investment?'",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 30,
+          "cat": "Champion",
+          "issue": "If Danny is the EB, we have direct access. If someone above him, we haven’t been introduced. Critical unknown.",
+          "rec": "Confirm Danny’s authority level.",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 31,
+          "cat": "Champion",
+          "issue": "No evidence Danny has offered to introduce Shopify to other stakeholders or executives. Don’t even know if there IS a buying committee beyond Danny.",
+          "rec": "Ask: 'Would it be helpful for us to present the migration plan to your broader leadership team?'",
+          "due": "02/22/2026"
+        },
+        {
+          "p": 32,
+          "cat": "Champion",
+          "issue": "Motivation appears pragmatic — SAP expiring, needs a platform, VML recommended Shopify. Whether emotionally invested in Shopify or would switch is unclear.",
+          "rec": "Connect Danny with a peer reference — another multi-brand retailer who migrated from SAP to Shopify.",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 33,
+          "cat": "Competition",
+          "issue": "No competitor listed in Salesforce. No call transcripts. VML partner referral may mean Shopify is only platform — but not confirmed.",
+          "rec": "Ask Danny directly: 'Are you evaluating other platforms alongside Shopify?' Also check with VML.",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 34,
+          "cat": "Competition",
+          "issue": "Doing nothing means SAP expires. But 'doing nothing' could mean renewing/extending SAP, which hasn’t been ruled out.",
+          "rec": "Ask: 'Is extending your SAP contract an option, or is the move away definite?'",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 35,
+          "cat": "Competition",
+          "issue": "No information about internal build options. Given 16-website architecture and ERP coupling, internal build seems unlikely but not discussed.",
+          "rec": "Ask: 'Have you considered building a custom solution or a different approach?'",
+          "due": "02/22/2026"
+        },
+        {
+          "p": 36,
+          "cat": "Competition",
+          "issue": "Don’t know if alternatives are being evaluated. Zero competitive intelligence.",
+          "rec": "Dependent on confirming competitive landscape.",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 37,
+          "cat": "Competition",
+          "issue": "Win: VML recommendation, all technical blockers resolved, Markets consolidation story. Lose: £400K budget too tight, VML estimate delay, unknown competitors could emerge.",
+          "rec": "Check with VML on estimate status and expected range. If above £400K combined, explore creative commercial solutions.",
+          "due": "02/20/2026"
+        }
+      ],
+      "stakeholders": [
+        {
+          "name": "Danny Dawes",
+          "title": "Not specified",
+          "role": "Primary Contact / Budget Holder",
+          "email": "dannyd@wacoal-europe.com",
+          "engagement": "high",
+          "callsAttended": 0,
+          "callsInvited": 0
+        }
+      ],
+      "shopifyTeam": [
+        {
+          "name": "Maissa Fatte",
+          "role": "Account Executive (Owner)",
+          "email": "maissa.fatte@shopify.com"
+        },
+        {
+          "name": "Stephen Brook",
+          "role": "Solutions Engineer",
+          "email": "stephen.brook@shopify.com"
+        }
+      ],
+      "calls": [],
+      "history": [
+        {
+          "date": "2026-02-18",
+          "totalScore": 31.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 4,
+            "Decision Process": 4,
+            "Decision Criteria": 4.5,
+            "Paper Process": 4.5,
+            "Identify Pain": 4.5,
+            "Champion": 3.5,
+            "Competition": 1
           },
           "changes": []
         }
