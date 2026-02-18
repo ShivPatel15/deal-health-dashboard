@@ -2,9 +2,10 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-18T21:40:35.520Z",
+  "generatedAt": "2026-02-18T22:04:22.423Z",
   "owners": [
-    "Adriana Colacicco"
+    "Adriana Colacicco",
+    "Ben Rees"
   ],
   "opportunities": [
     {
@@ -674,7 +675,7 @@ const DEAL_DATA = {
           "score": 32.5,
           "max": 54,
           "pct": 60,
-          "status": "On Track"
+          "status": "on-track"
         }
       },
       "nextSteps": [
@@ -1071,7 +1072,7 @@ const DEAL_DATA = {
           "date": "2026-02-18",
           "totalScore": 32.5,
           "totalMax": 54,
-          "status": "On Track",
+          "status": "on-track",
           "sectionScores": {
             "Metrics": 5.5,
             "Economic Buyer": 2.5,
@@ -1760,7 +1761,7 @@ const DEAL_DATA = {
           "score": 38.5,
           "max": 54,
           "pct": 71,
-          "status": "On Track"
+          "status": "on-track"
         }
       },
       "nextSteps": [
@@ -1840,7 +1841,7 @@ const DEAL_DATA = {
           "date": "2026-02-18",
           "totalScore": 38.5,
           "totalMax": 54,
-          "status": "On Track",
+          "status": "on-track",
           "sectionScores": {
             "Metrics": 6.5,
             "Economic Buyer": 3.5,
@@ -2525,7 +2526,7 @@ const DEAL_DATA = {
           "score": 30.5,
           "max": 54,
           "pct": 56,
-          "status": "On Track"
+          "status": "on-track"
         }
       },
       "nextSteps": [
@@ -2880,7 +2881,7 @@ const DEAL_DATA = {
           "date": "2026-02-18",
           "totalScore": 30.5,
           "totalMax": 54,
-          "status": "On Track",
+          "status": "on-track",
           "sectionScores": {
             "Metrics": 5,
             "Economic Buyer": 4.5,
@@ -2890,6 +2891,1246 @@ const DEAL_DATA = {
             "Identify Pain": 6,
             "Champion": 5,
             "Competition": 2
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "006OG00000CRabaYAD",
+      "name": "Mulberry - Plus",
+      "accountName": "Mulberry Company (Sales) Limited",
+      "accountId": "0018V00002epVEaQAM",
+      "owner": "Ben Rees",
+      "ownerEmail": "ben.rees@shopify.com",
+      "stage": "Demonstrate",
+      "closeDate": "2026-02-28",
+      "forecastCategory": "Commit",
+      "probability": 60,
+      "merchantIntent": "Committed - At Risk",
+      "type": "New Business",
+      "created": "2025-02-07",
+      "revenue": {
+        "mcv": 82800,
+        "totalRev3yr": 841500,
+        "d2cGmv": 51000000,
+        "b2bGmv": null,
+        "retailGmv": null,
+        "paymentsGpv": 0,
+        "paymentsAttached": false,
+        "ipp": 0
+      },
+      "projectedBilledRevenue": 276727.83,
+      "products": [
+        "Plus Product Suite",
+        "D2C - Standard"
+      ],
+      "competitor": "Salesforce Commerce Cloud",
+      "compellingEvent": "SAP Hybris out of Support Jan 2027 and failed Salesforce Commerce Cloud implementation from 2024. Legacy tech identified as a growth inhibitor — identified new segment and cannot scale business for this on current stack.",
+      "nextStep": "18/02 BR. Legal are still working through the PLUS contract as we have pushed back 3X on their asks. Have just kicked off discovery with Arsenalia and some peripheral queries around China and Markets have arisen. Working through Async.",
+      "narrative": {
+        "oppSummary": "Mulberry Company (Sales) Limited is a UK-based luxury fashion brand (~£161.5M revenue, ~1,000 employees) evaluating Shopify Plus as a replacement for their current custom-built SAP Hybris e-commerce platform, which goes end-of-support in January 2027. This is an $82,800 MCV new business deal with $841,500 in projected 3-year total revenue and $51M in D2C GMV. The deal is currently in the Demonstrate stage at 60% probability, forecasted as Commit but flagged as 'Committed - At Risk,' with a close date of February 28, 2026. Legal negotiations are active but contentious — Shopify has pushed back 3x on Mulberry's contract asks — and new peripheral queries around China and Markets have emerged, adding complexity. A second SI partner (Arsenalia) has just been engaged alongside Impact Commerce, suggesting implementation scoping is underway but potentially not yet settled.",
+        "whyChange": "Mulberry's current e-commerce platform is built on SAP Hybris, which is going end-of-support in January 2027 — creating a hard deadline to migrate. They previously attempted to solve this by implementing Salesforce Commerce Cloud in 2024, but that project failed, meaning they've already burned time and budget on one migration attempt. Beyond the platform sunset, Mulberry's leadership has identified their legacy tech stack as a growth inhibitor — specifically, they have identified a new customer segment they want to pursue but cannot scale their business to address it on their current architecture. The business problem is therefore both defensive (platform going dark) and offensive (new growth opportunity blocked by tech limitations). The combination of a failed prior migration, an immovable platform sunset, and unmet growth ambitions creates significant organizational urgency and pain.",
+        "whyShopify": "Shopify is being evaluated as a proven, lower-risk alternative after the failed Salesforce Commerce Cloud implementation. Mulberry is comparing Shopify Plus against Scayle and BigCommerce, with SFCC as the primary named competitor. The engagement of Shopify's Field CTO (Peyman Naeini) in an executive alignment call with Mulberry's CIO and CMO suggests Shopify is positioning on strategic credibility and enterprise readiness. The Adyen/Shopify meeting indicates payments integration is a key workstream. Shopify's D2C strength aligns well with Mulberry's $51M D2C GMV, and the Plus Product Suite positions Shopify as a comprehensive platform rather than a point solution.",
+        "whyNow": "The primary timeline driver is the SAP Hybris end-of-support in January 2027, which gives Mulberry approximately 11 months from today to complete a full platform migration — an aggressive but achievable timeline if a decision is made in Q1 2026. The failed SFCC implementation in 2024 has already cost them at least a year, amplifying the urgency. If Mulberry doesn't commit soon, they risk running out of implementation runway before the Hybris sunset, potentially forcing a costly extended support arrangement or a rushed migration.",
+        "supportNeeded": "1) Legal/Contract resolution — Mulberry's legal team has pushed back 3x on the Plus contract. Must resolve outstanding redlines quickly or escalate.\n2) China and Markets clarification — New queries around Shopify's capabilities for China and Shopify Markets need thorough, timely async responses.\n3) Arsenalia SI engagement — Discovery with second implementation partner just kicked off. Ensure clarity on SI strategy.\n4) CIO engagement deepening — Dharmini Chauhan has very limited engagement (11 emails, 1 reply). Need strategy to deepen access.\n5) Competitive differentiation vs. Scayle and BigCommerce — Ensure clear positioning, especially on enterprise/luxury brand fit.\n6) Final technical validation and RFP follow-ups — Close out promptly to maintain momentum."
+      },
+      "meddpicc": {
+        "metrics": {
+          "label": "Metrics",
+          "questions": [
+            {
+              "q": "Do we know the business reasons as to why they are migrating?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "SAP Hybris going end-of-support Jan 2027, legacy tech identified as growth inhibitor, new segment opportunity cannot scale on current stack, failed SFCC implementation in 2024.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we have specific quantifiable goals aligned with the project?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "We know $51M D2C GMV and desire to scale into new segment, but no specific quantifiable KPIs (growth %, conversion targets, cost savings) documented.",
+              "solution": "Quantify the business case with the customer.",
+              "action": "Ben Rees to work with Carmen De Teran or Simon Oates to document specific measurable goals tied to the migration.",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do they need to make a platform change to achieve this goal?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "SAP Hybris going end-of-support — platform change is mandatory. Current stack also cannot support new segment growth.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we understand the impact if this goal isn't achieved?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Legacy tech is a 'growth inhibitor' and Hybris will lose support, but specific financial/operational impact of inaction not quantified.",
+              "solution": "Build a cost-of-inaction narrative.",
+              "action": "Explore with Simon Oates/Carmen De Teran what happens if they miss Jan 2027 deadline — extended support costs, security risks, competitive impact.",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Is there a compelling event in place driving action?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "SAP Hybris end-of-support January 2027 is a hard, external, non-negotiable compelling event. Failed SFCC project creates additional internal pressure.",
+              "solution": "N/A",
+              "action": "Continue to anchor all timeline conversations to Jan 2027 deadline.",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have I validated the metrics with the customer?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Compelling event and business problem are clearly mutual, but no jointly agreed metrics framework or business case document. Dec 3 exec call likely touched on this but no transcript.",
+              "solution": "Create a mutual value framework/business case document.",
+              "action": "Ben Rees to propose a joint business case or ROI model validated with Carmen De Teran and/or Tom Burrow.",
+              "due": "02/28/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are the metrics compelling enough to justify change?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Platform going end-of-support (no choice), failed prior migration (urgency), growth blocked by legacy tech, $51M GMV at stake. Strong case for change.",
+              "solution": "N/A",
+              "action": "Ensure business case narrative is documented and shareable internally at Mulberry.",
+              "due": "02/28/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "economicBuyer": {
+          "label": "Economic Buyer",
+          "questions": [
+            {
+              "q": "Have I identified the true economic buyer?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Carmen De Teran (Digital Director) listed as Economic Buyer, Dharmini Chauhan (CIO) and Tom Burrow (CMO) as Decision Makers. True budget authority unclear — could be CIO or CFO (not in stakeholder map).",
+              "solution": "Validate who holds final budget authority.",
+              "action": "Ben Rees to ask Simon Oates: 'Who ultimately approves the budget for this project?'",
+              "due": "02/21/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know who's signing the contract?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Billie O'Connor (Founder, Nova Community) listed as Signatory — unusual external consultant. Internal signatory unclear.",
+              "solution": "Clarify internal signatory.",
+              "action": "Ben Rees to confirm with Simon Oates who the internal signatory is and Billie O'Connor's exact role.",
+              "due": "02/21/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we have access to this individual?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Carmen De Teran: strong access (100 emails, 40 replies). Dharmini Chauhan (CIO): limited (11 emails, 1 reply, 1 exec call). Tom Burrow (CMO): moderate (25 emails, 10 replies, multiple meetings).",
+              "solution": "Deepen CIO access.",
+              "action": "Leverage Tom Burrow or Simon Oates to arrange follow-up touchpoint with Dharmini Chauhan.",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Can we get access?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Dec 3 exec alignment call included CIO and CMO with Field CTO Peyman Naeini, demonstrating access is achievable when right Shopify exec engaged.",
+              "solution": "N/A",
+              "action": "Consider second exec-to-exec touchpoint with Peyman and Dharmini.",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what the economic buyer cares about most?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "High level: legacy tech as growth inhibitor, new segment scaling. Tom Burrow cares about payments (attended Adyen meeting). CIO-specific priorities unknown. No transcript data on personal/political motivations.",
+              "solution": "Uncover individual executive priorities.",
+              "action": "Ben Rees to probe what each decision maker's personal success criteria are for this project.",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do you know how they make decisions and allocate budget?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No evidence about Mulberry's internal budgeting process, approval thresholds, board involvement, or CapEx vs OpEx preferences.",
+              "solution": "Map the internal approval process.",
+              "action": "Ben Rees to ask Simon Oates: 'Walk me through what needs to happen internally once we align on terms — who approves, what committees, what timeline?'",
+              "due": "02/21/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "decisionProcess": {
+          "label": "Decision Process",
+          "questions": [
+            {
+              "q": "Do we know how they will be making the decision?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Evidence of RFP process, multi-vendor evaluation, and legal review. Formal decision process (scoring, evaluation committee, presentation rounds) not documented.",
+              "solution": "Map the full decision process.",
+              "action": "Ben Rees to ask Simon Oates to outline remaining evaluation steps and decision-making process.",
+              "due": "02/21/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know who's involved / buying committee?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "7 stakeholders mapped: CIO (DM), CMO (DM), Digital Director (EB), Senior Architect (Tech Buyer), Head of Tech Delivery, Senior PM (Procurement), external signatory advisor. Well-mapped.",
+              "solution": "N/A",
+              "action": "Validate there are no hidden influencers (CFO, CEO, board members).",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know when they want to make a decision by?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Close date Feb 28. SE notes say 'Closing Q4/Q1.' Unclear if Feb 28 is Mulberry's timeline or Shopify's forecast. Legal pushback and China/Markets queries suggest it may slip.",
+              "solution": "Validate Mulberry's internal decision timeline.",
+              "action": "Ben Rees to confirm with Simon Oates: 'What is your internal target date for making a platform decision?'",
+              "due": "02/21/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what is driving this timeline?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "SAP Hybris end-of-support Jan 2027. Working backward from 9-12 month implementation, Q1 2026 decision is logical. Failed SFCC implementation adds urgency.",
+              "solution": "N/A",
+              "action": "Use implementation timeline modeling to reinforce urgency.",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know if they have tried to solve this problem before?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Failed Salesforce Commerce Cloud implementation in 2024 is explicitly documented. Prior attempt to solve same problem.",
+              "solution": "N/A",
+              "action": "Use SFCC failure as differentiator — emphasize Shopify's proven migration methodology and lower risk.",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what will happen if they do nothing?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Hybris goes end-of-support: security vulnerabilities, no patches, increasing costs. Growth blocked. But specific consequences not quantified.",
+              "solution": "Build 'cost of delay' analysis.",
+              "action": "Collaborate with Simon Oates on documenting what happens if they miss Jan 2027 — extended support cost, security/compliance exposure.",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have you validated this process with the buyer?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "High meeting/email volume suggests alignment at operational level (Simon: 81 emails, 40 replies). No evidence formal process validated with CIO or CMO.",
+              "solution": "Validate decision process with an executive.",
+              "action": "Confirm decision process and timeline directly with Tom Burrow or Dharmini Chauhan.",
+              "due": "02/25/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "decisionCriteria": {
+          "label": "Decision Criteria",
+          "questions": [
+            {
+              "q": "Do we know what criteria the customer is using to evaluate vendors?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "RFP process underway (SE notes reference RFP responses), implying formal criteria exist. Specific criteria, weighting, and scoring not documented.",
+              "solution": "Obtain the evaluation criteria.",
+              "action": "Ben Rees to request RFP scoring rubric or evaluation framework from Simon Oates.",
+              "due": "02/21/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Deal positioned as D2C-Standard ($82.8K). As a luxury brand with likely physical stores, POS/omnichannel may be relevant but not explored. B2B/Retail/Payments all null/zero.",
+              "solution": "Explore omnichannel needs.",
+              "action": "Ben Homer or Ben Rees to probe whether Mulberry has interest in POS or B2B as broader platform consolidation.",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have we surfaced technical complications (integrations)?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "China/Markets queries just emerged. Adyen payments meeting occurred. RFP follow-ups in progress. Full integration landscape (ERP, OMS, PIM, CRM) not documented. SAP ecosystem dependencies need mapping.",
+              "solution": "Complete technical discovery.",
+              "action": "Ben Homer and Christian Mackie to surface all integration requirements, especially SAP dependencies, China cross-border, Markets config.",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how payments play into their decision?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Dedicated Adyen/Shopify meeting Jan 9, 2026 with CMO attending. Payments integration clearly a significant decision factor.",
+              "solution": "N/A",
+              "action": "Ensure all payments follow-ups from Jan 9 meeting are closed out.",
+              "due": "02/21/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we have a mutual action plan in place?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Clear mutual engagement but no formal MAP documented. Activity suggests an informal plan being followed.",
+              "solution": "Formalize a MAP.",
+              "action": "Ben Rees to propose written MAP to Simon Oates covering remaining eval steps, legal resolution, SI selection, target decision date.",
+              "due": "02/21/2026",
+              "highlight": false
+            },
+            {
+              "q": "Did we help shape those criteria in our favour?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Dec 3 exec alignment with Field CTO and ongoing SE engagement suggest influence opportunities. Adyen meeting may have shaped payments criteria. No transcript confirmation.",
+              "solution": "Continue proactive criteria shaping.",
+              "action": "Ben Homer to ensure RFP follow-ups position Shopify's strengths as evaluation priorities.",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know who defined the decision criteria?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No evidence about who authored the RFP/criteria — internal team, external consultant (Billie O'Connor/Nova Community?), or other.",
+              "solution": "Identify criteria origin.",
+              "action": "Ben Rees to ask Simon Oates who authored the RFP and evaluation criteria.",
+              "due": "02/21/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "paperProcess": {
+          "label": "Paper Process",
+          "questions": [
+            {
+              "q": "Do we know what their procurement process is?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Simon Oates tagged as Procurement, legal review underway, external signatory advisor (Billie O'Connor). Full procurement workflow not documented.",
+              "solution": "Map full paper process.",
+              "action": "Ben Rees to ask Simon Oates for complete procurement workflow: legal → approvals → signature → PO timeline.",
+              "due": "02/21/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are there likely to be redlines?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "AE explicitly states 'Legal are still working through the PLUS contract as we have pushed back 3X on their asks.' Active, contentious redlines.",
+              "solution": "Resolve redlines.",
+              "action": "Ben Rees to escalate internally to determine which asks can be accommodated. Prepare negotiation strategy.",
+              "due": "02/21/2026",
+              "highlight": false
+            },
+            {
+              "q": "If redlines, how long does review take?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Legal review ongoing through 3+ rounds. Resolution not imminent. No specific timeline documented.",
+              "solution": "Set a deadline for legal resolution.",
+              "action": "Ben Rees to propose target date for final contract terms to Simon Oates and Mulberry legal.",
+              "due": "02/21/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how long it will take?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No data on Mulberry's typical procurement cycle, approval lead times, or time from agreed terms to executed contract.",
+              "solution": "Benchmark their procurement timeline.",
+              "action": "Ask Simon Oates: 'Once we agree on final terms, how long does your internal approval and signature process typically take?'",
+              "due": "02/21/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we have contract details?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Contract sent and in active legal review. MCV ($82,800), products, and 3-year revenue ($841,500) defined.",
+              "solution": "N/A",
+              "action": "Document specific redlined terms for internal tracking.",
+              "due": "02/21/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have we sent the contract?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Contract in active legal review with 3 rounds of pushback. Clearly sent.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know target date for signature?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Close date Feb 28. SE notes say 'Closing Q4/Q1.' With active legal redlines, China/Markets queries, and Arsenalia discovery starting, Feb 28 appears at risk.",
+              "solution": "Get buyer commitment on signature date.",
+              "action": "Propose specific target signature date to Simon Oates and validate Feb 28 achievability.",
+              "due": "02/21/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "identifyPain": {
+          "label": "Identify Pain",
+          "questions": [
+            {
+              "q": "Do we know their current issues and why they are reviewing their tech stack?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Three clear drivers: SAP Hybris end-of-support Jan 2027, failed SFCC implementation 2024, legacy tech as growth inhibitor for new segment.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have they tried to resolve this issue in the past?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Failed Salesforce Commerce Cloud implementation in 2024 — documented prior attempt.",
+              "solution": "N/A",
+              "action": "Use SFCC failure as differentiation point — emphasize lower-risk migration approach.",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how pains are affecting business operations?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Legacy tech is a 'growth inhibitor,' cannot scale for new segment. Specific operational impacts (site performance, developer productivity, conversion rates) not quantified.",
+              "solution": "Quantify operational impact.",
+              "action": "Explore with Carmen or Jo Smith: What specific operational bottlenecks does the current platform create?",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what teams are affected and to what extent?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Buying committee implies tech, marketing/digital, and PM teams are affected. Specific extent per team not documented.",
+              "solution": "Map team-level impact.",
+              "action": "Understand which teams bear most pain — dev team, marketing team, or digital team?",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how urgent it is to solve this pain?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Hybris end-of-support Jan 2027 creates hard deadline. 9-12 month implementation requires Q1 2026 decision. Urgency is high and time-bound.",
+              "solution": "N/A",
+              "action": "Continue anchoring conversations to implementation timeline.",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Can they solve this pain using another option?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Evaluating Scayle, BigCommerce, and SFCC alongside Shopify. Could also extend Hybris support at cost. Multiple alternatives exist.",
+              "solution": "Differentiate aggressively.",
+              "action": "Ensure clear competitive positioning vs. each alternative, especially why Shopify won't fail like SFCC did.",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know why this problem is important to solve now?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Hybris sunset + failed SFCC project (lost time) + growth blocked = triple urgency. Migration window narrowing.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Is our solution uniquely positioned to solve this pain?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Shopify Plus strong for D2C luxury with $51M GMV. Post-SFCC-failure risk aversion favors proven platform. But China/Markets queries and lack of POS/B2B in scope suggest not yet seen as full-stack. 'Uniquely positioned' not proven.",
+              "solution": "Build 'why Shopify uniquely' narrative.",
+              "action": "Christian Mackie to prepare Mulberry-specific architecture POV showing how Shopify uniquely solves their challenges vs. alternatives.",
+              "due": "02/25/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "champion": {
+          "label": "Champion",
+          "questions": [
+            {
+              "q": "Have you identified a true champion (influence + motivation)?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Strongest candidates: Simon Oates (81 emails, 40 replies), Carmen De Teran (100 emails, 40 replies), Tom Burrow (25 emails, 10 replies). Without transcripts, cannot confirm if any actively advocate for Shopify vs. managing evaluation neutrally.",
+              "solution": "Validate champion status.",
+              "action": "Ben Rees to assess in next conversation: Are they personally advocating for Shopify internally?",
+              "due": "02/21/2026",
+              "highlight": false
+            },
+            {
+              "q": "Does your champion have political capital and credibility?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Carmen (Digital Director, EB) and Tom (CMO, DM) would have strong political capital. Simon (PM) has operational influence but may lack strategic weight. True internal standing unclear.",
+              "solution": "Identify champion with executive influence.",
+              "action": "Assess whether Tom Burrow (CMO) could be developed as executive-level champion.",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have they given insights you wouldn't get otherwise?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Simon's high engagement suggests information sharing. AE notes reference internal dynamics (legal pushback, China/Markets). No specific competitive intel or political insights documented.",
+              "solution": "Seek deeper insider intelligence.",
+              "action": "Ask Simon about internal sentiment: Where does each DM stand? What objections exist?",
+              "due": "02/21/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are they connected with the key decision makers?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Simon Oates connected to all DMs via PM/procurement role. Carmen connects to CIO and CMO by org proximity. Both attend meetings with senior stakeholders.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have you been introduced to the decision maker?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Dec 3 exec alignment call included CIO and CMO. Tom Burrow attended multiple subsequent meetings. Direct introductions achieved.",
+              "solution": "N/A",
+              "action": "Seek follow-up with Dharmini Chauhan (CIO) — engagement limited post-Dec 3.",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are they willing to bring you into the board/buying group?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Exec alignment call demonstrates willingness for executive engagement. No evidence of broader buying committee meeting, board presentation, or vendor bake-off access.",
+              "solution": "Request formal presentation opportunity.",
+              "action": "Ask Simon/Carmen: 'Would it help to present to the full evaluation committee or stakeholders not yet in our conversations?'",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Why are they such a champion for you?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Without call transcripts, cannot identify personal motivation or career drivers. Organization has pain but individual champion motivation undocumented.",
+              "solution": "Uncover personal champion motivation.",
+              "action": "Explore in 1:1s: What does a successful platform decision mean for Simon/Carmen/Tom personally?",
+              "due": "02/25/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "competition": {
+          "label": "Competition",
+          "questions": [
+            {
+              "q": "Do we know who else the customer is evaluating?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Three competitors: Salesforce Commerce Cloud (primary), Scayle, BigCommerce. Well-mapped.",
+              "solution": "N/A",
+              "action": "Continue gathering intelligence on competitor positioning and status.",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have we asked if doing nothing is an option?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Hybris going end-of-support makes 'doing nothing' non-viable long-term, but extended support could delay. Not explicitly discussed.",
+              "solution": "Address 'do nothing' risk.",
+              "action": "Ask Simon/Carmen: 'Is there any scenario where you extend Hybris support rather than migrating by Jan 2027?'",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are there internal alternatives to our solution?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No evidence about internal build, custom dev, or headless/composable approaches. Four external platforms being evaluated suggests external path, but internal alternatives not explicitly ruled out.",
+              "solution": "Probe for internal build considerations.",
+              "action": "Confirm with Alistair Jacques or Jo Smith whether custom-build or headless approach was considered.",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know why alternatives are being evaluated?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Multi-vendor eval is standard due diligence. SFCC notably still in mix despite failed 2024 implementation. Scayle/BigCommerce likely cost-competitive or feature-specific alternatives.",
+              "solution": "Understand competitive positioning.",
+              "action": "Ask Simon: 'Where are you with other vendors? What's standing out positively or negatively about each?'",
+              "due": "02/21/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know why we would win or lose?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Win: post-SFCC risk aversion, D2C strength, brand credibility, SI partners. Lose: China/Markets gaps, legal impasse, pricing pressure from Scayle/BigCommerce, luxury bespoke UX requirements. Inferred, not confirmed.",
+              "solution": "Conduct win/loss analysis with champion.",
+              "action": "Ask Simon directly: 'What would make you choose Shopify? What would make you choose someone else?'",
+              "due": "02/21/2026",
+              "highlight": false
+            }
+          ]
+        }
+      },
+      "scores": {
+        "Metrics": {
+          "score": 5.5,
+          "max": 7,
+          "pct": 79
+        },
+        "Economic Buyer": {
+          "score": 3,
+          "max": 6,
+          "pct": 50
+        },
+        "Decision Process": {
+          "score": 5,
+          "max": 7,
+          "pct": 71
+        },
+        "Decision Criteria": {
+          "score": 3.5,
+          "max": 7,
+          "pct": 50
+        },
+        "Paper Process": {
+          "score": 4.5,
+          "max": 7,
+          "pct": 64
+        },
+        "Identify Pain": {
+          "score": 6.5,
+          "max": 8,
+          "pct": 81
+        },
+        "Champion": {
+          "score": 4,
+          "max": 7,
+          "pct": 57
+        },
+        "Competition": {
+          "score": 2.5,
+          "max": 5,
+          "pct": 50
+        },
+        "_total": {
+          "score": 34.5,
+          "max": 54,
+          "pct": 64,
+          "status": "on-track"
+        }
+      },
+      "nextSteps": [
+        {
+          "p": 1,
+          "cat": "Metrics",
+          "issue": "We know $51M D2C GMV and desire to scale into new segment, but no specific quantifiable KPIs (growth %, conversion targets, cost savings) documented.",
+          "rec": "Ben Rees to work with Carmen De Teran or Simon Oates to document specific measurable goals tied to the migration.",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 2,
+          "cat": "Metrics",
+          "issue": "Legacy tech is a 'growth inhibitor' and Hybris will lose support, but specific financial/operational impact of inaction not quantified.",
+          "rec": "Explore with Simon Oates/Carmen De Teran what happens if they miss Jan 2027 deadline — extended support costs, security risks, competitive impact.",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 3,
+          "cat": "Metrics",
+          "issue": "SAP Hybris end-of-support January 2027 is a hard, external, non-negotiable compelling event. Failed SFCC project creates additional internal pressure.",
+          "rec": "Continue to anchor all timeline conversations to Jan 2027 deadline.",
+          "due": ""
+        },
+        {
+          "p": 4,
+          "cat": "Metrics",
+          "issue": "Compelling event and business problem are clearly mutual, but no jointly agreed metrics framework or business case document. Dec 3 exec call likely touched on this but no transcript.",
+          "rec": "Ben Rees to propose a joint business case or ROI model validated with Carmen De Teran and/or Tom Burrow.",
+          "due": "02/28/2026"
+        },
+        {
+          "p": 5,
+          "cat": "Metrics",
+          "issue": "Platform going end-of-support (no choice), failed prior migration (urgency), growth blocked by legacy tech, $51M GMV at stake. Strong case for change.",
+          "rec": "Ensure business case narrative is documented and shareable internally at Mulberry.",
+          "due": "02/28/2026"
+        },
+        {
+          "p": 6,
+          "cat": "Economic Buyer",
+          "issue": "Carmen De Teran (Digital Director) listed as Economic Buyer, Dharmini Chauhan (CIO) and Tom Burrow (CMO) as Decision Makers. True budget authority unclear — could be CIO or CFO (not in stakeholder map).",
+          "rec": "Ben Rees to ask Simon Oates: 'Who ultimately approves the budget for this project?'",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 7,
+          "cat": "Economic Buyer",
+          "issue": "Billie O'Connor (Founder, Nova Community) listed as Signatory — unusual external consultant. Internal signatory unclear.",
+          "rec": "Ben Rees to confirm with Simon Oates who the internal signatory is and Billie O'Connor's exact role.",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 8,
+          "cat": "Economic Buyer",
+          "issue": "Carmen De Teran: strong access (100 emails, 40 replies). Dharmini Chauhan (CIO): limited (11 emails, 1 reply, 1 exec call). Tom Burrow (CMO): moderate (25 emails, 10 replies, multiple meetings).",
+          "rec": "Leverage Tom Burrow or Simon Oates to arrange follow-up touchpoint with Dharmini Chauhan.",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 9,
+          "cat": "Economic Buyer",
+          "issue": "Dec 3 exec alignment call included CIO and CMO with Field CTO Peyman Naeini, demonstrating access is achievable when right Shopify exec engaged.",
+          "rec": "Consider second exec-to-exec touchpoint with Peyman and Dharmini.",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 10,
+          "cat": "Economic Buyer",
+          "issue": "High level: legacy tech as growth inhibitor, new segment scaling. Tom Burrow cares about payments (attended Adyen meeting). CIO-specific priorities unknown. No transcript data on personal/political motivations.",
+          "rec": "Ben Rees to probe what each decision maker's personal success criteria are for this project.",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 11,
+          "cat": "Economic Buyer",
+          "issue": "No evidence about Mulberry's internal budgeting process, approval thresholds, board involvement, or CapEx vs OpEx preferences.",
+          "rec": "Ben Rees to ask Simon Oates: 'Walk me through what needs to happen internally once we align on terms — who approves, what committees, what timeline?'",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 12,
+          "cat": "Decision Process",
+          "issue": "Evidence of RFP process, multi-vendor evaluation, and legal review. Formal decision process (scoring, evaluation committee, presentation rounds) not documented.",
+          "rec": "Ben Rees to ask Simon Oates to outline remaining evaluation steps and decision-making process.",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 13,
+          "cat": "Decision Process",
+          "issue": "7 stakeholders mapped: CIO (DM), CMO (DM), Digital Director (EB), Senior Architect (Tech Buyer), Head of Tech Delivery, Senior PM (Procurement), external signatory advisor. Well-mapped.",
+          "rec": "Validate there are no hidden influencers (CFO, CEO, board members).",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 14,
+          "cat": "Decision Process",
+          "issue": "Close date Feb 28. SE notes say 'Closing Q4/Q1.' Unclear if Feb 28 is Mulberry's timeline or Shopify's forecast. Legal pushback and China/Markets queries suggest it may slip.",
+          "rec": "Ben Rees to confirm with Simon Oates: 'What is your internal target date for making a platform decision?'",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 15,
+          "cat": "Decision Process",
+          "issue": "SAP Hybris end-of-support Jan 2027. Working backward from 9-12 month implementation, Q1 2026 decision is logical. Failed SFCC implementation adds urgency.",
+          "rec": "Use implementation timeline modeling to reinforce urgency.",
+          "due": ""
+        },
+        {
+          "p": 16,
+          "cat": "Decision Process",
+          "issue": "Failed Salesforce Commerce Cloud implementation in 2024 is explicitly documented. Prior attempt to solve same problem.",
+          "rec": "Use SFCC failure as differentiator — emphasize Shopify's proven migration methodology and lower risk.",
+          "due": ""
+        },
+        {
+          "p": 17,
+          "cat": "Decision Process",
+          "issue": "Hybris goes end-of-support: security vulnerabilities, no patches, increasing costs. Growth blocked. But specific consequences not quantified.",
+          "rec": "Collaborate with Simon Oates on documenting what happens if they miss Jan 2027 — extended support cost, security/compliance exposure.",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 18,
+          "cat": "Decision Process",
+          "issue": "High meeting/email volume suggests alignment at operational level (Simon: 81 emails, 40 replies). No evidence formal process validated with CIO or CMO.",
+          "rec": "Confirm decision process and timeline directly with Tom Burrow or Dharmini Chauhan.",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 19,
+          "cat": "Decision Criteria",
+          "issue": "RFP process underway (SE notes reference RFP responses), implying formal criteria exist. Specific criteria, weighting, and scoring not documented.",
+          "rec": "Ben Rees to request RFP scoring rubric or evaluation framework from Simon Oates.",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 20,
+          "cat": "Decision Criteria",
+          "issue": "Deal positioned as D2C-Standard ($82.8K). As a luxury brand with likely physical stores, POS/omnichannel may be relevant but not explored. B2B/Retail/Payments all null/zero.",
+          "rec": "Ben Homer or Ben Rees to probe whether Mulberry has interest in POS or B2B as broader platform consolidation.",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 21,
+          "cat": "Decision Criteria",
+          "issue": "China/Markets queries just emerged. Adyen payments meeting occurred. RFP follow-ups in progress. Full integration landscape (ERP, OMS, PIM, CRM) not documented. SAP ecosystem dependencies need mapping.",
+          "rec": "Ben Homer and Christian Mackie to surface all integration requirements, especially SAP dependencies, China cross-border, Markets config.",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 22,
+          "cat": "Decision Criteria",
+          "issue": "Dedicated Adyen/Shopify meeting Jan 9, 2026 with CMO attending. Payments integration clearly a significant decision factor.",
+          "rec": "Ensure all payments follow-ups from Jan 9 meeting are closed out.",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 23,
+          "cat": "Decision Criteria",
+          "issue": "Clear mutual engagement but no formal MAP documented. Activity suggests an informal plan being followed.",
+          "rec": "Ben Rees to propose written MAP to Simon Oates covering remaining eval steps, legal resolution, SI selection, target decision date.",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 24,
+          "cat": "Decision Criteria",
+          "issue": "Dec 3 exec alignment with Field CTO and ongoing SE engagement suggest influence opportunities. Adyen meeting may have shaped payments criteria. No transcript confirmation.",
+          "rec": "Ben Homer to ensure RFP follow-ups position Shopify's strengths as evaluation priorities.",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 25,
+          "cat": "Decision Criteria",
+          "issue": "No evidence about who authored the RFP/criteria — internal team, external consultant (Billie O'Connor/Nova Community?), or other.",
+          "rec": "Ben Rees to ask Simon Oates who authored the RFP and evaluation criteria.",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 26,
+          "cat": "Paper Process",
+          "issue": "Simon Oates tagged as Procurement, legal review underway, external signatory advisor (Billie O'Connor). Full procurement workflow not documented.",
+          "rec": "Ben Rees to ask Simon Oates for complete procurement workflow: legal → approvals → signature → PO timeline.",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 27,
+          "cat": "Paper Process",
+          "issue": "AE explicitly states 'Legal are still working through the PLUS contract as we have pushed back 3X on their asks.' Active, contentious redlines.",
+          "rec": "Ben Rees to escalate internally to determine which asks can be accommodated. Prepare negotiation strategy.",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 28,
+          "cat": "Paper Process",
+          "issue": "Legal review ongoing through 3+ rounds. Resolution not imminent. No specific timeline documented.",
+          "rec": "Ben Rees to propose target date for final contract terms to Simon Oates and Mulberry legal.",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 29,
+          "cat": "Paper Process",
+          "issue": "No data on Mulberry's typical procurement cycle, approval lead times, or time from agreed terms to executed contract.",
+          "rec": "Ask Simon Oates: 'Once we agree on final terms, how long does your internal approval and signature process typically take?'",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 30,
+          "cat": "Paper Process",
+          "issue": "Contract sent and in active legal review. MCV ($82,800), products, and 3-year revenue ($841,500) defined.",
+          "rec": "Document specific redlined terms for internal tracking.",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 31,
+          "cat": "Paper Process",
+          "issue": "Close date Feb 28. SE notes say 'Closing Q4/Q1.' With active legal redlines, China/Markets queries, and Arsenalia discovery starting, Feb 28 appears at risk.",
+          "rec": "Propose specific target signature date to Simon Oates and validate Feb 28 achievability.",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 32,
+          "cat": "Identify Pain",
+          "issue": "Failed Salesforce Commerce Cloud implementation in 2024 — documented prior attempt.",
+          "rec": "Use SFCC failure as differentiation point — emphasize lower-risk migration approach.",
+          "due": ""
+        },
+        {
+          "p": 33,
+          "cat": "Identify Pain",
+          "issue": "Legacy tech is a 'growth inhibitor,' cannot scale for new segment. Specific operational impacts (site performance, developer productivity, conversion rates) not quantified.",
+          "rec": "Explore with Carmen or Jo Smith: What specific operational bottlenecks does the current platform create?",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 34,
+          "cat": "Identify Pain",
+          "issue": "Buying committee implies tech, marketing/digital, and PM teams are affected. Specific extent per team not documented.",
+          "rec": "Understand which teams bear most pain — dev team, marketing team, or digital team?",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 35,
+          "cat": "Identify Pain",
+          "issue": "Hybris end-of-support Jan 2027 creates hard deadline. 9-12 month implementation requires Q1 2026 decision. Urgency is high and time-bound.",
+          "rec": "Continue anchoring conversations to implementation timeline.",
+          "due": ""
+        },
+        {
+          "p": 36,
+          "cat": "Identify Pain",
+          "issue": "Evaluating Scayle, BigCommerce, and SFCC alongside Shopify. Could also extend Hybris support at cost. Multiple alternatives exist.",
+          "rec": "Ensure clear competitive positioning vs. each alternative, especially why Shopify won't fail like SFCC did.",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 37,
+          "cat": "Identify Pain",
+          "issue": "Shopify Plus strong for D2C luxury with $51M GMV. Post-SFCC-failure risk aversion favors proven platform. But China/Markets queries and lack of POS/B2B in scope suggest not yet seen as full-stack. 'Uniquely positioned' not proven.",
+          "rec": "Christian Mackie to prepare Mulberry-specific architecture POV showing how Shopify uniquely solves their challenges vs. alternatives.",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 38,
+          "cat": "Champion",
+          "issue": "Strongest candidates: Simon Oates (81 emails, 40 replies), Carmen De Teran (100 emails, 40 replies), Tom Burrow (25 emails, 10 replies). Without transcripts, cannot confirm if any actively advocate for Shopify vs. managing evaluation neutrally.",
+          "rec": "Ben Rees to assess in next conversation: Are they personally advocating for Shopify internally?",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 39,
+          "cat": "Champion",
+          "issue": "Carmen (Digital Director, EB) and Tom (CMO, DM) would have strong political capital. Simon (PM) has operational influence but may lack strategic weight. True internal standing unclear.",
+          "rec": "Assess whether Tom Burrow (CMO) could be developed as executive-level champion.",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 40,
+          "cat": "Champion",
+          "issue": "Simon's high engagement suggests information sharing. AE notes reference internal dynamics (legal pushback, China/Markets). No specific competitive intel or political insights documented.",
+          "rec": "Ask Simon about internal sentiment: Where does each DM stand? What objections exist?",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 41,
+          "cat": "Champion",
+          "issue": "Dec 3 exec alignment call included CIO and CMO. Tom Burrow attended multiple subsequent meetings. Direct introductions achieved.",
+          "rec": "Seek follow-up with Dharmini Chauhan (CIO) — engagement limited post-Dec 3.",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 42,
+          "cat": "Champion",
+          "issue": "Exec alignment call demonstrates willingness for executive engagement. No evidence of broader buying committee meeting, board presentation, or vendor bake-off access.",
+          "rec": "Ask Simon/Carmen: 'Would it help to present to the full evaluation committee or stakeholders not yet in our conversations?'",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 43,
+          "cat": "Champion",
+          "issue": "Without call transcripts, cannot identify personal motivation or career drivers. Organization has pain but individual champion motivation undocumented.",
+          "rec": "Explore in 1:1s: What does a successful platform decision mean for Simon/Carmen/Tom personally?",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 44,
+          "cat": "Competition",
+          "issue": "Three competitors: Salesforce Commerce Cloud (primary), Scayle, BigCommerce. Well-mapped.",
+          "rec": "Continue gathering intelligence on competitor positioning and status.",
+          "due": ""
+        },
+        {
+          "p": 45,
+          "cat": "Competition",
+          "issue": "Hybris going end-of-support makes 'doing nothing' non-viable long-term, but extended support could delay. Not explicitly discussed.",
+          "rec": "Ask Simon/Carmen: 'Is there any scenario where you extend Hybris support rather than migrating by Jan 2027?'",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 46,
+          "cat": "Competition",
+          "issue": "No evidence about internal build, custom dev, or headless/composable approaches. Four external platforms being evaluated suggests external path, but internal alternatives not explicitly ruled out.",
+          "rec": "Confirm with Alistair Jacques or Jo Smith whether custom-build or headless approach was considered.",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 47,
+          "cat": "Competition",
+          "issue": "Multi-vendor eval is standard due diligence. SFCC notably still in mix despite failed 2024 implementation. Scayle/BigCommerce likely cost-competitive or feature-specific alternatives.",
+          "rec": "Ask Simon: 'Where are you with other vendors? What's standing out positively or negatively about each?'",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 48,
+          "cat": "Competition",
+          "issue": "Win: post-SFCC risk aversion, D2C strength, brand credibility, SI partners. Lose: China/Markets gaps, legal impasse, pricing pressure from Scayle/BigCommerce, luxury bespoke UX requirements. Inferred, not confirmed.",
+          "rec": "Ask Simon directly: 'What would make you choose Shopify? What would make you choose someone else?'",
+          "due": "02/21/2026"
+        }
+      ],
+      "stakeholders": [
+        {
+          "name": "Dharmini Chauhan",
+          "title": "Chief Information Officer",
+          "role": "Decision Maker",
+          "email": "dharmini.chauhan@mulberry.com",
+          "engagement": "low",
+          "callsAttended": 1,
+          "callsInvited": 1
+        },
+        {
+          "name": "Carmen De Teran",
+          "title": "Digital Director",
+          "role": "Economic Buyer",
+          "email": "carmen.deteran@mulberry.com",
+          "engagement": "high",
+          "callsAttended": 3,
+          "callsInvited": 4
+        },
+        {
+          "name": "Tom Burrow",
+          "title": "CMO",
+          "role": "Decision Maker",
+          "email": "tom.burrow@mulberry.com",
+          "engagement": "high",
+          "callsAttended": 4,
+          "callsInvited": 5
+        },
+        {
+          "name": "Jo Smith",
+          "title": "Head of Technical Delivery",
+          "role": "Influencer",
+          "email": "jo.smith@mulberry.com",
+          "engagement": "low",
+          "callsAttended": 0,
+          "callsInvited": 0
+        },
+        {
+          "name": "Alistair Jacques",
+          "title": "Senior Architect",
+          "role": "Technical Buyer",
+          "email": "alistair.jacques@mulberry.com",
+          "engagement": "low",
+          "callsAttended": 0,
+          "callsInvited": 0
+        },
+        {
+          "name": "Simon Oates",
+          "title": "Senior Project Manager",
+          "role": "Procurement",
+          "email": "simon.oates@mulberry.com",
+          "engagement": "high",
+          "callsAttended": 5,
+          "callsInvited": 5
+        },
+        {
+          "name": "Billie O'Connor",
+          "title": "Founder (Nova Community)",
+          "role": "Signatory",
+          "email": "billie.oconnor@novacommunity.co.uk",
+          "engagement": "low",
+          "callsAttended": 0,
+          "callsInvited": 0
+        }
+      ],
+      "shopifyTeam": [
+        {
+          "name": "Ben Rees",
+          "role": "Account Executive (Owner)",
+          "email": "ben.rees@shopify.com"
+        },
+        {
+          "name": "Ben Homer",
+          "role": "Solutions Engineer",
+          "email": "ben.homer@shopify.com"
+        },
+        {
+          "name": "Christian Mackie",
+          "role": "Solutions Architect",
+          "email": "christian.mackie@shopify.com"
+        },
+        {
+          "name": "Peyman Naeini",
+          "role": "Field CTO",
+          "email": "peyman.naeini@shopify.com"
+        },
+        {
+          "name": "Jon Matthews",
+          "role": "Demo Engineering",
+          "email": "jon.matthews@shopify.com"
+        },
+        {
+          "name": "Linda Ho",
+          "role": "Demo Engineering",
+          "email": "linda.ho@shopify.com"
+        },
+        {
+          "name": "Paul Cochrane",
+          "role": "Demo Engineering",
+          "email": "paul.cochrane@shopify.com"
+        },
+        {
+          "name": "Billy Noyes",
+          "role": "Demo Engineering",
+          "email": "billy.noyes@shopify.com"
+        }
+      ],
+      "calls": [
+        {
+          "date": "2026-01-20",
+          "title": "Ben and Simon - Sync",
+          "duration": "30 min",
+          "shopifyAttendees": [
+            "Ben Rees (AE)"
+          ],
+          "merchantAttendees": [
+            "Carmen De Teran",
+            "Simon Oates"
+          ],
+          "summary": "Sync meeting with Carmen and Simon on project status and next steps."
+        },
+        {
+          "date": "2026-01-09",
+          "title": "Adyen / Shopify",
+          "duration": "30 min",
+          "shopifyAttendees": [
+            "Ben Rees (AE)"
+          ],
+          "merchantAttendees": [
+            "Tom Burrow (CMO)",
+            "Simon Oates (PM)"
+          ],
+          "summary": "Payment gateway integration discussion focused on Adyen integration with Shopify platform."
+        },
+        {
+          "date": "2025-12-19",
+          "title": "Tom / Ben Catch-up",
+          "duration": "15 min",
+          "shopifyAttendees": [
+            "Ben Rees (AE)"
+          ],
+          "merchantAttendees": [
+            "Tom Burrow (CMO)"
+          ],
+          "summary": "Quick sync/catch-up between AE and CMO."
+        },
+        {
+          "date": "2025-12-19",
+          "title": "Shopify & Mulberry - scheduling",
+          "duration": "30 min",
+          "shopifyAttendees": [
+            "Ben Rees (AE)",
+            "Erika Poletti"
+          ],
+          "merchantAttendees": [
+            "Carmen De Teran",
+            "Simon Oates"
+          ],
+          "summary": "Scheduling and planning discussion for upcoming milestones."
+        },
+        {
+          "date": "2025-12-16",
+          "title": "Mulberry - Shopify/Impact",
+          "duration": "30 min",
+          "shopifyAttendees": [
+            "Ben Rees (AE)"
+          ],
+          "merchantAttendees": [
+            "Impact Commerce (Jose Balca, Thomas Drew)"
+          ],
+          "summary": "Implementation partner engagement with Impact Commerce."
+        },
+        {
+          "date": "2025-12-05",
+          "title": "Quick sync",
+          "duration": "15 min",
+          "shopifyAttendees": [
+            "Ben Rees (AE)"
+          ],
+          "merchantAttendees": [
+            "Carmen De Teran",
+            "Simon Oates"
+          ],
+          "summary": "Quick check-in on project status."
+        },
+        {
+          "date": "2025-12-03",
+          "title": "Shopify x Mulberry - Exec Alignment Call",
+          "duration": "30 min",
+          "shopifyAttendees": [
+            "Peyman Naeini (Field CTO)"
+          ],
+          "merchantAttendees": [
+            "Tom Burrow (CMO)",
+            "Dharmini Chauhan (CIO)"
+          ],
+          "summary": "Executive alignment and strategic discussion between Shopify Field CTO and Mulberry CIO/CMO."
+        },
+        {
+          "date": "2025-11-26",
+          "title": "Shopify x Mulberry sync",
+          "duration": "30 min",
+          "shopifyAttendees": [
+            "Ben Rees (AE)"
+          ],
+          "merchantAttendees": [
+            "Tom Burrow (CMO)",
+            "Carmen De Teran",
+            "Simon Oates"
+          ],
+          "summary": "General project sync with key Mulberry stakeholders."
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-02-18",
+          "totalScore": 34.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 4.5,
+            "Identify Pain": 6.5,
+            "Champion": 4,
+            "Competition": 2.5
           },
           "changes": []
         }
