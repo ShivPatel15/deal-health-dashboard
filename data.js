@@ -1,6 +1,6 @@
 const DEAL_DATA = {
   "team": {
-    "name": "Sales Large — EMEA"
+    "name": "Sales Large \u2014 EMEA"
   },
   "generatedAt": "2026-02-18T19:10:57.008Z",
   "owners": [
@@ -31,18 +31,7 @@ const DEAL_DATA = {
         "ipp": 0,
         "paymentsAttached": true
       },
-      "revenueProjection": {
-        "monthlyPlatform": 75900,
-        "annualPlatform": 910800,
-        "annualPayments": 152460,
-        "annualIPP": 0,
-        "annualBilled": 1063260,
-        "year1": 1063260,
-        "year2": 1116423,
-        "year3": 1169586,
-        "total3yr": 3349269
-      },
-      "projectedBilledRevenue": null,
+      "projectedBilledRevenue": 435319.79,
       "products": [
         "Plus Product Suite",
         "D2C - Standard",
@@ -53,10 +42,10 @@ const DEAL_DATA = {
       "nextStep": "02/18 - Spoke to David Duke and we are on track to get it signed before end of Feb",
       "narrative": {
         "oppSummary": "Moda in Pelle is a $75,900 MCV new business opportunity ($1.04M total 3-year revenue) for a UK-based footwear and accessories retailer with 27 physical stores/concessions and a growing ecommerce presence. The company recently underwent an acquisition and leadership change, which has prompted a full review of their technology stack. They are migrating from Visualsoft (their current platform and implementation partner) to Shopify Plus with Shopify Payments, targeting a contract signature by end of February 2026 and a go-live in March/April 2026.",
-        "whyChange": "Moda in Pelle has experienced significant brand and business damage over the past 12 months due to their current technology limitations. Matt Holden stated: 'I think the last 12 months have been tricky. I don't think we put our best foot forward. Probably damaged the brand more than we should have done.' The company's recent acquisition and change in leadership has triggered a comprehensive review of their technology infrastructure, with the new owners giving them 'a green light to pretty much do what we want from an ecom perspective.' Their current platform has left them stuck — Matt acknowledged that without action 'we'll be sat with the same site for the next 10 years.' The business needs a more capable ecommerce solution to drive online sales diversification.",
-        "whyShopify": "Shopify is being evaluated as the platform that can modernize Moda in Pelle's ecommerce operations and unify their online and retail presence. The team has already invested significant effort in backend integration work — Matt confirmed 'we have internally actually already built the connection between our systems and Shopify.' Shopify Payments offers a competitive rate structure (1.1% domestic vs. their current blended 1.18%), and approximately £27,000 in incremental revenue estimated from Shop Pay's 23 million UK user base. Visualsoft, their current platform provider, is pivoting to become the Shopify implementation partner for the front-end build, which provides continuity while upgrading the underlying technology. POS is also a consideration for their 27 store locations, though bespoke functionality requirements exist.",
-        "whyNow": "The acquisition and leadership change is the primary catalyst. The new owners have authorized the ecommerce team to modernize, and the board is actively reviewing P&L projections, team structures, and 3-5 year goals. There is a concrete timeline: contract signature targeted for end of February 2026, with a March/April 2026 go-live. Shopify's discounted pricing (0.8% retail transaction rate, promotional credits) has been held beyond the original December 2025 deadline, and internal credibility for maintaining these rates is eroding — creating commercial urgency to finalize the deal now.",
-        "supportNeeded": "1) Maintain discounted pricing credibility — clear communication of a firm deadline may force signature action. 2) POS bespoke functionality assessment — Matt identified 'four or five things which in our world will be showstoppers' for full POS rollout. 3) SEO migration risk mitigation — Matt stated 'It's primarily the SEO stuff that we're worried about.' 4) Engage the actual decision maker (Anil Patel) — invited to ALL 3 calls, attended NONE. 5) Engage Finance Director (Chloe Sherwood) — ZERO engagement to date. 6) Commercial handoff clarity — Shiv Patel and Ben Homer being introduced as post-sale contacts."
+        "whyChange": "Moda in Pelle has experienced significant brand and business damage over the past 12 months due to their current technology limitations. Matt Holden stated: 'I think the last 12 months have been tricky. I don't think we put our best foot forward. Probably damaged the brand more than we should have done.' The company's recent acquisition and change in leadership has triggered a comprehensive review of their technology infrastructure, with the new owners giving them 'a green light to pretty much do what we want from an ecom perspective.' Their current platform has left them stuck \u2014 Matt acknowledged that without action 'we'll be sat with the same site for the next 10 years.' The business needs a more capable ecommerce solution to drive online sales diversification.",
+        "whyShopify": "Shopify is being evaluated as the platform that can modernize Moda in Pelle's ecommerce operations and unify their online and retail presence. The team has already invested significant effort in backend integration work \u2014 Matt confirmed 'we have internally actually already built the connection between our systems and Shopify.' Shopify Payments offers a competitive rate structure (1.1% domestic vs. their current blended 1.18%), and approximately \u00a327,000 in incremental revenue estimated from Shop Pay's 23 million UK user base. Visualsoft, their current platform provider, is pivoting to become the Shopify implementation partner for the front-end build, which provides continuity while upgrading the underlying technology. POS is also a consideration for their 27 store locations, though bespoke functionality requirements exist.",
+        "whyNow": "The acquisition and leadership change is the primary catalyst. The new owners have authorized the ecommerce team to modernize, and the board is actively reviewing P&L projections, team structures, and 3-5 year goals. There is a concrete timeline: contract signature targeted for end of February 2026, with a March/April 2026 go-live. Shopify's discounted pricing (0.8% retail transaction rate, promotional credits) has been held beyond the original December 2025 deadline, and internal credibility for maintaining these rates is eroding \u2014 creating commercial urgency to finalize the deal now.",
+        "supportNeeded": "1) Maintain discounted pricing credibility \u2014 clear communication of a firm deadline may force signature action. 2) POS bespoke functionality assessment \u2014 Matt identified 'four or five things which in our world will be showstoppers' for full POS rollout. 3) SEO migration risk mitigation \u2014 Matt stated 'It's primarily the SEO stuff that we're worried about.' 4) Engage the actual decision maker (Anil Patel) \u2014 invited to ALL 3 calls, attended NONE. 5) Engage Finance Director (Chloe Sherwood) \u2014 ZERO engagement to date. 6) Commercial handoff clarity \u2014 Shiv Patel and Ben Homer being introduced as post-sale contacts."
       },
       "meddpicc": {
         "metrics": {
@@ -76,7 +65,7 @@ const DEAL_DATA = {
               "q": "Do we have specific quantifiable goals aligned with the project?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Some financial metrics discussed — £27K estimated incremental revenue from Shop Pay, ~£1K increase in payment fees offset by revenue uplift. D2C GMV of $21.3M captured. However, no specific growth targets, conversion rate goals, or P&L benchmarks shared by the merchant.",
+              "notes": "Some financial metrics discussed \u2014 \u00a327K estimated incremental revenue from Shop Pay, ~\u00a31K increase in payment fees offset by revenue uplift. D2C GMV of $21.3M captured. However, no specific growth targets, conversion rate goals, or P&L benchmarks shared by the merchant.",
               "solution": "Request specific quantifiable goals (revenue growth targets, conversion improvements, cost savings) from Matt or Anil.",
               "action": "Ask Matt/Anil to share the board-facing business case metrics so Shopify can align value narrative.",
               "due": "02/21/2026",
@@ -126,7 +115,7 @@ const DEAL_DATA = {
               "q": "Are the metrics compelling enough to justify change?",
               "answer": "Yes",
               "score": 1,
-              "notes": "The decision to change has effectively been made — backend integrations built, Visualsoft engaged as implementation partner, Matt stated 'we are very much looking to move forward.' New ownership mandate provides top-down justification.",
+              "notes": "The decision to change has effectively been made \u2014 backend integrations built, Visualsoft engaged as implementation partner, Matt stated 'we are very much looking to move forward.' New ownership mandate provides top-down justification.",
               "solution": "N/A",
               "action": "N/A",
               "due": "",
@@ -141,7 +130,7 @@ const DEAL_DATA = {
               "q": "Have I identified the true economic buyer?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Salesforce lists David Duke (Visualsoft partner) as Economic Buyer, which is unusual. Anil Patel is Decision Maker. Matt references presenting to 'the board.' The true economic buyer may be board/ownership, CEO Simon Pickering, or Anil — this is unclear.",
+              "notes": "Salesforce lists David Duke (Visualsoft partner) as Economic Buyer, which is unusual. Anil Patel is Decision Maker. Matt references presenting to 'the board.' The true economic buyer may be board/ownership, CEO Simon Pickering, or Anil \u2014 this is unclear.",
               "solution": "Clarify who actually signs and approves budget for this investment.",
               "action": "Ask Matt or David Duke directly: 'Who gives final budget approval for this platform investment?'",
               "due": "02/20/2026",
@@ -206,7 +195,7 @@ const DEAL_DATA = {
               "q": "Do we know how they will be making the decision?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Decision to migrate appears largely made — backend integration built, Visualsoft engaged. However, formal approval/signature process unclear. Matt referenced board presentations and investor approvals still in progress.",
+              "notes": "Decision to migrate appears largely made \u2014 backend integration built, Visualsoft engaged. However, formal approval/signature process unclear. Matt referenced board presentations and investor approvals still in progress.",
               "solution": "Confirm if platform decision is fully approved or if commercial terms still need formal board sign-off.",
               "action": "Ask Matt or David: 'Is the platform decision approved and we're just finalizing commercial terms, or is there still a go/no-go decision pending?'",
               "due": "02/20/2026",
@@ -216,7 +205,7 @@ const DEAL_DATA = {
               "q": "Do we know who's involved / buying committee?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Known: Anil Patel (Decision Maker), Matt Holden (operational lead), Chloe Sherwood (Finance), Jason Holt (IT), David Duke (partner). Engagement heavily skewed — only Matt and occasionally David participate. Board/investor individuals unknown.",
+              "notes": "Known: Anil Patel (Decision Maker), Matt Holden (operational lead), Chloe Sherwood (Finance), Jason Holt (IT), David Duke (partner). Engagement heavily skewed \u2014 only Matt and occasionally David participate. Board/investor individuals unknown.",
               "solution": "Map the full buying committee and their approval roles.",
               "action": "Ask Matt: 'Beyond yourself and Anil, who else needs to approve or be consulted before we can execute the contract?'",
               "due": "02/20/2026",
@@ -283,7 +272,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Some criteria surfaced: SEO migration, POS bespoke functionality (4-5 'showstoppers'), payment rates, integration with existing systems, timeline. No formal evaluation criteria or scorecard shared. Decision appears Shopify-or-stay rather than multi-vendor.",
               "solution": "Confirm whether there's a formal evaluation framework.",
-              "action": "Ask Matt: 'Beyond SEO, POS, and payments — what are the other key criteria your team is evaluating?'",
+              "action": "Ask Matt: 'Beyond SEO, POS, and payments \u2014 what are the other key criteria your team is evaluating?'",
               "due": "02/24/2026",
               "highlight": false
             },
@@ -291,7 +280,7 @@ const DEAL_DATA = {
               "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "D2C thoroughly discussed. POS discussed at high level — 27 stores, bespoke functionality requirements identified but not fully scoped. B2B not discussed (null in Salesforce). Omnichannel integration not deeply explored.",
+              "notes": "D2C thoroughly discussed. POS discussed at high level \u2014 27 stores, bespoke functionality requirements identified but not fully scoped. B2B not discussed (null in Salesforce). Omnichannel integration not deeply explored.",
               "solution": "Complete POS requirements scoping and assess if B2B is relevant.",
               "action": "Schedule a POS deep-dive with Matt and Jason Holt to document the 4-5 showstopper requirements.",
               "due": "02/24/2026",
@@ -311,7 +300,7 @@ const DEAL_DATA = {
               "q": "Do we know how payments play into their decision?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Thoroughly discussed in Sep 23 call. Current blended rate 1.18%, Shopify offering 1.1% domestic + 2.3% AMEX. ~£1K fee increase offset by ~£27K Shop Pay revenue uplift. Retail rate 0.8%/0.9% also discussed. Payments are a component of the deal.",
+              "notes": "Thoroughly discussed in Sep 23 call. Current blended rate 1.18%, Shopify offering 1.1% domestic + 2.3% AMEX. ~\u00a31K fee increase offset by ~\u00a327K Shop Pay revenue uplift. Retail rate 0.8%/0.9% also discussed. Payments are a component of the deal.",
               "solution": "N/A",
               "action": "N/A",
               "due": "",
@@ -356,7 +345,7 @@ const DEAL_DATA = {
               "q": "Do we know what their procurement process is?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Matt described board presentations and investor sign-off. Anil apparently has authority to sign. But formal procurement steps — legal review, finance approval, PO requirements — not discussed.",
+              "notes": "Matt described board presentations and investor sign-off. Anil apparently has authority to sign. But formal procurement steps \u2014 legal review, finance approval, PO requirements \u2014 not discussed.",
               "solution": "Map the full procurement workflow.",
               "action": "Ask Matt/David: 'Once Anil agrees to terms, what's the process? Does legal or finance need to review? Is a PO required?'",
               "due": "02/20/2026",
@@ -386,7 +375,7 @@ const DEAL_DATA = {
               "q": "Do we know how long it will take?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Multiple timeline estimates given — all slipped. Matt said 'aim of signing next month' (Jan) in December call — slipped. Yasmine said 'ready to sign this week' on Jan 21 — slipped. Current target end of Feb. Pattern of optimistic timelines that slip.",
+              "notes": "Multiple timeline estimates given \u2014 all slipped. Matt said 'aim of signing next month' (Jan) in December call \u2014 slipped. Yasmine said 'ready to sign this week' on Jan 21 \u2014 slipped. Current target end of Feb. Pattern of optimistic timelines that slip.",
               "solution": "Set a firm, mutually committed deadline.",
               "action": "Shiv to confirm with David Duke: 'Is end of February a hard commitment or an aspiration? What could cause another slip?'",
               "due": "02/20/2026",
@@ -471,7 +460,7 @@ const DEAL_DATA = {
               "q": "Do we know how urgent it is to solve this pain?",
               "answer": "Yes",
               "score": 1,
-              "notes": "High urgency — new ownership mandate, commercial decision made to 'bite the bullet,' backend integration already built, implementation partner engaged, target go-live March/April 2026. However, urgency hasn't translated into fast execution (deal in SF since July 2024).",
+              "notes": "High urgency \u2014 new ownership mandate, commercial decision made to 'bite the bullet,' backend integration already built, implementation partner engaged, target go-live March/April 2026. However, urgency hasn't translated into fast execution (deal in SF since July 2024).",
               "solution": "N/A but note execution gap vs. stated urgency.",
               "action": "N/A",
               "due": "",
@@ -516,7 +505,7 @@ const DEAL_DATA = {
               "q": "Have you identified a true champion (influence + motivation)?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Matt Holden is the most engaged contact — attended all 3 calls, primary spokesperson. Highly motivated but title is 'Head of Digital' which may limit influence on budget/contract decisions. May be more 'coach' than true champion. David Duke is an external advocate, not internal champion.",
+              "notes": "Matt Holden is the most engaged contact \u2014 attended all 3 calls, primary spokesperson. Highly motivated but title is 'Head of Digital' which may limit influence on budget/contract decisions. May be more 'coach' than true champion. David Duke is an external advocate, not internal champion.",
               "solution": "Assess whether Matt has the influence to drive contract signature or if a more senior internal champion is needed.",
               "action": "Ask Matt: 'Do you have everything you need to get this across the line internally, or is there anything we can do to support you with the board/Anil?'",
               "due": "02/21/2026",
@@ -526,7 +515,7 @@ const DEAL_DATA = {
               "q": "Does your champion have political capital and credibility?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Matt appears credible — given operational authority ('green light to do what we want from an ecom perspective'). Presenting to board on P&L. However, past failed platform change attempts ('hasn't worked out') may have eroded some credibility on execution timelines.",
+              "notes": "Matt appears credible \u2014 given operational authority ('green light to do what we want from an ecom perspective'). Presenting to board on P&L. However, past failed platform change attempts ('hasn't worked out') may have eroded some credibility on execution timelines.",
               "solution": "Help Matt build credibility by providing polished materials for board presentations.",
               "action": "Provide Matt with a polished business case summary (ROI, timeline, risk mitigation) for board presentation.",
               "due": "02/21/2026",
@@ -556,7 +545,7 @@ const DEAL_DATA = {
               "q": "Have you been introduced to the decision maker?",
               "answer": "No",
               "score": 0,
-              "notes": "Anil invited to all 3 calls, attended none. All communication has been indirect — through Matt or David Duke. Shopify has never had a direct conversation with the primary decision maker. SIGNIFICANT risk for a deal at 80% probability in 'Commit' forecast.",
+              "notes": "Anil invited to all 3 calls, attended none. All communication has been indirect \u2014 through Matt or David Duke. Shopify has never had a direct conversation with the primary decision maker. SIGNIFICANT risk for a deal at 80% probability in 'Commit' forecast.",
               "solution": "Secure a direct introduction before contract signature.",
               "action": "Shiv to ask David Duke to arrange a 10-minute call with Anil, framing it as a 'welcome to Shopify' executive touch-point.",
               "due": "02/21/2026",
@@ -601,7 +590,7 @@ const DEAL_DATA = {
               "q": "Have we asked if doing nothing is an option?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Not directly asked, but Matt's statements strongly imply doing nothing is not viable: 'otherwise we'll be sat with the same site for the next 10 years.' However, deal has been in SF since July 2024 with multiple missed deadlines — arguably they HAVE been 'doing nothing' for 18+ months.",
+              "notes": "Not directly asked, but Matt's statements strongly imply doing nothing is not viable: 'otherwise we'll be sat with the same site for the next 10 years.' However, deal has been in SF since July 2024 with multiple missed deadlines \u2014 arguably they HAVE been 'doing nothing' for 18+ months.",
               "solution": "Address the pattern of delay directly.",
               "action": "Shiv to frame: 'Given past slippage, what's different this time that gives you confidence February will stick?'",
               "due": "02/20/2026",
@@ -613,7 +602,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Current Visualsoft platform is the status quo alternative. No custom/in-house build consideration. Backend Shopify integration already built. However, POS showstoppers could lead to maintaining existing retail systems rather than adopting Shopify POS.",
               "solution": "Ensure POS isn't a deal-breaker that sends them looking for hybrid solutions.",
-              "action": "Clarify that POS can be phased — secure D2C commitment first, address POS requirements separately.",
+              "action": "Clarify that POS can be phased \u2014 secure D2C commitment first, address POS requirements separately.",
               "due": "02/21/2026",
               "highlight": false
             },
@@ -725,7 +714,7 @@ const DEAL_DATA = {
             "Matt Holden (Head of Digital)",
             "David Duke (Visualsoft)"
           ],
-          "summary": "Yasmine presented payment processing proposal. Current 1.18% blended rate vs Shopify 1.1% domestic + 2.3% AMEX. Slight fee increase of ~£1K offset by ~£27K Shop Pay revenue uplift. Matt requested detailed calculations for annual modeling. $6,900 credit offered for 3 months. Contract deadline Sept 30th."
+          "summary": "Yasmine presented payment processing proposal. Current 1.18% blended rate vs Shopify 1.1% domestic + 2.3% AMEX. Slight fee increase of ~\u00a31K offset by ~\u00a327K Shop Pay revenue uplift. Matt requested detailed calculations for annual modeling. $6,900 credit offered for 3 months. Contract deadline Sept 30th."
         },
         {
           "date": "2025-12-16",
@@ -751,7 +740,7 @@ const DEAL_DATA = {
           "merchantAttendees": [
             "Matt Holden (Head of Digital)"
           ],
-          "summary": "Contract closing push. Rates expiring — need signature this week. Matt confirmed 'very much looking to move forward.' Backend integration already built internally, Visualsoft handling front-end. Domain litigation improving (Russell & Bromley precedent). Target online launch April 2026. Yasmine to resend contract to Anil CC Matt. Shiv introduced as commercial contact, Ben Homer as launch SE. Anil invited but did not attend."
+          "summary": "Contract closing push. Rates expiring \u2014 need signature this week. Matt confirmed 'very much looking to move forward.' Backend integration already built internally, Visualsoft handling front-end. Domain litigation improving (Russell & Bromley precedent). Target online launch April 2026. Yasmine to resend contract to Anil CC Matt. Shiv introduced as commercial contact, Ben Homer as launch SE. Anil invited but did not attend."
         }
       ],
       "scores": {
@@ -828,7 +817,7 @@ const DEAL_DATA = {
           "p": "high",
           "cat": "Decision Criteria",
           "issue": "Do we know what criteria the customer is using to evaluate vendors?",
-          "rec": "Ask Matt: 'Beyond SEO, POS, and payments — what are the other key criteria your team is evaluating?'",
+          "rec": "Ask Matt: 'Beyond SEO, POS, and payments \u2014 what are the other key criteria your team is evaluating?'",
           "due": "02/24/2026"
         },
         {
@@ -886,725 +875,6 @@ const DEAL_DATA = {
       ]
     },
     {
-      "id": "0068V00001DEMO02",
-      "name": "Simon Jersey",
-      "accountName": "Simon Jersey",
-      "accountId": "0018V00002DEMO02",
-      "owner": "Adriana Colacicco",
-      "ownerEmail": "adriana.colacicco@shopify.com",
-      "stage": "Negotiate",
-      "closeDate": "2026-04-15",
-      "forecastCategory": "Commit",
-      "probability": 90,
-      "merchantIntent": "Committed",
-      "type": "New Business",
-      "created": "2025-06-01",
-      "revenue": {
-        "mcv": 120000,
-        "totalRev3yr": 1850000,
-        "d2cGmv": 45000000,
-        "b2bGmv": 12000000,
-        "retailGmv": null,
-        "paymentsGpv": 28000000,
-        "ipp": 0,
-        "paymentsAttached": true
-      },
-      "revenueProjection": {
-        "monthlyPlatform": 120000,
-        "annualPlatform": 1440000,
-        "annualPayments": 308000,
-        "annualIPP": 0,
-        "annualBilled": 1748000,
-        "year1": 1748000,
-        "year2": 1835400,
-        "year3": 1922800,
-        "total3yr": 5506200
-      },
-      "projectedBilledRevenue": null,
-      "products": [
-        "Plus (Standard)",
-        "Shopify Payments",
-        "B2B"
-      ],
-      "competitor": "BigCommerce",
-      "compellingEvent": "Current platform contract expires July 2026. Board mandate to consolidate D2C and B2B onto single platform.",
-      "nextStep": "Final commercial terms being reviewed. Legal redlines in progress. Expecting signature by end of March.",
-      "narrative": {
-        "oppSummary": "Simon Jersey is a $120K MCV / $1.85M (3yr) opportunity. UK workwear retailer consolidating D2C and B2B channels onto Shopify Plus. Strong stakeholder engagement with CTO and Head of eCommerce both actively involved. Current platform contract expiry creates a hard deadline.",
-        "whyChange": "Current platform contract expiring July 2026. Multiple fragmented systems creating operational overhead and poor B2B experience. Board mandate to consolidate D2C and B2B onto a single platform. Previous BigCommerce evaluation paused due to B2B capability gaps.",
-        "whyShopify": "Only platform offering unified D2C + B2B + Payments on a single stack. Visualsoft partnership provides migration support. Strong B2B capabilities address previous BigCommerce gaps. Cost-competitive vs current platform renewal (30% cheaper).",
-        "whyNow": "Platform contract expiry July 2026 creates hard deadline. Board mandate for consolidation. Need minimum 3-month migration runway. BigCommerce evaluation paused — window of opportunity. Budget pre-approved.",
-        "supportNeeded": "1. B2B custom pricing feature demo for key stakeholders\n2. Migration timeline guarantee with milestones\n3. Reference customer in workwear/uniform vertical\n4. Address enterprise maturity perception"
-      },
-      "meddpicc": {
-        "metrics": {
-          "label": "Metrics",
-          "questions": [
-            {
-              "q": "Do we know the business reasons as to why they are migrating?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Platform consolidation, contract expiry, operational efficiency.",
-              "solution": "Demonstrate unified platform value",
-              "action": "Share consolidation case studies",
-              "due": "Ongoing"
-            },
-            {
-              "q": "Do we have specific quantifiable goals?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "25% B2B growth target, 15% cost reduction on platform ops.",
-              "solution": "Validate with ROI analysis",
-              "action": "Prepare ROI deck",
-              "due": "03/15/2026",
-              "highlight": true
-            },
-            {
-              "q": "Do they need to make a platform change?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Contract expiring. Cannot renew on current terms.",
-              "solution": "N/A — change is required",
-              "action": "N/A",
-              "due": "N/A",
-              "highlight": true
-            },
-            {
-              "q": "Do we understand impact if goal not achieved?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Forced renewal at higher rates. Continued operational overhead.",
-              "solution": "Quantify cost of renewal vs migration",
-              "action": "Include in business case",
-              "due": "03/15/2026",
-              "highlight": true
-            },
-            {
-              "q": "Is there a compelling event?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Contract expiry July 2026. Board mandate.",
-              "solution": "Reinforce timeline",
-              "action": "Maintain urgency",
-              "due": "Ongoing"
-            },
-            {
-              "q": "Have I validated metrics with customer?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "CTO validated in Jan call. Growth targets confirmed.",
-              "solution": "Continue validation",
-              "action": "Reconfirm in next meeting",
-              "due": "03/01/2026"
-            },
-            {
-              "q": "Are metrics compelling enough?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Strong ROI case. Board already aligned.",
-              "solution": "Maintain momentum",
-              "action": "Document for legal review",
-              "due": "Ongoing"
-            }
-          ]
-        },
-        "economicBuyer": {
-          "label": "Economic Buyer",
-          "questions": [
-            {
-              "q": "Have I identified the true economic buyer?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Sarah Mitchell, CTO. Budget holder.",
-              "solution": "Maintain CTO relationship",
-              "action": "Regular exec check-ins",
-              "due": "Ongoing"
-            },
-            {
-              "q": "Do we know who's signing?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "CTO signs, CFO co-signs above £100K.",
-              "solution": "Ensure CFO alignment",
-              "action": "Prepare CFO summary",
-              "due": "03/15/2026"
-            },
-            {
-              "q": "Do we have access?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "CTO actively engaged in all calls.",
-              "solution": "Maintain access",
-              "action": "Continue engagement",
-              "due": "Ongoing"
-            },
-            {
-              "q": "Can we get access?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Full access established.",
-              "solution": "N/A",
-              "action": "N/A",
-              "due": "N/A"
-            },
-            {
-              "q": "Do we know what EB cares about?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Platform stability, total cost, migration risk.",
-              "solution": "Address each concern",
-              "action": "Prepare risk mitigation plan",
-              "due": "03/15/2026"
-            },
-            {
-              "q": "Budget allocation process?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Annual tech budget. This project pre-approved.",
-              "solution": "Confirm budget allocation",
-              "action": "Verify in next call",
-              "due": "03/01/2026"
-            }
-          ]
-        },
-        "decisionProcess": {
-          "label": "Decision Process",
-          "questions": [
-            {
-              "q": "How will they make the decision?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "CTO recommends, board approves.",
-              "solution": "Support CTO recommendation",
-              "action": "Prepare board summary",
-              "due": "03/15/2026"
-            },
-            {
-              "q": "Buying committee identified?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "CTO, CFO, Head of eComm, Head of Ops.",
-              "solution": "Engage all stakeholders",
-              "action": "Schedule stakeholder meetings",
-              "due": "03/01/2026"
-            },
-            {
-              "q": "Decision timeline?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Decision by end of March. Migration start April.",
-              "solution": "Maintain timeline",
-              "action": "Track milestones",
-              "due": "Ongoing"
-            },
-            {
-              "q": "What drives timeline?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Contract expiry July 2026. 3-month migration window needed.",
-              "solution": "Reinforce urgency",
-              "action": "Build migration plan",
-              "due": "03/01/2026"
-            },
-            {
-              "q": "Tried to solve before?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Evaluated BigCommerce last year. Paused due to B2B gaps.",
-              "solution": "Address BigCommerce comparison",
-              "action": "Prepare competitive analysis",
-              "due": "03/01/2026"
-            },
-            {
-              "q": "Impact of doing nothing?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Forced renewal at 30% higher rates.",
-              "solution": "Quantify renewal cost",
-              "action": "Include in ROI",
-              "due": "03/01/2026"
-            },
-            {
-              "q": "Validated process with buyer?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "CTO confirmed process in last call.",
-              "solution": "Maintain alignment",
-              "action": "Reconfirm post-legal",
-              "due": "03/15/2026"
-            }
-          ]
-        },
-        "decisionCriteria": {
-          "label": "Decision Criteria",
-          "questions": [
-            {
-              "q": "Know evaluation criteria?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Unified platform, B2B capabilities, migration speed, cost.",
-              "solution": "Address each criterion",
-              "action": "Create evaluation tracker",
-              "due": "03/01/2026"
-            },
-            {
-              "q": "Discussed omnichannel?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "D2C + B2B deep dives completed.",
-              "solution": "N/A — completed",
-              "action": "Follow up on questions",
-              "due": "Ongoing"
-            },
-            {
-              "q": "Technical complications surfaced?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "ERP integration scoped. Custom B2B pricing addressed.",
-              "solution": "Monitor integration progress",
-              "action": "Weekly SE check-in",
-              "due": "Ongoing"
-            },
-            {
-              "q": "Payments role understood?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Payments attached. B2B invoicing discussed.",
-              "solution": "Finalize payments terms",
-              "action": "Include in contract",
-              "due": "03/15/2026"
-            },
-            {
-              "q": "Mutual action plan?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "MAP in place. Shared Google Doc tracked weekly.",
-              "solution": "Maintain MAP",
-              "action": "Weekly updates",
-              "due": "Ongoing"
-            },
-            {
-              "q": "Shaped criteria in our favor?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "B2B evaluation criteria aligned to Shopify strengths.",
-              "solution": "Maintain positioning",
-              "action": "Continue influence",
-              "due": "Ongoing"
-            },
-            {
-              "q": "Who defined criteria?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "CTO with input from Head of eComm.",
-              "solution": "Maintain relationships",
-              "action": "Continue engagement",
-              "due": "Ongoing"
-            }
-          ]
-        },
-        "paperProcess": {
-          "label": "Paper Process",
-          "questions": [
-            {
-              "q": "Procurement process known?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Standard procurement. Legal review then CTO/CFO sign.",
-              "solution": "Prepare for legal",
-              "action": "Send contract early",
-              "due": "03/01/2026"
-            },
-            {
-              "q": "Redlines likely?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Standard SLA and data protection redlines expected.",
-              "solution": "Pre-prepare responses",
-              "action": "Legal team briefed",
-              "due": "03/01/2026"
-            },
-            {
-              "q": "Review timeline?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "2-3 weeks for legal review.",
-              "solution": "Factor into timeline",
-              "action": "Track progress",
-              "due": "03/15/2026"
-            },
-            {
-              "q": "How long will it take?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Targeting 3 weeks end-to-end.",
-              "solution": "Maintain pace",
-              "action": "Weekly check-ins",
-              "due": "03/15/2026"
-            },
-            {
-              "q": "Contract details?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "$120K MCV, Plus + B2B + Payments.",
-              "solution": "Finalize terms",
-              "action": "Send final contract",
-              "due": "03/01/2026"
-            },
-            {
-              "q": "Contract sent?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Sent Feb 10. In legal review.",
-              "solution": "Follow up on review",
-              "action": "Check status weekly",
-              "due": "03/15/2026"
-            },
-            {
-              "q": "Signature target date?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "End of March 2026.",
-              "solution": "Maintain target",
-              "action": "Track milestone",
-              "due": "03/31/2026"
-            }
-          ]
-        },
-        "identifyPain": {
-          "label": "Identify Pain",
-          "questions": [
-            {
-              "q": "Current issues known?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Platform fragmentation, high ops cost, poor B2B experience.",
-              "solution": "Address all pains",
-              "action": "Continue discovery",
-              "due": "Ongoing"
-            },
-            {
-              "q": "Tried to resolve before?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "BigCommerce evaluation paused. Internal workarounds failing.",
-              "solution": "Learn from past attempt",
-              "action": "Address BC gaps",
-              "due": "03/01/2026"
-            },
-            {
-              "q": "Business impact of pains?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Lost B2B customers, high support costs, slow time-to-market.",
-              "solution": "Quantify impact",
-              "action": "Include in ROI",
-              "due": "03/01/2026"
-            },
-            {
-              "q": "Teams affected?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "eComm, Ops, Finance, Customer Service all impacted.",
-              "solution": "Cross-functional alignment",
-              "action": "Engage all teams",
-              "due": "03/01/2026"
-            },
-            {
-              "q": "Urgency to solve?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Contract expiry creates hard deadline.",
-              "solution": "Maintain urgency",
-              "action": "Reinforce deadline",
-              "due": "Ongoing"
-            },
-            {
-              "q": "Other options?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "BigCommerce (paused), renewal (expensive).",
-              "solution": "Position against alternatives",
-              "action": "Competitive analysis",
-              "due": "03/01/2026"
-            },
-            {
-              "q": "Why important now?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Contract expiry, board mandate, competitive pressure.",
-              "solution": "Reinforce Why Now",
-              "action": "Maintain urgency",
-              "due": "Ongoing"
-            },
-            {
-              "q": "Uniquely positioned?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Only platform offering unified D2C + B2B + Payments.",
-              "solution": "Highlight unique value",
-              "action": "Reinforce positioning",
-              "due": "Ongoing"
-            }
-          ]
-        },
-        "champion": {
-          "label": "Champion",
-          "questions": [
-            {
-              "q": "True champion identified?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Tom Richards, Head of eCommerce. Driving evaluation internally.",
-              "solution": "Support Tom",
-              "action": "Regular syncs",
-              "due": "Ongoing"
-            },
-            {
-              "q": "Political capital?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Tom reports to CTO. Strong internal credibility.",
-              "solution": "Maintain relationship",
-              "action": "Continue support",
-              "due": "Ongoing"
-            },
-            {
-              "q": "Unique insights shared?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Shared internal budget figures, competitive analysis, board priorities.",
-              "solution": "Leverage insights",
-              "action": "Build trust",
-              "due": "Ongoing"
-            },
-            {
-              "q": "Connected to decision makers?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Direct report to CTO. Weekly board updates.",
-              "solution": "Leverage connection",
-              "action": "Support advocacy",
-              "due": "Ongoing"
-            },
-            {
-              "q": "Introduced to decision maker?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "CTO introduced in first meeting by Tom.",
-              "solution": "Maintain relationship",
-              "action": "Continue engagement",
-              "due": "Ongoing"
-            },
-            {
-              "q": "Board access?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Presented to board in January.",
-              "solution": "Prepare follow-up materials",
-              "action": "Send board summary",
-              "due": "03/01/2026"
-            },
-            {
-              "q": "Why champion for us?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Tom frustrated with current platform. Sees Shopify as career win.",
-              "solution": "Support Tom's vision",
-              "action": "Reinforce value",
-              "due": "Ongoing"
-            }
-          ]
-        },
-        "competition": {
-          "label": "Competition",
-          "questions": [
-            {
-              "q": "Other vendors?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "BigCommerce evaluated and paused. Adobe too expensive.",
-              "solution": "Position against both",
-              "action": "Maintain competitive intel",
-              "due": "Ongoing"
-            },
-            {
-              "q": "Doing nothing an option?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "No — contract expiry forces decision.",
-              "solution": "N/A",
-              "action": "N/A",
-              "due": "N/A"
-            },
-            {
-              "q": "Internal alternatives?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Renewal considered but 30% more expensive.",
-              "solution": "Highlight cost difference",
-              "action": "Include in ROI",
-              "due": "03/01/2026"
-            },
-            {
-              "q": "Why alternatives evaluated?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "BC for B2B. Adobe for enterprise. Both lack unified offering.",
-              "solution": "Differentiate on unified platform",
-              "action": "Prepare comparison",
-              "due": "03/01/2026"
-            },
-            {
-              "q": "Why win/lose?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Win: unified platform, cost, partner support. Lose: perceived enterprise maturity.",
-              "solution": "Address enterprise perception",
-              "action": "Share enterprise references",
-              "due": "03/01/2026"
-            }
-          ]
-        }
-      },
-      "stakeholders": [
-        {
-          "name": "Sarah Mitchell",
-          "title": "CTO",
-          "role": "Decision Maker",
-          "email": "",
-          "engagement": "high",
-          "callsAttended": 4,
-          "callsInvited": 4
-        },
-        {
-          "name": "Tom Richards",
-          "title": "Head of eCommerce",
-          "role": "Champion",
-          "email": "",
-          "engagement": "high",
-          "callsAttended": 5,
-          "callsInvited": 5
-        }
-      ],
-      "shopifyTeam": [
-        {
-          "name": "Adriana Colacicco",
-          "role": "Account Executive (Owner)",
-          "email": "adriana.colacicco@shopify.com"
-        },
-        {
-          "name": "Shiv Patel",
-          "role": "Sales Lead Collaborator",
-          "email": "shiv.patel@shopify.com"
-        }
-      ],
-      "calls": [
-        {
-          "date": "2026-02-10",
-          "title": "Simon Jersey — Contract Review",
-          "duration": "25 min",
-          "shopifyAttendees": [
-            "Adriana Colacicco (AE)",
-            "Shiv Patel"
-          ],
-          "merchantAttendees": [
-            "Sarah Mitchell (CTO)",
-            "Tom Richards"
-          ],
-          "summary": "Contract terms reviewed. Minor redlines on SLA. Targeting end of March signature."
-        },
-        {
-          "date": "2026-01-15",
-          "title": "Simon Jersey — Board Presentation Prep",
-          "duration": "30 min",
-          "shopifyAttendees": [
-            "Adriana Colacicco (AE)",
-            "Shiv Patel",
-            "Ben Homer (SE)"
-          ],
-          "merchantAttendees": [
-            "Tom Richards",
-            "Sarah Mitchell (CTO)"
-          ],
-          "summary": "Prepared materials for board presentation. CTO confirmed budget approved."
-        }
-      ],
-      "scores": {
-        "Metrics": {
-          "score": 7,
-          "max": 7,
-          "pct": 100
-        },
-        "Economic Buyer": {
-          "score": 6,
-          "max": 6,
-          "pct": 100
-        },
-        "Decision Process": {
-          "score": 7,
-          "max": 7,
-          "pct": 100
-        },
-        "Decision Criteria": {
-          "score": 7,
-          "max": 7,
-          "pct": 100
-        },
-        "Paper Process": {
-          "score": 7,
-          "max": 7,
-          "pct": 100
-        },
-        "Identify Pain": {
-          "score": 8,
-          "max": 8,
-          "pct": 100
-        },
-        "Champion": {
-          "score": 7,
-          "max": 7,
-          "pct": 100
-        },
-        "Competition": {
-          "score": 5,
-          "max": 5,
-          "pct": 100
-        },
-        "_total": {
-          "score": 54,
-          "max": 54,
-          "pct": 100,
-          "status": "good-health"
-        }
-      },
-      "nextSteps": [],
-      "history": [
-        {
-          "date": "2026-02-18",
-          "totalScore": 54,
-          "totalMax": 54,
-          "status": "good-health",
-          "sectionScores": {
-            "Metrics": 7,
-            "Economic Buyer": 6,
-            "Decision Process": 7,
-            "Decision Criteria": 7,
-            "Paper Process": 7,
-            "Identify Pain": 8,
-            "Champion": 7,
-            "Competition": 5
-          },
-          "changes": [
-            {
-              "type": "initial",
-              "message": "Initial analysis"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "006OG00000EZIy6YAH",
       "name": "whittard- Plus; POS Pro",
       "accountName": "Whittard of Chelsea",
@@ -1628,39 +898,20 @@ const DEAL_DATA = {
         "ipp": 0,
         "paymentsAttached": true
       },
-      "revenueProjection": {
-        "monthlyPlatform": 69000,
-        "annualPlatform": 828000,
-        "annualPayments": 0,
-        "annualIPP": 0,
-        "annualBilled": 828000,
-        "year1": 828000,
-        "year2": 869400,
-        "year3": 910800,
-        "total3yr": 2608200
-      },
       "projectedBilledRevenue": null,
       "products": [
-        {
-          "name": "D2C - Standard",
-          "code": "PLAN-PLUS-STD",
-          "price": 69000
-        },
-        {
-          "name": "Shopify Payments - D2C Plus, Shopify for ent, CCS",
-          "code": "MSERV-FIN-SP-D2C-P",
-          "price": 0
-        }
+        "D2C - Standard",
+        "Shopify Payments - D2C Plus, Shopify for ent, CCS"
       ],
       "competitor": "Adobe Commerce (Magento)",
       "compellingEvent": "Seeking to transition from Salesforce to Shopify due to the need for improved customer experience, enhanced technology stack flexibility, and the desire to overcome existing limitations with their current system, specifically Site Genesis.",
       "nextStep": "10.02 received Statements, parts of Worldpay statement missing, Merchant keen on signing this Q (received email from Fiona today mentioning good to sign in Feb!)",
       "narrative": {
-        "oppSummary": "Whittard of Chelsea: $69,000 new business deal (D2C - Standard Plus), with $714,900 total revenue impact and $16.9M in verified D2C revenue. This is a heritage UK retail brand looking to migrate off Salesforce Commerce Cloud (Site Genesis) to Shopify, driven by high development costs, poor mobile performance, and platform inflexibility. The deal is in Deal Craft stage at 80% probability with a close date of February 27, 2026 — just 9 days away — and the merchant has signaled intent to sign in February.",
-        "whyChange": "Whittard is facing significant challenges with their current Salesforce Commerce Cloud (Site Genesis) implementation: high development costs to maintain and evolve the platform, integration complexities that slow down their ability to connect systems, and inadequate mobile performance — critical for a D2C retailer. They are on Site Genesis (older, legacy SFCC architecture) facing a 'modernize or migrate' decision, and the cost/complexity of upgrading within the Salesforce ecosystem has tipped the scales toward evaluating alternatives. Leadership (CEO and Head of eCommerce) are engaged, indicating this is a strategic priority.",
-        "whyShopify": "Whittard seeks improved customer experience, enhanced technology stack flexibility, and the ability to overcome Site Genesis limitations — all areas where Shopify Plus excels. The deal originated as a Partner Referral, with trusted agencies (Tryzens, Vervaunt) recommending Shopify. Inclusion of Shopify Payments indicates interest in consolidating payments stack. The team has been preparing UK heritage brand reference stories, mobile conversion wins, and subscription use cases. Whittard is engaging multiple agencies (shortlist of 4) with SFCC migration experience.",
-        "whyNow": "Fiona Scott (Head of eCommerce) directly communicated intent to sign in February 2026. The proposed launch date of July 1, 2026 creates back-pressure — any delay compresses the migration window. CEO-level engagement, active agency selection, and strategic urgency to move off aging Site Genesis all point to a 'now or never' dynamic for this budget cycle.",
-        "supportNeeded": "1. Complete payment statement collection — parts of Worldpay statement still missing, prerequisite for Shopify Payments terms, could delay contract given 9-day window\n2. Merchant Validation Form confirmation — unclear if returned\n3. CEO (Nathan Smith) engagement call — Fiona mentioned scheduling follow-up, could be final sign-off\n4. UK heritage brand references — deploy 2-3 reference stories proactively\n5. Agency/partner guidance — provide input on which of the 4 shortlisted agencies have best SFCC migration experience\n6. Technical support for Vervaunt discovery — actively follow up to prevent technical blockers"
+        "oppSummary": "Whittard of Chelsea: $69,000 new business deal (D2C - Standard Plus), with $714,900 total revenue impact and $16.9M in verified D2C revenue. This is a heritage UK retail brand looking to migrate off Salesforce Commerce Cloud (Site Genesis) to Shopify, driven by high development costs, poor mobile performance, and platform inflexibility. The deal is in Deal Craft stage at 80% probability with a close date of February 27, 2026 \u2014 just 9 days away \u2014 and the merchant has signaled intent to sign in February.",
+        "whyChange": "Whittard is facing significant challenges with their current Salesforce Commerce Cloud (Site Genesis) implementation: high development costs to maintain and evolve the platform, integration complexities that slow down their ability to connect systems, and inadequate mobile performance \u2014 critical for a D2C retailer. They are on Site Genesis (older, legacy SFCC architecture) facing a 'modernize or migrate' decision, and the cost/complexity of upgrading within the Salesforce ecosystem has tipped the scales toward evaluating alternatives. Leadership (CEO and Head of eCommerce) are engaged, indicating this is a strategic priority.",
+        "whyShopify": "Whittard seeks improved customer experience, enhanced technology stack flexibility, and the ability to overcome Site Genesis limitations \u2014 all areas where Shopify Plus excels. The deal originated as a Partner Referral, with trusted agencies (Tryzens, Vervaunt) recommending Shopify. Inclusion of Shopify Payments indicates interest in consolidating payments stack. The team has been preparing UK heritage brand reference stories, mobile conversion wins, and subscription use cases. Whittard is engaging multiple agencies (shortlist of 4) with SFCC migration experience.",
+        "whyNow": "Fiona Scott (Head of eCommerce) directly communicated intent to sign in February 2026. The proposed launch date of July 1, 2026 creates back-pressure \u2014 any delay compresses the migration window. CEO-level engagement, active agency selection, and strategic urgency to move off aging Site Genesis all point to a 'now or never' dynamic for this budget cycle.",
+        "supportNeeded": "1. Complete payment statement collection \u2014 parts of Worldpay statement still missing, prerequisite for Shopify Payments terms, could delay contract given 9-day window\n2. Merchant Validation Form confirmation \u2014 unclear if returned\n3. CEO (Nathan Smith) engagement call \u2014 Fiona mentioned scheduling follow-up, could be final sign-off\n4. UK heritage brand references \u2014 deploy 2-3 reference stories proactively\n5. Agency/partner guidance \u2014 provide input on which of the 4 shortlisted agencies have best SFCC migration experience\n6. Technical support for Vervaunt discovery \u2014 actively follow up to prevent technical blockers"
       },
       "meddpicc": {
         "metrics": {

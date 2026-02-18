@@ -9,27 +9,35 @@
 :root,[data-theme="dark"]{--bg:#0a0a0a;--s1:#141414;--s2:#1c1c1c;--s3:#242424;--b1:#2a2a2a;--b2:#3a3a3a;--t:#e8e8e8;--t2:#999;--t3:#666;--acc:#96bf48;--acc-d:rgba(150,191,72,.12);--acc-t:#96bf48;--r:#ea9999;--r-bg:rgba(234,153,153,.1);--r-b:rgba(234,153,153,.22);--y:#ffe599;--y-bg:rgba(255,229,153,.1);--y-b:rgba(255,229,153,.22);--g:#b6d7a8;--g-bg:rgba(182,215,168,.1);--g-b:rgba(182,215,168,.22);--bl:#6fa8dc;--inp-bg:#1e1e1e;--inp-b:#333}
 [data-theme="light"]{--bg:#f4f5f7;--s1:#fff;--s2:#f0f1f3;--s3:#e4e5e8;--b1:#d8d9dc;--b2:#c0c1c4;--t:#1a1a1a;--t2:#555;--t3:#888;--acc:#5e8e1a;--acc-d:rgba(94,142,26,.07);--acc-t:#4a7a14;--r:#c0392b;--r-bg:rgba(192,57,43,.07);--r-b:rgba(192,57,43,.16);--y:#c89100;--y-bg:rgba(200,145,0,.07);--y-b:rgba(200,145,0,.16);--g:#1e8449;--g-bg:rgba(30,132,73,.07);--g-b:rgba(30,132,73,.16);--bl:#2471a3;--inp-bg:#fff;--inp-b:#c8c9cc}
 *{margin:0;padding:0;box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--t);line-height:1.55;-webkit-font-smoothing:antialiased;transition:background .2s,color .2s}::selection{background:var(--acc);color:#fff}
-.topbar{display:flex;align-items:center;justify-content:space-between;padding:12px 28px;background:var(--s1);border-bottom:1px solid var(--b1);position:sticky;top:0;z-index:200}.topbar-brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:15px}.topbar-brand span{color:var(--acc-t)}.topbar-right{display:flex;align-items:center;gap:12px}.topbar-meta{font-size:12px;color:var(--t2)}.theme-btn,.filter-btn{background:var(--s3);border:1px solid var(--b1);color:var(--t2);padding:5px 10px;border-radius:6px;cursor:pointer;font-size:12px;transition:all .15s}.theme-btn:hover,.filter-btn:hover{border-color:var(--b2);color:var(--t)}.filter-btn.on{background:var(--acc-d);color:var(--acc-t);border-color:var(--acc-t)}
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:12px 28px;background:var(--s1);border-bottom:1px solid var(--b1);position:sticky;top:0;z-index:200}.topbar-brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:15px;cursor:pointer;user-select:none}.topbar-brand:hover{opacity:.85}.topbar-brand span{color:var(--acc-t)}.topbar-right{display:flex;align-items:center;gap:12px}.topbar-meta{font-size:12px;color:var(--t2)}.theme-btn,.filter-btn{background:var(--s3);border:1px solid var(--b1);color:var(--t2);padding:5px 10px;border-radius:6px;cursor:pointer;font-size:12px;transition:all .15s}.theme-btn:hover,.filter-btn:hover{border-color:var(--b2);color:var(--t)}.filter-btn.on{background:var(--acc-d);color:var(--acc-t);border-color:var(--acc-t)}
 .container{max-width:1440px;margin:0 auto;padding:24px 28px}
-.sum-row{display:grid;grid-template-columns:repeat(5,1fr);gap:11px;margin-bottom:22px}.sum-card{background:var(--s1);border:1px solid var(--b1);border-radius:10px;padding:14px 16px}.sum-card .lbl{font-size:10px;color:var(--t3);text-transform:uppercase;letter-spacing:.5px;margin-bottom:2px}.sum-card .val{font-size:24px;font-weight:800;font-variant-numeric:tabular-nums}.sum-card .sub{font-size:11px;color:var(--t3);margin-top:1px}
+.sum-row{display:grid;grid-template-columns:repeat(4,1fr);gap:11px;margin-bottom:22px}.sum-card{background:var(--s1);border:1px solid var(--b1);border-radius:10px;padding:14px 16px}.sum-card .lbl{font-size:10px;color:var(--t3);text-transform:uppercase;letter-spacing:.5px;margin-bottom:2px}.sum-card .val{font-size:24px;font-weight:800;font-variant-numeric:tabular-nums}.sum-card .sub{font-size:11px;color:var(--t3);margin-top:1px}
 .owner-group{margin-bottom:28px}.owner-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;padding:0 2px}.owner-name{font-size:16px;font-weight:700}.owner-stats{display:flex;gap:12px;font-size:12px;color:var(--t2)}
 table{width:100%;border-collapse:collapse;background:var(--s1);border-radius:10px;overflow:hidden;border:1px solid var(--b1);margin-bottom:4px}th{text-align:left;padding:8px 12px;font-size:9px;text-transform:uppercase;letter-spacing:.5px;color:var(--t3);background:var(--s2);border-bottom:1px solid var(--b1);white-space:nowrap}td{padding:10px 12px;font-size:12px;border-bottom:1px solid var(--b1);vertical-align:middle}tbody tr{cursor:pointer;transition:background .1s}tbody tr:hover{background:var(--s2)}tbody tr:last-child td{border-bottom:none}
 .badge{display:inline-block;padding:2px 7px;border-radius:5px;font-size:9px;font-weight:700}.b-risk{background:var(--r-bg);color:var(--r);border:1px solid var(--r-b)}.b-track{background:var(--y-bg);color:var(--y);border:1px solid var(--y-b)}.b-good{background:var(--g-bg);color:var(--g);border:1px solid var(--g-b)}.b-stage{background:var(--s3);color:var(--t2);border:1px solid var(--b1)}
 .sbar{width:100%;height:4px;background:var(--s3);border-radius:2px;overflow:hidden}.sbar-f{height:100%;border-radius:2px;transition:width .5s}.sbar-f.risk{background:var(--r)}.sbar-f.track{background:var(--y)}.sbar-f.good{background:var(--g)}.sbar-txt{font-size:10px;color:var(--t3);margin-top:3px;display:flex;align-items:center;gap:5px}
 .back{display:inline-flex;align-items:center;gap:5px;font-size:13px;color:var(--t2);cursor:pointer;border:none;background:none;padding:5px 0;margin-bottom:12px}.back:hover{color:var(--t)}
-.dh-top{display:flex;align-items:flex-start;justify-content:space-between;gap:20px;margin-bottom:20px}.dh-top h1{font-size:24px;font-weight:800}.dh-meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}.chip{font-size:11px;color:var(--t2);background:var(--s2);border:1px solid var(--b1);padding:3px 9px;border-radius:5px;white-space:nowrap}
+.dh-top{display:flex;align-items:flex-start;justify-content:space-between;gap:20px;margin-bottom:14px}.dh-top h1{font-size:24px;font-weight:800}.dh-meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}.chip{font-size:11px;color:var(--t2);background:var(--s2);border:1px solid var(--b1);padding:3px 9px;border-radius:5px;white-space:nowrap}
 .big-score{text-align:center;background:var(--s1);border:1px solid var(--b1);border-radius:12px;padding:16px 24px;min-width:130px;flex-shrink:0}.big-score .num{font-size:40px;font-weight:900;line-height:1}.big-score .of{font-size:13px;color:var(--t3);margin-bottom:4px}
+/* Products strip */
+.prod-strip{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}.prod-pill{display:inline-flex;align-items:center;gap:5px;padding:6px 14px;border-radius:20px;font-size:12px;font-weight:600;background:var(--acc-d);color:var(--acc-t);border:1px solid rgba(150,191,72,.25)}.prod-pill .pi{font-size:14px}
 .tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:20px}.tile{background:var(--s1);border:1px solid var(--b1);border-radius:8px;padding:12px;text-align:center}.tile .tl{font-size:10px;color:var(--t2);text-transform:uppercase;letter-spacing:.3px;margin-bottom:3px;font-weight:600}.tile .tv{font-size:22px;font-weight:800}.tile .tm{font-size:11px;color:var(--t3)}.tile.risk{border-color:var(--r-b)}.tile.risk .tv{color:var(--r)}.tile.track{border-color:var(--y-b)}.tile.track .tv{color:var(--y)}.tile.good{border-color:var(--g-b)}.tile.good .tv{color:var(--g)}
-/* Revenue card */
-.rev-card{background:var(--s1);border:1px solid var(--b1);border-radius:10px;padding:18px 20px;margin-bottom:20px}.rev-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:12px}.rev-item{text-align:center}.rev-item .rv{font-size:18px;font-weight:800;font-variant-numeric:tabular-nums}.rev-item .rl{font-size:10px;color:var(--t3);text-transform:uppercase;letter-spacing:.3px;margin-bottom:2px}
-.rev-bar{display:flex;gap:4px;height:28px;border-radius:6px;overflow:hidden;margin-top:14px}.rev-bar div{border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;color:#fff;min-width:30px;transition:width .5s}
+/* Revenue card — simplified */
+.rev-card{background:var(--s1);border:1px solid var(--b1);border-radius:10px;padding:18px 20px;margin-bottom:20px}.rev-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin-top:12px}.rev-item{text-align:center}.rev-item .rv{font-size:18px;font-weight:800;font-variant-numeric:tabular-nums}.rev-item .rl{font-size:10px;color:var(--t3);text-transform:uppercase;letter-spacing:.3px;margin-bottom:2px}
 /* Tabs */
 .tabs{display:flex;gap:0;border-bottom:1px solid var(--b1);margin-bottom:20px;overflow-x:auto}.tab{padding:8px 14px;font-size:12px;font-weight:600;color:var(--t3);cursor:pointer;border:none;background:none;border-bottom:2px solid transparent;transition:all .15s;white-space:nowrap}.tab:hover{color:var(--t2)}.tab.on{color:var(--acc-t);border-bottom-color:var(--acc-t)}.pane{display:none}.pane.on{display:block}
-/* Narratives */
-.nar-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px}.nar{background:var(--s1);border:1px solid var(--b1);border-radius:10px;padding:14px 16px}.nar.fw{grid-column:1/-1}.nar h3{font-size:12px;font-weight:700;margin-bottom:6px}.nar p{font-size:12px;color:var(--t2);line-height:1.7}
+/* Narratives — editable */
+.nar-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px}.nar{background:var(--s1);border:1px solid var(--b1);border-radius:10px;padding:14px 16px;position:relative}.nar.fw{grid-column:1/-1}.nar h3{font-size:12px;font-weight:700;margin-bottom:6px;display:flex;align-items:center;justify-content:space-between}.nar p{font-size:12px;color:var(--t2);line-height:1.7}
+.edit-btn{font-size:10px;color:var(--t3);cursor:pointer;background:var(--s3);border:1px solid var(--b1);border-radius:4px;padding:2px 8px;transition:all .15s}.edit-btn:hover{color:var(--t);border-color:var(--b2)}
+.nar textarea{width:100%;min-height:120px;padding:8px 10px;border-radius:6px;border:1px solid var(--inp-b);background:var(--inp-bg);color:var(--t);font-size:12px;font-family:inherit;line-height:1.7;outline:none;resize:vertical}.nar textarea:focus{border-color:var(--acc)}
+.nar .save-row{display:flex;gap:6px;margin-top:8px}.nar .save-btn{padding:5px 14px;border-radius:6px;background:var(--acc);color:#fff;border:none;font-size:11px;font-weight:600;cursor:pointer}.nar .cancel-btn{padding:5px 14px;border-radius:6px;background:var(--s3);color:var(--t2);border:1px solid var(--b1);font-size:11px;cursor:pointer}
 /* MEDDPICC sections */
 .msec{background:var(--s1);border:1px solid var(--b1);border-radius:10px;margin-bottom:10px;overflow:hidden}.msec-h{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;cursor:pointer;user-select:none;transition:background .1s}.msec-h:hover{background:var(--s2)}.msec-t{font-weight:700;font-size:13px;display:flex;align-items:center;gap:8px}.msec-s{font-size:12px;color:var(--t3)}.msec-b{display:none;border-top:1px solid var(--b1)}.msec.open .msec-b{display:block}.chev{transition:transform .2s;font-size:10px;color:var(--t3)}.msec.open .chev{transform:rotate(90deg)}
 .mhdr{display:grid;grid-template-columns:2.2fr 58px 2fr 1.5fr 1.3fr 78px;font-size:9px;text-transform:uppercase;letter-spacing:.5px;color:var(--t3);background:var(--s2);border-bottom:1px solid var(--b1)}.mhdr>div{padding:6px 10px}.mrow{display:grid;grid-template-columns:2.2fr 58px 2fr 1.5fr 1.3fr 78px;font-size:11px;border-bottom:1px solid var(--b1)}.mrow:last-child{border-bottom:none}.mrow:hover{background:var(--s2)}.mrow>div{padding:8px 10px;line-height:1.5}.mrow .q{color:var(--t)}.mrow .ac{text-align:center;font-weight:700}.a-y{color:var(--g)}.a-n{color:var(--r)}.a-p{color:var(--y)}.mrow .nt{color:var(--t2)}.mrow .du{color:var(--t3);text-align:center;font-size:10px}
+/* Editable MEDDPICC rows */
+.mrow-edit textarea{width:100%;padding:4px 6px;border-radius:4px;border:1px solid var(--inp-b);background:var(--inp-bg);color:var(--t);font-size:11px;font-family:inherit;outline:none;resize:vertical;min-height:50px}.mrow-edit textarea:focus{border-color:var(--acc)}
+.mrow-edit select{padding:4px 6px;border-radius:4px;border:1px solid var(--inp-b);background:var(--inp-bg);color:var(--t);font-size:11px;outline:none}
+.mrow-actions{display:flex;gap:4px;padding:4px 10px 8px}.mrow-actions button{padding:3px 10px;border-radius:4px;font-size:10px;font-weight:600;cursor:pointer;border:none}.mrow-actions .save-btn{background:var(--acc);color:#fff}.mrow-actions .cancel-btn{background:var(--s3);color:var(--t2);border:1px solid var(--b1)}
 /* Next Steps */
 .ns{background:var(--s1);border:1px solid var(--b1);border-radius:10px;padding:14px 16px;margin-bottom:9px;border-left:3px solid var(--b1)}.ns.critical{border-left-color:var(--r)}.ns.high{border-left-color:var(--y)}.ns-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:5px}.ns-cat{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.4px}.ns.critical .ns-cat{color:var(--r)}.ns.high .ns-cat{color:var(--y)}.ns-issue{font-size:13px;font-weight:600;margin-bottom:4px}.ns-rec{font-size:12px;color:var(--t2);line-height:1.55}.ns-due{font-size:10px;color:var(--t3)}
 /* Stakeholders */
@@ -42,12 +50,12 @@ table{width:100%;border-collapse:collapse;background:var(--s1);border-radius:10p
 .cmt-section{margin-top:18px;border-top:1px solid var(--b1);padding-top:14px}.cmt-section h3{font-size:13px;margin-bottom:10px}.cmt-row{display:flex;gap:8px;margin-bottom:12px}.cmt-inp{flex:1;padding:8px 12px;border-radius:8px;border:1px solid var(--inp-b);background:var(--inp-bg);color:var(--t);font-size:12px;outline:none;font-family:inherit}.cmt-inp:focus{border-color:var(--acc)}.cmt-row button{padding:8px 16px;border-radius:8px;background:var(--acc);color:#fff;border:none;font-size:12px;font-weight:600;cursor:pointer}.cmt{background:var(--s2);border-radius:8px;padding:9px 12px;margin-bottom:6px}.cmt-top{display:flex;justify-content:space-between;margin-bottom:3px}.cmt-author{font-size:11px;font-weight:600}.cmt-time{font-size:9px;color:var(--t3)}.cmt-text{font-size:12px;color:var(--t2);line-height:1.55}.cmt-del{font-size:9px;color:var(--t3);cursor:pointer;margin-left:6px}.cmt-del:hover{color:var(--r)}
 .toast{position:fixed;bottom:20px;right:20px;background:var(--acc);color:#fff;padding:8px 16px;border-radius:8px;font-size:12px;font-weight:600;opacity:0;transition:opacity .3s;pointer-events:none;z-index:300}.toast.show{opacity:1}
 .hidden{display:none!important}.money{font-variant-numeric:tabular-nums}
-@media(max-width:900px){.sum-row{grid-template-columns:repeat(2,1fr)}.tiles{grid-template-columns:repeat(2,1fr)}.rev-grid{grid-template-columns:repeat(3,1fr)}.nar-grid,.sg{grid-template-columns:1fr}.mrow,.mhdr{grid-template-columns:2fr 50px 2.5fr 0 0 0}.mrow>div:nth-child(n+4),.mhdr>div:nth-child(n+4){display:none}}
+@media(max-width:900px){.sum-row{grid-template-columns:repeat(2,1fr)}.tiles{grid-template-columns:repeat(2,1fr)}.nar-grid,.sg{grid-template-columns:1fr}.mrow,.mhdr{grid-template-columns:2fr 50px 2.5fr 0 0 0}.mrow>div:nth-child(n+4),.mhdr>div:nth-child(n+4){display:none}}
 </style>
 </head>
 <body>
 <div class="topbar">
-  <div class="topbar-brand"><span>⚡</span> Deal Health Dashboard</div>
+  <div class="topbar-brand" onclick="goHome()"><span>⚡</span> Deal Health Dashboard</div>
   <div class="topbar-right">
     <div class="topbar-meta" id="topbar-meta">Sales Large — EMEA</div>
     <button class="theme-btn" onclick="toggleTheme()" id="theme-toggle">☀️ Light</button>
@@ -60,7 +68,14 @@ table{width:100%;border-collapse:collapse;background:var(--s1);border-radius:10p
 <div class="toast" id="toast">✓ Saved</div>
 <script>
 // ============================================================
-// GITHUB COMMENTS API — cloud persistence
+// LOCAL EDITS STORAGE
+// ============================================================
+function getEdits(oppId){try{return JSON.parse(localStorage.getItem('edits_'+oppId)||'{}')}catch(e){return{}}}
+function saveEdit(oppId,key,value){const e=getEdits(oppId);e[key]=value;localStorage.setItem('edits_'+oppId,JSON.stringify(e));toast('✓ Edit saved locally')}
+function getEditedValue(opp,path){const e=getEdits(opp.id);if(e[path]!==undefined)return e[path];const parts=path.split('.');let v=opp;for(const p of parts){if(v==null)return'';v=v[p]}return v||''}
+
+// ============================================================
+// GITHUB COMMENTS API
 // ============================================================
 const GH_REPO='ShivPatel15/deal-health-dashboard';
 const GH_COMMENTS_PATH='comments.json';
@@ -81,7 +96,7 @@ function toggleTheme(){const h=document.documentElement,n=h.dataset.theme==='dar
 // HELPERS
 // ============================================================
 const opps=DEAL_DATA.opportunities;
-const owners=DEAL_DATA.owners;
+const owners=DEAL_DATA.owners||[];
 const fmt=n=>n==null||n===0?'—':'$'+n.toLocaleString('en-US');
 const fmtK=n=>n==null||n===0?'—':n>=1e6?'$'+(n/1e6).toFixed(1)+'M':n>=1e3?'$'+Math.round(n/1e3)+'K':'$'+n;
 const bCls=s=>({'at-risk':'b-risk','on-track':'b-track','good-health':'b-good'})[s]||'b-stage';
@@ -105,16 +120,15 @@ function renderList(){
   const filtered=filterOwner?opps.filter(o=>o.owner===filterOwner):opps;
   const totalRev=filtered.reduce((s,o)=>s+(o.revenue?.totalRev3yr||0),0);
   const totalMcv=filtered.reduce((s,o)=>s+(o.revenue?.mcv||0),0);
-  const totalBilled=filtered.reduce((s,o)=>s+(o.revenueProjection?.annualBilled||0),0);
   const avgHealth=filtered.length?Math.round(filtered.reduce((s,o)=>s+(o.scores?._total?.pct||0),0)/filtered.length):0;
   const atRisk=filtered.filter(o=>o.scores?._total?.status==='at-risk').length;
 
-  const filterHtml=`<div style="display:flex;gap:6px;margin-bottom:16px;flex-wrap:wrap">
+  const filterHtml=owners.length>1?`<div style="display:flex;gap:6px;margin-bottom:16px;flex-wrap:wrap">
     <button class="filter-btn${!filterOwner?' on':''}" onclick="setFilter(null)">All (${opps.length})</button>
-    ${owners.map(ow=>{const c=opps.filter(o=>o.owner===ow).length;return`<button class="filter-btn${filterOwner===ow?' on':''}" onclick="setFilter('${ow}')">${ow} (${c})</button>`}).join('')}</div>`;
+    ${owners.map(ow=>{const c=opps.filter(o=>o.owner===ow).length;return`<button class="filter-btn${filterOwner===ow?' on':''}" onclick="setFilter('${ow}')">${ow} (${c})</button>`}).join('')}</div>`:'';
 
-  const grouped={};(filterOwner?[filterOwner]:owners).forEach(ow=>{
-    grouped[ow]=filtered.filter(o=>o.owner===ow).sort((a,b)=>{
+  const grouped={};(filterOwner?[filterOwner]:owners.length?owners:['All']).forEach(ow=>{
+    grouped[ow]=(filterOwner?filtered:opps.filter(o=>owners.length?o.owner===ow:true)).sort((a,b)=>{
       const so={'Deal Craft':0,Demonstrate:1,Solution:2,Envision:3,'Pre-Qualified':4};
       return(so[a.stage]||9)-(so[b.stage]||9)||new Date(a.closeDate)-new Date(b.closeDate)});
   });
@@ -124,29 +138,27 @@ function renderList(){
   ${filterHtml}
   <div class="sum-row">
     <div class="sum-card"><div class="lbl">Opportunities</div><div class="val">${filtered.length}</div></div>
-    <div class="sum-card"><div class="lbl">Total Rev (3yr)</div><div class="val money">${fmtK(totalRev)}</div></div>
-    <div class="sum-card"><div class="lbl">Proj Annual Billed</div><div class="val money" style="color:var(--g)">${fmtK(totalBilled)}</div></div>
+    <div class="sum-card"><div class="lbl">Total MCV</div><div class="val money">${fmtK(totalMcv)}</div></div>
     <div class="sum-card"><div class="lbl">Avg Health</div><div class="val">${avgHealth}%</div></div>
     <div class="sum-card"><div class="lbl">At Risk</div><div class="val" style="color:${atRisk?'var(--r)':'var(--g)'}">${atRisk}</div></div>
   </div>`;
 
   Object.entries(grouped).forEach(([owner,deals])=>{
     if(!deals.length)return;
-    const ownerBilled=deals.reduce((s,o)=>s+(o.revenueProjection?.annualBilled||0),0);
     const ownerMcv=deals.reduce((s,o)=>s+(o.revenue?.mcv||0),0);
     html+=`<div class="owner-group"><div class="owner-header"><div class="owner-name">${owner}</div>
-      <div class="owner-stats"><span>${deals.length} deals</span><span>MCV: ${fmtK(ownerMcv)}</span><span>Proj Annual: ${fmtK(ownerBilled)}</span></div></div>
-      <table><thead><tr><th>Account</th><th>Stage</th><th>Close</th><th>MCV</th><th>Proj Billed</th><th>Rev (3yr)</th><th style="width:140px">Health</th><th>Intent</th></tr></thead>
+      <div class="owner-stats"><span>${deals.length} deals</span><span>MCV: ${fmtK(ownerMcv)}</span></div></div>
+      <table><thead><tr><th>Account</th><th>Stage</th><th>Close</th><th>MCV</th><th>Proj Billed Rev</th><th>Rev (3yr)</th><th style="width:140px">Health</th><th>Intent</th></tr></thead>
       <tbody>${deals.map(o=>{
         const dtc=Math.ceil((new Date(o.closeDate)-Date.now())/864e5);
         const sc=o.scores?._total||{score:0,max:0,pct:0,status:'at-risk'};
-        const ab=o.revenueProjection?.annualBilled||0;
+        const pbr=o.projectedBilledRevenue;
         return`<tr onclick="showDetail('${o.id}')">
           <td><div style="font-weight:600;font-size:12px">${o.accountName}</div><div style="font-size:10px;color:var(--t3)">${(o.products||[]).slice(0,2).join(', ')}</div></td>
           <td><span class="badge b-stage">${o.stage}</span></td>
           <td style="white-space:nowrap">${o.closeDate}<div style="font-size:10px;color:${dtc<=14?'var(--r)':dtc<=30?'var(--y)':'var(--t3)'}">${dtc}d</div></td>
           <td class="money">${fmtK(o.revenue?.mcv)}</td>
-          <td class="money" style="font-weight:600;color:var(--g)">${fmtK(ab)}</td>
+          <td class="money" style="font-weight:600;color:var(--g)">${pbr?fmtK(pbr):'—'}</td>
           <td class="money">${fmtK(o.revenue?.totalRev3yr)}</td>
           <td><div class="sbar"><div class="sbar-f ${barC(sc.status)}" style="width:${sc.pct}%"></div></div><div class="sbar-txt">${sc.score}/${sc.max} <span class="badge ${bCls(sc.status)}">${sLbl(sc.status)}</span></div></td>
           <td style="font-size:10px">${o.merchantIntent||'—'}</td>
@@ -168,15 +180,10 @@ function showDetail(id){
   const ns=opp.nextSteps||[];
   const hist=opp.history||[];
   const dtc=Math.ceil((new Date(opp.closeDate)-Date.now())/864e5);
-  const rp=opp.revenueProjection||{};
   const cmts=getComments(opp.id);
   const hasMeddpicc=secs.length>0;
-
-  // Revenue bar
-  const total=(rp.annualPlatform||0)+(rp.annualPayments||0)+(rp.annualIPP||0);
-  const pPct=total?Math.max(Math.round((rp.annualPlatform||0)/total*100),2):0;
-  const payPct=total?Math.max(Math.round((rp.annualPayments||0)/total*100),2):0;
-  const iPct=total?Math.max(Math.round((rp.annualIPP||0)/total*100),2):0;
+  const pbr=opp.projectedBilledRevenue;
+  const prods=opp.products||[];
 
   // Build tabs
   const tabNames=['Overview'];
@@ -190,53 +197,46 @@ function showDetail(id){
       <span class="chip">📋 ${opp.stage}</span>
       <span class="chip">📅 ${opp.closeDate} (${dtc}d)</span>
       <span class="chip">💰 ${fmtK(opp.revenue?.mcv)} MCV</span>
+      ${pbr?`<span class="chip" style="color:var(--g)">📊 ${fmtK(pbr)} Proj Billed</span>`:''}
       <span class="chip">🎯 ${opp.forecastCategory||''} · ${opp.probability}%</span>
       <span class="chip">👤 ${opp.owner}</span>
       ${opp.competitor?`<span class="chip">⚔️ ${opp.competitor}</span>`:''}
-      <span class="chip">📦 ${(opp.products||[]).join(', ')||'TBD'}</span>
     </div>
   </div>
   ${hasMeddpicc?`<div class="big-score"><div class="num" style="color:var(--${barC(s._total.status)==='risk'?'r':barC(s._total.status)==='track'?'y':'g'})">${s._total.score}</div><div class="of">/ ${s._total.max}</div><span class="badge ${bCls(s._total.status)}">${sLbl(s._total.status)}</span></div>`:''}</div>
 
+  <!-- Products strip -->
+  ${prods.length?`<div class="prod-strip">${prods.map(p=>`<div class="prod-pill"><span class="pi">📦</span>${p}</div>`).join('')}</div>`:''}
+
   ${hasMeddpicc?`<div class="tiles">${secs.map(sec=>{const sc=s[sec.label]||{score:0,max:0,pct:0};return`<div class="tile ${tCls(sc.pct)}"><div class="tl">${sec.label}</div><div class="tv">${sc.score}</div><div class="tm">/ ${sc.max}</div></div>`}).join('')}</div>`:''}
 
-  <!-- Revenue Projection -->
-  ${total?`<div class="rev-card">
-    <h3 style="font-size:14px;font-weight:700;margin-bottom:2px">📊 Projected Billed Revenue${opp.projectedBilledRevenue?` <span style="font-size:12px;color:var(--t3);font-weight:400">(SF: ${fmtK(opp.projectedBilledRevenue)})</span>`:''}</h3>
-    <p style="font-size:11px;color:var(--t3);margin-bottom:8px">Annual projection based on MCV, Payments GPV (1.1%), and IPP (5.9%)</p>
+  <!-- Revenue Summary -->
+  <div class="rev-card">
+    <h3 style="font-size:14px;font-weight:700;margin-bottom:8px">📊 Revenue</h3>
     <div class="rev-grid">
-      <div class="rev-item"><div class="rl">Monthly Platform</div><div class="rv">${fmtK(rp.monthlyPlatform)}</div></div>
-      <div class="rev-item"><div class="rl">Annual Platform</div><div class="rv">${fmtK(rp.annualPlatform)}</div></div>
-      <div class="rev-item"><div class="rl">Annual Payments</div><div class="rv" style="color:var(--bl)">${fmtK(rp.annualPayments)}</div></div>
-      <div class="rev-item"><div class="rl">Annual IPP</div><div class="rv">${fmtK(rp.annualIPP)}</div></div>
-      <div class="rev-item"><div class="rl">Annual Total Billed</div><div class="rv" style="color:var(--g)">${fmtK(rp.annualBilled)}</div></div>
+      <div class="rev-item"><div class="rl">MCV</div><div class="rv">${fmtK(opp.revenue?.mcv)}</div></div>
+      <div class="rev-item"><div class="rl">Total Rev (3yr)</div><div class="rv">${fmtK(opp.revenue?.totalRev3yr)}</div></div>
+      ${pbr?`<div class="rev-item"><div class="rl">Proj Billed Rev</div><div class="rv" style="color:var(--g)">${fmtK(pbr)}</div></div>`:''}
+      <div class="rev-item"><div class="rl">D2C GMV</div><div class="rv">${fmtK(opp.revenue?.d2cGmv)}</div></div>
+      ${opp.revenue?.b2bGmv?`<div class="rev-item"><div class="rl">B2B GMV</div><div class="rv">${fmtK(opp.revenue.b2bGmv)}</div></div>`:''}
+      ${opp.revenue?.retailGmv?`<div class="rev-item"><div class="rl">Retail GMV</div><div class="rv">${fmtK(opp.revenue.retailGmv)}</div></div>`:''}
+      <div class="rev-item"><div class="rl">Payments GPV</div><div class="rv" style="color:var(--bl)">${fmtK(opp.revenue?.paymentsGpv)}</div></div>
     </div>
-    ${total?`<div class="rev-bar">
-      ${rp.annualPlatform?`<div style="width:${pPct}%;background:var(--acc)">Platform</div>`:''}
-      ${rp.annualPayments?`<div style="width:${payPct}%;background:var(--bl)">Payments</div>`:''}
-      ${rp.annualIPP?`<div style="width:${iPct}%;background:var(--y)">IPP</div>`:''}
-    </div>`:''}
-    <div style="display:flex;justify-content:space-around;margin-top:14px;padding-top:10px;border-top:1px solid var(--b1)">
-      <div style="text-align:center"><div style="font-size:10px;color:var(--t3)">Year 1</div><div style="font-size:16px;font-weight:700">${fmtK(rp.year1)}</div></div>
-      <div style="text-align:center"><div style="font-size:10px;color:var(--t3)">Year 2 (+5%)</div><div style="font-size:16px;font-weight:700">${fmtK(rp.year2)}</div></div>
-      <div style="text-align:center"><div style="font-size:10px;color:var(--t3)">Year 3 (+10%)</div><div style="font-size:16px;font-weight:700">${fmtK(rp.year3)}</div></div>
-      <div style="text-align:center"><div style="font-size:10px;color:var(--t3)">3yr Total</div><div style="font-size:16px;font-weight:800;color:var(--g)">${fmtK(rp.total3yr)}</div></div>
-    </div>
-  </div>`:''}
+  </div>
 
   <div class="tabs">${tabNames.map((t,i)=>`<button class="tab${i===0?' on':''}" data-p="${t.toLowerCase().replace(/\s/g,'')}">${t}${t==='Comments'?' ('+cmts.length+')':''}</button>`).join('')}</div>
 
   <!-- OVERVIEW -->
   <div class="pane on" id="p-overview">
     <div class="nar-grid">
-      ${opp.narrative?.oppSummary?`<div class="nar fw"><h3>📝 Opportunity Summary</h3><p>${(opp.narrative.oppSummary||'').replace(/\n/g,'<br>')}</p></div>`:''}
-      ${opp.narrative?.whyChange?`<div class="nar"><h3>🔄 Why Change?</h3><p>${(opp.narrative.whyChange||'').replace(/\n/g,'<br>')}</p></div>`:''}
-      ${opp.narrative?.whyShopify?`<div class="nar"><h3>💚 Why Shopify?</h3><p>${(opp.narrative.whyShopify||'').replace(/\n/g,'<br>')}</p></div>`:''}
-      ${opp.narrative?.whyNow?`<div class="nar"><h3>⏰ Why Now?</h3><p>${(opp.narrative.whyNow||'').replace(/\n/g,'<br>')}</p></div>`:''}
-      ${opp.narrative?.supportNeeded?`<div class="nar"><h3>🤝 Support Needed</h3><p>${(opp.narrative.supportNeeded||'').replace(/\n/g,'<br>')}</p></div>`:''}
+      ${renderNarrative(opp,'narrative.oppSummary','📝 Opportunity Summary',true)}
+      ${renderNarrative(opp,'narrative.whyChange','🔄 Why Change?')}
+      ${renderNarrative(opp,'narrative.whyShopify','💚 Why Shopify?')}
+      ${renderNarrative(opp,'narrative.whyNow','⏰ Why Now?')}
+      ${renderNarrative(opp,'narrative.supportNeeded','🤝 Support Needed')}
     </div>
-    ${opp.compellingEvent?`<div class="nar" style="margin-bottom:12px"><h3>⚡ Compelling Event</h3><p>${opp.compellingEvent}</p></div>`:''}
-    ${opp.nextStep?`<div class="nar" style="margin-bottom:12px"><h3>📌 AE Next Step</h3><p>${opp.nextStep}</p></div>`:''}
+    ${opp.compellingEvent?`${renderNarrative(opp,'compellingEvent','⚡ Compelling Event',false,true)}`:''}
+    ${opp.nextStep?`${renderNarrative(opp,'nextStep','📌 AE Next Step',false,true)}`:''}
   </div>
 
   <!-- MEDDPICC -->
@@ -246,14 +246,18 @@ function showDetail(id){
       <div class="msec-t"><span class="chev">▶</span>${sec.label} <span class="badge ${sc.pct<50?'b-risk':sc.pct<75?'b-track':'b-good'}">${sc.score}/${sc.max}</span></div>
       <div class="msec-s">${sc.pct}%</div></div>
       <div class="msec-b"><div class="mhdr"><div>Question</div><div style="text-align:center">Status</div><div>Notes</div><div>Solution</div><div>Action</div><div style="text-align:center">Due</div></div>
-      ${sec.questions.map(q=>`<div class="mrow">
+      ${sec.questions.map((q,qi)=>{
+        const rowId='mrow_'+k+'_'+qi;
+        return`<div class="mrow" id="${rowId}" ondblclick="editMeddpiccRow('${opp.id}','${k}',${qi})">
         <div class="q">${q.q}</div>
         <div class="ac ${aCls(q.answer)}">${q.answer||'—'}</div>
         <div class="nt">${q.notes||''}</div>
         <div class="nt">${q.solution||''}</div>
         <div class="nt">${q.action||''}</div>
         <div class="du">${q.due||''}</div>
-      </div>`).join('')}</div></div>`}).join('')}</div>`:''}
+      </div>`}).join('')}</div></div>`}).join('')}
+      <p style="color:var(--t3);font-size:11px;margin-top:6px;font-style:italic">💡 Double-click any row to edit</p>
+      </div>`:''}
 
   <!-- NEXT STEPS -->
   <div class="pane" id="p-nextsteps">
@@ -274,9 +278,8 @@ function showDetail(id){
 
   <!-- VERSION HISTORY -->
   <div class="pane" id="p-history">
-    <p style="color:var(--t3);font-size:12px;margin-bottom:14px">Track how this deal's health has changed over time. Updated daily.</p>
+    <p style="color:var(--t3);font-size:12px;margin-bottom:14px">Track how this deal's health has changed over time.</p>
     ${hist.length?hist.slice().reverse().map(h=>{
-      const isInitial=h.changes.some(c=>c.type==='initial');
       return`<div class="vh">
         <div class="vh-date">📅 ${h.date} <span class="badge ${bCls(h.status)}" style="font-size:9px">${sLbl(h.status)}</span></div>
         <div class="vh-score">Score: ${h.totalScore}/${h.totalMax} · ${Object.entries(h.sectionScores||{}).map(([k,v])=>`${k}: ${v}`).join(' · ')}</div>
@@ -286,7 +289,7 @@ function showDetail(id){
           if(c.type==='score')return`<div class="vh-change"><span class="vh-delta ${c.delta>0?'up':'down'}">${c.delta>0?'+':''}${c.delta}</span> ${c.section}: ${c.old} → ${c.new}</div>`;
           if(c.type==='status')return`<div class="vh-change"><span class="vh-delta ${c.new==='good-health'?'up':'down'}">⚡</span> Status changed: ${sLbl(c.old)} → ${sLbl(c.new)}</div>`;
           return'';
-        }).join('')}</div></div>`}).join(''):'<p style="color:var(--t3);font-size:12px">No version history yet. History is created after the first daily refresh.</p>'}
+        }).join('')}</div></div>`}).join(''):'<p style="color:var(--t3);font-size:12px">No version history yet.</p>'}
   </div>
 
   <!-- COMMENTS -->
@@ -299,6 +302,102 @@ function showDetail(id){
     t.classList.add('on');document.getElementById('p-'+t.dataset.p).classList.add('on');
   }));
   renderComments();window.scrollTo(0,0);history.replaceState(null,null,'#'+id);
+}
+
+// ============================================================
+// EDITABLE NARRATIVES
+// ============================================================
+function renderNarrative(opp,path,title,fullWidth,standalone){
+  const val=getEditedValue(opp,path);
+  if(!val&&!standalone)return'';
+  const cls=fullWidth?'nar fw':standalone?'nar':'nar';
+  const style=standalone?'style="margin-bottom:12px"':'';
+  const uid=path.replace(/\./g,'_');
+  return`<div class="${cls}" ${style} id="nar_${uid}">
+    <h3>${title} <button class="edit-btn" onclick="startNarEdit('${opp.id}','${path}','${uid}')">✏️ Edit</button></h3>
+    <p id="nar_p_${uid}">${(val||'').replace(/\n/g,'<br>')}</p>
+  </div>`;
+}
+
+function startNarEdit(oppId,path,uid){
+  const pEl=document.getElementById('nar_p_'+uid);
+  const current=getEditedValue(currentOpp,path);
+  pEl.innerHTML=`<textarea id="nar_ta_${uid}" rows="6">${current}</textarea>
+    <div class="save-row"><button class="save-btn" onclick="saveNarEdit('${oppId}','${path}','${uid}')">Save</button>
+    <button class="cancel-btn" onclick="showDetail('${oppId}')">Cancel</button></div>`;
+  document.getElementById('nar_ta_'+uid).focus();
+}
+
+function saveNarEdit(oppId,path,uid){
+  const ta=document.getElementById('nar_ta_'+uid);
+  if(!ta)return;
+  const val=ta.value;
+  saveEdit(oppId,path,val);
+  // Also update the live data object for this session
+  const parts=path.split('.');
+  let obj=currentOpp;
+  for(let i=0;i<parts.length-1;i++){if(!obj[parts[i]])obj[parts[i]]={};obj=obj[parts[i]]}
+  obj[parts[parts.length-1]]=val;
+  showDetail(oppId);
+}
+
+// ============================================================
+// EDITABLE MEDDPICC ROWS
+// ============================================================
+function editMeddpiccRow(oppId,secKey,qIdx){
+  const opp=opps.find(o=>o.id===oppId);if(!opp)return;
+  const q=opp.meddpicc[secKey].questions[qIdx];
+  const rowId='mrow_'+secKey+'_'+qIdx;
+  const rowEl=document.getElementById(rowId);if(!rowEl)return;
+  rowEl.ondblclick=null;
+  rowEl.innerHTML=`
+    <div class="q">${q.q}</div>
+    <div class="mrow-edit" style="text-align:center"><select id="me_ans_${rowId}">
+      <option value="Yes" ${q.answer==='Yes'?'selected':''}>Yes</option>
+      <option value="Partial" ${q.answer==='Partial'?'selected':''}>Partial</option>
+      <option value="No" ${q.answer==='No'?'selected':''}>No</option>
+    </select></div>
+    <div class="mrow-edit"><textarea id="me_notes_${rowId}">${q.notes||''}</textarea></div>
+    <div class="mrow-edit"><textarea id="me_sol_${rowId}">${q.solution||''}</textarea></div>
+    <div class="mrow-edit"><textarea id="me_act_${rowId}">${q.action||''}</textarea></div>
+    <div class="mrow-edit"><input type="text" id="me_due_${rowId}" value="${q.due||''}" style="width:100%;padding:4px 6px;border-radius:4px;border:1px solid var(--inp-b);background:var(--inp-bg);color:var(--t);font-size:11px;outline:none;text-align:center" placeholder="MM/DD/YYYY"></div>`;
+  // Add save/cancel buttons below the row
+  const actionsDiv=document.createElement('div');
+  actionsDiv.className='mrow-actions';
+  actionsDiv.innerHTML=`<button class="save-btn" onclick="saveMeddpiccRow('${oppId}','${secKey}',${qIdx})">Save</button>
+    <button class="cancel-btn" onclick="showDetail('${oppId}')">Cancel</button>`;
+  rowEl.parentElement.insertBefore(actionsDiv,rowEl.nextSibling);
+}
+
+function saveMeddpiccRow(oppId,secKey,qIdx){
+  const rowId='mrow_'+secKey+'_'+qIdx;
+  const opp=opps.find(o=>o.id===oppId);if(!opp)return;
+  const q=opp.meddpicc[secKey].questions[qIdx];
+  q.answer=document.getElementById('me_ans_'+rowId).value;
+  q.notes=document.getElementById('me_notes_'+rowId).value;
+  q.solution=document.getElementById('me_sol_'+rowId).value;
+  q.action=document.getElementById('me_act_'+rowId).value;
+  q.due=document.getElementById('me_due_'+rowId).value;
+  q.score=q.answer==='Yes'?1:q.answer==='Partial'?0.5:0;
+  // Recalculate scores
+  recalcScores(opp);
+  // Save all edits to localStorage
+  const key='meddpicc_'+secKey+'_'+qIdx;
+  saveEdit(oppId,key,{answer:q.answer,notes:q.notes,solution:q.solution,action:q.action,due:q.due});
+  showDetail(oppId);
+}
+
+function recalcScores(opp){
+  const scores={};let totalScore=0,totalMax=0;
+  Object.entries(opp.meddpicc).forEach(([k,sec])=>{
+    const score=sec.questions.reduce((s,q)=>s+(q.score||0),0);
+    const max=sec.questions.length;
+    scores[sec.label]={score,max,pct:Math.round(score/max*100)};
+    totalScore+=score;totalMax+=max;
+  });
+  const pct=Math.round(totalScore/totalMax*100);
+  scores._total={score:totalScore,max:totalMax,pct,status:pct<50?'at-risk':pct<75?'on-track':'good-health'};
+  opp.scores=scores;
 }
 
 // ============================================================
@@ -321,7 +420,8 @@ async function delComment(id){await deleteComment(currentOpp.id,id);renderCommen
 // ============================================================
 // NAV
 // ============================================================
-function goBack(){history.replaceState(null,null,' ');currentOpp=null;renderList()}
+function goHome(){history.replaceState(null,null,' ');currentOpp=null;renderList()}
+function goBack(){goHome()}
 window.addEventListener('hashchange',()=>{const h=location.hash.replace('#','');if(h)showDetail(h);else renderList()});
 
 // ============================================================
