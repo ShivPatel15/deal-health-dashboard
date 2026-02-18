@@ -1,8 +1,8 @@
 const DEAL_DATA = {
   "team": {
-    "name": "Sales Large \u2014 EMEA"
+    "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-18T19:10:57.008Z",
+  "generatedAt": "2026-02-18T21:40:35.520Z",
   "owners": [
     "Adriana Colacicco"
   ],
@@ -28,8 +28,8 @@ const DEAL_DATA = {
         "b2bGmv": null,
         "retailGmv": null,
         "paymentsGpv": 13860032.55,
-        "ipp": 0,
-        "paymentsAttached": true
+        "paymentsAttached": true,
+        "ipp": 0
       },
       "projectedBilledRevenue": 435319.79,
       "products": [
@@ -42,10 +42,10 @@ const DEAL_DATA = {
       "nextStep": "02/18 - Spoke to David Duke and we are on track to get it signed before end of Feb",
       "narrative": {
         "oppSummary": "Moda in Pelle is a $75,900 MCV new business opportunity ($1.04M total 3-year revenue) for a UK-based footwear and accessories retailer with 27 physical stores/concessions and a growing ecommerce presence. The company recently underwent an acquisition and leadership change, which has prompted a full review of their technology stack. They are migrating from Visualsoft (their current platform and implementation partner) to Shopify Plus with Shopify Payments, targeting a contract signature by end of February 2026 and a go-live in March/April 2026.",
-        "whyChange": "Moda in Pelle has experienced significant brand and business damage over the past 12 months due to their current technology limitations. Matt Holden stated: 'I think the last 12 months have been tricky. I don't think we put our best foot forward. Probably damaged the brand more than we should have done.' The company's recent acquisition and change in leadership has triggered a comprehensive review of their technology infrastructure, with the new owners giving them 'a green light to pretty much do what we want from an ecom perspective.' Their current platform has left them stuck \u2014 Matt acknowledged that without action 'we'll be sat with the same site for the next 10 years.' The business needs a more capable ecommerce solution to drive online sales diversification.",
-        "whyShopify": "Shopify is being evaluated as the platform that can modernize Moda in Pelle's ecommerce operations and unify their online and retail presence. The team has already invested significant effort in backend integration work \u2014 Matt confirmed 'we have internally actually already built the connection between our systems and Shopify.' Shopify Payments offers a competitive rate structure (1.1% domestic vs. their current blended 1.18%), and approximately \u00a327,000 in incremental revenue estimated from Shop Pay's 23 million UK user base. Visualsoft, their current platform provider, is pivoting to become the Shopify implementation partner for the front-end build, which provides continuity while upgrading the underlying technology. POS is also a consideration for their 27 store locations, though bespoke functionality requirements exist.",
-        "whyNow": "The acquisition and leadership change is the primary catalyst. The new owners have authorized the ecommerce team to modernize, and the board is actively reviewing P&L projections, team structures, and 3-5 year goals. There is a concrete timeline: contract signature targeted for end of February 2026, with a March/April 2026 go-live. Shopify's discounted pricing (0.8% retail transaction rate, promotional credits) has been held beyond the original December 2025 deadline, and internal credibility for maintaining these rates is eroding \u2014 creating commercial urgency to finalize the deal now.",
-        "supportNeeded": "1) Maintain discounted pricing credibility \u2014 clear communication of a firm deadline may force signature action. 2) POS bespoke functionality assessment \u2014 Matt identified 'four or five things which in our world will be showstoppers' for full POS rollout. 3) SEO migration risk mitigation \u2014 Matt stated 'It's primarily the SEO stuff that we're worried about.' 4) Engage the actual decision maker (Anil Patel) \u2014 invited to ALL 3 calls, attended NONE. 5) Engage Finance Director (Chloe Sherwood) \u2014 ZERO engagement to date. 6) Commercial handoff clarity \u2014 Shiv Patel and Ben Homer being introduced as post-sale contacts."
+        "whyChange": "Moda in Pelle has experienced significant brand and business damage over the past 12 months due to their current technology limitations. Matt Holden stated: 'I think the last 12 months have been tricky. I don't think we put our best foot forward. Probably damaged the brand more than we should have done.' The company's recent acquisition and change in leadership has triggered a comprehensive review of their technology infrastructure, with the new owners giving them 'a green light to pretty much do what we want from an ecom perspective.' Their current platform has left them stuck — Matt acknowledged that without action 'we'll be sat with the same site for the next 10 years.' The business needs a more capable ecommerce solution to drive online sales diversification.",
+        "whyShopify": "Shopify is being evaluated as the platform that can modernize Moda in Pelle's ecommerce operations and unify their online and retail presence. The team has already invested significant effort in backend integration work — Matt confirmed 'we have internally actually already built the connection between our systems and Shopify.' Shopify Payments offers a competitive rate structure (1.1% domestic vs. their current blended 1.18%), and approximately £27,000 in incremental revenue estimated from Shop Pay's 23 million UK user base. Visualsoft, their current platform provider, is pivoting to become the Shopify implementation partner for the front-end build, which provides continuity while upgrading the underlying technology. POS is also a consideration for their 27 store locations, though bespoke functionality requirements exist.",
+        "whyNow": "The acquisition and leadership change is the primary catalyst. The new owners have authorized the ecommerce team to modernize, and the board is actively reviewing P&L projections, team structures, and 3-5 year goals. There is a concrete timeline: contract signature targeted for end of February 2026, with a March/April 2026 go-live. Shopify's discounted pricing (0.8% retail transaction rate, promotional credits) has been held beyond the original December 2025 deadline, and internal credibility for maintaining these rates is eroding — creating commercial urgency to finalize the deal now.",
+        "supportNeeded": "1) Maintain discounted pricing credibility — clear communication of a firm deadline may force signature action. 2) POS bespoke functionality assessment — Matt identified 'four or five things which in our world will be showstoppers' for full POS rollout. 3) SEO migration risk mitigation — Matt stated 'It's primarily the SEO stuff that we're worried about.' 4) Engage the actual decision maker (Anil Patel) — invited to ALL 3 calls, attended NONE. 5) Engage Finance Director (Chloe Sherwood) — ZERO engagement to date. 6) Commercial handoff clarity — Shiv Patel and Ben Homer being introduced as post-sale contacts."
       },
       "meddpicc": {
         "metrics": {
@@ -65,7 +65,7 @@ const DEAL_DATA = {
               "q": "Do we have specific quantifiable goals aligned with the project?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Some financial metrics discussed \u2014 \u00a327K estimated incremental revenue from Shop Pay, ~\u00a31K increase in payment fees offset by revenue uplift. D2C GMV of $21.3M captured. However, no specific growth targets, conversion rate goals, or P&L benchmarks shared by the merchant.",
+              "notes": "Some financial metrics discussed — £27K estimated incremental revenue from Shop Pay, ~£1K increase in payment fees offset by revenue uplift. D2C GMV of $21.3M captured. However, no specific growth targets, conversion rate goals, or P&L benchmarks shared by the merchant.",
               "solution": "Request specific quantifiable goals (revenue growth targets, conversion improvements, cost savings) from Matt or Anil.",
               "action": "Ask Matt/Anil to share the board-facing business case metrics so Shopify can align value narrative.",
               "due": "02/21/2026",
@@ -115,7 +115,7 @@ const DEAL_DATA = {
               "q": "Are the metrics compelling enough to justify change?",
               "answer": "Yes",
               "score": 1,
-              "notes": "The decision to change has effectively been made \u2014 backend integrations built, Visualsoft engaged as implementation partner, Matt stated 'we are very much looking to move forward.' New ownership mandate provides top-down justification.",
+              "notes": "The decision to change has effectively been made — backend integrations built, Visualsoft engaged as implementation partner, Matt stated 'we are very much looking to move forward.' New ownership mandate provides top-down justification.",
               "solution": "N/A",
               "action": "N/A",
               "due": "",
@@ -130,7 +130,7 @@ const DEAL_DATA = {
               "q": "Have I identified the true economic buyer?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Salesforce lists David Duke (Visualsoft partner) as Economic Buyer, which is unusual. Anil Patel is Decision Maker. Matt references presenting to 'the board.' The true economic buyer may be board/ownership, CEO Simon Pickering, or Anil \u2014 this is unclear.",
+              "notes": "Salesforce lists David Duke (Visualsoft partner) as Economic Buyer, which is unusual. Anil Patel is Decision Maker. Matt references presenting to 'the board.' The true economic buyer may be board/ownership, CEO Simon Pickering, or Anil — this is unclear.",
               "solution": "Clarify who actually signs and approves budget for this investment.",
               "action": "Ask Matt or David Duke directly: 'Who gives final budget approval for this platform investment?'",
               "due": "02/20/2026",
@@ -195,7 +195,7 @@ const DEAL_DATA = {
               "q": "Do we know how they will be making the decision?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Decision to migrate appears largely made \u2014 backend integration built, Visualsoft engaged. However, formal approval/signature process unclear. Matt referenced board presentations and investor approvals still in progress.",
+              "notes": "Decision to migrate appears largely made — backend integration built, Visualsoft engaged. However, formal approval/signature process unclear. Matt referenced board presentations and investor approvals still in progress.",
               "solution": "Confirm if platform decision is fully approved or if commercial terms still need formal board sign-off.",
               "action": "Ask Matt or David: 'Is the platform decision approved and we're just finalizing commercial terms, or is there still a go/no-go decision pending?'",
               "due": "02/20/2026",
@@ -205,7 +205,7 @@ const DEAL_DATA = {
               "q": "Do we know who's involved / buying committee?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Known: Anil Patel (Decision Maker), Matt Holden (operational lead), Chloe Sherwood (Finance), Jason Holt (IT), David Duke (partner). Engagement heavily skewed \u2014 only Matt and occasionally David participate. Board/investor individuals unknown.",
+              "notes": "Known: Anil Patel (Decision Maker), Matt Holden (operational lead), Chloe Sherwood (Finance), Jason Holt (IT), David Duke (partner). Engagement heavily skewed — only Matt and occasionally David participate. Board/investor individuals unknown.",
               "solution": "Map the full buying committee and their approval roles.",
               "action": "Ask Matt: 'Beyond yourself and Anil, who else needs to approve or be consulted before we can execute the contract?'",
               "due": "02/20/2026",
@@ -272,7 +272,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Some criteria surfaced: SEO migration, POS bespoke functionality (4-5 'showstoppers'), payment rates, integration with existing systems, timeline. No formal evaluation criteria or scorecard shared. Decision appears Shopify-or-stay rather than multi-vendor.",
               "solution": "Confirm whether there's a formal evaluation framework.",
-              "action": "Ask Matt: 'Beyond SEO, POS, and payments \u2014 what are the other key criteria your team is evaluating?'",
+              "action": "Ask Matt: 'Beyond SEO, POS, and payments — what are the other key criteria your team is evaluating?'",
               "due": "02/24/2026",
               "highlight": false
             },
@@ -280,7 +280,7 @@ const DEAL_DATA = {
               "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "D2C thoroughly discussed. POS discussed at high level \u2014 27 stores, bespoke functionality requirements identified but not fully scoped. B2B not discussed (null in Salesforce). Omnichannel integration not deeply explored.",
+              "notes": "D2C thoroughly discussed. POS discussed at high level — 27 stores, bespoke functionality requirements identified but not fully scoped. B2B not discussed (null in Salesforce). Omnichannel integration not deeply explored.",
               "solution": "Complete POS requirements scoping and assess if B2B is relevant.",
               "action": "Schedule a POS deep-dive with Matt and Jason Holt to document the 4-5 showstopper requirements.",
               "due": "02/24/2026",
@@ -300,7 +300,7 @@ const DEAL_DATA = {
               "q": "Do we know how payments play into their decision?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Thoroughly discussed in Sep 23 call. Current blended rate 1.18%, Shopify offering 1.1% domestic + 2.3% AMEX. ~\u00a31K fee increase offset by ~\u00a327K Shop Pay revenue uplift. Retail rate 0.8%/0.9% also discussed. Payments are a component of the deal.",
+              "notes": "Thoroughly discussed in Sep 23 call. Current blended rate 1.18%, Shopify offering 1.1% domestic + 2.3% AMEX. ~£1K fee increase offset by ~£27K Shop Pay revenue uplift. Retail rate 0.8%/0.9% also discussed. Payments are a component of the deal.",
               "solution": "N/A",
               "action": "N/A",
               "due": "",
@@ -345,7 +345,7 @@ const DEAL_DATA = {
               "q": "Do we know what their procurement process is?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Matt described board presentations and investor sign-off. Anil apparently has authority to sign. But formal procurement steps \u2014 legal review, finance approval, PO requirements \u2014 not discussed.",
+              "notes": "Matt described board presentations and investor sign-off. Anil apparently has authority to sign. But formal procurement steps — legal review, finance approval, PO requirements — not discussed.",
               "solution": "Map the full procurement workflow.",
               "action": "Ask Matt/David: 'Once Anil agrees to terms, what's the process? Does legal or finance need to review? Is a PO required?'",
               "due": "02/20/2026",
@@ -375,7 +375,7 @@ const DEAL_DATA = {
               "q": "Do we know how long it will take?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Multiple timeline estimates given \u2014 all slipped. Matt said 'aim of signing next month' (Jan) in December call \u2014 slipped. Yasmine said 'ready to sign this week' on Jan 21 \u2014 slipped. Current target end of Feb. Pattern of optimistic timelines that slip.",
+              "notes": "Multiple timeline estimates given — all slipped. Matt said 'aim of signing next month' (Jan) in December call — slipped. Yasmine said 'ready to sign this week' on Jan 21 — slipped. Current target end of Feb. Pattern of optimistic timelines that slip.",
               "solution": "Set a firm, mutually committed deadline.",
               "action": "Shiv to confirm with David Duke: 'Is end of February a hard commitment or an aspiration? What could cause another slip?'",
               "due": "02/20/2026",
@@ -460,7 +460,7 @@ const DEAL_DATA = {
               "q": "Do we know how urgent it is to solve this pain?",
               "answer": "Yes",
               "score": 1,
-              "notes": "High urgency \u2014 new ownership mandate, commercial decision made to 'bite the bullet,' backend integration already built, implementation partner engaged, target go-live March/April 2026. However, urgency hasn't translated into fast execution (deal in SF since July 2024).",
+              "notes": "High urgency — new ownership mandate, commercial decision made to 'bite the bullet,' backend integration already built, implementation partner engaged, target go-live March/April 2026. However, urgency hasn't translated into fast execution (deal in SF since July 2024).",
               "solution": "N/A but note execution gap vs. stated urgency.",
               "action": "N/A",
               "due": "",
@@ -505,7 +505,7 @@ const DEAL_DATA = {
               "q": "Have you identified a true champion (influence + motivation)?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Matt Holden is the most engaged contact \u2014 attended all 3 calls, primary spokesperson. Highly motivated but title is 'Head of Digital' which may limit influence on budget/contract decisions. May be more 'coach' than true champion. David Duke is an external advocate, not internal champion.",
+              "notes": "Matt Holden is the most engaged contact — attended all 3 calls, primary spokesperson. Highly motivated but title is 'Head of Digital' which may limit influence on budget/contract decisions. May be more 'coach' than true champion. David Duke is an external advocate, not internal champion.",
               "solution": "Assess whether Matt has the influence to drive contract signature or if a more senior internal champion is needed.",
               "action": "Ask Matt: 'Do you have everything you need to get this across the line internally, or is there anything we can do to support you with the board/Anil?'",
               "due": "02/21/2026",
@@ -515,7 +515,7 @@ const DEAL_DATA = {
               "q": "Does your champion have political capital and credibility?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Matt appears credible \u2014 given operational authority ('green light to do what we want from an ecom perspective'). Presenting to board on P&L. However, past failed platform change attempts ('hasn't worked out') may have eroded some credibility on execution timelines.",
+              "notes": "Matt appears credible — given operational authority ('green light to do what we want from an ecom perspective'). Presenting to board on P&L. However, past failed platform change attempts ('hasn't worked out') may have eroded some credibility on execution timelines.",
               "solution": "Help Matt build credibility by providing polished materials for board presentations.",
               "action": "Provide Matt with a polished business case summary (ROI, timeline, risk mitigation) for board presentation.",
               "due": "02/21/2026",
@@ -545,7 +545,7 @@ const DEAL_DATA = {
               "q": "Have you been introduced to the decision maker?",
               "answer": "No",
               "score": 0,
-              "notes": "Anil invited to all 3 calls, attended none. All communication has been indirect \u2014 through Matt or David Duke. Shopify has never had a direct conversation with the primary decision maker. SIGNIFICANT risk for a deal at 80% probability in 'Commit' forecast.",
+              "notes": "Anil invited to all 3 calls, attended none. All communication has been indirect — through Matt or David Duke. Shopify has never had a direct conversation with the primary decision maker. SIGNIFICANT risk for a deal at 80% probability in 'Commit' forecast.",
               "solution": "Secure a direct introduction before contract signature.",
               "action": "Shiv to ask David Duke to arrange a 10-minute call with Anil, framing it as a 'welcome to Shopify' executive touch-point.",
               "due": "02/21/2026",
@@ -590,7 +590,7 @@ const DEAL_DATA = {
               "q": "Have we asked if doing nothing is an option?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Not directly asked, but Matt's statements strongly imply doing nothing is not viable: 'otherwise we'll be sat with the same site for the next 10 years.' However, deal has been in SF since July 2024 with multiple missed deadlines \u2014 arguably they HAVE been 'doing nothing' for 18+ months.",
+              "notes": "Not directly asked, but Matt's statements strongly imply doing nothing is not viable: 'otherwise we'll be sat with the same site for the next 10 years.' However, deal has been in SF since July 2024 with multiple missed deadlines — arguably they HAVE been 'doing nothing' for 18+ months.",
               "solution": "Address the pattern of delay directly.",
               "action": "Shiv to frame: 'Given past slippage, what's different this time that gives you confidence February will stick?'",
               "due": "02/20/2026",
@@ -602,7 +602,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Current Visualsoft platform is the status quo alternative. No custom/in-house build consideration. Backend Shopify integration already built. However, POS showstoppers could lead to maintaining existing retail systems rather than adopting Shopify POS.",
               "solution": "Ensure POS isn't a deal-breaker that sends them looking for hybrid solutions.",
-              "action": "Clarify that POS can be phased \u2014 secure D2C commitment first, address POS requirements separately.",
+              "action": "Clarify that POS can be phased — secure D2C commitment first, address POS requirements separately.",
               "due": "02/21/2026",
               "highlight": false
             },
@@ -629,6 +629,329 @@ const DEAL_DATA = {
           ]
         }
       },
+      "scores": {
+        "Metrics": {
+          "score": 5.5,
+          "max": 7,
+          "pct": 79
+        },
+        "Economic Buyer": {
+          "score": 2.5,
+          "max": 6,
+          "pct": 42
+        },
+        "Decision Process": {
+          "score": 4,
+          "max": 7,
+          "pct": 57
+        },
+        "Decision Criteria": {
+          "score": 3.5,
+          "max": 7,
+          "pct": 50
+        },
+        "Paper Process": {
+          "score": 3.5,
+          "max": 7,
+          "pct": 50
+        },
+        "Identify Pain": {
+          "score": 6.5,
+          "max": 8,
+          "pct": 81
+        },
+        "Champion": {
+          "score": 3.5,
+          "max": 7,
+          "pct": 50
+        },
+        "Competition": {
+          "score": 3.5,
+          "max": 5,
+          "pct": 70
+        },
+        "_total": {
+          "score": 32.5,
+          "max": 54,
+          "pct": 60,
+          "status": "On Track"
+        }
+      },
+      "nextSteps": [
+        {
+          "p": 1,
+          "cat": "Metrics",
+          "issue": "Some financial metrics discussed — £27K estimated incremental revenue from Shop Pay, ~£1K increase in payment fees offset by revenue uplift. D2C GMV of $21.3M captured. However, no specific growth targets, conversion rate goals, or P&L benchmarks shared by the merchant.",
+          "rec": "Ask Matt/Anil to share the board-facing business case metrics so Shopify can align value narrative.",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 2,
+          "cat": "Metrics",
+          "issue": "Matt referenced brand damage and implied business stagnation. The acquisition context suggests new ownership expects modernization. However, no specific financial impact of inaction has been quantified.",
+          "rec": "Work with Matt to articulate what continued platform stagnation means in revenue/brand terms for board justification.",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 3,
+          "cat": "Metrics",
+          "issue": "Yasmine shared payment fee analysis and Shop Pay estimates. Matt asked to review calculations for annual model. However, Anil (decision maker) has never been on a call to validate anything.",
+          "rec": "Request a brief validation call with Anil to confirm business case alignment before signature.",
+          "due": "02/24/2026"
+        },
+        {
+          "p": 4,
+          "cat": "Economic Buyer",
+          "issue": "Salesforce lists David Duke (Visualsoft partner) as Economic Buyer, which is unusual. Anil Patel is Decision Maker. Matt references presenting to 'the board.' The true economic buyer may be board/ownership, CEO Simon Pickering, or Anil — this is unclear.",
+          "rec": "Ask Matt or David Duke directly: 'Who gives final budget approval for this platform investment?'",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 5,
+          "cat": "Economic Buyer",
+          "issue": "Yasmine stated 'Anil has told David that he's ready to sign this week' (Jan 21 call), suggesting Anil may be signatory. However, board approval process described suggests additional authorization may be needed.",
+          "rec": "Confirm with David Duke whether Anil has full signing authority or if board/finance sign-off is needed.",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 6,
+          "cat": "Economic Buyer",
+          "issue": "Anil Patel invited to ALL 3 calls, attended NONE. 62 emails sent / 22 replies. Chloe Sherwood (Finance Director) has ZERO engagement. Simon Pickering (CEO) has ZERO conversations. No direct live engagement with any economic buyer or decision maker.",
+          "rec": "Leverage David Duke's relationship to schedule a 15-min call with Anil to discuss final commercial terms.",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 7,
+          "cat": "Economic Buyer",
+          "issue": "David Duke appears to be the conduit to Anil. Matt is engaged but may not facilitate EB access. Anil responds to emails (22 replies) suggesting reachable but deprioritizes live calls.",
+          "rec": "Shiv to ask David Duke to arrange a brief call or have Anil join the next discussion.",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 8,
+          "cat": "Economic Buyer",
+          "issue": "Board/ownership cares about long-term P&L, team structures, and 3-5 year ecommerce goals. Anil's specific priorities unknown since he hasn't participated in any calls.",
+          "rec": "In any interaction with Anil, ask what his top 3 priorities are for the new platform.",
+          "due": "02/24/2026"
+        },
+        {
+          "p": 9,
+          "cat": "Economic Buyer",
+          "issue": "Matt described a process involving board presentation of P&L, team structures, long-term goals. New investors gave 'green light.' But formal approval chain not documented.",
+          "rec": "Ask Matt: 'Once Anil is ready to sign, does it need finance or board approval, or is he authorized to execute?'",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 10,
+          "cat": "Decision Process",
+          "issue": "Decision to migrate appears largely made — backend integration built, Visualsoft engaged. However, formal approval/signature process unclear. Matt referenced board presentations and investor approvals still in progress.",
+          "rec": "Ask Matt or David: 'Is the platform decision approved and we're just finalizing commercial terms, or is there still a go/no-go decision pending?'",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 11,
+          "cat": "Decision Process",
+          "issue": "Known: Anil Patel (Decision Maker), Matt Holden (operational lead), Chloe Sherwood (Finance), Jason Holt (IT), David Duke (partner). Engagement heavily skewed — only Matt and occasionally David participate. Board/investor individuals unknown.",
+          "rec": "Ask Matt: 'Beyond yourself and Anil, who else needs to approve or be consulted before we can execute the contract?'",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 12,
+          "cat": "Decision Process",
+          "issue": "Matt alluded to past failed attempts: 'We've kind of done that in the past. It hasn't worked out.' Specific details of past attempts not discussed.",
+          "rec": "Ask Matt: 'What specifically caused past attempts to stall, and what's different this time?'",
+          "due": "02/24/2026"
+        },
+        {
+          "p": 13,
+          "cat": "Decision Process",
+          "issue": "Matt stated they'd be 'sat with the same site for the next 10 years' and referenced brand damage. Specific financial consequences not quantified. New ownership mandate implies doing nothing is not politically viable.",
+          "rec": "Help Matt build a cost-of-inaction narrative for internal stakeholders.",
+          "due": "02/24/2026"
+        },
+        {
+          "p": 14,
+          "cat": "Decision Process",
+          "issue": "Decision process communicated only by Matt Holden (operational lead, not EB/DM). Anil has never been on a call. David Duke relayed Anil's intent secondhand. No direct validation from the actual buyer.",
+          "rec": "Shiv to arrange a brief call or email exchange with Anil to confirm timeline, process, and readiness to sign.",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 15,
+          "cat": "Decision Criteria",
+          "issue": "Some criteria surfaced: SEO migration, POS bespoke functionality (4-5 'showstoppers'), payment rates, integration with existing systems, timeline. No formal evaluation criteria or scorecard shared. Decision appears Shopify-or-stay rather than multi-vendor.",
+          "rec": "Ask Matt: 'Beyond SEO, POS, and payments — what are the other key criteria your team is evaluating?'",
+          "due": "02/24/2026"
+        },
+        {
+          "p": 16,
+          "cat": "Decision Criteria",
+          "issue": "D2C thoroughly discussed. POS discussed at high level — 27 stores, bespoke functionality requirements identified but not fully scoped. B2B not discussed (null in Salesforce). Omnichannel integration not deeply explored.",
+          "rec": "Schedule a POS deep-dive with Matt and Jason Holt to document the 4-5 showstopper requirements.",
+          "due": "02/24/2026"
+        },
+        {
+          "p": 17,
+          "cat": "Decision Criteria",
+          "issue": "Matt confirmed backend integration 'already built.' Visualsoft handling front-end. POS bespoke functionality flagged but not detailed. SEO migration risks flagged. No comprehensive technical discovery documented.",
+          "rec": "Ben Homer to schedule technical discovery with Matt and Jason Holt to map all integrations, POS requirements, SEO plan.",
+          "due": "02/24/2026"
+        },
+        {
+          "p": 18,
+          "cat": "Decision Criteria",
+          "issue": "Informal milestones exist (sign by end of Feb, go-live March/April) but no documented mutual action plan with specific steps, owners, and dates.",
+          "rec": "Shiv to draft a mutual action plan with key milestones (signature, kickoff, migration, QA, go-live) and share with Matt/Anil.",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 19,
+          "cat": "Decision Criteria",
+          "issue": "Yasmine shaped the payments narrative with Shop Pay uplift vs. fee increase. Visualsoft partnership inherently shapes criteria in Shopify's favor. However, SEO and POS concerns were raised and not yet fully addressed.",
+          "rec": "Provide SEO migration case studies and POS capability documentation addressing Matt's concerns.",
+          "due": "02/24/2026"
+        },
+        {
+          "p": 20,
+          "cat": "Decision Criteria",
+          "issue": "Matt has been primary voice defining requirements. David Duke influenced technical approach. Unclear whether Anil, board, or other stakeholders have additional criteria not yet surfaced.",
+          "rec": "Ask David Duke: 'Has Anil or the board raised any additional evaluation criteria beyond what Matt has discussed?'",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 21,
+          "cat": "Paper Process",
+          "issue": "Matt described board presentations and investor sign-off. Anil apparently has authority to sign. But formal procurement steps — legal review, finance approval, PO requirements — not discussed.",
+          "rec": "Ask Matt/David: 'Once Anil agrees to terms, what's the process? Does legal or finance need to review? Is a PO required?'",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 22,
+          "cat": "Paper Process",
+          "issue": "Not explicitly discussed. Given Finance Director and Head of IT involvement plus new investor oversight, redlines are plausible. Deal in Salesforce since July 2024 with multiple slippages suggesting internal complexity.",
+          "rec": "Share standard contract terms with Matt/Anil in advance and ask: 'Are there any terms your legal or finance team will want to modify?'",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 23,
+          "cat": "Paper Process",
+          "issue": "Not discussed in any call. No information on legal review timelines or procurement cycle length.",
+          "rec": "Ask Matt: 'If there are contract modifications needed, how long does your legal/finance review typically take?'",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 24,
+          "cat": "Paper Process",
+          "issue": "Multiple timeline estimates given — all slipped. Matt said 'aim of signing next month' (Jan) in December call — slipped. Yasmine said 'ready to sign this week' on Jan 21 — slipped. Current target end of Feb. Pattern of optimistic timelines that slip.",
+          "rec": "Shiv to confirm with David Duke: 'Is end of February a hard commitment or an aspiration? What could cause another slip?'",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 25,
+          "cat": "Paper Process",
+          "issue": "Commercial terms discussed: Plus at $75,900 MCV, 1.1% domestic / 2.3% AMEX, retail rate 0.8%/0.9%, $7K credit. Merchant validation form mentioned. Full contract terms not discussed.",
+          "rec": "Confirm all commercial terms are finalized in the contract and ready for signature.",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 26,
+          "cat": "Paper Process",
+          "issue": "Yasmine mentioned she would 'issue the contract' and 'resend it to Anil CC Matt' in Jan 21 call. AE next step (02/18) suggests ongoing conversations about signing, implying contract may be sent.",
+          "rec": "Verify with David Duke that contract has been delivered to Anil and he's reviewed it.",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 27,
+          "cat": "Paper Process",
+          "issue": "Close date 02/27/2026. AE next step (02/18): 'on track to get it signed before end of Feb.' Multiple prior targets missed.",
+          "rec": "Daily check-ins with David Duke through end of February.",
+          "due": "02/27/2026"
+        },
+        {
+          "p": 28,
+          "cat": "Identify Pain",
+          "issue": "Matt explicitly referenced past failed attempts: 'I don't want to sit here and say to you 100% we can get it done. We've kind of done that in the past. It hasn't worked out.'",
+          "rec": "If not already known, ask Matt what specifically derailed prior attempts.",
+          "due": "02/24/2026"
+        },
+        {
+          "p": 29,
+          "cat": "Identify Pain",
+          "issue": "Ecommerce team (Matt, Anil) clearly affected. IT team involved given integration work. Marketing implied through SEO concerns. Retail/stores team affected by POS decisions (27 locations). Finance affected by P&L implications. Extent per team not quantified.",
+          "rec": "Ask Matt to describe which teams are most affected by current platform limitations.",
+          "due": "02/24/2026"
+        },
+        {
+          "p": 30,
+          "cat": "Identify Pain",
+          "issue": "They've already invested in Shopify backend integrations and engaged Visualsoft as Shopify implementation partner. Switching would mean significant sunk cost. 'Doing nothing' described as untenable by Matt. However, POS showstoppers could lead to partial hybrid solutions.",
+          "rec": "Reference backend integration work already completed as evidence of momentum.",
+          "due": ""
+        },
+        {
+          "p": 31,
+          "cat": "Identify Pain",
+          "issue": "Shopify Plus addresses core needs (modern ecommerce, payments, potential POS). Visualsoft's pivot validates Shopify. However, POS 'showstoppers' (4-5 items) and SEO migration concerns are unresolved areas where Shopify's positioning is not yet confirmed.",
+          "rec": "Ben Homer to prepare a POS capability assessment against Matt's specific showstoppers and an SEO migration plan.",
+          "due": "02/24/2026"
+        },
+        {
+          "p": 32,
+          "cat": "Champion",
+          "issue": "Matt Holden is the most engaged contact — attended all 3 calls, primary spokesperson. Highly motivated but title is 'Head of Digital' which may limit influence on budget/contract decisions. May be more 'coach' than true champion. David Duke is an external advocate, not internal champion.",
+          "rec": "Ask Matt: 'Do you have everything you need to get this across the line internally, or is there anything we can do to support you with the board/Anil?'",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 33,
+          "cat": "Champion",
+          "issue": "Matt appears credible — given operational authority ('green light to do what we want from an ecom perspective'). Presenting to board on P&L. However, past failed platform change attempts ('hasn't worked out') may have eroded some credibility on execution timelines.",
+          "rec": "Provide Matt with a polished business case summary (ROI, timeline, risk mitigation) for board presentation.",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 34,
+          "cat": "Champion",
+          "issue": "Anil invited to all 3 calls, attended none. All communication has been indirect — through Matt or David Duke. Shopify has never had a direct conversation with the primary decision maker. SIGNIFICANT risk for a deal at 80% probability in 'Commit' forecast.",
+          "rec": "Shiv to ask David Duke to arrange a 10-minute call with Anil, framing it as a 'welcome to Shopify' executive touch-point.",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 35,
+          "cat": "Champion",
+          "issue": "No evidence of willingness or attempt to bring Shopify into board-level discussions. Matt is the buffer. Board, CEO (Simon Pickering), and Finance Director (Chloe Sherwood) have zero direct engagement.",
+          "rec": "Ask Matt: 'Would it help if someone from Shopify leadership joined a brief call with your board?'",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 36,
+          "cat": "Champion",
+          "issue": "Matt is championing because current platform is failing and new ownership has given him the mandate to modernize. He's invested significant personal effort (backend integration built). Motivation is professional mandate rather than deep product conviction.",
+          "rec": "Proactively address SEO and POS concerns to turn Matt from pragmatic supporter into enthusiastic advocate.",
+          "due": "02/24/2026"
+        },
+        {
+          "p": 37,
+          "cat": "Competition",
+          "issue": "Not directly asked, but Matt's statements strongly imply doing nothing is not viable: 'otherwise we'll be sat with the same site for the next 10 years.' However, deal has been in SF since July 2024 with multiple missed deadlines — arguably they HAVE been 'doing nothing' for 18+ months.",
+          "rec": "Shiv to frame: 'Given past slippage, what's different this time that gives you confidence February will stick?'",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 38,
+          "cat": "Competition",
+          "issue": "Current Visualsoft platform is the status quo alternative. No custom/in-house build consideration. Backend Shopify integration already built. However, POS showstoppers could lead to maintaining existing retail systems rather than adopting Shopify POS.",
+          "rec": "Clarify that POS can be phased — secure D2C commitment first, address POS requirements separately.",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 39,
+          "cat": "Competition",
+          "issue": "Win: partner support, backend built, ownership mandate, competitive payments, Shop Pay uplift. Lose: POS showstoppers, SEO risk, deal fatigue (18 months), inability to engage DM, timeline slippage pattern, Finance Director/CEO zero engagement.",
+          "rec": "Create a risk register addressing each potential lose factor with mitigation plan; prioritize POS assessment and Anil engagement.",
+          "due": "02/21/2026"
+        }
+      ],
       "stakeholders": [
         {
           "name": "Anil Patel",
@@ -714,7 +1037,7 @@ const DEAL_DATA = {
             "Matt Holden (Head of Digital)",
             "David Duke (Visualsoft)"
           ],
-          "summary": "Yasmine presented payment processing proposal. Current 1.18% blended rate vs Shopify 1.1% domestic + 2.3% AMEX. Slight fee increase of ~\u00a31K offset by ~\u00a327K Shop Pay revenue uplift. Matt requested detailed calculations for annual modeling. $6,900 credit offered for 3 months. Contract deadline Sept 30th."
+          "summary": "Yasmine presented payment processing proposal. Current 1.18% blended rate vs Shopify 1.1% domestic + 2.3% AMEX. Slight fee increase of ~£1K offset by ~£27K Shop Pay revenue uplift. Matt requested detailed calculations for annual modeling. $6,900 credit offered for 3 months. Contract deadline Sept 30th."
         },
         {
           "date": "2025-12-16",
@@ -740,113 +1063,7 @@ const DEAL_DATA = {
           "merchantAttendees": [
             "Matt Holden (Head of Digital)"
           ],
-          "summary": "Contract closing push. Rates expiring \u2014 need signature this week. Matt confirmed 'very much looking to move forward.' Backend integration already built internally, Visualsoft handling front-end. Domain litigation improving (Russell & Bromley precedent). Target online launch April 2026. Yasmine to resend contract to Anil CC Matt. Shiv introduced as commercial contact, Ben Homer as launch SE. Anil invited but did not attend."
-        }
-      ],
-      "scores": {
-        "Metrics": {
-          "score": 5.5,
-          "max": 7,
-          "pct": 79
-        },
-        "Economic Buyer": {
-          "score": 2.5,
-          "max": 6,
-          "pct": 42
-        },
-        "Decision Process": {
-          "score": 4,
-          "max": 7,
-          "pct": 57
-        },
-        "Decision Criteria": {
-          "score": 3.5,
-          "max": 7,
-          "pct": 50
-        },
-        "Paper Process": {
-          "score": 3.5,
-          "max": 7,
-          "pct": 50
-        },
-        "Identify Pain": {
-          "score": 6.5,
-          "max": 8,
-          "pct": 81
-        },
-        "Champion": {
-          "score": 3.5,
-          "max": 7,
-          "pct": 50
-        },
-        "Competition": {
-          "score": 3.5,
-          "max": 5,
-          "pct": 70
-        },
-        "_total": {
-          "score": 32.5,
-          "max": 54,
-          "pct": 60,
-          "status": "on-track"
-        }
-      },
-      "nextSteps": [
-        {
-          "p": "critical",
-          "cat": "Timeline",
-          "issue": "Only 9 days to close date (2026-02-27)",
-          "rec": "Accelerate all pending actions. Daily follow-ups recommended.",
-          "due": "2026-02-27"
-        },
-        {
-          "p": "critical",
-          "cat": "Economic Buyer",
-          "issue": "Have I identified the true economic buyer?",
-          "rec": "Ask Matt or David Duke directly: 'Who gives final budget approval for this platform investment?'",
-          "due": "02/20/2026"
-        },
-        {
-          "p": "critical",
-          "cat": "Economic Buyer",
-          "issue": "Do we know who's signing the contract?",
-          "rec": "Confirm with David Duke whether Anil has full signing authority or if board/finance sign-off is needed.",
-          "due": "02/20/2026"
-        },
-        {
-          "p": "high",
-          "cat": "Decision Criteria",
-          "issue": "Do we know what criteria the customer is using to evaluate vendors?",
-          "rec": "Ask Matt: 'Beyond SEO, POS, and payments \u2014 what are the other key criteria your team is evaluating?'",
-          "due": "02/24/2026"
-        },
-        {
-          "p": "high",
-          "cat": "Decision Criteria",
-          "issue": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
-          "rec": "Schedule a POS deep-dive with Matt and Jason Holt to document the 4-5 showstopper requirements.",
-          "due": "02/24/2026"
-        },
-        {
-          "p": "high",
-          "cat": "Paper Process",
-          "issue": "Do we know what their procurement process is?",
-          "rec": "Ask Matt/David: 'Once Anil agrees to terms, what's the process? Does legal or finance need to review? Is a PO required?'",
-          "due": "02/20/2026"
-        },
-        {
-          "p": "high",
-          "cat": "Paper Process",
-          "issue": "Are there likely to be redlines?",
-          "rec": "Share standard contract terms with Matt/Anil in advance and ask: 'Are there any terms your legal or finance team will want to modify?'",
-          "due": "02/21/2026"
-        },
-        {
-          "p": "critical",
-          "cat": "Stakeholder",
-          "issue": "Decision maker with low engagement: Anil Patel",
-          "rec": "Create dedicated executive engagement plan.",
-          "due": "2026-02-27"
+          "summary": "Contract closing push. Rates expiring — need signature this week. Matt confirmed 'very much looking to move forward.' Backend integration already built internally, Visualsoft handling front-end. Domain litigation improving (Russell & Bromley precedent). Target online launch April 2026. Yasmine to resend contract to Anil CC Matt. Shiv introduced as commercial contact, Ben Homer as launch SE. Anil invited but did not attend."
         }
       ],
       "history": [
@@ -854,7 +1071,7 @@ const DEAL_DATA = {
           "date": "2026-02-18",
           "totalScore": 32.5,
           "totalMax": 54,
-          "status": "on-track",
+          "status": "On Track",
           "sectionScores": {
             "Metrics": 5.5,
             "Economic Buyer": 2.5,
@@ -865,12 +1082,7 @@ const DEAL_DATA = {
             "Champion": 3.5,
             "Competition": 3.5
           },
-          "changes": [
-            {
-              "type": "initial",
-              "message": "Initial analysis"
-            }
-          ]
+          "changes": []
         }
       ]
     },
@@ -895,23 +1107,31 @@ const DEAL_DATA = {
         "b2bGmv": null,
         "retailGmv": 43744512,
         "paymentsGpv": 0,
-        "ipp": 0,
-        "paymentsAttached": true
+        "paymentsAttached": true,
+        "ipp": 0
       },
-      "projectedBilledRevenue": null,
+      "projectedBilledRevenue": 406078.56,
       "products": [
-        "D2C - Standard",
-        "Shopify Payments - D2C Plus, Shopify for ent, CCS"
+        {
+          "name": "D2C - Standard",
+          "code": "PLAN-PLUS-STD",
+          "price": 69000
+        },
+        {
+          "name": "Shopify Payments - D2C Plus, Shopify for ent, CCS",
+          "code": "MSERV-FIN-SP-D2C-P",
+          "price": 0
+        }
       ],
       "competitor": "Adobe Commerce (Magento)",
       "compellingEvent": "Seeking to transition from Salesforce to Shopify due to the need for improved customer experience, enhanced technology stack flexibility, and the desire to overcome existing limitations with their current system, specifically Site Genesis.",
       "nextStep": "10.02 received Statements, parts of Worldpay statement missing, Merchant keen on signing this Q (received email from Fiona today mentioning good to sign in Feb!)",
       "narrative": {
-        "oppSummary": "Whittard of Chelsea: $69,000 new business deal (D2C - Standard Plus), with $714,900 total revenue impact and $16.9M in verified D2C revenue. This is a heritage UK retail brand looking to migrate off Salesforce Commerce Cloud (Site Genesis) to Shopify, driven by high development costs, poor mobile performance, and platform inflexibility. The deal is in Deal Craft stage at 80% probability with a close date of February 27, 2026 \u2014 just 9 days away \u2014 and the merchant has signaled intent to sign in February.",
-        "whyChange": "Whittard is facing significant challenges with their current Salesforce Commerce Cloud (Site Genesis) implementation: high development costs to maintain and evolve the platform, integration complexities that slow down their ability to connect systems, and inadequate mobile performance \u2014 critical for a D2C retailer. They are on Site Genesis (older, legacy SFCC architecture) facing a 'modernize or migrate' decision, and the cost/complexity of upgrading within the Salesforce ecosystem has tipped the scales toward evaluating alternatives. Leadership (CEO and Head of eCommerce) are engaged, indicating this is a strategic priority.",
-        "whyShopify": "Whittard seeks improved customer experience, enhanced technology stack flexibility, and the ability to overcome Site Genesis limitations \u2014 all areas where Shopify Plus excels. The deal originated as a Partner Referral, with trusted agencies (Tryzens, Vervaunt) recommending Shopify. Inclusion of Shopify Payments indicates interest in consolidating payments stack. The team has been preparing UK heritage brand reference stories, mobile conversion wins, and subscription use cases. Whittard is engaging multiple agencies (shortlist of 4) with SFCC migration experience.",
-        "whyNow": "Fiona Scott (Head of eCommerce) directly communicated intent to sign in February 2026. The proposed launch date of July 1, 2026 creates back-pressure \u2014 any delay compresses the migration window. CEO-level engagement, active agency selection, and strategic urgency to move off aging Site Genesis all point to a 'now or never' dynamic for this budget cycle.",
-        "supportNeeded": "1. Complete payment statement collection \u2014 parts of Worldpay statement still missing, prerequisite for Shopify Payments terms, could delay contract given 9-day window\n2. Merchant Validation Form confirmation \u2014 unclear if returned\n3. CEO (Nathan Smith) engagement call \u2014 Fiona mentioned scheduling follow-up, could be final sign-off\n4. UK heritage brand references \u2014 deploy 2-3 reference stories proactively\n5. Agency/partner guidance \u2014 provide input on which of the 4 shortlisted agencies have best SFCC migration experience\n6. Technical support for Vervaunt discovery \u2014 actively follow up to prevent technical blockers"
+        "oppSummary": "Whittard of Chelsea: $69,000 new business deal (D2C - Standard Plus), with $714,900 total revenue impact and $16.9M in verified D2C revenue. This is a heritage UK retail brand looking to migrate off Salesforce Commerce Cloud (Site Genesis) to Shopify, driven by high development costs, poor mobile performance, and platform inflexibility. The deal is in Deal Craft stage at 80% probability with a close date of February 27, 2026 — just 9 days away — and the merchant has signaled intent to sign in February.",
+        "whyChange": "Whittard is facing significant challenges with their current Salesforce Commerce Cloud (Site Genesis) implementation: high development costs to maintain and evolve the platform, integration complexities that slow down their ability to connect systems, and inadequate mobile performance — critical for a D2C retailer. They are on Site Genesis (older, legacy SFCC architecture) facing a 'modernize or migrate' decision, and the cost/complexity of upgrading within the Salesforce ecosystem has tipped the scales toward evaluating alternatives. Leadership (CEO and Head of eCommerce) are engaged, indicating this is a strategic priority.",
+        "whyShopify": "Whittard seeks improved customer experience, enhanced technology stack flexibility, and the ability to overcome Site Genesis limitations — all areas where Shopify Plus excels. The deal originated as a Partner Referral, with trusted agencies (Tryzens, Vervaunt) recommending Shopify. Inclusion of Shopify Payments indicates interest in consolidating payments stack. The team has been preparing UK heritage brand reference stories, mobile conversion wins, and subscription use cases. Whittard is engaging multiple agencies (shortlist of 4) with SFCC migration experience.",
+        "whyNow": "Fiona Scott (Head of eCommerce) directly communicated intent to sign in February 2026. The proposed launch date of July 1, 2026 creates back-pressure — any delay compresses the migration window. CEO-level engagement, active agency selection, and strategic urgency to move off aging Site Genesis all point to a 'now or never' dynamic for this budget cycle.",
+        "supportNeeded": "1. Complete payment statement collection — parts of Worldpay statement still missing, prerequisite for Shopify Payments terms, could delay contract given 9-day window\n2. Merchant Validation Form confirmation — unclear if returned\n3. CEO (Nathan Smith) engagement call — Fiona mentioned scheduling follow-up, could be final sign-off\n4. UK heritage brand references — deploy 2-3 reference stories proactively\n5. Agency/partner guidance — provide input on which of the 4 shortlisted agencies have best SFCC migration experience\n6. Technical support for Vervaunt discovery — actively follow up to prevent technical blockers"
       },
       "meddpicc": {
         "metrics": {
@@ -1495,6 +1715,70 @@ const DEAL_DATA = {
           ]
         }
       },
+      "scores": {
+        "Metrics": {
+          "score": 6.5,
+          "max": 7,
+          "pct": 93
+        },
+        "Economic Buyer": {
+          "score": 3.5,
+          "max": 6,
+          "pct": 58
+        },
+        "Decision Process": {
+          "score": 6,
+          "max": 7,
+          "pct": 86
+        },
+        "Decision Criteria": {
+          "score": 4,
+          "max": 7,
+          "pct": 57
+        },
+        "Paper Process": {
+          "score": 2.5,
+          "max": 7,
+          "pct": 36
+        },
+        "Identify Pain": {
+          "score": 7.5,
+          "max": 8,
+          "pct": 94
+        },
+        "Champion": {
+          "score": 5,
+          "max": 7,
+          "pct": 71
+        },
+        "Competition": {
+          "score": 3.5,
+          "max": 5,
+          "pct": 70
+        },
+        "_total": {
+          "score": 38.5,
+          "max": 54,
+          "pct": 71,
+          "status": "On Track"
+        }
+      },
+      "nextSteps": [
+        {
+          "p": 1,
+          "cat": "Decision Criteria",
+          "issue": "SE next steps documented but no formal MAP confirmed with buyer",
+          "rec": "Formalize mutual action plan before Feb 27",
+          "due": "2026-02-20"
+        },
+        {
+          "p": 2,
+          "cat": "Paper Process",
+          "issue": "Payment statements partially received; MVF status unknown",
+          "rec": "Confirm MVF status immediately",
+          "due": "2026-02-19"
+        }
+      ],
       "stakeholders": [
         {
           "name": "Alice Bennett",
@@ -1551,111 +1835,12 @@ const DEAL_DATA = {
         }
       ],
       "calls": [],
-      "scores": {
-        "Metrics": {
-          "score": 6.5,
-          "max": 7,
-          "pct": 93
-        },
-        "Economic Buyer": {
-          "score": 3.5,
-          "max": 6,
-          "pct": 58
-        },
-        "Decision Process": {
-          "score": 6,
-          "max": 7,
-          "pct": 86
-        },
-        "Decision Criteria": {
-          "score": 4,
-          "max": 7,
-          "pct": 57
-        },
-        "Paper Process": {
-          "score": 2.5,
-          "max": 7,
-          "pct": 36
-        },
-        "Identify Pain": {
-          "score": 7.5,
-          "max": 8,
-          "pct": 94
-        },
-        "Champion": {
-          "score": 5,
-          "max": 7,
-          "pct": 71
-        },
-        "Competition": {
-          "score": 3.5,
-          "max": 5,
-          "pct": 70
-        },
-        "_total": {
-          "score": 38.5,
-          "max": 54,
-          "pct": 71,
-          "status": "on-track"
-        }
-      },
-      "nextSteps": [
-        {
-          "p": "critical",
-          "cat": "Timeline",
-          "issue": "Only 9 days to close date (2026-02-27)",
-          "rec": "Accelerate all pending actions. Daily follow-ups recommended.",
-          "due": "2026-02-27"
-        },
-        {
-          "p": "critical",
-          "cat": "Paper Process",
-          "issue": "Do we know what their procurement process is?",
-          "rec": "Address this gap to strengthen deal qualification.",
-          "due": ""
-        },
-        {
-          "p": "critical",
-          "cat": "Paper Process",
-          "issue": "Are there likely to be redlines?",
-          "rec": "Address this gap to strengthen deal qualification.",
-          "due": ""
-        },
-        {
-          "p": "high",
-          "cat": "Decision Criteria",
-          "issue": "Do we know what criteria the customer is using to evaluate vendors?",
-          "rec": "Address this gap to strengthen deal qualification.",
-          "due": ""
-        },
-        {
-          "p": "high",
-          "cat": "Decision Criteria",
-          "issue": "Have we surfaced technical complications (integrations)?",
-          "rec": "Address this gap to strengthen deal qualification.",
-          "due": ""
-        },
-        {
-          "p": "high",
-          "cat": "Economic Buyer",
-          "issue": "Have I identified the true economic buyer?",
-          "rec": "Address this gap to strengthen deal qualification.",
-          "due": ""
-        },
-        {
-          "p": "high",
-          "cat": "Economic Buyer",
-          "issue": "Do we know who's signing the contract?",
-          "rec": "Address this gap to strengthen deal qualification.",
-          "due": ""
-        }
-      ],
       "history": [
         {
           "date": "2026-02-18",
           "totalScore": 38.5,
           "totalMax": 54,
-          "status": "on-track",
+          "status": "On Track",
           "sectionScores": {
             "Metrics": 6.5,
             "Economic Buyer": 3.5,
@@ -1666,12 +1851,1047 @@ const DEAL_DATA = {
             "Champion": 5,
             "Competition": 3.5
           },
-          "changes": [
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "006OG00000GJ5IvYAL",
+      "name": "The Dune Group",
+      "accountName": "The Dune Group",
+      "accountId": "0018V00002eqnGJQAY",
+      "owner": "Adriana Colacicco",
+      "ownerEmail": "adriana.colacicco@shopify.com",
+      "stage": "Deal Craft",
+      "closeDate": "2026-02-27",
+      "forecastCategory": "Commit",
+      "probability": 80,
+      "merchantIntent": "Committed - At Risk",
+      "type": "New Business",
+      "created": "2025-08-19",
+      "revenue": {
+        "mcv": 82800,
+        "totalRev3yr": 4269146.5,
+        "d2cGmv": null,
+        "b2bGmv": null,
+        "retailGmv": 97000000,
+        "paymentsGpv": 0,
+        "paymentsAttached": true,
+        "ipp": 0
+      },
+      "projectedBilledRevenue": 641867.88,
+      "products": [
+        "D2C - Standard",
+        "Plus - POS Pro",
+        "Retail Payments - Plus",
+        "Retail Hardware",
+        "Plus Product Suite",
+        "Retail Product Suite"
+      ],
+      "competitor": "Salesforce Commerce Cloud (incumbent)",
+      "compellingEvent": "SF Licensing expiring in FEB / High TCO with current platform. Anakta POS contract breaks in June and September 2026. Budget cycle runs Feb-to-Feb. Two-year SFCC renewal creates hard deadline for web migration by 2027.",
+      "nextStep": "10.02 onsite meeting scheduled for 19th of Feb, awaiting final approval from board, confirmed with Team to put ethernet terminals aside for Dune as we are running out of stock",
+      "narrative": {
+        "oppSummary": "Dune Group – D2C-Retail: $82,800 MCV deal with $4.27M total 3-year revenue (heavily weighted toward Retail Payments at $3.38M). UK-based fashion retailer with 55+ stores and a growing web channel (~$50M online, ~$97M retail), migrating from Salesforce Commerce Cloud + Anakta POS to Shopify Plus + POS Pro. The deal is in Deal Craft at 80% probability with a Feb 27, 2026 target close, but a critical payments pricing blocker emerged: Shopify Payments costs ~£430K more annually than their existing Worldpay arrangement, which directly contradicts Dune's expectation that Shopify would reduce total cost of ownership.",
+        "whyChange": "Dune's current tech stack — Salesforce Commerce Cloud for web and Anakta (Anacar) POS for retail — carries a combined annual cost of approximately $1M USD ($650K SFCC + $350K Anakta), which the business views as excessively high relative to the value delivered. The Salesforce licensing is expiring and the high TCO is a documented compelling event. Their SI partner Tryzens recommended Shopify as an alternative, suggesting the market has moved beyond SFCC for their needs. Additionally, the current POS system has contract break clauses in June and September 2026, creating a natural window to exit. Andy Grainger (who holds final decision authority) explicitly stated concern about operational risk with the web channel — 'growth is 10 points this year...I can't afford risk' — indicating the current platform may be constraining their ability to capitalize on online momentum. The desire for a unified omnichannel experience (replacing disconnected POS and web systems) is a key driver, with Cheryl Lee from Retail Ops flagging that any non-integrated payment solution 'feels like going backwards from a customer experience point of view.'",
+        "whyShopify": "Shopify was recommended by Dune's SI partner Tryzens, lending third-party credibility to the evaluation. The proposed Shopify platform fees (~$180K/yr) represent a dramatic reduction from the ~$1M current stack, and Shopify's team projected a 5–15% conversion uplift on the web channel which, on $50M+ in online revenue, would represent significant incremental growth. The unified POS + web platform on a single stack is a core draw — Dune wants to eliminate the fragmented experience of separate retail and ecommerce systems. Shopify's POS-first migration approach aligns well with Dune's phased strategy (POS in 2026, web in 2027), allowing them to prove value in-store before tackling the higher-risk web migration. However, enthusiasm has been tempered significantly by the payments pricing gap — the team assumed Shopify Payments would be cheaper than third-party processing, and the discovery that it's ~£430K more expensive annually was described by Andy as 'a bit of an issue.'",
+        "whyNow": "The primary timeline drivers are contractual: Anakta POS contract breaks fall in June and September 2026, and budgets run February to February, making February/March 2026 the natural kickoff window for a POS migration targeting summer 2026 completion. Salesforce Commerce Cloud was recently renewed for two years (expiring ~early 2027), which defers the web migration decision but creates a hard deadline to have the full platform strategy decided before that renewal lapses. The combination of expiring licensing, high TCO, and the CEO (Nigel Darwin) being the contract signatory suggests board-level awareness and pressure to rationalize technology spend. If Dune misses the June/September POS contract breaks, they face another cycle locked into Anakta with no improvement to the in-store experience.",
+        "supportNeeded": "1) Resolve the Shopify Payments pricing blocker: The ~£430K annual gap vs. Worldpay is the single biggest risk. Dune needs either significantly improved Shopify Payments rates, a viable integrated Worldpay pathway for POS, or a creative commercial structure that offsets the payments cost delta. 2) Hardware demo and logistics confirmation (scheduled Feb 19): Product team confirmed compatibility but Dune needs confidence hardware can be deployed across 55+ stores by summer 2026. Ethernet terminals being set aside due to stock constraints. 3) TCO flexibility / commercial creativity: Max committed to investigating TCO flexibility. Dune needs a clear apples-to-apples cost comparison. 4) Revenue impact model quantifying the 5-15% conversion uplift for board justification. 5) Phased migration confidence: References or case studies of successful POS-first migrations for similar UK retailers."
+      },
+      "meddpicc": {
+        "metrics": {
+          "label": "Metrics",
+          "questions": [
             {
-              "type": "initial",
-              "message": "Initial analysis"
+              "q": "Do we know the business reasons as to why they are migrating?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Business reasons clearly articulated — high TCO (~$1M/yr current stack), desire for unified omnichannel, platform consolidation, and conversion uplift. Martin and Andy both discussed these in Nov 13 call.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we have specific quantifiable goals aligned with the project?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Some quantifiable goals discussed — 5-15% conversion uplift on ~$50M web revenue, platform cost reduction from ~$1M to ~$180K. However, these are Shopify's projections, not confirmed customer KPIs/targets. Retail-specific metrics not discussed.",
+              "solution": "Validate specific measurable goals with Martin/Andy — what does success look like for POS rollout in Year 1?",
+              "action": "During Feb 19 onsite, ask Martin and Andy to define 3-5 measurable success criteria for the POS migration.",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do they need to make a platform change to achieve this goal?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Current Anakta POS and SFCC are the problems. Contract breaks in June/Sept 2026 and SFCC renewal in 2027 confirm they need to make a platform change. Tryzens (SI partner) recommended migration.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we understand the impact if this goal isn't achieved?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Some impact discussed — Andy mentioned he 'can't afford risk' on web growth (10% YoY). Implied cost of maintaining current stack is unsustainable. But no explicit statement of what happens if they stay on current POS or miss migration window.",
+              "solution": "Quantify the cost of inaction — what does another year on Anakta cost them in operational overhead, customer experience, and missed omnichannel revenue?",
+              "action": "Prepare a 'cost of doing nothing' slide for Feb 19 onsite showing cumulative cost of maintaining current stack through 2027.",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Is there a compelling event in place driving action?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Multiple compelling events — Anakta contract breaks June/Sept 2026, SFCC renewal ~early 2027, budgets run Feb-to-Feb, Salesforce licensing expiring. Documented in Salesforce.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have I validated the metrics with the customer?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Metrics discussed in Nov 13 call but the key financial metrics (payments cost comparison) revealed a major gap. The 5-15% uplift was presented by Shopify, not validated by customer.",
+              "solution": "Need explicit customer validation that the projected savings and uplift numbers are meaningful to their business case.",
+              "action": "At Feb 19 onsite, present updated TCO model and revenue impact model and ask Andy to confirm whether these numbers would support a board approval.",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are the metrics compelling enough to justify change?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Platform cost reduction ($1M → $180K) is compelling, BUT the Shopify Payments pricing gap (~£430K/yr more than Worldpay) dramatically undermines the TCO story. Net savings may not justify migration effort/risk. Andy flagged this as 'a bit of an issue.'",
+              "solution": "Resolve the payments pricing blocker — either reduce Shopify Payments rates, find integrated Worldpay pathway, or restructure commercial terms.",
+              "action": "Present revised payments pricing or alternative payment architecture at Feb 19 onsite. Escalate internally if rate flexibility is needed.",
+              "due": "02/19/2026",
+              "highlight": false
             }
           ]
+        },
+        "economicBuyer": {
+          "label": "Economic Buyer",
+          "questions": [
+            {
+              "q": "Have I identified the true economic buyer?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Andy Grainger confirmed as final decision authority during Nov 13 call. Nigel Darwin (CEO) is the contract signatory per Salesforce.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know who's signing the contract?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Nigel Darwin (CEO) identified as Signatory in Salesforce contact roles.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we have access to this individual?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Andy Grainger was on the Nov 13 call and actively engaged. However, Nigel Darwin (CEO/Signatory) has NOT been on any calls. Salesforce notes mention 'awaiting final approval from board.'",
+              "solution": "Need to engage Nigel Darwin before close date.",
+              "action": "Ask Martin or Andy to facilitate a brief CEO touchpoint or confirm CEO is aligned. At minimum, understand what Nigel needs to see to approve.",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Can we get access?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Access to Andy is confirmed. Access to Nigel Darwin is unclear — no evidence of direct engagement. Board approval is pending per AE notes.",
+              "solution": "Leverage Feb 19 onsite to ask about CEO/board engagement.",
+              "action": "Ask Martin during Feb 19 meeting: 'What does Nigel need to see to give final sign-off? Can we present to him directly?'",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what the economic buyer cares about most?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Andy cares about growth protection, cost reduction, and customer experience. Martin cares about TCO, timeline feasibility, and technical integration. Cheryl cares about in-store experience and operational efficiency. Nigel's priorities not directly known.",
+              "solution": "Confirm Nigel's priorities.",
+              "action": "Ask Martin: 'When the board reviews this, what are the top 3 things Nigel will focus on?'",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do you know how they make decisions and allocate budget?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Budget cycle is Feb-to-Feb (confirmed by Martin). Board approval is required. Decision-making process beyond that is unclear — how many board approvals? Formal business case template? Procurement involvement?",
+              "solution": "Map the full approval workflow.",
+              "action": "During Feb 19 onsite, explicitly ask: 'Walk me through what happens after you decide to proceed — who approves what, and what documentation is needed?'",
+              "due": "02/19/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "decisionProcess": {
+          "label": "Decision Process",
+          "questions": [
+            {
+              "q": "Do we know how they will be making the decision?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "We know board approval is needed, Martin is project lead, Andy has decision authority. But specific steps — business case submission, board meeting dates, procurement review, legal review — are not mapped.",
+              "solution": "Need a detailed decision process map.",
+              "action": "Ask Martin at Feb 19 onsite to walk through the internal approval process step by step.",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know who's involved / buying committee?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "We know Martin, Andy, Cheryl, and Nigel. Tryzens (SI partner) is influential. Don't know if finance, legal, or procurement stakeholders are involved in the buying committee.",
+              "solution": "Identify all stakeholders involved in final sign-off.",
+              "action": "Ask Martin: 'Beyond yourself, Andy, and Nigel, who else needs to weigh in or approve before we can move forward?'",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know when they want to make a decision by?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Target close date is Feb 27. POS migration start targeted Feb/March 2026. But board approval timeline is unclear — no confirmed decision date from customer's side.",
+              "solution": "Confirm the actual board decision date.",
+              "action": "Ask Martin: 'When is the board meeting where this will be reviewed? Is Feb 27 realistic for contract execution?'",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what is driving this timeline?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Timeline driven by Anakta contract breaks (June/Sept 2026), Feb-to-Feb budget cycle, and desire to complete POS rollout by summer 2026. Martin explicitly stated these dates.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know if they have tried to solve this problem before?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Not explicitly discussed whether Dune has attempted a POS replacement or platform migration before. SFCC two-year renewal suggests caution.",
+              "solution": "Understand migration history.",
+              "action": "Ask Martin: 'Have you attempted a POS or platform migration before? What lessons from past projects should we factor in?'",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what will happen if they do nothing?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Andy implied staying on current stack is costly and risky to growth, but no explicit articulation of what happens if they do nothing. Cost of inaction not quantified.",
+              "solution": "Build a cost-of-inaction narrative.",
+              "action": "Prepare and present 'cost of doing nothing' analysis for Feb 19 meeting.",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have you validated this process with the buyer?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No evidence that Martin or Andy has explicitly validated the decision process in response to a direct question. Process discussed organically but not formally confirmed.",
+              "solution": "Get explicit confirmation of the decision process.",
+              "action": "At Feb 19, present your understanding of their decision process and ask them to confirm or correct it. Document in a mutual action plan.",
+              "due": "02/19/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "decisionCriteria": {
+          "label": "Decision Criteria",
+          "questions": [
+            {
+              "q": "Do we know what criteria the customer is using to evaluate vendors?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Some criteria surfaced — TCO reduction, unified omnichannel, payment costs, customer experience, low risk to web growth. No formal evaluation criteria document or scorecard shared.",
+              "solution": "Ask if there's a formal evaluation framework or vendor scorecard.",
+              "action": "Ask Martin: 'Are you evaluating vendors against a formal set of criteria? Can you share what those criteria are?'",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "D2C and POS discussed extensively. Retail Payments is a major blocker. B2B not discussed. Detailed capability mapping (BOPIS, endless aisle, clienteling) not covered.",
+              "solution": "Conduct a detailed omnichannel capability discussion.",
+              "action": "During Feb 19 hardware demo, walk through full POS capability set including omnichannel features and confirm which are priority for Dune.",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have we surfaced technical complications (integrations)?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Worldpay integration surfaced as critical technical complication — Sarah noted Worldpay isn't integrated with Shopify POS. Cheryl flagged discrepancies and customer experience issues. Major blocker.",
+              "solution": "Investigate Worldpay integration roadmap or alternative payment solutions.",
+              "action": "Provide clear answer on Worldpay integration status and alternatives at Feb 19 meeting.",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how payments play into their decision?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Payments are central to the decision. £430K annual gap is the #1 commercial blocker. Cheryl's operational concerns add UX dimension. Make-or-break criterion.",
+              "solution": "Must be resolved for deal to close.",
+              "action": "Present final payments proposal at Feb 19 — either improved rates or credible integrated alternative.",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we have a mutual action plan in place?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No mutual action plan (MAP) discussed or documented. No shared timeline with milestones, owners, and dates.",
+              "solution": "Create and propose a MAP at Feb 19 onsite.",
+              "action": "Prepare a draft mutual action plan covering: decision date, contract execution, hardware ordering, POS pilot, full rollout, web migration discovery. Present for input.",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Did we help shape those criteria in our favour?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Shopify has influenced evaluation by proposing POS-first approach and positioning conversion uplift/TCO savings. But payments blocker shifted criteria against Shopify. Tryzens recommended Shopify, shaping initial criteria favorably.",
+              "solution": "Reframe decision criteria around total business value rather than payments cost in isolation.",
+              "action": "Build a 'total value' business case showing net positive ROI even with Shopify Payments. Present at Feb 19.",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know who defined the decision criteria?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Tryzens appears to have initially defined criteria by recommending Shopify. Andy and Martin are shaping criteria based on business needs. Not clear if formal procurement or IT evaluation framework drives criteria.",
+              "solution": "Understand who owns criteria definition.",
+              "action": "Ask Martin: 'Who defined the evaluation criteria for this project? Is it coming from IT, the board, or Tryzens?'",
+              "due": "02/19/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "paperProcess": {
+          "label": "Paper Process",
+          "questions": [
+            {
+              "q": "Do we know what their procurement process is?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Procurement process not discussed. No mention of legal review, procurement team involvement, or standard vendor onboarding process.",
+              "solution": "Map the procurement process immediately.",
+              "action": "Ask Martin at Feb 19: 'Once the board approves, what's your procurement/contracting process? Who reviews contracts?'",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are there likely to be redlines?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Not discussed. A UK retailer of this size likely has legal/procurement that will review and redline commercial terms, especially around payment processing and data handling.",
+              "solution": "Anticipate likely redline areas.",
+              "action": "Prepare for potential redlines by having legal pre-review common UK retail contract concerns. Ask about typical review timelines.",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "If redlines, how long does review take?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Not discussed. No data on how long legal/procurement review takes at Dune.",
+              "solution": "Get timeline estimate from Martin.",
+              "action": "Ask Martin: 'If we send a contract after board approval, how long does legal/procurement review typically take?'",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how long it will take?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Overall paper process timeline not established. Close date of Feb 27 unclear if validated with customer or internal target.",
+              "solution": "Validate whether Feb 27 close is realistic given unknown procurement timeline.",
+              "action": "Discuss contract execution timeline explicitly at Feb 19 onsite.",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we have contract details?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No contract details discussed — term length, payment terms, SLA requirements. 3-year deal implied by Salesforce but not confirmed.",
+              "solution": "Discuss contract structure at Feb 19.",
+              "action": "Present proposed contract structure (term, pricing, payment terms) at Feb 19 and gauge reaction before sending formal paperwork.",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have we sent the contract?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Contract has not been sent. AE notes indicate 'awaiting final approval from board' before contract can be executed.",
+              "solution": "Prepare contract for immediate send once board approves.",
+              "action": "Have contract drafted and ready to send the moment board approval is confirmed. Ensure it reflects final payments pricing/structure.",
+              "due": "02/20/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know target date for signature?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Salesforce close date is Feb 27. AE notes suggest board approval pending. Martin mentioned Feb/March start for POS migration. No explicit customer-confirmed target signature date.",
+              "solution": "Confirm signature target date with customer.",
+              "action": "At Feb 19, ask: 'If the board approves, what's a realistic date for contract signature? Is late February feasible?'",
+              "due": "02/19/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "identifyPain": {
+          "label": "Identify Pain",
+          "questions": [
+            {
+              "q": "Do we know their current issues and why they are reviewing their tech stack?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Current issues well-documented — high TCO (~$1M/yr), fragmented systems, Salesforce licensing expiring, need for unified omnichannel. Discussed extensively in Nov 13 call.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have they tried to resolve this issue in the past?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Dune renewed SFCC for 2 years rather than migrating immediately, suggesting prior evaluation without action. Tryzens' involvement suggests this cycle is more serious.",
+              "solution": "Understand past evaluation history.",
+              "action": "Ask Martin: 'Have you evaluated POS replacements or platform migrations before? What held you back previously?'",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how pains are affecting business operations?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Pains affecting business operations clearly articulated — Cheryl described manual payment entry as 'going backwards from a customer experience point of view,' mentioned discrepancies. Andy cited $1M+ annual cost as unsustainable.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what teams are affected and to what extent?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "IT, Retail Ops, and senior leadership all represented. Store staff impact implied by Cheryl's comments. Don't have details on how many staff affected, training burden, or team-level pain quantification.",
+              "solution": "Quantify team-level impact.",
+              "action": "Ask Cheryl or Martin: 'How many store staff are affected? What's the training overhead with current POS?'",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how urgent it is to solve this pain?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Urgency established by contract break dates, budget cycle, and Salesforce expiry. Andy's statement about web growth risk implies urgency.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Can they solve this pain using another option?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "They could renew Anakta and stay on SFCC. Tryzens could recommend a different platform. No other POS vendors mentioned but unknown if evaluating alternatives.",
+              "solution": "Understand competitive landscape for POS specifically.",
+              "action": "Ask Martin: 'Are you evaluating any other POS solutions besides Shopify, or is this a Shopify-or-status-quo decision?'",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know why this problem is important to solve now?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Confluence of factors makes now the right time — contract breaks, budget cycle, CEO involvement, SI recommendation, growing TCO dissatisfaction. Andy stated POS is the priority.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Is our solution uniquely positioned to solve this pain?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Shopify well-positioned for unified D2C + Retail, which is unique vs. point solutions. Tryzens recommended Shopify. However, payments pricing disadvantage and Worldpay integration gap undermine positioning.",
+              "solution": "Strengthen unique positioning by resolving payments gap and emphasizing capabilities no other platform offers.",
+              "action": "Prepare competitive differentiation talking points for Feb 19 highlighting Shopify-unique capabilities beyond cost.",
+              "due": "02/19/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "champion": {
+          "label": "Champion",
+          "questions": [
+            {
+              "q": "Have you identified a true champion (influence + motivation)?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Martin Wareing (Head of IT) is the champion — Andy confirmed 'Martin's the lead on this. Everything goes through Martin.' Actively driving evaluation, coordinating with Tryzens.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Does your champion have political capital and credibility?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Martin is Head of IT with credibility on tech decisions. Andy defers to him on project execution. But political capital with board/CEO unknown.",
+              "solution": "Assess Martin's influence with the board.",
+              "action": "Observe dynamics at Feb 19 onsite. Ask Martin about how board typically receives his technology recommendations.",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have they given insights you wouldn't get otherwise?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Martin provided insider information — exact contract break dates, budget cycle timing, current platform costs, internal decision dynamics. Information we wouldn't have without a champion relationship.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Are they connected with the key decision makers?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Martin directly connected to Andy (decision authority) — both on Nov 13 call. Martin reports into Andy's chain. Connected to Nigel (CEO) as Head of IT.",
+              "solution": "N/A",
+              "action": "N/A",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have you been introduced to the decision maker?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Martin introduced Andy on Nov 13 call. However, we have NOT been introduced to Nigel Darwin (CEO/signatory). No evidence of Martin facilitating a CEO meeting.",
+              "solution": "Request introduction to Nigel.",
+              "action": "Ask Martin at Feb 19: 'Would it be helpful for us to present directly to Nigel or the board?'",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are they willing to bring you into the board/buying group?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Martin has brought Andy and Cheryl into calls but no evidence he's willing to bring Shopify into a board meeting. Board approval pending — unclear if Shopify will present or Martin/Andy will present internally.",
+              "solution": "Offer to support Martin's internal presentation.",
+              "action": "Offer to prepare a board-ready slide deck or one-pager that Martin can use for the board approval meeting.",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Why are they such a champion for you?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Martin appears motivated by desire to modernize tech stack, reduce TCO, simplify IT operations. Tryzens' recommendation gives confidence. But payments pricing blocker may be eroding his championship.",
+              "solution": "Arm Martin with a compelling business case that addresses the payments gap.",
+              "action": "Provide Martin with comprehensive, board-ready business case showing positive ROI even with Shopify Payments, OR present revised payments offer.",
+              "due": "02/19/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "competition": {
+          "label": "Competition",
+          "questions": [
+            {
+              "q": "Do we know who else the customer is evaluating?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "No specific competing POS vendors mentioned. Implicit competition is status quo (staying on Anakta + SFCC). Tryzens recommended Shopify but unknown if other platforms evaluated.",
+              "solution": "Directly ask about competitive evaluation.",
+              "action": "Ask Martin at Feb 19: 'Are you looking at any other POS or commerce platforms alongside Shopify?'",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have we asked if doing nothing is an option?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "'Doing nothing' is implicitly an option — Dune renewed SFCC for 2 years and could renew Anakta. Andy's focus on risk suggests inaction is tempting for web. TCO pressure suggests pure status quo not preferred for POS.",
+              "solution": "Directly address the 'do nothing' option and its costs.",
+              "action": "At Feb 19, present cost-of-inaction analysis and ask: 'Is staying on Anakta a viable option, or is POS migration a certainty?'",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are there internal alternatives to our solution?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Internal alternatives could include extending Anakta or Tryzens implementing a different POS solution. SFCC could extend with different POS integration.",
+              "solution": "Understand what alternatives Tryzens presented.",
+              "action": "Ask Martin: 'When Tryzens recommended Shopify, what other options did they consider?'",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know why alternatives are being evaluated?",
+              "answer": "No",
+              "score": 0,
+              "notes": "If alternatives are being evaluated, we don't know why. Only known evaluation driver is Tryzens' recommendation and TCO/contract-timing drivers.",
+              "solution": "Surface competitive dynamics.",
+              "action": "Ask Martin: 'If you were to choose a different direction, what would that look like and why?'",
+              "due": "02/19/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know why we would win or lose?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Would likely win on platform unification, ecosystem strength, platform cost reduction. Could lose on payments cost (£430K gap), Worldpay integration gap, and perceived migration risk for 55+ stores. Payments is the primary lose factor.",
+              "solution": "Mitigate the primary loss factor (payments) and amplify win factors.",
+              "action": "Prepare 'why Shopify wins' summary addressing payments gap with mitigation strategies while emphasizing unique advantages.",
+              "due": "02/19/2026",
+              "highlight": false
+            }
+          ]
+        }
+      },
+      "scores": {
+        "Metrics": {
+          "score": 5,
+          "max": 7,
+          "pct": 71
+        },
+        "Economic Buyer": {
+          "score": 4.5,
+          "max": 6,
+          "pct": 75
+        },
+        "Decision Process": {
+          "score": 3.5,
+          "max": 7,
+          "pct": 50
+        },
+        "Decision Criteria": {
+          "score": 4,
+          "max": 7,
+          "pct": 57
+        },
+        "Paper Process": {
+          "score": 0.5,
+          "max": 7,
+          "pct": 7
+        },
+        "Identify Pain": {
+          "score": 6,
+          "max": 8,
+          "pct": 75
+        },
+        "Champion": {
+          "score": 5,
+          "max": 7,
+          "pct": 71
+        },
+        "Competition": {
+          "score": 2,
+          "max": 5,
+          "pct": 40
+        },
+        "_total": {
+          "score": 30.5,
+          "max": 54,
+          "pct": 56,
+          "status": "On Track"
+        }
+      },
+      "nextSteps": [
+        {
+          "p": 1,
+          "cat": "Metrics",
+          "issue": "Some quantifiable goals discussed — 5-15% conversion uplift on ~$50M web revenue, platform cost reduction from ~$1M to ~$180K. However, these are Shopify's projections, not confirmed customer KPIs/targets. Retail-specific metrics not discussed.",
+          "rec": "During Feb 19 onsite, ask Martin and Andy to define 3-5 measurable success criteria for the POS migration.",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 2,
+          "cat": "Metrics",
+          "issue": "Some impact discussed — Andy mentioned he 'can't afford risk' on web growth (10% YoY). Implied cost of maintaining current stack is unsustainable. But no explicit statement of what happens if they stay on current POS or miss migration window.",
+          "rec": "Prepare a 'cost of doing nothing' slide for Feb 19 onsite showing cumulative cost of maintaining current stack through 2027.",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 3,
+          "cat": "Metrics",
+          "issue": "Metrics discussed in Nov 13 call but the key financial metrics (payments cost comparison) revealed a major gap. The 5-15% uplift was presented by Shopify, not validated by customer.",
+          "rec": "At Feb 19 onsite, present updated TCO model and revenue impact model and ask Andy to confirm whether these numbers would support a board approval.",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 4,
+          "cat": "Metrics",
+          "issue": "Platform cost reduction ($1M → $180K) is compelling, BUT the Shopify Payments pricing gap (~£430K/yr more than Worldpay) dramatically undermines the TCO story. Net savings may not justify migration effort/risk. Andy flagged this as 'a bit of an issue.'",
+          "rec": "Present revised payments pricing or alternative payment architecture at Feb 19 onsite. Escalate internally if rate flexibility is needed.",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 5,
+          "cat": "Economic Buyer",
+          "issue": "Andy Grainger was on the Nov 13 call and actively engaged. However, Nigel Darwin (CEO/Signatory) has NOT been on any calls. Salesforce notes mention 'awaiting final approval from board.'",
+          "rec": "Ask Martin or Andy to facilitate a brief CEO touchpoint or confirm CEO is aligned. At minimum, understand what Nigel needs to see to approve.",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 6,
+          "cat": "Economic Buyer",
+          "issue": "Access to Andy is confirmed. Access to Nigel Darwin is unclear — no evidence of direct engagement. Board approval is pending per AE notes.",
+          "rec": "Ask Martin during Feb 19 meeting: 'What does Nigel need to see to give final sign-off? Can we present to him directly?'",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 7,
+          "cat": "Economic Buyer",
+          "issue": "Andy cares about growth protection, cost reduction, and customer experience. Martin cares about TCO, timeline feasibility, and technical integration. Cheryl cares about in-store experience and operational efficiency. Nigel's priorities not directly known.",
+          "rec": "Ask Martin: 'When the board reviews this, what are the top 3 things Nigel will focus on?'",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 8,
+          "cat": "Economic Buyer",
+          "issue": "Budget cycle is Feb-to-Feb (confirmed by Martin). Board approval is required. Decision-making process beyond that is unclear — how many board approvals? Formal business case template? Procurement involvement?",
+          "rec": "During Feb 19 onsite, explicitly ask: 'Walk me through what happens after you decide to proceed — who approves what, and what documentation is needed?'",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 9,
+          "cat": "Decision Process",
+          "issue": "We know board approval is needed, Martin is project lead, Andy has decision authority. But specific steps — business case submission, board meeting dates, procurement review, legal review — are not mapped.",
+          "rec": "Ask Martin at Feb 19 onsite to walk through the internal approval process step by step.",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 10,
+          "cat": "Decision Process",
+          "issue": "We know Martin, Andy, Cheryl, and Nigel. Tryzens (SI partner) is influential. Don't know if finance, legal, or procurement stakeholders are involved in the buying committee.",
+          "rec": "Ask Martin: 'Beyond yourself, Andy, and Nigel, who else needs to weigh in or approve before we can move forward?'",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 11,
+          "cat": "Decision Process",
+          "issue": "Target close date is Feb 27. POS migration start targeted Feb/March 2026. But board approval timeline is unclear — no confirmed decision date from customer's side.",
+          "rec": "Ask Martin: 'When is the board meeting where this will be reviewed? Is Feb 27 realistic for contract execution?'",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 12,
+          "cat": "Decision Process",
+          "issue": "Not explicitly discussed whether Dune has attempted a POS replacement or platform migration before. SFCC two-year renewal suggests caution.",
+          "rec": "Ask Martin: 'Have you attempted a POS or platform migration before? What lessons from past projects should we factor in?'",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 13,
+          "cat": "Decision Process",
+          "issue": "Andy implied staying on current stack is costly and risky to growth, but no explicit articulation of what happens if they do nothing. Cost of inaction not quantified.",
+          "rec": "Prepare and present 'cost of doing nothing' analysis for Feb 19 meeting.",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 14,
+          "cat": "Decision Process",
+          "issue": "No evidence that Martin or Andy has explicitly validated the decision process in response to a direct question. Process discussed organically but not formally confirmed.",
+          "rec": "At Feb 19, present your understanding of their decision process and ask them to confirm or correct it. Document in a mutual action plan.",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 15,
+          "cat": "Decision Criteria",
+          "issue": "Some criteria surfaced — TCO reduction, unified omnichannel, payment costs, customer experience, low risk to web growth. No formal evaluation criteria document or scorecard shared.",
+          "rec": "Ask Martin: 'Are you evaluating vendors against a formal set of criteria? Can you share what those criteria are?'",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 16,
+          "cat": "Decision Criteria",
+          "issue": "D2C and POS discussed extensively. Retail Payments is a major blocker. B2B not discussed. Detailed capability mapping (BOPIS, endless aisle, clienteling) not covered.",
+          "rec": "During Feb 19 hardware demo, walk through full POS capability set including omnichannel features and confirm which are priority for Dune.",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 17,
+          "cat": "Decision Criteria",
+          "issue": "Worldpay integration surfaced as critical technical complication — Sarah noted Worldpay isn't integrated with Shopify POS. Cheryl flagged discrepancies and customer experience issues. Major blocker.",
+          "rec": "Provide clear answer on Worldpay integration status and alternatives at Feb 19 meeting.",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 18,
+          "cat": "Decision Criteria",
+          "issue": "Payments are central to the decision. £430K annual gap is the #1 commercial blocker. Cheryl's operational concerns add UX dimension. Make-or-break criterion.",
+          "rec": "Present final payments proposal at Feb 19 — either improved rates or credible integrated alternative.",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 19,
+          "cat": "Decision Criteria",
+          "issue": "No mutual action plan (MAP) discussed or documented. No shared timeline with milestones, owners, and dates.",
+          "rec": "Prepare a draft mutual action plan covering: decision date, contract execution, hardware ordering, POS pilot, full rollout, web migration discovery. Present for input.",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 20,
+          "cat": "Decision Criteria",
+          "issue": "Shopify has influenced evaluation by proposing POS-first approach and positioning conversion uplift/TCO savings. But payments blocker shifted criteria against Shopify. Tryzens recommended Shopify, shaping initial criteria favorably.",
+          "rec": "Build a 'total value' business case showing net positive ROI even with Shopify Payments. Present at Feb 19.",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 21,
+          "cat": "Decision Criteria",
+          "issue": "Tryzens appears to have initially defined criteria by recommending Shopify. Andy and Martin are shaping criteria based on business needs. Not clear if formal procurement or IT evaluation framework drives criteria.",
+          "rec": "Ask Martin: 'Who defined the evaluation criteria for this project? Is it coming from IT, the board, or Tryzens?'",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 22,
+          "cat": "Paper Process",
+          "issue": "Procurement process not discussed. No mention of legal review, procurement team involvement, or standard vendor onboarding process.",
+          "rec": "Ask Martin at Feb 19: 'Once the board approves, what's your procurement/contracting process? Who reviews contracts?'",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 23,
+          "cat": "Paper Process",
+          "issue": "Not discussed. A UK retailer of this size likely has legal/procurement that will review and redline commercial terms, especially around payment processing and data handling.",
+          "rec": "Prepare for potential redlines by having legal pre-review common UK retail contract concerns. Ask about typical review timelines.",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 24,
+          "cat": "Paper Process",
+          "issue": "Not discussed. No data on how long legal/procurement review takes at Dune.",
+          "rec": "Ask Martin: 'If we send a contract after board approval, how long does legal/procurement review typically take?'",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 25,
+          "cat": "Paper Process",
+          "issue": "Overall paper process timeline not established. Close date of Feb 27 unclear if validated with customer or internal target.",
+          "rec": "Discuss contract execution timeline explicitly at Feb 19 onsite.",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 26,
+          "cat": "Paper Process",
+          "issue": "No contract details discussed — term length, payment terms, SLA requirements. 3-year deal implied by Salesforce but not confirmed.",
+          "rec": "Present proposed contract structure (term, pricing, payment terms) at Feb 19 and gauge reaction before sending formal paperwork.",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 27,
+          "cat": "Paper Process",
+          "issue": "Contract has not been sent. AE notes indicate 'awaiting final approval from board' before contract can be executed.",
+          "rec": "Have contract drafted and ready to send the moment board approval is confirmed. Ensure it reflects final payments pricing/structure.",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 28,
+          "cat": "Paper Process",
+          "issue": "Salesforce close date is Feb 27. AE notes suggest board approval pending. Martin mentioned Feb/March start for POS migration. No explicit customer-confirmed target signature date.",
+          "rec": "At Feb 19, ask: 'If the board approves, what's a realistic date for contract signature? Is late February feasible?'",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 29,
+          "cat": "Identify Pain",
+          "issue": "Dune renewed SFCC for 2 years rather than migrating immediately, suggesting prior evaluation without action. Tryzens' involvement suggests this cycle is more serious.",
+          "rec": "Ask Martin: 'Have you evaluated POS replacements or platform migrations before? What held you back previously?'",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 30,
+          "cat": "Identify Pain",
+          "issue": "IT, Retail Ops, and senior leadership all represented. Store staff impact implied by Cheryl's comments. Don't have details on how many staff affected, training burden, or team-level pain quantification.",
+          "rec": "Ask Cheryl or Martin: 'How many store staff are affected? What's the training overhead with current POS?'",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 31,
+          "cat": "Identify Pain",
+          "issue": "They could renew Anakta and stay on SFCC. Tryzens could recommend a different platform. No other POS vendors mentioned but unknown if evaluating alternatives.",
+          "rec": "Ask Martin: 'Are you evaluating any other POS solutions besides Shopify, or is this a Shopify-or-status-quo decision?'",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 32,
+          "cat": "Identify Pain",
+          "issue": "Shopify well-positioned for unified D2C + Retail, which is unique vs. point solutions. Tryzens recommended Shopify. However, payments pricing disadvantage and Worldpay integration gap undermine positioning.",
+          "rec": "Prepare competitive differentiation talking points for Feb 19 highlighting Shopify-unique capabilities beyond cost.",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 33,
+          "cat": "Champion",
+          "issue": "Martin is Head of IT with credibility on tech decisions. Andy defers to him on project execution. But political capital with board/CEO unknown.",
+          "rec": "Observe dynamics at Feb 19 onsite. Ask Martin about how board typically receives his technology recommendations.",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 34,
+          "cat": "Champion",
+          "issue": "Martin introduced Andy on Nov 13 call. However, we have NOT been introduced to Nigel Darwin (CEO/signatory). No evidence of Martin facilitating a CEO meeting.",
+          "rec": "Ask Martin at Feb 19: 'Would it be helpful for us to present directly to Nigel or the board?'",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 35,
+          "cat": "Champion",
+          "issue": "Martin has brought Andy and Cheryl into calls but no evidence he's willing to bring Shopify into a board meeting. Board approval pending — unclear if Shopify will present or Martin/Andy will present internally.",
+          "rec": "Offer to prepare a board-ready slide deck or one-pager that Martin can use for the board approval meeting.",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 36,
+          "cat": "Champion",
+          "issue": "Martin appears motivated by desire to modernize tech stack, reduce TCO, simplify IT operations. Tryzens' recommendation gives confidence. But payments pricing blocker may be eroding his championship.",
+          "rec": "Provide Martin with comprehensive, board-ready business case showing positive ROI even with Shopify Payments, OR present revised payments offer.",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 37,
+          "cat": "Competition",
+          "issue": "No specific competing POS vendors mentioned. Implicit competition is status quo (staying on Anakta + SFCC). Tryzens recommended Shopify but unknown if other platforms evaluated.",
+          "rec": "Ask Martin at Feb 19: 'Are you looking at any other POS or commerce platforms alongside Shopify?'",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 38,
+          "cat": "Competition",
+          "issue": "'Doing nothing' is implicitly an option — Dune renewed SFCC for 2 years and could renew Anakta. Andy's focus on risk suggests inaction is tempting for web. TCO pressure suggests pure status quo not preferred for POS.",
+          "rec": "At Feb 19, present cost-of-inaction analysis and ask: 'Is staying on Anakta a viable option, or is POS migration a certainty?'",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 39,
+          "cat": "Competition",
+          "issue": "Internal alternatives could include extending Anakta or Tryzens implementing a different POS solution. SFCC could extend with different POS integration.",
+          "rec": "Ask Martin: 'When Tryzens recommended Shopify, what other options did they consider?'",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 40,
+          "cat": "Competition",
+          "issue": "If alternatives are being evaluated, we don't know why. Only known evaluation driver is Tryzens' recommendation and TCO/contract-timing drivers.",
+          "rec": "Ask Martin: 'If you were to choose a different direction, what would that look like and why?'",
+          "due": "02/19/2026"
+        },
+        {
+          "p": 41,
+          "cat": "Competition",
+          "issue": "Would likely win on platform unification, ecosystem strength, platform cost reduction. Could lose on payments cost (£430K gap), Worldpay integration gap, and perceived migration risk for 55+ stores. Payments is the primary lose factor.",
+          "rec": "Prepare 'why Shopify wins' summary addressing payments gap with mitigation strategies while emphasizing unique advantages.",
+          "due": "02/19/2026"
+        }
+      ],
+      "stakeholders": [
+        {
+          "name": "Martin Wareing",
+          "title": "Head of IT",
+          "role": "Decision Maker",
+          "email": "mwareing@dunelondon.com",
+          "engagement": "high",
+          "callsAttended": 1,
+          "callsInvited": 1
+        },
+        {
+          "name": "Nigel Darwin",
+          "title": "CEO",
+          "role": "Signatory",
+          "email": "ndarwin@thedunegroup.com",
+          "engagement": "low",
+          "callsAttended": 0,
+          "callsInvited": 0
+        },
+        {
+          "name": "Andy Grainger",
+          "title": "Economic Buyer",
+          "role": "Launch Contact",
+          "email": "agrainger@thedunegroup.com",
+          "engagement": "high",
+          "callsAttended": 1,
+          "callsInvited": 1
+        }
+      ],
+      "shopifyTeam": [
+        {
+          "name": "Adriana Colacicco",
+          "role": "Account Executive",
+          "email": "adriana.colacicco@shopify.com"
+        },
+        {
+          "name": "Sarah Berelowitz",
+          "role": "Solutions Engineer",
+          "email": "sarah.berelowitz@shopify.com"
+        }
+      ],
+      "calls": [
+        {
+          "date": "2025-11-13",
+          "title": "Shopify x Dune / Commercial Discussion",
+          "duration": "29 min",
+          "shopifyAttendees": [
+            "Max Djurberg (Account Executive)",
+            "Sarah Berelowitz (Solutions Engineer)"
+          ],
+          "merchantAttendees": [
+            "Martin Wareing (Head of IT)",
+            "Andy Grainger",
+            "Cheryl Lee (Retail Operations)"
+          ],
+          "summary": "Commercial discussion focused on POS-first migration to Shopify. Significant cost savings presented by replacing SFCC + Anakta ($1M → $180K platform fees). Critical blocker surfaced: Shopify Payments ~£430K more expensive annually than existing Worldpay. Worldpay not integrated with Shopify POS — manual entry would be required. Timeline discussed: POS migration Feb/March 2026 start, summer 2026 completion. Web migration deferred to 2027. Andy confirmed as economic buyer, Martin as project lead/champion."
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-02-18",
+          "totalScore": 30.5,
+          "totalMax": 54,
+          "status": "On Track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 4.5,
+            "Decision Process": 3.5,
+            "Decision Criteria": 4,
+            "Paper Process": 0.5,
+            "Identify Pain": 6,
+            "Champion": 5,
+            "Competition": 2
+          },
+          "changes": []
         }
       ]
     }
