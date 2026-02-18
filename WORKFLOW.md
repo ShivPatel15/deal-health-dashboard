@@ -274,26 +274,95 @@ If build-data.js is ever rewritten, verify the output data.js contains ALL analy
 
 ---
 
-## SCHEDULED DAILY REFRESH
+## SCHEDULED DAILY REFRESH (8 AM UK)
 
-A daily schedule triggers this swarm to refresh all dashboard opps.
+⚠️⚠️⚠️ **THIS IS THE MOST IMPORTANT SECTION. READ EVERY WORD.** ⚠️⚠️⚠️
 
-**How it works:**
-1. Read `opportunities.json` to get all current opp IDs
-2. For EACH opp, run Steps 1-3 (Salesforce → Salesloft → MEDDPICC)
-3. **COMPARE** new data against existing — only update if something changed
-4. **ONLY re-run MEDDPICC** if new SF data or new Salesloft calls appeared
-5. Rebuild data.js and push (only if changes detected)
+The scheduled refresh runs automatically. Its ONLY job is to detect what changed since the last run, update ONLY those parts, and leave everything else untouched.
 
-**⚠️ CRITICAL RULES FOR SCHEDULED REFRESH:**
-- **DO NOT regenerate MEDDPICC if no new data.** Re-running on same inputs risks hallucinating different answers.
-- **DO NOT overwrite existing analysis with empty/weaker data.** If a delegate fails, keep existing.
-- **If NOTHING changed**, report "Dashboard is current" and do NOT push.
+### THE GOLDEN RULE
+**If nothing changed for an opportunity, DO NOT TOUCH IT. Do not re-analyze. Do not rewrite. Do not re-score. Leave it exactly as it is.**
 
-**Comparison checks per opportunity:**
-- Salesforce: Did close date, stage, probability, forecast, intent, revenue, stakeholders, or next steps change?
-- Salesloft: Are there new calls since last refresh?
-- If neither changed → skip MEDDPICC re-analysis, keep existing
+### STEP-BY-STEP SCHEDULED REFRESH FLOW
+
+**Step 0: Load existing data**
+```
+Read /home/swarm/deal-health-app/data/opportunities.json
+For each opportunity, note its ID and the date of its last call (from the calls array)
+```
+
+**Step 1: For EACH opportunity, check Salesforce for changes**
+- Delegate to WorkWithSalesforceReader — pull ONLY these lightweight fields:
+  - Stage, close date, probability, forecast category, merchant intent
+  - AE next steps, SE next steps
+  - Revenue fields (MCV, Projection_of_Billed_Revenue__c)
+- **COMPARE** each field against what's stored in opportunities.json
+- Track what changed (e.g., "stage changed from Demonstrate to Deal Craft", "close date moved from Feb 28 to Mar 15")
+
+**Step 2: For EACH opportunity, check Salesloft for NEW calls only**
+- Delegate to WorkWithSalesloftAgent
+- Provide the account name
+- Ask: "Are there any calls or meetings AFTER {last_call_date}?" where last_call_date is the most recent call date in the existing opportunity data
+- If the opp has no calls, check if ANY calls exist now
+- **ONLY retrieve transcripts for NEW calls** — do not re-pull old ones
+
+**Step 3: Decide what to do for each opportunity**
+
+| SF Changed? | New Calls? | Action |
+|-------------|------------|--------|
+| No | No | **DO NOTHING.** Skip entirely. Add version history note: "No changes detected" |
+| Yes | No | Update ONLY the changed SF fields in opportunities.json. Do NOT re-run MEDDPICC. Add version history note listing what SF fields changed. |
+| No | Yes | Add new calls to the calls array. Re-run MEDDPICC analysis ONLY if the new calls contain substantive information that would change scoring. Add version history note listing new calls found. |
+| Yes | Yes | Update SF fields AND add new calls. Re-run MEDDPICC only if new calls warrant it. Add version history notes for both. |
+
+**Step 4: If ANY opportunity was updated**
+1. Save updated opportunities.json
+2. Run `node build-data.js`
+3. Copy data.js to deal-health-dashboard repo
+4. Git commit with descriptive message listing what changed per opp
+5. Git push
+
+**Step 5: If NOTHING changed across ALL opportunities**
+- Report: "✅ Dashboard is current — no changes detected across all 5 opportunities"
+- Do NOT rebuild, do NOT push, do NOT touch any files
+
+### VERSION HISTORY NOTES
+
+For every opportunity, regardless of whether it changed, add a version history entry for today with:
+- The current score (unchanged or updated)
+- A `changes` array describing what happened:
+  - `"No changes detected"` if nothing changed
+  - `"SF: Stage changed from X to Y"` for Salesforce field changes
+  - `"SF: Close date moved from X to Y"`
+  - `"SF: AE next steps updated"`
+  - `"New call: {title} on {date}"` for new calls found
+  - `"MEDDPICC re-scored based on new call data"` if analysis was re-run
+  - `"Score changed from X to Y"` if total score changed
+
+### ⚠️ THINGS THE SCHEDULED REFRESH MUST NEVER DO
+
+1. **NEVER re-run MEDDPICC analysis on the same data.** LLM analysis is non-deterministic — re-running on identical inputs will produce different scores and corrupt the existing good analysis.
+2. **NEVER overwrite existing narrative sections** (oppSummary, whyChange, whyShopify, whyNow, supportNeeded) unless new call transcripts provide genuinely new information.
+3. **NEVER overwrite existing MEDDPICC question scores/notes** unless there's new evidence from calls or SF changes that directly affect that specific question.
+4. **NEVER delete or reduce data.** If a Salesloft lookup fails, keep existing call data. If Salesforce returns less info, keep what we had.
+5. **NEVER re-pull full Salesforce opportunity details.** Only check the lightweight change-detection fields listed in Step 1.
+6. **NEVER re-pull old call transcripts.** Only look for NEW calls after the last known call date.
+
+### WHAT COUNTS AS A "CHANGE" WORTH RE-ANALYZING
+
+**YES, re-run MEDDPICC if:**
+- A new call with a substantive transcript was found (not a 5-second no-answer)
+- Stage changed (e.g., Demonstrate → Deal Craft)
+- Merchant intent changed (e.g., Committed → Committed - At Risk)
+
+**NO, do NOT re-run MEDDPICC if:**
+- Only the close date moved
+- Only the AE next steps text updated
+- Only revenue numbers changed slightly
+- A Salesloft lookup failed or returned no new data
+- The same calls exist as before with no new ones
+
+For these "minor SF changes," just update the raw field in opportunities.json and let build-data.js recompute the same scores.
 
 ---
 
