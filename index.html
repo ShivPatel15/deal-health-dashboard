@@ -351,7 +351,7 @@ function showDetail(id){
   // Build tabs
   const tabNames=['Overview'];
   if(hasMeddpicc)tabNames.push('MEDDPICC');
-  tabNames.push('Action Plan','Next Steps','Stakeholders','Calls','History','Comments');
+  tabNames.push('MAP','Next Steps','Stakeholders','Calls','History','Comments');
 
   el.innerHTML=`<button class="back" onclick="goBack()">← Pipeline</button>
   <div class="dh-top"><div>
@@ -423,7 +423,7 @@ function showDetail(id){
       </div>`:''}
 
   <!-- MUTUAL ACTION PLAN -->
-  <div class="pane" id="p-actionplan">
+  <div class="pane" id="p-map">
     ${renderMAP(opp)}
   </div>
 
