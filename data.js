@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-19T09:51:58.681Z",
+  "generatedAt": "2026-02-19T12:18:51.110Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -5068,6 +5068,1033 @@ const DEAL_DATA = {
             "Identify Pain": 4.5,
             "Champion": 3.5,
             "Competition": 1
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "006OG00000HtxKFYAZ",
+      "name": "Sofa.Com Ltd",
+      "accountName": "Sofa.Com Ltd",
+      "accountId": "0018V00002epVGWQA2",
+      "owner": "Maissa Fatte",
+      "ownerEmail": "maissa.fatte@shopify.com",
+      "stage": "Demonstrate",
+      "closeDate": "2026-03-26",
+      "forecastCategory": "Commit",
+      "probability": 60,
+      "merchantIntent": "Uncommitted",
+      "type": "New Business",
+      "created": "2025-10-20",
+      "lastAnalysisDate": "2026-02-19",
+      "revenue": {
+        "mcv": 82800,
+        "totalRev3yr": 1220972,
+        "d2cGmv": 26353100,
+        "b2bGmv": null,
+        "retailGmv": null,
+        "paymentsGpv": 17129515,
+        "paymentsAttached": true,
+        "ipp": 0
+      },
+      "projectedBilledRevenue": 483034,
+      "products": [
+        "Plus Product Suite",
+        "D2C - Standard",
+        "Shopify Payments - D2C Plus"
+      ],
+      "competitor": "SAP Commerce Cloud (Hybris)",
+      "compellingEvent": "None identified. This is a critical deal risk. The closest driver is aspirational H2 2026 go-live target. Shopify should explore Hybris licensing renewal timelines or peak trading deadlines (pre-Christmas 2026) to create urgency.",
+      "nextStep": "13/02 MF: Handover from Yas - merchant pushing to get meeting with IT at Frasers group to get approval. Reviewing the buss case numbers with them.",
+      "narrative": {
+        "oppSummary": "Sofa.com (owned by Frasers Group) is evaluating a migration from SAP Commerce Cloud (Hybris) to Shopify Plus, representing $82,800 MCV and $1.22M in 3-year total revenue. The deal is currently stuck in the Demonstrate stage at 60% probability, with the primary blocker being Frasers Group's internal IT approval process — Tom Humphrey and Blayne Griffin-Reader have been waiting over two months just to secure an initial meeting with Group IT. VML (agency partner) has built a TCO/business case showing ~£600K savings over 3 years with a 12-month payback period, and a 3-year ROI comparison of Hybris vs Shopify is under review, but no decision can progress until Group IT confirms the current system's inadequacy.",
+        "whyChange": "Sofa.com is running on SAP Commerce Cloud (Hybris), which sits within Frasers Group's archaic, centralized tech infrastructure. The platform creates significant operational pain: manual processes dominate day-to-day work, the team has limited internal tech/dev resources, and peak trading periods expose the system's inability to scale efficiently. The complex SKU structure (large volumes of product variations) is poorly served by the current setup. Payment processing through Elevon is causing unnecessary costs. Sofa.com is a 'small cog in a big wheel' at Frasers Group, and the centralized IT approach is holding back a brand that needs agility and modern commerce capabilities.",
+        "whyShopify": "Shopify is being evaluated primarily because of its ability to dramatically reduce total cost of ownership and operational complexity. VML's TCO analysis projected ~£600K in savings over three years with a 12-month payback period. Shopify Payments is a significant differentiator with competitive rates vs Elevon and projected $71K annual Shop Pay revenue uplift. VML emphasized Shopify's fit for sofa.com's complex SKU structure, proposing Patchworks as the integration middleware. Critically, another Frasers Group brand — Everlast USA — is already on Shopify, establishing internal precedent.",
+        "whyNow": "There is no hard compelling event — no contract renewal date, no system end-of-life, and no board mandate with a deadline. The urgency is soft: Tom and Blayne want to go live in H2 2026, which means they need IT approval within 1-2 months to stay on track for a 2-3 month build. The real driver is organizational frustration — every month of delay is a month of lost operational efficiency and potential revenue growth. Without a hard compelling event, this deal is at risk of indefinite delays within Frasers Group's slow bureaucratic approval process.",
+        "supportNeeded": "1) Review and validate Tom's 3-year ROI calculation (Hybris vs Shopify). 2) Help build the case that migration cannot be done on existing Frasers infrastructure — leverage Everlast USA precedent. 3) Maissa to connect with VML (Sam/Scott) for continuity after AE handover. 4) Provide tangible payments rate comparison (Shopify vs Elevon). 5) Ben Homer to prepare exec POV doc for Frasers Group leadership. 6) Pre-stage contract details for legal review once IT approval is obtained."
+      },
+      "meddpicc": {
+        "metrics": {
+          "label": "Metrics",
+          "questions": [
+            {
+              "q": "Do we know the business reasons as to why they are migrating?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Clear reasons across all calls: reducing complexity, eliminating manual processes, lowering TCO, improving payments.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we have specific quantifiable goals aligned with the project?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "£600K savings/3yr, 12-month payback, 10% YoY growth, $71K Shop Pay uplift, ~£200K build cost.",
+              "solution": "",
+              "action": "Maissa to review Tom's 3-year ROI calculation",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do they need to make a platform change to achieve this goal?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Case being built but Group IT hasn't confirmed current system inadequacy.",
+              "solution": "Leverage Everlast USA precedent",
+              "action": "Ben to prepare Hybris limitations vs Shopify comparison",
+              "due": "03/03/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we understand the impact if this goal isn't achieved?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Implied impacts (higher TCO, manual inefficiency) but no specific revenue loss quantified.",
+              "solution": "Quantify cost of inaction",
+              "action": "Maissa to ask Tom about impact of not migrating",
+              "due": "03/03/2026",
+              "highlight": false
+            },
+            {
+              "q": "Is there a compelling event in place driving action?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No compelling event. H2 2026 target is aspirational. No Hybris renewal or board mandate.",
+              "solution": "Explore Hybris renewal timeline or peak trading deadline",
+              "action": "Maissa to probe for compelling event in next call",
+              "due": "03/03/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have I validated the metrics with the customer?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "TCO presented Nov 17, Tom building own ROI calc, payments rates reviewed Jan 6.",
+              "solution": "",
+              "action": "Validate Tom's independent ROI aligns with Shopify numbers",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are the metrics compelling enough to justify change?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Metrics are strong but haven't been sufficient to accelerate Group IT. Need IT-specific justification.",
+              "solution": "Strengthen business case with Group IT-specific concerns",
+              "action": "Ben to prepare exec POV doc for Group IT stakeholders",
+              "due": "03/05/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "economicBuyer": {
+          "label": "Economic Buyer",
+          "questions": [
+            {
+              "q": "Have I identified the true economic buyer?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Tom is identified Decision Maker but references 'the big dogs' and Director of sofa.com. True EB may be Director or above.",
+              "solution": "Map full approval chain",
+              "action": "Maissa to ask Tom who exactly signs off on spend",
+              "due": "03/03/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know who's signing the contract?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Tom has reviewed contract but unclear if he has signing authority. Director likely signs.",
+              "solution": "Clarify signatory",
+              "action": "Confirm authorized signatory in next call",
+              "due": "03/03/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we have access to this individual?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Director and Group IT leadership not engaged by Shopify. Tom is intermediary.",
+              "solution": "Request introduction via exec POV doc",
+              "action": "Propose exec brief or call with Director",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Can we get access?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Director reportedly receptive but Group IT is real gatekeeper with no access path.",
+              "solution": "Explore Everlast USA Frasers Group IT connection",
+              "action": "Check internal Shopify connections to Frasers Group IT",
+              "due": "02/28/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what the economic buyer cares about most?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Tom cares about TCO/ROI/payments. Director and Group IT priorities unknown.",
+              "solution": "Get clarity on Director and Group IT priorities",
+              "action": "Ask Tom what Director and Group IT care about most",
+              "due": "03/03/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do you know how they make decisions and allocate budget?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Decision process mapped but budget allocation unclear — sofa.com P&L vs Frasers Group central.",
+              "solution": "Understand budget ownership",
+              "action": "Ask about budget source and spend thresholds",
+              "due": "03/03/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "decisionProcess": {
+          "label": "Decision Process",
+          "questions": [
+            {
+              "q": "Do we know how they will be making the decision?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Clearly mapped: Group IT → Digital IT Manager → Director sign-off → Legal review. Currently stuck at step 1.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know who's involved / buying committee?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Known: Tom, Blayne, Director, Group IT, Digital IT Manager, Legal. Unknown: specific names for Group IT, Digital IT Manager, Director.",
+              "solution": "Get names for unnamed stakeholders",
+              "action": "Ask Tom for names of Group IT and Digital IT decision makers",
+              "due": "03/03/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know when they want to make a decision by?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "H2 2026 go-live target but no firm decision date. Working backwards needs decision by Apr-May 2026.",
+              "solution": "Establish mutual timeline",
+              "action": "Co-create backward-looking timeline with Tom",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what is driving this timeline?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No specific business event driving H2 2026 target. Aspirational only.",
+              "solution": "Probe for timeline drivers or create urgency around peak trading",
+              "action": "Ask Tom why H2 2026 is the target",
+              "due": "03/03/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know if they have tried to solve this problem before?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No discussion of previous migration attempts or platform evaluations.",
+              "solution": "Understanding history reveals landmines",
+              "action": "Ask if sofa.com has looked at migrating before",
+              "due": "03/03/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what will happen if they do nothing?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Implied consequences but no existential threat — sofa.com has been surviving on Hybris.",
+              "solution": "Quantify cost of doing nothing in ROI calc",
+              "action": "Include cost-of-inaction section in ROI review",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have you validated this process with the buyer?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Tom explicitly laid out decision process in Feb 11 call. Both champions transparent.",
+              "solution": "",
+              "action": "Continue validating process hasn't changed",
+              "due": "",
+              "highlight": false
+            }
+          ]
+        },
+        "decisionCriteria": {
+          "label": "Decision Criteria",
+          "questions": [
+            {
+              "q": "Do we know what criteria the customer is using to evaluate vendors?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Business criteria known (TCO, ease of use, SKU handling, payments). Group IT criteria unknown.",
+              "solution": "Understand Group IT evaluation criteria",
+              "action": "Ask Tom what Group IT will be evaluating",
+              "due": "03/03/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
+              "answer": "No",
+              "score": 0,
+              "notes": "D2C only discussed. No B2B or POS capabilities explored. Showrooms may benefit from POS.",
+              "solution": "Explore POS opportunity",
+              "action": "Ask Blayne about showroom POS potential",
+              "due": "03/10/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have we surfaced technical complications (integrations)?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Integration points extensively discussed: ERP (NAV), FODs, deposit/finance payments, product configurator. VML proposed Patchworks.",
+              "solution": "",
+              "action": "Maissa to connect with VML for technical DD status",
+              "due": "02/28/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how payments play into their decision?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Payments deeply explored in Jan 6 call. Rates, reconciliation, fraud protection, Shop Pay uplift all covered.",
+              "solution": "",
+              "action": "Ensure Tom received payments comparison deck",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we have a mutual action plan in place?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No formal mutual action plan exists. Next steps are ad hoc.",
+              "solution": "Create formal MAP with milestones, owners, dates",
+              "action": "Maissa to draft mutual action plan",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Did we help shape those criteria in our favour?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "VML shaped business criteria in Shopify's favor. Haven't shaped criteria at Group IT level.",
+              "solution": "Prepare Group IT-facing materials",
+              "action": "Ben to prepare materials addressing Group IT concerns",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know who defined the decision criteria?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Tom/Blayne defined business criteria. VML shaped technical. Group IT criteria undefined.",
+              "solution": "Understand Group IT evaluation framework",
+              "action": "Same as Q1 — ask about IT criteria",
+              "due": "03/03/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "paperProcess": {
+          "label": "Paper Process",
+          "questions": [
+            {
+              "q": "Do we know what their procurement process is?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Partially mapped: IT approval → Director sign-off → Legal review. Full procurement process unknown.",
+              "solution": "Map full procurement/legal process",
+              "action": "Ask about vendor onboarding, PO requirements",
+              "due": "03/03/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are there likely to be redlines?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Plus contract is non-redlinable. Tom acknowledged this. Governing law adjustable to England & Wales.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "If redlines, how long does review take?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "No redlines expected but legal will still review standard terms. Timeline for legal review unknown.",
+              "solution": "Pre-stage contract for immediate review post-approval",
+              "action": "Confirm contract is accessible for legal review",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how long it will take?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No estimate for legal review timeline. Frasers Group legal could also be slow.",
+              "solution": "Ask about typical legal turnaround",
+              "action": "Ask Tom about legal review timeline",
+              "due": "03/03/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we have contract details?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Standard Plus contract. Governing law England & Wales. USD invoicing. $82,800 MCV. Non-redlinable.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have we sent the contract?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Contract sent in Jan 6 timeframe but may have expired. Need to verify current status.",
+              "solution": "Refresh contract if expired",
+              "action": "Verify Tom has current valid contract",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know target date for signature?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No target signature date. Everything contingent on Group IT approval which has been delayed 2+ months.",
+              "solution": "Set target date in mutual action plan",
+              "action": "Propose signature target as part of MAP",
+              "due": "03/05/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "identifyPain": {
+          "label": "Identify Pain",
+          "questions": [
+            {
+              "q": "Do we know their current issues and why they are reviewing their tech stack?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Comprehensive pain: manual processes, complex SKUs, limited tech resources, high payment costs, archaic infrastructure, low priority within Frasers Group.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have they tried to resolve this issue in the past?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No previous migration attempts discussed.",
+              "solution": "Understand history",
+              "action": "Ask about previous migration attempts",
+              "due": "03/03/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how pains are affecting business operations?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Blayne: manual processes during peak trading. Tom: payment costs eating margins. Limited dev resources preventing innovation.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what teams are affected and to what extent?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Operations and finance teams identified. Broader impact (marketing, CS, warehouse) unknown.",
+              "solution": "Map broader organizational impact",
+              "action": "Discuss with Blayne who else is affected",
+              "due": "03/10/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how urgent it is to solve this pain?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Tom and Blayne motivated but urgency doesn't extend beyond sofa.com's small team. No 'hair on fire' moment.",
+              "solution": "Quantify monthly cost of delay",
+              "action": "Include cost-of-delay in ROI review",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Can they solve this pain using another option?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Hybris could theoretically be upgraded. Other platforms possible. Shopify differentiator is Everlast USA precedent.",
+              "solution": "Reinforce Shopify as lowest-risk option",
+              "action": "Include Everlast USA case study in exec POV doc",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know why this problem is important to solve now?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No hard 'why now'. Pain is ongoing but not new. No triggering event.",
+              "solution": "Work with champions to create urgency",
+              "action": "Have candid 'why now' conversation with Tom/Blayne",
+              "due": "03/03/2026",
+              "highlight": false
+            },
+            {
+              "q": "Is our solution uniquely positioned to solve this pain?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Strong positioning (Everlast precedent, VML validation, integrated payments) but haven't established 'only Shopify' narrative.",
+              "solution": "Articulate unique differentiators",
+              "action": "Ben to include in exec POV doc",
+              "due": "03/05/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "champion": {
+          "label": "Champion",
+          "questions": [
+            {
+              "q": "Have you identified a true champion (influence + motivation)?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Blayne and Tom actively championing. VML (Sam) also championing externally. All invested months in the business case.",
+              "solution": "Assess if a more senior champion is needed",
+              "action": "Ask Tom if someone more senior could accelerate IT meeting",
+              "due": "03/03/2026",
+              "highlight": false
+            },
+            {
+              "q": "Does your champion have political capital and credibility?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Tom is credible on finance but sofa.com is 'small cog' — limited group-level political capital.",
+              "solution": "Engage the Director who has more pull",
+              "action": "Request introduction to Director",
+              "due": "03/10/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have they given insights you wouldn't get otherwise?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Remarkably transparent — detailed approval process, named bottleneck, shared Everlast precedent, building own ROI calc.",
+              "solution": "",
+              "action": "Continue nurturing transparency",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Are they connected with the key decision makers?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Tom has path to Director but weak connection to Group IT. 2+ months waiting for meeting suggests limited IT influence.",
+              "solution": "Find alternative path to Group IT",
+              "action": "Explore Everlast USA connection to Frasers Group IT",
+              "due": "02/28/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have you been introduced to the decision maker?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Shopify not introduced to Director, Group IT, or Digital IT Manager.",
+              "solution": "Seek introductions via exec POV doc",
+              "action": "Offer to join Group IT meeting as technical resource",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are they willing to bring you into the board/buying group?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Tom hasn't offered to bring Shopify into Group IT meeting. Focused on internal materials approach.",
+              "solution": "Proactively offer to participate in IT meeting",
+              "action": "Offer to join as technical resource to help Tom succeed",
+              "due": "03/03/2026",
+              "highlight": false
+            },
+            {
+              "q": "Why are they such a champion for you?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Blayne: operational relief. Tom: financial wins. VML: implementation revenue. Each has clear personal win.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            }
+          ]
+        },
+        "competition": {
+          "label": "Competition",
+          "questions": [
+            {
+              "q": "Do we know who else the customer is evaluating?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "SAP Hybris is incumbent. No other platforms actively evaluated. Frasers Group IT could push alternatives.",
+              "solution": "Confirm if other platforms being considered",
+              "action": "Ask Tom if this is Shopify vs Hybris only",
+              "due": "03/03/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have we asked if doing nothing is an option?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Doing nothing is implicit alternative and most likely outcome if IT doesn't approve. Not explicitly discussed.",
+              "solution": "Force the 'do nothing' conversation",
+              "action": "Ask what staying on Hybris looks like for 3 years",
+              "due": "03/03/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are there internal alternatives to our solution?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Frasers Group existing infrastructure is primary internal alternative. Group IT could propose Hybris upgrade or standardized platform.",
+              "solution": "Pre-empt Group IT counter-proposals",
+              "action": "Ask Tom what Group IT might propose as alternative",
+              "due": "03/03/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know why alternatives are being evaluated?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Hybris being replaced due to high TCO, complexity, manual processes, limited dev resources, poor SKU handling, payment costs.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know why we would win or lose?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Win: Everlast precedent, financial case, VML champion, payments value. Lose: Group IT block, no compelling event, 'small cog' status, AE handover risk.",
+              "solution": "Mitigate lose factors",
+              "action": "Focus next 30 days on Group IT preparation and compelling event",
+              "due": "03/15/2026",
+              "highlight": false
+            }
+          ]
+        }
+      },
+      "scores": {
+        "Metrics": {
+          "score": 4.5,
+          "max": 7,
+          "pct": 64
+        },
+        "Economic Buyer": {
+          "score": 2.5,
+          "max": 6,
+          "pct": 42
+        },
+        "Decision Process": {
+          "score": 3.5,
+          "max": 7,
+          "pct": 50
+        },
+        "Decision Criteria": {
+          "score": 3.5,
+          "max": 7,
+          "pct": 50
+        },
+        "Paper Process": {
+          "score": 3,
+          "max": 7,
+          "pct": 43
+        },
+        "Identify Pain": {
+          "score": 4,
+          "max": 8,
+          "pct": 50
+        },
+        "Champion": {
+          "score": 4.5,
+          "max": 7,
+          "pct": 64
+        },
+        "Competition": {
+          "score": 3.5,
+          "max": 5,
+          "pct": 70
+        },
+        "_total": {
+          "score": 29,
+          "max": 54,
+          "pct": 54,
+          "status": "on-track"
+        }
+      },
+      "nextSteps": [
+        {
+          "p": 1,
+          "cat": "Metrics",
+          "issue": "Case being built but Group IT hasn't confirmed current system inadequacy.",
+          "rec": "Ben to prepare Hybris limitations vs Shopify comparison",
+          "due": "03/03/2026"
+        },
+        {
+          "p": 2,
+          "cat": "Metrics",
+          "issue": "Implied impacts (higher TCO, manual inefficiency) but no specific revenue loss quantified.",
+          "rec": "Maissa to ask Tom about impact of not migrating",
+          "due": "03/03/2026"
+        },
+        {
+          "p": 3,
+          "cat": "Metrics",
+          "issue": "No compelling event. H2 2026 target is aspirational. No Hybris renewal or board mandate.",
+          "rec": "Maissa to probe for compelling event in next call",
+          "due": "03/03/2026"
+        },
+        {
+          "p": 4,
+          "cat": "Metrics",
+          "issue": "Metrics are strong but haven't been sufficient to accelerate Group IT. Need IT-specific justification.",
+          "rec": "Ben to prepare exec POV doc for Group IT stakeholders",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 5,
+          "cat": "Economic Buyer",
+          "issue": "Tom is identified Decision Maker but references 'the big dogs' and Director of sofa.com. True EB may be Director or above.",
+          "rec": "Maissa to ask Tom who exactly signs off on spend",
+          "due": "03/03/2026"
+        },
+        {
+          "p": 6,
+          "cat": "Economic Buyer",
+          "issue": "Tom has reviewed contract but unclear if he has signing authority. Director likely signs.",
+          "rec": "Confirm authorized signatory in next call",
+          "due": "03/03/2026"
+        },
+        {
+          "p": 7,
+          "cat": "Economic Buyer",
+          "issue": "Director and Group IT leadership not engaged by Shopify. Tom is intermediary.",
+          "rec": "Propose exec brief or call with Director",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 8,
+          "cat": "Economic Buyer",
+          "issue": "Director reportedly receptive but Group IT is real gatekeeper with no access path.",
+          "rec": "Check internal Shopify connections to Frasers Group IT",
+          "due": "02/28/2026"
+        },
+        {
+          "p": 9,
+          "cat": "Economic Buyer",
+          "issue": "Tom cares about TCO/ROI/payments. Director and Group IT priorities unknown.",
+          "rec": "Ask Tom what Director and Group IT care about most",
+          "due": "03/03/2026"
+        },
+        {
+          "p": 10,
+          "cat": "Economic Buyer",
+          "issue": "Decision process mapped but budget allocation unclear — sofa.com P&L vs Frasers Group central.",
+          "rec": "Ask about budget source and spend thresholds",
+          "due": "03/03/2026"
+        },
+        {
+          "p": 11,
+          "cat": "Decision Process",
+          "issue": "Known: Tom, Blayne, Director, Group IT, Digital IT Manager, Legal. Unknown: specific names for Group IT, Digital IT Manager, Director.",
+          "rec": "Ask Tom for names of Group IT and Digital IT decision makers",
+          "due": "03/03/2026"
+        },
+        {
+          "p": 12,
+          "cat": "Decision Process",
+          "issue": "H2 2026 go-live target but no firm decision date. Working backwards needs decision by Apr-May 2026.",
+          "rec": "Co-create backward-looking timeline with Tom",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 13,
+          "cat": "Decision Process",
+          "issue": "No specific business event driving H2 2026 target. Aspirational only.",
+          "rec": "Ask Tom why H2 2026 is the target",
+          "due": "03/03/2026"
+        },
+        {
+          "p": 14,
+          "cat": "Decision Process",
+          "issue": "No discussion of previous migration attempts or platform evaluations.",
+          "rec": "Ask if sofa.com has looked at migrating before",
+          "due": "03/03/2026"
+        },
+        {
+          "p": 15,
+          "cat": "Decision Process",
+          "issue": "Implied consequences but no existential threat — sofa.com has been surviving on Hybris.",
+          "rec": "Include cost-of-inaction section in ROI review",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 16,
+          "cat": "Decision Criteria",
+          "issue": "Business criteria known (TCO, ease of use, SKU handling, payments). Group IT criteria unknown.",
+          "rec": "Ask Tom what Group IT will be evaluating",
+          "due": "03/03/2026"
+        },
+        {
+          "p": 17,
+          "cat": "Decision Criteria",
+          "issue": "D2C only discussed. No B2B or POS capabilities explored. Showrooms may benefit from POS.",
+          "rec": "Ask Blayne about showroom POS potential",
+          "due": "03/10/2026"
+        },
+        {
+          "p": 18,
+          "cat": "Decision Criteria",
+          "issue": "No formal mutual action plan exists. Next steps are ad hoc.",
+          "rec": "Maissa to draft mutual action plan",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 19,
+          "cat": "Decision Criteria",
+          "issue": "VML shaped business criteria in Shopify's favor. Haven't shaped criteria at Group IT level.",
+          "rec": "Ben to prepare materials addressing Group IT concerns",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 20,
+          "cat": "Decision Criteria",
+          "issue": "Tom/Blayne defined business criteria. VML shaped technical. Group IT criteria undefined.",
+          "rec": "Same as Q1 — ask about IT criteria",
+          "due": "03/03/2026"
+        },
+        {
+          "p": 21,
+          "cat": "Paper Process",
+          "issue": "Partially mapped: IT approval → Director sign-off → Legal review. Full procurement process unknown.",
+          "rec": "Ask about vendor onboarding, PO requirements",
+          "due": "03/03/2026"
+        },
+        {
+          "p": 22,
+          "cat": "Paper Process",
+          "issue": "No redlines expected but legal will still review standard terms. Timeline for legal review unknown.",
+          "rec": "Confirm contract is accessible for legal review",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 23,
+          "cat": "Paper Process",
+          "issue": "No estimate for legal review timeline. Frasers Group legal could also be slow.",
+          "rec": "Ask Tom about legal review timeline",
+          "due": "03/03/2026"
+        },
+        {
+          "p": 24,
+          "cat": "Paper Process",
+          "issue": "No target signature date. Everything contingent on Group IT approval which has been delayed 2+ months.",
+          "rec": "Propose signature target as part of MAP",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 25,
+          "cat": "Identify Pain",
+          "issue": "No previous migration attempts discussed.",
+          "rec": "Ask about previous migration attempts",
+          "due": "03/03/2026"
+        },
+        {
+          "p": 26,
+          "cat": "Identify Pain",
+          "issue": "Operations and finance teams identified. Broader impact (marketing, CS, warehouse) unknown.",
+          "rec": "Discuss with Blayne who else is affected",
+          "due": "03/10/2026"
+        },
+        {
+          "p": 27,
+          "cat": "Identify Pain",
+          "issue": "Tom and Blayne motivated but urgency doesn't extend beyond sofa.com's small team. No 'hair on fire' moment.",
+          "rec": "Include cost-of-delay in ROI review",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 28,
+          "cat": "Identify Pain",
+          "issue": "Hybris could theoretically be upgraded. Other platforms possible. Shopify differentiator is Everlast USA precedent.",
+          "rec": "Include Everlast USA case study in exec POV doc",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 29,
+          "cat": "Identify Pain",
+          "issue": "No hard 'why now'. Pain is ongoing but not new. No triggering event.",
+          "rec": "Have candid 'why now' conversation with Tom/Blayne",
+          "due": "03/03/2026"
+        },
+        {
+          "p": 30,
+          "cat": "Identify Pain",
+          "issue": "Strong positioning (Everlast precedent, VML validation, integrated payments) but haven't established 'only Shopify' narrative.",
+          "rec": "Ben to include in exec POV doc",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 31,
+          "cat": "Champion",
+          "issue": "Tom is credible on finance but sofa.com is 'small cog' — limited group-level political capital.",
+          "rec": "Request introduction to Director",
+          "due": "03/10/2026"
+        },
+        {
+          "p": 32,
+          "cat": "Champion",
+          "issue": "Tom has path to Director but weak connection to Group IT. 2+ months waiting for meeting suggests limited IT influence.",
+          "rec": "Explore Everlast USA connection to Frasers Group IT",
+          "due": "02/28/2026"
+        },
+        {
+          "p": 33,
+          "cat": "Champion",
+          "issue": "Shopify not introduced to Director, Group IT, or Digital IT Manager.",
+          "rec": "Offer to join Group IT meeting as technical resource",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 34,
+          "cat": "Champion",
+          "issue": "Tom hasn't offered to bring Shopify into Group IT meeting. Focused on internal materials approach.",
+          "rec": "Offer to join as technical resource to help Tom succeed",
+          "due": "03/03/2026"
+        },
+        {
+          "p": 35,
+          "cat": "Competition",
+          "issue": "SAP Hybris is incumbent. No other platforms actively evaluated. Frasers Group IT could push alternatives.",
+          "rec": "Ask Tom if this is Shopify vs Hybris only",
+          "due": "03/03/2026"
+        },
+        {
+          "p": 36,
+          "cat": "Competition",
+          "issue": "Doing nothing is implicit alternative and most likely outcome if IT doesn't approve. Not explicitly discussed.",
+          "rec": "Ask what staying on Hybris looks like for 3 years",
+          "due": "03/03/2026"
+        },
+        {
+          "p": 37,
+          "cat": "Competition",
+          "issue": "Win: Everlast precedent, financial case, VML champion, payments value. Lose: Group IT block, no compelling event, 'small cog' status, AE handover risk.",
+          "rec": "Focus next 30 days on Group IT preparation and compelling event",
+          "due": "03/15/2026"
+        }
+      ],
+      "stakeholders": [
+        {
+          "name": "Blayne Griffin-Reader",
+          "title": "Head of Digital Trading & Optimization",
+          "role": "Launch Contact",
+          "email": "blaynegr@sofa.com",
+          "engagement": "high",
+          "callsAttended": 3,
+          "callsInvited": 3
+        },
+        {
+          "name": "Tom Humphrey",
+          "title": "Financial Controller",
+          "role": "Decision Maker",
+          "email": "tom.humphrey@frasers.group",
+          "engagement": "high",
+          "callsAttended": 3,
+          "callsInvited": 3
+        }
+      ],
+      "shopifyTeam": [
+        {
+          "name": "Maissa Fatte",
+          "role": "Account Executive",
+          "email": "maissa.fatte@shopify.com"
+        },
+        {
+          "name": "Ben Homer",
+          "role": "Solutions Engineer",
+          "email": "ben.homer@shopify.com"
+        }
+      ],
+      "calls": [
+        {
+          "date": "2025-11-17",
+          "title": "Sofa.com TCO - Shopify",
+          "duration": "47 min",
+          "shopifyAttendees": [
+            "Yasmine Fazeli (AE)"
+          ],
+          "merchantAttendees": [
+            "Blayne Griffin-Reader",
+            "Tom Humphrey",
+            "Sam El-Yafi (VML)",
+            "Scott Armstrong (VML)"
+          ],
+          "summary": "Business case presentation showing ~£600K savings over 3 years, 12-month payback, £200K initial build. VML proposed Patchworks for ERP integration. Tom raised deposit/finance payment concerns and complex SKU structure. Blayne highlighted manual processes and need for speed."
+        },
+        {
+          "date": "2026-01-06",
+          "title": "Shopify Rate Review Call",
+          "duration": "27 min",
+          "shopifyAttendees": [
+            "Yasmine Fazeli (AE)",
+            "Ben Homer (SE)"
+          ],
+          "merchantAttendees": [
+            "Tom Humphrey"
+          ],
+          "summary": "Shopify Payments proposal: 1% domestic, 2.3% international rates, $71K annual Shop Pay uplift. Tom needs Elevon comparison for internal approval. VML conducting technical due diligence. Non-redline contract to be issued."
+        },
+        {
+          "date": "2026-02-11",
+          "title": "Shopify X Sofa.com",
+          "duration": "17 min",
+          "shopifyAttendees": [
+            "Maissa Fatte (AE)"
+          ],
+          "merchantAttendees": [
+            "Blayne Griffin-Reader",
+            "Tom Humphrey"
+          ],
+          "summary": "New AE intro (Maissa replacing Yasmine on maternity). Primary blocker is Frasers Group IT approval — 2+ months waiting for initial meeting. Tom building 3-year ROI calc needs Maissa's review. Legal review pending IT clearance. Contract terms non-flexible, USD invoicing confirmed."
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-02-19",
+          "totalScore": 29,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 4.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 3.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 3,
+            "Identify Pain": 4,
+            "Champion": 4.5,
+            "Competition": 3.5
           },
           "changes": []
         }
