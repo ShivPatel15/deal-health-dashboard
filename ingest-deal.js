@@ -251,6 +251,7 @@ function transformPayload(payload) {
       supportNeeded: analysis.supportNeeded || analysis.narrative?.supportNeeded || '',
     },
     meddpicc: meddpicc,
+    lastAnalysisDate: new Date().toISOString().split('T')[0],
     calls: calls.map(c => ({
       date: c.date || '',
       title: c.title || '',

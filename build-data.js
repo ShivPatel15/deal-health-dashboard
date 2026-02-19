@@ -208,6 +208,9 @@ const fullOpps = opps.map(o => {
     type: o.type || 'New Business',
     created: o.timeline?.created || o.created || '',
 
+    // Analysis tracking
+    lastAnalysisDate: o.lastAnalysisDate || '',
+
     // Revenue — pass through as-is from SF, NO fabricated projections
     revenue: o.revenue || {},
     projectedBilledRevenue: o.projectedBilledRevenue || o.revenue?.projectedBilledRevenue || null,

@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-19T09:45:18.467Z",
+  "generatedAt": "2026-02-19T09:51:58.681Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -23,6 +23,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2024-07-19",
+      "lastAnalysisDate": "2026-02-18",
       "revenue": {
         "mcv": 75900,
         "totalRev3yr": 1039799,
@@ -1118,6 +1119,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2025-05-29",
+      "lastAnalysisDate": "2026-02-18",
       "revenue": {
         "mcv": 69000,
         "totalRev3yr": 714900,
@@ -1910,6 +1912,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2025-08-19",
+      "lastAnalysisDate": "2026-02-18",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 4269146.5,
@@ -2938,6 +2941,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2025-02-07",
+      "lastAnalysisDate": "2026-02-18",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 841500,
@@ -3046,9 +3050,9 @@ const DEAL_DATA = {
               "q": "Have I identified the true economic buyer?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Carmen De Teran (Digital Director) listed as Economic Buyer, Dharmini Chauhan (CIO) and Tom Burrow (CMO) as Decision Makers. True budget authority unclear — could be CIO or CFO (not in stakeholder map).",
+              "notes": "Simon Oates confirmed in Feb 19 call that Dharmini Padmini is the final budget approver.",
               "solution": "Validate who holds final budget authority.",
-              "action": "Ben Rees to ask Simon Oates: 'Who ultimately approves the budget for this project?'",
+              "action": "Ben Rees to ask Simon Oates: \"Who ultimately approves the budget for this project?\"",
               "due": "02/21/2026",
               "highlight": false
             },
@@ -3618,8 +3622,8 @@ const DEAL_DATA = {
         {
           "p": 4,
           "cat": "Economic Buyer",
-          "issue": "Carmen De Teran (Digital Director) listed as Economic Buyer, Dharmini Chauhan (CIO) and Tom Burrow (CMO) as Decision Makers. True budget authority unclear — could be CIO or CFO (not in stakeholder map).",
-          "rec": "Ben Rees to ask Simon Oates: 'Who ultimately approves the budget for this project?'",
+          "issue": "Simon Oates confirmed in Feb 19 call that Dharmini Padmini is the final budget approver.",
+          "rec": "Ben Rees to ask Simon Oates: \"Who ultimately approves the budget for this project?\"",
           "due": "02/21/2026"
         },
         {
@@ -4097,6 +4101,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2025-10-16",
+      "lastAnalysisDate": "2026-02-18",
       "revenue": {
         "mcv": 285200,
         "totalRev3yr": 1244375,
