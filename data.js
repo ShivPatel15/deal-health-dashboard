@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-19T12:41:55.177Z",
+  "generatedAt": "2026-02-19T12:56:36.987Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -7179,6 +7179,1060 @@ const DEAL_DATA = {
             "Identify Pain": 6,
             "Champion": 4.5,
             "Competition": 2
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "006OG00000JUPVtYAP",
+      "name": "Mint Velvet",
+      "accountName": "Mint Velvet",
+      "accountId": "0018V00002czX5rQAE",
+      "owner": "Ben Rees",
+      "ownerEmail": "ben.rees@shopify.com",
+      "stage": "Envision",
+      "closeDate": "2026-03-27",
+      "forecastCategory": "Pipeline",
+      "probability": 20,
+      "merchantIntent": "Committed - At Risk",
+      "type": "Existing Business",
+      "created": "2025-12-12",
+      "lastAnalysisDate": "2026-02-19",
+      "revenue": {
+        "mcv": 0,
+        "totalRev3yr": 1562351,
+        "d2cGmv": null,
+        "b2bGmv": null,
+        "retailGmv": 99315424,
+        "paymentsGpv": 0,
+        "paymentsAttached": true,
+        "ipp": 0
+      },
+      "projectedBilledRevenue": 574389,
+      "products": [
+        "Plus Product Suite",
+        "Plus - POS Pro",
+        "Retail Payments - Plus"
+      ],
+      "competitor": "Sitoo",
+      "compellingEvent": "Christmas 2026 POS go-live target set by CTO. Moderate-strong: genuine business driver (no retailer migrates POS during holidays) but self-imposed by new CTO, not external forcing function. Deal has already been delayed twice (2024, mid-2025). Feb 20 commercial director call is make-or-break.",
+      "nextStep": "18/02 BR Board have pushback on costs (particularly rates). Call with commercial director on 20th to align on what rate we need to close this.",
+      "narrative": {
+        "oppSummary": "Mint Velvet is an existing Shopify Plus D2C customer evaluating Shopify POS Pro and Retail Payments to replace incumbent Sitoo across 110 UK retail stores. The deal represents $1.56M in total revenue ($574K projected billed) with $99.3M in retail GMV. This is a winback — POS was explored in 2024 and paused. Now restarted by new CTO (Tom) targeting Christmas 2026 go-live. Current blocker is board-level pushback on payment processing rates, with a critical Feb 20 commercial director call to align on rates.",
+        "whyChange": "Mint Velvet runs Sitoo POS across 110 stores while on Shopify Plus for D2C, creating a fragmented commerce stack. New CTO (Tom) joined with a mandate to modernize. 21+ POS sync calls in 2025 surfaced pain points around financial reconciliation, inventory management, omni-channel gaps, and operational overhead of separate systems. New sub-brand Arttov further compounds the need for a unified platform.",
+        "whyShopify": "Shopify offers the unique advantage of unifying D2C and retail on a single platform — eliminating Sitoo. Tom has prior Shopify experience and is a strong advocate. POS capabilities extensively validated across 13 months of engagement. Patchworks middleware confirmed for Arttov sub-brand inventory sync. Shopify POS is the ONLY solution that natively unifies with their existing Shopify Plus D2C store.",
+        "whyNow": "New CTO (Tom) joined specifically wanting to restart POS evaluation. Christmas 2026 go-live target across 110 stores means decision needed by Q1-Q2 2026. Arttov sub-brand launch needs integrated infrastructure. However, board pushback on rates threatens the timeline. Feb 20 commercial director call is the critical inflection point.",
+        "supportNeeded": "1) Competitive payment rate negotiation — board pushback on rates is the #1 blocker. 2) Irish entity registration guidance for Shopify Payments POS. 3) Arttov sub-brand architecture and expansion store pricing clarity. 4) International omni-channel structure finalization. 5) Implementation timeline and partner readiness for 110-store rollout by Christmas 2026. 6) Klarna and payment method parity for Finance Director buy-in."
+      },
+      "meddpicc": {
+        "metrics": {
+          "label": "Metrics",
+          "questions": [
+            {
+              "q": "Do we know the business reasons as to why they are migrating?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "New CTO wants unified commerce, replace fragmented Sitoo POS across 110 stores.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we have specific quantifiable goals aligned with the project?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Retail GMV ($99.3M), 110 stores, Christmas 2026 target known but no quantified ROI targets from merchant.",
+              "solution": "Ask Tom/Eleanor for specific ROI metrics.",
+              "action": "Include ROI discussion in commercial call.",
+              "due": "02/27/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do they need to make a platform change to achieve this goal?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Current Sitoo POS separate from Shopify Plus D2C. Unified commerce requires platform change.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we understand the impact if this goal isn't achieved?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Continued fragmentation, no omni-channel, Arttov integration harder. Not explicitly quantified.",
+              "solution": "Frame cost-of-doing-nothing for board.",
+              "action": "Prepare cost-of-inaction analysis.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Is there a compelling event in place driving action?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Christmas 2026 go-live target. Arttov sub-brand launch. New CTO mandate.",
+              "solution": "Reinforce backwards timeline to show decision urgency.",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have I validated the metrics with the customer?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Store count, GMV, timeline validated. ROI metrics and success criteria not formally agreed.",
+              "solution": "Create mutual success criteria document.",
+              "action": "Propose success metrics during commercial alignment.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are the metrics compelling enough to justify change?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Compelling to CTO but board pushing back on costs — financial case not yet strong enough at exec level.",
+              "solution": "Build TCO comparison (Sitoo + fragmented stack vs Shopify unified).",
+              "action": "Prepare TCO/value narrative for board.",
+              "due": "02/25/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "economicBuyer": {
+          "label": "Economic Buyer",
+          "questions": [
+            {
+              "q": "Have I identified the true economic buyer?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Eleanor Bassett (FD) engaged on commercials but board is pushing back — true EB may be board-level.",
+              "solution": "Ask who on the board approves this spend.",
+              "action": "Ask on Feb 20 call: 'Who needs to approve this?'",
+              "due": "02/20/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know who's signing the contract?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Not discussed. Could be Eleanor, CEO, or procurement.",
+              "solution": "Clarify contract signatory.",
+              "action": "Ask Eleanor/Tom about signing authority.",
+              "due": "02/27/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we have access to this individual?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Access to Eleanor (FD) but NOT to board members pushing back on costs.",
+              "solution": "Use Feb 20 commercial director meeting to identify EB.",
+              "action": "Leverage Feb 20 meeting.",
+              "due": "02/20/2026",
+              "highlight": false
+            },
+            {
+              "q": "Can we get access?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Tom and Eleanor cooperative, facilitating introductions. Commercial director meeting scheduled.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what the economic buyer cares about most?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Board cares about costs/rates. Specific strategic priorities beyond cost unknown.",
+              "solution": "Explore board priorities with commercial director.",
+              "action": "Explore on Feb 20.",
+              "due": "02/20/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do you know how they make decisions and allocate budget?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Board has veto, commercial director involved, Eleanor manages financial evaluation. Formal process unclear.",
+              "solution": "Map formal procurement/approval process.",
+              "action": "Ask: 'Walk me through what happens after we agree on rates.'",
+              "due": "02/27/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "decisionProcess": {
+          "label": "Decision Process",
+          "questions": [
+            {
+              "q": "Do we know how they will be making the decision?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Tom leads tech eval, Eleanor leads commercial, board approves. Formal process not documented.",
+              "solution": "Map decision process.",
+              "action": "Ben Rees to map in next call.",
+              "due": "02/27/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know who's involved / buying committee?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Tom, Eleanor, commercial director, board known. Broader ops stakeholders (Paula, Jodie, Jon) from 2025 involved. Full committee not mapped.",
+              "solution": "Confirm full buying committee.",
+              "action": "Ben Rees to request from Tom.",
+              "due": "02/27/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know when they want to make a decision by?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Christmas 2026 go-live implies Q1-Q2 decision needed. No explicit deadline stated.",
+              "solution": "Present backwards timeline.",
+              "action": "Show when contract must be signed for Christmas 2026.",
+              "due": "02/27/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what is driving this timeline?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Christmas 2026 peak season, new CTO mandate, Arttov sub-brand launch.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know if they have tried to solve this problem before?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Winback — explored 2024, paused mid-2025, now restarted. Third attempt.",
+              "solution": "Understand what blocked prior attempts.",
+              "action": "Ask Tom what was different this time.",
+              "due": "02/27/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what will happen if they do nothing?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Staying on Sitoo is implicit alternative. Board comfortable enough to push back on cost.",
+              "solution": "Quantify cost of status quo.",
+              "action": "Build 'stay on Sitoo' cost model.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have you validated this process with the buyer?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Process inferred but not formally validated. No MAP exists.",
+              "solution": "Create mutual action plan.",
+              "action": "Propose MAP on next call.",
+              "due": "03/05/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "decisionCriteria": {
+          "label": "Decision Criteria",
+          "questions": [
+            {
+              "q": "Do we know what criteria the customer is using to evaluate vendors?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Rates are top criterion (board pushback). Omni-channel, hardware, international, integration known. No formal rubric shared.",
+              "solution": "Ask for evaluation criteria.",
+              "action": "Ask: 'What are the top 3 criteria?'",
+              "due": "02/27/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Extensive POS discussions across 21+ calls. D2C on Shopify Plus. Arttov sub-brand discussed.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have we surfaced technical complications (integrations)?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Irish entity, Patchworks middleware, GiveX gift cards, hardware specs, financial reconciliation all surfaced.",
+              "solution": "Complete international structure follow-up.",
+              "action": "Ben Homer to finalize international docs.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how payments play into their decision?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Payments is THE central issue. Board pushback on rates. Eleanor deeply engaged. Make-or-break factor.",
+              "solution": "Pricing team needs to deliver competitive rates.",
+              "action": "Feb 20 commercial director call.",
+              "due": "02/20/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we have a mutual action plan in place?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No formal MAP documented.",
+              "solution": "Create MAP with milestones to Christmas 2026.",
+              "action": "Draft and share MAP.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Did we help shape those criteria in our favour?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "13 months of engagement shaped Tom's view favorably. But pricing criterion not in Shopify's favor.",
+              "solution": "Reframe from rate comparison to total value.",
+              "action": "Prepare value-based business case.",
+              "due": "02/25/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know who defined the decision criteria?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Tom drives technical criteria, board/Eleanor drives financial. Unclear if formal evaluation framework exists.",
+              "solution": "Clarify with Tom.",
+              "action": "",
+              "due": "02/27/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "paperProcess": {
+          "label": "Paper Process",
+          "questions": [
+            {
+              "q": "Do we know what their procurement process is?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Procurement process not discussed.",
+              "solution": "Ask Eleanor/Tom about procurement.",
+              "action": "Ask: 'What does your internal procurement look like?'",
+              "due": "02/27/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are there likely to be redlines?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Board scrutiny on costs suggests redlines likely on rates/SLAs. Irish entity adds legal complexity.",
+              "solution": "Proactively identify redline areas.",
+              "action": "Consult deal desk on typical UK retail POS redlines.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "If redlines, how long does review take?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Legal review timeline unknown.",
+              "solution": "Include in procurement discovery.",
+              "action": "",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how long it will take?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Total paper process timeline not discussed.",
+              "solution": "Establish timeline to validate Christmas 2026 feasibility.",
+              "action": "Map duration with Eleanor.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we have contract details?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Rack rates presented. Final rates not agreed — the current blocker.",
+              "solution": "Finalize rate negotiation.",
+              "action": "Feb 20 commercial director call.",
+              "due": "02/20/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have we sent the contract?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No contract sent. Rates not yet agreed.",
+              "solution": "Prepare draft for rapid delivery.",
+              "action": "Deal desk to prepare pending rate agreement.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know target date for signature?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No signature target date. March 27 SF close date not validated.",
+              "solution": "Establish target in MAP.",
+              "action": "Propose signature target.",
+              "due": "03/05/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "identifyPain": {
+          "label": "Identify Pain",
+          "questions": [
+            {
+              "q": "Do we know their current issues and why they are reviewing their tech stack?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Fragmented stack (Shopify D2C + Sitoo POS), reconciliation complexity, inventory gaps, no omni-channel, operational overhead across 110 stores.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have they tried to resolve this issue in the past?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Winback — explored 2024, ran 21+ sync calls 2025, paused for warehouse move. Third attempt.",
+              "solution": "Ensure rate/cost blocker is addressed.",
+              "action": "",
+              "due": "02/20/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how pains are affecting business operations?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Operational inefficiency discussed generally but not quantified (no specific £ amounts or % losses).",
+              "solution": "Help quantify the pain.",
+              "action": "Prepare operational impact assessment.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what teams are affected and to what extent?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Finance, store ops, IT, marketing all engaged in 2025 calls. Extent per team not documented.",
+              "solution": "Map team-level impact.",
+              "action": "Identify which team feels most pain as additional champions.",
+              "due": "03/12/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how urgent it is to solve this pain?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Tom treats as urgent (Christmas 2026). Board doesn't feel same urgency — comfortable with Sitoo.",
+              "solution": "Help Tom build internal urgency case.",
+              "action": "Provide business case / ROI framework for Tom.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Can they solve this pain using another option?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Could stay on Sitoo, evaluate other POS, or explore different platform entirely.",
+              "solution": "Emphasize only Shopify unifies their existing D2C + retail.",
+              "action": "Articulate 'only Shopify can do this' narrative.",
+              "due": "02/27/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know why this problem is important to solve now?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "New CTO mandate, Christmas 2026 deadline, Arttov launch, accumulated tech debt.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Is our solution uniquely positioned to solve this pain?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Already on Shopify Plus for D2C. Shopify POS is the ONLY native unification option. Any other POS perpetuates fragmentation.",
+              "solution": "Lead with this in all conversations.",
+              "action": "Front and center in commercial director conversation.",
+              "due": "02/20/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "champion": {
+          "label": "Champion",
+          "questions": [
+            {
+              "q": "Have you identified a true champion (influence + motivation)?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Tom (CTO) is clear champion — joined with mandate to modernize, prior Shopify experience, personally restarted POS evaluation, driving Christmas 2026 timeline.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Does your champion have political capital and credibility?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Tom is new CTO — initial credibility/mandate but limited political capital. Board pushback suggests he hasn't won trust on this initiative yet.",
+              "solution": "Help Tom build internal case.",
+              "action": "Arm Tom with TCO analysis, ROI framework, peer references.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have they given insights you wouldn't get otherwise?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Tom transparent about board pushback, Christmas target, Arttov plans, prior Shopify experience.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Are they connected with the key decision makers?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Tom has board access, works alongside Eleanor (FD), facilitated introductions and Feb 20 commercial director meeting.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have you been introduced to the decision maker?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Introduced to Eleanor and commercial director. Board-level approver not yet identified or introduced.",
+              "solution": "Use Feb 20 as stepping stone to board access.",
+              "action": "Ask commercial director: 'Who else needs to be comfortable?'",
+              "due": "02/20/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are they willing to bring you into the board/buying group?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Tom has facilitated introductions. Direct board access not offered. Board operating at arm's length.",
+              "solution": "Offer exec sponsor call with Shiv Patel.",
+              "action": "Offer to have Shiv join board conversation if helpful.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Why are they such a champion for you?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Tom has prior Shopify experience (personal conviction). Delivering 110-store POS migration by Christmas 2026 = major CTO achievement. Career tied to this.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            }
+          ]
+        },
+        "competition": {
+          "label": "Competition",
+          "questions": [
+            {
+              "q": "Do we know who else the customer is evaluating?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Sitoo is incumbent. No other competitors actively mentioned. Unclear if formal RFP or Shopify-vs-Sitoo decision.",
+              "solution": "Ask if evaluating other POS solutions.",
+              "action": "Ben Rees to ask directly.",
+              "due": "02/27/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have we asked if doing nothing is an option?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Staying on Sitoo is implicit alternative. Board comfortable enough to push back on cost. Not explicitly explored.",
+              "solution": "Explore cost/risk of doing nothing.",
+              "action": "Ask: 'Is staying on Sitoo viable long-term?'",
+              "due": "02/27/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are there internal alternatives to our solution?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No internal build option. Retailer will use vendor solution.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know why alternatives are being evaluated?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Cost keeping Sitoo in play. If Sitoo cheaper rate-to-rate, financial argument for change is harder.",
+              "solution": "Understand Sitoo total cost.",
+              "action": "Ask what they pay Sitoo in total.",
+              "due": "02/27/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know why we would win or lose?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Win: only platform unifying existing D2C + retail, Tom is champion, 13 months of validation. Lose: board rejects rates, Sitoo is 'good enough', deal stalls for 3rd time, AE/MSM handovers weakened continuity.",
+              "solution": "Focus on total value not rate comparison.",
+              "action": "Prepare 'why we win / risk of losing' brief for Feb 20.",
+              "due": "02/20/2026",
+              "highlight": false
+            }
+          ]
+        }
+      },
+      "scores": {
+        "Metrics": {
+          "score": 5,
+          "max": 7,
+          "pct": 71
+        },
+        "Economic Buyer": {
+          "score": 3,
+          "max": 6,
+          "pct": 50
+        },
+        "Decision Process": {
+          "score": 4,
+          "max": 7,
+          "pct": 57
+        },
+        "Decision Criteria": {
+          "score": 4.5,
+          "max": 7,
+          "pct": 64
+        },
+        "Paper Process": {
+          "score": 1,
+          "max": 7,
+          "pct": 14
+        },
+        "Identify Pain": {
+          "score": 6.5,
+          "max": 8,
+          "pct": 81
+        },
+        "Champion": {
+          "score": 5.5,
+          "max": 7,
+          "pct": 79
+        },
+        "Competition": {
+          "score": 2.5,
+          "max": 5,
+          "pct": 50
+        },
+        "_total": {
+          "score": 32,
+          "max": 54,
+          "pct": 59,
+          "status": "on-track"
+        }
+      },
+      "nextSteps": [
+        {
+          "p": 1,
+          "cat": "Metrics",
+          "issue": "Retail GMV ($99.3M), 110 stores, Christmas 2026 target known but no quantified ROI targets from merchant.",
+          "rec": "Include ROI discussion in commercial call.",
+          "due": "02/27/2026"
+        },
+        {
+          "p": 2,
+          "cat": "Metrics",
+          "issue": "Continued fragmentation, no omni-channel, Arttov integration harder. Not explicitly quantified.",
+          "rec": "Prepare cost-of-inaction analysis.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 3,
+          "cat": "Metrics",
+          "issue": "Store count, GMV, timeline validated. ROI metrics and success criteria not formally agreed.",
+          "rec": "Propose success metrics during commercial alignment.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 4,
+          "cat": "Metrics",
+          "issue": "Compelling to CTO but board pushing back on costs — financial case not yet strong enough at exec level.",
+          "rec": "Prepare TCO/value narrative for board.",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 5,
+          "cat": "Economic Buyer",
+          "issue": "Eleanor Bassett (FD) engaged on commercials but board is pushing back — true EB may be board-level.",
+          "rec": "Ask on Feb 20 call: 'Who needs to approve this?'",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 6,
+          "cat": "Economic Buyer",
+          "issue": "Not discussed. Could be Eleanor, CEO, or procurement.",
+          "rec": "Ask Eleanor/Tom about signing authority.",
+          "due": "02/27/2026"
+        },
+        {
+          "p": 7,
+          "cat": "Economic Buyer",
+          "issue": "Access to Eleanor (FD) but NOT to board members pushing back on costs.",
+          "rec": "Leverage Feb 20 meeting.",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 8,
+          "cat": "Economic Buyer",
+          "issue": "Board cares about costs/rates. Specific strategic priorities beyond cost unknown.",
+          "rec": "Explore on Feb 20.",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 9,
+          "cat": "Economic Buyer",
+          "issue": "Board has veto, commercial director involved, Eleanor manages financial evaluation. Formal process unclear.",
+          "rec": "Ask: 'Walk me through what happens after we agree on rates.'",
+          "due": "02/27/2026"
+        },
+        {
+          "p": 10,
+          "cat": "Decision Process",
+          "issue": "Tom leads tech eval, Eleanor leads commercial, board approves. Formal process not documented.",
+          "rec": "Ben Rees to map in next call.",
+          "due": "02/27/2026"
+        },
+        {
+          "p": 11,
+          "cat": "Decision Process",
+          "issue": "Tom, Eleanor, commercial director, board known. Broader ops stakeholders (Paula, Jodie, Jon) from 2025 involved. Full committee not mapped.",
+          "rec": "Ben Rees to request from Tom.",
+          "due": "02/27/2026"
+        },
+        {
+          "p": 12,
+          "cat": "Decision Process",
+          "issue": "Christmas 2026 go-live implies Q1-Q2 decision needed. No explicit deadline stated.",
+          "rec": "Show when contract must be signed for Christmas 2026.",
+          "due": "02/27/2026"
+        },
+        {
+          "p": 13,
+          "cat": "Decision Process",
+          "issue": "Staying on Sitoo is implicit alternative. Board comfortable enough to push back on cost.",
+          "rec": "Build 'stay on Sitoo' cost model.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 14,
+          "cat": "Decision Process",
+          "issue": "Process inferred but not formally validated. No MAP exists.",
+          "rec": "Propose MAP on next call.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 15,
+          "cat": "Decision Criteria",
+          "issue": "Rates are top criterion (board pushback). Omni-channel, hardware, international, integration known. No formal rubric shared.",
+          "rec": "Ask: 'What are the top 3 criteria?'",
+          "due": "02/27/2026"
+        },
+        {
+          "p": 16,
+          "cat": "Decision Criteria",
+          "issue": "No formal MAP documented.",
+          "rec": "Draft and share MAP.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 17,
+          "cat": "Decision Criteria",
+          "issue": "13 months of engagement shaped Tom's view favorably. But pricing criterion not in Shopify's favor.",
+          "rec": "Prepare value-based business case.",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 18,
+          "cat": "Paper Process",
+          "issue": "Procurement process not discussed.",
+          "rec": "Ask: 'What does your internal procurement look like?'",
+          "due": "02/27/2026"
+        },
+        {
+          "p": 19,
+          "cat": "Paper Process",
+          "issue": "Board scrutiny on costs suggests redlines likely on rates/SLAs. Irish entity adds legal complexity.",
+          "rec": "Consult deal desk on typical UK retail POS redlines.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 20,
+          "cat": "Paper Process",
+          "issue": "Total paper process timeline not discussed.",
+          "rec": "Map duration with Eleanor.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 21,
+          "cat": "Paper Process",
+          "issue": "Rack rates presented. Final rates not agreed — the current blocker.",
+          "rec": "Feb 20 commercial director call.",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 22,
+          "cat": "Paper Process",
+          "issue": "No contract sent. Rates not yet agreed.",
+          "rec": "Deal desk to prepare pending rate agreement.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 23,
+          "cat": "Paper Process",
+          "issue": "No signature target date. March 27 SF close date not validated.",
+          "rec": "Propose signature target.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 24,
+          "cat": "Identify Pain",
+          "issue": "Operational inefficiency discussed generally but not quantified (no specific £ amounts or % losses).",
+          "rec": "Prepare operational impact assessment.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 25,
+          "cat": "Identify Pain",
+          "issue": "Finance, store ops, IT, marketing all engaged in 2025 calls. Extent per team not documented.",
+          "rec": "Identify which team feels most pain as additional champions.",
+          "due": "03/12/2026"
+        },
+        {
+          "p": 26,
+          "cat": "Identify Pain",
+          "issue": "Tom treats as urgent (Christmas 2026). Board doesn't feel same urgency — comfortable with Sitoo.",
+          "rec": "Provide business case / ROI framework for Tom.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 27,
+          "cat": "Champion",
+          "issue": "Tom is new CTO — initial credibility/mandate but limited political capital. Board pushback suggests he hasn't won trust on this initiative yet.",
+          "rec": "Arm Tom with TCO analysis, ROI framework, peer references.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 28,
+          "cat": "Champion",
+          "issue": "Introduced to Eleanor and commercial director. Board-level approver not yet identified or introduced.",
+          "rec": "Ask commercial director: 'Who else needs to be comfortable?'",
+          "due": "02/20/2026"
+        },
+        {
+          "p": 29,
+          "cat": "Champion",
+          "issue": "Tom has facilitated introductions. Direct board access not offered. Board operating at arm's length.",
+          "rec": "Offer to have Shiv join board conversation if helpful.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 30,
+          "cat": "Competition",
+          "issue": "Sitoo is incumbent. No other competitors actively mentioned. Unclear if formal RFP or Shopify-vs-Sitoo decision.",
+          "rec": "Ben Rees to ask directly.",
+          "due": "02/27/2026"
+        },
+        {
+          "p": 31,
+          "cat": "Competition",
+          "issue": "Staying on Sitoo is implicit alternative. Board comfortable enough to push back on cost. Not explicitly explored.",
+          "rec": "Ask: 'Is staying on Sitoo viable long-term?'",
+          "due": "02/27/2026"
+        },
+        {
+          "p": 32,
+          "cat": "Competition",
+          "issue": "Cost keeping Sitoo in play. If Sitoo cheaper rate-to-rate, financial argument for change is harder.",
+          "rec": "Ask what they pay Sitoo in total.",
+          "due": "02/27/2026"
+        }
+      ],
+      "stakeholders": [
+        {
+          "name": "Eleanor Bassett",
+          "title": "Finance Director",
+          "role": "Primary Contact",
+          "email": "eleanor.bassett@mintvelvet.co.uk",
+          "engagement": "high",
+          "callsAttended": 2,
+          "callsInvited": 3
+        },
+        {
+          "name": "Tom (CTO)",
+          "title": "CTO",
+          "role": "Champion",
+          "email": "tom.clements@mintvelvet.co.uk",
+          "engagement": "high",
+          "callsAttended": 7,
+          "callsInvited": 7
+        }
+      ],
+      "shopifyTeam": [
+        {
+          "name": "Ben Rees",
+          "role": "Account Executive",
+          "email": "ben.rees@shopify.com"
+        },
+        {
+          "name": "Ben Homer",
+          "role": "Solutions Engineer",
+          "email": "ben.homer@shopify.com"
+        },
+        {
+          "name": "Roger Herbert",
+          "role": "Merchant Success Manager",
+          "email": "roger.herbert@shopify.com"
+        },
+        {
+          "name": "Shiv Patel",
+          "role": "Sales Lead",
+          "email": "shiv.patel@shopify.com"
+        }
+      ],
+      "calls": [
+        {
+          "date": "2025-12-05",
+          "title": "Shopify x Mint Velvet",
+          "duration": "30 min",
+          "shopifyAttendees": [
+            "Roger Herbert (MSM)"
+          ],
+          "merchantAttendees": [
+            "Paula Abasolo",
+            "Tom (CTO)",
+            "Jodie Grandi"
+          ],
+          "summary": "Platform developments, POS project status, strategic initiatives. POS timelines still early stages."
+        },
+        {
+          "date": "2026-01-15",
+          "title": "Shopify x Mint Velvet - POS",
+          "duration": "30 min",
+          "shopifyAttendees": [
+            "Yasmine Fazeli (AE)",
+            "Roger Herbert (MSM)"
+          ],
+          "merchantAttendees": [
+            "Tom (CTO)"
+          ],
+          "summary": "POS solution presented for 110 locations. Rack rate pricing (0.25% rev share, 1.5% card fees). Tom is new CTO targeting Christmas 2026 go-live."
+        },
+        {
+          "date": "2026-01-22",
+          "title": "Shopify commercials + next steps for POS",
+          "duration": "30 min",
+          "shopifyAttendees": [
+            "Roger Herbert (MSM)",
+            "Shiv Patel (Sales Lead)",
+            "Yasmine Fazeli (AE)",
+            "Ben Homer (SE)"
+          ],
+          "merchantAttendees": [
+            "Tom (CTO)",
+            "Eleanor Bassett (Finance Director)"
+          ],
+          "summary": "AE handover to Ben Rees. Shiv Patel introduced. Eleanor first appearance. POS license in Plus. Partner assessment underway (Patchworks)."
+        },
+        {
+          "date": "2026-01-26",
+          "title": "Commercials - POS",
+          "duration": "30 min",
+          "shopifyAttendees": [
+            "Yasmine Fazeli (AE)"
+          ],
+          "merchantAttendees": [
+            "Tom (CTO)"
+          ],
+          "summary": "Hardware specifics (10th gen iPads, £230 terminals). Irish entity required for POS. International omni-sales discussed."
+        },
+        {
+          "date": "2026-02-05",
+          "title": "Shopify x Mint Velvet",
+          "duration": "30 min",
+          "shopifyAttendees": [
+            "Ben Rees (AE)",
+            "Ben Homer (SE)"
+          ],
+          "merchantAttendees": [
+            "Tom (CTO)",
+            "Eleanor Bassett (Finance Director)"
+          ],
+          "summary": "Payment rates and processing specifics presented. Klarna discussed. Eleanor engaged on financials. Ben Rees admits need to 'argue' rates with pricing team."
+        },
+        {
+          "date": "2026-02-11",
+          "title": "Ben and Tom sync - Shopify",
+          "duration": "30 min",
+          "shopifyAttendees": [
+            "Ben Rees (AE)"
+          ],
+          "merchantAttendees": [
+            "Tom (CTO)"
+          ],
+          "summary": "New sub-brand Arttov (premium athletic) needs separate store. Expansion store pricing discussed. POS migration intent strong. Unified commerce benefits highlighted."
+        },
+        {
+          "date": "2026-02-12",
+          "title": "Mint Velvet | Shopify - International options",
+          "duration": "25 min",
+          "shopifyAttendees": [
+            "Ben Homer (SE)"
+          ],
+          "merchantAttendees": [
+            "Tom (CTO)"
+          ],
+          "summary": "Arttov sub-brand inventory sync via Patchworks (Shopify Collective unsuitable). Irish entity activation for POS discussed. Both agreed solutions are achievable."
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-02-19",
+          "totalScore": 32,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 3,
+            "Decision Process": 4,
+            "Decision Criteria": 4.5,
+            "Paper Process": 1,
+            "Identify Pain": 6.5,
+            "Champion": 5.5,
+            "Competition": 2.5
           },
           "changes": []
         }
