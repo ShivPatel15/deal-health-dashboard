@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-19T16:31:57.894Z",
+  "generatedAt": "2026-02-19T17:34:52.149Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -1106,14 +1106,14 @@ const DEAL_DATA = {
       ],
       "mutualActionPlan": {
         "merchantName": "Moda in Pelle",
-        "kickoffDate": "2024-07-19",
+        "kickoffDate": "",
         "goLiveDate": "2026-02-27",
         "contactName": "Adriana Colacicco",
         "contactEmail": "adriana.colacicco@shopify.com",
         "champion": "David Duke",
         "items": [
           {
-            "date": "2024-07-19",
+            "date": "",
             "done": true,
             "milestone": "Initial discovery & intro calls",
             "ownerMerchant": "David Duke",
@@ -1132,7 +1132,7 @@ const DEAL_DATA = {
             "date": "",
             "done": false,
             "milestone": "Ask Matt/Anil to share the board-facing business case metrics so Shopify can align value narrative.",
-            "ownerMerchant": "Anil Patel",
+            "ownerMerchant": "",
             "ownerShopify": "Adriana",
             "notes": "Metrics · Due 02/21/2026",
             "due": "02/21/2026"
@@ -1141,7 +1141,7 @@ const DEAL_DATA = {
             "date": "",
             "done": false,
             "milestone": "Work with Matt to articulate what continued platform stagnation means in revenue/brand terms for board justification.",
-            "ownerMerchant": "Matt Holden",
+            "ownerMerchant": "",
             "ownerShopify": "Adriana",
             "notes": "Metrics · Due 02/21/2026",
             "due": "02/21/2026"
@@ -1150,7 +1150,7 @@ const DEAL_DATA = {
             "date": "",
             "done": false,
             "milestone": "Validate business case with economic buyer",
-            "ownerMerchant": "Anil Patel",
+            "ownerMerchant": "",
             "ownerShopify": "Adriana",
             "notes": ""
           },
@@ -1160,16 +1160,16 @@ const DEAL_DATA = {
             "milestone": "Confirm economic buyer & signing authority",
             "ownerMerchant": "",
             "ownerShopify": "Adriana",
-            "notes": "Gap: EB unclear"
+            "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Shiv to ask David Duke to arrange a brief call or have Anil join the next discussion.",
-            "ownerMerchant": "Anil Patel",
-            "ownerShopify": "Shiv",
-            "notes": "Due 02/20/2026",
-            "due": "02/20/2026"
+            "milestone": "Leverage David Duke's relationship to schedule a 15-min call with Anil to discuss final commercial terms.",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": "Due 02/21/2026",
+            "due": "02/21/2026"
           },
           {
             "date": "",
@@ -1182,11 +1182,11 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": false,
-            "milestone": "Shiv to draft a mutual action plan with key milestones (signature, kickoff, migration, QA, go-live) and share with Matt/",
-            "ownerMerchant": "Anil Patel",
-            "ownerShopify": "Shiv",
-            "notes": "Due 02/21/2026",
-            "due": "02/21/2026"
+            "milestone": "Ben Homer to schedule technical discovery with Matt and Jason Holt to map all integrations, POS requirements, SEO plan.",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": "Due 02/24/2026",
+            "due": "02/24/2026"
           },
           {
             "date": "",
@@ -1216,7 +1216,7 @@ const DEAL_DATA = {
             "date": "",
             "done": false,
             "milestone": "Ask Matt/David: 'Once Anil agrees to terms, what's the process? Does legal or finance need to review? Is a PO required?'",
-            "ownerMerchant": "Anil Patel",
+            "ownerMerchant": "",
             "ownerShopify": "Adriana",
             "notes": "Paper Process · Due 02/20/2026",
             "due": "02/20/2026"
@@ -1224,11 +1224,11 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": false,
-            "milestone": "Ask Matt: 'If there are contract modifications needed, how long does your legal/finance review typically take?'",
-            "ownerMerchant": "Matt Holden",
+            "milestone": "Share standard contract terms with Matt/Anil in advance and ask: 'Are there any terms your legal or finance team will wa",
+            "ownerMerchant": "",
             "ownerShopify": "Adriana",
-            "notes": "Paper Process · Due 02/20/2026",
-            "due": "02/20/2026"
+            "notes": "Paper Process · Due 02/21/2026",
+            "due": "02/21/2026"
           },
           {
             "date": "",
@@ -2302,14 +2302,14 @@ const DEAL_DATA = {
       ],
       "mutualActionPlan": {
         "merchantName": "Whittard of Chelsea",
-        "kickoffDate": "2025-05-29",
+        "kickoffDate": "",
         "goLiveDate": "2026-02-27",
         "contactName": "Adriana Colacicco",
         "contactEmail": "adriana.colacicco@shopify.com",
         "champion": "Alice Bennett",
         "items": [
           {
-            "date": "2025-05-29",
+            "date": "",
             "done": true,
             "milestone": "Initial discovery & intro calls",
             "ownerMerchant": "Alice Bennett",
@@ -2327,17 +2327,8 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": false,
-            "milestone": "Adriana to confirm Nathan has validated growth targets internally",
-            "ownerMerchant": "Nathan Smith",
-            "ownerShopify": "Adriana",
-            "notes": "Metrics · Due 02/21/2026",
-            "due": "02/21/2026"
-          },
-          {
-            "date": "",
-            "done": false,
             "milestone": "Adriana to model revenue impact of delayed migration with Fiona",
-            "ownerMerchant": "Fiona Scott",
+            "ownerMerchant": "",
             "ownerShopify": "Adriana",
             "notes": "Metrics · Due 02/24/2026",
             "due": "02/24/2026"
@@ -2345,8 +2336,17 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": false,
+            "milestone": "Adriana to confirm Nathan has validated growth targets internally",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": "Metrics · Due 02/21/2026",
+            "due": "02/21/2026"
+          },
+          {
+            "date": "",
+            "done": false,
             "milestone": "Validate business case with economic buyer",
-            "ownerMerchant": "Nathan Smith",
+            "ownerMerchant": "",
             "ownerShopify": "Adriana",
             "notes": ""
           },
@@ -2356,7 +2356,7 @@ const DEAL_DATA = {
             "milestone": "Confirm economic buyer & signing authority",
             "ownerMerchant": "",
             "ownerShopify": "Adriana",
-            "notes": "✅ Identified"
+            "notes": ""
           },
           {
             "date": "",
@@ -2403,7 +2403,7 @@ const DEAL_DATA = {
             "date": "",
             "done": false,
             "milestone": "Ask Fiona about internal process to get contract signed — legal or procurement review?",
-            "ownerMerchant": "Fiona Scott",
+            "ownerMerchant": "",
             "ownerShopify": "Adriana",
             "notes": "Paper Process · Due 02/21/2026",
             "due": "02/21/2026"
@@ -2412,7 +2412,7 @@ const DEAL_DATA = {
             "date": "",
             "done": false,
             "milestone": "Ask Fiona if legal typically redlines vendor contracts",
-            "ownerMerchant": "Fiona Scott",
+            "ownerMerchant": "",
             "ownerShopify": "Adriana",
             "notes": "Paper Process · Due 02/21/2026",
             "due": "02/21/2026"
@@ -3596,14 +3596,14 @@ const DEAL_DATA = {
       ],
       "mutualActionPlan": {
         "merchantName": "The Dune Group",
-        "kickoffDate": "2025-08-19",
+        "kickoffDate": "",
         "goLiveDate": "2026-02-27",
         "contactName": "Adriana Colacicco",
         "contactEmail": "adriana.colacicco@shopify.com",
         "champion": "Martin Wareing",
         "items": [
           {
-            "date": "2025-08-19",
+            "date": "",
             "done": true,
             "milestone": "Initial discovery & intro calls",
             "ownerMerchant": "Martin Wareing",
@@ -3621,6 +3621,15 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": false,
+            "milestone": "Ask Martin for 2-3 specific measurable outcomes.",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": "Metrics · Due 02/28/2026",
+            "due": "02/28/2026"
+          },
+          {
+            "date": "",
+            "done": false,
             "milestone": "Use TCO document to model cost of SFCC renewal vs Shopify.",
             "ownerMerchant": "",
             "ownerShopify": "Adriana",
@@ -3630,17 +3639,8 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": false,
-            "milestone": "Ask Martin if TCO doc was used in budget request.",
-            "ownerMerchant": "Martin Wareing",
-            "ownerShopify": "Adriana",
-            "notes": "Metrics · Due 02/25/2026",
-            "due": "02/25/2026"
-          },
-          {
-            "date": "",
-            "done": false,
             "milestone": "Validate business case with economic buyer",
-            "ownerMerchant": "Martin Wareing",
+            "ownerMerchant": "",
             "ownerShopify": "Adriana",
             "notes": ""
           },
@@ -3650,13 +3650,13 @@ const DEAL_DATA = {
             "milestone": "Confirm economic buyer & signing authority",
             "ownerMerchant": "",
             "ownerShopify": "Adriana",
-            "notes": "Gap: EB unclear"
+            "notes": ""
           },
           {
             "date": "",
             "done": false,
             "milestone": "Ask Martin to facilitate brief intro call with Nigel before signature.",
-            "ownerMerchant": "Martin Wareing",
+            "ownerMerchant": "",
             "ownerShopify": "Adriana",
             "notes": "Due 02/25/2026",
             "due": "02/25/2026"
@@ -3668,6 +3668,15 @@ const DEAL_DATA = {
             "ownerMerchant": "Martin Wareing",
             "ownerShopify": "Adriana",
             "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Map end-to-end decision process with Martin.",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": "Due 02/22/2026",
+            "due": "02/22/2026"
           },
           {
             "date": "",
@@ -3697,7 +3706,7 @@ const DEAL_DATA = {
             "date": "",
             "done": false,
             "milestone": "Ask: 'Does contract go through legal/procurement before Nigel signs?'",
-            "ownerMerchant": "Nigel Darwin",
+            "ownerMerchant": "",
             "ownerShopify": "Adriana",
             "notes": "Paper Process · Due 02/22/2026",
             "due": "02/22/2026"
@@ -4954,14 +4963,14 @@ const DEAL_DATA = {
       ],
       "mutualActionPlan": {
         "merchantName": "Mulberry Company (Sales) Limited",
-        "kickoffDate": "2025-02-07",
+        "kickoffDate": "",
         "goLiveDate": "2026-02-28",
         "contactName": "Ben Rees",
         "contactEmail": "ben.rees@shopify.com",
         "champion": "Carmen De Teran",
         "items": [
           {
-            "date": "2025-02-07",
+            "date": "",
             "done": true,
             "milestone": "Initial discovery & intro calls",
             "ownerMerchant": "Carmen De Teran",
@@ -4980,7 +4989,7 @@ const DEAL_DATA = {
             "date": "",
             "done": false,
             "milestone": "Ben Rees to work with Carmen De Teran or Simon Oates to document specific measurable goals tied to the migration.",
-            "ownerMerchant": "Carmen De Teran",
+            "ownerMerchant": "",
             "ownerShopify": "Ben",
             "notes": "Metrics · Due 02/25/2026",
             "due": "02/25/2026"
@@ -4989,7 +4998,7 @@ const DEAL_DATA = {
             "date": "",
             "done": false,
             "milestone": "Explore with Simon Oates/Carmen De Teran what happens if they miss Jan 2027 deadline — extended support costs, security ",
-            "ownerMerchant": "Carmen De Teran",
+            "ownerMerchant": "",
             "ownerShopify": "Ben",
             "notes": "Metrics · Due 02/25/2026",
             "due": "02/25/2026"
@@ -4998,7 +5007,7 @@ const DEAL_DATA = {
             "date": "",
             "done": false,
             "milestone": "Validate business case with economic buyer",
-            "ownerMerchant": "Dharmini Chauhan",
+            "ownerMerchant": "",
             "ownerShopify": "Ben",
             "notes": ""
           },
@@ -5008,7 +5017,7 @@ const DEAL_DATA = {
             "milestone": "Confirm economic buyer & signing authority",
             "ownerMerchant": "",
             "ownerShopify": "Ben",
-            "notes": "Gap: EB unclear"
+            "notes": ""
           },
           {
             "date": "",
@@ -5022,7 +5031,7 @@ const DEAL_DATA = {
             "date": "",
             "done": false,
             "milestone": "Ben Rees to propose written MAP to Simon Oates covering remaining eval steps, legal resolution, SI selection, target dec",
-            "ownerMerchant": "Simon Oates",
+            "ownerMerchant": "",
             "ownerShopify": "Ben",
             "notes": "Due 02/21/2026",
             "due": "02/21/2026"
@@ -5055,7 +5064,7 @@ const DEAL_DATA = {
             "date": "",
             "done": false,
             "milestone": "Ben Rees to ask Simon Oates for complete procurement workflow: legal → approvals → signature → PO timeline.",
-            "ownerMerchant": "Simon Oates",
+            "ownerMerchant": "",
             "ownerShopify": "Ben",
             "notes": "Paper Process · Due 02/21/2026",
             "due": "02/21/2026"
@@ -5064,7 +5073,7 @@ const DEAL_DATA = {
             "date": "",
             "done": false,
             "milestone": "Ben Rees to propose target date for final contract terms to Simon Oates and Mulberry legal.",
-            "ownerMerchant": "Simon Oates",
+            "ownerMerchant": "",
             "ownerShopify": "Ben",
             "notes": "Paper Process · Due 02/21/2026",
             "due": "02/21/2026"
@@ -6195,14 +6204,14 @@ const DEAL_DATA = {
       ],
       "mutualActionPlan": {
         "merchantName": "Wacoal Europe",
-        "kickoffDate": "2025-10-16",
+        "kickoffDate": "",
         "goLiveDate": "2026-02-28",
         "contactName": "Maissa Fatte",
         "contactEmail": "maissa.fatte@shopify.com",
         "champion": "Danny Dawes",
         "items": [
           {
-            "date": "2025-10-16",
+            "date": "",
             "done": true,
             "milestone": "Initial discovery & intro calls",
             "ownerMerchant": "Danny Dawes",
@@ -6221,7 +6230,7 @@ const DEAL_DATA = {
             "date": "",
             "done": false,
             "milestone": "Maissa to ask Danny what success looks like 12 months post-launch in quantifiable terms.",
-            "ownerMerchant": "Danny Dawes",
+            "ownerMerchant": "",
             "ownerShopify": "Maissa",
             "notes": "Metrics · Due 02/25/2026",
             "due": "02/25/2026"
@@ -6230,8 +6239,8 @@ const DEAL_DATA = {
             "date": "",
             "done": false,
             "milestone": "Stephen to prepare a cost-of-inaction analysis framework for Danny.",
-            "ownerMerchant": "Danny Dawes",
-            "ownerShopify": "Stephen",
+            "ownerMerchant": "",
+            "ownerShopify": "Maissa",
             "notes": "Metrics · Due 02/25/2026",
             "due": "02/25/2026"
           },
@@ -6239,7 +6248,7 @@ const DEAL_DATA = {
             "date": "",
             "done": false,
             "milestone": "Validate business case with economic buyer",
-            "ownerMerchant": "Vaughn (CFO)",
+            "ownerMerchant": "",
             "ownerShopify": "Maissa",
             "notes": ""
           },
@@ -6249,13 +6258,13 @@ const DEAL_DATA = {
             "milestone": "Confirm economic buyer & signing authority",
             "ownerMerchant": "",
             "ownerShopify": "Maissa",
-            "notes": "✅ Identified"
+            "notes": ""
           },
           {
             "date": "",
             "done": false,
             "milestone": "Maissa to ask Danny if a brief call with Vaughn/Jeff is possible to address executive-level concerns before Feb 27 decis",
-            "ownerMerchant": "Danny Dawes",
+            "ownerMerchant": "",
             "ownerShopify": "Maissa",
             "notes": "Due 02/22/2026",
             "due": "02/22/2026"
@@ -6266,7 +6275,7 @@ const DEAL_DATA = {
             "milestone": "Map complete decision & approval process",
             "ownerMerchant": "Danny Dawes",
             "ownerShopify": "Maissa",
-            "notes": "✅ Process mapped"
+            "notes": ""
           },
           {
             "date": "",
@@ -6305,7 +6314,7 @@ const DEAL_DATA = {
             "date": "",
             "done": false,
             "milestone": "Maissa to ask Danny if legal review is finalized and if any outstanding contract concerns.",
-            "ownerMerchant": "Danny Dawes",
+            "ownerMerchant": "",
             "ownerShopify": "Maissa",
             "notes": "Paper Process · Due 02/22/2026",
             "due": "02/22/2026"
@@ -6314,7 +6323,7 @@ const DEAL_DATA = {
             "date": "",
             "done": false,
             "milestone": "Maissa to confirm: once decision is made Feb 27, how quickly can Vaughn/Jeff sign?",
-            "ownerMerchant": "Vaughn (CFO)",
+            "ownerMerchant": "",
             "ownerShopify": "Maissa",
             "notes": "Paper Process · Due 02/22/2026",
             "due": "02/22/2026"
@@ -7429,14 +7438,14 @@ const DEAL_DATA = {
       ],
       "mutualActionPlan": {
         "merchantName": "Sofa.Com Ltd",
-        "kickoffDate": "2025-10-20",
+        "kickoffDate": "",
         "goLiveDate": "2026-03-26",
         "contactName": "Maissa Fatte",
         "contactEmail": "maissa.fatte@shopify.com",
         "champion": "Blayne Griffin-Reader",
         "items": [
           {
-            "date": "2025-10-20",
+            "date": "",
             "done": true,
             "milestone": "Initial discovery & intro calls",
             "ownerMerchant": "Blayne Griffin-Reader",
@@ -7456,7 +7465,7 @@ const DEAL_DATA = {
             "done": false,
             "milestone": "Ben to prepare Hybris limitations vs Shopify comparison",
             "ownerMerchant": "",
-            "ownerShopify": "Ben",
+            "ownerShopify": "Maissa",
             "notes": "Metrics · Due 03/03/2026",
             "due": "03/03/2026"
           },
@@ -7464,7 +7473,7 @@ const DEAL_DATA = {
             "date": "",
             "done": false,
             "milestone": "Maissa to ask Tom about impact of not migrating",
-            "ownerMerchant": "Tom Humphrey",
+            "ownerMerchant": "",
             "ownerShopify": "Maissa",
             "notes": "Metrics · Due 03/03/2026",
             "due": "03/03/2026"
@@ -7473,7 +7482,7 @@ const DEAL_DATA = {
             "date": "",
             "done": true,
             "milestone": "Validate business case with economic buyer",
-            "ownerMerchant": "Tom Humphrey",
+            "ownerMerchant": "",
             "ownerShopify": "Maissa",
             "notes": ""
           },
@@ -7483,7 +7492,7 @@ const DEAL_DATA = {
             "milestone": "Confirm economic buyer & signing authority",
             "ownerMerchant": "",
             "ownerShopify": "Maissa",
-            "notes": "Gap: EB unclear"
+            "notes": ""
           },
           {
             "date": "",
@@ -7500,7 +7509,7 @@ const DEAL_DATA = {
             "milestone": "Map complete decision & approval process",
             "ownerMerchant": "Blayne Griffin-Reader",
             "ownerShopify": "Maissa",
-            "notes": "✅ Process mapped"
+            "notes": ""
           },
           {
             "date": "",
@@ -7547,11 +7556,11 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": false,
-            "milestone": "Ask Tom about legal review timeline",
-            "ownerMerchant": "Tom Humphrey",
+            "milestone": "Confirm contract is accessible for legal review",
+            "ownerMerchant": "",
             "ownerShopify": "Maissa",
-            "notes": "Paper Process · Due 03/03/2026",
-            "due": "03/03/2026"
+            "notes": "Paper Process · Due 03/05/2026",
+            "due": "03/05/2026"
           },
           {
             "date": "",
@@ -8720,14 +8729,14 @@ const DEAL_DATA = {
       ],
       "mutualActionPlan": {
         "merchantName": "ESSENTIEL Antwerp",
-        "kickoffDate": "2024-07-16",
+        "kickoffDate": "",
         "goLiveDate": "2026-03-16",
         "contactName": "Ben Rees",
         "contactEmail": "ben.rees@shopify.com",
         "champion": "Koen Van Den Broek",
         "items": [
           {
-            "date": "2024-07-16",
+            "date": "",
             "done": true,
             "milestone": "Initial discovery & intro calls",
             "ownerMerchant": "Koen Van Den Broek",
@@ -8764,7 +8773,7 @@ const DEAL_DATA = {
             "date": "",
             "done": false,
             "milestone": "Validate business case with economic buyer",
-            "ownerMerchant": "Koen Van Den Broek",
+            "ownerMerchant": "",
             "ownerShopify": "Ben",
             "notes": ""
           },
@@ -8774,7 +8783,7 @@ const DEAL_DATA = {
             "milestone": "Confirm economic buyer & signing authority",
             "ownerMerchant": "",
             "ownerShopify": "Ben",
-            "notes": "✅ Identified"
+            "notes": ""
           },
           {
             "date": "",
@@ -8787,11 +8796,11 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": false,
-            "milestone": "Ben Rees to draft MAP and share with Filip.",
-            "ownerMerchant": "Filip De Clerck",
+            "milestone": "Propose MAP to Filip after agency sense-checks complete.",
+            "ownerMerchant": "",
             "ownerShopify": "Ben",
-            "notes": "Due 03/05/2026",
-            "due": "03/05/2026"
+            "notes": "Due 03/10/2026",
+            "due": "03/10/2026"
           },
           {
             "date": "",
@@ -8820,20 +8829,20 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": false,
-            "milestone": "Update close date after agency evaluation.",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Paper Process · Due 03/05/2026",
-            "due": "03/05/2026"
-          },
-          {
-            "date": "",
-            "done": false,
             "milestone": "Ben Rees to raise procurement question.",
             "ownerMerchant": "",
             "ownerShopify": "Ben",
             "notes": "Paper Process · Due 03/10/2026",
             "due": "03/10/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Consult EMEA legal on common Belgian enterprise redlines.",
+            "ownerMerchant": "",
+            "ownerShopify": "Ben",
+            "notes": "Paper Process · Due 03/15/2026",
+            "due": "03/15/2026"
           },
           {
             "date": "",
@@ -9972,14 +9981,14 @@ const DEAL_DATA = {
       ],
       "mutualActionPlan": {
         "merchantName": "Mint Velvet",
-        "kickoffDate": "2025-12-12",
+        "kickoffDate": "",
         "goLiveDate": "2026-03-27",
         "contactName": "Ben Rees",
         "contactEmail": "ben.rees@shopify.com",
         "champion": "Eleanor Bassett",
         "items": [
           {
-            "date": "2025-12-12",
+            "date": "",
             "done": true,
             "milestone": "Initial discovery & intro calls",
             "ownerMerchant": "Eleanor Bassett",
@@ -9997,15 +10006,6 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": false,
-            "milestone": "Prepare TCO/value narrative for board.",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Metrics · Due 02/25/2026",
-            "due": "02/25/2026"
-          },
-          {
-            "date": "",
-            "done": false,
             "milestone": "Include ROI discussion in commercial call.",
             "ownerMerchant": "",
             "ownerShopify": "Ben",
@@ -10015,8 +10015,17 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": false,
+            "milestone": "Prepare cost-of-inaction analysis.",
+            "ownerMerchant": "",
+            "ownerShopify": "Ben",
+            "notes": "Metrics · Due 03/05/2026",
+            "due": "03/05/2026"
+          },
+          {
+            "date": "",
+            "done": false,
             "milestone": "Validate business case with economic buyer",
-            "ownerMerchant": "Eleanor Bassett",
+            "ownerMerchant": "",
             "ownerShopify": "Ben",
             "notes": ""
           },
@@ -10026,11 +10035,11 @@ const DEAL_DATA = {
             "milestone": "Confirm economic buyer & signing authority",
             "ownerMerchant": "",
             "ownerShopify": "Ben",
-            "notes": "Gap: EB unclear"
+            "notes": ""
           },
           {
             "date": "",
-            "done": true,
+            "done": false,
             "milestone": "Ask on Feb 20 call: 'Who needs to approve this?'",
             "ownerMerchant": "",
             "ownerShopify": "Ben",
@@ -10048,11 +10057,11 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": false,
-            "milestone": "Draft and share MAP.",
+            "milestone": "Ben Rees to map in next call.",
             "ownerMerchant": "",
             "ownerShopify": "Ben",
-            "notes": "Due 03/05/2026",
-            "due": "03/05/2026"
+            "notes": "Due 02/27/2026",
+            "due": "02/27/2026"
           },
           {
             "date": "",
@@ -10081,20 +10090,20 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": false,
-            "milestone": "Feb 20 commercial director call.",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Paper Process · Due 02/20/2026",
-            "due": "02/20/2026"
-          },
-          {
-            "date": "",
-            "done": false,
             "milestone": "Ask: 'What does your internal procurement look like?'",
             "ownerMerchant": "",
             "ownerShopify": "Ben",
             "notes": "Paper Process · Due 02/27/2026",
             "due": "02/27/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Consult deal desk on typical UK retail POS redlines.",
+            "ownerMerchant": "",
+            "ownerShopify": "Ben",
+            "notes": "Paper Process · Due 03/05/2026",
+            "due": "03/05/2026"
           },
           {
             "date": "",
