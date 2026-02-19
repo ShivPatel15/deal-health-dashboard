@@ -9,16 +9,19 @@
 // Two modes of operation:
 //
 // 1. NEW OPPORTUNITY (full pipeline):
-//    SF Reader → Salesloft (all calls) → Full MEDDPICC Analysis → Ingest → Build → Push
+//    SF Reader → BigQuery sales_calls (transcripts) → Full MEDDPICC Analysis → Ingest → Build → Push
 //    Triggered by: user provides a new Opportunity ID
 //
 // 2. DAILY REFRESH (incremental):
 //    For each existing opportunity:
 //    a) Pull latest SF fields → diff against stored data
-//    b) Check Salesloft for new calls since lastAnalysisDate
+//    b) Check BigQuery sales_calls for new calls since lastAnalysisDate
 //    c) If SF diffs only → lite-refresh.js (deterministic score rules)
 //    d) If new calls found → incremental MEDDPICC (delta-only analysis)
 //    e) Build → Push
+//
+// NOTE (2026-02-19): Salesloft API agent is PAUSED. BigQuery sales_calls is the
+// primary transcript source. Only fall back to Salesloft API if BigQuery auth fails.
 //
 // Usage:
 //   node daily-refresh.js --plan              # Outputs the refresh plan (what to do)
@@ -68,8 +71,9 @@ function generatePlan() {
       },
       // What to check
       checkSalesforce: true,
-      checkSalesloft: true,
-      salesloftLookup: opp.accountName,
+      checkBigQuery: true,        // PRIMARY: BigQuery sales_calls
+      checkSalesloft: false,      // PAUSED as of 2026-02-19 — fallback only
+      bigqueryAccountId: opp.accountId || '',  // Used for BigQuery WHERE clause
       // SF fields to compare (current values)
       currentSfFields: {
         stage: opp.stage || '',
@@ -97,10 +101,31 @@ function generatePlan() {
        competitive notes, proposed launch date, AE next steps"
       Compare returned values against currentSfFields. Build a diffs array.`,
 
-    step2_salesloft: `For EACH opportunity, delegate to WorkWithSalesloftAgent:
-      "For account '{accountName}', are there any calls or meetings AFTER {lastAnalysisDate}?
-       If yes, return full transcripts, attendees, dates, and summaries for NEW calls only.
-       Do NOT re-pull calls from before {lastAnalysisDate}."`,
+    step2_bigquery_calls: `For EACH opportunity, query BigQuery sales_calls for new calls:
+      
+      SELECT event_id, call_title, event_start, platform,
+        call_duration_minutes, has_transcript,
+        ARRAY_LENGTH(transcript_details) AS transcript_segments,
+        transcript_summary
+      FROM shopify-dw.sales.sales_calls
+      WHERE '{accountId}' IN UNNEST(salesforce_account_ids)
+        AND DATE(event_start) > '{lastCallDate or lastAnalysisDate}'
+      ORDER BY event_start DESC
+      
+      If new calls with transcript_segments > 0 are found, pull full transcripts:
+      
+      SELECT sc.event_id, sc.call_title, sc.event_start,
+        sentence.speaker_name, sentence.speaker_text, sentence.sequence_number
+      FROM shopify-dw.sales.sales_calls sc,
+      UNNEST(sc.transcript_details) AS transcript,
+      UNNEST(transcript.full_transcript) AS sentence
+      WHERE '{accountId}' IN UNNEST(sc.salesforce_account_ids)
+        AND DATE(sc.event_start) > '{lastCallDate}'
+        AND sc.has_transcript = TRUE AND ARRAY_LENGTH(sc.transcript_details) > 0
+      ORDER BY sc.event_start DESC, sentence.sequence_number ASC
+      
+      ⚠️ DO NOT use Salesloft API. BigQuery is the primary source.
+      Only fall back to Salesloft API if BigQuery returns persistent 401 auth errors.`,
 
     step3_decide: `For each opportunity, based on results:
 
@@ -124,7 +149,7 @@ function generatePlan() {
 
        CURRENT STATE (preserve unless contradicted by new evidence):
        {existing narratives}
-       {existing MEDDPICC scores — all 54 questions with current answers}
+       {existing MEDDPICC scores — all 54 questions with current answers and action items}
 
        NEW INFORMATION:
        {new call transcripts only}
@@ -136,13 +161,21 @@ function generatePlan() {
        3. Update narratives ONLY if new calls add meaningful new context
        4. For each change, explain what new evidence triggered it
        5. Keep all unchanged questions exactly as they are
-       6. Return ONLY the delta — questions that changed and updated narratives
+       6. IMPORTANT — ACTION ITEM LIFECYCLE:
+          a. If new evidence RESOLVES an existing gap (answer moves to Yes), clear the action item
+          b. If new evidence PARTIALLY addresses a gap, update the action to reflect what's still needed
+          c. If new calls reveal NEW gaps or risks, add NEW action items with due dates
+          d. If an existing action's due date has passed, flag it as overdue and update
+       7. For 'supportNeeded' narrative: update based on what the new calls reveal about
+          what Shopify still needs to do to land the deal
+       8. Return ONLY the delta — questions that changed and updated narratives
 
        Return JSON format:
        {
          'narrativeUpdates': {
            'oppSummary': 'updated text or null if unchanged',
            'whyChange': null,
+           'supportNeeded': 'updated if new calls change what support is needed',
            ...
          },
          'questionUpdates': [
@@ -166,9 +199,21 @@ function generatePlan() {
       This merges the delta into opportunities.json and updates lastAnalysisDate.`,
 
     step7_build_push: `After all opportunities are processed:
-      node build-data.js
-      Copy data.js to dashboard repo
-      Git commit & push`,
+      1. node build-data.js
+         - This rebuilds scores from MEDDPICC answers
+         - This REGENERATES nextSteps/action items from all MEDDPICC questions
+           (questions answered Yes have their actions auto-excluded)
+         - Verify the build output shows correct action counts per opp
+      2. Copy data.js to dashboard repo
+      3. Git commit & push
+      
+      POST-BUILD VERIFICATION:
+      - Check each updated opp's action count in build output
+      - If MEDDPICC actions were resolved (answer → Yes), verify action count decreased
+      - If new actions were added, verify action count increased
+      - The coaching engine (coaching-engine.js) runs CLIENT-SIDE and auto-updates
+        from the new scores — no build step needed for coaching
+      - Deal risk signals also auto-compute client-side from scores + close date + call recency`,
   };
 
   return plan;
@@ -253,30 +298,46 @@ function applyIncremental(incrementalFile) {
     }
   }
 
-  // 4. Update lastAnalysisDate
+  // 4. Track action item changes
+  const oldActionCount = countActiveActions(opp);
+  const resolvedActions = qUpdates.filter(qu => {
+    const q = opp.meddpicc?.[qu.section]?.questions?.[qu.questionIndex];
+    return q && q.answer === 'Yes' && qu.newAnswer === 'Yes' && !q.action;
+  }).length;
+  const newActions = qUpdates.filter(qu => {
+    const q = opp.meddpicc?.[qu.section]?.questions?.[qu.questionIndex];
+    return q && q.action && q.action.length > 0;
+  }).length;
+  const newActionCount = countActiveActions(opp);
+
+  if (oldActionCount !== newActionCount) {
+    changes.push(`Action items: ${oldActionCount} → ${newActionCount} (${resolvedActions} resolved, ${newActions} new/updated)`);
+    console.log(`   📋 Actions: ${oldActionCount} → ${newActionCount}`);
+  }
+
+  // 5. Update lastAnalysisDate
   opp.lastAnalysisDate = today;
 
-  // 5. Compute score delta
-  const oldScore = getTotalScore(opp); // Already updated in-memory, so compute before for comparison
-  // Actually we need old score before changes — it's in the plan. For now just note:
+  // 6. Compute score delta
   const newScore = computeTotalScore(opp);
 
   if (incremental.newCallsSummary) {
     changes.unshift(`Incremental analysis: ${incremental.newCallsSummary}`);
   }
 
-  // 6. Update version history
+  // 7. Update version history
   updateVersionHistoryForIncremental(opp, changes);
 
-  // 7. Save
+  // 8. Save
   fs.writeFileSync(OPP_FILE, JSON.stringify(opportunities, null, 2));
 
   console.log(`\n   📊 Score: ${newScore}/54`);
+  console.log(`   📋 Actions: ${newActionCount} active`);
   console.log(`   📅 lastAnalysisDate → ${today}`);
   console.log(`   💾 Saved to opportunities.json`);
   console.log(`   📝 ${changes.length} changes logged to version history`);
 
-  return { oppId, accountName: opp.accountName, changes, newScore };
+  return { oppId, accountName: opp.accountName, changes, newScore, actionCount: newActionCount };
 }
 
 // ============================================================
@@ -294,6 +355,18 @@ function getTotalScore(opp) {
 
 function computeTotalScore(opp) {
   return getTotalScore(opp);
+}
+
+function countActiveActions(opp) {
+  let count = 0;
+  for (const sec of Object.values(opp.meddpicc || {})) {
+    for (const q of (sec.questions || [])) {
+      // Same logic as build-data.js extractNextSteps: skip Yes answers
+      if (q.answer === 'Yes') continue;
+      if (q.action && q.action !== 'N/A' && q.action !== '') count++;
+    }
+  }
+  return count;
 }
 
 function updateVersionHistoryForIncremental(opp, changes) {
@@ -375,12 +448,13 @@ function main() {
     console.log(`   Plan saved to: ${planFile}`);
     console.log(`\n   Next steps for orchestrator:`);
     console.log(`   1. Pull SF fields for each opp → compare against currentSfFields`);
-    console.log(`   2. Check Salesloft for new calls after lastAnalysisDate`);
+    console.log(`   2. Query BigQuery sales_calls for new calls after lastCallDate`);
     console.log(`   3. SF diffs only → node lite-refresh.js --diffs diffs.json`);
     console.log(`   4. New calls → send incremental MEDDPICC prompt`);
     console.log(`   5. Apply results → node daily-refresh.js --apply-incremental <file>`);
     console.log(`   6. Rebuild → node build-data.js`);
-    console.log(`   7. Push to GitHub\n`);
+    console.log(`   7. Push to GitHub`);
+    console.log(`   ⚠️ Salesloft API is PAUSED — use BigQuery only\n`);
     return;
   }
 
