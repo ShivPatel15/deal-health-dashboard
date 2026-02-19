@@ -5,6 +5,7 @@
 <title>Deal Health — Sales Large EMEA</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
 <script src="data.js"></script>
+<script src="coaching-engine.js"></script>
 <style>
 :root,[data-theme="dark"]{--bg:#0a0a0a;--s1:#141414;--s2:#1c1c1c;--s3:#242424;--b1:#2a2a2a;--b2:#3a3a3a;--t:#e8e8e8;--t2:#999;--t3:#666;--acc:#96bf48;--acc-d:rgba(150,191,72,.12);--acc-t:#96bf48;--r:#ea9999;--r-bg:rgba(234,153,153,.1);--r-b:rgba(234,153,153,.22);--y:#ffe599;--y-bg:rgba(255,229,153,.1);--y-b:rgba(255,229,153,.22);--g:#b6d7a8;--g-bg:rgba(182,215,168,.1);--g-b:rgba(182,215,168,.22);--bl:#6fa8dc;--inp-bg:#1e1e1e;--inp-b:#333}
 [data-theme="light"]{--bg:#f4f5f7;--s1:#fff;--s2:#f0f1f3;--s3:#e4e5e8;--b1:#d8d9dc;--b2:#c0c1c4;--t:#1a1a1a;--t2:#555;--t3:#888;--acc:#5e8e1a;--acc-d:rgba(94,142,26,.07);--acc-t:#4a7a14;--r:#c0392b;--r-bg:rgba(192,57,43,.07);--r-b:rgba(192,57,43,.16);--y:#c89100;--y-bg:rgba(200,145,0,.07);--y-b:rgba(200,145,0,.16);--g:#1e8449;--g-bg:rgba(30,132,73,.07);--g-b:rgba(30,132,73,.16);--bl:#2471a3;--inp-bg:#fff;--inp-b:#c8c9cc}
@@ -142,6 +143,60 @@ function renderList(){
     <div class="sum-card"><div class="lbl">Avg Health</div><div class="val">${avgHealth}%</div></div>
     <div class="sum-card"><div class="lbl">At Risk</div><div class="val" style="color:${atRisk?'var(--r)':'var(--g)'}">${atRisk}</div></div>
   </div>`;
+
+  // DEAL RISK SIGNALS
+  const allRisks=[];
+  filtered.forEach(o=>{getDealRisks(o).forEach(r=>allRisks.push({...r,opp:o}))});
+  allRisks.sort((a,b)=>({"high":0,"med":1,"low":2}[a.sev]||9)-({"high":0,"med":1,"low":2}[b.sev]||9));
+  if(allRisks.length){
+    html+=`<div style="margin-bottom:24px">
+    <h3 style="font-size:16px;font-weight:800;margin-bottom:4px">\u{1F6A8} Deal Risks</h3>
+    <p style="color:var(--t3);font-size:11px;margin-bottom:12px">${allRisks.length} risk${allRisks.length>1?"s":""} detected. Each includes a coaching suggestion.</p>
+    ${allRisks.map(r=>{const sc=r.sev==="high"?"r":r.sev==="med"?"y":"t3";const sb=r.sev==="high"?"r-bg":r.sev==="med"?"y-bg":"s2";const bd=r.sev==="high"?"r-b":r.sev==="med"?"y-b":"b1";const sl=r.sev==="high"?"HIGH":r.sev==="med"?"MED":"LOW";
+      return`<div style="background:var(--${sb});border:1px solid var(--${bd});border-left:3px solid var(--${sc});border-radius:8px;padding:10px 14px;margin-bottom:6px">
+        <div style="display:flex;align-items:center;gap:6px;margin-bottom:4px">
+          <span style="font-size:8px;font-weight:700;color:var(--${sc});background:var(--s1);padding:1px 5px;border-radius:3px">${sl}</span>
+          <span style="font-size:12px;font-weight:600;color:var(--acc-t);cursor:pointer" onclick="showDetail('${r.opp.id}')">${r.opp.accountName}</span>
+          <span style="font-size:10px;color:var(--t3)">${r.opp.owner}</span>
+        </div>
+        <div style="font-size:12px;color:var(--t);margin-bottom:4px">${r.signal}</div>
+        <div style="font-size:11px;color:var(--t2);background:var(--s1);border-radius:5px;padding:6px 10px;border-left:2px solid var(--acc)">\u{1F4A1} ${r.coaching}</div>
+      </div>`}).join("")}</div>`;
+  }
+
+  // REP COACHING
+  const coachOwners=filterOwner?[filterOwner]:owners.length?owners:[];
+  if(coachOwners.length){
+    html+=`<div style="margin-bottom:24px">
+    <h3 style="font-size:16px;font-weight:800;margin-bottom:4px">\u{1F3AF} Rep Coaching</h3>
+    <p style="color:var(--t3);font-size:11px;margin-bottom:12px">MEDDPICC patterns across each rep. Spot skill gaps vs deal-specific issues.</p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(420px,1fr));gap:12px">
+    ${coachOwners.map(ow=>{
+      const owD=opps.filter(o=>o.owner===ow);if(!owD.length)return"";
+      const c=getRepCoaching(ow,owD);
+      return`<div style="background:var(--s1);border:1px solid var(--b1);border-radius:10px;overflow:hidden">
+        <div style="padding:12px 14px;border-bottom:1px solid var(--b1);background:var(--s2);display:flex;align-items:center;justify-content:space-between">
+          <div style="display:flex;align-items:center;gap:8px">
+            <span style="width:28px;height:28px;border-radius:50%;background:var(--s3);display:inline-flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:var(--bl)">${ini(ow)}</span>
+            <div><div style="font-size:13px;font-weight:700">${ow}</div><div style="font-size:10px;color:var(--t3)">${owD.length} deal${owD.length>1?"s":""}</div></div>
+          </div>
+          <div style="text-align:right"><div style="font-size:9px;color:var(--t3)">FOCUS AREA</div><div style="font-size:12px;font-weight:700;color:var(--r)">${c.weakest.name}</div></div>
+        </div>
+        <div style="padding:10px 14px">
+          ${c.ranked.map((s,i)=>{const bc=s.pct<40?"r":s.pct<65?"y":"g";const iw=i===0;
+            return`<div style="display:flex;align-items:center;gap:8px;padding:3px 0${iw?";background:var(--r-bg);margin:0 -14px;padding:3px 14px;border-radius:3px":""}">
+              <div style="width:110px;font-size:10px;${iw?"font-weight:700;color:var(--r)":"color:var(--t2)"};flex-shrink:0">${s.name}</div>
+              <div style="flex:1;height:5px;background:var(--s3);border-radius:3px;overflow:hidden"><div style="width:${s.pct}%;height:100%;background:var(--${bc});border-radius:3px"></div></div>
+              <div style="width:36px;text-align:right;font-size:10px;font-weight:700;color:var(--${bc})">${s.pct}%</div>
+            </div>`}).join("")}
+          <div style="margin-top:10px;padding:8px 10px;background:var(--s2);border-radius:6px;border-left:2px solid var(--acc)">
+            <div style="font-size:9px;font-weight:700;color:var(--acc-t);margin-bottom:3px">\u{1F4A1} 1:1 COACHING</div>
+            <div style="font-size:11px;color:var(--t);line-height:1.6">${coachTip(ow,c)}</div>
+          </div>
+        </div>
+      </div>`}).join("")}
+    </div></div>`;
+  }
 
   // ============================================================
   // ACTION ITEMS SECTION — grouped by rep → deal (compact table)
