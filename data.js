@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-19T12:18:51.110Z",
+  "generatedAt": "2026-02-19T12:41:55.177Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -6095,6 +6095,1090 @@ const DEAL_DATA = {
             "Identify Pain": 4,
             "Champion": 4.5,
             "Competition": 3.5
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "0068V0000113peWQAQ",
+      "name": "ESSENTIEL Antwerp",
+      "accountName": "ESSENTIEL Antwerp",
+      "accountId": "0018V00002lHO5KQAW",
+      "owner": "Ben Rees",
+      "ownerEmail": "ben.rees@shopify.com",
+      "stage": "Demonstrate",
+      "closeDate": "2026-03-16",
+      "forecastCategory": "Commit",
+      "probability": 60,
+      "merchantIntent": "Committed - At Risk",
+      "type": "New Business",
+      "created": "2024-07-16",
+      "lastAnalysisDate": "2026-02-19",
+      "revenue": {
+        "mcv": 82800,
+        "totalRev3yr": 2333229,
+        "d2cGmv": 25495422,
+        "b2bGmv": null,
+        "retailGmv": 39402017,
+        "paymentsGpv": 33144049,
+        "paymentsAttached": true,
+        "ipp": 0
+      },
+      "projectedBilledRevenue": 719855,
+      "products": [
+        "Plus Product Suite",
+        "D2C - Standard",
+        "Shopify Payments",
+        "POS Pro",
+        "Retail Payments",
+        "Retail Hardware"
+      ],
+      "competitor": "Centra",
+      "compellingEvent": "ERP migration has prompted technical review + Magento contract renewal due EOY 2026. Both events are real and validated through multiple calls. Risk is that competing priorities (ERP costs, integration complexity) could slow decision-making.",
+      "nextStep": "18/2 BR RFP has landed and I am speaking to each agency (7) to get a sense check. Timelines on RFP indicate build to start in April.",
+      "narrative": {
+        "oppSummary": "Essentiel Antwerp (Belgian fashion brand under Kadin Group) is evaluating a full-stack Shopify Plus migration encompassing D2C, POS Pro across ~50 retail stores, and Shopify Payments. The deal is valued at $82,800 MCV with $2.33M in projected 3-year revenue and significant GMV ($25.5M D2C, $39.4M Retail, $33.1M Payments GPV). The opportunity is at the Demonstrate stage with a 60% probability, but is flagged as Committed - At Risk due to dependencies on an internal ERP modernization decision and complex international entity structure. An RFP is now live with 7 agencies responding, and build is targeted to start in April 2026 with a September 2026 go-live.",
+        "whyChange": "Essentiel Antwerp is carrying significant tech debt across their commerce stack. Their current Magento platform is approaching contract renewal at EOY 2026. Their ERP landscape is fragmented — wholesale has already migrated to ItsPerfect, but DTC and retail operations remain on an older Microsoft Business Central that requires expensive upgrades. The cost and complexity of upgrading Business Central is a major pain point. Filip noted the 'massive cost factor' of upgrading their current ERP stack, prompting evaluation of whether a platform consolidation to Shopify could reduce overall TCO and provide omnichannel capability they currently lack.",
+        "whyShopify": "Shopify is positioned as the omnichannel consolidation play — replacing Magento for DTC while adding POS Pro across ~50 retail stores and unifying payments under Shopify Payments. The CFO was actively engaged evaluating financial details including Shop Pay's projected 5% revenue uplift and competitive processing rates. Filip confirmed management reception was positive and the revised payment offer was not a deal-breaker due to overall TCO savings. Centra is the only competitor listed, positioned unfavorably. The RFP with 7 agencies and April build target suggests strong forward momentum.",
+        "whyNow": "Two converging compelling events: 1) Magento contract renewal due EOY 2026 creating a hard deadline; 2) Concurrent ERP modernization initiative where Business Central's future directly shapes Shopify integration architecture. The RFP has landed with 7 agencies and build is targeted for April 2026. Proposed launch September 30, 2026 for both Plus and Retail.",
+        "supportNeeded": "1) Resolve ItsPerfect + Shopify Markets compatibility for US entity structure (critical path). 2) Support middleware/integration architecture for Business Central. 3) Provide technical guidance to 7 RFP agencies. 4) AE transition support — Ben Rees needs to establish relationship with CFO Koenraad. 5) Formalized TCO comparison for CFO/board. 6) POS Pro retail proof points for ~50 store deployment."
+      },
+      "meddpicc": {
+        "metrics": {
+          "label": "Metrics",
+          "questions": [
+            {
+              "q": "Do we know the business reasons as to why they are migrating?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Business reasons clearly articulated — reduce tech debt, lower TCO, omnichannel consolidation, improve clienteling.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we have specific quantifiable goals aligned with the project?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Shop Pay 5% uplift projected, payment savings modeled, but no specific quantifiable targets from customer side.",
+              "solution": "Define specific success metrics tied to business case.",
+              "action": "Ben Rees to propose metrics workshop for CFO review.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do they need to make a platform change to achieve this goal?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Magento reaching renewal, Business Central upgrades prohibitive, tech debt acknowledged. Change clearly necessary.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we understand the impact if this goal isn't achieved?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "ERP upgrade costs described as 'massive' but specific impact of NOT changing not explicitly quantified.",
+              "solution": "Quantify cost of doing nothing.",
+              "action": "Ben Homer to model cost-of-inaction scenario for CFO.",
+              "due": "03/10/2026",
+              "highlight": false
+            },
+            {
+              "q": "Is there a compelling event in place driving action?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Two compelling events confirmed — Magento renewal EOY 2026 and ERP modernization. Both real and driving timelines.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have I validated the metrics with the customer?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "CFO engaged on payment metrics but formal validation of overall business case metrics not documented.",
+              "solution": "Schedule dedicated business case review with CFO.",
+              "action": "Ben Rees to request 30-min business case review with Koenraad.",
+              "due": "03/12/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are the metrics compelling enough to justify change?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Combination of Magento renewal, ERP costs, TCO savings, Shop Pay uplift creates compelling case. RFP live with 7 agencies.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            }
+          ]
+        },
+        "economicBuyer": {
+          "label": "Economic Buyer",
+          "questions": [
+            {
+              "q": "Have I identified the true economic buyer?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Koenraad Van den Broek (CFO) identified and actively participated in Nov 4 payments call. Two CFOs listed — needs clarification.",
+              "solution": "Clarify Peter Bruggeman's role vs Koenraad's.",
+              "action": "Ben Rees to confirm org chart and signing authority.",
+              "due": "02/28/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know who's signing the contract?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Two CFOs listed — unclear who signs contract. May be group vs brand level distinction.",
+              "solution": "Ask explicitly who signs vendor contracts of this size.",
+              "action": "Ben Rees to clarify contract signatory.",
+              "due": "02/28/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we have access to this individual?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Koenraad attended Nov 4 call, actively engaged. Unable to attend Dec 9 (competing ERP meeting).",
+              "solution": "Maintain access cadence for key milestones.",
+              "action": "Include Koenraad on RFP timeline review invitation.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Can we get access?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Access established through calls. Filip serves as internal connector.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what the economic buyer cares about most?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "CFO cares about financial details but top strategic priorities beyond cost unknown.",
+              "solution": "Probe for strategic priorities.",
+              "action": "Ben Rees to have 1:1 with Koenraad on strategic vision.",
+              "due": "03/12/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do you know how they make decisions and allocate budget?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "RFP process known, ERP decisions at IT/management level, but budget allocation process and decision framework not discussed.",
+              "solution": "Map budget approval process.",
+              "action": "Ask Filip about internal approval process.",
+              "due": "03/05/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "decisionProcess": {
+          "label": "Decision Process",
+          "questions": [
+            {
+              "q": "Do we know how they will be making the decision?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "RFP live with 7 agencies, build targeted April. Full evaluation criteria, scoring methodology not mapped.",
+              "solution": "Request RFP evaluation framework.",
+              "action": "Ben Rees to ask for evaluation criteria during agency sense-checks.",
+              "due": "02/28/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know who's involved / buying committee?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Filip, Koenraad, Nick Smet, partners known. Full buying committee (CEO, CTO, board) not mapped.",
+              "solution": "Map complete buying committee.",
+              "action": "Request org chart from Filip.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know when they want to make a decision by?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "RFP build starting April, launch Sept 30, Magento renewal EOY 2026.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what is driving this timeline?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Magento renewal and ERP modernization clearly driving timeline.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know if they have tried to solve this problem before?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Wholesale ItsPerfect migration happened, suggesting org experience. No prior Magento replacement attempted.",
+              "solution": "Ask about prior platform evaluations.",
+              "action": "Ben Homer to probe during next technical call.",
+              "due": "03/10/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what will happen if they do nothing?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Doing nothing means expensive BC upgrade + Magento renewal, implicitly discussed but not explicitly framed for EB.",
+              "solution": "Frame cost of inaction for CFO.",
+              "action": "Include cost-of-status-quo in next CFO touchpoint.",
+              "due": "03/12/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have you validated this process with the buyer?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Process elements known but not formally validated. AE doing agency sense-checks which is a form of validation.",
+              "solution": "Formalize into MAP.",
+              "action": "Propose MAP to Filip after agency sense-checks complete.",
+              "due": "03/10/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "decisionCriteria": {
+          "label": "Decision Criteria",
+          "questions": [
+            {
+              "q": "Do we know what criteria the customer is using to evaluate vendors?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Known: TCO, omnichannel, international/multi-currency, ERP integration, payment rates. Formal RFP criteria not shared.",
+              "solution": "Request RFP scoring criteria.",
+              "action": "Ben Rees to ask Filip for RFP requirements.",
+              "due": "02/28/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "D2C extensively discussed. POS/Retail at high level only. No detailed POS Pro walkthrough for 50 stores.",
+              "solution": "Schedule POS Pro deep-dive.",
+              "action": "Ben Homer to arrange POS Pro session with retail ops.",
+              "due": "03/15/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have we surfaced technical complications (integrations)?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Technical complications extensively discussed — ItsPerfect, BC middleware, Markets + US entity, Adyen markup.",
+              "solution": "Continue resolving per SE critical path.",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how payments play into their decision?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Payments discussed in depth across multiple calls. CFO directly engaged.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we have a mutual action plan in place?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No mutual action plan discussed or agreed upon.",
+              "solution": "Create and propose MAP.",
+              "action": "Ben Rees to draft MAP and share with Filip.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Did we help shape those criteria in our favour?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Shopify influenced payments criteria and architecture discussions. Unclear if broader RFP criteria were shaped.",
+              "solution": "Provide reference architecture to agencies.",
+              "action": "Ben Homer to prepare architecture brief for agencies.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know who defined the decision criteria?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No info on who defined decision criteria or authored RFP.",
+              "solution": "Understand who authored RFP.",
+              "action": "Ben Rees to ask Filip who led RFP creation.",
+              "due": "02/28/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "paperProcess": {
+          "label": "Paper Process",
+          "questions": [
+            {
+              "q": "Do we know what their procurement process is?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Procurement process not discussed. Unknown if Kadin Group has centralized procurement.",
+              "solution": "Proactively ask about procurement.",
+              "action": "Ben Rees to raise procurement question.",
+              "due": "03/10/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are there likely to be redlines?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No contract concerns discussed. GDPR/data processing agreements likely relevant for Belgian company.",
+              "solution": "Anticipate likely redlines.",
+              "action": "Consult EMEA legal on common Belgian enterprise redlines.",
+              "due": "03/15/2026",
+              "highlight": false
+            },
+            {
+              "q": "If redlines, how long does review take?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No information on legal review timelines.",
+              "solution": "Factor in 4-6 week procurement cycle.",
+              "action": "Include in MAP.",
+              "due": "03/15/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how long it will take?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Not discussed.",
+              "solution": "Map procurement timeline.",
+              "action": "Ask about vendor contract turnaround times.",
+              "due": "03/10/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we have contract details?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No contract details discussed yet. Still at Demonstrate stage.",
+              "solution": "Begin preparing contract.",
+              "action": "Work with deal desk to prepare draft.",
+              "due": "03/20/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have we sent the contract?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Contract not sent. RFP still active.",
+              "solution": "Align delivery with RFP decision.",
+              "action": "Have contract ready for immediate sending.",
+              "due": "04/01/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know target date for signature?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "March 16 close date appears aggressive given RFP still being evaluated. Realistic signature likely late March to mid-April.",
+              "solution": "Re-validate close date.",
+              "action": "Update close date after agency evaluation.",
+              "due": "03/05/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "identifyPain": {
+          "label": "Identify Pain",
+          "questions": [
+            {
+              "q": "Do we know their current issues and why they are reviewing their tech stack?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Clearly documented — tech debt, high TCO, lack of omnichannel, fragmented ERP, expensive middleware.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have they tried to resolve this issue in the past?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Wholesale ItsPerfect migration happening but no prior Magento replacement attempt.",
+              "solution": "Ask about prior evaluations.",
+              "action": "Explore history with Filip.",
+              "due": "03/10/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how pains are affecting business operations?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Business impact well-documented — massive BC upgrade costs, complex multi-market ops, Adyen cost structures.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what teams are affected and to what extent?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Ecommerce, finance, IT known. Retail store operations, marketing, CS impact not discussed.",
+              "solution": "Map broader impact especially retail ops.",
+              "action": "Probe retail pain points during POS deep-dive.",
+              "due": "03/15/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how urgent it is to solve this pain?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Magento renewal EOY 2026 + ERP modernization + RFP live + management engaged = strong urgency.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Can they solve this pain using another option?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Centra is competitor. Could stay on Magento + upgrade BC (expensive path they want to avoid).",
+              "solution": "Show Magento renewal + BC upgrade as inferior.",
+              "action": "Include in TCO comparison.",
+              "due": "03/10/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know why this problem is important to solve now?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Magento renewal creates now-or-wait dynamic. ERP modernization happening NOW. Management engaged and receptive.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Is our solution uniquely positioned to solve this pain?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Well-positioned for D2C + POS + Payments. Integration complexity (ItsPerfect, BC middleware, US entity) is risk area.",
+              "solution": "Resolve ItsPerfect + Markets compatibility.",
+              "action": "Ben Homer to deliver architecture recommendation.",
+              "due": "03/10/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "champion": {
+          "label": "Champion",
+          "questions": [
+            {
+              "q": "Have you identified a true champion (influence + motivation)?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Filip De Clerck clearly championing — primary contact, attended all calls, shares internal updates.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Does your champion have political capital and credibility?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Filip has domain authority but political capital at Kadin Group board level unknown.",
+              "solution": "Assess Filip's organizational influence.",
+              "action": "Gauge Filip's board relationship and if he'll present recommendation.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have they given insights you wouldn't get otherwise?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Filip shared internal dynamics — ERP timelines, management reception, cost pressures, competing priorities.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Are they connected with the key decision makers?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Filip connected Shopify to CFO (Nov 4) and IT (Nov 10). Demonstrated ability to bring decision-makers.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have you been introduced to the decision maker?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "CFO introduced via Filip, but no direct 1:1 access. AE transition means Ben Rees hasn't built CFO relationship yet.",
+              "solution": "Establish Ben Rees' direct CFO relationship.",
+              "action": "Request introductory call with Koenraad.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are they willing to bring you into the board/buying group?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No evidence of Shopify presenting to board/buying group. Unclear if vendor presentation round is part of process.",
+              "solution": "Request opportunity to present directly.",
+              "action": "Ask Filip about vendor presentation rounds.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Why are they such a champion for you?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Filip's motivation appears operational — better platform, less tech debt. Personal career impact implied but not confirmed.",
+              "solution": "Confirm what success looks like for Filip personally.",
+              "action": "Candid conversation about Filip's personal goals.",
+              "due": "03/10/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "competition": {
+          "label": "Competition",
+          "questions": [
+            {
+              "q": "Do we know who else the customer is evaluating?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Centra listed as competitor, positioned positively. 7 agencies in RFP may surface additional platform recommendations.",
+              "solution": "Ask if agencies are proposing non-Shopify platforms.",
+              "action": "Ben Rees to ask each agency what platform they recommend.",
+              "due": "02/28/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have we asked if doing nothing is an option?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Staying on Magento + upgrading BC not explicitly discussed as live option, though implicitly undesirable.",
+              "solution": "Explicitly ask if status quo is still on the table.",
+              "action": "Confirm with Filip.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are there internal alternatives to our solution?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Status quo (renew Magento, upgrade BC, keep Adyen) is implicit alternative. Not formally ruled out.",
+              "solution": "Ensure business case shows why status quo is inferior.",
+              "action": "Include status quo cost modeling in TCO.",
+              "due": "03/10/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know why alternatives are being evaluated?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Centra's strength in fashion/apparel and headless architecture may appeal. No call discussion about why alternatives being considered.",
+              "solution": "Counter-position Centra.",
+              "action": "Ben Homer to prepare Centra competitive battle card.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know why we would win or lose?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Win on omnichannel, payments, TCO. Risk on headless flexibility, fashion-specific features, integration complexity.",
+              "solution": "Reinforce strengths while resolving technical concerns.",
+              "action": "Prepare Why Shopify Wins brief for agency conversations.",
+              "due": "03/05/2026",
+              "highlight": false
+            }
+          ]
+        }
+      },
+      "scores": {
+        "Metrics": {
+          "score": 5.5,
+          "max": 7,
+          "pct": 79
+        },
+        "Economic Buyer": {
+          "score": 4.5,
+          "max": 6,
+          "pct": 75
+        },
+        "Decision Process": {
+          "score": 4.5,
+          "max": 7,
+          "pct": 64
+        },
+        "Decision Criteria": {
+          "score": 3.5,
+          "max": 7,
+          "pct": 50
+        },
+        "Paper Process": {
+          "score": 0.5,
+          "max": 7,
+          "pct": 7
+        },
+        "Identify Pain": {
+          "score": 6,
+          "max": 8,
+          "pct": 75
+        },
+        "Champion": {
+          "score": 4.5,
+          "max": 7,
+          "pct": 64
+        },
+        "Competition": {
+          "score": 2,
+          "max": 5,
+          "pct": 40
+        },
+        "_total": {
+          "score": 31,
+          "max": 54,
+          "pct": 57,
+          "status": "on-track"
+        }
+      },
+      "nextSteps": [
+        {
+          "p": 1,
+          "cat": "Metrics",
+          "issue": "Shop Pay 5% uplift projected, payment savings modeled, but no specific quantifiable targets from customer side.",
+          "rec": "Ben Rees to propose metrics workshop for CFO review.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 2,
+          "cat": "Metrics",
+          "issue": "ERP upgrade costs described as 'massive' but specific impact of NOT changing not explicitly quantified.",
+          "rec": "Ben Homer to model cost-of-inaction scenario for CFO.",
+          "due": "03/10/2026"
+        },
+        {
+          "p": 3,
+          "cat": "Metrics",
+          "issue": "CFO engaged on payment metrics but formal validation of overall business case metrics not documented.",
+          "rec": "Ben Rees to request 30-min business case review with Koenraad.",
+          "due": "03/12/2026"
+        },
+        {
+          "p": 4,
+          "cat": "Economic Buyer",
+          "issue": "Two CFOs listed — unclear who signs contract. May be group vs brand level distinction.",
+          "rec": "Ben Rees to clarify contract signatory.",
+          "due": "02/28/2026"
+        },
+        {
+          "p": 5,
+          "cat": "Economic Buyer",
+          "issue": "CFO cares about financial details but top strategic priorities beyond cost unknown.",
+          "rec": "Ben Rees to have 1:1 with Koenraad on strategic vision.",
+          "due": "03/12/2026"
+        },
+        {
+          "p": 6,
+          "cat": "Economic Buyer",
+          "issue": "RFP process known, ERP decisions at IT/management level, but budget allocation process and decision framework not discussed.",
+          "rec": "Ask Filip about internal approval process.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 7,
+          "cat": "Decision Process",
+          "issue": "RFP live with 7 agencies, build targeted April. Full evaluation criteria, scoring methodology not mapped.",
+          "rec": "Ben Rees to ask for evaluation criteria during agency sense-checks.",
+          "due": "02/28/2026"
+        },
+        {
+          "p": 8,
+          "cat": "Decision Process",
+          "issue": "Filip, Koenraad, Nick Smet, partners known. Full buying committee (CEO, CTO, board) not mapped.",
+          "rec": "Request org chart from Filip.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 9,
+          "cat": "Decision Process",
+          "issue": "Wholesale ItsPerfect migration happened, suggesting org experience. No prior Magento replacement attempted.",
+          "rec": "Ben Homer to probe during next technical call.",
+          "due": "03/10/2026"
+        },
+        {
+          "p": 10,
+          "cat": "Decision Process",
+          "issue": "Doing nothing means expensive BC upgrade + Magento renewal, implicitly discussed but not explicitly framed for EB.",
+          "rec": "Include cost-of-status-quo in next CFO touchpoint.",
+          "due": "03/12/2026"
+        },
+        {
+          "p": 11,
+          "cat": "Decision Process",
+          "issue": "Process elements known but not formally validated. AE doing agency sense-checks which is a form of validation.",
+          "rec": "Propose MAP to Filip after agency sense-checks complete.",
+          "due": "03/10/2026"
+        },
+        {
+          "p": 12,
+          "cat": "Decision Criteria",
+          "issue": "Known: TCO, omnichannel, international/multi-currency, ERP integration, payment rates. Formal RFP criteria not shared.",
+          "rec": "Ben Rees to ask Filip for RFP requirements.",
+          "due": "02/28/2026"
+        },
+        {
+          "p": 13,
+          "cat": "Decision Criteria",
+          "issue": "D2C extensively discussed. POS/Retail at high level only. No detailed POS Pro walkthrough for 50 stores.",
+          "rec": "Ben Homer to arrange POS Pro session with retail ops.",
+          "due": "03/15/2026"
+        },
+        {
+          "p": 14,
+          "cat": "Decision Criteria",
+          "issue": "No mutual action plan discussed or agreed upon.",
+          "rec": "Ben Rees to draft MAP and share with Filip.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 15,
+          "cat": "Decision Criteria",
+          "issue": "Shopify influenced payments criteria and architecture discussions. Unclear if broader RFP criteria were shaped.",
+          "rec": "Ben Homer to prepare architecture brief for agencies.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 16,
+          "cat": "Decision Criteria",
+          "issue": "No info on who defined decision criteria or authored RFP.",
+          "rec": "Ben Rees to ask Filip who led RFP creation.",
+          "due": "02/28/2026"
+        },
+        {
+          "p": 17,
+          "cat": "Paper Process",
+          "issue": "Procurement process not discussed. Unknown if Kadin Group has centralized procurement.",
+          "rec": "Ben Rees to raise procurement question.",
+          "due": "03/10/2026"
+        },
+        {
+          "p": 18,
+          "cat": "Paper Process",
+          "issue": "No contract concerns discussed. GDPR/data processing agreements likely relevant for Belgian company.",
+          "rec": "Consult EMEA legal on common Belgian enterprise redlines.",
+          "due": "03/15/2026"
+        },
+        {
+          "p": 19,
+          "cat": "Paper Process",
+          "issue": "No information on legal review timelines.",
+          "rec": "Include in MAP.",
+          "due": "03/15/2026"
+        },
+        {
+          "p": 20,
+          "cat": "Paper Process",
+          "issue": "Not discussed.",
+          "rec": "Ask about vendor contract turnaround times.",
+          "due": "03/10/2026"
+        },
+        {
+          "p": 21,
+          "cat": "Paper Process",
+          "issue": "No contract details discussed yet. Still at Demonstrate stage.",
+          "rec": "Work with deal desk to prepare draft.",
+          "due": "03/20/2026"
+        },
+        {
+          "p": 22,
+          "cat": "Paper Process",
+          "issue": "Contract not sent. RFP still active.",
+          "rec": "Have contract ready for immediate sending.",
+          "due": "04/01/2026"
+        },
+        {
+          "p": 23,
+          "cat": "Paper Process",
+          "issue": "March 16 close date appears aggressive given RFP still being evaluated. Realistic signature likely late March to mid-April.",
+          "rec": "Update close date after agency evaluation.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 24,
+          "cat": "Identify Pain",
+          "issue": "Wholesale ItsPerfect migration happening but no prior Magento replacement attempt.",
+          "rec": "Explore history with Filip.",
+          "due": "03/10/2026"
+        },
+        {
+          "p": 25,
+          "cat": "Identify Pain",
+          "issue": "Ecommerce, finance, IT known. Retail store operations, marketing, CS impact not discussed.",
+          "rec": "Probe retail pain points during POS deep-dive.",
+          "due": "03/15/2026"
+        },
+        {
+          "p": 26,
+          "cat": "Identify Pain",
+          "issue": "Centra is competitor. Could stay on Magento + upgrade BC (expensive path they want to avoid).",
+          "rec": "Include in TCO comparison.",
+          "due": "03/10/2026"
+        },
+        {
+          "p": 27,
+          "cat": "Identify Pain",
+          "issue": "Well-positioned for D2C + POS + Payments. Integration complexity (ItsPerfect, BC middleware, US entity) is risk area.",
+          "rec": "Ben Homer to deliver architecture recommendation.",
+          "due": "03/10/2026"
+        },
+        {
+          "p": 28,
+          "cat": "Champion",
+          "issue": "Filip has domain authority but political capital at Kadin Group board level unknown.",
+          "rec": "Gauge Filip's board relationship and if he'll present recommendation.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 29,
+          "cat": "Champion",
+          "issue": "CFO introduced via Filip, but no direct 1:1 access. AE transition means Ben Rees hasn't built CFO relationship yet.",
+          "rec": "Request introductory call with Koenraad.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 30,
+          "cat": "Champion",
+          "issue": "No evidence of Shopify presenting to board/buying group. Unclear if vendor presentation round is part of process.",
+          "rec": "Ask Filip about vendor presentation rounds.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 31,
+          "cat": "Champion",
+          "issue": "Filip's motivation appears operational — better platform, less tech debt. Personal career impact implied but not confirmed.",
+          "rec": "Candid conversation about Filip's personal goals.",
+          "due": "03/10/2026"
+        },
+        {
+          "p": 32,
+          "cat": "Competition",
+          "issue": "Centra listed as competitor, positioned positively. 7 agencies in RFP may surface additional platform recommendations.",
+          "rec": "Ben Rees to ask each agency what platform they recommend.",
+          "due": "02/28/2026"
+        },
+        {
+          "p": 33,
+          "cat": "Competition",
+          "issue": "Staying on Magento + upgrading BC not explicitly discussed as live option, though implicitly undesirable.",
+          "rec": "Confirm with Filip.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 34,
+          "cat": "Competition",
+          "issue": "Status quo (renew Magento, upgrade BC, keep Adyen) is implicit alternative. Not formally ruled out.",
+          "rec": "Include status quo cost modeling in TCO.",
+          "due": "03/10/2026"
+        },
+        {
+          "p": 35,
+          "cat": "Competition",
+          "issue": "Centra's strength in fashion/apparel and headless architecture may appeal. No call discussion about why alternatives being considered.",
+          "rec": "Ben Homer to prepare Centra competitive battle card.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 36,
+          "cat": "Competition",
+          "issue": "Win on omnichannel, payments, TCO. Risk on headless flexibility, fashion-specific features, integration complexity.",
+          "rec": "Prepare Why Shopify Wins brief for agency conversations.",
+          "due": "03/05/2026"
+        }
+      ],
+      "stakeholders": [
+        {
+          "name": "Koen Van Den Broek",
+          "title": "CFO",
+          "role": "Economic Buyer",
+          "email": "koenraad.vandenbroek@essentiel.be",
+          "engagement": "high",
+          "callsAttended": 2,
+          "callsInvited": 3
+        },
+        {
+          "name": "Filip De Clerck",
+          "title": "Sr Manager Ecommerce & Marketplaces",
+          "role": "Launch Contact",
+          "email": "filip.declerck@essentiel.be",
+          "engagement": "high",
+          "callsAttended": 5,
+          "callsInvited": 5
+        },
+        {
+          "name": "Peter Bruggeman",
+          "title": "CFO",
+          "role": "",
+          "email": "peter.bruggeman@essentiel-antwerp.com",
+          "engagement": "low",
+          "callsAttended": 0,
+          "callsInvited": 0
+        }
+      ],
+      "shopifyTeam": [
+        {
+          "name": "Ben Rees",
+          "role": "Account Executive",
+          "email": "ben.rees@shopify.com"
+        },
+        {
+          "name": "Ben Homer",
+          "role": "Solutions Engineer",
+          "email": "ben.homer@shopify.com"
+        }
+      ],
+      "calls": [
+        {
+          "date": "2025-08-27",
+          "title": "Essentiel connect + prep",
+          "duration": "30 min",
+          "shopifyAttendees": [
+            "Yasmine Fazeli (AE)",
+            "Ben Homer (SE)"
+          ],
+          "merchantAttendees": [],
+          "summary": "Internal prep call for upcoming B2B demo. Logistics and demo video needs."
+        },
+        {
+          "date": "2025-09-04",
+          "title": "Shopify demo day",
+          "duration": "480 min",
+          "shopifyAttendees": [
+            "Yasmine Fazeli (AE)",
+            "Ben Homer (SE)"
+          ],
+          "merchantAttendees": [
+            "Filip De Clerck",
+            "Koen Van Den Broek"
+          ],
+          "summary": "Full-day demo workshop for Essentiel team covering Shopify Plus capabilities."
+        },
+        {
+          "date": "2025-10-15",
+          "title": "Essentiel - Shopify catch up",
+          "duration": "45 min",
+          "shopifyAttendees": [
+            "Yasmine Fazeli (AE)",
+            "Ben Homer (SE)"
+          ],
+          "merchantAttendees": [
+            "Filip De Clerck"
+          ],
+          "summary": "Discussed credit issue resolution, ERP requirements, timelines informing payments discussions. Partner Leonard/Radical doing integration work."
+        },
+        {
+          "date": "2025-11-04",
+          "title": "Shopify Payments for Essentiel",
+          "duration": "45 min",
+          "shopifyAttendees": [
+            "Yasmine Fazeli (AE)",
+            "Ben Homer (SE)"
+          ],
+          "merchantAttendees": [
+            "Koenraad Van den Broek (CFO)",
+            "Filip De Clerck"
+          ],
+          "summary": "Payments deep-dive with CFO. Shopify Payments vs current Adyen setup, Shop Pay 5% revenue uplift, competitive rates. CFO actively engaged on financials."
+        },
+        {
+          "date": "2025-11-10",
+          "title": "Entity set up - Markets",
+          "duration": "45 min",
+          "shopifyAttendees": [
+            "Yasmine Fazeli (AE)",
+            "Ben Homer (SE)"
+          ],
+          "merchantAttendees": [
+            "Filip De Clerck",
+            "Koenraad Van den Broek (CFO)",
+            "Nick Smet"
+          ],
+          "summary": "Addressed complex US entity structure. Shopify Markets compatibility, single-entity vs dual-store approach, syncing implications."
+        },
+        {
+          "date": "2025-12-09",
+          "title": "Shopify - Essentiel",
+          "duration": "45 min",
+          "shopifyAttendees": [
+            "Yasmine Fazeli (AE)",
+            "Ben Homer (SE)"
+          ],
+          "merchantAttendees": [
+            "Filip De Clerck"
+          ],
+          "summary": "Payment cost estimates presented. Adyen on Shopify incurs 0.2% markup. TCO comparison. CFO unable to join (in ERP provider meeting)."
+        },
+        {
+          "date": "2026-01-08",
+          "title": "Shopify catch up with Essentiel",
+          "duration": "30 min",
+          "shopifyAttendees": [
+            "Yasmine Fazeli (AE)",
+            "Ben Homer (SE)"
+          ],
+          "merchantAttendees": [
+            "Filip De Clerck"
+          ],
+          "summary": "Follow-up on revised payment offer and ERP integration. Management reception positive. Critical ERP decision (Business Central) coming next week. Go-live may slip from July to October. Payment offer not a deal-breaker due to TCO savings."
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-02-19",
+          "totalScore": 31,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 4.5,
+            "Decision Process": 4.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 6,
+            "Champion": 4.5,
+            "Competition": 2
           },
           "changes": []
         }
