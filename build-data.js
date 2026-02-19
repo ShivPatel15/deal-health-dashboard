@@ -152,6 +152,111 @@ function buildHistoryEntry(opp, scores) {
 }
 
 // ============================================================
+// BUILD DEFAULT MAP for new opportunities (from MEDDPICC gaps)
+// ============================================================
+function buildDefaultMAP(o) {
+  const stk = o.stakeholders || [];
+  const team = o.shopifyTeam || [];
+  const champion = stk.find(s => s.engagement === 'high') || stk[0] || {};
+  const ae = o.owner || 'Shopify';
+  const aeShort = ae.split(' ')[0];
+  const se = team.find(t => t.role && (t.role.includes('Solutions') || t.role.includes('SE')));
+  const seShort = se ? se.name.split(' ')[0] : '';
+  const hasCalls = (o.calls || []).length > 0;
+  const hasChampion = stk.some(s => s.engagement === 'high');
+  const merchantChamp = champion.name || o.accountName;
+
+  // Helper to check MEDDPICC answers
+  const hasYes = (secKey, keyword) => {
+    const sec = o.meddpicc?.[secKey];
+    if (!sec) return false;
+    return sec.questions.some(q => q.answer === 'Yes' && q.q.toLowerCase().includes(keyword));
+  };
+
+  const items = [];
+  items.push({ date: o.created || '', done: hasCalls, milestone: 'Initial discovery & intro calls', ownerMerchant: merchantChamp, ownerShopify: aeShort, notes: hasCalls ? (o.calls || []).length + ' calls completed' : '' });
+  items.push({ date: '', done: hasChampion, milestone: 'Identify champion & project team', ownerMerchant: merchantChamp, ownerShopify: aeShort, notes: hasChampion ? 'Champion: ' + champion.name : '' });
+
+  // Pull top MEDDPICC gap actions as MAP milestones
+  const actions = [];
+  for (const [k, sec] of Object.entries(o.meddpicc || {})) {
+    for (const q of (sec.questions || [])) {
+      if (q.answer === 'Yes') continue;
+      if (q.action && q.action !== 'N/A' && q.action !== '') {
+        actions.push({ section: sec.label, action: q.action, due: q.due || '', ownerShopify: aeShort });
+      }
+    }
+  }
+  // Add top 2 metrics actions
+  actions.filter(a => a.section === 'Metrics').slice(0, 2).forEach(a => {
+    items.push({ date: '', done: false, milestone: a.action.slice(0, 120), ownerMerchant: '', ownerShopify: a.ownerShopify, notes: a.section + (a.due ? ' · Due ' + a.due : ''), due: a.due });
+  });
+
+  items.push({ date: '', done: hasYes('metrics', 'validated'), milestone: 'Validate business case with economic buyer', ownerMerchant: '', ownerShopify: aeShort, notes: '' });
+  items.push({ date: '', done: hasYes('economicBuyer', 'identified'), milestone: 'Confirm economic buyer & signing authority', ownerMerchant: '', ownerShopify: aeShort, notes: '' });
+
+  // EB access action
+  const ebAccess = actions.find(a => a.section === 'Economic Buyer' && (a.action.toLowerCase().includes('call') || a.action.toLowerCase().includes('intro')));
+  if (ebAccess) items.push({ date: '', done: false, milestone: ebAccess.action.slice(0, 120), ownerMerchant: '', ownerShopify: ebAccess.ownerShopify, notes: ebAccess.due ? 'Due ' + ebAccess.due : '', due: ebAccess.due });
+
+  items.push({ date: '', done: hasYes('decisionProcess', 'how they will'), milestone: 'Map complete decision & approval process', ownerMerchant: merchantChamp, ownerShopify: aeShort, notes: '' });
+
+  const mapAction = actions.find(a => a.action.toLowerCase().includes('mutual') || a.action.toLowerCase().includes('map'));
+  if (mapAction) items.push({ date: '', done: false, milestone: mapAction.action.slice(0, 120), ownerMerchant: '', ownerShopify: mapAction.ownerShopify, notes: mapAction.due ? 'Due ' + mapAction.due : '', due: mapAction.due });
+
+  items.push({ date: '', done: !!(o.merchantIntent), milestone: 'Submit merchant intent', ownerMerchant: '', ownerShopify: aeShort, notes: o.merchantIntent ? 'Intent: ' + o.merchantIntent : '' });
+  items.push({ date: '', done: hasYes('paperProcess', 'contract details'), milestone: 'Finalize commercial proposal', ownerMerchant: merchantChamp, ownerShopify: aeShort, notes: '' });
+  items.push({ date: '', done: hasYes('paperProcess', 'procurement'), milestone: 'Confirm procurement process & legal steps', ownerMerchant: '', ownerShopify: aeShort, notes: '' });
+
+  // Top 2 paper process actions
+  actions.filter(a => a.section === 'Paper Process').slice(0, 2).forEach(a => {
+    items.push({ date: '', done: false, milestone: a.action.slice(0, 120), ownerMerchant: '', ownerShopify: a.ownerShopify, notes: a.section + (a.due ? ' · Due ' + a.due : ''), due: a.due });
+  });
+
+  items.push({ date: '', done: hasYes('paperProcess', 'sent'), milestone: 'Contract sent for signature', ownerMerchant: '', ownerShopify: aeShort, notes: '' });
+  items.push({ date: '', done: false, milestone: 'Contract signed ✍️', ownerMerchant: '', ownerShopify: '', notes: 'Target: ' + (o.closeDate || 'TBD') });
+  items.push({ date: '', done: false, milestone: 'Introduction to Shopify Launch team', ownerMerchant: '', ownerShopify: aeShort, notes: '' });
+  items.push({ date: '', done: false, milestone: 'Go-Live 🚀', ownerMerchant: '', ownerShopify: '', notes: '' });
+
+  return {
+    merchantName: o.accountName,
+    kickoffDate: o.created || '',
+    goLiveDate: o.closeDate || '',
+    contactName: o.owner || '',
+    contactEmail: o.ownerEmail || '',
+    champion: champion.name || '',
+    items,
+  };
+}
+
+// ============================================================
+// COACHING SNAPSHOTS — append today's scores for trend tracking
+// ============================================================
+function buildCoachingSnapshots(o, scores) {
+  const existing = o.coachingSnapshots || [];
+  const today = new Date().toISOString().split('T')[0];
+
+  // Build today's snapshot from computed scores
+  const snapshot = { date: today, sections: {} };
+  if (scores) {
+    for (const [key, val] of Object.entries(scores)) {
+      if (key === '_total') continue;
+      snapshot.sections[key] = { score: val.score, max: val.max, pct: val.pct };
+    }
+  }
+
+  // Don't duplicate today's entry — replace if same date
+  const lastDate = existing.length > 0 ? existing[existing.length - 1].date : null;
+  if (lastDate === today) {
+    existing[existing.length - 1] = snapshot;
+  } else {
+    existing.push(snapshot);
+  }
+
+  return existing;
+}
+
+// ============================================================
 // BUILD FULL OPPORTUNITY RECORDS
 // Pass through ALL data. Do NOT simplify or strip fields.
 // ============================================================
@@ -238,6 +343,12 @@ const fullOpps = opps.map(o => {
 
     // History
     history: oppHistory,
+
+    // Mutual Action Plan — pass through as-is, auto-generate for new opps
+    mutualActionPlan: o.mutualActionPlan || buildDefaultMAP(o),
+
+    // Coaching snapshots — append today's section scores for trend tracking
+    coachingSnapshots: buildCoachingSnapshots(o, scores),
   };
 });
 
@@ -266,6 +377,9 @@ fullOpps.forEach(o => {
   const callCount = (o.calls || []).length;
   const stakeCount = (o.stakeholders || []).length;
   const actionCount = (o.nextSteps || []).length;
-  console.log(`   📊 ${o.accountName}: ${s ? s.score + '/' + s.max + ' (' + s.pct + '%) ' + s.status : 'no scores'} | ${narrativeCount}/5 narratives | ${callCount} calls | ${stakeCount} stakeholders | ${actionCount} actions`);
+  const mapCount = (o.mutualActionPlan?.items || []).length;
+  const mapDone = (o.mutualActionPlan?.items || []).filter(i => i.done).length;
+  const snapCount = (o.coachingSnapshots || []).length;
+  console.log(`   📊 ${o.accountName}: ${s ? s.score + '/' + s.max + ' (' + s.pct + '%) ' + s.status : 'no scores'} | ${narrativeCount}/5 narratives | ${callCount} calls | ${stakeCount} stakeholders | ${actionCount} actions | MAP ${mapDone}/${mapCount} | ${snapCount} snapshots`);
 });
 console.log(`   Generated: ${data.generatedAt}`);
