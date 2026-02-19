@@ -92,6 +92,8 @@ function extractNextSteps(meddpicc) {
   for (const [sectionKey, section] of Object.entries(meddpicc)) {
     if (!section || !section.questions) continue;
     section.questions.forEach((q) => {
+      // Skip actions for questions already answered Yes (gap is closed)
+      if (q.answer === 'Yes') return;
       if (q.action && q.action !== 'N/A' && q.action !== '') {
         steps.push({
           p: priority++,

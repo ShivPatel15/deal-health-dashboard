@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-19T09:24:07.052Z",
+  "generatedAt": "2026-02-19T09:45:18.467Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -872,82 +872,75 @@ const DEAL_DATA = {
         {
           "p": 28,
           "cat": "Identify Pain",
-          "issue": "Matt explicitly referenced past failed attempts: 'I don't want to sit here and say to you 100% we can get it done. We've kind of done that in the past. It hasn't worked out.'",
-          "rec": "If not already known, ask Matt what specifically derailed prior attempts.",
-          "due": "02/24/2026"
-        },
-        {
-          "p": 29,
-          "cat": "Identify Pain",
           "issue": "Ecommerce team (Matt, Anil) clearly affected. IT team involved given integration work. Marketing implied through SEO concerns. Retail/stores team affected by POS decisions (27 locations). Finance affected by P&L implications. Extent per team not quantified.",
           "rec": "Ask Matt to describe which teams are most affected by current platform limitations.",
           "due": "02/24/2026"
         },
         {
-          "p": 30,
+          "p": 29,
           "cat": "Identify Pain",
           "issue": "They've already invested in Shopify backend integrations and engaged Visualsoft as Shopify implementation partner. Switching would mean significant sunk cost. 'Doing nothing' described as untenable by Matt. However, POS showstoppers could lead to partial hybrid solutions.",
           "rec": "Reference backend integration work already completed as evidence of momentum.",
           "due": ""
         },
         {
-          "p": 31,
+          "p": 30,
           "cat": "Identify Pain",
           "issue": "Shopify Plus addresses core needs (modern ecommerce, payments, potential POS). Visualsoft's pivot validates Shopify. However, POS 'showstoppers' (4-5 items) and SEO migration concerns are unresolved areas where Shopify's positioning is not yet confirmed.",
           "rec": "Ben Homer to prepare a POS capability assessment against Matt's specific showstoppers and an SEO migration plan.",
           "due": "02/24/2026"
         },
         {
-          "p": 32,
+          "p": 31,
           "cat": "Champion",
           "issue": "Matt Holden is the most engaged contact — attended all 3 calls, primary spokesperson. Highly motivated but title is 'Head of Digital' which may limit influence on budget/contract decisions. May be more 'coach' than true champion. David Duke is an external advocate, not internal champion.",
           "rec": "Ask Matt: 'Do you have everything you need to get this across the line internally, or is there anything we can do to support you with the board/Anil?'",
           "due": "02/21/2026"
         },
         {
-          "p": 33,
+          "p": 32,
           "cat": "Champion",
           "issue": "Matt appears credible — given operational authority ('green light to do what we want from an ecom perspective'). Presenting to board on P&L. However, past failed platform change attempts ('hasn't worked out') may have eroded some credibility on execution timelines.",
           "rec": "Provide Matt with a polished business case summary (ROI, timeline, risk mitigation) for board presentation.",
           "due": "02/21/2026"
         },
         {
-          "p": 34,
+          "p": 33,
           "cat": "Champion",
           "issue": "Anil invited to all 3 calls, attended none. All communication has been indirect — through Matt or David Duke. Shopify has never had a direct conversation with the primary decision maker. SIGNIFICANT risk for a deal at 80% probability in 'Commit' forecast.",
           "rec": "Shiv to ask David Duke to arrange a 10-minute call with Anil, framing it as a 'welcome to Shopify' executive touch-point.",
           "due": "02/21/2026"
         },
         {
-          "p": 35,
+          "p": 34,
           "cat": "Champion",
           "issue": "No evidence of willingness or attempt to bring Shopify into board-level discussions. Matt is the buffer. Board, CEO (Simon Pickering), and Finance Director (Chloe Sherwood) have zero direct engagement.",
           "rec": "Ask Matt: 'Would it help if someone from Shopify leadership joined a brief call with your board?'",
           "due": "02/21/2026"
         },
         {
-          "p": 36,
+          "p": 35,
           "cat": "Champion",
           "issue": "Matt is championing because current platform is failing and new ownership has given him the mandate to modernize. He's invested significant personal effort (backend integration built). Motivation is professional mandate rather than deep product conviction.",
           "rec": "Proactively address SEO and POS concerns to turn Matt from pragmatic supporter into enthusiastic advocate.",
           "due": "02/24/2026"
         },
         {
-          "p": 37,
+          "p": 36,
           "cat": "Competition",
           "issue": "Not directly asked, but Matt's statements strongly imply doing nothing is not viable: 'otherwise we'll be sat with the same site for the next 10 years.' However, deal has been in SF since July 2024 with multiple missed deadlines — arguably they HAVE been 'doing nothing' for 18+ months.",
           "rec": "Shiv to frame: 'Given past slippage, what's different this time that gives you confidence February will stick?'",
           "due": "02/20/2026"
         },
         {
-          "p": 38,
+          "p": 37,
           "cat": "Competition",
           "issue": "Current Visualsoft platform is the status quo alternative. No custom/in-house build consideration. Backend Shopify integration already built. However, POS showstoppers could lead to maintaining existing retail systems rather than adopting Shopify POS.",
           "rec": "Clarify that POS can be phased — secure D2C commitment first, address POS requirements separately.",
           "due": "02/21/2026"
         },
         {
-          "p": 39,
+          "p": 38,
           "cat": "Competition",
           "issue": "Win: partner support, backend built, ownership mandate, competitive payments, Shop Pay uplift. Lose: POS showstoppers, SEO risk, deal fatigue (18 months), inability to engage DM, timeline slippage pattern, Finance Director/CEO zero engagement.",
           "rec": "Create a risk register addressing each potential lose factor with mitigation plan; prioritize POS assessment and Anil engagement.",
@@ -2622,246 +2615,211 @@ const DEAL_DATA = {
         {
           "p": 7,
           "cat": "Economic Buyer",
-          "issue": "Andy cares about growth protection, cost reduction, and customer experience. Martin cares about TCO, timeline feasibility, and technical integration. Cheryl cares about in-store experience and operational efficiency. Nigel's priorities not directly known.",
-          "rec": "Ask Martin: 'When the board reviews this, what are the top 3 things Nigel will focus on?'",
-          "due": "02/19/2026"
-        },
-        {
-          "p": 8,
-          "cat": "Economic Buyer",
           "issue": "Budget cycle is Feb-to-Feb (confirmed by Martin). Board approval is required. Decision-making process beyond that is unclear — how many board approvals? Formal business case template? Procurement involvement?",
           "rec": "During Feb 19 onsite, explicitly ask: 'Walk me through what happens after you decide to proceed — who approves what, and what documentation is needed?'",
           "due": "02/19/2026"
         },
         {
-          "p": 9,
+          "p": 8,
           "cat": "Decision Process",
           "issue": "We know board approval is needed, Martin is project lead, Andy has decision authority. But specific steps — business case submission, board meeting dates, procurement review, legal review — are not mapped.",
           "rec": "Ask Martin at Feb 19 onsite to walk through the internal approval process step by step.",
           "due": "02/19/2026"
         },
         {
-          "p": 10,
+          "p": 9,
           "cat": "Decision Process",
           "issue": "We know Martin, Andy, Cheryl, and Nigel. Tryzens (SI partner) is influential. Don't know if finance, legal, or procurement stakeholders are involved in the buying committee.",
           "rec": "Ask Martin: 'Beyond yourself, Andy, and Nigel, who else needs to weigh in or approve before we can move forward?'",
           "due": "02/19/2026"
         },
         {
-          "p": 11,
+          "p": 10,
           "cat": "Decision Process",
           "issue": "Target close date is Feb 27. POS migration start targeted Feb/March 2026. But board approval timeline is unclear — no confirmed decision date from customer's side.",
           "rec": "Ask Martin: 'When is the board meeting where this will be reviewed? Is Feb 27 realistic for contract execution?'",
           "due": "02/19/2026"
         },
         {
-          "p": 12,
+          "p": 11,
           "cat": "Decision Process",
           "issue": "Not explicitly discussed whether Dune has attempted a POS replacement or platform migration before. SFCC two-year renewal suggests caution.",
           "rec": "Ask Martin: 'Have you attempted a POS or platform migration before? What lessons from past projects should we factor in?'",
           "due": "02/19/2026"
         },
         {
-          "p": 13,
+          "p": 12,
           "cat": "Decision Process",
           "issue": "Andy implied staying on current stack is costly and risky to growth, but no explicit articulation of what happens if they do nothing. Cost of inaction not quantified.",
           "rec": "Prepare and present 'cost of doing nothing' analysis for Feb 19 meeting.",
           "due": "02/19/2026"
         },
         {
-          "p": 14,
+          "p": 13,
           "cat": "Decision Process",
           "issue": "No evidence that Martin or Andy has explicitly validated the decision process in response to a direct question. Process discussed organically but not formally confirmed.",
           "rec": "At Feb 19, present your understanding of their decision process and ask them to confirm or correct it. Document in a mutual action plan.",
           "due": "02/19/2026"
         },
         {
-          "p": 15,
+          "p": 14,
           "cat": "Decision Criteria",
           "issue": "Some criteria surfaced — TCO reduction, unified omnichannel, payment costs, customer experience, low risk to web growth. No formal evaluation criteria document or scorecard shared.",
           "rec": "Ask Martin: 'Are you evaluating vendors against a formal set of criteria? Can you share what those criteria are?'",
           "due": "02/19/2026"
         },
         {
-          "p": 16,
+          "p": 15,
           "cat": "Decision Criteria",
           "issue": "D2C and POS discussed extensively. Retail Payments is a major blocker. B2B not discussed. Detailed capability mapping (BOPIS, endless aisle, clienteling) not covered.",
           "rec": "During Feb 19 hardware demo, walk through full POS capability set including omnichannel features and confirm which are priority for Dune.",
           "due": "02/19/2026"
         },
         {
-          "p": 17,
-          "cat": "Decision Criteria",
-          "issue": "Worldpay integration surfaced as critical technical complication — Sarah noted Worldpay isn't integrated with Shopify POS. Cheryl flagged discrepancies and customer experience issues. Major blocker.",
-          "rec": "Provide clear answer on Worldpay integration status and alternatives at Feb 19 meeting.",
-          "due": "02/19/2026"
-        },
-        {
-          "p": 18,
-          "cat": "Decision Criteria",
-          "issue": "Payments are central to the decision. £430K annual gap is the #1 commercial blocker. Cheryl's operational concerns add UX dimension. Make-or-break criterion.",
-          "rec": "Present final payments proposal at Feb 19 — either improved rates or credible integrated alternative.",
-          "due": "02/19/2026"
-        },
-        {
-          "p": 19,
+          "p": 16,
           "cat": "Decision Criteria",
           "issue": "No mutual action plan (MAP) discussed or documented. No shared timeline with milestones, owners, and dates.",
           "rec": "Prepare a draft mutual action plan covering: decision date, contract execution, hardware ordering, POS pilot, full rollout, web migration discovery. Present for input.",
           "due": "02/19/2026"
         },
         {
-          "p": 20,
+          "p": 17,
           "cat": "Decision Criteria",
           "issue": "Shopify has influenced evaluation by proposing POS-first approach and positioning conversion uplift/TCO savings. But payments blocker shifted criteria against Shopify. Tryzens recommended Shopify, shaping initial criteria favorably.",
           "rec": "Build a 'total value' business case showing net positive ROI even with Shopify Payments. Present at Feb 19.",
           "due": "02/19/2026"
         },
         {
-          "p": 21,
+          "p": 18,
           "cat": "Decision Criteria",
           "issue": "Tryzens appears to have initially defined criteria by recommending Shopify. Andy and Martin are shaping criteria based on business needs. Not clear if formal procurement or IT evaluation framework drives criteria.",
           "rec": "Ask Martin: 'Who defined the evaluation criteria for this project? Is it coming from IT, the board, or Tryzens?'",
           "due": "02/19/2026"
         },
         {
-          "p": 22,
+          "p": 19,
           "cat": "Paper Process",
           "issue": "Procurement process not discussed. No mention of legal review, procurement team involvement, or standard vendor onboarding process.",
           "rec": "Ask Martin at Feb 19: 'Once the board approves, what's your procurement/contracting process? Who reviews contracts?'",
           "due": "02/19/2026"
         },
         {
-          "p": 23,
+          "p": 20,
           "cat": "Paper Process",
           "issue": "Not discussed. A UK retailer of this size likely has legal/procurement that will review and redline commercial terms, especially around payment processing and data handling.",
           "rec": "Prepare for potential redlines by having legal pre-review common UK retail contract concerns. Ask about typical review timelines.",
           "due": "02/19/2026"
         },
         {
-          "p": 24,
+          "p": 21,
           "cat": "Paper Process",
           "issue": "Not discussed. No data on how long legal/procurement review takes at Dune.",
           "rec": "Ask Martin: 'If we send a contract after board approval, how long does legal/procurement review typically take?'",
           "due": "02/19/2026"
         },
         {
-          "p": 25,
+          "p": 22,
           "cat": "Paper Process",
           "issue": "Overall paper process timeline not established. Close date of Feb 27 unclear if validated with customer or internal target.",
           "rec": "Discuss contract execution timeline explicitly at Feb 19 onsite.",
           "due": "02/19/2026"
         },
         {
-          "p": 26,
+          "p": 23,
           "cat": "Paper Process",
           "issue": "No contract details discussed — term length, payment terms, SLA requirements. 3-year deal implied by Salesforce but not confirmed.",
           "rec": "Present proposed contract structure (term, pricing, payment terms) at Feb 19 and gauge reaction before sending formal paperwork.",
           "due": "02/19/2026"
         },
         {
-          "p": 27,
+          "p": 24,
           "cat": "Paper Process",
           "issue": "Contract has not been sent. AE notes indicate 'awaiting final approval from board' before contract can be executed.",
           "rec": "Have contract drafted and ready to send the moment board approval is confirmed. Ensure it reflects final payments pricing/structure.",
           "due": "02/20/2026"
         },
         {
-          "p": 28,
+          "p": 25,
           "cat": "Paper Process",
           "issue": "Salesforce close date is Feb 27. AE notes suggest board approval pending. Martin mentioned Feb/March start for POS migration. No explicit customer-confirmed target signature date.",
           "rec": "At Feb 19, ask: 'If the board approves, what's a realistic date for contract signature? Is late February feasible?'",
           "due": "02/19/2026"
         },
         {
-          "p": 29,
+          "p": 26,
           "cat": "Identify Pain",
           "issue": "Dune renewed SFCC for 2 years rather than migrating immediately, suggesting prior evaluation without action. Tryzens' involvement suggests this cycle is more serious.",
           "rec": "Ask Martin: 'Have you evaluated POS replacements or platform migrations before? What held you back previously?'",
           "due": "02/19/2026"
         },
         {
-          "p": 30,
+          "p": 27,
           "cat": "Identify Pain",
           "issue": "IT, Retail Ops, and senior leadership all represented. Store staff impact implied by Cheryl's comments. Don't have details on how many staff affected, training burden, or team-level pain quantification.",
           "rec": "Ask Cheryl or Martin: 'How many store staff are affected? What's the training overhead with current POS?'",
           "due": "02/19/2026"
         },
         {
-          "p": 31,
+          "p": 28,
           "cat": "Identify Pain",
           "issue": "They could renew Anakta and stay on SFCC. Tryzens could recommend a different platform. No other POS vendors mentioned but unknown if evaluating alternatives.",
           "rec": "Ask Martin: 'Are you evaluating any other POS solutions besides Shopify, or is this a Shopify-or-status-quo decision?'",
           "due": "02/19/2026"
         },
         {
-          "p": 32,
+          "p": 29,
           "cat": "Identify Pain",
           "issue": "Shopify well-positioned for unified D2C + Retail, which is unique vs. point solutions. Tryzens recommended Shopify. However, payments pricing disadvantage and Worldpay integration gap undermine positioning.",
           "rec": "Prepare competitive differentiation talking points for Feb 19 highlighting Shopify-unique capabilities beyond cost.",
           "due": "02/19/2026"
         },
         {
-          "p": 33,
+          "p": 30,
           "cat": "Champion",
           "issue": "Martin is Head of IT with credibility on tech decisions. Andy defers to him on project execution. But political capital with board/CEO unknown.",
           "rec": "Observe dynamics at Feb 19 onsite. Ask Martin about how board typically receives his technology recommendations.",
           "due": "02/19/2026"
         },
         {
-          "p": 34,
+          "p": 31,
           "cat": "Champion",
           "issue": "Martin introduced Andy on Nov 13 call. However, we have NOT been introduced to Nigel Darwin (CEO/signatory). No evidence of Martin facilitating a CEO meeting.",
           "rec": "Ask Martin at Feb 19: 'Would it be helpful for us to present directly to Nigel or the board?'",
           "due": "02/19/2026"
         },
         {
-          "p": 35,
+          "p": 32,
           "cat": "Champion",
           "issue": "Martin has brought Andy and Cheryl into calls but no evidence he's willing to bring Shopify into a board meeting. Board approval pending — unclear if Shopify will present or Martin/Andy will present internally.",
           "rec": "Offer to prepare a board-ready slide deck or one-pager that Martin can use for the board approval meeting.",
           "due": "02/19/2026"
         },
         {
-          "p": 36,
+          "p": 33,
           "cat": "Champion",
           "issue": "Martin appears motivated by desire to modernize tech stack, reduce TCO, simplify IT operations. Tryzens' recommendation gives confidence. But payments pricing blocker may be eroding his championship.",
           "rec": "Provide Martin with comprehensive, board-ready business case showing positive ROI even with Shopify Payments, OR present revised payments offer.",
           "due": "02/19/2026"
         },
         {
-          "p": 37,
-          "cat": "Competition",
-          "issue": "No specific competing POS vendors mentioned. Implicit competition is status quo (staying on Anakta + SFCC). Tryzens recommended Shopify but unknown if other platforms evaluated.\n[Lite Refresh 2026-02-19] Competitor cleared — we know they are not evaluating anyone else.",
-          "rec": "Ask Martin at Feb 19: 'Are you looking at any other POS or commerce platforms alongside Shopify?'",
-          "due": "02/19/2026"
-        },
-        {
-          "p": 38,
+          "p": 34,
           "cat": "Competition",
           "issue": "'Doing nothing' is implicitly an option — Dune renewed SFCC for 2 years and could renew Anakta. Andy's focus on risk suggests inaction is tempting for web. TCO pressure suggests pure status quo not preferred for POS.",
           "rec": "At Feb 19, present cost-of-inaction analysis and ask: 'Is staying on Anakta a viable option, or is POS migration a certainty?'",
           "due": "02/19/2026"
         },
         {
-          "p": 39,
+          "p": 35,
           "cat": "Competition",
           "issue": "Internal alternatives could include extending Anakta or Tryzens implementing a different POS solution. SFCC could extend with different POS integration.",
           "rec": "Ask Martin: 'When Tryzens recommended Shopify, what other options did they consider?'",
           "due": "02/19/2026"
         },
         {
-          "p": 40,
+          "p": 36,
           "cat": "Competition",
           "issue": "If alternatives are being evaluated, we don't know why. Only known evaluation driver is Tryzens' recommendation and TCO/contract-timing drivers.",
           "rec": "Ask Martin: 'If you were to choose a different direction, what would that look like and why?'",
-          "due": "02/19/2026"
-        },
-        {
-          "p": 41,
-          "cat": "Competition",
-          "issue": "Would likely win on platform unification, ecosystem strength, platform cost reduction. Could lose on payments cost (£430K gap), Worldpay integration gap, and perceived migration risk for 55+ stores. Payments is the primary lose factor.\n[Lite Refresh 2026-02-19] No competitor — clear win path established.",
-          "rec": "Prepare 'why Shopify wins' summary addressing payments gap with mitigation strategies while emphasizing unique advantages.",
           "due": "02/19/2026"
         }
       ],
@@ -3653,320 +3611,222 @@ const DEAL_DATA = {
         {
           "p": 3,
           "cat": "Metrics",
-          "issue": "SAP Hybris end-of-support January 2027 is a hard, external, non-negotiable compelling event. Failed SFCC project creates additional internal pressure.",
-          "rec": "Continue to anchor all timeline conversations to Jan 2027 deadline.",
-          "due": ""
-        },
-        {
-          "p": 4,
-          "cat": "Metrics",
           "issue": "Compelling event and business problem are clearly mutual, but no jointly agreed metrics framework or business case document. Dec 3 exec call likely touched on this but no transcript.",
           "rec": "Ben Rees to propose a joint business case or ROI model validated with Carmen De Teran and/or Tom Burrow.",
           "due": "02/28/2026"
         },
         {
-          "p": 5,
-          "cat": "Metrics",
-          "issue": "Platform going end-of-support (no choice), failed prior migration (urgency), growth blocked by legacy tech, $51M GMV at stake. Strong case for change.",
-          "rec": "Ensure business case narrative is documented and shareable internally at Mulberry.",
-          "due": "02/28/2026"
-        },
-        {
-          "p": 6,
+          "p": 4,
           "cat": "Economic Buyer",
           "issue": "Carmen De Teran (Digital Director) listed as Economic Buyer, Dharmini Chauhan (CIO) and Tom Burrow (CMO) as Decision Makers. True budget authority unclear — could be CIO or CFO (not in stakeholder map).",
           "rec": "Ben Rees to ask Simon Oates: 'Who ultimately approves the budget for this project?'",
           "due": "02/21/2026"
         },
         {
-          "p": 7,
+          "p": 5,
           "cat": "Economic Buyer",
           "issue": "Billie O'Connor (Founder, Nova Community) listed as Signatory — unusual external consultant. Internal signatory unclear.",
           "rec": "Ben Rees to confirm with Simon Oates who the internal signatory is and Billie O'Connor's exact role.",
           "due": "02/21/2026"
         },
         {
-          "p": 8,
+          "p": 6,
           "cat": "Economic Buyer",
           "issue": "Carmen De Teran: strong access (100 emails, 40 replies). Dharmini Chauhan (CIO): limited (11 emails, 1 reply, 1 exec call). Tom Burrow (CMO): moderate (25 emails, 10 replies, multiple meetings).",
           "rec": "Leverage Tom Burrow or Simon Oates to arrange follow-up touchpoint with Dharmini Chauhan.",
           "due": "02/25/2026"
         },
         {
-          "p": 9,
-          "cat": "Economic Buyer",
-          "issue": "Dec 3 exec alignment call included CIO and CMO with Field CTO Peyman Naeini, demonstrating access is achievable when right Shopify exec engaged.",
-          "rec": "Consider second exec-to-exec touchpoint with Peyman and Dharmini.",
-          "due": "02/25/2026"
-        },
-        {
-          "p": 10,
+          "p": 7,
           "cat": "Economic Buyer",
           "issue": "High level: legacy tech as growth inhibitor, new segment scaling. Tom Burrow cares about payments (attended Adyen meeting). CIO-specific priorities unknown. No transcript data on personal/political motivations.",
           "rec": "Ben Rees to probe what each decision maker's personal success criteria are for this project.",
           "due": "02/25/2026"
         },
         {
-          "p": 11,
+          "p": 8,
           "cat": "Economic Buyer",
           "issue": "No evidence about Mulberry's internal budgeting process, approval thresholds, board involvement, or CapEx vs OpEx preferences.",
           "rec": "Ben Rees to ask Simon Oates: 'Walk me through what needs to happen internally once we align on terms — who approves, what committees, what timeline?'",
           "due": "02/21/2026"
         },
         {
-          "p": 12,
+          "p": 9,
           "cat": "Decision Process",
           "issue": "Evidence of RFP process, multi-vendor evaluation, and legal review. Formal decision process (scoring, evaluation committee, presentation rounds) not documented.",
           "rec": "Ben Rees to ask Simon Oates to outline remaining evaluation steps and decision-making process.",
           "due": "02/21/2026"
         },
         {
-          "p": 13,
-          "cat": "Decision Process",
-          "issue": "7 stakeholders mapped: CIO (DM), CMO (DM), Digital Director (EB), Senior Architect (Tech Buyer), Head of Tech Delivery, Senior PM (Procurement), external signatory advisor. Well-mapped.",
-          "rec": "Validate there are no hidden influencers (CFO, CEO, board members).",
-          "due": "02/25/2026"
-        },
-        {
-          "p": 14,
+          "p": 10,
           "cat": "Decision Process",
           "issue": "Close date Feb 28. SE notes say 'Closing Q4/Q1.' Unclear if Feb 28 is Mulberry's timeline or Shopify's forecast. Legal pushback and China/Markets queries suggest it may slip.",
           "rec": "Ben Rees to confirm with Simon Oates: 'What is your internal target date for making a platform decision?'",
           "due": "02/21/2026"
         },
         {
-          "p": 15,
-          "cat": "Decision Process",
-          "issue": "SAP Hybris end-of-support Jan 2027. Working backward from 9-12 month implementation, Q1 2026 decision is logical. Failed SFCC implementation adds urgency.",
-          "rec": "Use implementation timeline modeling to reinforce urgency.",
-          "due": ""
-        },
-        {
-          "p": 16,
-          "cat": "Decision Process",
-          "issue": "Failed Salesforce Commerce Cloud implementation in 2024 is explicitly documented. Prior attempt to solve same problem.",
-          "rec": "Use SFCC failure as differentiator — emphasize Shopify's proven migration methodology and lower risk.",
-          "due": ""
-        },
-        {
-          "p": 17,
+          "p": 11,
           "cat": "Decision Process",
           "issue": "Hybris goes end-of-support: security vulnerabilities, no patches, increasing costs. Growth blocked. But specific consequences not quantified.",
           "rec": "Collaborate with Simon Oates on documenting what happens if they miss Jan 2027 — extended support cost, security/compliance exposure.",
           "due": "02/25/2026"
         },
         {
-          "p": 18,
+          "p": 12,
           "cat": "Decision Process",
           "issue": "High meeting/email volume suggests alignment at operational level (Simon: 81 emails, 40 replies). No evidence formal process validated with CIO or CMO.",
           "rec": "Confirm decision process and timeline directly with Tom Burrow or Dharmini Chauhan.",
           "due": "02/25/2026"
         },
         {
-          "p": 19,
+          "p": 13,
           "cat": "Decision Criteria",
           "issue": "RFP process underway (SE notes reference RFP responses), implying formal criteria exist. Specific criteria, weighting, and scoring not documented.",
           "rec": "Ben Rees to request RFP scoring rubric or evaluation framework from Simon Oates.",
           "due": "02/21/2026"
         },
         {
-          "p": 20,
+          "p": 14,
           "cat": "Decision Criteria",
           "issue": "Deal positioned as D2C-Standard ($82.8K). As a luxury brand with likely physical stores, POS/omnichannel may be relevant but not explored. B2B/Retail/Payments all null/zero.",
           "rec": "Ben Homer or Ben Rees to probe whether Mulberry has interest in POS or B2B as broader platform consolidation.",
           "due": "02/25/2026"
         },
         {
-          "p": 21,
+          "p": 15,
           "cat": "Decision Criteria",
           "issue": "China/Markets queries just emerged. Adyen payments meeting occurred. RFP follow-ups in progress. Full integration landscape (ERP, OMS, PIM, CRM) not documented. SAP ecosystem dependencies need mapping.",
           "rec": "Ben Homer and Christian Mackie to surface all integration requirements, especially SAP dependencies, China cross-border, Markets config.",
           "due": "02/25/2026"
         },
         {
-          "p": 22,
-          "cat": "Decision Criteria",
-          "issue": "Dedicated Adyen/Shopify meeting Jan 9, 2026 with CMO attending. Payments integration clearly a significant decision factor.",
-          "rec": "Ensure all payments follow-ups from Jan 9 meeting are closed out.",
-          "due": "02/21/2026"
-        },
-        {
-          "p": 23,
+          "p": 16,
           "cat": "Decision Criteria",
           "issue": "Clear mutual engagement but no formal MAP documented. Activity suggests an informal plan being followed.",
           "rec": "Ben Rees to propose written MAP to Simon Oates covering remaining eval steps, legal resolution, SI selection, target decision date.",
           "due": "02/21/2026"
         },
         {
-          "p": 24,
+          "p": 17,
           "cat": "Decision Criteria",
           "issue": "Dec 3 exec alignment with Field CTO and ongoing SE engagement suggest influence opportunities. Adyen meeting may have shaped payments criteria. No transcript confirmation.",
           "rec": "Ben Homer to ensure RFP follow-ups position Shopify's strengths as evaluation priorities.",
           "due": "02/25/2026"
         },
         {
-          "p": 25,
+          "p": 18,
           "cat": "Decision Criteria",
           "issue": "No evidence about who authored the RFP/criteria — internal team, external consultant (Billie O'Connor/Nova Community?), or other.",
           "rec": "Ben Rees to ask Simon Oates who authored the RFP and evaluation criteria.",
           "due": "02/21/2026"
         },
         {
-          "p": 26,
+          "p": 19,
           "cat": "Paper Process",
           "issue": "Simon Oates tagged as Procurement, legal review underway, external signatory advisor (Billie O'Connor). Full procurement workflow not documented.",
           "rec": "Ben Rees to ask Simon Oates for complete procurement workflow: legal → approvals → signature → PO timeline.",
           "due": "02/21/2026"
         },
         {
-          "p": 27,
-          "cat": "Paper Process",
-          "issue": "AE explicitly states 'Legal are still working through the PLUS contract as we have pushed back 3X on their asks.' Active, contentious redlines.",
-          "rec": "Ben Rees to escalate internally to determine which asks can be accommodated. Prepare negotiation strategy.",
-          "due": "02/21/2026"
-        },
-        {
-          "p": 28,
+          "p": 20,
           "cat": "Paper Process",
           "issue": "Legal review ongoing through 3+ rounds. Resolution not imminent. No specific timeline documented.",
           "rec": "Ben Rees to propose target date for final contract terms to Simon Oates and Mulberry legal.",
           "due": "02/21/2026"
         },
         {
-          "p": 29,
+          "p": 21,
           "cat": "Paper Process",
           "issue": "No data on Mulberry's typical procurement cycle, approval lead times, or time from agreed terms to executed contract.",
           "rec": "Ask Simon Oates: 'Once we agree on final terms, how long does your internal approval and signature process typically take?'",
           "due": "02/21/2026"
         },
         {
-          "p": 30,
-          "cat": "Paper Process",
-          "issue": "Contract sent and in active legal review. MCV ($82,800), products, and 3-year revenue ($841,500) defined.",
-          "rec": "Document specific redlined terms for internal tracking.",
-          "due": "02/21/2026"
-        },
-        {
-          "p": 31,
+          "p": 22,
           "cat": "Paper Process",
           "issue": "Close date Feb 28. SE notes say 'Closing Q4/Q1.' With active legal redlines, China/Markets queries, and Arsenalia discovery starting, Feb 28 appears at risk.",
           "rec": "Propose specific target signature date to Simon Oates and validate Feb 28 achievability.",
           "due": "02/21/2026"
         },
         {
-          "p": 32,
-          "cat": "Identify Pain",
-          "issue": "Failed Salesforce Commerce Cloud implementation in 2024 — documented prior attempt.",
-          "rec": "Use SFCC failure as differentiation point — emphasize lower-risk migration approach.",
-          "due": ""
-        },
-        {
-          "p": 33,
+          "p": 23,
           "cat": "Identify Pain",
           "issue": "Legacy tech is a 'growth inhibitor,' cannot scale for new segment. Specific operational impacts (site performance, developer productivity, conversion rates) not quantified.",
           "rec": "Explore with Carmen or Jo Smith: What specific operational bottlenecks does the current platform create?",
           "due": "02/25/2026"
         },
         {
-          "p": 34,
+          "p": 24,
           "cat": "Identify Pain",
           "issue": "Buying committee implies tech, marketing/digital, and PM teams are affected. Specific extent per team not documented.",
           "rec": "Understand which teams bear most pain — dev team, marketing team, or digital team?",
           "due": "02/25/2026"
         },
         {
-          "p": 35,
-          "cat": "Identify Pain",
-          "issue": "Hybris end-of-support Jan 2027 creates hard deadline. 9-12 month implementation requires Q1 2026 decision. Urgency is high and time-bound.",
-          "rec": "Continue anchoring conversations to implementation timeline.",
-          "due": ""
-        },
-        {
-          "p": 36,
-          "cat": "Identify Pain",
-          "issue": "Evaluating Scayle, BigCommerce, and SFCC alongside Shopify. Could also extend Hybris support at cost. Multiple alternatives exist.",
-          "rec": "Ensure clear competitive positioning vs. each alternative, especially why Shopify won't fail like SFCC did.",
-          "due": "02/25/2026"
-        },
-        {
-          "p": 37,
+          "p": 25,
           "cat": "Identify Pain",
           "issue": "Shopify Plus strong for D2C luxury with $51M GMV. Post-SFCC-failure risk aversion favors proven platform. But China/Markets queries and lack of POS/B2B in scope suggest not yet seen as full-stack. 'Uniquely positioned' not proven.",
           "rec": "Christian Mackie to prepare Mulberry-specific architecture POV showing how Shopify uniquely solves their challenges vs. alternatives.",
           "due": "02/25/2026"
         },
         {
-          "p": 38,
+          "p": 26,
           "cat": "Champion",
           "issue": "Strongest candidates: Simon Oates (81 emails, 40 replies), Carmen De Teran (100 emails, 40 replies), Tom Burrow (25 emails, 10 replies). Without transcripts, cannot confirm if any actively advocate for Shopify vs. managing evaluation neutrally.",
           "rec": "Ben Rees to assess in next conversation: Are they personally advocating for Shopify internally?",
           "due": "02/21/2026"
         },
         {
-          "p": 39,
+          "p": 27,
           "cat": "Champion",
           "issue": "Carmen (Digital Director, EB) and Tom (CMO, DM) would have strong political capital. Simon (PM) has operational influence but may lack strategic weight. True internal standing unclear.",
           "rec": "Assess whether Tom Burrow (CMO) could be developed as executive-level champion.",
           "due": "02/25/2026"
         },
         {
-          "p": 40,
+          "p": 28,
           "cat": "Champion",
           "issue": "Simon's high engagement suggests information sharing. AE notes reference internal dynamics (legal pushback, China/Markets). No specific competitive intel or political insights documented.",
           "rec": "Ask Simon about internal sentiment: Where does each DM stand? What objections exist?",
           "due": "02/21/2026"
         },
         {
-          "p": 41,
-          "cat": "Champion",
-          "issue": "Dec 3 exec alignment call included CIO and CMO. Tom Burrow attended multiple subsequent meetings. Direct introductions achieved.",
-          "rec": "Seek follow-up with Dharmini Chauhan (CIO) — engagement limited post-Dec 3.",
-          "due": "02/25/2026"
-        },
-        {
-          "p": 42,
+          "p": 29,
           "cat": "Champion",
           "issue": "Exec alignment call demonstrates willingness for executive engagement. No evidence of broader buying committee meeting, board presentation, or vendor bake-off access.",
           "rec": "Ask Simon/Carmen: 'Would it help to present to the full evaluation committee or stakeholders not yet in our conversations?'",
           "due": "02/25/2026"
         },
         {
-          "p": 43,
+          "p": 30,
           "cat": "Champion",
           "issue": "Without call transcripts, cannot identify personal motivation or career drivers. Organization has pain but individual champion motivation undocumented.",
           "rec": "Explore in 1:1s: What does a successful platform decision mean for Simon/Carmen/Tom personally?",
           "due": "02/25/2026"
         },
         {
-          "p": 44,
-          "cat": "Competition",
-          "issue": "Three competitors: Salesforce Commerce Cloud (primary), Scayle, BigCommerce. Well-mapped.",
-          "rec": "Continue gathering intelligence on competitor positioning and status.",
-          "due": ""
-        },
-        {
-          "p": 45,
+          "p": 31,
           "cat": "Competition",
           "issue": "Hybris going end-of-support makes 'doing nothing' non-viable long-term, but extended support could delay. Not explicitly discussed.",
           "rec": "Ask Simon/Carmen: 'Is there any scenario where you extend Hybris support rather than migrating by Jan 2027?'",
           "due": "02/25/2026"
         },
         {
-          "p": 46,
+          "p": 32,
           "cat": "Competition",
           "issue": "No evidence about internal build, custom dev, or headless/composable approaches. Four external platforms being evaluated suggests external path, but internal alternatives not explicitly ruled out.",
           "rec": "Confirm with Alistair Jacques or Jo Smith whether custom-build or headless approach was considered.",
           "due": "02/25/2026"
         },
         {
-          "p": 47,
+          "p": 33,
           "cat": "Competition",
           "issue": "Multi-vendor eval is standard due diligence. SFCC notably still in mix despite failed 2024 implementation. Scayle/BigCommerce likely cost-competitive or feature-specific alternatives.",
           "rec": "Ask Simon: 'Where are you with other vendors? What's standing out positively or negatively about each?'",
           "due": "02/21/2026"
         },
         {
-          "p": 48,
+          "p": 34,
           "cat": "Competition",
           "issue": "Win: post-SFCC risk aversion, D2C strength, brand credibility, SI partners. Lose: China/Markets gaps, legal impasse, pricing pressure from Scayle/BigCommerce, luxury bespoke UX requirements. Inferred, not confirmed.",
           "rec": "Ask Simon directly: 'What would make you choose Shopify? What would make you choose someone else?'",
@@ -4932,222 +4792,215 @@ const DEAL_DATA = {
         {
           "p": 6,
           "cat": "Economic Buyer",
-          "issue": "Active access to Danny. VML’s Scott Armstrong may also be a path to other stakeholders if needed.",
-          "rec": "If Danny is not the EB, request introduction to the true EB.",
-          "due": "02/25/2026"
-        },
-        {
-          "p": 7,
-          "cat": "Economic Buyer",
           "issue": "Danny cares about budget (£400K cap) and timeline (Nov 2026 go-live). Requires VML fixed-price estimate. Broader strategic priorities (growth, brand experience, international expansion) unknown.",
           "rec": "Explore: 'Beyond budget and timeline, what does success look like for you personally?'",
           "due": "02/25/2026"
         },
         {
-          "p": 8,
+          "p": 7,
           "cat": "Economic Buyer",
           "issue": "£400K budget known, VML estimate required before committing. Don’t know if formal procurement, board approval, or how £400K was allocated.",
           "rec": "Ask Danny: 'Once you have VML’s estimate and want to proceed, what’s the internal approval process?'",
           "due": "02/20/2026"
         },
         {
-          "p": 9,
+          "p": 8,
           "cat": "Decision Process",
           "issue": "Danny waiting for VML estimate, then decision by Feb 27. Contract in legal review. But full internal decision process unknown.",
           "rec": "Walk through step-by-step with Danny: 'After VML estimate, what are the exact steps to signature?'",
           "due": "02/20/2026"
         },
         {
-          "p": 10,
+          "p": 9,
           "cat": "Decision Process",
           "issue": "Danny Dawes is the ONLY contact in Salesforce. For a £400K+ investment at a subsidiary of a Japanese public company, others are almost certainly involved. Zero visibility into buying committee.",
           "rec": "Ask Danny: 'Who else at Wacoal is involved in this decision?' Also ask VML’s Scott Armstrong who they’ve been interfacing with.",
           "due": "02/20/2026"
         },
         {
-          "p": 11,
+          "p": 10,
           "cat": "Decision Process",
           "issue": "No information about previous platform evaluations or migration attempts.",
           "rec": "Ask Danny: 'Have you explored re-platforming before, or is this the first time?'",
           "due": "02/20/2026"
         },
         {
-          "p": 12,
+          "p": 11,
           "cat": "Decision Process",
           "issue": "Feb 27 decision date and VML estimate dependency communicated by Danny. No formal MAP documented. No call transcripts.",
           "rec": "Propose a mutual close plan: VML estimate → internal review → legal → signature → build kickoff.",
           "due": "02/20/2026"
         },
         {
-          "p": 13,
+          "p": 12,
           "cat": "Decision Criteria",
           "issue": "Danny cares about: total cost within £400K, 16→4 consolidation, product hierarchy/variant support, Nov 2026 go-live. No formal evaluation criteria or weighting.",
           "rec": "Ask Danny: 'What are the top 3-5 things that will determine whether you go with Shopify?'",
           "due": "02/22/2026"
         },
         {
-          "p": 14,
+          "p": 13,
           "cat": "Decision Criteria",
           "issue": "D2C well-covered (4 brands, Markets, multi-store). No B2B or POS discussion. Bravissimo (25 stores) is Phase 2 and could involve POS.",
           "rec": "Ask: 'When you think about Bravissimo, would unified commerce across online and 25 stores be valuable?'",
           "due": "03/01/2026"
         },
         {
-          "p": 15,
+          "p": 14,
           "cat": "Decision Criteria",
           "issue": "Shopify Payments included with $18.85M projected GPV. But current payment provider, existing contracts, and whether pricing was a factor unknown.",
           "rec": "Confirm: 'Who handles payments today? Any existing contracts we should know about?'",
           "due": "02/22/2026"
         },
         {
-          "p": 16,
+          "p": 15,
           "cat": "Decision Criteria",
           "issue": "Implicit timeline exists (VML estimate → decision Feb 27 → offer expiry March 13 → build → Nov go-live) but no documented MAP.",
           "rec": "Create and share written close plan with Danny.",
           "due": "02/20/2026"
         },
         {
-          "p": 17,
+          "p": 16,
           "cat": "Decision Criteria",
           "issue": "Danny drives criteria (budget, fixed-price, timeline). VML shaped technical criteria through discovery. Unknown if others at Wacoal have input.",
           "rec": "Ask: 'Are there other teams whose requirements we should address?'",
           "due": "02/22/2026"
         },
         {
-          "p": 18,
+          "p": 17,
           "cat": "Paper Process",
           "issue": "Draft contract sent for legal review, decision by Feb 27. Don’t know if formal procurement team, PO process, or additional approvals needed.",
           "rec": "Ask Danny: 'Once you decide, what does contract execution look like internally? Procurement team involved?'",
           "due": "02/20/2026"
         },
         {
-          "p": 19,
+          "p": 18,
           "cat": "Paper Process",
           "issue": "Contract in legal review. Wacoal is a subsidiary of Japanese public company — legal review likely thorough. No specific concerns raised yet.",
           "rec": "Check with Danny: 'Has your legal team flagged any concerns on the contract?'",
           "due": "02/20/2026"
         },
         {
-          "p": 20,
+          "p": 19,
           "cat": "Paper Process",
           "issue": "Contract sent late Nov, decision expected Feb 27 — review has been ~3 months (possibly paused pending VML estimate). No timeline for legal turnaround.",
           "rec": "Ask: 'Where does the contract review stand? Outstanding items, or ready to sign once VML estimate received?'",
           "due": "02/20/2026"
         },
         {
-          "p": 21,
+          "p": 20,
           "cat": "Paper Process",
           "issue": "Decision by Feb 27, offer expires March 13. Unclear how long from 'decision' to actual contract execution.",
           "rec": "Ask: 'When you say decision by Feb 27, does that mean ready to sign, or is there a gap?'",
           "due": "02/20/2026"
         },
         {
-          "p": 22,
+          "p": 21,
           "cat": "Identify Pain",
           "issue": "No information on previous re-platforming attempts or modernization efforts.",
           "rec": "Ask Danny: 'Have you explored re-platforming before, or is this the first time?'",
           "due": "02/22/2026"
         },
         {
-          "p": 23,
+          "p": 22,
           "cat": "Identify Pain",
           "issue": "Operational complexity of 16 websites, technical limitations, ERP coupling known. But specific business impact (cost of current setup, developer overhead, lost revenue) not quantified.",
           "rec": "Explore: 'What is the operational cost of maintaining 16 websites? How many people? What capabilities can’t you deliver?'",
           "due": "02/22/2026"
         },
         {
-          "p": 24,
+          "p": 23,
           "cat": "Identify Pain",
           "issue": "No information on which internal teams are most affected. Only Danny in our contact list.",
           "rec": "Ask Danny: 'Which teams are most affected by current platform challenges? Should we include any in our conversations?'",
           "due": "02/22/2026"
         },
         {
-          "p": 25,
+          "p": 24,
           "cat": "Identify Pain",
           "issue": "No competitor listed. VML referred to Shopify, suggesting preferred direction. But alternatives exist (SFCC, commercetools, BigCommerce, SAP renewal). Haven’t confirmed these were ruled out.",
           "rec": "Ask Danny and/or VML: 'Are you evaluating other platforms, or committed to Shopify?'",
           "due": "02/20/2026"
         },
         {
-          "p": 26,
+          "p": 25,
           "cat": "Identify Pain",
           "issue": "Shopify Plus with Markets solves 16→4 consolidation elegantly. All SAP blockers resolved. VML’s referral suggests strong fit. But haven’t documented why Shopify is uniquely better than SFCC/commercetools for this use case.",
           "rec": "Stephen (SE) to prepare competitive differentiation summary for Wacoal’s specific requirements.",
           "due": "02/25/2026"
         },
         {
-          "p": 27,
+          "p": 26,
           "cat": "Champion",
           "issue": "Danny Dawes drives the evaluation, has budget authority (£400K), sets timelines. Motivated by SAP expiry. But title unknown and unclear if he’s actively championing Shopify or running neutral procurement.",
           "rec": "Assess: Is Danny selling Shopify internally or neutrally evaluating? Look for champion signals.",
           "due": "02/22/2026"
         },
         {
-          "p": 28,
+          "p": 27,
           "cat": "Champion",
           "issue": "Controls £400K budget, appears to be primary decision-maker. Suggests credibility. But title unknown, position in org chart unclear. Being only contact raises questions.",
           "rec": "Research Danny’s title on LinkedIn. Ask: 'What’s your role in the broader Wacoal organization? Who do you report to?'",
           "due": "02/20/2026"
         },
         {
-          "p": 29,
+          "p": 28,
           "cat": "Champion",
           "issue": "Danny appears to be a key DM himself. Don’t know if there are more senior DMs (CEO, CFO, board) and whether Danny connects to them. Wacoal Europe is subsidiary of Wacoal Holdings (Japan).",
           "rec": "Ask: 'Is there anyone else at Wacoal who needs to approve this investment?'",
           "due": "02/20/2026"
         },
         {
-          "p": 30,
+          "p": 29,
           "cat": "Champion",
           "issue": "If Danny is the EB, we have direct access. If someone above him, we haven’t been introduced. Critical unknown.",
           "rec": "Confirm Danny’s authority level.",
           "due": "02/20/2026"
         },
         {
-          "p": 31,
+          "p": 30,
           "cat": "Champion",
           "issue": "No evidence Danny has offered to introduce Shopify to other stakeholders or executives. Don’t even know if there IS a buying committee beyond Danny.",
           "rec": "Ask: 'Would it be helpful for us to present the migration plan to your broader leadership team?'",
           "due": "02/22/2026"
         },
         {
-          "p": 32,
+          "p": 31,
           "cat": "Champion",
           "issue": "Motivation appears pragmatic — SAP expiring, needs a platform, VML recommended Shopify. Whether emotionally invested in Shopify or would switch is unclear.",
           "rec": "Connect Danny with a peer reference — another multi-brand retailer who migrated from SAP to Shopify.",
           "due": "02/25/2026"
         },
         {
-          "p": 33,
+          "p": 32,
           "cat": "Competition",
           "issue": "No competitor listed in Salesforce. No call transcripts. VML partner referral may mean Shopify is only platform — but not confirmed.",
           "rec": "Ask Danny directly: 'Are you evaluating other platforms alongside Shopify?' Also check with VML.",
           "due": "02/20/2026"
         },
         {
-          "p": 34,
+          "p": 33,
           "cat": "Competition",
           "issue": "Doing nothing means SAP expires. But 'doing nothing' could mean renewing/extending SAP, which hasn’t been ruled out.",
           "rec": "Ask: 'Is extending your SAP contract an option, or is the move away definite?'",
           "due": "02/20/2026"
         },
         {
-          "p": 35,
+          "p": 34,
           "cat": "Competition",
           "issue": "No information about internal build options. Given 16-website architecture and ERP coupling, internal build seems unlikely but not discussed.",
           "rec": "Ask: 'Have you considered building a custom solution or a different approach?'",
           "due": "02/22/2026"
         },
         {
-          "p": 36,
+          "p": 35,
           "cat": "Competition",
           "issue": "Don’t know if alternatives are being evaluated. Zero competitive intelligence.",
           "rec": "Dependent on confirming competitive landscape.",
           "due": "02/25/2026"
         },
         {
-          "p": 37,
+          "p": 36,
           "cat": "Competition",
           "issue": "Win: VML recommendation, all technical blockers resolved, Markets consolidation story. Lose: £400K budget too tight, VML estimate delay, unknown competitors could emerge.",
           "rec": "Check with VML on estimate status and expected range. If above £400K combined, explore creative commercial solutions.",

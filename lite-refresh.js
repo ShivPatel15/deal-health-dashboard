@@ -218,6 +218,14 @@ function processOpportunity(opp, changes, rules) {
           const ruleNote = `[Lite Refresh ${new Date().toISOString().split('T')[0]}] ${result.reason}`;
           question.notes = question.notes ? `${question.notes}\n${ruleNote}` : ruleNote;
 
+          // Action item lifecycle: if answer is now Yes, mark action as resolved
+          if (result.newAnswer === 'Yes' && question.action && question.action !== 'N/A' && question.action !== '') {
+            const resolvedNote = `[Resolved ${new Date().toISOString().split('T')[0]}] ${question.action}`;
+            question.notes = question.notes ? `${question.notes}\n${resolvedNote}` : resolvedNote;
+            question.action = '';
+            question.due = '';
+          }
+
         } else {
           results.ruleMatches.push({
             ruleId: rule.id,
