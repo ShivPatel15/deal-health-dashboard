@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-19T13:20:51.159Z",
+  "generatedAt": "2026-02-19T16:08:11.870Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -1107,7 +1107,7 @@ const DEAL_DATA = {
     },
     {
       "id": "006OG00000EZIy6YAH",
-      "name": "whittard- Plus; POS Pro",
+      "name": "Whittard of Chelsea",
       "accountName": "Whittard of Chelsea",
       "accountId": "0018V00002d0KLlQAM",
       "owner": "Adriana Colacicco",
@@ -1119,7 +1119,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2025-05-29",
-      "lastAnalysisDate": "2026-02-18",
+      "lastAnalysisDate": "2026-02-19",
       "revenue": {
         "mcv": 69000,
         "totalRev3yr": 714900,
@@ -1132,26 +1132,18 @@ const DEAL_DATA = {
       },
       "projectedBilledRevenue": 406078.56,
       "products": [
-        {
-          "name": "D2C - Standard",
-          "code": "PLAN-PLUS-STD",
-          "price": 69000
-        },
-        {
-          "name": "Shopify Payments - D2C Plus, Shopify for ent, CCS",
-          "code": "MSERV-FIN-SP-D2C-P",
-          "price": 0
-        }
+        "D2C - Standard (Plus)",
+        "Shopify Payments - D2C Plus"
       ],
       "competitor": "Adobe Commerce (Magento)",
-      "compellingEvent": "Seeking to transition from Salesforce to Shopify due to the need for improved customer experience, enhanced technology stack flexibility, and the desire to overcome existing limitations with their current system, specifically Site Genesis.",
-      "nextStep": "10.02 received Statements, parts of Worldpay statement missing, Merchant keen on signing this Q (received email from Fiona today mentioning good to sign in Feb!)",
+      "compellingEvent": "Salesforce Commerce Cloud Site Genesis reaching end-of-life, non-mobile-native platform with 70% mobile traffic, inability to unlock digital wallets, and ambitious B2C growth targets requiring a modern platform. July 2026 launch target to avoid January 2027 crunch.",
+      "nextStep": "19.02 resubmitted rate review, WorldPay is payment processor, Barclay, Merchant keen on signing this Q (received email from Fiona today mentioning good to sign in Feb!)",
       "narrative": {
-        "oppSummary": "Whittard of Chelsea: $69,000 new business deal (D2C - Standard Plus), with $714,900 total revenue impact and $16.9M in verified D2C revenue. This is a heritage UK retail brand looking to migrate off Salesforce Commerce Cloud (Site Genesis) to Shopify, driven by high development costs, poor mobile performance, and platform inflexibility. The deal is in Deal Craft stage at 80% probability with a close date of February 27, 2026 — just 9 days away — and the merchant has signaled intent to sign in February.",
-        "whyChange": "Whittard is facing significant challenges with their current Salesforce Commerce Cloud (Site Genesis) implementation: high development costs to maintain and evolve the platform, integration complexities that slow down their ability to connect systems, and inadequate mobile performance — critical for a D2C retailer. They are on Site Genesis (older, legacy SFCC architecture) facing a 'modernize or migrate' decision, and the cost/complexity of upgrading within the Salesforce ecosystem has tipped the scales toward evaluating alternatives. Leadership (CEO and Head of eCommerce) are engaged, indicating this is a strategic priority.",
-        "whyShopify": "Whittard seeks improved customer experience, enhanced technology stack flexibility, and the ability to overcome Site Genesis limitations — all areas where Shopify Plus excels. The deal originated as a Partner Referral, with trusted agencies (Tryzens, Vervaunt) recommending Shopify. Inclusion of Shopify Payments indicates interest in consolidating payments stack. The team has been preparing UK heritage brand reference stories, mobile conversion wins, and subscription use cases. Whittard is engaging multiple agencies (shortlist of 4) with SFCC migration experience.",
-        "whyNow": "Fiona Scott (Head of eCommerce) directly communicated intent to sign in February 2026. The proposed launch date of July 1, 2026 creates back-pressure — any delay compresses the migration window. CEO-level engagement, active agency selection, and strategic urgency to move off aging Site Genesis all point to a 'now or never' dynamic for this budget cycle.",
-        "supportNeeded": "1. Complete payment statement collection — parts of Worldpay statement still missing, prerequisite for Shopify Payments terms, could delay contract given 9-day window\n2. Merchant Validation Form confirmation — unclear if returned\n3. CEO (Nathan Smith) engagement call — Fiona mentioned scheduling follow-up, could be final sign-off\n4. UK heritage brand references — deploy 2-3 reference stories proactively\n5. Agency/partner guidance — provide input on which of the 4 shortlisted agencies have best SFCC migration experience\n6. Technical support for Vervaunt discovery — actively follow up to prevent technical blockers"
+        "oppSummary": "Whittard of Chelsea is a UK-based Food & Beverage retailer evaluating a migration from Salesforce Commerce Cloud (Site Genesis) to Shopify Plus, with a projected deal value of ~$714,900 over 3 years ($69,000/yr MCV). The merchant targets a July 2026 launch to replatform their e-commerce site, with the ambition of growing online B2C penetration from 17-18% to 25% of total sales over 24 months. The deal is currently in Deal Craft stage at 80% probability with a Feb 27, 2026 close date, and the merchant has signaled readiness to sign in February — Fiona Scott (Head of eCommerce, now primary contact after Alice Bennett's maternity leave) sent a recent email indicating willingness to sign this quarter.",
+        "whyChange": "Whittard is on Salesforce Commerce Cloud's Site Genesis, which Fiona stated 'won't be supported by Salesforce for much longer.' The platform is not mobile-native — a critical problem with 70% mobile traffic vs 25% desktop. They cannot unlock digital wallets (Apple Pay, Google Pay). B2C sales are 17-18% of total, targeting 25%. The original evaluation considered a phased approach but has since prioritized full migration by July 2026.",
+        "whyShopify": "Mobile-native architecture directly addresses core pain. Shop Pay — 'a third of UK's population is on Shop Pay' (Shiv Patel) — aligns with conversion goals. Unified Plus offering with future POS potential. Merchant actively asked for Shopify's input on their agency partner shortlist, indicating trust. Digital wallets, subscriptions, and modern checkout on a supported, future-proof platform.",
+        "whyNow": "Site Genesis end-of-life forces migration. Fiona: 'The ideal timing is July 26 launch. If we don't do it then it'll need to be Jan 27 which we'd like to avoid.' Salesforce contract runs to 2027, so decision needed now. Fiona emailed team indicating readiness to sign in February. CEO Nathan Smith attended Jan 28 call — executive alignment signal.",
+        "supportNeeded": "1) Payment rate finalization — rate review resubmitted Feb 19, merchant currently at ~0.55% and open to switching from WorldPay. 2) Partner/agency guidance — Fiona asked for Shopify's view on partner shortlist. 3) POS roadmap discussion for future phases. 4) Subscription (Order Groove) and loyalty (Antavo) migration clarity. 5) Continuity management — Alice Bennett on maternity leave, need to engage Liam East."
       },
       "meddpicc": {
         "metrics": {
@@ -1161,7 +1153,7 @@ const DEAL_DATA = {
               "q": "Do we know the business reasons as to why they are migrating?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Migrating from SFCC Site Genesis due to high dev costs, integration complexity, poor mobile performance",
+              "notes": "Site Genesis end-of-life, 70% mobile on non-mobile platform, can't unlock digital wallets, want to grow B2C from 17-18% to 25%",
               "solution": "",
               "action": "",
               "due": "",
@@ -1171,7 +1163,7 @@ const DEAL_DATA = {
               "q": "Do we have specific quantifiable goals aligned with the project?",
               "answer": "Yes",
               "score": 1,
-              "notes": "D2C revenue $16.9M, Retail $43.7M - quantified business goals",
+              "notes": "25% B2C penetration target, 20-25% growth rate over 24 months, ~£9M online revenue, traffic and conversion improvements",
               "solution": "",
               "action": "",
               "due": "",
@@ -1181,7 +1173,7 @@ const DEAL_DATA = {
               "q": "Do they need to make a platform change to achieve this goal?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Site Genesis is end-of-life architecture; platform change required",
+              "notes": "Site Genesis being sunset by Salesforce — must change platforms. Current platform cannot support digital wallets or mobile-native experience",
               "solution": "",
               "action": "",
               "due": "",
@@ -1189,19 +1181,19 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we understand the impact if this goal isn't achieved?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Competitive retail environment demands better mobile/CX",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Implied cost of inaction but no specific revenue loss quantified",
+              "solution": "Help merchant quantify cost of inaction — conversion rate gap on mobile, lost digital wallet revenue",
+              "action": "Adriana to model revenue impact of delayed migration with Fiona",
+              "due": "02/24/2026",
               "highlight": false
             },
             {
               "q": "Is there a compelling event in place driving action?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Fiona confirmed intent to sign in Feb; July 1 launch date creates urgency",
+              "notes": "Site Genesis end-of-life is compelling event. July 2026 launch target. Fiona: 'If we don't do it then it'll need to be Jan 27'",
               "solution": "",
               "action": "",
               "due": "",
@@ -1209,19 +1201,19 @@ const DEAL_DATA = {
             },
             {
               "q": "Have I validated the metrics with the customer?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "No call transcripts to confirm direct validation; based on SF data only\n[Lite Refresh 2026-02-19] Commit/Closed forecast implies metrics have been validated with the merchant.",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Metrics discussed with Fiona but CEO hasn't validated them on record. He attended Call 3 but no transcript available",
+              "solution": "Confirm CEO alignment on business case",
+              "action": "Adriana to confirm Nathan has validated growth targets internally",
+              "due": "02/21/2026",
               "highlight": false
             },
             {
               "q": "Are the metrics compelling enough to justify change?",
               "answer": "Yes",
               "score": 1,
-              "notes": "High dev costs + poor mobile + integration complexity = strong case for change",
+              "notes": "Site Genesis EOL alone is compelling. Combined with mobile conversion gap, digital wallet needs, and growth targets, case for change is strong",
               "solution": "",
               "action": "",
               "due": "",
@@ -1234,9 +1226,9 @@ const DEAL_DATA = {
           "questions": [
             {
               "q": "Have I identified the true economic buyer?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "Nathan Smith (CEO) identified but engagement level unclear; no call data",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Fiona: 'Nathan and the CFO will sign off cost.' Nathan Smith (CEO) identified as economic buyer",
               "solution": "",
               "action": "",
               "due": "",
@@ -1246,27 +1238,27 @@ const DEAL_DATA = {
               "q": "Do we know who's signing the contract?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Likely Nathan Smith or Fiona Scott; not explicitly confirmed",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "notes": "Nathan and CFO sign off cost. CFO name unknown. Contract signer not confirmed",
+              "solution": "Clarify who signs the contract",
+              "action": "Adriana to ask Fiona to confirm signatory and procurement steps",
+              "due": "02/21/2026",
               "highlight": false
             },
             {
               "q": "Do we have access to this individual?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Nathan Smith is a listed stakeholder; follow-up call mentioned",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Nathan attended Call 3 (Jan 28) — strong signal, but no transcript. Couldn't join Call 2 initially",
+              "solution": "Continue building direct relationship",
+              "action": "Ensure Nathan included in final commercial review",
+              "due": "02/24/2026",
               "highlight": false
             },
             {
               "q": "Can we get access?",
               "answer": "Yes",
               "score": 1,
-              "notes": "SE team noted to be available for Nathan call",
+              "notes": "Direct access achieved — Nathan attended Jan 28 call. Fiona facilitating access",
               "solution": "",
               "action": "",
               "due": "",
@@ -1276,20 +1268,20 @@ const DEAL_DATA = {
               "q": "Do we know what the economic buyer cares about most?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "No direct call data; CEO priorities inferred from business context",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "notes": "CEO priorities implied but not directly captured. No transcript from Call 3",
+              "solution": "Understand Nathan's key concerns",
+              "action": "Adriana to debrief with Fiona on Nathan's priorities from Jan 28",
+              "due": "02/21/2026",
               "highlight": false
             },
             {
               "q": "Do you know how they make decisions and allocate budget?",
-              "answer": "No",
-              "score": 0,
-              "notes": "Budget allocation process not documented in available data",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Steering committee mentioned, internal review described, but detailed approval workflow not fully mapped",
+              "solution": "Map approval chain",
+              "action": "Ask Fiona to walk through remaining internal steps",
+              "due": "02/21/2026",
               "highlight": false
             }
           ]
@@ -1301,17 +1293,17 @@ const DEAL_DATA = {
               "q": "Do we know how they will be making the decision?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Agency selection underway (4 shortlisted); evaluation in progress",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "notes": "General process described — Nathan and CFO sign off, steering committee, internal review. Exact steps not documented",
+              "solution": "Get clear step-by-step from Fiona",
+              "action": "Confirm remaining decision process steps",
+              "due": "02/21/2026",
               "highlight": false
             },
             {
               "q": "Do we know who's involved / buying committee?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Alice Bennett, Nathan Smith, Fiona Scott, Liam East identified",
+              "notes": "Committee identified — CEO, CFO, Head of eCommerce, Digital Growth Manager, Ecommerce Manager, Head of IT",
               "solution": "",
               "action": "",
               "due": "",
@@ -1321,7 +1313,7 @@ const DEAL_DATA = {
               "q": "Do we know when they want to make a decision by?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Feb 27 close date; Fiona confirmed intent to sign in Feb",
+              "notes": "Feb 2026 signature targeted. Fiona email: 'good to sign in Feb'. Close date Feb 27",
               "solution": "",
               "action": "",
               "due": "",
@@ -1331,7 +1323,7 @@ const DEAL_DATA = {
               "q": "Do we know what is driving this timeline?",
               "answer": "Yes",
               "score": 1,
-              "notes": "July 1 launch date driving timeline; SFCC limitations creating urgency",
+              "notes": "July 2026 launch deadline drives timeline. Agency selection in Jan. Contract needed to start build",
               "solution": "",
               "action": "",
               "due": "",
@@ -1339,9 +1331,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we know if they have tried to solve this problem before?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Currently on SFCC Site Genesis - have tried to work within Salesforce ecosystem",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Initially explored phased approach (checkout first, full replatform later). Since shifted to full migration by July 2026",
               "solution": "",
               "action": "",
               "due": "",
@@ -1349,22 +1341,22 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we know what will happen if they do nothing?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Continued high costs, poor mobile CX, competitive disadvantage",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Implied cost of staying on Site Genesis but no explicit 'do nothing' articulation in concrete terms",
+              "solution": "Reinforce cost of inaction in final materials",
+              "action": "Include cost-of-delay slide in steering committee materials",
+              "due": "02/24/2026",
               "highlight": false
             },
             {
               "q": "Have you validated this process with the buyer?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Fiona's email suggests validation but no formal process documentation",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "notes": "Process discussed with Fiona but not explicitly validated with Nathan or CFO. No transcript from Call 3",
+              "solution": "Reconfirm process",
+              "action": "Reconfirm decision process and timeline with Fiona",
+              "due": "02/21/2026",
               "highlight": false
             }
           ]
@@ -1376,27 +1368,27 @@ const DEAL_DATA = {
               "q": "Do we know what criteria the customer is using to evaluate vendors?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "CX, tech flexibility, mobile performance, integration ease inferred; not formally documented",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "notes": "Key criteria surfaced: mobile-native, digital wallets, subscriptions, conversion, cost, agency ecosystem. No formal written criteria or RFP scoring shared",
+              "solution": "Ask for formal evaluation criteria document",
+              "action": "Adriana to ask Fiona about steering committee evaluation framework",
+              "due": "02/24/2026",
               "highlight": false
             },
             {
               "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "D2C Plus + POS Pro in scope; Retail GMV $43.7M",
-              "solution": "",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "D2C discussed in depth. POS as future interest. B2B not discussed. Two sites (UK + .com) confirmed",
+              "solution": "Confirm scope",
               "action": "",
               "due": "",
               "highlight": false
             },
             {
               "q": "Have we surfaced technical complications (integrations)?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "Integration complexities noted as current pain; Shopify integration story being prepared",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Order Groove (subscriptions), Antavo (loyalty), Stripe/WorldPay (payments), two sites discussed. Data migration questions raised",
               "solution": "",
               "action": "",
               "due": "",
@@ -1406,40 +1398,40 @@ const DEAL_DATA = {
               "q": "Do we know how payments play into their decision?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Shopify Payments included; Worldpay statements being collected",
+              "notes": "Payments significant — currently 0.55% with WorldPay, open to change. Shopify Payments in deal. Rate review in progress. Digital wallets key driver",
               "solution": "",
-              "action": "",
-              "due": "",
+              "action": "Ensure rate review returned quickly",
+              "due": "02/24/2026",
               "highlight": false
             },
             {
               "q": "Do we have a mutual action plan in place?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "SE next steps documented but no formal MAP confirmed with buyer",
-              "solution": "",
-              "action": "Formalize mutual action plan before Feb 27",
-              "due": "2026-02-20",
+              "answer": "No",
+              "score": 0,
+              "notes": "No mutual action plan referenced in any call or Salesforce. Timeline verbal only",
+              "solution": "Create mutual action plan",
+              "action": "Adriana to draft MAP: contract sign → agency kick-off → build → QA → launch",
+              "due": "02/24/2026",
               "highlight": false
             },
             {
               "q": "Did we help shape those criteria in our favour?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Heritage brand references and mobile wins being prepared; not yet delivered",
-              "solution": "",
+              "notes": "Shop Pay, mobile-native, unified platform highlighted. No formal criteria-shaping document",
+              "solution": "Continue reinforcing differentiated value",
               "action": "",
               "due": "",
               "highlight": false
             },
             {
               "q": "Do we know who defined the decision criteria?",
-              "answer": "No",
-              "score": 0,
-              "notes": "Not documented in available data",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Criteria driven by e-commerce team based on Site Genesis pain. No external analyst influence identified",
+              "solution": "Check for external advisors",
+              "action": "Ask Fiona if external consultants involved",
+              "due": "02/24/2026",
               "highlight": false
             }
           ]
@@ -1449,72 +1441,72 @@ const DEAL_DATA = {
           "questions": [
             {
               "q": "Do we know what their procurement process is?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "MVF and payment statements in progress; full procurement process unclear",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "answer": "No",
+              "score": 0,
+              "notes": "No procurement process discussed. Nathan and CFO sign off cost but no details on legal/procurement workflow",
+              "solution": "Map procurement/legal process before sending contract",
+              "action": "Ask Fiona about internal process to get contract signed — legal or procurement review?",
+              "due": "02/21/2026",
               "highlight": false
             },
             {
               "q": "Are there likely to be redlines?",
               "answer": "No",
               "score": 0,
-              "notes": "No information on redlines",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "notes": "No redline or legal concerns discussed",
+              "solution": "Proactively ask about redline areas",
+              "action": "Ask Fiona if legal typically redlines vendor contracts",
+              "due": "02/21/2026",
               "highlight": false
             },
             {
               "q": "If redlines, how long does review take?",
               "answer": "No",
               "score": 0,
-              "notes": "No information on legal review timeline",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "notes": "No legal review timeline information",
+              "solution": "Get timeline estimate from Fiona",
+              "action": "Included in Q1 action",
+              "due": "02/21/2026",
               "highlight": false
             },
             {
               "q": "Do we know how long it will take?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "Merchant wants to sign in Feb; 9 days remaining",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "answer": "No",
+              "score": 0,
+              "notes": "No procurement timeline discussed. Fiona suggested Feb signing but internal steps unmapped",
+              "solution": "Confirm Feb 27 is realistic",
+              "action": "Validate Feb signature achievability with Fiona",
+              "due": "02/21/2026",
               "highlight": false
             },
             {
               "q": "Do we have contract details?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Payment statements partially received; MVF status unknown",
-              "solution": "",
-              "action": "Confirm MVF status immediately",
-              "due": "2026-02-19",
+              "notes": "Plus pricing walked through in Call 2. Rate review resubmitted Feb 19. Formal contract not confirmed as sent",
+              "solution": "Prepare contract once rate review finalized",
+              "action": "Finalize and send contract upon rate review approval",
+              "due": "02/25/2026",
               "highlight": false
             },
             {
               "q": "Have we sent the contract?",
               "answer": "No",
               "score": 0,
-              "notes": "Contract not confirmed as sent",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "notes": "No contract sent yet. Rate review still in progress",
+              "solution": "Expedite rate review and contract generation",
+              "action": "Follow up internally on rate review turnaround",
+              "due": "02/24/2026",
               "highlight": false
             },
             {
               "q": "Do we know target date for signature?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Feb 27, 2026 target; Fiona confirmed Feb signing intent",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Fiona's email indicated Feb signing willingness. Not explicitly confirmed as mutual target date",
+              "solution": "Confirm Feb 27 as mutual target",
+              "action": "Adriana to confirm: 'Are we aligned on signing by end of Feb?'",
+              "due": "02/21/2026",
               "highlight": false
             }
           ]
@@ -1526,7 +1518,7 @@ const DEAL_DATA = {
               "q": "Do we know their current issues and why they are reviewing their tech stack?",
               "answer": "Yes",
               "score": 1,
-              "notes": "High dev costs, integration complexity, poor mobile on SFCC Site Genesis",
+              "notes": "Comprehensive pain — Site Genesis EOL, non-mobile-native with 70% mobile traffic, no digital wallets, tech limitations constraining B2C growth",
               "solution": "",
               "action": "",
               "due": "",
@@ -1536,7 +1528,7 @@ const DEAL_DATA = {
               "q": "Have they tried to resolve this issue in the past?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Tried to work within Salesforce ecosystem; Site Genesis limitations persist",
+              "notes": "Alice explored phased approach (Call 1) — Shopify checkout into Salesforce first. Later abandoned for full migration",
               "solution": "",
               "action": "",
               "due": "",
@@ -1546,7 +1538,7 @@ const DEAL_DATA = {
               "q": "Do we know how pains are affecting business operations?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Affecting online sales, customer engagement, competitive positioning",
+              "notes": "Mobile conversion underperformance, no digital wallets, B2C stuck at 17-18% vs 25% target, seasonal amplification (40% sales in Nov/Dec)",
               "solution": "",
               "action": "",
               "due": "",
@@ -1554,11 +1546,11 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we know what teams are affected and to what extent?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "eCommerce, digital growth, and executive teams all engaged",
-              "solution": "",
-              "action": "",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "E-commerce team clearly affected. IT team involved. Steering committee engaged. Impact on other teams not explicitly discussed",
+              "solution": "Understand if other teams have stakes",
+              "action": "Low priority — e-commerce team is primary buyer",
               "due": "",
               "highlight": false
             },
@@ -1566,7 +1558,7 @@ const DEAL_DATA = {
               "q": "Do we know how urgent it is to solve this pain?",
               "answer": "Yes",
               "score": 1,
-              "notes": "July 1 launch date; Feb signing intent; competitive pressure",
+              "notes": "High urgency — Site Genesis EOL, July 2026 target, Fiona emphatic about avoiding Jan 2027 fallback",
               "solution": "",
               "action": "",
               "due": "",
@@ -1576,17 +1568,17 @@ const DEAL_DATA = {
               "q": "Can they solve this pain using another option?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Adobe Commerce (Magento) listed as competitor; staying on SFCC also an option",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "notes": "Adobe Commerce listed in SF but never mentioned in calls. No active competitive evaluation evident. Doing nothing not viable due to EOL",
+              "solution": "Confirm competitive landscape",
+              "action": "Adriana to ask Fiona if evaluating other platforms or solely Shopify",
+              "due": "02/21/2026",
               "highlight": false
             },
             {
               "q": "Do we know why this problem is important to solve now?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Budget cycle timing + launch date + aging platform = now",
+              "notes": "Site Genesis EOL forces action now. Combined with July 2026 target and growth goals",
               "solution": "",
               "action": "",
               "due": "",
@@ -1596,7 +1588,7 @@ const DEAL_DATA = {
               "q": "Is our solution uniquely positioned to solve this pain?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Shopify Plus addresses mobile, integration, CX, and cost concerns directly",
+              "notes": "Shopify addresses core pains — mobile-native, digital wallets via Shop Pay, modern checkout, subscription support, partner ecosystem",
               "solution": "",
               "action": "",
               "due": "",
@@ -1611,7 +1603,7 @@ const DEAL_DATA = {
               "q": "Have you identified a true champion (influence + motivation)?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Fiona Scott (Head of eCommerce) - directly communicated signing intent to AE",
+              "notes": "Fiona Scott (Head of eCommerce) — driving evaluation, articulated business case, provided metrics, facilitated CEO access, sent 'good to sign in Feb' email",
               "solution": "",
               "action": "",
               "due": "",
@@ -1619,9 +1611,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Does your champion have political capital and credibility?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "Fiona is Head of eCommerce; political capital not fully assessed without calls",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Head of eCommerce reporting to CEO, leads steering committee, drives RFP/agency selection, direct line to Nathan Smith",
               "solution": "",
               "action": "",
               "due": "",
@@ -1631,7 +1623,7 @@ const DEAL_DATA = {
               "q": "Have they given insights you wouldn't get otherwise?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Fiona shared signing timeline, agency shortlist approach, CEO follow-up plans",
+              "notes": "Provided B2C penetration, revenue figures, mobile/desktop split, payment rates, seasonal breakdown, CFO involvement, internal process details",
               "solution": "",
               "action": "",
               "due": "",
@@ -1641,7 +1633,7 @@ const DEAL_DATA = {
               "q": "Are they connected with the key decision makers?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Fiona mentioned scheduling follow-up with CEO Nathan Smith",
+              "notes": "Directly connected to Nathan (CEO) and CFO. Stated 'Nathan and the CFO will sign off cost' and facilitated CEO attendance at Jan 28 call",
               "solution": "",
               "action": "",
               "due": "",
@@ -1649,9 +1641,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Have you been introduced to the decision maker?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "CEO call mentioned but not yet confirmed as occurred",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Nathan attended Call 3 on Jan 28 — facilitated by Fiona. Direct EB access achieved",
               "solution": "",
               "action": "",
               "due": "",
@@ -1661,17 +1653,17 @@ const DEAL_DATA = {
               "q": "Are they willing to bring you into the board/buying group?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Agency shortlist shared; buying group access not fully confirmed",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "notes": "Steering committee exists. No explicit mention of bringing Shopify into a board presentation",
+              "solution": "Offer to support internal business case presentation",
+              "action": "Ask Fiona if anything needed for steering committee presentation",
+              "due": "02/24/2026",
               "highlight": false
             },
             {
               "q": "Why are they such a champion for you?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "Fiona driving the migration initiative; motivation inferred from actions but not from direct call quotes",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Fiona champions Shopify because Site Genesis is EOL, growth targets depend on modern platform, she has personal accountability for e-commerce P&L",
               "solution": "",
               "action": "",
               "due": "",
@@ -1686,17 +1678,17 @@ const DEAL_DATA = {
               "q": "Do we know who else the customer is evaluating?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Adobe Commerce (Magento) listed; unclear if active competitive eval or just current platform reference",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "notes": "Adobe Commerce listed in SF but never mentioned in calls. No evidence of active competitive evaluation",
+              "solution": "Confirm if Adobe is real threat or stale entry",
+              "action": "Adriana to ask Fiona directly about other platform evaluations",
+              "due": "02/21/2026",
               "highlight": false
             },
             {
               "q": "Have we asked if doing nothing is an option?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "Site Genesis limitations suggest doing nothing is painful but not impossible",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Doing nothing not an option — Site Genesis being EOL'd. Only question was timing, not whether to move",
               "solution": "",
               "action": "",
               "due": "",
@@ -1704,9 +1696,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Are there internal alternatives to our solution?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Staying on SFCC or upgrading within Salesforce ecosystem",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Alice explored hybrid approach (Shopify checkout + Salesforce). Abandoned in favor of full replatform",
               "solution": "",
               "action": "",
               "due": "",
@@ -1714,11 +1706,11 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we know why alternatives are being evaluated?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Cost, complexity, and mobile limitations driving away from incumbents",
-              "solution": "",
-              "action": "",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "If Adobe being evaluated, no rationale discussed. Shopify reasons well-documented",
+              "solution": "Understand other evaluations if any",
+              "action": "Covered in Q1 action",
               "due": "",
               "highlight": false
             },
@@ -1726,10 +1718,10 @@ const DEAL_DATA = {
               "q": "Do we know why we would win or lose?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Strong value prop alignment; risk factors (missing docs, CEO sign-off) could cause delay",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "notes": "Know why we should win (mobile-native, Shop Pay, digital wallets, champion). Risk: payment rate competitiveness (0.55% current), unknown CFO sensitivity, Adobe unknown",
+              "solution": "Ensure rates competitive, address CFO concerns",
+              "action": "Prioritize rate review and prepare TCO comparison if needed",
+              "due": "02/24/2026",
               "highlight": false
             }
           ]
@@ -1737,19 +1729,19 @@ const DEAL_DATA = {
       },
       "scores": {
         "Metrics": {
-          "score": 7,
-          "max": 7,
-          "pct": 100
-        },
-        "Economic Buyer": {
-          "score": 3.5,
-          "max": 6,
-          "pct": 58
-        },
-        "Decision Process": {
           "score": 6,
           "max": 7,
           "pct": 86
+        },
+        "Economic Buyer": {
+          "score": 4,
+          "max": 6,
+          "pct": 67
+        },
+        "Decision Process": {
+          "score": 5,
+          "max": 7,
+          "pct": 71
         },
         "Decision Criteria": {
           "score": 4,
@@ -1757,87 +1749,253 @@ const DEAL_DATA = {
           "pct": 57
         },
         "Paper Process": {
-          "score": 2.5,
+          "score": 1,
           "max": 7,
-          "pct": 36
+          "pct": 14
         },
         "Identify Pain": {
-          "score": 7.5,
+          "score": 7,
           "max": 8,
-          "pct": 94
+          "pct": 88
         },
         "Champion": {
-          "score": 5,
+          "score": 6.5,
           "max": 7,
-          "pct": 71
+          "pct": 93
         },
         "Competition": {
-          "score": 3.5,
+          "score": 3,
           "max": 5,
-          "pct": 70
+          "pct": 60
         },
         "_total": {
-          "score": 39,
+          "score": 36.5,
           "max": 54,
-          "pct": 72,
+          "pct": 68,
           "status": "on-track"
         }
       },
       "nextSteps": [
         {
           "p": 1,
-          "cat": "Decision Criteria",
-          "issue": "SE next steps documented but no formal MAP confirmed with buyer",
-          "rec": "Formalize mutual action plan before Feb 27",
-          "due": "2026-02-20"
+          "cat": "Metrics",
+          "issue": "Implied cost of inaction but no specific revenue loss quantified",
+          "rec": "Adriana to model revenue impact of delayed migration with Fiona",
+          "due": "02/24/2026"
         },
         {
           "p": 2,
+          "cat": "Metrics",
+          "issue": "Metrics discussed with Fiona but CEO hasn't validated them on record. He attended Call 3 but no transcript available",
+          "rec": "Adriana to confirm Nathan has validated growth targets internally",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 3,
+          "cat": "Economic Buyer",
+          "issue": "Nathan and CFO sign off cost. CFO name unknown. Contract signer not confirmed",
+          "rec": "Adriana to ask Fiona to confirm signatory and procurement steps",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 4,
+          "cat": "Economic Buyer",
+          "issue": "Nathan attended Call 3 (Jan 28) — strong signal, but no transcript. Couldn't join Call 2 initially",
+          "rec": "Ensure Nathan included in final commercial review",
+          "due": "02/24/2026"
+        },
+        {
+          "p": 5,
+          "cat": "Economic Buyer",
+          "issue": "CEO priorities implied but not directly captured. No transcript from Call 3",
+          "rec": "Adriana to debrief with Fiona on Nathan's priorities from Jan 28",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 6,
+          "cat": "Economic Buyer",
+          "issue": "Steering committee mentioned, internal review described, but detailed approval workflow not fully mapped",
+          "rec": "Ask Fiona to walk through remaining internal steps",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 7,
+          "cat": "Decision Process",
+          "issue": "General process described — Nathan and CFO sign off, steering committee, internal review. Exact steps not documented",
+          "rec": "Confirm remaining decision process steps",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 8,
+          "cat": "Decision Process",
+          "issue": "Implied cost of staying on Site Genesis but no explicit 'do nothing' articulation in concrete terms",
+          "rec": "Include cost-of-delay slide in steering committee materials",
+          "due": "02/24/2026"
+        },
+        {
+          "p": 9,
+          "cat": "Decision Process",
+          "issue": "Process discussed with Fiona but not explicitly validated with Nathan or CFO. No transcript from Call 3",
+          "rec": "Reconfirm decision process and timeline with Fiona",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 10,
+          "cat": "Decision Criteria",
+          "issue": "Key criteria surfaced: mobile-native, digital wallets, subscriptions, conversion, cost, agency ecosystem. No formal written criteria or RFP scoring shared",
+          "rec": "Adriana to ask Fiona about steering committee evaluation framework",
+          "due": "02/24/2026"
+        },
+        {
+          "p": 11,
+          "cat": "Decision Criteria",
+          "issue": "No mutual action plan referenced in any call or Salesforce. Timeline verbal only",
+          "rec": "Adriana to draft MAP: contract sign → agency kick-off → build → QA → launch",
+          "due": "02/24/2026"
+        },
+        {
+          "p": 12,
+          "cat": "Decision Criteria",
+          "issue": "Criteria driven by e-commerce team based on Site Genesis pain. No external analyst influence identified",
+          "rec": "Ask Fiona if external consultants involved",
+          "due": "02/24/2026"
+        },
+        {
+          "p": 13,
           "cat": "Paper Process",
-          "issue": "Payment statements partially received; MVF status unknown",
-          "rec": "Confirm MVF status immediately",
-          "due": "2026-02-19"
+          "issue": "No procurement process discussed. Nathan and CFO sign off cost but no details on legal/procurement workflow",
+          "rec": "Ask Fiona about internal process to get contract signed — legal or procurement review?",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 14,
+          "cat": "Paper Process",
+          "issue": "No redline or legal concerns discussed",
+          "rec": "Ask Fiona if legal typically redlines vendor contracts",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 15,
+          "cat": "Paper Process",
+          "issue": "No legal review timeline information",
+          "rec": "Included in Q1 action",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 16,
+          "cat": "Paper Process",
+          "issue": "No procurement timeline discussed. Fiona suggested Feb signing but internal steps unmapped",
+          "rec": "Validate Feb signature achievability with Fiona",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 17,
+          "cat": "Paper Process",
+          "issue": "Plus pricing walked through in Call 2. Rate review resubmitted Feb 19. Formal contract not confirmed as sent",
+          "rec": "Finalize and send contract upon rate review approval",
+          "due": "02/25/2026"
+        },
+        {
+          "p": 18,
+          "cat": "Paper Process",
+          "issue": "No contract sent yet. Rate review still in progress",
+          "rec": "Follow up internally on rate review turnaround",
+          "due": "02/24/2026"
+        },
+        {
+          "p": 19,
+          "cat": "Paper Process",
+          "issue": "Fiona's email indicated Feb signing willingness. Not explicitly confirmed as mutual target date",
+          "rec": "Adriana to confirm: 'Are we aligned on signing by end of Feb?'",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 20,
+          "cat": "Identify Pain",
+          "issue": "E-commerce team clearly affected. IT team involved. Steering committee engaged. Impact on other teams not explicitly discussed",
+          "rec": "Low priority — e-commerce team is primary buyer",
+          "due": ""
+        },
+        {
+          "p": 21,
+          "cat": "Identify Pain",
+          "issue": "Adobe Commerce listed in SF but never mentioned in calls. No active competitive evaluation evident. Doing nothing not viable due to EOL",
+          "rec": "Adriana to ask Fiona if evaluating other platforms or solely Shopify",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 22,
+          "cat": "Champion",
+          "issue": "Steering committee exists. No explicit mention of bringing Shopify into a board presentation",
+          "rec": "Ask Fiona if anything needed for steering committee presentation",
+          "due": "02/24/2026"
+        },
+        {
+          "p": 23,
+          "cat": "Competition",
+          "issue": "Adobe Commerce listed in SF but never mentioned in calls. No evidence of active competitive evaluation",
+          "rec": "Adriana to ask Fiona directly about other platform evaluations",
+          "due": "02/21/2026"
+        },
+        {
+          "p": 24,
+          "cat": "Competition",
+          "issue": "If Adobe being evaluated, no rationale discussed. Shopify reasons well-documented",
+          "rec": "Covered in Q1 action",
+          "due": ""
+        },
+        {
+          "p": 25,
+          "cat": "Competition",
+          "issue": "Know why we should win (mobile-native, Shop Pay, digital wallets, champion). Risk: payment rate competitiveness (0.55% current), unknown CFO sensitivity, Adobe unknown",
+          "rec": "Prioritize rate review and prepare TCO comparison if needed",
+          "due": "02/24/2026"
         }
       ],
       "stakeholders": [
         {
-          "name": "Alice Bennett",
-          "title": "Digital Growth Manager",
-          "role": "Launch Contact",
-          "email": "alice.bennett@whittard.co.uk",
-          "engagement": "high",
-          "callsAttended": 0,
-          "callsInvited": 0
-        },
-        {
           "name": "Nathan Smith",
-          "title": "CEO",
+          "title": "Chief Executive Officer",
           "role": "Economic Buyer",
           "email": "nathan.smith@whittard.co.uk",
           "engagement": "medium",
-          "callsAttended": 0,
-          "callsInvited": 0
+          "callsAttended": 1,
+          "callsInvited": 2
+        },
+        {
+          "name": "Alice Bennett",
+          "title": "Digital Growth Manager",
+          "role": "Launch Contact (on maternity leave)",
+          "email": "alice.bennett@whittard.co.uk",
+          "engagement": "high",
+          "callsAttended": 2,
+          "callsInvited": 2
         },
         {
           "name": "Fiona Scott",
           "title": "Head of eCommerce",
-          "role": "Champion",
+          "role": "Champion / Primary Contact",
           "email": "fiona.scott@whittard.co.uk",
           "engagement": "high",
-          "callsAttended": 0,
-          "callsInvited": 0
+          "callsAttended": 2,
+          "callsInvited": 3
         },
         {
           "name": "Liam East",
           "title": "Ecommerce Manager",
-          "role": "Evaluator",
+          "role": "Operational Contact",
           "email": "liam.east@whittard.co.uk",
-          "engagement": "medium",
+          "engagement": "low",
           "callsAttended": 0,
           "callsInvited": 0
         }
       ],
       "shopifyTeam": [
+        {
+          "name": "Adriana Colacicco",
+          "role": "Account Executive (Owner)",
+          "email": "adriana.colacicco@shopify.com"
+        },
         {
           "name": "Dave O'Neill",
           "role": "Solutions Engineer",
@@ -1847,14 +2005,52 @@ const DEAL_DATA = {
           "name": "Shiv Patel",
           "role": "Sales Lead Collaborator",
           "email": "shiv.patel@shopify.com"
-        },
-        {
-          "name": "Adriana Colacicco",
-          "role": "AE / Owner",
-          "email": "adriana.colacicco@shopify.com"
         }
       ],
-      "calls": [],
+      "calls": [
+        {
+          "date": "2025-01-21",
+          "title": "shopify connect",
+          "duration": "26 min",
+          "shopifyAttendees": [
+            "Lee Manclark",
+            "Sarah Rosenberger"
+          ],
+          "merchantAttendees": [
+            "Alice Bennett (Digital Growth Manager)",
+            "Alex Burnham (Partner/Agency)"
+          ],
+          "summary": "Initial discovery call. Alice explained Whittard evaluating Shopify Plus for e-commerce, considering phased approach — Shopify checkout into Salesforce stack first, full replatform in 2027. Discussed digital wallets need, subscriptions (Order Groove), loyalty (Antavo), two sites (UK + .com). Lee committed to follow-up presentation."
+        },
+        {
+          "date": "2025-12-09",
+          "title": "Whittard <> Shopify",
+          "duration": "60 min",
+          "shopifyAttendees": [
+            "Adriana Colacicco (AE)",
+            "Shiv Patel (Sales Lead)",
+            "Leslie Ludwig (SE)"
+          ],
+          "merchantAttendees": [
+            "Fiona Scott (Head of eCommerce)",
+            "Alice Bennett (Digital Growth Manager)"
+          ],
+          "summary": "Main commercial call. Covered Plus subscription pricing, platform fees, Shopify Payments rates. Fiona shared 17-18% B2C penetration targeting 25%, ~£9M online revenue, 70% mobile traffic on non-mobile Site Genesis. Agency discovery with Von underway, 3-5 partner shortlist. July 2026 launch target. Fiona indicated Nathan (CEO) and CFO sign off cost. Shopify highlighted Shop Pay conversion benefits. Merchant open to switching from WorldPay to Shopify Payments."
+        },
+        {
+          "date": "2026-01-28",
+          "title": "Whittard/Shopify Sync",
+          "duration": "30 min",
+          "shopifyAttendees": [
+            "Adriana Colacicco (AE)"
+          ],
+          "merchantAttendees": [
+            "Fiona Scott (Head of eCommerce)",
+            "Nathan Smith (CEO)"
+          ],
+          "summary": "Follow-up sync — notably the CEO (Nathan Smith) attended this call, signaling executive engagement. No transcript available. Key significance: first direct engagement with the economic buyer in a Shopify call."
+        }
+      ],
       "history": [
         {
           "date": "2026-02-18",
@@ -1875,18 +2071,18 @@ const DEAL_DATA = {
         },
         {
           "date": "2026-02-19",
-          "totalScore": 39,
+          "totalScore": 36.5,
           "totalMax": 54,
           "status": "on-track",
           "sectionScores": {
-            "Metrics": 7,
-            "Economic Buyer": 3.5,
-            "Decision Process": 6,
+            "Metrics": 6,
+            "Economic Buyer": 4,
+            "Decision Process": 5,
             "Decision Criteria": 4,
-            "Paper Process": 2.5,
-            "Identify Pain": 7.5,
-            "Champion": 5,
-            "Competition": 3.5
+            "Paper Process": 1,
+            "Identify Pain": 7,
+            "Champion": 6.5,
+            "Competition": 3
           },
           "changes": [
             "Score improved by 0.5 points (38.5 → 39) — lite refresh",
