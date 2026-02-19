@@ -1,6 +1,6 @@
 # Deal Health Dashboard — Workflow & Architecture
 
-## Last Updated: 2026-02-18
+## Last Updated: 2026-02-19
 
 ---
 
@@ -15,11 +15,11 @@
 
 | # | Account | Opp ID | Score | Owner | Close |
 |---|---------|--------|-------|-------|-------|
-| 1 | Whittard of Chelsea | 006OG00000EZIy6YAH | 38.5/54 (71%) | Adriana Colacicco | Feb 27 |
+| 1 | Whittard of Chelsea | 006OG00000EZIy6YAH | 39/54 (72%) | Adriana Colacicco | Feb 27 |
 | 2 | Mulberry Company (Sales) Limited | 006OG00000CRabaYAD | 34.5/54 (64%) | Ben Rees | Feb 28 |
-| 3 | Moda in Pelle | 0068V0000113rSIQAY | 32.5/54 (60%) | Adriana Colacicco | Feb 27 |
+| 3 | Moda in Pelle | 0068V0000113rSIQAY | 31.5/54 (58%) | Adriana Colacicco | Feb 27 |
 | 4 | Wacoal Europe | 006OG00000HnVs8YAF | 31.5/54 (58%) | Maissa Fatte | Feb 28 |
-| 5 | The Dune Group | 006OG00000GJ5IvYAL | 30.5/54 (56%) | Adriana Colacicco | Feb 27 |
+| 5 | The Dune Group | 006OG00000GJ5IvYAL | 31.5/54 (58%) | Adriana Colacicco | Feb 27 |
 
 ⚠️ **Simon Jersey (0068V00001DEMO02) is a DEMO record — do NOT include it. It was removed on 2026-02-18.**
 
@@ -271,6 +271,89 @@ If build-data.js is ever rewritten, verify the output data.js contains ALL analy
    - Search by Salesforce Account ID
 3. Once correct account found, pull all calls/meetings/transcripts
 4. If Salesloft has no data or agent errors persist, proceed with MEDDPICC analysis using Salesforce data + SE notes only — flag the limitation
+
+---
+
+## LITE REFRESH — HYBRID SCORING ENGINE (NEW)
+
+Added 2026-02-19. When the daily refresh detects SF field changes, the lite refresh engine adjusts MEDDPICC scores without re-running full analysis.
+
+### How It Works
+
+```
+SF diffs detected
+       ↓
+Layer 1: score-rules.json (18 deterministic rules)
+       ↓ matched                    ↓ unmatched
+Apply score deltas              Generate LLM prompt
+automatically                   (escalation-prompt.txt)
+       ↓                              ↓
+Update opportunities.json     Send to MEDDPICC Analyst
+       ↓                       (lightweight — no transcripts)
+Rebuild data.js → Push
+```
+
+### Files
+- `lite-refresh.js` — The engine. Run: `node lite-refresh.js --diffs diffs.json [--dry-run]`
+- `score-rules.json` — 18 rules mapping SF fields → MEDDPICC questions
+- `data/escalation-prompt.txt` — Auto-generated prompt for unmatched changes
+
+### Diffs Format (input)
+```json
+[{
+  "opportunityId": "006...",
+  "accountName": "Account",
+  "changes": [
+    { "field": "forecastCategory", "oldValue": "", "newValue": "Commit" }
+  ]
+}]
+```
+
+### Action Item Lifecycle
+- When a MEDDPICC question answer moves to **Yes**, its action item is auto-resolved
+- `build-data.js` skips questions answered **Yes** when generating nextSteps
+- Resolved actions are logged in question notes with timestamp
+- Browser localStorage checkboxes are separate (per-user completion tracking)
+
+### Version History
+Lite refresh entries include:
+- Score delta summary: "Score improved by 0.5 points (38.5 → 39)"
+- Per-question changes: "Metrics Q5: Partial → Yes (+0.5) — reason"
+- SF triggers: "forecastCategory '' → 'Commit'"
+- `type: "lite-refresh"` to distinguish from full analysis
+
+`build-data.js` preserves enriched history entries — it won't overwrite entries that already have changes logged.
+
+---
+
+## FAST MEDDPICC ANALYSIS — INCREMENTAL APPROACH (TODO)
+
+Current problem: Full MEDDPICC analysis per opportunity takes 3-4 delegations and times out.
+
+### Proposed Solution: Incremental Update
+
+Instead of re-analyzing all transcripts from scratch, send to MEDDPICC Analyst:
+
+1. **Current state** — existing MEDDPICC scores + narratives (what we already know)
+2. **Only delta information:**
+   - NEW call transcripts since last analysis (not old ones)
+   - SF field diffs
+   - Any new stakeholder information
+3. **Focused ask:** "Update only the sections affected by new information. Keep everything else as-is."
+
+This reduces a 15-minute full analysis to a ~2-minute incremental update.
+
+### When to Trigger
+- New Salesloft calls detected (substantive, not 5-second no-answers)
+- Stage change (e.g., Demonstrate → Deal Craft)
+- Merchant intent change
+- NOT for: close date shifts, minor revenue changes, AE next step text updates
+
+### Implementation Plan
+1. Track `lastAnalysisDate` per opportunity
+2. Salesloft check: "any calls after {lastAnalysisDate}?"
+3. If yes: pull only new transcripts, send incremental prompt
+4. If no: skip MEDDPICC entirely, use lite-refresh for SF changes only
 
 ---
 
