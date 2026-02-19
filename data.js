@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-18T22:30:01.836Z",
+  "generatedAt": "2026-02-19T08:25:58.884Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -1070,7 +1070,43 @@ const DEAL_DATA = {
       ],
       "history": [
         {
+          "date": "2026-02-19",
+          "totalScore": 32.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 4,
+            "Decision Criteria": 3.5,
+            "Paper Process": 3.5,
+            "Identify Pain": 6.5,
+            "Champion": 3.5,
+            "Competition": 3.5
+          },
+          "changes": [
+            "proposedLaunch: 2026-04-01 → 2026-05-29 (pushed back ~2 months)"
+          ]
+        },
+        {
           "date": "2026-02-18",
+          "totalScore": 32.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 4,
+            "Decision Criteria": 3.5,
+            "Paper Process": 3.5,
+            "Identify Pain": 6.5,
+            "Champion": 3.5,
+            "Competition": 3.5
+          },
+          "changes": []
+        },
+        {
+          "date": "2026-02-19",
           "totalScore": 32.5,
           "totalMax": 54,
           "status": "on-track",
@@ -1097,7 +1133,7 @@ const DEAL_DATA = {
       "ownerEmail": "adriana.colacicco@shopify.com",
       "stage": "Deal Craft",
       "closeDate": "2026-02-27",
-      "forecastCategory": "",
+      "forecastCategory": "Commit",
       "probability": 80,
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
@@ -1108,7 +1144,7 @@ const DEAL_DATA = {
         "d2cGmv": 16900000,
         "b2bGmv": null,
         "retailGmv": 43744512,
-        "paymentsGpv": 0,
+        "paymentsGpv": 8125000,
         "paymentsAttached": true,
         "ipp": 0
       },
@@ -1839,7 +1875,44 @@ const DEAL_DATA = {
       "calls": [],
       "history": [
         {
+          "date": "2026-02-19",
+          "totalScore": 38.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 6.5,
+            "Economic Buyer": 3.5,
+            "Decision Process": 6,
+            "Decision Criteria": 4,
+            "Paper Process": 2.5,
+            "Identify Pain": 7.5,
+            "Champion": 5,
+            "Competition": 3.5
+          },
+          "changes": [
+            "forecastCategory: '' → 'Commit' (upgraded)",
+            "paymentsGpv: $0 → $8,125,000 (new payments data)"
+          ]
+        },
+        {
           "date": "2026-02-18",
+          "totalScore": 38.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 6.5,
+            "Economic Buyer": 3.5,
+            "Decision Process": 6,
+            "Decision Criteria": 4,
+            "Paper Process": 2.5,
+            "Identify Pain": 7.5,
+            "Champion": 5,
+            "Competition": 3.5
+          },
+          "changes": []
+        },
+        {
+          "date": "2026-02-19",
           "totalScore": 38.5,
           "totalMax": 54,
           "status": "on-track",
@@ -1890,7 +1963,7 @@ const DEAL_DATA = {
         "Plus Product Suite",
         "Retail Product Suite"
       ],
-      "competitor": "Salesforce Commerce Cloud (incumbent)",
+      "competitor": "None",
       "compellingEvent": "SF Licensing expiring in FEB / High TCO with current platform. Anakta POS contract breaks in June and September 2026. Budget cycle runs Feb-to-Feb. Two-year SFCC renewal creates hard deadline for web migration by 2027.",
       "nextStep": "10.02 onsite meeting scheduled for 19th of Feb, awaiting final approval from board, confirmed with Team to put ethernet terminals aside for Dune as we are running out of stock",
       "narrative": {
@@ -2879,7 +2952,43 @@ const DEAL_DATA = {
       ],
       "history": [
         {
+          "date": "2026-02-19",
+          "totalScore": 30.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 4.5,
+            "Decision Process": 3.5,
+            "Decision Criteria": 4,
+            "Paper Process": 0.5,
+            "Identify Pain": 6,
+            "Champion": 5,
+            "Competition": 2
+          },
+          "changes": [
+            "competitor: 'Salesforce Commerce Cloud (incumbent)' → 'None' (cleared)"
+          ]
+        },
+        {
           "date": "2026-02-18",
+          "totalScore": 30.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 4.5,
+            "Decision Process": 3.5,
+            "Decision Criteria": 4,
+            "Paper Process": 0.5,
+            "Identify Pain": 6,
+            "Champion": 5,
+            "Competition": 2
+          },
+          "changes": []
+        },
+        {
+          "date": "2026-02-19",
           "totalScore": 30.5,
           "totalMax": 54,
           "status": "on-track",
@@ -4134,6 +4243,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-19",
+          "totalScore": 34.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 4.5,
+            "Identify Pain": 6.5,
+            "Champion": 4,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ]
     },
@@ -5095,6 +5221,23 @@ const DEAL_DATA = {
       "history": [
         {
           "date": "2026-02-18",
+          "totalScore": 31.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 4,
+            "Decision Process": 4,
+            "Decision Criteria": 4.5,
+            "Paper Process": 4.5,
+            "Identify Pain": 4.5,
+            "Champion": 3.5,
+            "Competition": 1
+          },
+          "changes": []
+        },
+        {
+          "date": "2026-02-19",
           "totalScore": 31.5,
           "totalMax": 54,
           "status": "on-track",
