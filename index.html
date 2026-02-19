@@ -144,45 +144,66 @@ function renderList(){
   </div>`;
 
   // ============================================================
-  // ACTION ITEMS SECTION — grouped by rep
+  // ACTION ITEMS SECTION — grouped by rep → deal (compact table)
   // ============================================================
   html+=`<div style="margin-bottom:28px">
-    <h3 style="font-size:16px;font-weight:800;margin-bottom:4px">📋 Action Items by Rep</h3>
-    <p style="color:var(--t3);font-size:11px;margin-bottom:14px">Key actions from MEDDPICC gaps. Check off completed items (saved locally).</p>`;
+    <h3 style="font-size:16px;font-weight:800;margin-bottom:4px">📋 Action Items</h3>
+    <p style="color:var(--t3);font-size:11px;margin-bottom:14px">Top priorities from MEDDPICC gaps, organized by rep and deal. Check off completed items.</p>`;
 
   const actionOwners=filterOwner?[filterOwner]:owners.length?owners:['All'];
   actionOwners.forEach(ow=>{
-    const owDeals=filterOwner?filtered:opps.filter(o=>owners.length?o.owner===ow:true);
-    const owActions=[];
-    owDeals.forEach(o=>{
-      const ns=(o.nextSteps||[]).slice(0,5); // Top 5 per deal
-      ns.forEach(n=>{
-        owActions.push({deal:o.accountName,dealId:o.id,cat:n.cat,issue:n.issue,rec:n.rec,due:n.due,p:n.p});
-      });
+    const owDeals=(filterOwner?filtered:opps.filter(o=>owners.length?o.owner===ow:true)).filter(o=>{
+      // Get actions for this deal
+      const actions=getActionsForDeal(o);
+      return actions.length>0;
     });
-    if(!owActions.length)return;
+    if(!owDeals.length)return;
+    const totalActions=owDeals.reduce((s,o)=>s+getActionsForDeal(o).length,0);
 
-    html+=`<div style="background:var(--s1);border:1px solid var(--b1);border-radius:10px;padding:16px 18px;margin-bottom:12px">
-      <div style="font-size:14px;font-weight:700;margin-bottom:10px;display:flex;align-items:center;gap:8px">
-        <span style="width:28px;height:28px;border-radius:50%;background:var(--s3);display:inline-flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:var(--bl)">${ow.split(' ').map(w=>w[0]).join('').slice(0,2)}</span>
-        ${ow} <span style="font-size:11px;color:var(--t3);font-weight:400">${owActions.length} action${owActions.length>1?'s':''}</span>
+    html+=`<div style="background:var(--s1);border:1px solid var(--b1);border-radius:10px;margin-bottom:12px;overflow:hidden">
+      <div style="display:flex;align-items:center;justify-content:space-between;padding:12px 16px;border-bottom:1px solid var(--b1);background:var(--s2)">
+        <div style="display:flex;align-items:center;gap:8px">
+          <span style="width:26px;height:26px;border-radius:50%;background:var(--s3);display:inline-flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:var(--bl)">${ow.split(' ').map(w=>w[0]).join('').slice(0,2)}</span>
+          <span style="font-size:13px;font-weight:700">${ow}</span>
+        </div>
+        <span style="font-size:11px;color:var(--t3)">${totalActions} actions across ${owDeals.length} deal${owDeals.length>1?'s':''}</span>
       </div>
-      <div style="display:flex;flex-direction:column;gap:2px">
-        ${owActions.map((a,i)=>{
-          const checkId='act_'+ow.replace(/\s/g,'_')+'_'+i;
-          return`<div style="display:flex;align-items:flex-start;gap:10px;padding:8px 10px;border-radius:6px;transition:background .1s" onmouseover="this.style.background='var(--s2)'" onmouseout="this.style.background='transparent'">
-            <input type="checkbox" id="${checkId}" style="margin-top:2px;accent-color:var(--acc);cursor:pointer;flex-shrink:0" onchange="toggleAction('${checkId}',this)" ${localStorage.getItem(checkId)==='done'?'checked':''}>
-            <div style="flex:1;${localStorage.getItem(checkId)==='done'?'opacity:.45;text-decoration:line-through':''}">
-              <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap">
-                <span style="font-size:11px;font-weight:700;color:var(--acc-t);cursor:pointer;text-decoration:underline" onclick="event.stopPropagation();showDetail('${a.dealId}')">${a.deal}</span>
-                <span style="font-size:9px;color:var(--t3);background:var(--s3);padding:1px 6px;border-radius:3px">${a.cat}</span>
-                ${a.due?`<span style="font-size:9px;color:var(--t3)">📅 ${a.due}</span>`:''}
-              </div>
-              <div style="font-size:12px;color:var(--t);margin-top:2px">${a.rec}</div>
-              ${a.issue?`<div style="font-size:10px;color:var(--t3);margin-top:1px">${a.issue.substring(0,120)}${a.issue.length>120?'…':''}</div>`:''}
+      ${owDeals.map((o,di)=>{
+        const actions=getActionsForDeal(o);
+        const sc=o.scores?._total||{};
+        const dealSecId='ai_'+ow.replace(/\s/g,'')+'_'+di;
+        const overdue=actions.filter(a=>a.due&&isOverdue(a.due)).length;
+        return`<div>
+          <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 16px;cursor:pointer;transition:background .1s;border-bottom:1px solid var(--b1)" onclick="document.getElementById('${dealSecId}').classList.toggle('hidden');this.querySelector('.deal-chev').textContent=document.getElementById('${dealSecId}').classList.contains('hidden')?'▶':'▼'" onmouseover="this.style.background='var(--s2)'" onmouseout="this.style.background='transparent'">
+            <div style="display:flex;align-items:center;gap:8px">
+              <span class="deal-chev" style="font-size:9px;color:var(--t3);width:12px">▼</span>
+              <span style="font-size:12px;font-weight:600;color:var(--acc-t);cursor:pointer" onclick="event.stopPropagation();showDetail('${o.id}')">${o.accountName}</span>
+              <span class="badge b-stage" style="font-size:8px">${o.stage}</span>
+              ${sc.score?`<span style="font-size:10px;color:var(--t3)">${sc.score}/${sc.max}</span>`:''}
+              ${overdue?`<span style="font-size:9px;color:var(--r);font-weight:700">⚠ ${overdue} overdue</span>`:''}
             </div>
-          </div>`}).join('')}
-      </div>
+            <span style="font-size:10px;color:var(--t3)">${actions.length} items</span>
+          </div>
+          <div id="${dealSecId}">
+            <table style="border:none;border-radius:0;margin:0"><thead><tr>
+              <th style="width:30px;padding:5px 8px"></th>
+              <th style="width:90px;padding:5px 8px">Category</th>
+              <th style="padding:5px 8px">Action</th>
+              <th style="width:90px;padding:5px 8px;text-align:center">Due</th>
+            </tr></thead><tbody>
+            ${actions.map((a,ai)=>{
+              const checkId='act2_'+o.id+'_'+ai;
+              const checked=localStorage.getItem(checkId)==='done';
+              const od=a.due&&isOverdue(a.due);
+              return`<tr style="${checked?'opacity:.4;text-decoration:line-through':''}${od&&!checked?';background:var(--r-bg)':''}" onmouseover="this.style.background=this.style.background||'var(--s2)'" onmouseout="this.style.background='${od&&!checked?'var(--r-bg)':''}'">
+                <td style="padding:6px 8px;text-align:center;border-bottom:1px solid var(--b1)"><input type="checkbox" style="accent-color:var(--acc);cursor:pointer" ${checked?'checked':''} onchange="toggleAction2('${checkId}',this)"></td>
+                <td style="padding:6px 8px;border-bottom:1px solid var(--b1)"><span style="font-size:9px;font-weight:600;color:var(--t2);text-transform:uppercase">${a.cat}</span></td>
+                <td style="padding:6px 8px;font-size:11px;line-height:1.5;border-bottom:1px solid var(--b1)">${a.rec}</td>
+                <td style="padding:6px 8px;text-align:center;font-size:10px;border-bottom:1px solid var(--b1);white-space:nowrap;color:${od?'var(--r)':'var(--t3)'};font-weight:${od?'700':'400'}">${a.due||'—'}</td>
+              </tr>`}).join('')}
+            </tbody></table>
+          </div>
+        </div>`}).join('')}
     </div>`;
   });
 
@@ -505,10 +526,33 @@ async function delComment(id){await deleteComment(currentOpp.id,id);renderCommen
 // ============================================================
 // NAV
 // ============================================================
-function toggleAction(checkId,el){
-  const container=el.parentElement.querySelector('div');
-  if(el.checked){localStorage.setItem(checkId,'done');container.style.opacity='.45';container.style.textDecoration='line-through'}
-  else{localStorage.removeItem(checkId);container.style.opacity='1';container.style.textDecoration='none'}
+// Action items helpers
+function getActionsForDeal(o){
+  const actions=[];
+  Object.entries(o.meddpicc||{}).forEach(([k,sec])=>{
+    (sec.questions||[]).forEach(q=>{
+      if(q.action&&q.action!=='N/A'&&q.action!==''){
+        actions.push({cat:sec.label||k,rec:q.action,due:q.due||'',notes:q.notes||''});
+      }
+    });
+  });
+  // Sort: overdue first, then by due date, then no-date last
+  return actions.sort((a,b)=>{
+    const aOd=a.due&&isOverdue(a.due)?0:1;
+    const bOd=b.due&&isOverdue(b.due)?0:1;
+    if(aOd!==bOd)return aOd-bOd;
+    if(a.due&&b.due)return new Date(normDate(a.due))-new Date(normDate(b.due));
+    if(a.due&&!b.due)return-1;
+    if(!a.due&&b.due)return 1;
+    return 0;
+  }).slice(0,8); // Top 8 per deal
+}
+function normDate(d){if(!d)return'';if(d.includes('/'))return d.replace(/(\d{2})\/(\d{2})\/(\d{4})/,'$3-$1-$2');return d}
+function isOverdue(d){if(!d)return false;try{const dt=new Date(normDate(d));const today=new Date();today.setHours(0,0,0,0);return dt<today}catch(e){return false}}
+function toggleAction2(checkId,el){
+  const row=el.closest('tr');
+  if(el.checked){localStorage.setItem(checkId,'done');row.style.opacity='.4';row.style.textDecoration='line-through'}
+  else{localStorage.removeItem(checkId);row.style.opacity='1';row.style.textDecoration='none'}
 }
 function goHome(){history.replaceState(null,null,' ');currentOpp=null;renderList()}
 function goBack(){goHome()}
