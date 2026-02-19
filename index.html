@@ -114,7 +114,39 @@ const ini=n=>n.split(' ').map(w=>w[0]).join('').slice(0,2);
 const tCls=p=>p<50?'risk':p<75?'track':'good';
 const ago=ts=>{const d=Math.floor((Date.now()-new Date(ts))/1e3);return d<60?'now':d<3600?Math.floor(d/60)+'m':d<86400?Math.floor(d/3600)+'h':Math.floor(d/86400)+'d'};
 function toast(msg='✓ Saved'){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2000)}
-let currentOpp=null;let filterOwner=null;
+let currentOpp=null;let filterOwner=null;let filterQuarter=null;let filterStage=null;let filterHealth=null;
+
+// ============================================================
+// QUARTER / MONTH HELPERS
+// ============================================================
+function getQuarter(dateStr){
+  const d=new Date(dateStr);
+  const q=Math.ceil((d.getMonth()+1)/3);
+  return 'Q'+q+' '+d.getFullYear();
+}
+function getMonthKey(dateStr){
+  const d=new Date(dateStr);
+  return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0');
+}
+function getMonthLabel(monthKey){
+  const [y,m]=monthKey.split('-');
+  const months=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  return months[parseInt(m)-1]+' '+y;
+}
+function getAvailableQuarters(){
+  const qs=new Set();
+  opps.forEach(o=>{if(o.closeDate)qs.add(getQuarter(o.closeDate))});
+  return [...qs].sort((a,b)=>{
+    const [qa,ya]=a.match(/Q(\d) (\d{4})/).slice(1);
+    const [qb,yb]=b.match(/Q(\d) (\d{4})/).slice(1);
+    return ya!==yb?ya-yb:qa-qb;
+  });
+}
+function getAvailableStages(){
+  const s=new Set();opps.forEach(o=>{if(o.stage)s.add(o.stage)});
+  const order=['Deal Craft','Demonstrate','Solution','Envision','Pre-Qualified'];
+  return[...s].sort((a,b)=>(order.indexOf(a)===-1?99:order.indexOf(a))-(order.indexOf(b)===-1?99:order.indexOf(b)));
+}
 
 // ============================================================
 // PORTFOLIO VIEW
@@ -122,15 +154,68 @@ let currentOpp=null;let filterOwner=null;
 function renderList(){
   document.getElementById('v-detail').classList.add('hidden');
   const el=document.getElementById('v-list');el.classList.remove('hidden');
-  const filtered=filterOwner?opps.filter(o=>o.owner===filterOwner):opps;
+
+  // Apply all filters
+  let filtered=opps;
+  if(filterOwner)filtered=filtered.filter(o=>o.owner===filterOwner);
+  if(filterQuarter)filtered=filtered.filter(o=>getQuarter(o.closeDate)===filterQuarter);
+  if(filterStage)filtered=filtered.filter(o=>o.stage===filterStage);
+  if(filterHealth)filtered=filtered.filter(o=>o.scores?._total?.status===filterHealth);
+
   const totalRev=filtered.reduce((s,o)=>s+(o.revenue?.totalRev3yr||0),0);
   const totalPbr=filtered.reduce((s,o)=>s+(o.projectedBilledRevenue||0),0);
   const avgHealth=filtered.length?Math.round(filtered.reduce((s,o)=>s+(o.scores?._total?.pct||0),0)/filtered.length):0;
   const atRisk=filtered.filter(o=>o.scores?._total?.status==='at-risk').length;
 
-  const filterHtml=owners.length>1?`<div style="display:flex;gap:6px;margin-bottom:16px;flex-wrap:wrap">
-    <button class="filter-btn${!filterOwner?' on':''}" onclick="setFilter(null)">All (${opps.length})</button>
-    ${owners.map(ow=>{const c=opps.filter(o=>o.owner===ow).length;return`<button class="filter-btn${filterOwner===ow?' on':''}" onclick="setFilter('${ow}')">${ow} (${c})</button>`}).join('')}</div>`:'';
+  // Build filter bar
+  const quarters=getAvailableQuarters();
+  const stages=getAvailableStages();
+  const activeCount=[filterOwner,filterQuarter,filterStage,filterHealth].filter(Boolean).length;
+
+  const filterHtml=`<div style="background:var(--s1);border:1px solid var(--b1);border-radius:10px;padding:14px 16px;margin-bottom:18px">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
+      <div style="font-size:12px;font-weight:700;color:var(--t2);display:flex;align-items:center;gap:6px">🔍 Filters${activeCount?` <span style="background:var(--acc);color:#fff;font-size:9px;padding:1px 6px;border-radius:10px">${activeCount} active</span>`:''}</div>
+      ${activeCount?`<button class="filter-btn" onclick="clearAllFilters()" style="font-size:10px">✕ Clear All</button>`:''}
+    </div>
+
+    <!-- Close Quarter (primary filter) -->
+    <div style="margin-bottom:8px">
+      <div style="font-size:9px;color:var(--t3);text-transform:uppercase;letter-spacing:.5px;margin-bottom:5px">Close Quarter</div>
+      <div style="display:flex;gap:5px;flex-wrap:wrap">
+        <button class="filter-btn${!filterQuarter?' on':''}" onclick="setQuarter(null)">All</button>
+        ${quarters.map(q=>{const c=opps.filter(o=>getQuarter(o.closeDate)===q).length;return`<button class="filter-btn${filterQuarter===q?' on':''}" onclick="setQuarter('${q}')">${q} <span style="opacity:.6">(${c})</span></button>`}).join('')}
+      </div>
+    </div>
+
+    <!-- Owner + Stage + Health row -->
+    <div style="display:flex;gap:16px;flex-wrap:wrap">
+      ${owners.length>1?`<div>
+        <div style="font-size:9px;color:var(--t3);text-transform:uppercase;letter-spacing:.5px;margin-bottom:5px">Owner</div>
+        <div style="display:flex;gap:5px;flex-wrap:wrap">
+          <button class="filter-btn${!filterOwner?' on':''}" onclick="setFilter(null)">All</button>
+          ${owners.map(ow=>{const c=opps.filter(o=>o.owner===ow).length;return`<button class="filter-btn${filterOwner===ow?' on':''}" onclick="setFilter('${ow}')">${ow.split(' ')[0]} <span style="opacity:.6">(${c})</span></button>`}).join('')}
+        </div>
+      </div>`:''}
+
+      <div>
+        <div style="font-size:9px;color:var(--t3);text-transform:uppercase;letter-spacing:.5px;margin-bottom:5px">Stage</div>
+        <div style="display:flex;gap:5px;flex-wrap:wrap">
+          <button class="filter-btn${!filterStage?' on':''}" onclick="setStage(null)">All</button>
+          ${stages.map(st=>{const c=opps.filter(o=>o.stage===st).length;return`<button class="filter-btn${filterStage===st?' on':''}" onclick="setStage('${st}')">${st} <span style="opacity:.6">(${c})</span></button>`}).join('')}
+        </div>
+      </div>
+
+      <div>
+        <div style="font-size:9px;color:var(--t3);text-transform:uppercase;letter-spacing:.5px;margin-bottom:5px">Health</div>
+        <div style="display:flex;gap:5px;flex-wrap:wrap">
+          <button class="filter-btn${!filterHealth?' on':''}" onclick="setHealth(null)">All</button>
+          <button class="filter-btn${filterHealth==='at-risk'?' on':''}" onclick="setHealth('at-risk')"><span style="color:var(--r)">●</span> At Risk</button>
+          <button class="filter-btn${filterHealth==='on-track'?' on':''}" onclick="setHealth('on-track')"><span style="color:var(--y)">●</span> On Track</button>
+          <button class="filter-btn${filterHealth==='good-health'?' on':''}" onclick="setHealth('good-health')"><span style="color:var(--g)">●</span> Good</button>
+        </div>
+      </div>
+    </div>
+  </div>`;
 
   const grouped={};(filterOwner?[filterOwner]:owners.length?owners:['All']).forEach(ow=>{
     grouped[ow]=(filterOwner?filtered:opps.filter(o=>owners.length?o.owner===ow:true)).sort((a,b)=>{
@@ -300,36 +385,79 @@ function renderList(){
 
   html+=`</div>`;
 
-  Object.entries(grouped).forEach(([owner,deals])=>{
-    if(!deals.length)return;
-    const ownerPbr=deals.reduce((s,o)=>s+(o.projectedBilledRevenue||0),0);
-    html+=`<div class="owner-group"><div class="owner-header"><div class="owner-name">${owner}</div>
-      <div class="owner-stats"><span>${deals.length} deals</span><span>Proj Billed Rev: ${fmtK(ownerPbr)}</span></div></div>
-      <table><thead><tr><th>Account</th><th>Stage</th><th>Close</th><th>MCV</th><th style="width:140px">Health</th><th>Last Call</th><th>Stakeholders</th><th>Intent</th></tr></thead>
-      <tbody>${deals.map(o=>{
-        const dtc=Math.ceil((new Date(o.closeDate)-Date.now())/864e5);
-        const sc=o.scores?._total||{score:0,max:0,pct:0,status:'at-risk'};
-        const pbr=o.projectedBilledRevenue;
-        const dsc=getDaysSinceCall(o);
-        const stk=getStakeholderCoverage(o);
-        const trend=getScoreTrend(o);
-        const trendIcon=trend.dir==='up'?'<span style="color:var(--g)">&#9650;</span>':trend.dir==='down'?'<span style="color:var(--r)">&#9660;</span>':'';
-        const callColor=dsc>60?'var(--r)':dsc>30?'var(--y)':'var(--t2)';
-        const stkColor=stk.pct<40?'var(--r)':stk.pct<70?'var(--y)':'var(--g)';
-        return`<tr onclick="showDetail('${o.id}')">
-          <td><div style="font-weight:600;font-size:12px">${o.accountName}</div><div style="font-size:10px;color:var(--t3)">${(o.products||[]).slice(0,2).join(', ')}</div></td>
-          <td><span class="badge b-stage">${o.stage}</span></td>
-          <td style="white-space:nowrap">${o.closeDate}<div style="font-size:10px;color:${dtc<=14?'var(--r)':dtc<=30?'var(--y)':'var(--t3)'}">${dtc}d</div></td>
-          <td class="money">${fmtK(o.revenue?.mcv)}</td>
-          <td><div class="sbar"><div class="sbar-f ${barC(sc.status)}" style="width:${sc.pct}%"></div></div><div class="sbar-txt">${sc.score}/${sc.max} ${trendIcon} <span class="badge ${bCls(sc.status)}">${sLbl(sc.status)}</span></div></td>
-          <td style="font-size:11px;color:${callColor};white-space:nowrap">${dsc===999?'<span style="color:var(--r);font-weight:700">None</span>':dsc+'d ago'}</td>
-          <td style="font-size:11px"><span style="color:${stkColor};font-weight:600">${stk.engaged}/${stk.total}</span> <span style="font-size:9px;color:var(--t3)">engaged</span></td>
-          <td style="font-size:10px">${o.merchantIntent||'—'}</td>
-        </tr>`}).join('')}</tbody></table></div>`;
-  });
+  // ============================================================
+  // OPPORTUNITY TABLE — grouped by month when quarter selected, else by owner
+  // ============================================================
+  const renderOppRow=o=>{
+    const dtc=Math.ceil((new Date(o.closeDate)-Date.now())/864e5);
+    const sc=o.scores?._total||{score:0,max:0,pct:0,status:'at-risk'};
+    const dsc=getDaysSinceCall(o);
+    const stk=getStakeholderCoverage(o);
+    const trend=getScoreTrend(o);
+    const trendIcon=trend.dir==='up'?'<span style="color:var(--g)">&#9650;</span>':trend.dir==='down'?'<span style="color:var(--r)">&#9660;</span>':'';
+    const callColor=dsc>60?'var(--r)':dsc>30?'var(--y)':'var(--t2)';
+    const stkColor=stk.pct<40?'var(--r)':stk.pct<70?'var(--y)':'var(--g)';
+    return`<tr onclick="showDetail('${o.id}')">
+      <td><div style="font-weight:600;font-size:12px">${o.accountName}</div><div style="font-size:10px;color:var(--t3)">${o.owner}${(o.products||[]).length?' · '+(o.products||[]).slice(0,2).join(', '):''}</div></td>
+      <td><span class="badge b-stage">${o.stage}</span></td>
+      <td style="white-space:nowrap">${o.closeDate}<div style="font-size:10px;color:${dtc<=14?'var(--r)':dtc<=30?'var(--y)':'var(--t3)'}">${dtc}d</div></td>
+      <td class="money">${fmtK(o.revenue?.mcv)}</td>
+      <td><div class="sbar"><div class="sbar-f ${barC(sc.status)}" style="width:${sc.pct}%"></div></div><div class="sbar-txt">${sc.score}/${sc.max} ${trendIcon} <span class="badge ${bCls(sc.status)}">${sLbl(sc.status)}</span></div></td>
+      <td style="font-size:11px;color:${callColor};white-space:nowrap">${dsc===999?'<span style="color:var(--r);font-weight:700">None</span>':dsc+'d ago'}</td>
+      <td style="font-size:11px"><span style="color:${stkColor};font-weight:600">${stk.engaged}/${stk.total}</span> <span style="font-size:9px;color:var(--t3)">engaged</span></td>
+      <td style="font-size:10px">${o.merchantIntent||'—'}</td>
+    </tr>`;
+  };
+  const tableHead=`<thead><tr><th>Account</th><th>Stage</th><th>Close</th><th>MCV</th><th style="width:140px">Health</th><th>Last Call</th><th>Stakeholders</th><th>Intent</th></tr></thead>`;
+
+  if(filterQuarter){
+    // GROUP BY MONTH within the selected quarter
+    const monthGroups={};
+    filtered.forEach(o=>{
+      const mk=getMonthKey(o.closeDate);
+      if(!monthGroups[mk])monthGroups[mk]=[];
+      monthGroups[mk].push(o);
+    });
+    const sortedMonths=Object.keys(monthGroups).sort();
+    sortedMonths.forEach(mk=>{
+      const deals=monthGroups[mk].sort((a,b)=>new Date(a.closeDate)-new Date(b.closeDate));
+      const monthPbr=deals.reduce((s,o)=>s+(o.projectedBilledRevenue||0),0);
+      const monthAtRisk=deals.filter(o=>o.scores?._total?.status==='at-risk').length;
+      html+=`<div class="owner-group">
+        <div class="owner-header">
+          <div class="owner-name">📅 ${getMonthLabel(mk)}</div>
+          <div class="owner-stats">
+            <span>${deals.length} deal${deals.length>1?'s':''}</span>
+            <span>Proj Billed Rev: ${fmtK(monthPbr)}</span>
+            ${monthAtRisk?`<span style="color:var(--r)">${monthAtRisk} at risk</span>`:''}
+          </div>
+        </div>
+        <table>${tableHead}<tbody>${deals.map(renderOppRow).join('')}</tbody></table>
+      </div>`;
+    });
+  } else {
+    // GROUP BY OWNER (default)
+    const grouped={};(filterOwner?[filterOwner]:owners.length?owners:['All']).forEach(ow=>{
+      grouped[ow]=(filterOwner?filtered:filtered.filter(o=>owners.length?o.owner===ow:true)).sort((a,b)=>{
+        const so={'Deal Craft':0,Demonstrate:1,Solution:2,Envision:3,'Pre-Qualified':4};
+        return(so[a.stage]||9)-(so[b.stage]||9)||new Date(a.closeDate)-new Date(b.closeDate)});
+    });
+    Object.entries(grouped).forEach(([owner,deals])=>{
+      if(!deals.length)return;
+      const ownerPbr=deals.reduce((s,o)=>s+(o.projectedBilledRevenue||0),0);
+      html+=`<div class="owner-group"><div class="owner-header"><div class="owner-name">${owner}</div>
+        <div class="owner-stats"><span>${deals.length} deals</span><span>Proj Billed Rev: ${fmtK(ownerPbr)}</span></div></div>
+        <table>${tableHead}<tbody>${deals.map(renderOppRow).join('')}</tbody></table></div>`;
+    });
+  }
+
   el.innerHTML=html;
 }
 function setFilter(owner){filterOwner=owner;renderList()}
+function setQuarter(q){filterQuarter=q;renderList()}
+function setStage(s){filterStage=s;renderList()}
+function setHealth(h){filterHealth=h===filterHealth?null:h;renderList()}
+function clearAllFilters(){filterOwner=null;filterQuarter=null;filterStage=null;filterHealth=null;renderList()}
 
 // ============================================================
 // DETAIL VIEW
