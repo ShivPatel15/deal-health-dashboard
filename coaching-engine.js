@@ -1,6 +1,25 @@
-// RISK SIGNAL + COACHING ENGINE
+// RISK SIGNAL + COACHING ENGINE + DEAL TABLE HELPERS
 const secNames=["Metrics","Economic Buyer","Decision Process","Decision Criteria","Paper Process","Identify Pain","Champion","Competition"];
 function getSec(o,name){const s=o.scores?.[name]||{};return{score:s.score||0,max:s.max||1,pct:s.pct||0}}
+
+function getDaysSinceCall(o){
+  const calls=o.calls||[];if(!calls.length)return 999;
+  const last=calls.reduce((l,c)=>c.date>l?c.date:l,"");
+  return Math.ceil((Date.now()-new Date(last))/864e5);
+}
+
+function getStakeholderCoverage(o){
+  const s=o.stakeholders||[];if(!s.length)return{engaged:0,total:0,pct:0};
+  const engaged=s.filter(x=>x.engagement==="high"||x.engagement==="medium").length;
+  return{engaged,total:s.length,pct:s.length?Math.round(engaged/s.length*100):0};
+}
+
+function getScoreTrend(o){
+  const h=o.history||[];if(h.length<2)return{delta:0,dir:"flat"};
+  const prev=h[h.length-2].totalScore;const curr=h[h.length-1].totalScore;
+  const d=curr-prev;
+  return{delta:d,dir:d>0?"up":d<0?"down":"flat"};
+}
 function getDealRisks(o){
   const risks=[],dtc=Math.ceil((new Date(o.closeDate)-Date.now())/864e5);
   const calls=o.calls||[],lastCall=calls.length?calls.reduce((l,c)=>c.date>l?c.date:l,""):null;

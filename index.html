@@ -270,19 +270,25 @@ function renderList(){
     const ownerPbr=deals.reduce((s,o)=>s+(o.projectedBilledRevenue||0),0);
     html+=`<div class="owner-group"><div class="owner-header"><div class="owner-name">${owner}</div>
       <div class="owner-stats"><span>${deals.length} deals</span><span>Proj Billed Rev: ${fmtK(ownerPbr)}</span></div></div>
-      <table><thead><tr><th>Account</th><th>Stage</th><th>Close</th><th>MCV</th><th>Proj Billed Rev</th><th>Rev (3yr)</th><th style="width:140px">Health</th><th>Intent</th></tr></thead>
+      <table><thead><tr><th>Account</th><th>Stage</th><th>Close</th><th>MCV</th><th style="width:140px">Health</th><th>Last Call</th><th>Stakeholders</th><th>Intent</th></tr></thead>
       <tbody>${deals.map(o=>{
         const dtc=Math.ceil((new Date(o.closeDate)-Date.now())/864e5);
         const sc=o.scores?._total||{score:0,max:0,pct:0,status:'at-risk'};
         const pbr=o.projectedBilledRevenue;
+        const dsc=getDaysSinceCall(o);
+        const stk=getStakeholderCoverage(o);
+        const trend=getScoreTrend(o);
+        const trendIcon=trend.dir==='up'?'<span style="color:var(--g)">&#9650;</span>':trend.dir==='down'?'<span style="color:var(--r)">&#9660;</span>':'';
+        const callColor=dsc>60?'var(--r)':dsc>30?'var(--y)':'var(--t2)';
+        const stkColor=stk.pct<40?'var(--r)':stk.pct<70?'var(--y)':'var(--g)';
         return`<tr onclick="showDetail('${o.id}')">
           <td><div style="font-weight:600;font-size:12px">${o.accountName}</div><div style="font-size:10px;color:var(--t3)">${(o.products||[]).slice(0,2).join(', ')}</div></td>
           <td><span class="badge b-stage">${o.stage}</span></td>
           <td style="white-space:nowrap">${o.closeDate}<div style="font-size:10px;color:${dtc<=14?'var(--r)':dtc<=30?'var(--y)':'var(--t3)'}">${dtc}d</div></td>
           <td class="money">${fmtK(o.revenue?.mcv)}</td>
-          <td class="money" style="font-weight:600;color:var(--g)">${pbr?fmtK(pbr):'—'}</td>
-          <td class="money">${fmtK(o.revenue?.totalRev3yr)}</td>
-          <td><div class="sbar"><div class="sbar-f ${barC(sc.status)}" style="width:${sc.pct}%"></div></div><div class="sbar-txt">${sc.score}/${sc.max} <span class="badge ${bCls(sc.status)}">${sLbl(sc.status)}</span></div></td>
+          <td><div class="sbar"><div class="sbar-f ${barC(sc.status)}" style="width:${sc.pct}%"></div></div><div class="sbar-txt">${sc.score}/${sc.max} ${trendIcon} <span class="badge ${bCls(sc.status)}">${sLbl(sc.status)}</span></div></td>
+          <td style="font-size:11px;color:${callColor};white-space:nowrap">${dsc===999?'<span style="color:var(--r);font-weight:700">None</span>':dsc+'d ago'}</td>
+          <td style="font-size:11px"><span style="color:${stkColor};font-weight:600">${stk.engaged}/${stk.total}</span> <span style="font-size:9px;color:var(--t3)">engaged</span></td>
           <td style="font-size:10px">${o.merchantIntent||'—'}</td>
         </tr>`}).join('')}</tbody></table></div>`;
   });
@@ -389,7 +395,40 @@ function showDetail(id){
 
   <!-- STAKEHOLDERS -->
   <div class="pane" id="p-stakeholders">
-    ${(opp.stakeholders||[]).length?`<h3 style="font-size:14px;margin-bottom:10px">Merchant</h3><div class="sg" style="margin-bottom:18px">${opp.stakeholders.map(s=>`<div class="sc"><div class="av">${ini(s.name)}</div><div class="si"><div class="sn">${s.name}</div><div class="st">${s.title||''} · ${s.role||''}</div><div class="se ${eCls(s.engagement)}">${s.engagement?s.engagement[0].toUpperCase()+s.engagement.slice(1):''} eng${s.callsInvited?' · '+s.callsAttended+'/'+s.callsInvited+' calls':''}</div></div></div>`).join('')}</div>`:''}
+    ${(opp.stakeholders||[]).length?`
+    <h3 style="font-size:14px;margin-bottom:14px">Stakeholder Engagement Map</h3>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px;margin-bottom:20px">
+      ${opp.stakeholders.map(s=>{
+        const eng=s.engagement||'none';
+        const engC=eng==='high'?'g':eng==='medium'?'y':eng==='low'?'r':'t3';
+        const engBg=eng==='high'?'g-bg':eng==='medium'?'y-bg':eng==='low'?'r-bg':'s2';
+        const engBd=eng==='high'?'g-b':eng==='medium'?'y-b':eng==='low'?'r-b':'b1';
+        const engLabel=eng==='high'?'High':eng==='medium'?'Med':eng==='low'?'Low':'None';
+        const callPct=s.callsInvited>0?Math.round(s.callsAttended/s.callsInvited*100):0;
+        const isGap=(eng==='low'||eng==='none')&&(s.role==='Decision Maker'||s.role==='Economic Buyer'||s.role==='Signatory');
+        return`<div style="background:var(--s1);border:1px solid var(--${engBd});border-radius:10px;padding:12px 14px;${isGap?'border-left:3px solid var(--r)':'border-left:3px solid var(--'+engC+')'}">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px">
+            <div class="av" style="width:32px;height:32px;font-size:11px">${ini(s.name)}</div>
+            <span style="font-size:8px;font-weight:700;color:var(--${engC});background:var(--${engBg});padding:2px 6px;border-radius:3px;border:1px solid var(--${engBd})">${engLabel}</span>
+          </div>
+          <div style="font-size:12px;font-weight:600;margin-bottom:2px">${s.name}</div>
+          <div style="font-size:10px;color:var(--t2);margin-bottom:4px">${s.title||''}</div>
+          <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px">
+            <span class="badge b-stage" style="font-size:8px">${s.role||'Contact'}</span>
+          </div>
+          ${s.callsInvited>0?`<div style="margin-top:4px">
+            <div style="display:flex;justify-content:space-between;font-size:9px;color:var(--t3);margin-bottom:2px"><span>Calls</span><span>${s.callsAttended}/${s.callsInvited}</span></div>
+            <div style="height:4px;background:var(--s3);border-radius:2px;overflow:hidden"><div style="width:${callPct}%;height:100%;background:var(--${callPct>=60?'g':callPct>=30?'y':'r'});border-radius:2px"></div></div>
+          </div>`:'<div style="font-size:9px;color:var(--t3);margin-top:4px">No calls tracked</div>'}
+          ${isGap?'<div style="font-size:9px;color:var(--r);font-weight:700;margin-top:6px">⚠ Key stakeholder — low engagement</div>':''}
+        </div>`}).join('')}
+    </div>
+    ${(()=>{
+      const gaps=(opp.stakeholders||[]).filter(s=>(s.engagement==='low'||s.engagement==='none')&&(s.role==='Decision Maker'||s.role==='Economic Buyer'||s.role==='Signatory'));
+      const strong=(opp.stakeholders||[]).filter(s=>s.engagement==='high');
+      if(!gaps.length)return'';
+      return'<div style="background:var(--r-bg);border:1px solid var(--r-b);border-radius:8px;padding:12px 14px;margin-bottom:16px"><div style="font-size:11px;font-weight:700;color:var(--r);margin-bottom:4px">\u26A0 Engagement Gap</div><div style="font-size:12px;color:var(--t);line-height:1.6">'+gaps.map(g=>'<b>'+g.name+'</b> ('+g.role+')').join(', ')+' — key decision maker'+(gaps.length>1?'s':'')+' with low/no engagement.'+(strong.length?' Leverage <b>'+strong[0].name+'</b> to get access.':'')+'</div></div>';
+    })()}`:''}
     ${(opp.shopifyTeam||[]).length?`<h3 style="font-size:14px;margin-bottom:10px">Shopify Team</h3><div class="sg">${opp.shopifyTeam.map(s=>`<div class="sc"><div class="av blue">${ini(s.name)}</div><div class="si"><div class="sn">${s.name}</div><div class="st">${s.role||''}</div></div></div>`).join('')}</div>`:''}
   </div>
 
