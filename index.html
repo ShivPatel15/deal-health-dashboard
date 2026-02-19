@@ -661,73 +661,159 @@ async function delComment(id){await deleteComment(currentOpp.id,id);renderCommen
 // ============================================================
 // MUTUAL ACTION PLAN RENDERER
 // ============================================================
+// ============================================================
+// MAP — fully editable mutual action plan
+// All edits persist to localStorage keyed by opp ID.
+// ============================================================
+function getMapItems(opp){
+  const key='map_items_'+opp.id;
+  const saved=localStorage.getItem(key);
+  if(saved){try{return JSON.parse(saved)}catch(e){}}
+  // Fall back to data.js defaults
+  return(opp.mutualActionPlan&&opp.mutualActionPlan.items||[]).map(i=>({...i}));
+}
+function saveMapItems(oppId,items){localStorage.setItem('map_items_'+oppId,JSON.stringify(items));toast('✓ MAP saved')}
+function getMapMeta(opp){
+  const key='map_meta_'+opp.id;
+  const saved=localStorage.getItem(key);
+  if(saved){try{return JSON.parse(saved)}catch(e){}}
+  const m=opp.mutualActionPlan||{};
+  return{kickoffDate:m.kickoffDate||'',goLiveDate:m.goLiveDate||'',contactName:m.contactName||'',contactEmail:m.contactEmail||'',champion:m.champion||''};
+}
+function saveMapMeta(oppId,meta){localStorage.setItem('map_meta_'+oppId,JSON.stringify(meta));toast('✓ MAP saved')}
+
 function renderMAP(opp){
-  const map=opp.mutualActionPlan;
-  if(!map||!map.items||!map.items.length)return'<p style="color:var(--t3);font-size:12px">No mutual action plan configured for this deal.</p>';
-  const done=map.items.filter(i=>i.done).length;
-  const total=map.items.length;
-  const pct=Math.round(done/total*100);
+  const items=getMapItems(opp);
+  const meta=getMapMeta(opp);
+  const done=items.filter(i=>i.done).length;
+  const total=items.length;
+  const pct=total?Math.round(done/total*100):0;
   const pctColor=pct<30?'r':pct<60?'y':'g';
-  const champion=map.champion||'TBD';
   return`
   <div class="map-hdr">
     <h3>📋 ${opp.accountName} — Mutual Action Plan</h3>
     <div class="map-progress">
-      <div class="mp-bar"><div class="mp-fill" style="width:${pct}%;background:var(--${pctColor})"></div></div>
-      <span style="font-size:12px;font-weight:700;color:var(--${pctColor})">${done}/${total} (${pct}%)</span>
+      <div class="mp-bar"><div class="mp-fill" id="map-fill" style="width:${pct}%;background:var(--${pctColor})"></div></div>
+      <span id="map-pct" style="font-size:12px;font-weight:700;color:var(--${pctColor})">${done}/${total} (${pct}%)</span>
     </div>
   </div>
   <div class="map-info" style="border-radius:0">
-    <div class="map-info-item"><div class="map-info-label">Project Kick Off</div><div style="font-weight:600">${map.kickoffDate||'TBD'}</div></div>
-    <div class="map-info-item"><div class="map-info-label">Go Live Date</div><div style="font-weight:700;color:var(--acc-t)">${map.goLiveDate||'TBD'}</div></div>
-    <div class="map-info-item"><div class="map-info-label">Questions?</div><div>Contact ${map.contactName} at anytime</div><div style="font-size:10px;color:var(--bl)">${map.contactEmail||''}</div></div>
-    <div class="map-info-item"><div class="map-info-label">Merchant Champion</div><div style="font-weight:600">${champion}</div></div>
+    <div class="map-info-item"><div class="map-info-label">Project Kick Off</div><div contenteditable style="font-weight:600;outline:none;border-bottom:1px dashed var(--b1);min-width:80px" onblur="mapMetaEdit('${opp.id}','kickoffDate',this.textContent)">${meta.kickoffDate||'TBD'}</div></div>
+    <div class="map-info-item"><div class="map-info-label">Go Live Date</div><div contenteditable style="font-weight:700;color:var(--acc-t);outline:none;border-bottom:1px dashed var(--b1)" onblur="mapMetaEdit('${opp.id}','goLiveDate',this.textContent)">${meta.goLiveDate||'TBD'}</div></div>
+    <div class="map-info-item"><div class="map-info-label">Questions?</div><div>Contact <span contenteditable style="outline:none;border-bottom:1px dashed var(--b1)" onblur="mapMetaEdit('${opp.id}','contactName',this.textContent)">${meta.contactName||'TBD'}</span></div><div contenteditable style="font-size:10px;color:var(--bl);outline:none;border-bottom:1px dashed var(--b1)" onblur="mapMetaEdit('${opp.id}','contactEmail',this.textContent)">${meta.contactEmail||''}</div></div>
+    <div class="map-info-item"><div class="map-info-label">Merchant Champion</div><div contenteditable style="font-weight:600;outline:none;border-bottom:1px dashed var(--b1)" onblur="mapMetaEdit('${opp.id}','champion',this.textContent)">${meta.champion||'TBD'}</div></div>
   </div>
   <table class="map-tbl" style="border-radius:0 0 10px 10px;border-top:none">
     <thead><tr>
       <th style="width:100px">Target Date</th>
       <th style="width:40px;text-align:center">✓</th>
       <th>Milestone</th>
-      <th style="width:160px">Owner (${opp.accountName.split(' ')[0]})</th>
-      <th style="width:160px">Owner (Shopify)</th>
+      <th style="width:140px">Owner (${opp.accountName.split(' ')[0]})</th>
+      <th style="width:140px">Owner (Shopify)</th>
       <th>Outcome / Notes</th>
+      <th style="width:30px"></th>
     </tr></thead>
-    <tbody>
-    ${map.items.map((item,idx)=>{
-      const checkId='map_'+opp.id+'_'+idx;
-      const savedDone=localStorage.getItem(checkId);
-      const isDone=savedDone!==null?(savedDone==='done'):item.done;
-      const isBold=item.milestone==='Go-Live!'||item.milestone==='Shopify contract signed';
-      return`<tr class="${isDone?'map-done':''}">
-        <td style="white-space:nowrap;font-size:10px;color:var(--t3)">${item.date||''}</td>
-        <td style="text-align:center"><input type="checkbox" class="map-check" ${isDone?'checked':''} onchange="toggleMAP('${checkId}',this,'${opp.id}')"></td>
-        <td class="${isBold?'map-bold':''}">${item.milestone}</td>
-        <td style="font-size:10px;color:var(--t2)">${item.ownerMerchant||''}</td>
-        <td style="font-size:10px;color:var(--bl)">${item.ownerShopify||''}</td>
-        <td style="font-size:10px;color:var(--t2)">${item.notes||''}</td>
-      </tr>`}).join('')}
+    <tbody id="map-tbody">
+    ${items.map((item,idx)=>{
+      return mapRowHtml(opp.id,item,idx,items.length)}).join('')}
     </tbody>
   </table>
-  <p style="color:var(--t3);font-size:10px;margin-top:6px;font-style:italic">💡 Check off milestones as you progress. Changes save locally. Share this plan with your merchant to drive urgency.</p>`;
+  <div style="display:flex;gap:8px;margin-top:8px">
+    <button style="padding:6px 14px;border-radius:6px;background:var(--acc);color:#fff;border:none;font-size:11px;font-weight:600;cursor:pointer" onclick="mapAddRow('${opp.id}')">+ Add milestone</button>
+    <button style="padding:6px 14px;border-radius:6px;background:var(--s3);color:var(--t2);border:1px solid var(--b1);font-size:11px;cursor:pointer" onclick="mapAddSection('${opp.id}')">+ Add section header</button>
+    <button style="padding:6px 14px;border-radius:6px;background:var(--s3);color:var(--t2);border:1px solid var(--b1);font-size:11px;cursor:pointer;margin-left:auto" onclick="if(confirm('Reset MAP to auto-generated defaults?')){localStorage.removeItem('map_items_'+currentOpp.id);localStorage.removeItem('map_meta_'+currentOpp.id);showDetail(currentOpp.id)}">↺ Reset to default</button>
+  </div>
+  <p style="color:var(--t3);font-size:10px;margin-top:8px;font-style:italic">💡 Click any cell to edit. Drag ≡ to reorder. All changes save automatically.</p>`;
 }
-function toggleMAP(checkId,el,oppId){
+function mapRowHtml(oppId,item,idx,total){
+  const isDone=item.done;
+  const isSection=item.isSection;
+  if(isSection){
+    return`<tr style="background:var(--s2)">
+      <td colspan="6" contenteditable style="font-size:11px;font-weight:700;color:var(--acc-t);text-transform:uppercase;letter-spacing:.5px;outline:none;padding:6px 12px" onblur="mapCellEdit('${oppId}',${idx},'milestone',this.textContent)">${item.milestone||'Section'}</td>
+      <td style="text-align:center;padding:4px"><span style="cursor:pointer;font-size:12px;color:var(--t3)" onclick="mapDeleteRow('${oppId}',${idx})" title="Delete section">✕</span></td>
+    </tr>`;
+  }
+  return`<tr class="${isDone?'map-done':''}" draggable="true" ondragstart="mapDragStart(event,${idx})" ondragover="event.preventDefault()" ondrop="mapDrop(event,'${oppId}',${idx})" style="transition:background .1s">
+    <td contenteditable style="white-space:nowrap;font-size:10px;color:var(--t3);outline:none;min-width:80px;border-bottom:1px solid var(--b1)" onblur="mapCellEdit('${oppId}',${idx},'date',this.textContent)">${item.date||''}</td>
+    <td style="text-align:center;border-bottom:1px solid var(--b1)"><input type="checkbox" class="map-check" ${isDone?'checked':''} onchange="mapToggle('${oppId}',${idx},this)"></td>
+    <td contenteditable style="outline:none;border-bottom:1px solid var(--b1)" onblur="mapCellEdit('${oppId}',${idx},'milestone',this.textContent)">${item.milestone||''}</td>
+    <td contenteditable style="font-size:10px;color:var(--t2);outline:none;border-bottom:1px solid var(--b1)" onblur="mapCellEdit('${oppId}',${idx},'ownerMerchant',this.textContent)">${item.ownerMerchant||''}</td>
+    <td contenteditable style="font-size:10px;color:var(--bl);outline:none;border-bottom:1px solid var(--b1)" onblur="mapCellEdit('${oppId}',${idx},'ownerShopify',this.textContent)">${item.ownerShopify||''}</td>
+    <td contenteditable style="font-size:10px;color:var(--t2);outline:none;border-bottom:1px solid var(--b1)" onblur="mapCellEdit('${oppId}',${idx},'notes',this.textContent)">${item.notes||''}</td>
+    <td style="text-align:center;padding:4px;border-bottom:1px solid var(--b1)"><span style="cursor:grab;font-size:12px;color:var(--t3);user-select:none" title="Drag to reorder">≡</span><br><span style="cursor:pointer;font-size:10px;color:var(--t3)" onclick="mapDeleteRow('${oppId}',${idx})" title="Delete">✕</span></td>
+  </tr>`;
+}
+function mapCellEdit(oppId,idx,field,value){
+  const items=getMapItems(opps.find(o=>o.id===oppId));
+  if(!items[idx])return;
+  items[idx][field]=value.trim();
+  saveMapItems(oppId,items);
+}
+function mapToggle(oppId,idx,el){
+  const items=getMapItems(opps.find(o=>o.id===oppId));
+  if(!items[idx])return;
+  items[idx].done=el.checked;
+  saveMapItems(oppId,items);
   const row=el.closest('tr');
-  if(el.checked){localStorage.setItem(checkId,'done');row.classList.add('map-done')}
-  else{localStorage.setItem(checkId,'not_done');row.classList.remove('map-done')}
-  // Recount for progress bar
-  const opp=opps.find(o=>o.id===oppId);if(!opp||!opp.mutualActionPlan)return;
-  const items=opp.mutualActionPlan.items;
-  let done=0;
-  items.forEach((item,idx)=>{
-    const cid='map_'+oppId+'_'+idx;
-    const sv=localStorage.getItem(cid);
-    if(sv!==null?sv==='done':item.done)done++;
-  });
-  const pct=Math.round(done/items.length*100);
-  const fill=document.querySelector('.mp-fill');
-  if(fill){fill.style.width=pct+'%';fill.style.background=pct<30?'var(--r)':pct<60?'var(--y)':'var(--g)'}
-  const lbl=document.querySelector('.map-progress span');
-  if(lbl){lbl.textContent=done+'/'+items.length+' ('+pct+'%)';lbl.style.color=pct<30?'var(--r)':pct<60?'var(--y)':'var(--g)'}
+  if(el.checked)row.classList.add('map-done');else row.classList.remove('map-done');
+  mapUpdateProgress(oppId);
+}
+function mapUpdateProgress(oppId){
+  const items=getMapItems(opps.find(o=>o.id===oppId));
+  const done=items.filter(i=>i.done&&!i.isSection).length;
+  const total=items.filter(i=>!i.isSection).length;
+  const pct=total?Math.round(done/total*100):0;
+  const c=pct<30?'r':pct<60?'y':'g';
+  const fill=document.getElementById('map-fill');
+  if(fill){fill.style.width=pct+'%';fill.style.background='var(--'+c+')'}
+  const lbl=document.getElementById('map-pct');
+  if(lbl){lbl.textContent=done+'/'+total+' ('+pct+'%)';lbl.style.color='var(--'+c+')'}
+}
+function mapAddRow(oppId){
+  const opp=opps.find(o=>o.id===oppId);
+  const items=getMapItems(opp);
+  items.push({date:'',done:false,milestone:'New milestone',ownerMerchant:'',ownerShopify:'',notes:''});
+  saveMapItems(oppId,items);
+  showDetail(oppId);
+  // Switch to MAP tab
+  setTimeout(()=>{const tabs=document.querySelectorAll('.tab');tabs.forEach(t=>{if(t.dataset.p==='map')t.click()})},50);
+}
+function mapAddSection(oppId){
+  const opp=opps.find(o=>o.id===oppId);
+  const items=getMapItems(opp);
+  items.push({isSection:true,milestone:'NEW SECTION',done:false});
+  saveMapItems(oppId,items);
+  showDetail(oppId);
+  setTimeout(()=>{const tabs=document.querySelectorAll('.tab');tabs.forEach(t=>{if(t.dataset.p==='map')t.click()})},50);
+}
+function mapDeleteRow(oppId,idx){
+  const opp=opps.find(o=>o.id===oppId);
+  const items=getMapItems(opp);
+  items.splice(idx,1);
+  saveMapItems(oppId,items);
+  showDetail(oppId);
+  setTimeout(()=>{const tabs=document.querySelectorAll('.tab');tabs.forEach(t=>{if(t.dataset.p==='map')t.click()})},50);
+}
+let mapDragIdx=null;
+function mapDragStart(e,idx){mapDragIdx=idx;e.dataTransfer.effectAllowed='move'}
+function mapDrop(e,oppId,targetIdx){
+  e.preventDefault();
+  if(mapDragIdx===null||mapDragIdx===targetIdx)return;
+  const opp=opps.find(o=>o.id===oppId);
+  const items=getMapItems(opp);
+  const moved=items.splice(mapDragIdx,1)[0];
+  items.splice(targetIdx,0,moved);
+  saveMapItems(oppId,items);
+  mapDragIdx=null;
+  showDetail(oppId);
+  setTimeout(()=>{const tabs=document.querySelectorAll('.tab');tabs.forEach(t=>{if(t.dataset.p==='map')t.click()})},50);
+}
+function mapMetaEdit(oppId,field,value){
+  const opp=opps.find(o=>o.id===oppId);
+  const meta=getMapMeta(opp);
+  meta[field]=value.trim();
+  saveMapMeta(oppId,meta);
 }
 
 // ============================================================
