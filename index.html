@@ -143,6 +143,51 @@ function renderList(){
     <div class="sum-card"><div class="lbl">At Risk</div><div class="val" style="color:${atRisk?'var(--r)':'var(--g)'}">${atRisk}</div></div>
   </div>`;
 
+  // ============================================================
+  // ACTION ITEMS SECTION — grouped by rep
+  // ============================================================
+  html+=`<div style="margin-bottom:28px">
+    <h3 style="font-size:16px;font-weight:800;margin-bottom:4px">📋 Action Items by Rep</h3>
+    <p style="color:var(--t3);font-size:11px;margin-bottom:14px">Key actions from MEDDPICC gaps. Check off completed items (saved locally).</p>`;
+
+  const actionOwners=filterOwner?[filterOwner]:owners.length?owners:['All'];
+  actionOwners.forEach(ow=>{
+    const owDeals=filterOwner?filtered:opps.filter(o=>owners.length?o.owner===ow:true);
+    const owActions=[];
+    owDeals.forEach(o=>{
+      const ns=(o.nextSteps||[]).slice(0,5); // Top 5 per deal
+      ns.forEach(n=>{
+        owActions.push({deal:o.accountName,dealId:o.id,cat:n.cat,issue:n.issue,rec:n.rec,due:n.due,p:n.p});
+      });
+    });
+    if(!owActions.length)return;
+
+    html+=`<div style="background:var(--s1);border:1px solid var(--b1);border-radius:10px;padding:16px 18px;margin-bottom:12px">
+      <div style="font-size:14px;font-weight:700;margin-bottom:10px;display:flex;align-items:center;gap:8px">
+        <span style="width:28px;height:28px;border-radius:50%;background:var(--s3);display:inline-flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:var(--bl)">${ow.split(' ').map(w=>w[0]).join('').slice(0,2)}</span>
+        ${ow} <span style="font-size:11px;color:var(--t3);font-weight:400">${owActions.length} action${owActions.length>1?'s':''}</span>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:2px">
+        ${owActions.map((a,i)=>{
+          const checkId='act_'+ow.replace(/\s/g,'_')+'_'+i;
+          return`<div style="display:flex;align-items:flex-start;gap:10px;padding:8px 10px;border-radius:6px;transition:background .1s" onmouseover="this.style.background='var(--s2)'" onmouseout="this.style.background='transparent'">
+            <input type="checkbox" id="${checkId}" style="margin-top:2px;accent-color:var(--acc);cursor:pointer;flex-shrink:0" onchange="toggleAction('${checkId}',this)" ${localStorage.getItem(checkId)==='done'?'checked':''}>
+            <div style="flex:1;${localStorage.getItem(checkId)==='done'?'opacity:.45;text-decoration:line-through':''}">
+              <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap">
+                <span style="font-size:11px;font-weight:700;color:var(--acc-t);cursor:pointer;text-decoration:underline" onclick="event.stopPropagation();showDetail('${a.dealId}')">${a.deal}</span>
+                <span style="font-size:9px;color:var(--t3);background:var(--s3);padding:1px 6px;border-radius:3px">${a.cat}</span>
+                ${a.due?`<span style="font-size:9px;color:var(--t3)">📅 ${a.due}</span>`:''}
+              </div>
+              <div style="font-size:12px;color:var(--t);margin-top:2px">${a.rec}</div>
+              ${a.issue?`<div style="font-size:10px;color:var(--t3);margin-top:1px">${a.issue.substring(0,120)}${a.issue.length>120?'…':''}</div>`:''}
+            </div>
+          </div>`}).join('')}
+      </div>
+    </div>`;
+  });
+
+  html+=`</div>`;
+
   Object.entries(grouped).forEach(([owner,deals])=>{
     if(!deals.length)return;
     const ownerPbr=deals.reduce((s,o)=>s+(o.projectedBilledRevenue||0),0);
@@ -278,18 +323,58 @@ function showDetail(id){
 
   <!-- VERSION HISTORY -->
   <div class="pane" id="p-history">
-    <p style="color:var(--t3);font-size:12px;margin-bottom:14px">Track how this deal's health has changed over time.</p>
-    ${hist.length?hist.slice().reverse().map(h=>{
-      return`<div class="vh">
-        <div class="vh-date">📅 ${h.date} <span class="badge ${bCls(h.status)}" style="font-size:9px">${sLbl(h.status)}</span></div>
-        <div class="vh-score">Score: ${h.totalScore}/${h.totalMax} · ${Object.entries(h.sectionScores||{}).map(([k,v])=>`${k}: ${v}`).join(' · ')}</div>
-        <div class="vh-changes">${h.changes.map(c=>{
-          if(c.type==='initial')return'<div class="vh-change"><span class="vh-delta neutral">NEW</span> Initial analysis recorded</div>';
-          if(c.type==='total_score')return`<div class="vh-change"><span class="vh-delta ${c.delta>0?'up':'down'}">${c.delta>0?'+':''}${c.delta}</span> Overall score: ${c.old} → ${c.new}</div>`;
-          if(c.type==='score')return`<div class="vh-change"><span class="vh-delta ${c.delta>0?'up':'down'}">${c.delta>0?'+':''}${c.delta}</span> ${c.section}: ${c.old} → ${c.new}</div>`;
-          if(c.type==='status')return`<div class="vh-change"><span class="vh-delta ${c.new==='good-health'?'up':'down'}">⚡</span> Status changed: ${sLbl(c.old)} → ${sLbl(c.new)}</div>`;
-          return'';
-        }).join('')}</div></div>`}).join(''):'<p style="color:var(--t3);font-size:12px">No version history yet.</p>'}
+    <p style="color:var(--t3);font-size:12px;margin-bottom:14px">Track how this deal's health has changed over time. Click an entry to see details.</p>
+    ${hist.length?hist.slice().reverse().map((h,idx)=>{
+      const prev=hist[hist.indexOf(h)-1];
+      const scoreDelta=prev?(h.totalScore-prev.totalScore):0;
+      const deltaStr=scoreDelta>0?'+'+scoreDelta:scoreDelta<0?''+scoreDelta:'0';
+      const deltaClass=scoreDelta>0?'up':scoreDelta<0?'down':'neutral';
+      const typeLabel=h.type==='lite-refresh'?'⚡ Lite Refresh':h.type==='full'?'🔄 Full Analysis':'📊 Snapshot';
+      const hasChanges=h.changes&&h.changes.length>0;
+      const entryId='vh_entry_'+idx;
+      // Categorize changes
+      const scoreChanges=(h.changes||[]).filter(c=>typeof c==='string'&&(c.includes('→')&&(c.includes(' Q'))||c.startsWith('Score ')));
+      const sfTriggers=(h.changes||[]).filter(c=>typeof c==='string'&&c.startsWith('SF trigger:'));
+      // Section score diffs
+      const sectionDiffs=prev?Object.entries(h.sectionScores||{}).filter(([k,v])=>prev.sectionScores&&prev.sectionScores[k]!=null&&prev.sectionScores[k]!==v).map(([k,v])=>({section:k,old:prev.sectionScores[k],new:v,delta:v-prev.sectionScores[k]})):[];
+      return`<div class="vh ${hasChanges?'clickable':''}" ${hasChanges?`onclick="document.getElementById('${entryId}').classList.toggle('hidden')"`:''}  style="${hasChanges?'cursor:pointer':''}">
+        <div class="vh-date">
+          📅 ${h.date}
+          <span class="badge ${bCls(h.status)}" style="font-size:9px">${sLbl(h.status)}</span>
+          <span style="font-size:10px;color:var(--t3)">${typeLabel}</span>
+          ${scoreDelta!==0?`<span class="vh-delta ${deltaClass}">${deltaStr}</span>`:''}
+        </div>
+        <div class="vh-score">Score: <b>${h.totalScore}</b>/${h.totalMax}${prev?' (prev: '+prev.totalScore+')':' (baseline)'}${sectionDiffs.length?' · '+sectionDiffs.map(d=>`<span style="color:var(--${d.delta>0?'g':'r'})">${d.section} ${d.delta>0?'+':''}${d.delta}</span>`).join(' '):''}</div>
+        ${hasChanges?`<div style="font-size:10px;color:var(--acc-t);margin-top:4px">▶ ${h.changes.length} change${h.changes.length>1?'s':''} — click to expand</div>
+        <div class="hidden" id="${entryId}" style="margin-top:10px;border-top:1px solid var(--b1);padding-top:10px">
+          ${scoreChanges.length?`<div style="margin-bottom:10px">
+            <div style="font-size:10px;font-weight:700;color:var(--t2);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px">📊 Score Adjustments</div>
+            ${scoreChanges.map(c=>{
+              const isUp=c.includes('improved')||c.includes('+');
+              const isDown=c.includes('declined')||c.includes('(-');
+              return`<div style="font-size:12px;color:var(--t);padding:4px 0;display:flex;align-items:flex-start;gap:6px">
+                <span style="flex-shrink:0;font-size:14px">${isDown?'🔻':isUp?'🔺':'•'}</span>
+                <span>${c}</span>
+              </div>`}).join('')}
+          </div>`:''}
+          ${sfTriggers.length?`<div style="margin-bottom:10px">
+            <div style="font-size:10px;font-weight:700;color:var(--t2);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px">🔗 Salesforce Triggers</div>
+            ${sfTriggers.map(c=>`<div style="font-size:11px;color:var(--t2);padding:3px 0;display:flex;align-items:center;gap:6px">
+              <span style="flex-shrink:0">↳</span><span>${c.replace('SF trigger: ','')}</span>
+            </div>`).join('')}
+          </div>`:''}
+          ${sectionDiffs.length?`<div>
+            <div style="font-size:10px;font-weight:700;color:var(--t2);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px">📈 Section Score Changes</div>
+            <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:6px">
+              ${sectionDiffs.map(d=>`<div style="background:var(--s2);border:1px solid var(--b1);border-radius:6px;padding:8px 10px;text-align:center;border-left:3px solid var(--${d.delta>0?'g':'r'})">
+                <div style="font-size:10px;color:var(--t3)">${d.section}</div>
+                <div style="font-size:16px;font-weight:800;color:var(--${d.delta>0?'g':'r'})">${d.old} → ${d.new}</div>
+                <div style="font-size:10px;color:var(--${d.delta>0?'g':'r'})">${d.delta>0?'+':''}${d.delta}</div>
+              </div>`).join('')}
+            </div>
+          </div>`:''}
+        </div>`:`<div style="font-size:11px;color:var(--t3);margin-top:4px">No changes from previous snapshot.</div>`}
+      </div>`}).join(''):'<p style="color:var(--t3);font-size:12px">No version history yet.</p>'}
   </div>
 
   <!-- COMMENTS -->
@@ -420,6 +505,11 @@ async function delComment(id){await deleteComment(currentOpp.id,id);renderCommen
 // ============================================================
 // NAV
 // ============================================================
+function toggleAction(checkId,el){
+  const container=el.parentElement.querySelector('div');
+  if(el.checked){localStorage.setItem(checkId,'done');container.style.opacity='.45';container.style.textDecoration='line-through'}
+  else{localStorage.removeItem(checkId);container.style.opacity='1';container.style.textDecoration='none'}
+}
 function goHome(){history.replaceState(null,null,' ');currentOpp=null;renderList()}
 function goBack(){goHome()}
 window.addEventListener('hashchange',()=>{const h=location.hash.replace('#','');if(h)showDetail(h);else renderList()});
