@@ -150,8 +150,9 @@ function renderList(){
   allRisks.sort((a,b)=>({"high":0,"med":1,"low":2}[a.sev]||9)-({"high":0,"med":1,"low":2}[b.sev]||9));
   if(allRisks.length){
     html+=`<div style="margin-bottom:24px">
-    <h3 style="font-size:16px;font-weight:800;margin-bottom:4px">\u{1F6A8} Deal Risks</h3>
-    <p style="color:var(--t3);font-size:11px;margin-bottom:12px">${allRisks.length} risk${allRisks.length>1?"s":""} detected. Each includes a coaching suggestion.</p>
+    <h3 style="font-size:16px;font-weight:800;margin-bottom:4px;cursor:pointer;display:flex;align-items:center;gap:6px" onclick="const b=document.getElementById('risk-body');b.classList.toggle('hidden');this.querySelector('.sec-chev').textContent=b.classList.contains('hidden')?'▶':'▼'">\u{1F6A8} Deal Risks <span style="font-size:11px;color:var(--t3);font-weight:400">${allRisks.length}</span> <span class="sec-chev" style="font-size:10px;color:var(--t3)">▶</span></h3>
+    <div class="hidden" id="risk-body">
+    <p style="color:var(--t3);font-size:11px;margin-bottom:12px">Each includes a coaching suggestion.</p>
     ${allRisks.map(r=>{const sc=r.sev==="high"?"r":r.sev==="med"?"y":"t3";const sb=r.sev==="high"?"r-bg":r.sev==="med"?"y-bg":"s2";const bd=r.sev==="high"?"r-b":r.sev==="med"?"y-b":"b1";const sl=r.sev==="high"?"HIGH":r.sev==="med"?"MED":"LOW";
       return`<div style="background:var(--${sb});border:1px solid var(--${bd});border-left:3px solid var(--${sc});border-radius:8px;padding:10px 14px;margin-bottom:6px">
         <div style="display:flex;align-items:center;gap:6px;margin-bottom:4px">
@@ -161,7 +162,7 @@ function renderList(){
         </div>
         <div style="font-size:12px;color:var(--t);margin-bottom:4px">${r.signal}</div>
         <div style="font-size:11px;color:var(--t2);background:var(--s1);border-radius:5px;padding:6px 10px;border-left:2px solid var(--acc)">\u{1F4A1} ${r.coaching}</div>
-      </div>`}).join("")}</div>`;
+      </div>`}).join("")}</div></div>`;
   }
 
   // REP COACHING
@@ -231,7 +232,7 @@ function renderList(){
         return`<div>
           <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 16px;cursor:pointer;transition:background .1s;border-bottom:1px solid var(--b1)" onclick="document.getElementById('${dealSecId}').classList.toggle('hidden');this.querySelector('.deal-chev').textContent=document.getElementById('${dealSecId}').classList.contains('hidden')?'▶':'▼'" onmouseover="this.style.background='var(--s2)'" onmouseout="this.style.background='transparent'">
             <div style="display:flex;align-items:center;gap:8px">
-              <span class="deal-chev" style="font-size:9px;color:var(--t3);width:12px">▼</span>
+              <span class="deal-chev" style="font-size:9px;color:var(--t3);width:12px">▶</span>
               <span style="font-size:12px;font-weight:600;color:var(--acc-t);cursor:pointer" onclick="event.stopPropagation();showDetail('${o.id}')">${o.accountName}</span>
               <span class="badge b-stage" style="font-size:8px">${o.stage}</span>
               ${sc.score?`<span style="font-size:10px;color:var(--t3)">${sc.score}/${sc.max}</span>`:''}
@@ -239,7 +240,7 @@ function renderList(){
             </div>
             <span style="font-size:10px;color:var(--t3)">${actions.length} items</span>
           </div>
-          <div id="${dealSecId}">
+          <div class="hidden" id="${dealSecId}">
             <table style="border:none;border-radius:0;margin:0"><thead><tr>
               <th style="width:30px;padding:5px 8px"></th>
               <th style="width:90px;padding:5px 8px">Category</th>
