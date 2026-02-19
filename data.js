@@ -1115,39 +1115,83 @@ const DEAL_DATA = {
           {
             "date": "2024-07-19",
             "done": true,
-            "milestone": "Intros & discovery (technical & commercial)",
-            "ownerMerchant": "David Duke (Shopify Lead)",
+            "milestone": "Initial discovery & intro calls",
+            "ownerMerchant": "David Duke",
+            "ownerShopify": "Adriana",
+            "notes": "3 calls completed"
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Identify champion & project team",
+            "ownerMerchant": "David Duke",
+            "ownerShopify": "Adriana",
+            "notes": "Champion: David Duke"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Ask Matt/Anil to share the board-facing business case metrics so Shopify can align value narrative.",
+            "ownerMerchant": "Anil Patel",
+            "ownerShopify": "Adriana",
+            "notes": "Metrics · Due 02/21/2026",
+            "due": "02/21/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Work with Matt to articulate what continued platform stagnation means in revenue/brand terms for board justification.",
+            "ownerMerchant": "Matt Holden",
+            "ownerShopify": "Adriana",
+            "notes": "Metrics · Due 02/21/2026",
+            "due": "02/21/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Validate business case with economic buyer",
+            "ownerMerchant": "Anil Patel",
             "ownerShopify": "Adriana",
             "notes": ""
           },
           {
             "date": "",
-            "done": true,
-            "milestone": "Establish Shopify & Merchant Project team",
-            "ownerMerchant": "David Duke (Shopify Lead)",
+            "done": false,
+            "milestone": "Confirm economic buyer & signing authority",
+            "ownerMerchant": "",
             "ownerShopify": "Adriana",
-            "notes": "6 stakeholders, 3 Shopify team identified"
+            "notes": "Gap: EB unclear"
           },
           {
             "date": "",
-            "done": true,
-            "milestone": "Solution mapping",
-            "ownerMerchant": "David Duke (Shopify Lead)",
-            "ownerShopify": "Adriana & Ben",
+            "done": false,
+            "milestone": "Shiv to ask David Duke to arrange a brief call or have Anil join the next discussion.",
+            "ownerMerchant": "Anil Patel",
+            "ownerShopify": "Shiv",
+            "notes": "Due 02/20/2026",
+            "due": "02/20/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Map complete decision & approval process",
+            "ownerMerchant": "David Duke",
+            "ownerShopify": "Adriana",
             "notes": ""
           },
           {
             "date": "",
-            "done": true,
-            "milestone": "Shopify Value Presentation & Demo",
-            "ownerMerchant": "David Duke (Shopify Lead)",
-            "ownerShopify": "Adriana & Ben (SE)",
-            "notes": ""
+            "done": false,
+            "milestone": "Shiv to draft a mutual action plan with key milestones (signature, kickoff, migration, QA, go-live) and share with Matt/",
+            "ownerMerchant": "Anil Patel",
+            "ownerShopify": "Shiv",
+            "notes": "Due 02/21/2026",
+            "due": "02/21/2026"
           },
           {
             "date": "",
             "done": true,
-            "milestone": "Complete Merchant Intent form",
+            "milestone": "Submit merchant intent",
             "ownerMerchant": "",
             "ownerShopify": "Adriana",
             "notes": "Intent: Committed - At Risk"
@@ -1155,127 +1199,65 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": false,
-            "milestone": "Shopify commercial proposal",
-            "ownerMerchant": "David Duke (Shopify Lead)",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Establish Shopify business case (ROI)",
-            "ownerMerchant": "David Duke (Shopify Lead)",
+            "milestone": "Finalize commercial proposal",
+            "ownerMerchant": "David Duke",
             "ownerShopify": "Adriana",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Engage Procurement",
+            "milestone": "Confirm procurement process & legal steps",
             "ownerMerchant": "",
-            "ownerShopify": "",
+            "ownerShopify": "Adriana",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Agree commercials",
+            "milestone": "Ask Matt/David: 'Once Anil agrees to terms, what's the process? Does legal or finance need to review? Is a PO required?'",
+            "ownerMerchant": "Anil Patel",
+            "ownerShopify": "Adriana",
+            "notes": "Paper Process · Due 02/20/2026",
+            "due": "02/20/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Ask Matt: 'If there are contract modifications needed, how long does your legal/finance review typically take?'",
+            "ownerMerchant": "Matt Holden",
+            "ownerShopify": "Adriana",
+            "notes": "Paper Process · Due 02/20/2026",
+            "due": "02/20/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Contract sent for signature",
             "ownerMerchant": "",
-            "ownerShopify": "",
+            "ownerShopify": "Adriana",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Engage Legal",
+            "milestone": "Contract signed ✍️",
             "ownerMerchant": "",
             "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Agree Legals",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm financial approval",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Shopify Contract Sent",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Shopify contract signed",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
+            "notes": "Target: 2026-02-27"
           },
           {
             "date": "",
             "done": false,
             "milestone": "Introduction to Shopify Launch team",
             "ownerMerchant": "",
-            "ownerShopify": "",
+            "ownerShopify": "Adriana",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Up to 8 bi-weekly meetings with launch team",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Pre-Launch Audit prior to go-live date to review your store",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Final pre Go-Live Call with Launch Team",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live!",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live feedback meeting with Launch Team",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Transition to Growth Manager",
+            "milestone": "Go-Live 🚀",
             "ownerMerchant": "",
             "ownerShopify": "",
             "notes": ""
@@ -2329,39 +2311,74 @@ const DEAL_DATA = {
           {
             "date": "2025-05-29",
             "done": true,
-            "milestone": "Intros & discovery (technical & commercial)",
-            "ownerMerchant": "Alice Bennett (Digital Growth Manager)",
+            "milestone": "Initial discovery & intro calls",
+            "ownerMerchant": "Alice Bennett",
+            "ownerShopify": "Adriana",
+            "notes": "3 calls completed"
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Identify champion & project team",
+            "ownerMerchant": "Alice Bennett",
+            "ownerShopify": "Adriana",
+            "notes": "Champion: Alice Bennett"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Adriana to confirm Nathan has validated growth targets internally",
+            "ownerMerchant": "Nathan Smith",
+            "ownerShopify": "Adriana",
+            "notes": "Metrics · Due 02/21/2026",
+            "due": "02/21/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Adriana to model revenue impact of delayed migration with Fiona",
+            "ownerMerchant": "Fiona Scott",
+            "ownerShopify": "Adriana",
+            "notes": "Metrics · Due 02/24/2026",
+            "due": "02/24/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Validate business case with economic buyer",
+            "ownerMerchant": "Nathan Smith",
             "ownerShopify": "Adriana",
             "notes": ""
           },
           {
             "date": "",
             "done": true,
-            "milestone": "Establish Shopify & Merchant Project team",
-            "ownerMerchant": "Alice Bennett (Digital Growth Manager)",
+            "milestone": "Confirm economic buyer & signing authority",
+            "ownerMerchant": "",
             "ownerShopify": "Adriana",
-            "notes": "4 stakeholders, 3 Shopify team identified"
+            "notes": "✅ Identified"
           },
           {
             "date": "",
-            "done": true,
-            "milestone": "Solution mapping",
-            "ownerMerchant": "Alice Bennett (Digital Growth Manager)",
-            "ownerShopify": "Adriana & Dave",
+            "done": false,
+            "milestone": "Map complete decision & approval process",
+            "ownerMerchant": "Alice Bennett",
+            "ownerShopify": "Adriana",
             "notes": ""
           },
           {
             "date": "",
-            "done": true,
-            "milestone": "Shopify Value Presentation & Demo",
-            "ownerMerchant": "Alice Bennett (Digital Growth Manager)",
-            "ownerShopify": "Adriana & Dave (SE)",
-            "notes": ""
+            "done": false,
+            "milestone": "Adriana to draft MAP: contract sign → agency kick-off → build → QA → launch",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": "Due 02/24/2026",
+            "due": "02/24/2026"
           },
           {
             "date": "",
             "done": true,
-            "milestone": "Complete Merchant Intent form",
+            "milestone": "Submit merchant intent",
             "ownerMerchant": "",
             "ownerShopify": "Adriana",
             "notes": "Intent: Committed - At Risk"
@@ -2369,127 +2386,65 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": false,
-            "milestone": "Shopify commercial proposal",
-            "ownerMerchant": "Alice Bennett (Digital Growth Manager)",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Establish Shopify business case (ROI)",
-            "ownerMerchant": "Alice Bennett (Digital Growth Manager)",
+            "milestone": "Finalize commercial proposal",
+            "ownerMerchant": "Alice Bennett",
             "ownerShopify": "Adriana",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Engage Procurement",
+            "milestone": "Confirm procurement process & legal steps",
             "ownerMerchant": "",
-            "ownerShopify": "",
+            "ownerShopify": "Adriana",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Agree commercials",
+            "milestone": "Ask Fiona about internal process to get contract signed — legal or procurement review?",
+            "ownerMerchant": "Fiona Scott",
+            "ownerShopify": "Adriana",
+            "notes": "Paper Process · Due 02/21/2026",
+            "due": "02/21/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Ask Fiona if legal typically redlines vendor contracts",
+            "ownerMerchant": "Fiona Scott",
+            "ownerShopify": "Adriana",
+            "notes": "Paper Process · Due 02/21/2026",
+            "due": "02/21/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Contract sent for signature",
             "ownerMerchant": "",
-            "ownerShopify": "",
+            "ownerShopify": "Adriana",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Engage Legal",
+            "milestone": "Contract signed ✍️",
             "ownerMerchant": "",
             "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Agree Legals",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm financial approval",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Shopify Contract Sent",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Shopify contract signed",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
+            "notes": "Target: 2026-02-27"
           },
           {
             "date": "",
             "done": false,
             "milestone": "Introduction to Shopify Launch team",
             "ownerMerchant": "",
-            "ownerShopify": "",
+            "ownerShopify": "Adriana",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Up to 8 bi-weekly meetings with launch team",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Pre-Launch Audit prior to go-live date to review your store",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Final pre Go-Live Call with Launch Team",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live!",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live feedback meeting with Launch Team",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Transition to Growth Manager",
+            "milestone": "Go-Live 🚀",
             "ownerMerchant": "",
             "ownerShopify": "",
             "notes": ""
@@ -3650,39 +3605,74 @@ const DEAL_DATA = {
           {
             "date": "2025-08-19",
             "done": true,
-            "milestone": "Intros & discovery (technical & commercial)",
-            "ownerMerchant": "Martin Wareing (Head of IT)",
+            "milestone": "Initial discovery & intro calls",
+            "ownerMerchant": "Martin Wareing",
+            "ownerShopify": "Adriana",
+            "notes": "9 calls completed"
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Identify champion & project team",
+            "ownerMerchant": "Martin Wareing",
+            "ownerShopify": "Adriana",
+            "notes": "Champion: Martin Wareing"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Use TCO document to model cost of SFCC renewal vs Shopify.",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": "Metrics · Due 02/25/2026",
+            "due": "02/25/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Ask Martin if TCO doc was used in budget request.",
+            "ownerMerchant": "Martin Wareing",
+            "ownerShopify": "Adriana",
+            "notes": "Metrics · Due 02/25/2026",
+            "due": "02/25/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Validate business case with economic buyer",
+            "ownerMerchant": "Martin Wareing",
+            "ownerShopify": "Adriana",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Confirm economic buyer & signing authority",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": "Gap: EB unclear"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Ask Martin to facilitate brief intro call with Nigel before signature.",
+            "ownerMerchant": "Martin Wareing",
+            "ownerShopify": "Adriana",
+            "notes": "Due 02/25/2026",
+            "due": "02/25/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Map complete decision & approval process",
+            "ownerMerchant": "Martin Wareing",
             "ownerShopify": "Adriana",
             "notes": ""
           },
           {
             "date": "",
             "done": true,
-            "milestone": "Establish Shopify & Merchant Project team",
-            "ownerMerchant": "Martin Wareing (Head of IT)",
-            "ownerShopify": "Adriana",
-            "notes": "5 stakeholders, 2 Shopify team identified"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Solution mapping",
-            "ownerMerchant": "Martin Wareing (Head of IT)",
-            "ownerShopify": "Adriana & Sarah",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Shopify Value Presentation & Demo",
-            "ownerMerchant": "Martin Wareing (Head of IT)",
-            "ownerShopify": "Adriana & Sarah (SE)",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Complete Merchant Intent form",
+            "milestone": "Submit merchant intent",
             "ownerMerchant": "",
             "ownerShopify": "Adriana",
             "notes": "Intent: Committed - At Risk"
@@ -3690,127 +3680,65 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": true,
-            "milestone": "Shopify commercial proposal",
-            "ownerMerchant": "Martin Wareing (Head of IT)",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Establish Shopify business case (ROI)",
-            "ownerMerchant": "Martin Wareing (Head of IT)",
+            "milestone": "Finalize commercial proposal",
+            "ownerMerchant": "Martin Wareing",
             "ownerShopify": "Adriana",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Engage Procurement",
+            "milestone": "Confirm procurement process & legal steps",
             "ownerMerchant": "",
-            "ownerShopify": "",
+            "ownerShopify": "Adriana",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Agree commercials",
+            "milestone": "Ask: 'Does contract go through legal/procurement before Nigel signs?'",
+            "ownerMerchant": "Nigel Darwin",
+            "ownerShopify": "Adriana",
+            "notes": "Paper Process · Due 02/22/2026",
+            "due": "02/22/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Confirm monthly invoicing internally. Prepare responses.",
             "ownerMerchant": "",
-            "ownerShopify": "",
+            "ownerShopify": "Adriana",
+            "notes": "Paper Process · Due 02/22/2026",
+            "due": "02/22/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Contract sent for signature",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Engage Legal",
+            "milestone": "Contract signed ✍️",
             "ownerMerchant": "",
             "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Agree Legals",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Confirm financial approval",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Shopify Contract Sent",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Shopify contract signed",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
+            "notes": "Target: 2026-02-27"
           },
           {
             "date": "",
             "done": false,
             "milestone": "Introduction to Shopify Launch team",
             "ownerMerchant": "",
-            "ownerShopify": "",
+            "ownerShopify": "Adriana",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Up to 8 bi-weekly meetings with launch team",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Pre-Launch Audit prior to go-live date to review your store",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Final pre Go-Live Call with Launch Team",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live!",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live feedback meeting with Launch Team",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Transition to Growth Manager",
+            "milestone": "Go-Live 🚀",
             "ownerMerchant": "",
             "ownerShopify": "",
             "notes": ""
@@ -5035,39 +4963,74 @@ const DEAL_DATA = {
           {
             "date": "2025-02-07",
             "done": true,
-            "milestone": "Intros & discovery (technical & commercial)",
-            "ownerMerchant": "Carmen De Teran (Digital Director)",
+            "milestone": "Initial discovery & intro calls",
+            "ownerMerchant": "Carmen De Teran",
+            "ownerShopify": "Ben",
+            "notes": "8 calls completed"
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Identify champion & project team",
+            "ownerMerchant": "Carmen De Teran",
+            "ownerShopify": "Ben",
+            "notes": "Champion: Carmen De Teran"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Ben Rees to work with Carmen De Teran or Simon Oates to document specific measurable goals tied to the migration.",
+            "ownerMerchant": "Carmen De Teran",
+            "ownerShopify": "Ben",
+            "notes": "Metrics · Due 02/25/2026",
+            "due": "02/25/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Explore with Simon Oates/Carmen De Teran what happens if they miss Jan 2027 deadline — extended support costs, security ",
+            "ownerMerchant": "Carmen De Teran",
+            "ownerShopify": "Ben",
+            "notes": "Metrics · Due 02/25/2026",
+            "due": "02/25/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Validate business case with economic buyer",
+            "ownerMerchant": "Dharmini Chauhan",
             "ownerShopify": "Ben",
             "notes": ""
           },
           {
             "date": "",
-            "done": true,
-            "milestone": "Establish Shopify & Merchant Project team",
-            "ownerMerchant": "Carmen De Teran (Digital Director)",
+            "done": false,
+            "milestone": "Confirm economic buyer & signing authority",
+            "ownerMerchant": "",
             "ownerShopify": "Ben",
-            "notes": "7 stakeholders, 8 Shopify team identified"
+            "notes": "Gap: EB unclear"
           },
           {
             "date": "",
-            "done": true,
-            "milestone": "Solution mapping",
-            "ownerMerchant": "Carmen De Teran (Digital Director)",
-            "ownerShopify": "Ben & Ben",
+            "done": false,
+            "milestone": "Map complete decision & approval process",
+            "ownerMerchant": "Carmen De Teran",
+            "ownerShopify": "Ben",
             "notes": ""
           },
           {
             "date": "",
-            "done": true,
-            "milestone": "Shopify Value Presentation & Demo",
-            "ownerMerchant": "Carmen De Teran (Digital Director)",
-            "ownerShopify": "Ben & Ben (SE)",
-            "notes": ""
+            "done": false,
+            "milestone": "Ben Rees to propose written MAP to Simon Oates covering remaining eval steps, legal resolution, SI selection, target dec",
+            "ownerMerchant": "Simon Oates",
+            "ownerShopify": "Ben",
+            "notes": "Due 02/21/2026",
+            "due": "02/21/2026"
           },
           {
             "date": "",
             "done": true,
-            "milestone": "Complete Merchant Intent form",
+            "milestone": "Submit merchant intent",
             "ownerMerchant": "",
             "ownerShopify": "Ben",
             "notes": "Intent: Committed - At Risk"
@@ -5075,127 +5038,65 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": true,
-            "milestone": "Shopify commercial proposal",
-            "ownerMerchant": "Carmen De Teran (Digital Director)",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Establish Shopify business case (ROI)",
-            "ownerMerchant": "Carmen De Teran (Digital Director)",
+            "milestone": "Finalize commercial proposal",
+            "ownerMerchant": "Carmen De Teran",
             "ownerShopify": "Ben",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Engage Procurement",
+            "milestone": "Confirm procurement process & legal steps",
             "ownerMerchant": "",
-            "ownerShopify": "",
+            "ownerShopify": "Ben",
             "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Ben Rees to ask Simon Oates for complete procurement workflow: legal → approvals → signature → PO timeline.",
+            "ownerMerchant": "Simon Oates",
+            "ownerShopify": "Ben",
+            "notes": "Paper Process · Due 02/21/2026",
+            "due": "02/21/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Ben Rees to propose target date for final contract terms to Simon Oates and Mulberry legal.",
+            "ownerMerchant": "Simon Oates",
+            "ownerShopify": "Ben",
+            "notes": "Paper Process · Due 02/21/2026",
+            "due": "02/21/2026"
           },
           {
             "date": "",
             "done": true,
-            "milestone": "Agree commercials",
+            "milestone": "Contract sent for signature",
             "ownerMerchant": "",
-            "ownerShopify": "",
+            "ownerShopify": "Ben",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Engage Legal",
+            "milestone": "Contract signed ✍️",
             "ownerMerchant": "",
             "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Agree Legals",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm financial approval",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Shopify Contract Sent",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Shopify contract signed",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
+            "notes": "Target: 2026-02-28"
           },
           {
             "date": "",
             "done": false,
             "milestone": "Introduction to Shopify Launch team",
             "ownerMerchant": "",
-            "ownerShopify": "",
+            "ownerShopify": "Ben",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Up to 8 bi-weekly meetings with launch team",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Pre-Launch Audit prior to go-live date to review your store",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Final pre Go-Live Call with Launch Team",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live!",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live feedback meeting with Launch Team",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Transition to Growth Manager",
+            "milestone": "Go-Live 🚀",
             "ownerMerchant": "",
             "ownerShopify": "",
             "notes": ""
@@ -6303,39 +6204,83 @@ const DEAL_DATA = {
           {
             "date": "2025-10-16",
             "done": true,
-            "milestone": "Intros & discovery (technical & commercial)",
-            "ownerMerchant": "Danny Dawes (Group CIO)",
+            "milestone": "Initial discovery & intro calls",
+            "ownerMerchant": "Danny Dawes",
+            "ownerShopify": "Maissa",
+            "notes": "10 calls completed"
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Identify champion & project team",
+            "ownerMerchant": "Danny Dawes",
+            "ownerShopify": "Maissa",
+            "notes": "Champion: Danny Dawes"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Maissa to ask Danny what success looks like 12 months post-launch in quantifiable terms.",
+            "ownerMerchant": "Danny Dawes",
+            "ownerShopify": "Maissa",
+            "notes": "Metrics · Due 02/25/2026",
+            "due": "02/25/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Stephen to prepare a cost-of-inaction analysis framework for Danny.",
+            "ownerMerchant": "Danny Dawes",
+            "ownerShopify": "Stephen",
+            "notes": "Metrics · Due 02/25/2026",
+            "due": "02/25/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Validate business case with economic buyer",
+            "ownerMerchant": "Vaughn (CFO)",
             "ownerShopify": "Maissa",
             "notes": ""
           },
           {
             "date": "",
             "done": true,
-            "milestone": "Establish Shopify & Merchant Project team",
-            "ownerMerchant": "Danny Dawes (Group CIO)",
+            "milestone": "Confirm economic buyer & signing authority",
+            "ownerMerchant": "",
             "ownerShopify": "Maissa",
-            "notes": "5 stakeholders, 2 Shopify team identified"
+            "notes": "✅ Identified"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Maissa to ask Danny if a brief call with Vaughn/Jeff is possible to address executive-level concerns before Feb 27 decis",
+            "ownerMerchant": "Danny Dawes",
+            "ownerShopify": "Maissa",
+            "notes": "Due 02/22/2026",
+            "due": "02/22/2026"
           },
           {
             "date": "",
             "done": true,
-            "milestone": "Solution mapping",
-            "ownerMerchant": "Danny Dawes (Group CIO)",
-            "ownerShopify": "Maissa & Stephen",
-            "notes": ""
+            "milestone": "Map complete decision & approval process",
+            "ownerMerchant": "Danny Dawes",
+            "ownerShopify": "Maissa",
+            "notes": "✅ Process mapped"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Maissa to draft and share mutual action plan ahead of Feb 27 decision.",
+            "ownerMerchant": "",
+            "ownerShopify": "Maissa",
+            "notes": "Due 02/22/2026",
+            "due": "02/22/2026"
           },
           {
             "date": "",
             "done": true,
-            "milestone": "Shopify Value Presentation & Demo",
-            "ownerMerchant": "Danny Dawes (Group CIO)",
-            "ownerShopify": "Maissa & Stephen (SE)",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Complete Merchant Intent form",
+            "milestone": "Submit merchant intent",
             "ownerMerchant": "",
             "ownerShopify": "Maissa",
             "notes": "Intent: Committed - At Risk"
@@ -6343,127 +6288,65 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": true,
-            "milestone": "Shopify commercial proposal",
-            "ownerMerchant": "Danny Dawes (Group CIO)",
+            "milestone": "Finalize commercial proposal",
+            "ownerMerchant": "Danny Dawes",
             "ownerShopify": "Maissa",
             "notes": ""
           },
           {
             "date": "",
             "done": true,
-            "milestone": "Establish Shopify business case (ROI)",
-            "ownerMerchant": "Danny Dawes (Group CIO)",
+            "milestone": "Confirm procurement process & legal steps",
+            "ownerMerchant": "",
             "ownerShopify": "Maissa",
             "notes": ""
           },
           {
             "date": "",
-            "done": true,
-            "milestone": "Engage Procurement",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
+            "done": false,
+            "milestone": "Maissa to ask Danny if legal review is finalized and if any outstanding contract concerns.",
+            "ownerMerchant": "Danny Dawes",
+            "ownerShopify": "Maissa",
+            "notes": "Paper Process · Due 02/22/2026",
+            "due": "02/22/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Maissa to confirm: once decision is made Feb 27, how quickly can Vaughn/Jeff sign?",
+            "ownerMerchant": "Vaughn (CFO)",
+            "ownerShopify": "Maissa",
+            "notes": "Paper Process · Due 02/22/2026",
+            "due": "02/22/2026"
           },
           {
             "date": "",
             "done": true,
-            "milestone": "Agree commercials",
+            "milestone": "Contract sent for signature",
             "ownerMerchant": "",
-            "ownerShopify": "",
+            "ownerShopify": "Maissa",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Engage Legal",
+            "milestone": "Contract signed ✍️",
             "ownerMerchant": "",
             "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Agree Legals",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Confirm financial approval",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Shopify Contract Sent",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Shopify contract signed",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
+            "notes": "Target: 2026-02-28"
           },
           {
             "date": "",
             "done": false,
             "milestone": "Introduction to Shopify Launch team",
             "ownerMerchant": "",
-            "ownerShopify": "",
+            "ownerShopify": "Maissa",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Up to 8 bi-weekly meetings with launch team",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Pre-Launch Audit prior to go-live date to review your store",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Final pre Go-Live Call with Launch Team",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live!",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live feedback meeting with Launch Team",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Transition to Growth Manager",
+            "milestone": "Go-Live 🚀",
             "ownerMerchant": "",
             "ownerShopify": "",
             "notes": ""
@@ -7555,39 +7438,83 @@ const DEAL_DATA = {
           {
             "date": "2025-10-20",
             "done": true,
-            "milestone": "Intros & discovery (technical & commercial)",
-            "ownerMerchant": "Blayne Griffin-Reader (Head of Digital Trading & Optimization)",
+            "milestone": "Initial discovery & intro calls",
+            "ownerMerchant": "Blayne Griffin-Reader",
             "ownerShopify": "Maissa",
-            "notes": ""
+            "notes": "3 calls completed"
           },
           {
             "date": "",
             "done": true,
-            "milestone": "Establish Shopify & Merchant Project team",
-            "ownerMerchant": "Blayne Griffin-Reader (Head of Digital Trading & Optimization)",
+            "milestone": "Identify champion & project team",
+            "ownerMerchant": "Blayne Griffin-Reader",
             "ownerShopify": "Maissa",
-            "notes": "2 stakeholders, 2 Shopify team identified"
+            "notes": "Champion: Blayne Griffin-Reader"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Ben to prepare Hybris limitations vs Shopify comparison",
+            "ownerMerchant": "",
+            "ownerShopify": "Ben",
+            "notes": "Metrics · Due 03/03/2026",
+            "due": "03/03/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Maissa to ask Tom about impact of not migrating",
+            "ownerMerchant": "Tom Humphrey",
+            "ownerShopify": "Maissa",
+            "notes": "Metrics · Due 03/03/2026",
+            "due": "03/03/2026"
           },
           {
             "date": "",
             "done": true,
-            "milestone": "Solution mapping",
-            "ownerMerchant": "Blayne Griffin-Reader (Head of Digital Trading & Optimization)",
-            "ownerShopify": "Maissa & Ben",
+            "milestone": "Validate business case with economic buyer",
+            "ownerMerchant": "Tom Humphrey",
+            "ownerShopify": "Maissa",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Shopify Value Presentation & Demo",
-            "ownerMerchant": "Blayne Griffin-Reader (Head of Digital Trading & Optimization)",
-            "ownerShopify": "Maissa & Ben (SE)",
-            "notes": ""
+            "milestone": "Confirm economic buyer & signing authority",
+            "ownerMerchant": "",
+            "ownerShopify": "Maissa",
+            "notes": "Gap: EB unclear"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Confirm authorized signatory in next call",
+            "ownerMerchant": "",
+            "ownerShopify": "Maissa",
+            "notes": "Due 03/03/2026",
+            "due": "03/03/2026"
           },
           {
             "date": "",
             "done": true,
-            "milestone": "Complete Merchant Intent form",
+            "milestone": "Map complete decision & approval process",
+            "ownerMerchant": "Blayne Griffin-Reader",
+            "ownerShopify": "Maissa",
+            "notes": "✅ Process mapped"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Maissa to draft mutual action plan",
+            "ownerMerchant": "",
+            "ownerShopify": "Maissa",
+            "notes": "Due 03/05/2026",
+            "due": "03/05/2026"
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Submit merchant intent",
             "ownerMerchant": "",
             "ownerShopify": "Maissa",
             "notes": "Intent: Uncommitted"
@@ -7595,127 +7522,65 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": true,
-            "milestone": "Shopify commercial proposal",
-            "ownerMerchant": "Blayne Griffin-Reader (Head of Digital Trading & Optimization)",
-            "ownerShopify": "Maissa",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Establish Shopify business case (ROI)",
-            "ownerMerchant": "Blayne Griffin-Reader (Head of Digital Trading & Optimization)",
+            "milestone": "Finalize commercial proposal",
+            "ownerMerchant": "Blayne Griffin-Reader",
             "ownerShopify": "Maissa",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Engage Procurement",
+            "milestone": "Confirm procurement process & legal steps",
             "ownerMerchant": "",
-            "ownerShopify": "",
+            "ownerShopify": "Maissa",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Agree commercials",
+            "milestone": "Ask about vendor onboarding, PO requirements",
             "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
+            "ownerShopify": "Maissa",
+            "notes": "Paper Process · Due 03/03/2026",
+            "due": "03/03/2026"
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Engage Legal",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Agree Legals",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm financial approval",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
+            "milestone": "Ask Tom about legal review timeline",
+            "ownerMerchant": "Tom Humphrey",
+            "ownerShopify": "Maissa",
+            "notes": "Paper Process · Due 03/03/2026",
+            "due": "03/03/2026"
           },
           {
             "date": "",
             "done": true,
-            "milestone": "Shopify Contract Sent",
+            "milestone": "Contract sent for signature",
             "ownerMerchant": "",
-            "ownerShopify": "",
+            "ownerShopify": "Maissa",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Shopify contract signed",
+            "milestone": "Contract signed ✍️",
             "ownerMerchant": "",
             "ownerShopify": "",
-            "notes": ""
+            "notes": "Target: 2026-03-26"
           },
           {
             "date": "",
             "done": false,
             "milestone": "Introduction to Shopify Launch team",
             "ownerMerchant": "",
-            "ownerShopify": "",
+            "ownerShopify": "Maissa",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Up to 8 bi-weekly meetings with launch team",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Pre-Launch Audit prior to go-live date to review your store",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Final pre Go-Live Call with Launch Team",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live!",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live feedback meeting with Launch Team",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Transition to Growth Manager",
+            "milestone": "Go-Live 🚀",
             "ownerMerchant": "",
             "ownerShopify": "",
             "notes": ""
@@ -8864,39 +8729,74 @@ const DEAL_DATA = {
           {
             "date": "2024-07-16",
             "done": true,
-            "milestone": "Intros & discovery (technical & commercial)",
-            "ownerMerchant": "Koen Van Den Broek (CFO)",
+            "milestone": "Initial discovery & intro calls",
+            "ownerMerchant": "Koen Van Den Broek",
+            "ownerShopify": "Ben",
+            "notes": "7 calls completed"
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Identify champion & project team",
+            "ownerMerchant": "Koen Van Den Broek",
+            "ownerShopify": "Ben",
+            "notes": "Champion: Koen Van Den Broek"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Ben Rees to propose metrics workshop for CFO review.",
+            "ownerMerchant": "",
+            "ownerShopify": "Ben",
+            "notes": "Metrics · Due 03/05/2026",
+            "due": "03/05/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Ben Homer to model cost-of-inaction scenario for CFO.",
+            "ownerMerchant": "",
+            "ownerShopify": "Ben",
+            "notes": "Metrics · Due 03/10/2026",
+            "due": "03/10/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Validate business case with economic buyer",
+            "ownerMerchant": "Koen Van Den Broek",
             "ownerShopify": "Ben",
             "notes": ""
           },
           {
             "date": "",
             "done": true,
-            "milestone": "Establish Shopify & Merchant Project team",
-            "ownerMerchant": "Koen Van Den Broek (CFO)",
+            "milestone": "Confirm economic buyer & signing authority",
+            "ownerMerchant": "",
             "ownerShopify": "Ben",
-            "notes": "3 stakeholders, 2 Shopify team identified"
+            "notes": "✅ Identified"
           },
           {
             "date": "",
-            "done": true,
-            "milestone": "Solution mapping",
-            "ownerMerchant": "Koen Van Den Broek (CFO)",
-            "ownerShopify": "Ben & Ben",
+            "done": false,
+            "milestone": "Map complete decision & approval process",
+            "ownerMerchant": "Koen Van Den Broek",
+            "ownerShopify": "Ben",
             "notes": ""
           },
           {
             "date": "",
-            "done": true,
-            "milestone": "Shopify Value Presentation & Demo",
-            "ownerMerchant": "Koen Van Den Broek (CFO)",
-            "ownerShopify": "Ben & Ben (SE)",
-            "notes": ""
+            "done": false,
+            "milestone": "Ben Rees to draft MAP and share with Filip.",
+            "ownerMerchant": "Filip De Clerck",
+            "ownerShopify": "Ben",
+            "notes": "Due 03/05/2026",
+            "due": "03/05/2026"
           },
           {
             "date": "",
             "done": true,
-            "milestone": "Complete Merchant Intent form",
+            "milestone": "Submit merchant intent",
             "ownerMerchant": "",
             "ownerShopify": "Ben",
             "notes": "Intent: Committed - At Risk"
@@ -8904,127 +8804,65 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": false,
-            "milestone": "Shopify commercial proposal",
-            "ownerMerchant": "Koen Van Den Broek (CFO)",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Establish Shopify business case (ROI)",
-            "ownerMerchant": "Koen Van Den Broek (CFO)",
+            "milestone": "Finalize commercial proposal",
+            "ownerMerchant": "Koen Van Den Broek",
             "ownerShopify": "Ben",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Engage Procurement",
+            "milestone": "Confirm procurement process & legal steps",
             "ownerMerchant": "",
-            "ownerShopify": "",
+            "ownerShopify": "Ben",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Agree commercials",
+            "milestone": "Update close date after agency evaluation.",
             "ownerMerchant": "",
-            "ownerShopify": "",
+            "ownerShopify": "Ben",
+            "notes": "Paper Process · Due 03/05/2026",
+            "due": "03/05/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Ben Rees to raise procurement question.",
+            "ownerMerchant": "",
+            "ownerShopify": "Ben",
+            "notes": "Paper Process · Due 03/10/2026",
+            "due": "03/10/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Contract sent for signature",
+            "ownerMerchant": "",
+            "ownerShopify": "Ben",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Engage Legal",
+            "milestone": "Contract signed ✍️",
             "ownerMerchant": "",
             "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Agree Legals",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm financial approval",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Shopify Contract Sent",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Shopify contract signed",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
+            "notes": "Target: 2026-03-16"
           },
           {
             "date": "",
             "done": false,
             "milestone": "Introduction to Shopify Launch team",
             "ownerMerchant": "",
-            "ownerShopify": "",
+            "ownerShopify": "Ben",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Up to 8 bi-weekly meetings with launch team",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Pre-Launch Audit prior to go-live date to review your store",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Final pre Go-Live Call with Launch Team",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live!",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live feedback meeting with Launch Team",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Transition to Growth Manager",
+            "milestone": "Go-Live 🚀",
             "ownerMerchant": "",
             "ownerShopify": "",
             "notes": ""
@@ -10143,39 +9981,83 @@ const DEAL_DATA = {
           {
             "date": "2025-12-12",
             "done": true,
-            "milestone": "Intros & discovery (technical & commercial)",
-            "ownerMerchant": "Eleanor Bassett (Finance Director)",
+            "milestone": "Initial discovery & intro calls",
+            "ownerMerchant": "Eleanor Bassett",
+            "ownerShopify": "Ben",
+            "notes": "7 calls completed"
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Identify champion & project team",
+            "ownerMerchant": "Eleanor Bassett",
+            "ownerShopify": "Ben",
+            "notes": "Champion: Eleanor Bassett"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Prepare TCO/value narrative for board.",
+            "ownerMerchant": "",
+            "ownerShopify": "Ben",
+            "notes": "Metrics · Due 02/25/2026",
+            "due": "02/25/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Include ROI discussion in commercial call.",
+            "ownerMerchant": "",
+            "ownerShopify": "Ben",
+            "notes": "Metrics · Due 02/27/2026",
+            "due": "02/27/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Validate business case with economic buyer",
+            "ownerMerchant": "Eleanor Bassett",
             "ownerShopify": "Ben",
             "notes": ""
           },
           {
             "date": "",
-            "done": true,
-            "milestone": "Establish Shopify & Merchant Project team",
-            "ownerMerchant": "Eleanor Bassett (Finance Director)",
+            "done": false,
+            "milestone": "Confirm economic buyer & signing authority",
+            "ownerMerchant": "",
             "ownerShopify": "Ben",
-            "notes": "2 stakeholders, 4 Shopify team identified"
+            "notes": "Gap: EB unclear"
           },
           {
             "date": "",
             "done": true,
-            "milestone": "Solution mapping",
-            "ownerMerchant": "Eleanor Bassett (Finance Director)",
-            "ownerShopify": "Ben & Ben",
+            "milestone": "Ask on Feb 20 call: 'Who needs to approve this?'",
+            "ownerMerchant": "",
+            "ownerShopify": "Ben",
+            "notes": "Due 02/20/2026",
+            "due": "02/20/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Map complete decision & approval process",
+            "ownerMerchant": "Eleanor Bassett",
+            "ownerShopify": "Ben",
             "notes": ""
           },
           {
             "date": "",
-            "done": true,
-            "milestone": "Shopify Value Presentation & Demo",
-            "ownerMerchant": "Eleanor Bassett (Finance Director)",
-            "ownerShopify": "Ben & Ben (SE)",
-            "notes": ""
+            "done": false,
+            "milestone": "Draft and share MAP.",
+            "ownerMerchant": "",
+            "ownerShopify": "Ben",
+            "notes": "Due 03/05/2026",
+            "due": "03/05/2026"
           },
           {
             "date": "",
             "done": true,
-            "milestone": "Complete Merchant Intent form",
+            "milestone": "Submit merchant intent",
             "ownerMerchant": "",
             "ownerShopify": "Ben",
             "notes": "Intent: Committed - At Risk"
@@ -10183,127 +10065,65 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": false,
-            "milestone": "Shopify commercial proposal",
-            "ownerMerchant": "Eleanor Bassett (Finance Director)",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Establish Shopify business case (ROI)",
-            "ownerMerchant": "Eleanor Bassett (Finance Director)",
+            "milestone": "Finalize commercial proposal",
+            "ownerMerchant": "Eleanor Bassett",
             "ownerShopify": "Ben",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Engage Procurement",
+            "milestone": "Confirm procurement process & legal steps",
             "ownerMerchant": "",
-            "ownerShopify": "",
+            "ownerShopify": "Ben",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Agree commercials",
+            "milestone": "Feb 20 commercial director call.",
             "ownerMerchant": "",
-            "ownerShopify": "",
+            "ownerShopify": "Ben",
+            "notes": "Paper Process · Due 02/20/2026",
+            "due": "02/20/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Ask: 'What does your internal procurement look like?'",
+            "ownerMerchant": "",
+            "ownerShopify": "Ben",
+            "notes": "Paper Process · Due 02/27/2026",
+            "due": "02/27/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Contract sent for signature",
+            "ownerMerchant": "",
+            "ownerShopify": "Ben",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Engage Legal",
+            "milestone": "Contract signed ✍️",
             "ownerMerchant": "",
             "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Agree Legals",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm financial approval",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Shopify Contract Sent",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Shopify contract signed",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
+            "notes": "Target: 2026-03-27"
           },
           {
             "date": "",
             "done": false,
             "milestone": "Introduction to Shopify Launch team",
             "ownerMerchant": "",
-            "ownerShopify": "",
+            "ownerShopify": "Ben",
             "notes": ""
           },
           {
             "date": "",
             "done": false,
-            "milestone": "Up to 8 bi-weekly meetings with launch team",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Pre-Launch Audit prior to go-live date to review your store",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Final pre Go-Live Call with Launch Team",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live!",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live feedback meeting with Launch Team",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Transition to Growth Manager",
+            "milestone": "Go-Live 🚀",
             "ownerMerchant": "",
             "ownerShopify": "",
             "notes": ""
