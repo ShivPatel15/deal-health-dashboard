@@ -265,7 +265,7 @@ function generateEscalationPrompt(oppResults) {
 // ============================================================
 // UPDATE VERSION HISTORY
 // ============================================================
-function updateVersionHistory(opp, results, allOpps) {
+function updateVersionHistory(opp, results, diffs) {
   let versionHistory = {};
   if (fs.existsSync(HISTORY_FILE)) {
     versionHistory = JSON.parse(fs.readFileSync(HISTORY_FILE, 'utf-8'));
@@ -291,14 +291,34 @@ function updateVersionHistory(opp, results, allOpps) {
   const pct = totalMax > 0 ? Math.round((totalScore / totalMax) * 100) : 0;
   const status = pct >= 75 ? 'good-health' : pct >= 50 ? 'on-track' : 'at-risk';
 
-  // Build changes list
-  const changes = results.ruleMatches
-    .filter(m => m.status === 'APPLIED')
-    .map(m => `${m.sectionLabel} Q${m.questionIndex}: ${m.oldAnswer} → ${m.newAnswer} (${m.reason})`);
+  // Build changes list — enriched format showing score impact + reasoning
+  const changes = [];
 
-  if (results.totalScoreDelta !== 0) {
+  // Get previous score for delta display
+  const prevEntry = oppHistory.length > 0 ? oppHistory[oppHistory.length - 1] : null;
+  const prevScore = prevEntry ? prevEntry.totalScore : null;
+
+  if (results.totalScoreDelta !== 0 && prevScore !== null) {
     const dir = results.totalScoreDelta > 0 ? 'improved' : 'declined';
-    changes.unshift(`Score ${dir} by ${Math.abs(results.totalScoreDelta)} points (lite refresh)`);
+    changes.push(`Score ${dir} by ${Math.abs(results.totalScoreDelta)} point${Math.abs(results.totalScoreDelta) !== 1 ? 's' : ''} (${prevScore} → ${totalScore}) — lite refresh`);
+  }
+
+  // Add each applied rule with section, question, old→new, delta, and reason
+  for (const m of results.ruleMatches.filter(m => m.status === 'APPLIED')) {
+    changes.push(`${m.sectionLabel} Q${m.questionIndex}: ${m.oldAnswer} → ${m.newAnswer} (${m.scoreDelta > 0 ? '+' : ''}${m.scoreDelta}) — ${m.reason}`);
+  }
+
+  // Add SF triggers for context
+  for (const diff of (results.ruleMatches.filter(m => m.status === 'APPLIED').map(m => m.field).filter((v, i, a) => a.indexOf(v) === i))) {
+    const change = results.ruleMatches.find(m => m.field === diff && m.status === 'APPLIED');
+    // Find the original diff to get old/new values
+    const originalDiff = diffs.find(d => d.opportunityId === opp.id);
+    if (originalDiff) {
+      const fieldChange = originalDiff.changes.find(c => c.field === diff);
+      if (fieldChange) {
+        changes.push(`SF trigger: ${diff} "${fieldChange.oldValue}" → "${fieldChange.newValue}"`);
+      }
+    }
   }
 
   const entry = {
@@ -396,7 +416,7 @@ function main() {
 
     // Update version history (even in dry-run we calculate, but don't write)
     if (!dryRun) {
-      const updated = updateVersionHistory(opp, results, opportunities);
+      const updated = updateVersionHistory(opp, results, diffs);
       console.log(`   📊 New score: ${updated.totalScore}/${updated.totalMax} (${updated.pct}%) — ${updated.status}`);
     }
 

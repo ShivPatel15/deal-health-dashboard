@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-19T08:25:58.884Z",
+  "generatedAt": "2026-02-19T09:24:07.052Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -215,9 +215,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we know when they want to make a decision by?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "AE next step (02/18): 'on track to get it signed before end of Feb.' Close date 02/27/2026. Prior targets: end of 2025 (missed), January 2026 (missed).",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "AE next step (02/18): 'on track to get it signed before end of Feb.' Close date 02/27/2026. Prior targets: end of 2025 (missed), January 2026 (missed).\n[Lite Refresh 2026-02-19] Launch date pushed back — decision timeline may have shifted.",
               "solution": "N/A",
               "action": "N/A",
               "due": "",
@@ -405,9 +405,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we know target date for signature?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Close date 02/27/2026. AE next step (02/18): 'on track to get it signed before end of Feb.' Multiple prior targets missed.",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Close date 02/27/2026. AE next step (02/18): 'on track to get it signed before end of Feb.' Multiple prior targets missed.\n[Lite Refresh 2026-02-19] Launch date pushed back — signature timeline is now uncertain.",
               "solution": "N/A but monitor closely given pattern of slippage.",
               "action": "Daily check-ins with David Duke through end of February.",
               "due": "02/27/2026",
@@ -643,9 +643,9 @@ const DEAL_DATA = {
           "pct": 42
         },
         "Decision Process": {
-          "score": 4,
+          "score": 3.5,
           "max": 7,
-          "pct": 57
+          "pct": 50
         },
         "Decision Criteria": {
           "score": 3.5,
@@ -653,9 +653,9 @@ const DEAL_DATA = {
           "pct": 50
         },
         "Paper Process": {
-          "score": 3.5,
+          "score": 3,
           "max": 7,
-          "pct": 50
+          "pct": 43
         },
         "Identify Pain": {
           "score": 6.5,
@@ -673,9 +673,9 @@ const DEAL_DATA = {
           "pct": 70
         },
         "_total": {
-          "score": 32.5,
+          "score": 31.5,
           "max": 54,
-          "pct": 60,
+          "pct": 58,
           "status": "on-track"
         }
       },
@@ -865,7 +865,7 @@ const DEAL_DATA = {
         {
           "p": 27,
           "cat": "Paper Process",
-          "issue": "Close date 02/27/2026. AE next step (02/18): 'on track to get it signed before end of Feb.' Multiple prior targets missed.",
+          "issue": "Close date 02/27/2026. AE next step (02/18): 'on track to get it signed before end of Feb.' Multiple prior targets missed.\n[Lite Refresh 2026-02-19] Launch date pushed back — signature timeline is now uncertain.",
           "rec": "Daily check-ins with David Duke through end of February.",
           "due": "02/27/2026"
         },
@@ -1070,25 +1070,6 @@ const DEAL_DATA = {
       ],
       "history": [
         {
-          "date": "2026-02-19",
-          "totalScore": 32.5,
-          "totalMax": 54,
-          "status": "on-track",
-          "sectionScores": {
-            "Metrics": 5.5,
-            "Economic Buyer": 2.5,
-            "Decision Process": 4,
-            "Decision Criteria": 3.5,
-            "Paper Process": 3.5,
-            "Identify Pain": 6.5,
-            "Champion": 3.5,
-            "Competition": 3.5
-          },
-          "changes": [
-            "proposedLaunch: 2026-04-01 → 2026-05-29 (pushed back ~2 months)"
-          ]
-        },
-        {
           "date": "2026-02-18",
           "totalScore": 32.5,
           "totalMax": 54,
@@ -1107,20 +1088,26 @@ const DEAL_DATA = {
         },
         {
           "date": "2026-02-19",
-          "totalScore": 32.5,
+          "totalScore": 31.5,
           "totalMax": 54,
           "status": "on-track",
           "sectionScores": {
             "Metrics": 5.5,
             "Economic Buyer": 2.5,
-            "Decision Process": 4,
+            "Decision Process": 3.5,
             "Decision Criteria": 3.5,
-            "Paper Process": 3.5,
+            "Paper Process": 3,
             "Identify Pain": 6.5,
             "Champion": 3.5,
             "Competition": 3.5
           },
-          "changes": []
+          "changes": [
+            "Score declined by 1 point (32.5 → 31.5) — lite refresh",
+            "Paper Process Q6: Yes → Partial (-0.5) — Launch date pushed back, signature timeline now uncertain",
+            "Decision Process Q2: Yes → Partial (-0.5) — Launch date pushed back, decision timeline may have shifted",
+            "SF trigger: proposedLaunch \"2026-04-01\" → \"2026-05-29\" (pushed back ~2 months)"
+          ],
+          "type": "lite-refresh"
         }
       ]
     },
@@ -1227,9 +1214,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Have I validated the metrics with the customer?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "No call transcripts to confirm direct validation; based on SF data only",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "No call transcripts to confirm direct validation; based on SF data only\n[Lite Refresh 2026-02-19] Commit/Closed forecast implies metrics have been validated with the merchant.",
               "solution": "",
               "action": "",
               "due": "",
@@ -1755,9 +1742,9 @@ const DEAL_DATA = {
       },
       "scores": {
         "Metrics": {
-          "score": 6.5,
+          "score": 7,
           "max": 7,
-          "pct": 93
+          "pct": 100
         },
         "Economic Buyer": {
           "score": 3.5,
@@ -1795,9 +1782,9 @@ const DEAL_DATA = {
           "pct": 70
         },
         "_total": {
-          "score": 38.5,
+          "score": 39,
           "max": 54,
-          "pct": 71,
+          "pct": 72,
           "status": "on-track"
         }
       },
@@ -1875,26 +1862,6 @@ const DEAL_DATA = {
       "calls": [],
       "history": [
         {
-          "date": "2026-02-19",
-          "totalScore": 38.5,
-          "totalMax": 54,
-          "status": "on-track",
-          "sectionScores": {
-            "Metrics": 6.5,
-            "Economic Buyer": 3.5,
-            "Decision Process": 6,
-            "Decision Criteria": 4,
-            "Paper Process": 2.5,
-            "Identify Pain": 7.5,
-            "Champion": 5,
-            "Competition": 3.5
-          },
-          "changes": [
-            "forecastCategory: '' → 'Commit' (upgraded)",
-            "paymentsGpv: $0 → $8,125,000 (new payments data)"
-          ]
-        },
-        {
           "date": "2026-02-18",
           "totalScore": 38.5,
           "totalMax": 54,
@@ -1913,11 +1880,11 @@ const DEAL_DATA = {
         },
         {
           "date": "2026-02-19",
-          "totalScore": 38.5,
+          "totalScore": 39,
           "totalMax": 54,
           "status": "on-track",
           "sectionScores": {
-            "Metrics": 6.5,
+            "Metrics": 7,
             "Economic Buyer": 3.5,
             "Decision Process": 6,
             "Decision Criteria": 4,
@@ -1926,7 +1893,13 @@ const DEAL_DATA = {
             "Champion": 5,
             "Competition": 3.5
           },
-          "changes": []
+          "changes": [
+            "Score improved by 0.5 points (38.5 → 39) — lite refresh",
+            "Metrics Q5: Partial → Yes (+0.5) — Commit forecast implies metrics validated with merchant",
+            "SF trigger: forecastCategory \"\" → \"Commit\" (upgraded)",
+            "SF trigger: paymentsGpv $0 → $8,125,000 (new payments data)"
+          ],
+          "type": "lite-refresh"
         }
       ]
     },
@@ -2504,9 +2477,9 @@ const DEAL_DATA = {
           "questions": [
             {
               "q": "Do we know who else the customer is evaluating?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "No specific competing POS vendors mentioned. Implicit competition is status quo (staying on Anakta + SFCC). Tryzens recommended Shopify but unknown if other platforms evaluated.",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "No specific competing POS vendors mentioned. Implicit competition is status quo (staying on Anakta + SFCC). Tryzens recommended Shopify but unknown if other platforms evaluated.\n[Lite Refresh 2026-02-19] Competitor cleared — we know they are not evaluating anyone else.",
               "solution": "Directly ask about competitive evaluation.",
               "action": "Ask Martin at Feb 19: 'Are you looking at any other POS or commerce platforms alongside Shopify?'",
               "due": "02/19/2026",
@@ -2544,9 +2517,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we know why we would win or lose?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "Would likely win on platform unification, ecosystem strength, platform cost reduction. Could lose on payments cost (£430K gap), Worldpay integration gap, and perceived migration risk for 55+ stores. Payments is the primary lose factor.",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Would likely win on platform unification, ecosystem strength, platform cost reduction. Could lose on payments cost (£430K gap), Worldpay integration gap, and perceived migration risk for 55+ stores. Payments is the primary lose factor.\n[Lite Refresh 2026-02-19] No competitor — clear win path established.",
               "solution": "Mitigate the primary loss factor (payments) and amplify win factors.",
               "action": "Prepare 'why Shopify wins' summary addressing payments gap with mitigation strategies while emphasizing unique advantages.",
               "due": "02/19/2026",
@@ -2592,14 +2565,14 @@ const DEAL_DATA = {
           "pct": 71
         },
         "Competition": {
-          "score": 2,
+          "score": 3,
           "max": 5,
-          "pct": 40
+          "pct": 60
         },
         "_total": {
-          "score": 30.5,
+          "score": 31.5,
           "max": 54,
-          "pct": 56,
+          "pct": 58,
           "status": "on-track"
         }
       },
@@ -2859,7 +2832,7 @@ const DEAL_DATA = {
         {
           "p": 37,
           "cat": "Competition",
-          "issue": "No specific competing POS vendors mentioned. Implicit competition is status quo (staying on Anakta + SFCC). Tryzens recommended Shopify but unknown if other platforms evaluated.",
+          "issue": "No specific competing POS vendors mentioned. Implicit competition is status quo (staying on Anakta + SFCC). Tryzens recommended Shopify but unknown if other platforms evaluated.\n[Lite Refresh 2026-02-19] Competitor cleared — we know they are not evaluating anyone else.",
           "rec": "Ask Martin at Feb 19: 'Are you looking at any other POS or commerce platforms alongside Shopify?'",
           "due": "02/19/2026"
         },
@@ -2887,7 +2860,7 @@ const DEAL_DATA = {
         {
           "p": 41,
           "cat": "Competition",
-          "issue": "Would likely win on platform unification, ecosystem strength, platform cost reduction. Could lose on payments cost (£430K gap), Worldpay integration gap, and perceived migration risk for 55+ stores. Payments is the primary lose factor.",
+          "issue": "Would likely win on platform unification, ecosystem strength, platform cost reduction. Could lose on payments cost (£430K gap), Worldpay integration gap, and perceived migration risk for 55+ stores. Payments is the primary lose factor.\n[Lite Refresh 2026-02-19] No competitor — clear win path established.",
           "rec": "Prepare 'why Shopify wins' summary addressing payments gap with mitigation strategies while emphasizing unique advantages.",
           "due": "02/19/2026"
         }
@@ -2952,25 +2925,6 @@ const DEAL_DATA = {
       ],
       "history": [
         {
-          "date": "2026-02-19",
-          "totalScore": 30.5,
-          "totalMax": 54,
-          "status": "on-track",
-          "sectionScores": {
-            "Metrics": 5,
-            "Economic Buyer": 4.5,
-            "Decision Process": 3.5,
-            "Decision Criteria": 4,
-            "Paper Process": 0.5,
-            "Identify Pain": 6,
-            "Champion": 5,
-            "Competition": 2
-          },
-          "changes": [
-            "competitor: 'Salesforce Commerce Cloud (incumbent)' → 'None' (cleared)"
-          ]
-        },
-        {
           "date": "2026-02-18",
           "totalScore": 30.5,
           "totalMax": 54,
@@ -2989,7 +2943,7 @@ const DEAL_DATA = {
         },
         {
           "date": "2026-02-19",
-          "totalScore": 30.5,
+          "totalScore": 31.5,
           "totalMax": 54,
           "status": "on-track",
           "sectionScores": {
@@ -3000,9 +2954,15 @@ const DEAL_DATA = {
             "Paper Process": 0.5,
             "Identify Pain": 6,
             "Champion": 5,
-            "Competition": 2
+            "Competition": 3
           },
-          "changes": []
+          "changes": [
+            "Score improved by 1 point (30.5 → 31.5) — lite refresh",
+            "Competition Q0: Partial → Yes (+0.5) — Competitor cleared, not evaluating anyone else",
+            "Competition Q4: Partial → Yes (+0.5) — No competitor, clear win path established",
+            "SF trigger: competitor \"Salesforce Commerce Cloud (incumbent)\" → \"None\" (cleared)"
+          ],
+          "type": "lite-refresh"
         }
       ]
     },

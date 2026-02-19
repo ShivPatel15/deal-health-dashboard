@@ -165,13 +165,26 @@ const fullOpps = opps.map(o => {
   const oppHistory = versionHistory[o.id] || [];
 
   // Only add new history entry if date changed or no history exists
+  // IMPORTANT: If today's entry already exists with enriched changes (e.g. from lite-refresh),
+  // preserve those changes — only update the scores/sectionScores to stay current.
   const today = new Date().toISOString().split('T')[0];
   const lastHistoryDate = oppHistory.length > 0 ? oppHistory[oppHistory.length - 1].date : null;
   if (historyEntry && lastHistoryDate !== today) {
     oppHistory.push(historyEntry);
   } else if (historyEntry && lastHistoryDate === today) {
-    // Update today's entry
-    oppHistory[oppHistory.length - 1] = historyEntry;
+    const existing = oppHistory[oppHistory.length - 1];
+    // Preserve enriched changes and type from lite-refresh or other sources
+    if (existing.changes && existing.changes.length > 0) {
+      // Keep existing changes, just update scores to match current computed values
+      existing.totalScore = historyEntry.totalScore;
+      existing.totalMax = historyEntry.totalMax;
+      existing.status = historyEntry.status;
+      existing.sectionScores = historyEntry.sectionScores;
+      // Don't overwrite changes or type
+    } else {
+      // No enriched data — safe to overwrite
+      oppHistory[oppHistory.length - 1] = historyEntry;
+    }
   }
 
   // Save updated history

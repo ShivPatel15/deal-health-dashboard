@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-19T09:16:27.636Z",
+  "generatedAt": "2026-02-19T09:24:07.052Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -1070,25 +1070,6 @@ const DEAL_DATA = {
       ],
       "history": [
         {
-          "date": "2026-02-19",
-          "totalScore": 32.5,
-          "totalMax": 54,
-          "status": "on-track",
-          "sectionScores": {
-            "Metrics": 5.5,
-            "Economic Buyer": 2.5,
-            "Decision Process": 4,
-            "Decision Criteria": 3.5,
-            "Paper Process": 3.5,
-            "Identify Pain": 6.5,
-            "Champion": 3.5,
-            "Competition": 3.5
-          },
-          "changes": [
-            "proposedLaunch: 2026-04-01 → 2026-05-29 (pushed back ~2 months)"
-          ]
-        },
-        {
           "date": "2026-02-18",
           "totalScore": 32.5,
           "totalMax": 54,
@@ -1120,7 +1101,13 @@ const DEAL_DATA = {
             "Champion": 3.5,
             "Competition": 3.5
           },
-          "changes": []
+          "changes": [
+            "Score declined by 1 point (32.5 → 31.5) — lite refresh",
+            "Paper Process Q6: Yes → Partial (-0.5) — Launch date pushed back, signature timeline now uncertain",
+            "Decision Process Q2: Yes → Partial (-0.5) — Launch date pushed back, decision timeline may have shifted",
+            "SF trigger: proposedLaunch \"2026-04-01\" → \"2026-05-29\" (pushed back ~2 months)"
+          ],
+          "type": "lite-refresh"
         }
       ]
     },
@@ -1875,26 +1862,6 @@ const DEAL_DATA = {
       "calls": [],
       "history": [
         {
-          "date": "2026-02-19",
-          "totalScore": 38.5,
-          "totalMax": 54,
-          "status": "on-track",
-          "sectionScores": {
-            "Metrics": 6.5,
-            "Economic Buyer": 3.5,
-            "Decision Process": 6,
-            "Decision Criteria": 4,
-            "Paper Process": 2.5,
-            "Identify Pain": 7.5,
-            "Champion": 5,
-            "Competition": 3.5
-          },
-          "changes": [
-            "forecastCategory: '' → 'Commit' (upgraded)",
-            "paymentsGpv: $0 → $8,125,000 (new payments data)"
-          ]
-        },
-        {
           "date": "2026-02-18",
           "totalScore": 38.5,
           "totalMax": 54,
@@ -1926,7 +1893,13 @@ const DEAL_DATA = {
             "Champion": 5,
             "Competition": 3.5
           },
-          "changes": []
+          "changes": [
+            "Score improved by 0.5 points (38.5 → 39) — lite refresh",
+            "Metrics Q5: Partial → Yes (+0.5) — Commit forecast implies metrics validated with merchant",
+            "SF trigger: forecastCategory \"\" → \"Commit\" (upgraded)",
+            "SF trigger: paymentsGpv $0 → $8,125,000 (new payments data)"
+          ],
+          "type": "lite-refresh"
         }
       ]
     },
@@ -2952,25 +2925,6 @@ const DEAL_DATA = {
       ],
       "history": [
         {
-          "date": "2026-02-19",
-          "totalScore": 30.5,
-          "totalMax": 54,
-          "status": "on-track",
-          "sectionScores": {
-            "Metrics": 5,
-            "Economic Buyer": 4.5,
-            "Decision Process": 3.5,
-            "Decision Criteria": 4,
-            "Paper Process": 0.5,
-            "Identify Pain": 6,
-            "Champion": 5,
-            "Competition": 2
-          },
-          "changes": [
-            "competitor: 'Salesforce Commerce Cloud (incumbent)' → 'None' (cleared)"
-          ]
-        },
-        {
           "date": "2026-02-18",
           "totalScore": 30.5,
           "totalMax": 54,
@@ -3002,7 +2956,13 @@ const DEAL_DATA = {
             "Champion": 5,
             "Competition": 3
           },
-          "changes": []
+          "changes": [
+            "Score improved by 1 point (30.5 → 31.5) — lite refresh",
+            "Competition Q0: Partial → Yes (+0.5) — Competitor cleared, not evaluating anyone else",
+            "Competition Q4: Partial → Yes (+0.5) — No competitor, clear win path established",
+            "SF trigger: competitor \"Salesforce Commerce Cloud (incumbent)\" → \"None\" (cleared)"
+          ],
+          "type": "lite-refresh"
         }
       ]
     },
