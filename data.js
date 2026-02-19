@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-19T17:39:10.712Z",
+  "generatedAt": "2026-02-19T18:03:57.677Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -10177,6 +10177,1360 @@ const DEAL_DATA = {
               "score": 5.5,
               "max": 7,
               "pct": 79
+            },
+            "Competition": {
+              "score": 2.5,
+              "max": 5,
+              "pct": 50
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "006OG00000FHHAHYA5",
+      "name": "OLIVER BONAS LIMITED",
+      "accountName": "OLIVER BONAS LIMITED",
+      "accountId": "0018V00002d0FO8QAM",
+      "owner": "Adriana Colacicco",
+      "ownerEmail": "adriana.colacicco@shopify.com",
+      "stage": "Demonstrate",
+      "closeDate": "2026-05-30",
+      "forecastCategory": "Commit",
+      "probability": 60,
+      "merchantIntent": "Committed - At Risk",
+      "type": "New Business",
+      "created": "2025-06-30",
+      "lastAnalysisDate": "2026-02-19",
+      "revenue": {
+        "mcv": 82800,
+        "totalRev3yr": 5809546.88,
+        "d2cGmv": 87000000,
+        "b2bGmv": null,
+        "retailGmv": 25000000,
+        "paymentsGpv": 113100000,
+        "paymentsAttached": true,
+        "ipp": 2936658.37
+      },
+      "projectedBilledRevenue": 1483249.63,
+      "products": [
+        "Shopify Payments - D2C Plus",
+        "D2C - Standard (Plus)",
+        "Plus Product Suite",
+        "Plus - POS Pro",
+        "Retail Payments - Plus"
+      ],
+      "competitor": "Adobe Commerce (Magento)",
+      "compellingEvent": "Adobe Commerce contract expires October 2026. Simultaneous NetSuite ERP replacement. RFP narrowed from 6 vendors to ~2. Ben wants to avoid further investment in Adobe.",
+      "nextStep": "19.02 Awaiting statement for RR, collab on TCO, POS demo successful, received good feedback, awaiting final feedback for next round of RFP",
+      "narrative": {
+        "oppSummary": "Oliver Bonas Limited is an £87M D2C / £25M Retail GMV UK fashion and lifestyle retailer with 90+ stores, evaluating Shopify Plus as a replacement for their current Adobe Commerce (Magento) platform, whose contract expires October 2026. The deal is valued at $82,800 MCV with $1.48M in projected billed revenue and $5.8M total 3-year revenue including payments ($113.1M GPV). The opportunity is in the Demonstrate stage of a competitive RFP process — originally 6 vendors narrowed to approximately 2 — with implementation cost clarity being the primary blocker to advancing the deal.",
+        "whyChange": "Oliver Bonas is running on Adobe Commerce (Magento) with a NetSuite ERP that is also being replaced. Ben Curtis, Director of Ecommerce, has explicitly stated they want to avoid 'putting lots of additional investment into Adobe especially with the new ERP system... only to then rip it all out again later,' indicating significant concern about throwing good money after bad. The current tech stack creates complexity around omnichannel capabilities like click & collect, endless aisle, and save-the-sale — features Ben noted 'can be mitigated without additional development if we were to go down a single vendor solution.' The simultaneous ERP replacement and Adobe contract expiry create a natural inflection point where re-platforming makes strategic sense.",
+        "whyShopify": "Oliver Bonas is drawn to Shopify's unified commerce proposition — a single platform covering D2C, POS, and potentially B2B from one backend, which directly addresses their pain around operational complexity and multi-system integration. Stacey Flannery brings prior Shopify experience from a previous role, providing internal familiarity and implicit advocacy. The January demo successfully shifted Ben's perception of Shopify themes from 'restrictive' to a viable option. The POS demo to 7 retail operations attendees on Feb 11 received 'good feedback,' suggesting strong alignment with retail team needs. SEO capabilities also received positive validation from their SEO Manager Francesco.",
+        "whyNow": "The Adobe Commerce contract expires October 2026, creating a hard decision deadline. Ben stated clearly in November 2025 that he wanted to 'by the end of this year understand exactly what we're doing' to avoid wasted investment in Adobe. The simultaneous NetSuite ERP replacement amplifies urgency. The RFP process has narrowed from 6 vendors to approximately 2, indicating the evaluation is in its final stages. However, the AE's compelling event note reveals that 'timings may not align' for the omnichannel/retail component, with Ben initially reviewing 'online only ahead of our Adobe renewal' — though the successful POS demo and Ben's comment about doing 'both things together' indicate this may be shifting.",
+        "supportNeeded": "Implementation cost clarity is the #1 blocker — Ben explicitly called implementation costs their 'black hole' and noted competitors offer free or heavily discounted implementation. Shopify must help OB get precise scoping through partner introductions (Adriana has quoted £50-70k from agencies). TCO comparison needs collaborative completion. Partner agency introductions for formal scoping are the critical next step to advance from Demonstrate to Deal Craft. Continued validation of theme-based approach vs headless is needed, as competitors are positioned on custom approaches. RFP response / rate review statement needs to be completed promptly. Retail/POS business case may need a phased migration plan to reduce risk perception."
+      },
+      "meddpicc": {
+        "metrics": {
+          "label": "Metrics",
+          "questions": [
+            {
+              "q": "Do we know the business reasons as to why they are migrating?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Ben clearly stated they want to avoid additional investment in Adobe and need a unified commerce platform. Business reasons include reducing tech debt, simplifying omnichannel, and avoiding wasted spend before Adobe renewal (Calls 1, 3).",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we have specific quantifiable goals aligned with the project?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "GMV figures are known ($87M D2C, $25M Retail, $113.1M Payments GPV) and ShopPay conversion uplift was discussed, but specific quantifiable goals (e.g., target conversion rate improvement, cost reduction %) have not been validated with the merchant.",
+              "solution": "Work with Ben to define measurable success metrics — conversion rate targets, dev cost reduction, time-to-market improvements.",
+              "action": "Adriana to include quantifiable ROI metrics in TCO collaboration session.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do they need to make a platform change to achieve this goal?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Adobe contract expiring Oct 2026, NetSuite ERP being replaced simultaneously. Ben explicitly stated they don't want to invest more in Adobe only to 'rip it all out again' (Call 1). Platform change is clearly needed.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we understand the impact if this goal isn't achieved?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Ben mentioned not wanting to waste investment, and the complexity of their current stack is evident, but the specific financial impact of NOT changing hasn't been quantified in calls.",
+              "solution": "Help Ben build internal business case by quantifying cost of inaction — ongoing Adobe licensing, integration maintenance, missed omnichannel revenue.",
+              "action": "Adriana to share ROI framework / business case template with Ben.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Is there a compelling event in place driving action?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Adobe contract expiry October 2026 is a clear compelling event. ERP replacement happening concurrently adds urgency. Ben wanted decisions by end of 2025.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have I validated the metrics with the customer?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "TCO calculator was shared and discussed (Call 5), but Ben's primary concern about implementation costs remains unresolved — he called it a 'black hole.' Metrics around platform cost are partially validated but total cost picture is incomplete.",
+              "solution": "Collaborative TCO session needed where both sides input real numbers and validate assumptions together.",
+              "action": "Adriana to schedule TCO collaboration working session with Ben and Stacey.",
+              "due": "03/01/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are the metrics compelling enough to justify change?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Adobe renewal, ERP replacement, omnichannel complexity, and competitive pressure from other vendors all create compelling reasons to change. The RFP process itself (6 vendors evaluated) confirms the merchant sees the metrics as compelling enough.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            }
+          ]
+        },
+        "economicBuyer": {
+          "label": "Economic Buyer",
+          "questions": [
+            {
+              "q": "Have I identified the true economic buyer?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Ben Curtis, Director of Ecommerce, sits on the leadership team and appears to be the primary decision-maker. However, it's unclear if he has sole budget authority or if a CFO/CEO needs to approve. His email mentions 'our omnichannel team' separately, suggesting retail budget may involve different stakeholders.",
+              "solution": "Confirm whether Ben has full sign-off authority or if another executive must approve the spend.",
+              "action": "Adriana to ask Ben directly: 'Who signs off on the final contract and budget allocation for this project?'",
+              "due": "03/01/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know who's signing the contract?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Contract signer has not been identified in any call. Ben is the champion/evaluator but signing authority is unconfirmed.",
+              "solution": "Need to identify procurement/legal signatory as part of paper process discovery.",
+              "action": "Adriana to inquire about contract signing process and who is authorized.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we have access to this individual?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "We have direct, regular access to Ben Curtis across all 5 calls. He is responsive and engaged in the evaluation.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Can we get access?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "We have access to Ben and his team (Stacey, Magda, Francesco, retail ops team from POS demo), but have not confirmed access to whoever sits above Ben for final budget approval.",
+              "solution": "Request introduction to the economic buyer / final decision-maker if different from Ben.",
+              "action": "Adriana to ask Ben for intro to budget approver or confirm he is the final sign-off.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what the economic buyer cares about most?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Ben cares about total cost (implementation is his 'black hole'), brand experience quality, omnichannel capabilities, and avoiding wasted investment. But we haven't mapped the priorities of whoever sits above him in the approval chain.",
+              "solution": "If there's a separate EB, discover their priorities.",
+              "action": "Adriana to map EB priorities in next call — ask Ben what leadership team cares most about in this decision.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do you know how they make decisions and allocate budget?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "We know this is an RFP process (6 down to ~2 vendors), and Ben has described 'my next stage' and timelines. But the formal budget allocation process, approval steps, and decision-making hierarchy haven't been fully mapped.",
+              "solution": "Map the full budget approval workflow.",
+              "action": "Adriana to ask Ben about budget approval process and whether board sign-off is needed.",
+              "due": "03/05/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "decisionProcess": {
+          "label": "Decision Process",
+          "questions": [
+            {
+              "q": "Do we know how they will be making the decision?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "We know it's a formal RFP process that started with 6 vendors, narrowed to ~2. There are multiple demo rounds (D2C demo, POS demo R1). But the full evaluation framework, scoring methodology, and final decision steps haven't been articulated.",
+              "solution": "Ask Ben to walk through the remaining evaluation stages and final decision process.",
+              "action": "Adriana to request clarity on RFP stages, evaluation criteria weighting, and final decision timeline.",
+              "due": "03/01/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know who's involved / buying committee?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "We've identified Ben Curtis, Stacey Flannery, Magda Jarlaczyk, Francesco, plus 7 retail ops attendees at POS demo. However, the full buying committee (finance, IT/CTO, CEO) has not been mapped.",
+              "solution": "Get a complete org chart of decision-makers and influencers.",
+              "action": "Adriana to ask Ben to share the buying committee / stakeholder map for this decision.",
+              "due": "03/01/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know when they want to make a decision by?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Ben wanted to understand 'by end of this year [2025]' what they're doing. Adobe renewal is Oct 2026. But exact decision date hasn't been stated — AE notes say 'awaiting final feedback for next round of RFP.' Close date in SF is May 2026.",
+              "solution": "Get explicit confirmation of target decision date from Ben.",
+              "action": "Adriana to confirm: 'When do you need to make a final vendor decision to stay on track for Oct 2026 Adobe expiry?'",
+              "due": "03/01/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what is driving this timeline?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Adobe contract expiry October 2026 is clearly driving the timeline. ERP replacement is concurrent. Ben stated urgency around not investing more in Adobe.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know if they have tried to solve this problem before?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "They've been on Adobe Commerce which implies previous platform decisions, but we don't know if they've attempted a migration before or evaluated alternatives previously.",
+              "solution": "Ask if they've previously considered leaving Adobe and what stopped them.",
+              "action": "Adriana to explore: 'Have you evaluated alternatives to Adobe before? What's different this time?'",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what will happen if they do nothing?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Ben expressed concern about wasted investment in Adobe, implying doing nothing means continued spend on a platform they want to leave. But the specific consequences of inaction haven't been articulated.",
+              "solution": "Help Ben quantify the cost of staying on Adobe.",
+              "action": "Include 'cost of doing nothing' analysis in TCO collaboration.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have you validated this process with the buyer?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Ben has shared process details informally across calls but the process hasn't been formally validated or documented in a mutual action plan.",
+              "solution": "Propose a mutual action plan to formalize the remaining evaluation steps.",
+              "action": "Adriana to draft and share mutual action plan with Ben.",
+              "due": "03/01/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "decisionCriteria": {
+          "label": "Decision Criteria",
+          "questions": [
+            {
+              "q": "Do we know what criteria the customer is using to evaluate vendors?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "From calls, we know they care about: omnichannel capabilities, brand experience quality, TCO including implementation, SEO capabilities, POS for 90+ stores. Stacey sent a requirements sheet. However, formal evaluation criteria weighting and scoring methodology are unknown.",
+              "solution": "Request the formal evaluation criteria / RFP scorecard.",
+              "action": "Adriana to ask Ben/Stacey for the RFP evaluation criteria and weighting.",
+              "due": "03/01/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "D2C was thoroughly demo'd. POS was demo'd twice. B2B has not been discussed. Omnichannel features were covered. However, not all capabilities may have been explored against their requirements sheet.",
+              "solution": "Confirm all RFI requirements have been addressed and identify gaps.",
+              "action": "Adriana/SEs to review Stacey's requirements sheet and confirm all items are addressed.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have we surfaced technical complications (integrations)?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Integration needs have been surfaced — NetSuite ERP replacement is concurrent, current Adobe+NetSuite stack complexity was discussed. Click & collect, endless aisle, and other integrations between online and retail were explored.",
+              "solution": "",
+              "action": "Adriana to check if OB has selected new ERP and discuss integration implications.",
+              "due": "03/10/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how payments play into their decision?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Shopify Payments was discussed in detail — rack rates of 1.3% + 0.25 domestic, 2.3% + 0.25 international. Rate review against current rates was offered. Payments GPV of $113.1M is attached.",
+              "solution": "",
+              "action": "Ensure rate review comparison is completed and shared.",
+              "due": "03/01/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we have a mutual action plan in place?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No mutual action plan has been established. Ben has mentioned timelines informally, but no documented, agreed-upon plan exists.",
+              "solution": "Create a mutual action plan with key milestones, dates, and owners.",
+              "action": "Adriana to propose mutual action plan covering: partner scoping, TCO finalization, reference checks, contract review, go-live planning.",
+              "due": "03/01/2026",
+              "highlight": false
+            },
+            {
+              "q": "Did we help shape those criteria in our favour?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "The theme demo was specifically designed to shift Ben's criteria from 'must be headless/custom' toward 'themes can deliver brand quality at lower TCO' — and it partially succeeded. However, competitors are positioned on custom approaches.",
+              "solution": "Continue to build the case for themes over headless — share case studies of premium fashion/lifestyle brands using Shopify themes.",
+              "action": "Adriana/Sarah to share 2-3 brand-quality Shopify theme examples from comparable retailers and TCO comparison.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know who defined the decision criteria?",
+              "answer": "No",
+              "score": 0,
+              "notes": "We don't know who defined the decision criteria — whether it was Ben/Stacey internally, an external consultant, or influenced by a competing vendor's positioning.",
+              "solution": "Ask who helped define the evaluation criteria and requirements.",
+              "action": "Adriana to ask: 'How did you arrive at your evaluation criteria? Did you work with any consultants or partners to define them?'",
+              "due": "03/05/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "paperProcess": {
+          "label": "Paper Process",
+          "questions": [
+            {
+              "q": "Do we know what their procurement process is?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Procurement process has not been discussed in any call. MNDA was signed, but the full procurement workflow is unknown.",
+              "solution": "Map the procurement process including all approvals needed, legal review requirements, and timeline.",
+              "action": "Adriana to ask Ben: 'Once we agree on terms, what does your internal procurement and approval process look like?'",
+              "due": "03/10/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are there likely to be redlines?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No discussion of potential redlines or contract concerns in any call.",
+              "solution": "Proactively share Shopify's standard agreement and ask if they foresee any issues.",
+              "action": "Adriana to share standard contract terms early to identify potential redlines.",
+              "due": "03/15/2026",
+              "highlight": false
+            },
+            {
+              "q": "If redlines, how long does review take?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No information on legal review timeline.",
+              "solution": "Ask about typical legal review duration at OB.",
+              "action": "Adriana to include legal review timeline in procurement discovery.",
+              "due": "03/10/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how long it will take?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Full procurement timeline unknown.",
+              "solution": "Map end-to-end procurement timeline.",
+              "action": "Include in procurement discovery conversation.",
+              "due": "03/10/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we have contract details?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No contract details have been discussed or shared beyond high-level pricing.",
+              "solution": "Prepare formal commercial proposal for when decision criteria are met.",
+              "action": "Adriana to prepare formal proposal document for next stage of RFP.",
+              "due": "03/15/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have we sent the contract?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Contract has not been sent. Deal is still in Demonstrate stage.",
+              "solution": "Contract should be prepared for when deal advances to Deal Craft stage.",
+              "action": "Adriana to have contract ready for when OB signals readiness to move forward.",
+              "due": "04/01/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know target date for signature?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "SF close date is May 2026. Adobe renewal is Oct 2026. No firm target signature date has been agreed with the merchant.",
+              "solution": "Establish target signature date that allows sufficient implementation time before Adobe expiry.",
+              "action": "Adriana to propose working backward from Oct 2026 Adobe expiry to determine latest viable contract signature date.",
+              "due": "03/05/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "identifyPain": {
+          "label": "Identify Pain",
+          "questions": [
+            {
+              "q": "Do we know their current issues and why they are reviewing their tech stack?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Clearly identified: Adobe platform complexity, high cost of omnichannel development on Adobe, ERP replacement creating integration risk, desire to avoid wasting investment, operational complexity across 90+ stores (Calls 1, 3, 4, 5).",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have they tried to resolve this issue in the past?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Not explicitly discussed whether they've tried to resolve these issues before. The formal 6-vendor RFP suggests this is a deliberate, planned initiative.",
+              "solution": "Understand history — have they tried to fix Adobe issues through upgrades or agency work?",
+              "action": "Adriana to explore: 'Have you previously invested in trying to improve your Adobe setup? What was the outcome?'",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how pains are affecting business operations?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Ben articulated specific operational impacts: complexity of delivering click & collect and endless aisle on current stack, concern about investing in Adobe only to replace it, need for 'single vendor solution' (Calls 1, 3). Implementation cost uncertainty affects business planning (Call 5).",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what teams are affected and to what extent?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "We know ecommerce team, retail ops team, and SEO team are affected. But we haven't mapped full extent of impact across the organization — IT, finance, marketing, warehouse/fulfillment.",
+              "solution": "Map all affected teams and understand their specific pain points.",
+              "action": "Adriana to ask Ben for a stakeholder impact map — which teams are most affected?",
+              "due": "03/10/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how urgent it is to solve this pain?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Adobe expiry Oct 2026 creates urgency, but the decision timeline has already slipped past Ben's original end-of-2025 target suggests moderate rather than extreme urgency.",
+              "solution": "Re-establish urgency by working backward from Oct 2026.",
+              "action": "Adriana to present a reverse timeline showing how tight the timeline is when accounting for implementation.",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Can they solve this pain using another option?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "They are evaluating ~2 other vendors plus Adobe renewal is an implicit alternative. Ben's strong statements suggest staying is not preferred but not explicitly ruled out.",
+              "solution": "Understand the specific alternatives more deeply.",
+              "action": "Adriana to ask: 'Beyond Shopify, what other options are you seriously considering, and what do you like about them?'",
+              "due": "03/01/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know why this problem is important to solve now?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Adobe contract expiry Oct 2026, simultaneous ERP replacement, desire to avoid wasted investment, leadership team involvement — all point to why solving this now is important.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Is our solution uniquely positioned to solve this pain?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Shopify's unified commerce proposition is a strong differentiator for OB's omnichannel needs across 90+ stores. However, competitors may offer more customization flexibility, and the implementation cost gap is a vulnerability.",
+              "solution": "Strengthen the unique value proposition around TCO, speed to market, and native omnichannel vs. competitors' custom-but-expensive approaches.",
+              "action": "Adriana to build a competitive comparison showing Shopify's unique advantages.",
+              "due": "03/10/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "champion": {
+          "label": "Champion",
+          "questions": [
+            {
+              "q": "Have you identified a true champion (influence + motivation)?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Ben Curtis is the primary contact with strong influence (Director of Ecommerce, leadership team, 13 years at OB) and motivation. Stacey has Shopify background. However, it's unclear if either has actively championed Shopify internally beyond running a fair evaluation.",
+              "solution": "Determine if Ben or Stacey is actively advocating for Shopify internally or if they are neutral evaluators.",
+              "action": "Adriana to gauge Ben's internal position: 'Based on what you've seen so far, how does Shopify compare to the other options?'",
+              "due": "03/01/2026",
+              "highlight": false
+            },
+            {
+              "q": "Does your champion have political capital and credibility?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Ben is Director of Ecommerce on the leadership team with 13 years at the company. He clearly has organizational credibility and political capital. Stacey also appears to have relevant expertise.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have they given insights you wouldn't get otherwise?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Ben has shared useful context — competitor landscape, decision timeline desires, implementation cost concerns, and that other vendors offer free implementation. However, he hasn't shared internal politics, competitive scoring, or detailed insider information.",
+              "solution": "Build deeper trust with Ben to unlock insider insights.",
+              "action": "Adriana to have a candid 1:1 with Ben: 'Can you share where we stand relative to other vendors and where our gaps are?'",
+              "due": "03/01/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are they connected with the key decision makers?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Ben sits on the leadership team and is the decision-maker or very close to the decision-maker for this evaluation.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have you been introduced to the decision maker?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "We have not been introduced to anyone above Ben. The POS demo included retail ops team members showing Ben is facilitating access within his sphere, but upward introductions haven't occurred.",
+              "solution": "Request introduction to the broader buying committee or senior leadership.",
+              "action": "Adriana to ask Ben: 'At what point would it be helpful for your leadership team to meet with our leadership team?'",
+              "due": "03/10/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are they willing to bring you into the board/buying group?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No evidence of Ben or anyone else bringing Shopify into a board or executive buying group discussion.",
+              "solution": "Offer executive engagement.",
+              "action": "Adriana to propose an executive alignment meeting if appropriate for the RFP stage.",
+              "due": "03/15/2026",
+              "highlight": false
+            },
+            {
+              "q": "Why are they such a champion for you?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Stacey has direct Shopify experience from a previous role providing implicit advocacy. Ben's openness increased after the theme demo. However, neither has explicitly stated they are championing Shopify over other vendors.",
+              "solution": "Convert evaluators to champions by addressing their #1 concern (implementation cost).",
+              "action": "Adriana to address implementation cost 'black hole' urgently — this is the key to winning Ben's active advocacy.",
+              "due": "03/05/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "competition": {
+          "label": "Competition",
+          "questions": [
+            {
+              "q": "Do we know who else the customer is evaluating?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "We know they started with 6 vendors and narrowed to ~2. Adobe Commerce is the incumbent. The specific competing vendors in the final ~2 have not been identified. SF Competitor field is blank.",
+              "solution": "Identify the specific competing vendor(s) in the final round.",
+              "action": "Adriana to ask Ben directly: 'Can you share who else is in the final round?'",
+              "due": "03/01/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have we asked if doing nothing is an option?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Ben's strong statements suggest staying on Adobe is not preferred, but it hasn't been explicitly ruled out. They could theoretically renew and delay migration.",
+              "solution": "Confirm that staying on Adobe is not a viable option.",
+              "action": "Adriana to ask: 'Is there a scenario where you would renew Adobe and delay the migration?'",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are there internal alternatives to our solution?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Staying on Adobe, building custom on Adobe's newer architecture, or the ERP replacement creating internal build vs buy considerations — not fully explored.",
+              "solution": "Understand if there are any internal build options being considered.",
+              "action": "Adriana to explore: 'Is there any consideration of building on Adobe's newer architecture rather than re-platforming?'",
+              "due": "03/05/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know why alternatives are being evaluated?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "They are evaluating alternatives because of Adobe contract expiry, platform complexity, omnichannel limitations, and high dev costs. But we don't know why the specific final-round competitors were chosen.",
+              "solution": "Understand what competing vendors offer that is attractive — especially around custom approach and free implementation.",
+              "action": "Adriana to probe: 'What specifically about those offerings is appealing to you?'",
+              "due": "03/01/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know why we would win or lose?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "We could win because of unified commerce, lower TCO, native omnichannel. We could lose because of implementation cost perception (competitors offering free implementation), theme vs custom perception. Ben's 'black hole' comment is the clearest loss indicator.",
+              "solution": "Build win narrative around total value and neutralize implementation cost objection.",
+              "action": "Adriana to prepare competitive battle card addressing: implementation cost, theme quality vs custom, unified platform vs multi-vendor risk.",
+              "due": "03/05/2026",
+              "highlight": false
+            }
+          ]
+        }
+      },
+      "scores": {
+        "Metrics": {
+          "score": 5.5,
+          "max": 7,
+          "pct": 79
+        },
+        "Economic Buyer": {
+          "score": 3,
+          "max": 6,
+          "pct": 50
+        },
+        "Decision Process": {
+          "score": 4,
+          "max": 7,
+          "pct": 57
+        },
+        "Decision Criteria": {
+          "score": 3.5,
+          "max": 7,
+          "pct": 50
+        },
+        "Paper Process": {
+          "score": 0.5,
+          "max": 7,
+          "pct": 7
+        },
+        "Identify Pain": {
+          "score": 5.5,
+          "max": 8,
+          "pct": 69
+        },
+        "Champion": {
+          "score": 4,
+          "max": 7,
+          "pct": 57
+        },
+        "Competition": {
+          "score": 2.5,
+          "max": 5,
+          "pct": 50
+        },
+        "_total": {
+          "score": 28.5,
+          "max": 54,
+          "pct": 53,
+          "status": "on-track"
+        }
+      },
+      "nextSteps": [
+        {
+          "p": 1,
+          "cat": "Metrics",
+          "issue": "GMV figures are known ($87M D2C, $25M Retail, $113.1M Payments GPV) and ShopPay conversion uplift was discussed, but specific quantifiable goals (e.g., target conversion rate improvement, cost reduction %) have not been validated with the merchant.",
+          "rec": "Adriana to include quantifiable ROI metrics in TCO collaboration session.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 2,
+          "cat": "Metrics",
+          "issue": "Ben mentioned not wanting to waste investment, and the complexity of their current stack is evident, but the specific financial impact of NOT changing hasn't been quantified in calls.",
+          "rec": "Adriana to share ROI framework / business case template with Ben.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 3,
+          "cat": "Metrics",
+          "issue": "TCO calculator was shared and discussed (Call 5), but Ben's primary concern about implementation costs remains unresolved — he called it a 'black hole.' Metrics around platform cost are partially validated but total cost picture is incomplete.",
+          "rec": "Adriana to schedule TCO collaboration working session with Ben and Stacey.",
+          "due": "03/01/2026"
+        },
+        {
+          "p": 4,
+          "cat": "Economic Buyer",
+          "issue": "Ben Curtis, Director of Ecommerce, sits on the leadership team and appears to be the primary decision-maker. However, it's unclear if he has sole budget authority or if a CFO/CEO needs to approve. His email mentions 'our omnichannel team' separately, suggesting retail budget may involve different stakeholders.",
+          "rec": "Adriana to ask Ben directly: 'Who signs off on the final contract and budget allocation for this project?'",
+          "due": "03/01/2026"
+        },
+        {
+          "p": 5,
+          "cat": "Economic Buyer",
+          "issue": "Contract signer has not been identified in any call. Ben is the champion/evaluator but signing authority is unconfirmed.",
+          "rec": "Adriana to inquire about contract signing process and who is authorized.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 6,
+          "cat": "Economic Buyer",
+          "issue": "We have access to Ben and his team (Stacey, Magda, Francesco, retail ops team from POS demo), but have not confirmed access to whoever sits above Ben for final budget approval.",
+          "rec": "Adriana to ask Ben for intro to budget approver or confirm he is the final sign-off.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 7,
+          "cat": "Economic Buyer",
+          "issue": "Ben cares about total cost (implementation is his 'black hole'), brand experience quality, omnichannel capabilities, and avoiding wasted investment. But we haven't mapped the priorities of whoever sits above him in the approval chain.",
+          "rec": "Adriana to map EB priorities in next call — ask Ben what leadership team cares most about in this decision.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 8,
+          "cat": "Economic Buyer",
+          "issue": "We know this is an RFP process (6 down to ~2 vendors), and Ben has described 'my next stage' and timelines. But the formal budget allocation process, approval steps, and decision-making hierarchy haven't been fully mapped.",
+          "rec": "Adriana to ask Ben about budget approval process and whether board sign-off is needed.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 9,
+          "cat": "Decision Process",
+          "issue": "We know it's a formal RFP process that started with 6 vendors, narrowed to ~2. There are multiple demo rounds (D2C demo, POS demo R1). But the full evaluation framework, scoring methodology, and final decision steps haven't been articulated.",
+          "rec": "Adriana to request clarity on RFP stages, evaluation criteria weighting, and final decision timeline.",
+          "due": "03/01/2026"
+        },
+        {
+          "p": 10,
+          "cat": "Decision Process",
+          "issue": "We've identified Ben Curtis, Stacey Flannery, Magda Jarlaczyk, Francesco, plus 7 retail ops attendees at POS demo. However, the full buying committee (finance, IT/CTO, CEO) has not been mapped.",
+          "rec": "Adriana to ask Ben to share the buying committee / stakeholder map for this decision.",
+          "due": "03/01/2026"
+        },
+        {
+          "p": 11,
+          "cat": "Decision Process",
+          "issue": "Ben wanted to understand 'by end of this year [2025]' what they're doing. Adobe renewal is Oct 2026. But exact decision date hasn't been stated — AE notes say 'awaiting final feedback for next round of RFP.' Close date in SF is May 2026.",
+          "rec": "Adriana to confirm: 'When do you need to make a final vendor decision to stay on track for Oct 2026 Adobe expiry?'",
+          "due": "03/01/2026"
+        },
+        {
+          "p": 12,
+          "cat": "Decision Process",
+          "issue": "They've been on Adobe Commerce which implies previous platform decisions, but we don't know if they've attempted a migration before or evaluated alternatives previously.",
+          "rec": "Adriana to explore: 'Have you evaluated alternatives to Adobe before? What's different this time?'",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 13,
+          "cat": "Decision Process",
+          "issue": "Ben expressed concern about wasted investment in Adobe, implying doing nothing means continued spend on a platform they want to leave. But the specific consequences of inaction haven't been articulated.",
+          "rec": "Include 'cost of doing nothing' analysis in TCO collaboration.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 14,
+          "cat": "Decision Process",
+          "issue": "Ben has shared process details informally across calls but the process hasn't been formally validated or documented in a mutual action plan.",
+          "rec": "Adriana to draft and share mutual action plan with Ben.",
+          "due": "03/01/2026"
+        },
+        {
+          "p": 15,
+          "cat": "Decision Criteria",
+          "issue": "From calls, we know they care about: omnichannel capabilities, brand experience quality, TCO including implementation, SEO capabilities, POS for 90+ stores. Stacey sent a requirements sheet. However, formal evaluation criteria weighting and scoring methodology are unknown.",
+          "rec": "Adriana to ask Ben/Stacey for the RFP evaluation criteria and weighting.",
+          "due": "03/01/2026"
+        },
+        {
+          "p": 16,
+          "cat": "Decision Criteria",
+          "issue": "D2C was thoroughly demo'd. POS was demo'd twice. B2B has not been discussed. Omnichannel features were covered. However, not all capabilities may have been explored against their requirements sheet.",
+          "rec": "Adriana/SEs to review Stacey's requirements sheet and confirm all items are addressed.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 17,
+          "cat": "Decision Criteria",
+          "issue": "No mutual action plan has been established. Ben has mentioned timelines informally, but no documented, agreed-upon plan exists.",
+          "rec": "Adriana to propose mutual action plan covering: partner scoping, TCO finalization, reference checks, contract review, go-live planning.",
+          "due": "03/01/2026"
+        },
+        {
+          "p": 18,
+          "cat": "Decision Criteria",
+          "issue": "The theme demo was specifically designed to shift Ben's criteria from 'must be headless/custom' toward 'themes can deliver brand quality at lower TCO' — and it partially succeeded. However, competitors are positioned on custom approaches.",
+          "rec": "Adriana/Sarah to share 2-3 brand-quality Shopify theme examples from comparable retailers and TCO comparison.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 19,
+          "cat": "Decision Criteria",
+          "issue": "We don't know who defined the decision criteria — whether it was Ben/Stacey internally, an external consultant, or influenced by a competing vendor's positioning.",
+          "rec": "Adriana to ask: 'How did you arrive at your evaluation criteria? Did you work with any consultants or partners to define them?'",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 20,
+          "cat": "Paper Process",
+          "issue": "Procurement process has not been discussed in any call. MNDA was signed, but the full procurement workflow is unknown.",
+          "rec": "Adriana to ask Ben: 'Once we agree on terms, what does your internal procurement and approval process look like?'",
+          "due": "03/10/2026"
+        },
+        {
+          "p": 21,
+          "cat": "Paper Process",
+          "issue": "No discussion of potential redlines or contract concerns in any call.",
+          "rec": "Adriana to share standard contract terms early to identify potential redlines.",
+          "due": "03/15/2026"
+        },
+        {
+          "p": 22,
+          "cat": "Paper Process",
+          "issue": "No information on legal review timeline.",
+          "rec": "Adriana to include legal review timeline in procurement discovery.",
+          "due": "03/10/2026"
+        },
+        {
+          "p": 23,
+          "cat": "Paper Process",
+          "issue": "Full procurement timeline unknown.",
+          "rec": "Include in procurement discovery conversation.",
+          "due": "03/10/2026"
+        },
+        {
+          "p": 24,
+          "cat": "Paper Process",
+          "issue": "No contract details have been discussed or shared beyond high-level pricing.",
+          "rec": "Adriana to prepare formal proposal document for next stage of RFP.",
+          "due": "03/15/2026"
+        },
+        {
+          "p": 25,
+          "cat": "Paper Process",
+          "issue": "Contract has not been sent. Deal is still in Demonstrate stage.",
+          "rec": "Adriana to have contract ready for when OB signals readiness to move forward.",
+          "due": "04/01/2026"
+        },
+        {
+          "p": 26,
+          "cat": "Paper Process",
+          "issue": "SF close date is May 2026. Adobe renewal is Oct 2026. No firm target signature date has been agreed with the merchant.",
+          "rec": "Adriana to propose working backward from Oct 2026 Adobe expiry to determine latest viable contract signature date.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 27,
+          "cat": "Identify Pain",
+          "issue": "Not explicitly discussed whether they've tried to resolve these issues before. The formal 6-vendor RFP suggests this is a deliberate, planned initiative.",
+          "rec": "Adriana to explore: 'Have you previously invested in trying to improve your Adobe setup? What was the outcome?'",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 28,
+          "cat": "Identify Pain",
+          "issue": "We know ecommerce team, retail ops team, and SEO team are affected. But we haven't mapped full extent of impact across the organization — IT, finance, marketing, warehouse/fulfillment.",
+          "rec": "Adriana to ask Ben for a stakeholder impact map — which teams are most affected?",
+          "due": "03/10/2026"
+        },
+        {
+          "p": 29,
+          "cat": "Identify Pain",
+          "issue": "Adobe expiry Oct 2026 creates urgency, but the decision timeline has already slipped past Ben's original end-of-2025 target suggests moderate rather than extreme urgency.",
+          "rec": "Adriana to present a reverse timeline showing how tight the timeline is when accounting for implementation.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 30,
+          "cat": "Identify Pain",
+          "issue": "They are evaluating ~2 other vendors plus Adobe renewal is an implicit alternative. Ben's strong statements suggest staying is not preferred but not explicitly ruled out.",
+          "rec": "Adriana to ask: 'Beyond Shopify, what other options are you seriously considering, and what do you like about them?'",
+          "due": "03/01/2026"
+        },
+        {
+          "p": 31,
+          "cat": "Identify Pain",
+          "issue": "Shopify's unified commerce proposition is a strong differentiator for OB's omnichannel needs across 90+ stores. However, competitors may offer more customization flexibility, and the implementation cost gap is a vulnerability.",
+          "rec": "Adriana to build a competitive comparison showing Shopify's unique advantages.",
+          "due": "03/10/2026"
+        },
+        {
+          "p": 32,
+          "cat": "Champion",
+          "issue": "Ben Curtis is the primary contact with strong influence (Director of Ecommerce, leadership team, 13 years at OB) and motivation. Stacey has Shopify background. However, it's unclear if either has actively championed Shopify internally beyond running a fair evaluation.",
+          "rec": "Adriana to gauge Ben's internal position: 'Based on what you've seen so far, how does Shopify compare to the other options?'",
+          "due": "03/01/2026"
+        },
+        {
+          "p": 33,
+          "cat": "Champion",
+          "issue": "Ben has shared useful context — competitor landscape, decision timeline desires, implementation cost concerns, and that other vendors offer free implementation. However, he hasn't shared internal politics, competitive scoring, or detailed insider information.",
+          "rec": "Adriana to have a candid 1:1 with Ben: 'Can you share where we stand relative to other vendors and where our gaps are?'",
+          "due": "03/01/2026"
+        },
+        {
+          "p": 34,
+          "cat": "Champion",
+          "issue": "We have not been introduced to anyone above Ben. The POS demo included retail ops team members showing Ben is facilitating access within his sphere, but upward introductions haven't occurred.",
+          "rec": "Adriana to ask Ben: 'At what point would it be helpful for your leadership team to meet with our leadership team?'",
+          "due": "03/10/2026"
+        },
+        {
+          "p": 35,
+          "cat": "Champion",
+          "issue": "No evidence of Ben or anyone else bringing Shopify into a board or executive buying group discussion.",
+          "rec": "Adriana to propose an executive alignment meeting if appropriate for the RFP stage.",
+          "due": "03/15/2026"
+        },
+        {
+          "p": 36,
+          "cat": "Champion",
+          "issue": "Stacey has direct Shopify experience from a previous role providing implicit advocacy. Ben's openness increased after the theme demo. However, neither has explicitly stated they are championing Shopify over other vendors.",
+          "rec": "Adriana to address implementation cost 'black hole' urgently — this is the key to winning Ben's active advocacy.",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 37,
+          "cat": "Competition",
+          "issue": "We know they started with 6 vendors and narrowed to ~2. Adobe Commerce is the incumbent. The specific competing vendors in the final ~2 have not been identified. SF Competitor field is blank.",
+          "rec": "Adriana to ask Ben directly: 'Can you share who else is in the final round?'",
+          "due": "03/01/2026"
+        },
+        {
+          "p": 38,
+          "cat": "Competition",
+          "issue": "Ben's strong statements suggest staying on Adobe is not preferred, but it hasn't been explicitly ruled out. They could theoretically renew and delay migration.",
+          "rec": "Adriana to ask: 'Is there a scenario where you would renew Adobe and delay the migration?'",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 39,
+          "cat": "Competition",
+          "issue": "Staying on Adobe, building custom on Adobe's newer architecture, or the ERP replacement creating internal build vs buy considerations — not fully explored.",
+          "rec": "Adriana to explore: 'Is there any consideration of building on Adobe's newer architecture rather than re-platforming?'",
+          "due": "03/05/2026"
+        },
+        {
+          "p": 40,
+          "cat": "Competition",
+          "issue": "They are evaluating alternatives because of Adobe contract expiry, platform complexity, omnichannel limitations, and high dev costs. But we don't know why the specific final-round competitors were chosen.",
+          "rec": "Adriana to probe: 'What specifically about those offerings is appealing to you?'",
+          "due": "03/01/2026"
+        },
+        {
+          "p": 41,
+          "cat": "Competition",
+          "issue": "We could win because of unified commerce, lower TCO, native omnichannel. We could lose because of implementation cost perception (competitors offering free implementation), theme vs custom perception. Ben's 'black hole' comment is the clearest loss indicator.",
+          "rec": "Adriana to prepare competitive battle card addressing: implementation cost, theme quality vs custom, unified platform vs multi-vendor risk.",
+          "due": "03/05/2026"
+        }
+      ],
+      "stakeholders": [
+        {
+          "name": "Ben Curtis",
+          "title": "Director Of Ecommerce",
+          "role": "Decision Maker",
+          "email": "ben.curtis@oliverbonas.com",
+          "engagement": "high",
+          "callsAttended": 5,
+          "callsInvited": 6
+        },
+        {
+          "name": "Stacey Flannery",
+          "title": "Digital Development Manager",
+          "role": "Evaluator",
+          "email": "stacey.flannery@oliverbonas.com",
+          "engagement": "high",
+          "callsAttended": 4,
+          "callsInvited": 4
+        },
+        {
+          "name": "Vlad Sgaverdea",
+          "title": "Manager, Netsuite Technology",
+          "role": "Influencer",
+          "email": "vlad.sgaverdea@oliverbonas.com",
+          "engagement": "low",
+          "callsAttended": 0,
+          "callsInvited": 0
+        },
+        {
+          "name": "Magda Jarlaczyk",
+          "title": "Project Manager",
+          "role": "Influencer",
+          "email": "magdalena.jarlaczyk@oliverbonas.com",
+          "engagement": "medium",
+          "callsAttended": 2,
+          "callsInvited": 2
+        },
+        {
+          "name": "Francesco Vallecoccia",
+          "title": "SEO Manager",
+          "role": "Influencer",
+          "email": "",
+          "engagement": "low",
+          "callsAttended": 1,
+          "callsInvited": 1
+        }
+      ],
+      "shopifyTeam": [
+        {
+          "name": "Adriana Colacicco",
+          "role": "Account Executive",
+          "email": "adriana.colacicco@shopify.com"
+        },
+        {
+          "name": "Dave O'Neill",
+          "role": "Solutions Engineer (Retail)",
+          "email": "dave.oneill@shopify.com"
+        },
+        {
+          "name": "Sarah Berelowitz",
+          "role": "Solutions Engineer",
+          "email": "sarah.berelowitz@shopify.com"
+        },
+        {
+          "name": "Jake Martin",
+          "role": "Solutions Engineer",
+          "email": "jake.martin@shopify.com"
+        },
+        {
+          "name": "Matt Crockett",
+          "role": "Account Executive (Initial)",
+          "email": "matt.crockett@shopify.com"
+        }
+      ],
+      "calls": [
+        {
+          "date": "2026-02-11",
+          "title": "EPOS DEMO R1: Shopify",
+          "duration": "120 min",
+          "shopifyAttendees": [
+            "Adriana Colacicco (AE)"
+          ],
+          "merchantAttendees": [
+            "Claudia Moss",
+            "Chantal Callan",
+            "Charlotte Damas",
+            "Ireland (OB)",
+            "Jen Crofts",
+            "Natasha Sims",
+            "Sarah Hay"
+          ],
+          "summary": "Dedicated POS demo to 7 retail operations attendees. AE notes say 'POS demo successful, received good feedback.' No transcript available but very high merchant engagement — largest attendee count of any call."
+        },
+        {
+          "date": "2026-01-29",
+          "title": "Oliver Bonas / Shopify Commercials",
+          "duration": "30 min",
+          "shopifyAttendees": [
+            "Adriana Colacicco (AE)"
+          ],
+          "merchantAttendees": [
+            "Ben Curtis (Director of Ecommerce)",
+            "Stacey Flannery"
+          ],
+          "summary": "Adriana presented TCO calculator and partner agency costs (£50-70k). Ben highlighted implementation cost as the 'black hole' — key blocker. Other vendors offering free/discounted implementation. Discussion about doing online + retail together rather than phased."
+        },
+        {
+          "date": "2026-01-22",
+          "title": "Oliver Bonas <> Shopify Demo",
+          "duration": "120 min",
+          "shopifyAttendees": [
+            "Adriana Colacicco (AE)",
+            "Sarah Berelowitz (SE)",
+            "Dave O'Neill (SE)"
+          ],
+          "merchantAttendees": [
+            "Ben Curtis (Director of Ecommerce)",
+            "Stacey Flannery",
+            "Magda Jarlaczyk (PM)",
+            "Francesco (SEO Manager)"
+          ],
+          "summary": "Full D2C + POS demo. Sarah showcased theme flexibility, AI capabilities, and customization. Dave demo'd POS hardware, unified inventory, and click & collect. Ben shifted from skeptical about themes to more open. Francesco validated SEO capabilities. Checkout extensibility and payment integrations discussed."
+        },
+        {
+          "date": "2025-12-16",
+          "title": "Oliver Bonas <> Shopify (Technical Discovery)",
+          "duration": "60 min",
+          "shopifyAttendees": [
+            "Adriana Colacicco (AE)",
+            "Dave O'Neill (SE)",
+            "Jake Martin (SE)"
+          ],
+          "merchantAttendees": [
+            "Ben Curtis (Director of Ecommerce)",
+            "Stacey Flannery",
+            "Magda Jarlaczyk (PM)"
+          ],
+          "summary": "Technical discovery session. Stacey shared requirements sheet. Discussed themes vs headless (Hydrogen), unified commerce architecture, current tech stack (Adobe + NetSuite), and omnichannel features. Dave covered POS capabilities for 90+ store estate."
+        },
+        {
+          "date": "2025-11-20",
+          "title": "Oliver Bonas <> Shopify Intro",
+          "duration": "30 min",
+          "shopifyAttendees": [
+            "Adriana Colacicco (AE)"
+          ],
+          "merchantAttendees": [
+            "Ben Curtis (Director of Ecommerce)",
+            "Stacey Flannery"
+          ],
+          "summary": "Adriana outlined Shopify Plus pricing (variable platform fees, card processing rates). Discussed POS store count pricing (20 included, all included with Shopify Payments). Offered rate review. Discussed integration capabilities and ERP replacement timeline."
+        },
+        {
+          "date": "2025-11-06",
+          "title": "Oliver Bonas & Shopify (Initial Intro)",
+          "duration": "20 min",
+          "shopifyAttendees": [
+            "Matt Crockett (AE)"
+          ],
+          "merchantAttendees": [
+            "Ben Curtis (Director of Ecommerce)"
+          ],
+          "summary": "Initial discovery. Matt Crockett outlined Shopify Plus 3-product suite (D2C, B2B, POS) and revenue-share model. Ben shared Adobe contract expires Oct 2026, ERP being replaced, wants to avoid further Adobe investment. Stacey has Shopify background. Ben sits on leadership team, 13 years at OB."
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-02-19",
+          "totalScore": 28.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 4,
+            "Decision Criteria": 3.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 5.5,
+            "Champion": 4,
+            "Competition": 2.5
+          },
+          "changes": []
+        }
+      ],
+      "mutualActionPlan": {
+        "merchantName": "OLIVER BONAS LIMITED",
+        "kickoffDate": "",
+        "goLiveDate": "2026-05-30",
+        "contactName": "Adriana Colacicco",
+        "contactEmail": "adriana.colacicco@shopify.com",
+        "champion": "Ben Curtis",
+        "items": [
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Initial discovery & intro calls",
+            "ownerMerchant": "Ben Curtis",
+            "ownerShopify": "Adriana",
+            "notes": "6 calls completed"
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Identify champion & project team",
+            "ownerMerchant": "Ben Curtis",
+            "ownerShopify": "Adriana",
+            "notes": "Champion: Ben Curtis"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Adriana to include quantifiable ROI metrics in TCO collaboration session.",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": "Metrics · Due 03/05/2026",
+            "due": "03/05/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Adriana to share ROI framework / business case template with Ben.",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": "Metrics · Due 03/05/2026",
+            "due": "03/05/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Validate business case with economic buyer",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Confirm economic buyer & signing authority",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Adriana to ask Ben for intro to budget approver or confirm he is the final sign-off.",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": "Due 03/05/2026",
+            "due": "03/05/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Map complete decision & approval process",
+            "ownerMerchant": "Ben Curtis",
+            "ownerShopify": "Adriana",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Adriana to map EB priorities in next call — ask Ben what leadership team cares most about in this decision.",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": "Due 03/05/2026",
+            "due": "03/05/2026"
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Submit merchant intent",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": "Intent: Committed - At Risk"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Finalize commercial proposal",
+            "ownerMerchant": "Ben Curtis",
+            "ownerShopify": "Adriana",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Confirm procurement process & legal steps",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Adriana to ask Ben: 'Once we agree on terms, what does your internal procurement and approval process look like?'",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": "Paper Process · Due 03/10/2026",
+            "due": "03/10/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Adriana to share standard contract terms early to identify potential redlines.",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": "Paper Process · Due 03/15/2026",
+            "due": "03/15/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Contract sent for signature",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Contract signed ✍️",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": "Target: 2026-05-30"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Introduction to Shopify Launch team",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Go-Live 🚀",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          }
+        ]
+      },
+      "coachingSnapshots": [
+        {
+          "date": "2026-02-19",
+          "sections": {
+            "Metrics": {
+              "score": 5.5,
+              "max": 7,
+              "pct": 79
+            },
+            "Economic Buyer": {
+              "score": 3,
+              "max": 6,
+              "pct": 50
+            },
+            "Decision Process": {
+              "score": 4,
+              "max": 7,
+              "pct": 57
+            },
+            "Decision Criteria": {
+              "score": 3.5,
+              "max": 7,
+              "pct": 50
+            },
+            "Paper Process": {
+              "score": 0.5,
+              "max": 7,
+              "pct": 7
+            },
+            "Identify Pain": {
+              "score": 5.5,
+              "max": 8,
+              "pct": 69
+            },
+            "Champion": {
+              "score": 4,
+              "max": 7,
+              "pct": 57
             },
             "Competition": {
               "score": 2.5,
