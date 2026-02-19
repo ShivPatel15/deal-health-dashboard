@@ -144,24 +144,55 @@ function renderList(){
     <div class="sum-card"><div class="lbl">At Risk</div><div class="val" style="color:${atRisk?'var(--r)':'var(--g)'}">${atRisk}</div></div>
   </div>`;
 
-  // DEAL RISK SIGNALS
+  // DEAL RISK SIGNALS — grouped by deal, collapsible
   const allRisks=[];
   filtered.forEach(o=>{getDealRisks(o).forEach(r=>allRisks.push({...r,opp:o}))});
-  allRisks.sort((a,b)=>({"high":0,"med":1,"low":2}[a.sev]||9)-({"high":0,"med":1,"low":2}[b.sev]||9));
-  if(allRisks.length){
+  // Group risks by deal
+  const risksByDeal={};
+  allRisks.forEach(r=>{const id=r.opp.id;if(!risksByDeal[id])risksByDeal[id]={opp:r.opp,risks:[]};risksByDeal[id].risks.push(r)});
+  // Sort deals by highest severity risk first, then by count
+  const sevOrd={"high":0,"med":1,"low":2};
+  const dealRiskArr=Object.values(risksByDeal).sort((a,b)=>{
+    const aMax=Math.min(...a.risks.map(r=>sevOrd[r.sev]||9));
+    const bMax=Math.min(...b.risks.map(r=>sevOrd[r.sev]||9));
+    return aMax!==bMax?aMax-bMax:b.risks.length-a.risks.length;
+  });
+  const totalRiskCount=allRisks.length;
+  const highCount=allRisks.filter(r=>r.sev==="high").length;
+  if(totalRiskCount){
     html+=`<div style="margin-bottom:24px">
-    <h3 style="font-size:16px;font-weight:800;margin-bottom:4px;cursor:pointer;display:flex;align-items:center;gap:6px" onclick="const b=document.getElementById('risk-body');b.classList.toggle('hidden');this.querySelector('.sec-chev').textContent=b.classList.contains('hidden')?'▶':'▼'">\u{1F6A8} Deal Risks <span style="font-size:11px;color:var(--t3);font-weight:400">${allRisks.length}</span> <span class="sec-chev" style="font-size:10px;color:var(--t3)">▶</span></h3>
-    <div class="hidden" id="risk-body">
-    <p style="color:var(--t3);font-size:11px;margin-bottom:12px">Each includes a coaching suggestion.</p>
-    ${allRisks.map(r=>{const sc=r.sev==="high"?"r":r.sev==="med"?"y":"t3";const sb=r.sev==="high"?"r-bg":r.sev==="med"?"y-bg":"s2";const bd=r.sev==="high"?"r-b":r.sev==="med"?"y-b":"b1";const sl=r.sev==="high"?"HIGH":r.sev==="med"?"MED":"LOW";
-      return`<div style="background:var(--${sb});border:1px solid var(--${bd});border-left:3px solid var(--${sc});border-radius:8px;padding:10px 14px;margin-bottom:6px">
-        <div style="display:flex;align-items:center;gap:6px;margin-bottom:4px">
-          <span style="font-size:8px;font-weight:700;color:var(--${sc});background:var(--s1);padding:1px 5px;border-radius:3px">${sl}</span>
-          <span style="font-size:12px;font-weight:600;color:var(--acc-t);cursor:pointer" onclick="showDetail('${r.opp.id}')">${r.opp.accountName}</span>
-          <span style="font-size:10px;color:var(--t3)">${r.opp.owner}</span>
+    <h3 style="font-size:16px;font-weight:800;margin-bottom:8px;cursor:pointer;display:flex;align-items:center;gap:6px" onclick="const b=document.getElementById('risk-body');b.classList.toggle('hidden');this.querySelector('.sec-chev').textContent=b.classList.contains('hidden')?'▶':'▼'">\u{1F6A8} Deal Risks <span style="font-size:11px;color:var(--t3);font-weight:400">${totalRiskCount} signals across ${dealRiskArr.length} deal${dealRiskArr.length>1?'s':''}</span>${highCount?` <span class="badge b-risk">${highCount} HIGH</span>`:``} <span class="sec-chev" style="font-size:10px;color:var(--t3)">▼</span></h3>
+    <div id="risk-body">
+    <p style="color:var(--t3);font-size:11px;margin-bottom:12px">Grouped by deal. Each risk includes a coaching suggestion. Click deal name to expand/collapse.</p>
+    ${dealRiskArr.map((d,di)=>{
+      const o=d.opp,rs=d.risks;
+      const dHigh=rs.filter(r=>r.sev==="high").length;
+      const dMed=rs.filter(r=>r.sev==="med").length;
+      const dLow=rs.filter(r=>r.sev==="low").length;
+      const worstSev=dHigh?"r":dMed?"y":"t3";
+      const dtc=Math.ceil((new Date(o.closeDate)-Date.now())/864e5);
+      const bodyId="risk-deal-"+di;
+      return`<div style="border:1px solid var(--b1);border-left:3px solid var(--${worstSev});border-radius:8px;margin-bottom:8px;overflow:hidden">
+        <div style="padding:10px 14px;background:var(--s2);cursor:pointer;display:flex;align-items:center;gap:8px;flex-wrap:wrap" onclick="const b=document.getElementById('${bodyId}');b.classList.toggle('hidden');this.querySelector('.deal-chev').textContent=b.classList.contains('hidden')?'▶':'▼'">
+          <span class="deal-chev" style="font-size:10px;color:var(--t3)">▼</span>
+          <span style="font-size:13px;font-weight:700;color:var(--acc-t);cursor:pointer" onclick="event.stopPropagation();showDetail('${o.id}')">${o.accountName}</span>
+          <span style="font-size:10px;color:var(--t3)">${o.owner} · Close ${dtc}d</span>
+          <span style="margin-left:auto;display:flex;gap:4px">
+            ${dHigh?`<span style="font-size:8px;font-weight:700;color:var(--r);background:var(--r-bg);padding:1px 5px;border-radius:3px;border:1px solid var(--r-b)">${dHigh} HIGH</span>`:''}
+            ${dMed?`<span style="font-size:8px;font-weight:700;color:var(--y);background:var(--y-bg);padding:1px 5px;border-radius:3px;border:1px solid var(--y-b)">${dMed} MED</span>`:''}
+            ${dLow?`<span style="font-size:8px;font-weight:700;color:var(--t3);background:var(--s2);padding:1px 5px;border-radius:3px;border:1px solid var(--b1)">${dLow} LOW</span>`:''}
+          </span>
         </div>
-        <div style="font-size:12px;color:var(--t);margin-bottom:4px">${r.signal}</div>
-        <div style="font-size:11px;color:var(--t2);background:var(--s1);border-radius:5px;padding:6px 10px;border-left:2px solid var(--acc)">\u{1F4A1} ${r.coaching}</div>
+        <div id="${bodyId}" style="padding:8px 14px 10px">
+          ${rs.sort((a,b)=>(sevOrd[a.sev]||9)-(sevOrd[b.sev]||9)).map(r=>{const sc=r.sev==="high"?"r":r.sev==="med"?"y":"t3";const sb=r.sev==="high"?"r-bg":r.sev==="med"?"y-bg":"s2";const bd=r.sev==="high"?"r-b":r.sev==="med"?"y-b":"b1";const sl=r.sev==="high"?"HIGH":r.sev==="med"?"MED":"LOW";
+            return`<div style="background:var(--${sb});border:1px solid var(--${bd});border-left:3px solid var(--${sc});border-radius:6px;padding:8px 12px;margin-bottom:5px">
+              <div style="display:flex;align-items:center;gap:6px;margin-bottom:3px">
+                <span style="font-size:8px;font-weight:700;color:var(--${sc});background:var(--s1);padding:1px 5px;border-radius:3px">${sl}</span>
+                <span style="font-size:12px;color:var(--t)">${r.signal}</span>
+              </div>
+              <div style="font-size:11px;color:var(--t2);background:var(--s1);border-radius:5px;padding:5px 9px;border-left:2px solid var(--acc)">\u{1F4A1} ${r.coaching}</div>
+            </div>`}).join("")}
+        </div>
       </div>`}).join("")}</div></div>`;
   }
 
