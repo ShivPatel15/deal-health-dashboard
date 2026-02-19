@@ -1,0 +1,185 @@
+{
+  "_description": "Deterministic rules for Lite Refresh: SF field changes → MEDDPICC score adjustments. Rules are applied when a daily refresh detects a Salesforce field diff. Each rule targets a specific MEDDPICC section + question index and defines the score bump. 'minScore' means: only apply if current score is below this (prevents double-bumping). 'setTo' means: force to this answer regardless of current.",
+  "rules": [
+    {
+      "id": "forecast-commit-metrics-validation",
+      "field": "forecastCategory",
+      "trigger": { "newValueIn": ["Commit", "Closed Won"] },
+      "section": "metrics",
+      "questionIndex": 5,
+      "questionText": "Have I validated the metrics with the customer?",
+      "adjustment": { "setTo": "Yes" },
+      "reason": "Commit/Closed forecast implies metrics have been validated with the merchant."
+    },
+    {
+      "id": "forecast-commit-eb-identified",
+      "field": "forecastCategory",
+      "trigger": { "newValueIn": ["Commit", "Closed Won"] },
+      "section": "economicBuyer",
+      "questionIndex": 0,
+      "questionText": "Have I identified the true economic buyer?",
+      "adjustment": { "minBump": "Partial" },
+      "reason": "Cannot reach Commit without having identified the economic buyer."
+    },
+    {
+      "id": "forecast-commit-decision-process-validated",
+      "field": "forecastCategory",
+      "trigger": { "newValueIn": ["Commit", "Closed Won"] },
+      "section": "decisionProcess",
+      "questionIndex": 6,
+      "questionText": "Have you validated this process with the buyer?",
+      "adjustment": { "minBump": "Partial" },
+      "reason": "Commit status implies the decision process has been at least partially validated."
+    },
+    {
+      "id": "payments-gpv-decision-criteria",
+      "field": "revenue.paymentsGpv",
+      "trigger": { "fromZeroOrNull": true, "newValueGt": 0 },
+      "section": "decisionCriteria",
+      "questionIndex": 3,
+      "questionText": "Do we know how payments play into their decision?",
+      "adjustment": { "setTo": "Yes" },
+      "reason": "Payments GPV captured — we now know how payments factor into the decision."
+    },
+    {
+      "id": "payments-gpv-metrics-quantified",
+      "field": "revenue.paymentsGpv",
+      "trigger": { "fromZeroOrNull": true, "newValueGt": 0 },
+      "section": "metrics",
+      "questionIndex": 1,
+      "questionText": "Do we have specific quantifiable goals aligned with the project?",
+      "adjustment": { "minBump": "Yes" },
+      "reason": "Payments GPV is a specific quantifiable metric aligned with the project."
+    },
+    {
+      "id": "competitor-cleared-know-who",
+      "field": "competitive.primary",
+      "trigger": { "newValueIn": ["None", "none", ""] },
+      "section": "competition",
+      "questionIndex": 0,
+      "questionText": "Do we know who else the customer is evaluating?",
+      "adjustment": { "setTo": "Yes" },
+      "reason": "Competitor cleared — we know they are not evaluating anyone else."
+    },
+    {
+      "id": "competitor-cleared-win-lose",
+      "field": "competitive.primary",
+      "trigger": { "newValueIn": ["None", "none", ""] },
+      "section": "competition",
+      "questionIndex": 4,
+      "questionText": "Do we know why we would win or lose?",
+      "adjustment": { "minBump": "Yes" },
+      "reason": "No competitor — clear win path established."
+    },
+    {
+      "id": "competitor-cleared-doing-nothing",
+      "field": "competitive.primary",
+      "trigger": { "newValueIn": ["None", "none", ""] },
+      "section": "competition",
+      "questionIndex": 1,
+      "questionText": "Have we asked if doing nothing is an option?",
+      "adjustment": { "minBump": "Partial" },
+      "reason": "Clearing competitor suggests 'do nothing' has been addressed at least partially."
+    },
+    {
+      "id": "launch-pushed-paper-timeline",
+      "field": "timeline.proposedLaunch",
+      "trigger": { "pushedBack": true },
+      "section": "paperProcess",
+      "questionIndex": 6,
+      "questionText": "Do we know target date for signature?",
+      "adjustment": { "maxCap": "Partial" },
+      "reason": "Launch date pushed back — signature timeline is now uncertain."
+    },
+    {
+      "id": "launch-pushed-decision-timeline",
+      "field": "timeline.proposedLaunch",
+      "trigger": { "pushedBack": true },
+      "section": "decisionProcess",
+      "questionIndex": 2,
+      "questionText": "Do we know when they want to make a decision by?",
+      "adjustment": { "maxCap": "Partial" },
+      "reason": "Launch date pushed back — decision timeline may have shifted."
+    },
+    {
+      "id": "launch-pushed-paper-how-long",
+      "field": "timeline.proposedLaunch",
+      "trigger": { "pushedBack": true },
+      "section": "paperProcess",
+      "questionIndex": 3,
+      "questionText": "Do we know how long it will take?",
+      "adjustment": { "maxCap": "Partial" },
+      "reason": "Launch delay implies timeline is less certain."
+    },
+    {
+      "id": "merchant-intent-committed-champion",
+      "field": "merchantIntent",
+      "trigger": { "newValueIn": ["Committed", "committed"] },
+      "section": "champion",
+      "questionIndex": 0,
+      "questionText": "Have you identified a true champion (influence + motivation)?",
+      "adjustment": { "minBump": "Yes" },
+      "reason": "Committed merchant intent implies a strong internal champion exists."
+    },
+    {
+      "id": "merchant-intent-committed-metrics-compelling",
+      "field": "merchantIntent",
+      "trigger": { "newValueIn": ["Committed", "committed"] },
+      "section": "metrics",
+      "questionIndex": 6,
+      "questionText": "Are the metrics compelling enough to justify change?",
+      "adjustment": { "minBump": "Yes" },
+      "reason": "Merchant commitment implies metrics are compelling enough."
+    },
+    {
+      "id": "merchant-intent-downgrade-champion",
+      "field": "merchantIntent",
+      "trigger": { "newValueIn": ["Not Interested", "Disengaged", "Lost"] },
+      "section": "champion",
+      "questionIndex": 0,
+      "questionText": "Have you identified a true champion (influence + motivation)?",
+      "adjustment": { "maxCap": "No" },
+      "reason": "Merchant disengagement indicates champion may be lost."
+    },
+    {
+      "id": "stage-negotiate-procurement",
+      "field": "stage",
+      "trigger": { "newValueIn": ["Negotiate", "Negotiate & Close", "Closed Won"] },
+      "section": "paperProcess",
+      "questionIndex": 0,
+      "questionText": "Do we know what their procurement process is?",
+      "adjustment": { "minBump": "Partial" },
+      "reason": "Reaching Negotiate stage implies procurement process is at least partially known."
+    },
+    {
+      "id": "stage-negotiate-decision-known",
+      "field": "stage",
+      "trigger": { "newValueIn": ["Negotiate", "Negotiate & Close", "Closed Won"] },
+      "section": "decisionProcess",
+      "questionIndex": 0,
+      "questionText": "Do we know how they will be making the decision?",
+      "adjustment": { "minBump": "Partial" },
+      "reason": "Reaching Negotiate stage implies decision process is at least partially understood."
+    },
+    {
+      "id": "stage-negotiate-contract-details",
+      "field": "stage",
+      "trigger": { "newValueIn": ["Negotiate", "Negotiate & Close", "Closed Won"] },
+      "section": "paperProcess",
+      "questionIndex": 4,
+      "questionText": "Do we have contract details?",
+      "adjustment": { "minBump": "Partial" },
+      "reason": "Negotiate stage implies contract details are at least partially in play."
+    },
+    {
+      "id": "contract-sent-paper-process",
+      "field": "contractSent",
+      "trigger": { "newValueIn": [true, "true", "Yes"] },
+      "section": "paperProcess",
+      "questionIndex": 5,
+      "questionText": "Have we sent the contract?",
+      "adjustment": { "setTo": "Yes" },
+      "reason": "Contract has been sent."
+    }
+  ]
+}
