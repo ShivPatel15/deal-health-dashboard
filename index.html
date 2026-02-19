@@ -49,6 +49,10 @@ table{width:100%;border-collapse:collapse;background:var(--s1);border-radius:10p
 .vh{background:var(--s1);border:1px solid var(--b1);border-radius:10px;padding:14px 16px;margin-bottom:9px;border-left:3px solid var(--bl)}.vh-date{font-size:13px;font-weight:700;margin-bottom:6px;display:flex;align-items:center;gap:8px}.vh-score{font-size:12px;color:var(--t2)}.vh-changes{margin-top:6px}.vh-change{font-size:11px;color:var(--t2);padding:3px 0;display:flex;align-items:center;gap:6px}.vh-delta{font-weight:700;font-size:11px;padding:1px 6px;border-radius:4px}.vh-delta.up{color:var(--g);background:var(--g-bg)}.vh-delta.down{color:var(--r);background:var(--r-bg)}.vh-delta.neutral{color:var(--t3);background:var(--s3)}
 /* Comments */
 .cmt-section{margin-top:18px;border-top:1px solid var(--b1);padding-top:14px}.cmt-section h3{font-size:13px;margin-bottom:10px}.cmt-row{display:flex;gap:8px;margin-bottom:12px}.cmt-inp{flex:1;padding:8px 12px;border-radius:8px;border:1px solid var(--inp-b);background:var(--inp-bg);color:var(--t);font-size:12px;outline:none;font-family:inherit}.cmt-inp:focus{border-color:var(--acc)}.cmt-row button{padding:8px 16px;border-radius:8px;background:var(--acc);color:#fff;border:none;font-size:12px;font-weight:600;cursor:pointer}.cmt{background:var(--s2);border-radius:8px;padding:9px 12px;margin-bottom:6px}.cmt-top{display:flex;justify-content:space-between;margin-bottom:3px}.cmt-author{font-size:11px;font-weight:600}.cmt-time{font-size:9px;color:var(--t3)}.cmt-text{font-size:12px;color:var(--t2);line-height:1.55}.cmt-del{font-size:9px;color:var(--t3);cursor:pointer;margin-left:6px}.cmt-del:hover{color:var(--r)}
+/* MAP table */
+.map-tbl{width:100%;border-collapse:collapse;background:var(--s1);border:1px solid var(--b1);border-radius:10px;overflow:hidden;margin-bottom:16px}.map-tbl th{text-align:left;padding:8px 12px;font-size:9px;text-transform:uppercase;letter-spacing:.5px;color:var(--t3);background:var(--s2);border-bottom:1px solid var(--b1);white-space:nowrap}.map-tbl td{padding:8px 12px;font-size:11px;border-bottom:1px solid var(--b1);vertical-align:middle}.map-tbl tr:last-child td{border-bottom:none}.map-tbl tr.map-done td{opacity:.5}.map-tbl tr.map-done td:nth-child(3){text-decoration:line-through}.map-tbl .map-check{accent-color:var(--acc);width:16px;height:16px;cursor:pointer}.map-tbl .map-bold{font-weight:700}.map-hdr{display:flex;align-items:center;justify-content:space-between;padding:14px 16px;background:var(--s2);border:1px solid var(--b1);border-radius:10px 10px 0 0;margin-bottom:0}.map-hdr h3{font-size:14px;font-weight:700;display:flex;align-items:center;gap:8px}.map-progress{display:flex;align-items:center;gap:10px}.map-progress .mp-bar{width:120px;height:6px;background:var(--s3);border-radius:3px;overflow:hidden}.map-progress .mp-fill{height:100%;border-radius:3px;transition:width .5s}.map-info{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:14px 16px;background:var(--s1);border:1px solid var(--b1);border-top:none;margin-bottom:16px}.map-info-item{font-size:12px}.map-info-label{font-size:9px;color:var(--t3);text-transform:uppercase;letter-spacing:.5px;margin-bottom:2px}
+/* Coaching drilldown */
+.coach-modal{position:fixed;top:0;left:0;right:0;bottom:0;z-index:250;background:rgba(0,0,0,.7);display:flex;align-items:center;justify-content:center;padding:20px}.coach-panel{background:var(--bg);border:1px solid var(--b1);border-radius:14px;max-width:900px;width:100%;max-height:90vh;overflow-y:auto;padding:0}.coach-panel-head{display:flex;align-items:center;justify-content:space-between;padding:16px 20px;border-bottom:1px solid var(--b1);position:sticky;top:0;background:var(--bg);z-index:1;border-radius:14px 14px 0 0}.coach-panel-head h2{font-size:18px;font-weight:800;display:flex;align-items:center;gap:8px}.coach-close{background:var(--s3);border:1px solid var(--b1);color:var(--t2);width:28px;height:28px;border-radius:6px;cursor:pointer;font-size:14px;display:flex;align-items:center;justify-content:center}.coach-close:hover{color:var(--t);border-color:var(--b2)}
 .toast{position:fixed;bottom:20px;right:20px;background:var(--acc);color:#fff;padding:8px 16px;border-radius:8px;font-size:12px;font-weight:600;opacity:0;transition:opacity .3s;pointer-events:none;z-index:300}.toast.show{opacity:1}
 .hidden{display:none!important}.money{font-variant-numeric:tabular-nums}
 @media(max-width:900px){.sum-row{grid-template-columns:repeat(2,1fr)}.tiles{grid-template-columns:repeat(2,1fr)}.nar-grid,.sg{grid-template-columns:1fr}.mrow,.mhdr{grid-template-columns:2fr 50px 2.5fr 0 0 0}.mrow>div:nth-child(n+4),.mhdr>div:nth-child(n+4){display:none}}
@@ -206,11 +210,11 @@ function renderList(){
     ${coachOwners.map(ow=>{
       const owD=opps.filter(o=>o.owner===ow);if(!owD.length)return"";
       const c=getRepCoaching(ow,owD);
-      return`<div style="background:var(--s1);border:1px solid var(--b1);border-radius:10px;overflow:hidden">
+      return`<div style="background:var(--s1);border:1px solid var(--b1);border-radius:10px;overflow:hidden;cursor:pointer" onclick="showCoachingDrilldown('${ow}')">
         <div style="padding:12px 14px;border-bottom:1px solid var(--b1);background:var(--s2);display:flex;align-items:center;justify-content:space-between">
           <div style="display:flex;align-items:center;gap:8px">
             <span style="width:28px;height:28px;border-radius:50%;background:var(--s3);display:inline-flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:var(--bl)">${ini(ow)}</span>
-            <div><div style="font-size:13px;font-weight:700">${ow}</div><div style="font-size:10px;color:var(--t3)">${owD.length} deal${owD.length>1?"s":""}</div></div>
+            <div><div style="font-size:13px;font-weight:700">${ow}</div><div style="font-size:10px;color:var(--t3)">${owD.length} deal${owD.length>1?"s":""} · <span style="color:var(--acc-t)">click for trends →</span></div></div>
           </div>
           <div style="text-align:right"><div style="font-size:9px;color:var(--t3)">FOCUS AREA</div><div style="font-size:12px;font-weight:700;color:var(--r)">${c.weakest.name}</div></div>
         </div>
@@ -347,7 +351,7 @@ function showDetail(id){
   // Build tabs
   const tabNames=['Overview'];
   if(hasMeddpicc)tabNames.push('MEDDPICC');
-  tabNames.push('Next Steps','Stakeholders','Calls','History','Comments');
+  tabNames.push('Action Plan','Next Steps','Stakeholders','Calls','History','Comments');
 
   el.innerHTML=`<button class="back" onclick="goBack()">← Pipeline</button>
   <div class="dh-top"><div>
@@ -417,6 +421,11 @@ function showDetail(id){
       </div>`}).join('')}</div></div>`}).join('')}
       <p style="color:var(--t3);font-size:11px;margin-top:6px;font-style:italic">💡 Double-click any row to edit</p>
       </div>`:''}
+
+  <!-- MUTUAL ACTION PLAN -->
+  <div class="pane" id="p-actionplan">
+    ${renderMAP(opp)}
+  </div>
 
   <!-- NEXT STEPS -->
   <div class="pane" id="p-nextsteps">
@@ -648,6 +657,213 @@ function renderComments(){
 function saveName(){const n=document.getElementById('cmt-name').value.trim();if(n){localStorage.setItem('cmt_user',n);renderComments()}}
 async function postComment(){const i=document.getElementById('ci'),t=i.value.trim();if(!t)return;await addComment(currentOpp.id,t,localStorage.getItem('cmt_user')||'Anonymous');renderComments()}
 async function delComment(id){await deleteComment(currentOpp.id,id);renderComments()}
+
+// ============================================================
+// MUTUAL ACTION PLAN RENDERER
+// ============================================================
+function renderMAP(opp){
+  const map=opp.mutualActionPlan;
+  if(!map||!map.items||!map.items.length)return'<p style="color:var(--t3);font-size:12px">No mutual action plan configured for this deal.</p>';
+  const done=map.items.filter(i=>i.done).length;
+  const total=map.items.length;
+  const pct=Math.round(done/total*100);
+  const pctColor=pct<30?'r':pct<60?'y':'g';
+  const champion=map.champion||'TBD';
+  return`
+  <div class="map-hdr">
+    <h3>📋 ${opp.accountName} — Mutual Action Plan</h3>
+    <div class="map-progress">
+      <div class="mp-bar"><div class="mp-fill" style="width:${pct}%;background:var(--${pctColor})"></div></div>
+      <span style="font-size:12px;font-weight:700;color:var(--${pctColor})">${done}/${total} (${pct}%)</span>
+    </div>
+  </div>
+  <div class="map-info" style="border-radius:0">
+    <div class="map-info-item"><div class="map-info-label">Project Kick Off</div><div style="font-weight:600">${map.kickoffDate||'TBD'}</div></div>
+    <div class="map-info-item"><div class="map-info-label">Go Live Date</div><div style="font-weight:700;color:var(--acc-t)">${map.goLiveDate||'TBD'}</div></div>
+    <div class="map-info-item"><div class="map-info-label">Questions?</div><div>Contact ${map.contactName} at anytime</div><div style="font-size:10px;color:var(--bl)">${map.contactEmail||''}</div></div>
+    <div class="map-info-item"><div class="map-info-label">Merchant Champion</div><div style="font-weight:600">${champion}</div></div>
+  </div>
+  <table class="map-tbl" style="border-radius:0 0 10px 10px;border-top:none">
+    <thead><tr>
+      <th style="width:100px">Target Date</th>
+      <th style="width:40px;text-align:center">✓</th>
+      <th>Milestone</th>
+      <th style="width:160px">Owner (${opp.accountName.split(' ')[0]})</th>
+      <th style="width:160px">Owner (Shopify)</th>
+      <th>Outcome / Notes</th>
+    </tr></thead>
+    <tbody>
+    ${map.items.map((item,idx)=>{
+      const checkId='map_'+opp.id+'_'+idx;
+      const savedDone=localStorage.getItem(checkId);
+      const isDone=savedDone!==null?(savedDone==='done'):item.done;
+      const isBold=item.milestone==='Go-Live!'||item.milestone==='Shopify contract signed';
+      return`<tr class="${isDone?'map-done':''}">
+        <td style="white-space:nowrap;font-size:10px;color:var(--t3)">${item.date||''}</td>
+        <td style="text-align:center"><input type="checkbox" class="map-check" ${isDone?'checked':''} onchange="toggleMAP('${checkId}',this,'${opp.id}')"></td>
+        <td class="${isBold?'map-bold':''}">${item.milestone}</td>
+        <td style="font-size:10px;color:var(--t2)">${item.ownerMerchant||''}</td>
+        <td style="font-size:10px;color:var(--bl)">${item.ownerShopify||''}</td>
+        <td style="font-size:10px;color:var(--t2)">${item.notes||''}</td>
+      </tr>`}).join('')}
+    </tbody>
+  </table>
+  <p style="color:var(--t3);font-size:10px;margin-top:6px;font-style:italic">💡 Check off milestones as you progress. Changes save locally. Share this plan with your merchant to drive urgency.</p>`;
+}
+function toggleMAP(checkId,el,oppId){
+  const row=el.closest('tr');
+  if(el.checked){localStorage.setItem(checkId,'done');row.classList.add('map-done')}
+  else{localStorage.setItem(checkId,'not_done');row.classList.remove('map-done')}
+  // Recount for progress bar
+  const opp=opps.find(o=>o.id===oppId);if(!opp||!opp.mutualActionPlan)return;
+  const items=opp.mutualActionPlan.items;
+  let done=0;
+  items.forEach((item,idx)=>{
+    const cid='map_'+oppId+'_'+idx;
+    const sv=localStorage.getItem(cid);
+    if(sv!==null?sv==='done':item.done)done++;
+  });
+  const pct=Math.round(done/items.length*100);
+  const fill=document.querySelector('.mp-fill');
+  if(fill){fill.style.width=pct+'%';fill.style.background=pct<30?'var(--r)':pct<60?'var(--y)':'var(--g)'}
+  const lbl=document.querySelector('.map-progress span');
+  if(lbl){lbl.textContent=done+'/'+items.length+' ('+pct+'%)';lbl.style.color=pct<30?'var(--r)':pct<60?'var(--y)':'var(--g)'}
+}
+
+// ============================================================
+// COACHING DRILL-DOWN
+// ============================================================
+function showCoachingDrilldown(owner){
+  const owDeals=opps.filter(o=>o.owner===owner);
+  if(!owDeals.length)return;
+  // Build section-level time-series data from coachingSnapshots + history
+  const secData={};
+  secNames.forEach(s=>{secData[s]={snapshots:[],current:0}});
+  // Gather all snapshot dates across deals for this owner
+  const allDates=new Set();
+  owDeals.forEach(o=>{
+    (o.coachingSnapshots||[]).forEach(snap=>allDates.add(snap.date));
+    (o.history||[]).forEach(h=>allDates.add(h.date));
+  });
+  const sortedDates=[...allDates].sort();
+  // For each date, compute aggregate section scores across all owner's deals
+  sortedDates.forEach(date=>{
+    secNames.forEach(secName=>{
+      let totalScore=0,totalMax=0;
+      owDeals.forEach(o=>{
+        // Find the closest snapshot/history entry for this date
+        const snap=(o.coachingSnapshots||[]).find(s=>s.date===date);
+        const hist=(o.history||[]).find(h=>h.date===date);
+        if(snap&&snap.sections[secName]){
+          totalScore+=snap.sections[secName].score;
+          totalMax+=snap.sections[secName].max;
+        }else if(hist&&hist.sectionScores&&hist.sectionScores[secName]!=null){
+          // history stores scores but not max, derive from meddpicc
+          const sec=Object.values(o.meddpicc||{}).find(s=>s.label===secName);
+          totalScore+=hist.sectionScores[secName];
+          totalMax+=sec?sec.questions.length:7;
+        }
+      });
+      if(totalMax>0){
+        secData[secName].snapshots.push({date,pct:Math.round(totalScore/totalMax*100),score:totalScore,max:totalMax});
+      }
+    });
+  });
+  // Compute current values
+  secNames.forEach(s=>{
+    const snaps=secData[s].snapshots;
+    secData[s].current=snaps.length?snaps[snaps.length-1].pct:0;
+  });
+  // Compute per-deal breakdown for current
+  const dealBreakdown=owDeals.map(o=>{
+    const dd={name:o.accountName,id:o.id,sections:{}};
+    secNames.forEach(secName=>{
+      const sec=Object.values(o.meddpicc||{}).find(s=>s.label===secName);
+      if(sec){
+        const score=sec.questions.reduce((s,q)=>s+(q.score||0),0);
+        dd.sections[secName]={score,max:sec.questions.length,pct:sec.questions.length?Math.round(score/sec.questions.length*100):0};
+      }else{dd.sections[secName]={score:0,max:0,pct:0}}
+    });
+    return dd;
+  });
+  // Find improving/declining (compare first vs last snapshot)
+  const trends=secNames.map(s=>{
+    const snaps=secData[s].snapshots;
+    if(snaps.length<2)return{name:s,delta:0,dir:'new',current:secData[s].current};
+    const first=snaps[0].pct,last=snaps[snaps.length-1].pct;
+    return{name:s,delta:last-first,dir:last>first?'up':last<first?'down':'flat',current:last,first,last};
+  }).sort((a,b)=>a.delta-b.delta);
+  const declining=trends.filter(t=>t.dir==='down');
+  const improving=trends.filter(t=>t.dir==='up');
+  // Render modal
+  const modal=document.createElement('div');
+  modal.className='coach-modal';
+  modal.onclick=e=>{if(e.target===modal)modal.remove()};
+  const fn=owner.split(' ')[0];
+  // Build sparkline SVGs for each section
+  function sparkSVG(snaps,w,h){
+    if(snaps.length<2)return'<span style="font-size:9px;color:var(--t3)">📊 baseline</span>';
+    const minP=0,maxP=100;
+    const pts=snaps.map((s,i)=>{
+      const x=Math.round(i/(snaps.length-1)*w);
+      const y=Math.round(h-(s.pct-minP)/(maxP-minP)*h);
+      return x+','+y;
+    }).join(' ');
+    const lastPct=snaps[snaps.length-1].pct;
+    const firstPct=snaps[0].pct;
+    const col=lastPct>firstPct?'var(--g)':lastPct<firstPct?'var(--r)':'var(--y)';
+    return'<svg width="'+w+'" height="'+h+'" style="display:block"><polyline points="'+pts+'" fill="none" stroke="'+col+'" stroke-width="2" stroke-linecap="round"/></svg>';
+  }
+  modal.innerHTML=`<div class="coach-panel">
+    <div class="coach-panel-head">
+      <h2><span style="width:32px;height:32px;border-radius:50%;background:var(--s3);display:inline-flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:var(--bl)">${ini(owner)}</span> ${owner} — MEDDPICC Trends</h2>
+      <button class="coach-close" onclick="this.closest('.coach-modal').remove()">✕</button>
+    </div>
+    <div style="padding:16px 20px">
+      <p style="color:var(--t3);font-size:12px;margin-bottom:16px">Tracking ${fn}'s MEDDPICC performance across ${owDeals.length} deal${owDeals.length>1?'s':''}. Baseline: ${sortedDates[0]||'today'}. As you coach and refresh deals, trends will appear here.</p>
+      ${declining.length?`<div style="background:var(--r-bg);border:1px solid var(--r-b);border-radius:8px;padding:10px 14px;margin-bottom:14px">
+        <div style="font-size:11px;font-weight:700;color:var(--r);margin-bottom:4px">⚠ Declining Areas</div>
+        <div style="font-size:12px;color:var(--t);line-height:1.6">${declining.map(t=>'<b>'+t.name+'</b> dropped '+Math.abs(t.delta)+'pts ('+t.first+'% → '+t.last+'%)').join(', ')}</div>
+      </div>`:''}
+      ${improving.length?`<div style="background:var(--g-bg);border:1px solid var(--g-b);border-radius:8px;padding:10px 14px;margin-bottom:14px">
+        <div style="font-size:11px;font-weight:700;color:var(--g);margin-bottom:4px">📈 Improving Areas</div>
+        <div style="font-size:12px;color:var(--t);line-height:1.6">${improving.map(t=>'<b>'+t.name+'</b> up +'+t.delta+'pts ('+t.first+'% → '+t.last+'%)').join(', ')}</div>
+      </div>`:''}
+      <h3 style="font-size:14px;font-weight:700;margin-bottom:12px">Section Scores Over Time</h3>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(380px,1fr));gap:10px;margin-bottom:20px">
+      ${secNames.map(secName=>{
+        const sd=secData[secName];
+        const snaps=sd.snapshots;
+        const bc=sd.current<40?'r':sd.current<65?'y':'g';
+        const trend=trends.find(t=>t.name===secName)||{delta:0,dir:'flat'};
+        const tIcon=trend.dir==='up'?'<span style="color:var(--g)">▲ +'+trend.delta+'</span>':trend.dir==='down'?'<span style="color:var(--r)">▼ '+trend.delta+'</span>':'<span style="color:var(--t3)">— baseline</span>';
+        return'<div style="background:var(--s1);border:1px solid var(--b1);border-radius:8px;padding:12px 14px">'
+          +'<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px">'
+          +'<div style="font-size:12px;font-weight:700">'+secName+'</div>'
+          +'<div style="display:flex;align-items:center;gap:8px">'
+          +'<span style="font-size:20px;font-weight:800;color:var(--'+bc+')">'+sd.current+'%</span>'
+          +'<span style="font-size:10px">'+tIcon+'</span></div></div>'
+          +'<div style="margin-bottom:8px">'+sparkSVG(snaps,340,40)+'</div>'
+          +'<div style="display:flex;gap:4px;flex-wrap:wrap">'
+          +dealBreakdown.map(d=>{
+            const ds=d.sections[secName];
+            const dc=ds.pct<40?'r':ds.pct<65?'y':'g';
+            return'<span style="font-size:9px;padding:2px 6px;border-radius:4px;background:var(--'+dc+'-bg);color:var(--'+dc+');border:1px solid var(--'+dc+'-b);cursor:pointer" onclick="event.stopPropagation();document.querySelector(\'.coach-modal\').remove();showDetail(\''+d.id+'\')" title="'+d.name+'">'+d.name.split(' ')[0]+' '+ds.score+'/'+ds.max+'</span>';
+          }).join('')
+          +'</div></div>'}).join('')}
+      </div>
+      <h3 style="font-size:14px;font-weight:700;margin-bottom:10px">Per-Deal Breakdown</h3>
+      <table style="border-radius:10px"><thead><tr><th>Deal</th>${secNames.map(s=>'<th style="text-align:center;font-size:8px">'+s.replace('Economic ','Econ ').replace('Decision ','Dec ').replace('Identify ','ID ')+'</th>').join('')}<th style="text-align:center">Total</th></tr></thead>
+      <tbody>${dealBreakdown.map(d=>{
+        let rowTotal=0,rowMax=0;
+        return'<tr onclick="document.querySelector(\'.coach-modal\').remove();showDetail(\''+d.id+'\')" style="cursor:pointer"><td style="font-weight:600;font-size:11px">'+d.name+'</td>'
+          +secNames.map(s=>{const ds=d.sections[s];rowTotal+=ds.score;rowMax+=ds.max;const dc=ds.pct<40?'r':ds.pct<65?'y':'g';return'<td style="text-align:center;font-size:11px;font-weight:700;color:var(--'+dc+')">'+ds.pct+'%</td>'}).join('')
+          +'<td style="text-align:center;font-size:11px;font-weight:800">'+(rowMax?Math.round(rowTotal/rowMax*100):0)+'%</td></tr>'}).join('')}
+      </tbody></table>
+    </div>
+  </div>`;
+  document.body.appendChild(modal);
+}
 
 // ============================================================
 // NAV

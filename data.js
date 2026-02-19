@@ -1103,6 +1103,231 @@ const DEAL_DATA = {
           ],
           "type": "lite-refresh"
         }
+      ],
+      "mutualActionPlan": {
+        "merchantName": "Moda in Pelle",
+        "kickoffDate": "2024-07-19",
+        "goLiveDate": "2026-02-27",
+        "contactName": "Adriana Colacicco",
+        "contactEmail": "adriana.colacicco@shopify.com",
+        "champion": "David Duke",
+        "items": [
+          {
+            "date": "2024-07-19",
+            "done": true,
+            "milestone": "Intros & discovery (technical & commercial)",
+            "ownerMerchant": "David Duke (Shopify Lead)",
+            "ownerShopify": "Adriana",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Establish Shopify & Merchant Project team",
+            "ownerMerchant": "David Duke (Shopify Lead)",
+            "ownerShopify": "Adriana",
+            "notes": "6 stakeholders, 3 Shopify team identified"
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Solution mapping",
+            "ownerMerchant": "David Duke (Shopify Lead)",
+            "ownerShopify": "Adriana & Ben",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Shopify Value Presentation & Demo",
+            "ownerMerchant": "David Duke (Shopify Lead)",
+            "ownerShopify": "Adriana & Ben (SE)",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Complete Merchant Intent form",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": "Intent: Committed - At Risk"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Shopify commercial proposal",
+            "ownerMerchant": "David Duke (Shopify Lead)",
+            "ownerShopify": "Adriana",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Establish Shopify business case (ROI)",
+            "ownerMerchant": "David Duke (Shopify Lead)",
+            "ownerShopify": "Adriana",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Engage Procurement",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Agree commercials",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Engage Legal",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Agree Legals",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Confirm financial approval",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Shopify Contract Sent",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Shopify contract signed",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Introduction to Shopify Launch team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Up to 8 bi-weekly meetings with launch team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Pre-Launch Audit prior to go-live date to review your store",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Final pre Go-Live Call with Launch Team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Go-Live!",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Go-Live feedback meeting with Launch Team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Transition to Growth Manager",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          }
+        ]
+      },
+      "coachingSnapshots": [
+        {
+          "date": "2026-02-19",
+          "sections": {
+            "Metrics": {
+              "score": 5.5,
+              "max": 7,
+              "pct": 79
+            },
+            "Economic Buyer": {
+              "score": 2.5,
+              "max": 6,
+              "pct": 42
+            },
+            "Decision Process": {
+              "score": 3.5,
+              "max": 7,
+              "pct": 50
+            },
+            "Decision Criteria": {
+              "score": 3.5,
+              "max": 7,
+              "pct": 50
+            },
+            "Paper Process": {
+              "score": 3,
+              "max": 7,
+              "pct": 43
+            },
+            "Identify Pain": {
+              "score": 6.5,
+              "max": 8,
+              "pct": 81
+            },
+            "Champion": {
+              "score": 3.5,
+              "max": 7,
+              "pct": 50
+            },
+            "Competition": {
+              "score": 3.5,
+              "max": 5,
+              "pct": 70
+            }
+          }
+        }
       ]
     },
     {
@@ -2091,6 +2316,231 @@ const DEAL_DATA = {
             "SF trigger: paymentsGpv $0 → $8,125,000 (new payments data)"
           ],
           "type": "lite-refresh"
+        }
+      ],
+      "mutualActionPlan": {
+        "merchantName": "Whittard of Chelsea",
+        "kickoffDate": "2025-05-29",
+        "goLiveDate": "2026-02-27",
+        "contactName": "Adriana Colacicco",
+        "contactEmail": "adriana.colacicco@shopify.com",
+        "champion": "Alice Bennett",
+        "items": [
+          {
+            "date": "2025-05-29",
+            "done": true,
+            "milestone": "Intros & discovery (technical & commercial)",
+            "ownerMerchant": "Alice Bennett (Digital Growth Manager)",
+            "ownerShopify": "Adriana",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Establish Shopify & Merchant Project team",
+            "ownerMerchant": "Alice Bennett (Digital Growth Manager)",
+            "ownerShopify": "Adriana",
+            "notes": "4 stakeholders, 3 Shopify team identified"
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Solution mapping",
+            "ownerMerchant": "Alice Bennett (Digital Growth Manager)",
+            "ownerShopify": "Adriana & Dave",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Shopify Value Presentation & Demo",
+            "ownerMerchant": "Alice Bennett (Digital Growth Manager)",
+            "ownerShopify": "Adriana & Dave (SE)",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Complete Merchant Intent form",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": "Intent: Committed - At Risk"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Shopify commercial proposal",
+            "ownerMerchant": "Alice Bennett (Digital Growth Manager)",
+            "ownerShopify": "Adriana",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Establish Shopify business case (ROI)",
+            "ownerMerchant": "Alice Bennett (Digital Growth Manager)",
+            "ownerShopify": "Adriana",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Engage Procurement",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Agree commercials",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Engage Legal",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Agree Legals",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Confirm financial approval",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Shopify Contract Sent",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Shopify contract signed",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Introduction to Shopify Launch team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Up to 8 bi-weekly meetings with launch team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Pre-Launch Audit prior to go-live date to review your store",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Final pre Go-Live Call with Launch Team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Go-Live!",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Go-Live feedback meeting with Launch Team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Transition to Growth Manager",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          }
+        ]
+      },
+      "coachingSnapshots": [
+        {
+          "date": "2026-02-19",
+          "sections": {
+            "Metrics": {
+              "score": 6,
+              "max": 7,
+              "pct": 86
+            },
+            "Economic Buyer": {
+              "score": 4,
+              "max": 6,
+              "pct": 67
+            },
+            "Decision Process": {
+              "score": 5,
+              "max": 7,
+              "pct": 71
+            },
+            "Decision Criteria": {
+              "score": 4,
+              "max": 7,
+              "pct": 57
+            },
+            "Paper Process": {
+              "score": 1,
+              "max": 7,
+              "pct": 14
+            },
+            "Identify Pain": {
+              "score": 7,
+              "max": 8,
+              "pct": 88
+            },
+            "Champion": {
+              "score": 6.5,
+              "max": 7,
+              "pct": 93
+            },
+            "Competition": {
+              "score": 3,
+              "max": 5,
+              "pct": 60
+            }
+          }
         }
       ]
     },
@@ -3187,6 +3637,231 @@ const DEAL_DATA = {
             "SF trigger: competitor \"Salesforce Commerce Cloud (incumbent)\" → \"None\" (cleared)"
           ],
           "type": "lite-refresh"
+        }
+      ],
+      "mutualActionPlan": {
+        "merchantName": "The Dune Group",
+        "kickoffDate": "2025-08-19",
+        "goLiveDate": "2026-02-27",
+        "contactName": "Adriana Colacicco",
+        "contactEmail": "adriana.colacicco@shopify.com",
+        "champion": "Martin Wareing",
+        "items": [
+          {
+            "date": "2025-08-19",
+            "done": true,
+            "milestone": "Intros & discovery (technical & commercial)",
+            "ownerMerchant": "Martin Wareing (Head of IT)",
+            "ownerShopify": "Adriana",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Establish Shopify & Merchant Project team",
+            "ownerMerchant": "Martin Wareing (Head of IT)",
+            "ownerShopify": "Adriana",
+            "notes": "5 stakeholders, 2 Shopify team identified"
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Solution mapping",
+            "ownerMerchant": "Martin Wareing (Head of IT)",
+            "ownerShopify": "Adriana & Sarah",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Shopify Value Presentation & Demo",
+            "ownerMerchant": "Martin Wareing (Head of IT)",
+            "ownerShopify": "Adriana & Sarah (SE)",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Complete Merchant Intent form",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": "Intent: Committed - At Risk"
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Shopify commercial proposal",
+            "ownerMerchant": "Martin Wareing (Head of IT)",
+            "ownerShopify": "Adriana",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Establish Shopify business case (ROI)",
+            "ownerMerchant": "Martin Wareing (Head of IT)",
+            "ownerShopify": "Adriana",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Engage Procurement",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Agree commercials",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Engage Legal",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Agree Legals",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Confirm financial approval",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Shopify Contract Sent",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Shopify contract signed",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Introduction to Shopify Launch team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Up to 8 bi-weekly meetings with launch team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Pre-Launch Audit prior to go-live date to review your store",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Final pre Go-Live Call with Launch Team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Go-Live!",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Go-Live feedback meeting with Launch Team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Transition to Growth Manager",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          }
+        ]
+      },
+      "coachingSnapshots": [
+        {
+          "date": "2026-02-19",
+          "sections": {
+            "Metrics": {
+              "score": 5.5,
+              "max": 7,
+              "pct": 79
+            },
+            "Economic Buyer": {
+              "score": 2.5,
+              "max": 6,
+              "pct": 42
+            },
+            "Decision Process": {
+              "score": 4.5,
+              "max": 7,
+              "pct": 64
+            },
+            "Decision Criteria": {
+              "score": 5,
+              "max": 7,
+              "pct": 71
+            },
+            "Paper Process": {
+              "score": 4,
+              "max": 7,
+              "pct": 57
+            },
+            "Identify Pain": {
+              "score": 6,
+              "max": 8,
+              "pct": 75
+            },
+            "Champion": {
+              "score": 5.5,
+              "max": 7,
+              "pct": 79
+            },
+            "Competition": {
+              "score": 4,
+              "max": 5,
+              "pct": 80
+            }
+          }
         }
       ]
     },
@@ -4348,6 +5023,231 @@ const DEAL_DATA = {
           },
           "changes": []
         }
+      ],
+      "mutualActionPlan": {
+        "merchantName": "Mulberry Company (Sales) Limited",
+        "kickoffDate": "2025-02-07",
+        "goLiveDate": "2026-02-28",
+        "contactName": "Ben Rees",
+        "contactEmail": "ben.rees@shopify.com",
+        "champion": "Carmen De Teran",
+        "items": [
+          {
+            "date": "2025-02-07",
+            "done": true,
+            "milestone": "Intros & discovery (technical & commercial)",
+            "ownerMerchant": "Carmen De Teran (Digital Director)",
+            "ownerShopify": "Ben",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Establish Shopify & Merchant Project team",
+            "ownerMerchant": "Carmen De Teran (Digital Director)",
+            "ownerShopify": "Ben",
+            "notes": "7 stakeholders, 8 Shopify team identified"
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Solution mapping",
+            "ownerMerchant": "Carmen De Teran (Digital Director)",
+            "ownerShopify": "Ben & Ben",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Shopify Value Presentation & Demo",
+            "ownerMerchant": "Carmen De Teran (Digital Director)",
+            "ownerShopify": "Ben & Ben (SE)",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Complete Merchant Intent form",
+            "ownerMerchant": "",
+            "ownerShopify": "Ben",
+            "notes": "Intent: Committed - At Risk"
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Shopify commercial proposal",
+            "ownerMerchant": "Carmen De Teran (Digital Director)",
+            "ownerShopify": "Ben",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Establish Shopify business case (ROI)",
+            "ownerMerchant": "Carmen De Teran (Digital Director)",
+            "ownerShopify": "Ben",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Engage Procurement",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Agree commercials",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Engage Legal",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Agree Legals",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Confirm financial approval",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Shopify Contract Sent",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Shopify contract signed",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Introduction to Shopify Launch team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Up to 8 bi-weekly meetings with launch team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Pre-Launch Audit prior to go-live date to review your store",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Final pre Go-Live Call with Launch Team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Go-Live!",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Go-Live feedback meeting with Launch Team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Transition to Growth Manager",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          }
+        ]
+      },
+      "coachingSnapshots": [
+        {
+          "date": "2026-02-19",
+          "sections": {
+            "Metrics": {
+              "score": 5.5,
+              "max": 7,
+              "pct": 79
+            },
+            "Economic Buyer": {
+              "score": 3,
+              "max": 6,
+              "pct": 50
+            },
+            "Decision Process": {
+              "score": 5,
+              "max": 7,
+              "pct": 71
+            },
+            "Decision Criteria": {
+              "score": 3.5,
+              "max": 7,
+              "pct": 50
+            },
+            "Paper Process": {
+              "score": 4.5,
+              "max": 7,
+              "pct": 64
+            },
+            "Identify Pain": {
+              "score": 6.5,
+              "max": 8,
+              "pct": 81
+            },
+            "Champion": {
+              "score": 4,
+              "max": 7,
+              "pct": 57
+            },
+            "Competition": {
+              "score": 2.5,
+              "max": 5,
+              "pct": 50
+            }
+          }
+        }
       ]
     },
     {
@@ -5391,6 +6291,231 @@ const DEAL_DATA = {
             "Competition: improved (1 → 3)"
           ]
         }
+      ],
+      "mutualActionPlan": {
+        "merchantName": "Wacoal Europe",
+        "kickoffDate": "2025-10-16",
+        "goLiveDate": "2026-02-28",
+        "contactName": "Maissa Fatte",
+        "contactEmail": "maissa.fatte@shopify.com",
+        "champion": "Danny Dawes",
+        "items": [
+          {
+            "date": "2025-10-16",
+            "done": true,
+            "milestone": "Intros & discovery (technical & commercial)",
+            "ownerMerchant": "Danny Dawes (Group CIO)",
+            "ownerShopify": "Maissa",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Establish Shopify & Merchant Project team",
+            "ownerMerchant": "Danny Dawes (Group CIO)",
+            "ownerShopify": "Maissa",
+            "notes": "5 stakeholders, 2 Shopify team identified"
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Solution mapping",
+            "ownerMerchant": "Danny Dawes (Group CIO)",
+            "ownerShopify": "Maissa & Stephen",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Shopify Value Presentation & Demo",
+            "ownerMerchant": "Danny Dawes (Group CIO)",
+            "ownerShopify": "Maissa & Stephen (SE)",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Complete Merchant Intent form",
+            "ownerMerchant": "",
+            "ownerShopify": "Maissa",
+            "notes": "Intent: Committed - At Risk"
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Shopify commercial proposal",
+            "ownerMerchant": "Danny Dawes (Group CIO)",
+            "ownerShopify": "Maissa",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Establish Shopify business case (ROI)",
+            "ownerMerchant": "Danny Dawes (Group CIO)",
+            "ownerShopify": "Maissa",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Engage Procurement",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Agree commercials",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Engage Legal",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Agree Legals",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Confirm financial approval",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Shopify Contract Sent",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Shopify contract signed",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Introduction to Shopify Launch team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Up to 8 bi-weekly meetings with launch team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Pre-Launch Audit prior to go-live date to review your store",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Final pre Go-Live Call with Launch Team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Go-Live!",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Go-Live feedback meeting with Launch Team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Transition to Growth Manager",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          }
+        ]
+      },
+      "coachingSnapshots": [
+        {
+          "date": "2026-02-19",
+          "sections": {
+            "Metrics": {
+              "score": 5,
+              "max": 7,
+              "pct": 71
+            },
+            "Economic Buyer": {
+              "score": 4,
+              "max": 6,
+              "pct": 67
+            },
+            "Decision Process": {
+              "score": 7,
+              "max": 7,
+              "pct": 100
+            },
+            "Decision Criteria": {
+              "score": 5,
+              "max": 7,
+              "pct": 71
+            },
+            "Paper Process": {
+              "score": 6,
+              "max": 7,
+              "pct": 86
+            },
+            "Identify Pain": {
+              "score": 7,
+              "max": 8,
+              "pct": 88
+            },
+            "Champion": {
+              "score": 5.5,
+              "max": 7,
+              "pct": 79
+            },
+            "Competition": {
+              "score": 3,
+              "max": 5,
+              "pct": 60
+            }
+          }
+        }
       ]
     },
     {
@@ -6417,6 +7542,231 @@ const DEAL_DATA = {
             "Competition": 3.5
           },
           "changes": []
+        }
+      ],
+      "mutualActionPlan": {
+        "merchantName": "Sofa.Com Ltd",
+        "kickoffDate": "2025-10-20",
+        "goLiveDate": "2026-03-26",
+        "contactName": "Maissa Fatte",
+        "contactEmail": "maissa.fatte@shopify.com",
+        "champion": "Blayne Griffin-Reader",
+        "items": [
+          {
+            "date": "2025-10-20",
+            "done": true,
+            "milestone": "Intros & discovery (technical & commercial)",
+            "ownerMerchant": "Blayne Griffin-Reader (Head of Digital Trading & Optimization)",
+            "ownerShopify": "Maissa",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Establish Shopify & Merchant Project team",
+            "ownerMerchant": "Blayne Griffin-Reader (Head of Digital Trading & Optimization)",
+            "ownerShopify": "Maissa",
+            "notes": "2 stakeholders, 2 Shopify team identified"
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Solution mapping",
+            "ownerMerchant": "Blayne Griffin-Reader (Head of Digital Trading & Optimization)",
+            "ownerShopify": "Maissa & Ben",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Shopify Value Presentation & Demo",
+            "ownerMerchant": "Blayne Griffin-Reader (Head of Digital Trading & Optimization)",
+            "ownerShopify": "Maissa & Ben (SE)",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Complete Merchant Intent form",
+            "ownerMerchant": "",
+            "ownerShopify": "Maissa",
+            "notes": "Intent: Uncommitted"
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Shopify commercial proposal",
+            "ownerMerchant": "Blayne Griffin-Reader (Head of Digital Trading & Optimization)",
+            "ownerShopify": "Maissa",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Establish Shopify business case (ROI)",
+            "ownerMerchant": "Blayne Griffin-Reader (Head of Digital Trading & Optimization)",
+            "ownerShopify": "Maissa",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Engage Procurement",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Agree commercials",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Engage Legal",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Agree Legals",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Confirm financial approval",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Shopify Contract Sent",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Shopify contract signed",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Introduction to Shopify Launch team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Up to 8 bi-weekly meetings with launch team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Pre-Launch Audit prior to go-live date to review your store",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Final pre Go-Live Call with Launch Team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Go-Live!",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Go-Live feedback meeting with Launch Team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Transition to Growth Manager",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          }
+        ]
+      },
+      "coachingSnapshots": [
+        {
+          "date": "2026-02-19",
+          "sections": {
+            "Metrics": {
+              "score": 4.5,
+              "max": 7,
+              "pct": 64
+            },
+            "Economic Buyer": {
+              "score": 2.5,
+              "max": 6,
+              "pct": 42
+            },
+            "Decision Process": {
+              "score": 3.5,
+              "max": 7,
+              "pct": 50
+            },
+            "Decision Criteria": {
+              "score": 3.5,
+              "max": 7,
+              "pct": 50
+            },
+            "Paper Process": {
+              "score": 3,
+              "max": 7,
+              "pct": 43
+            },
+            "Identify Pain": {
+              "score": 4,
+              "max": 8,
+              "pct": 50
+            },
+            "Champion": {
+              "score": 4.5,
+              "max": 7,
+              "pct": 64
+            },
+            "Competition": {
+              "score": 3.5,
+              "max": 5,
+              "pct": 70
+            }
+          }
         }
       ]
     },
@@ -7502,6 +8852,231 @@ const DEAL_DATA = {
           },
           "changes": []
         }
+      ],
+      "mutualActionPlan": {
+        "merchantName": "ESSENTIEL Antwerp",
+        "kickoffDate": "2024-07-16",
+        "goLiveDate": "2026-03-16",
+        "contactName": "Ben Rees",
+        "contactEmail": "ben.rees@shopify.com",
+        "champion": "Koen Van Den Broek",
+        "items": [
+          {
+            "date": "2024-07-16",
+            "done": true,
+            "milestone": "Intros & discovery (technical & commercial)",
+            "ownerMerchant": "Koen Van Den Broek (CFO)",
+            "ownerShopify": "Ben",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Establish Shopify & Merchant Project team",
+            "ownerMerchant": "Koen Van Den Broek (CFO)",
+            "ownerShopify": "Ben",
+            "notes": "3 stakeholders, 2 Shopify team identified"
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Solution mapping",
+            "ownerMerchant": "Koen Van Den Broek (CFO)",
+            "ownerShopify": "Ben & Ben",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Shopify Value Presentation & Demo",
+            "ownerMerchant": "Koen Van Den Broek (CFO)",
+            "ownerShopify": "Ben & Ben (SE)",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Complete Merchant Intent form",
+            "ownerMerchant": "",
+            "ownerShopify": "Ben",
+            "notes": "Intent: Committed - At Risk"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Shopify commercial proposal",
+            "ownerMerchant": "Koen Van Den Broek (CFO)",
+            "ownerShopify": "Ben",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Establish Shopify business case (ROI)",
+            "ownerMerchant": "Koen Van Den Broek (CFO)",
+            "ownerShopify": "Ben",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Engage Procurement",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Agree commercials",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Engage Legal",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Agree Legals",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Confirm financial approval",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Shopify Contract Sent",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Shopify contract signed",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Introduction to Shopify Launch team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Up to 8 bi-weekly meetings with launch team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Pre-Launch Audit prior to go-live date to review your store",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Final pre Go-Live Call with Launch Team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Go-Live!",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Go-Live feedback meeting with Launch Team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Transition to Growth Manager",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          }
+        ]
+      },
+      "coachingSnapshots": [
+        {
+          "date": "2026-02-19",
+          "sections": {
+            "Metrics": {
+              "score": 5.5,
+              "max": 7,
+              "pct": 79
+            },
+            "Economic Buyer": {
+              "score": 4.5,
+              "max": 6,
+              "pct": 75
+            },
+            "Decision Process": {
+              "score": 4.5,
+              "max": 7,
+              "pct": 64
+            },
+            "Decision Criteria": {
+              "score": 3.5,
+              "max": 7,
+              "pct": 50
+            },
+            "Paper Process": {
+              "score": 0.5,
+              "max": 7,
+              "pct": 7
+            },
+            "Identify Pain": {
+              "score": 6,
+              "max": 8,
+              "pct": 75
+            },
+            "Champion": {
+              "score": 4.5,
+              "max": 7,
+              "pct": 64
+            },
+            "Competition": {
+              "score": 2,
+              "max": 5,
+              "pct": 40
+            }
+          }
+        }
       ]
     },
     {
@@ -8555,6 +10130,231 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        }
+      ],
+      "mutualActionPlan": {
+        "merchantName": "Mint Velvet",
+        "kickoffDate": "2025-12-12",
+        "goLiveDate": "2026-03-27",
+        "contactName": "Ben Rees",
+        "contactEmail": "ben.rees@shopify.com",
+        "champion": "Eleanor Bassett",
+        "items": [
+          {
+            "date": "2025-12-12",
+            "done": true,
+            "milestone": "Intros & discovery (technical & commercial)",
+            "ownerMerchant": "Eleanor Bassett (Finance Director)",
+            "ownerShopify": "Ben",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Establish Shopify & Merchant Project team",
+            "ownerMerchant": "Eleanor Bassett (Finance Director)",
+            "ownerShopify": "Ben",
+            "notes": "2 stakeholders, 4 Shopify team identified"
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Solution mapping",
+            "ownerMerchant": "Eleanor Bassett (Finance Director)",
+            "ownerShopify": "Ben & Ben",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Shopify Value Presentation & Demo",
+            "ownerMerchant": "Eleanor Bassett (Finance Director)",
+            "ownerShopify": "Ben & Ben (SE)",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Complete Merchant Intent form",
+            "ownerMerchant": "",
+            "ownerShopify": "Ben",
+            "notes": "Intent: Committed - At Risk"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Shopify commercial proposal",
+            "ownerMerchant": "Eleanor Bassett (Finance Director)",
+            "ownerShopify": "Ben",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Establish Shopify business case (ROI)",
+            "ownerMerchant": "Eleanor Bassett (Finance Director)",
+            "ownerShopify": "Ben",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Engage Procurement",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Agree commercials",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Engage Legal",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Agree Legals",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Confirm financial approval",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Shopify Contract Sent",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Shopify contract signed",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Introduction to Shopify Launch team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Up to 8 bi-weekly meetings with launch team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Pre-Launch Audit prior to go-live date to review your store",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Final pre Go-Live Call with Launch Team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Go-Live!",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Go-Live feedback meeting with Launch Team",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Transition to Growth Manager",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          }
+        ]
+      },
+      "coachingSnapshots": [
+        {
+          "date": "2026-02-19",
+          "sections": {
+            "Metrics": {
+              "score": 5,
+              "max": 7,
+              "pct": 71
+            },
+            "Economic Buyer": {
+              "score": 3,
+              "max": 6,
+              "pct": 50
+            },
+            "Decision Process": {
+              "score": 4,
+              "max": 7,
+              "pct": 57
+            },
+            "Decision Criteria": {
+              "score": 4.5,
+              "max": 7,
+              "pct": 64
+            },
+            "Paper Process": {
+              "score": 1,
+              "max": 7,
+              "pct": 14
+            },
+            "Identify Pain": {
+              "score": 6.5,
+              "max": 8,
+              "pct": 81
+            },
+            "Champion": {
+              "score": 5.5,
+              "max": 7,
+              "pct": 79
+            },
+            "Competition": {
+              "score": 2.5,
+              "max": 5,
+              "pct": 50
+            }
+          }
         }
       ]
     }
