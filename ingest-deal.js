@@ -215,7 +215,8 @@ function transformPayload(payload) {
       paymentsAttached: sf.revenue?.paymentsAttached || false,
       ipp: sf.revenue?.ipp || 0,
     },
-    products: sf.products || [],
+    // Normalize products to strings (payload may send {name, amount} or plain strings)
+    products: (sf.products || []).map(p => typeof p === 'string' ? p : (p.name || String(p))),
     stakeholders: (sf.stakeholders || []).map(s => ({
       name: s.name || '',
       title: s.title || '',
