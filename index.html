@@ -401,14 +401,14 @@ function renderList(){
       <td><div style="font-weight:600;font-size:12px">${o.accountName}</div><div style="font-size:10px;color:var(--t3)">${o.owner}${(o.products||[]).length?' · '+(o.products||[]).slice(0,2).join(', '):''}</div></td>
       <td><span class="badge b-stage">${o.stage}</span></td>
       <td style="white-space:nowrap">${o.closeDate}<div style="font-size:10px;color:${dtc<=14?'var(--r)':dtc<=30?'var(--y)':'var(--t3)'}">${dtc}d</div></td>
-      <td class="money">${fmtK(o.revenue?.mcv)}</td>
+      <td class="money">${fmtK(o.projectedBilledRevenue||o.revenue?.mcv)}</td>
       <td><div class="sbar"><div class="sbar-f ${barC(sc.status)}" style="width:${sc.pct}%"></div></div><div class="sbar-txt">${sc.score}/${sc.max} ${trendIcon} <span class="badge ${bCls(sc.status)}">${sLbl(sc.status)}</span></div></td>
       <td style="font-size:11px;color:${callColor};white-space:nowrap">${dsc===999?'<span style="color:var(--r);font-weight:700">None</span>':dsc+'d ago'}</td>
       <td style="font-size:11px"><span style="color:${stkColor};font-weight:600">${stk.engaged}/${stk.total}</span> <span style="font-size:9px;color:var(--t3)">engaged</span></td>
       <td style="font-size:10px">${o.merchantIntent||'—'}</td>
     </tr>`;
   };
-  const tableHead=`<thead><tr><th>Account</th><th>Stage</th><th>Close</th><th>MCV</th><th style="width:140px">Health</th><th>Last Call</th><th>Stakeholders</th><th>Intent</th></tr></thead>`;
+  const tableHead=`<thead><tr><th>Account</th><th>Stage</th><th>Close</th><th>PBR</th><th style="width:140px">Health</th><th>Last Call</th><th>Stakeholders</th><th>Intent</th></tr></thead>`;
 
   if(filterQuarter){
     // GROUP BY MONTH within the selected quarter
@@ -487,8 +487,7 @@ function showDetail(id){
     <div class="dh-meta">
       <span class="chip">📋 ${opp.stage}</span>
       <span class="chip">📅 ${opp.closeDate} (${dtc}d)</span>
-      <span class="chip">💰 ${fmtK(opp.revenue?.mcv)} MCV</span>
-      ${pbr?`<span class="chip" style="color:var(--g)">📊 ${fmtK(pbr)} Proj Billed</span>`:''}
+      <span class="chip">💰 ${fmtK(pbr||opp.revenue?.mcv)} PBR</span>
       <span class="chip">🎯 ${opp.forecastCategory||''} · ${opp.probability}%</span>
       <span class="chip">👤 ${opp.owner}</span>
       ${opp.competitor?`<span class="chip">⚔️ ${opp.competitor}</span>`:''}
@@ -505,9 +504,9 @@ function showDetail(id){
   <div class="rev-card">
     <h3 style="font-size:14px;font-weight:700;margin-bottom:8px">📊 Revenue</h3>
     <div class="rev-grid">
-      <div class="rev-item"><div class="rl">MCV</div><div class="rv">${fmtK(opp.revenue?.mcv)}</div></div>
+      ${pbr?`<div class="rev-item"><div class="rl">Proj Billed Rev</div><div class="rv" style="color:var(--g);font-weight:700">${fmtK(pbr)}</div></div>`:``}
       <div class="rev-item"><div class="rl">Total Rev (3yr)</div><div class="rv">${fmtK(opp.revenue?.totalRev3yr)}</div></div>
-      ${pbr?`<div class="rev-item"><div class="rl">Proj Billed Rev</div><div class="rv" style="color:var(--g)">${fmtK(pbr)}</div></div>`:''}
+      <div class="rev-item"><div class="rl">MCV</div><div class="rv">${fmtK(opp.revenue?.mcv)}</div></div>
       <div class="rev-item"><div class="rl">D2C GMV</div><div class="rv">${fmtK(opp.revenue?.d2cGmv)}</div></div>
       ${opp.revenue?.b2bGmv?`<div class="rev-item"><div class="rl">B2B GMV</div><div class="rv">${fmtK(opp.revenue.b2bGmv)}</div></div>`:''}
       ${opp.revenue?.retailGmv?`<div class="rev-item"><div class="rl">Retail GMV</div><div class="rv">${fmtK(opp.revenue.retailGmv)}</div></div>`:''}

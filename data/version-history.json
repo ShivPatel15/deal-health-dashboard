@@ -326,20 +326,30 @@
   "006OG00000JMQ91YAH": [
     {
       "date": "2026-02-20",
-      "totalScore": 0,
+      "totalScore": 27,
       "totalMax": 54,
-      "status": "at-risk",
+      "status": "on-track",
       "sectionScores": {
-        "Metrics": 0,
-        "Economic Buyer": 0,
-        "Decision Process": 0,
-        "Decision Criteria": 0,
-        "Paper Process": 0,
-        "Identify Pain": 0,
-        "Champion": 0,
-        "Competition": 0
+        "Metrics": 5,
+        "Economic Buyer": 2,
+        "Decision Process": 4.5,
+        "Decision Criteria": 3.5,
+        "Paper Process": 0.5,
+        "Identify Pain": 6,
+        "Champion": 3.5,
+        "Competition": 2
       },
-      "changes": []
+      "changes": [
+        "Score improved by 27 points",
+        "Metrics: improved (0 → 5)",
+        "Economic Buyer: improved (0 → 2)",
+        "Decision Process: improved (0 → 4.5)",
+        "Decision Criteria: improved (0 → 3.5)",
+        "Paper Process: improved (0 → 0.5)",
+        "Identify Pain: improved (0 → 6)",
+        "Champion: improved (0 → 3.5)",
+        "Competition: improved (0 → 2)"
+      ]
     }
   ]
 }

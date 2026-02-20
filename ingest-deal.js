@@ -192,8 +192,9 @@ function transformPayload(payload) {
       label: template.label,
       questions: template.questions.map((q, i) => {
         // Analyst output uses Q1, Q2, etc. keys (object), not array
-        const questionKey = `Q${i + 1}`;
-        const aq = Array.isArray(analystQuestions) ? analystQuestions[i] : analystQuestions[questionKey] || {};
+        const questionKeyUpper = `Q${i + 1}`;
+        const questionKeyLower = `q${i + 1}`;
+        const aq = Array.isArray(analystQuestions) ? analystQuestions[i] : (analystQuestions[questionKeyUpper] || analystQuestions[questionKeyLower] || {});
         // Support both 'answer' and 'score' field from analyst
         const answer = aq.answer || aq.score || 'No';
         return {
@@ -261,7 +262,7 @@ function transformPayload(payload) {
       proposedLaunch: sf.timeline?.proposedLaunch || sf.proposed_launch_date_plus || sf.proposed_launch_date_enterprise || '',
       region: sf.timeline?.region || 'EMEA',
     },
-    projectedBilledRevenue: sf.projected_billed_revenue || sf.projectedBilledRevenue || null,
+    projectedBilledRevenue: sf.projected_billed_revenue || sf.projectedBilledRevenue || sf.revenue?.projected_billed_revenue || sf.revenue?.projectedBilledRevenue || null,
     compellingEvent: analysis.compellingEvent || sf.compelling_event || sf.compellingEvent || '',
     aeNextStep: sf.ae_next_steps || sf.aeNextStep || sf.nextStep || '',
     narrative: {
@@ -406,7 +407,7 @@ async function main() {
     console.log(`\n📊 Deal Health Summary:`);
     console.log(`   Account: ${opp.accountName}`);
     console.log(`   Stage: ${opp.stage} | Close: ${opp.closeDate}`);
-    console.log(`   MCV: $${(opp.revenue.mcv || 0).toLocaleString()}`);
+    console.log(`   PBR: $${(opp.projectedBilledRevenue || 0).toLocaleString()} | MCV: $${(opp.revenue.mcv || 0).toLocaleString()}`);
     console.log(`   Score: ${totalScore}/${totalMax} (${pct}%) ${status}`);
     console.log(`   Calls: ${opp.calls.length}`);
     console.log(`   Narrative sections: ${Object.values(opp.narrative).filter(v => v).length}/5`);
