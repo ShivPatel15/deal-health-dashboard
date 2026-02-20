@@ -1,6 +1,9 @@
 # Swarm → Dashboard Integration
 
-## Last Updated: 2026-02-20 (v2.2 — Schema verified via describe_object, IPP fix, Step 1 template)
+## Last Updated: 2026-02-20 (v2.3 — Single-directory architecture, data safety fixes)
+
+## ⚠️ READ ARCHITECTURE.md FIRST
+See `ARCHITECTURE.md` for the single-directory data flow, source of truth rules, safety checks, and emergency restore procedures. That file is the definitive reference for how data moves through the system.
 
 ## ⚠️ CRITICAL: DEPLOYMENT REQUIRES USER ACTION
 
@@ -24,21 +27,43 @@ quick deploy . deal-health --force
 ## Live Site
 - **URL:** https://deal-health.quick.shopify.io/
 - **Repo:** https://github.com/ShivPatel15/deal-health-dashboard
+- **Working Dir:** `/home/swarm/deal-health-app/` (this IS the git repo)
 - **Files:** `index.html` + `data.js` at repo root
 
 ---
 
-## Architecture (v2 — BigQuery-first)
+## Architecture (v2.3 — BigQuery-first, single directory)
 
 ```
-Salesforce Reader → BigQuery sales_calls (transcripts) → MEDDPICC Analyst → Site Publisher → GitHub
-                                                                                                ↓
-                                                                                User runs: quick deploy
-                                                                                                ↓
-                                                                                https://deal-health.quick.shopify.io/
+Salesforce Reader → BigQuery sales_calls (transcripts) → MEDDPICC Analyst
+                                                              │
+                                                    Orchestrator writes payload
+                                                              │
+                                                              ▼
+                                               data/incoming-payload.json
+                                                              │
+                                                       ingest-deal.js
+                                                       (MERGES into existing)
+                                                              │
+                                                              ▼
+                                               data/opportunities.json  ← SOURCE OF TRUTH
+                                                              │
+                                                        build-data.js
+                                                              │
+                                                    ┌─────────┴─────────┐
+                                                    ▼                   ▼
+                                               data.js       quick-deploy/data.js
+                                                    │
+                                              git push → GitHub → User clones → quick deploy
+                                                                                     │
+                                                                                     ▼
+                                                            https://deal-health.quick.shopify.io/
 
 ⏸️ Salesloft API Agent — PAUSED (fallback only if BigQuery auth fails)
 ```
+
+**CRITICAL: There is only ONE working directory: `/home/swarm/deal-health-app/`.**
+Do NOT create or use `deal-health-site/` or `deal-health-dashboard/` directories.
 
 ### Why BigQuery replaced Salesloft API (2026-02-19)
 
@@ -229,83 +254,13 @@ DO NOT use Salesloft API if BigQuery is working. BigQuery is strictly superior.
 
 ## Payload Schema
 
-The swarm orchestrator should produce this combined payload:
+See `ARCHITECTURE.md` for the definitive payload schema with all nesting rules.
 
-```json
-{
-  "salesforce": {
-    "opportunityId": "006...",
-    "accountName": "Account Name",
-    "accountId": "001...",
-    "stage": "Deal Craft",
-    "closeDate": "2026-02-27",
-    "forecastCategory": "Commit",
-    "probability": 80,
-    "type": "New Business",
-    "merchantIntent": "Committed",
-    "owner": "AE Name",
-    "ownerEmail": "ae@shopify.com",
-    "revenue": {
-      "mcv": 75900,
-      "totalRev3yr": 1039799,
-      "d2cGmv": 21323127,
-      "b2bGmv": null,
-      "retailGmv": null,
-      "paymentsGpv": 13860032,
-      "paymentsAttached": true,
-      "ipp": 0
-    },
-    "projectedBilledRevenue": 435319.79,
-    "products": ["Plus Product Suite", "D2C - Standard", "Shopify Payments"],
-    "stakeholders": [
-      {
-        "name": "Contact Name",
-        "title": "Title",
-        "role": "Decision Maker",
-        "email": "contact@company.com",
-        "engagement": "high|medium|low|none",
-        "callsAttended": 3,
-        "callsInvited": 5
-      }
-    ],
-    "shopifyTeam": [
-      { "name": "AE Name", "role": "Account Executive", "email": "ae@shopify.com" }
-    ],
-    "competitive": { "primary": "Competitor", "position": "Positive", "partner": "" },
-    "timeline": { "created": "2024-07-19", "proposedLaunch": "2026-05-29", "region": "EMEA" },
-    "compellingEvent": "Description...",
-    "aeNextStep": "Next step text..."
-  },
-  "meddpicc_analysis": {
-    "oppSummary": "...",
-    "whyChange": "...",
-    "whyShopify": "...",
-    "whyNow": "...",
-    "supportNeeded": "...",
-    "compellingEvent": "...",
-    "meddpicc": {
-      "metrics": { "questions": [{ "answer": "Yes|No|Partial", "notes": "...", "solution": "...", "action": "...", "due": "MM/DD/YYYY" }] },
-      "economicBuyer": { "questions": [...] },
-      "decisionProcess": { "questions": [...] },
-      "decisionCriteria": { "questions": [...] },
-      "paperProcess": { "questions": [...] },
-      "identifyPain": { "questions": [...] },
-      "champion": { "questions": [...] },
-      "competition": { "questions": [...] }
-    }
-  },
-  "calls": [
-    {
-      "date": "2026-01-21",
-      "title": "Call Title",
-      "duration": "30 min",
-      "shopifyAttendees": ["Name (Role)"],
-      "merchantAttendees": ["Name"],
-      "summary": "Brief summary..."
-    }
-  ]
-}
-```
+Key nesting gotchas (these cause 0/54 scores if wrong):
+- Narratives: `meddpicc_analysis.narrative.{oppSummary, whyChange, ...}` (NOT `.narratives`)
+- MEDDPICC sections: `meddpicc_analysis.meddpicc.{metrics, economicBuyer, ...}` (NOT `.sections`)
+- Revenue: `salesforce.revenue.{mcv, totalRev3yr, d2cGmv, ...}` (camelCase, no underscores)
+- `answer` values must be exactly `"Yes"`, `"No"`, or `"Partial"` (case-sensitive)
 
 ---
 
@@ -378,8 +333,19 @@ Get all calls with metadata, AI summaries, attendees, and full transcript text.
 Provide all SF data + all transcripts + AI summaries from BigQuery.
 Get narrative sections + per-question scoring for all 8 MEDDPICC sections.
 
-### Step 4: Push to Dashboard → `site_publisher`
-Combine into payload, update data.js, commit, push to GitHub.
+### Step 4: Publish to Dashboard
+1. Orchestrator writes payload to `deal-health-app/data/incoming-payload.json` using WorkspaceWrite
+2. Orchestrator delegates to Site Publisher with a SHORT message (no JSON in the message):
+   ```
+   Process the payload at deal-health-app/data/incoming-payload.json
+   Account: [Account Name]
+   Commit message: "Update deal health: [Account Name] - [date]"
+   ```
+3. Site Publisher runs: `cd /home/swarm/deal-health-app && bash publish.sh "commit message"`
+4. publish.sh runs: ingest → build → git push (single directory, no copies)
+
+**NEVER pass large JSON payloads in the delegation message.** Write to file first.
+**NEVER create additional directories.** Everything is in `/home/swarm/deal-health-app/`.
 
 ### Step 5: Present Results → ALWAYS include deploy instructions
 
@@ -414,26 +380,33 @@ quick deploy . deal-health --force
 - **Comments** — cloud-persisted via GitHub API
 - **Dark/Light theme** toggle
 
-## Current Opportunities (12)
+## Current Opportunities (12) — as of 2026-02-20
 
 | # | Account | Opp ID | Score | Health | Owner |
 |---|---------|--------|-------|--------|-------|
-| 1 | **Hawes & Curtis Limited** | 006OG00000FYX8zYAH | 41.5/54 (77%) | 🟢 Good | Maissa Fatte |
-| 2 | **Whittard of Chelsea** | 006OG00000EZIy6YAH | 39/54 (72%) | 🟡 On-Track | Ben Rees |
-| 3 | **Direct Wines Limited** | 006OG00000G28JdYAJ | 36/54 (67%) | 🟡 On-Track | Ben Rees |
-| 4 | **Mulberry Company** | 006OG00000CRabaYAD | 34.5/54 (64%) | 🟡 On-Track | Ben Rees |
-| 5 | **Wacoal Europe** | 006OG00000HnVs8YAF | 31.5/54 (58%) | 🟢 Good | Adriana Colacicco |
-| 6 | **Mint Velvet** | 006OG00000JUPVtYAP | 32/54 (59%) | 🟡 On-Track | Ben Rees |
-| 7 | **Moda in Pelle** | 0068V0000113rSIQAY | 31.5/54 (58%) | 🟡 On-Track | Ben Rees |
-| 8 | **The Dune Group** | 006OG00000GJ5IvYAL | 31.5/54 (58%) | 🟡 On-Track | Ben Rees |
+| 1 | **Wacoal Europe** | 006OG00000HnVs8YAF | 43/54 (80%) | 🟢 Good | Adriana Colacicco |
+| 2 | **Hawes & Curtis Limited** | 006OG00000FYX8zYAH | 41.5/54 (77%) | 🟢 Good | Maissa Fatte |
+| 3 | **Direct Wines Limited** | 006OG00000G28JdYAJ | 40/54 (74%) | 🟡 On-Track | Ben Rees |
+| 4 | **The Dune Group** | 006OG00000GJ5IvYAL | 37/54 (69%) | 🟡 On-Track | Ben Rees |
+| 5 | **Whittard of Chelsea** | 006OG00000EZIy6YAH | 36.5/54 (68%) | 🟡 On-Track | Ben Rees |
+| 6 | **Mulberry Company** | 006OG00000CRabaYAD | 34.5/54 (64%) | 🟡 On-Track | Ben Rees |
+| 7 | **Mint Velvet** | 006OG00000JUPVtYAP | 32/54 (59%) | 🟡 On-Track | Ben Rees |
+| 8 | **Moda in Pelle** | 0068V0000113rSIQAY | 31.5/54 (58%) | 🟡 On-Track | Ben Rees |
 | 9 | **ESSENTIEL Antwerp** | 0068V0000113peWQAQ | 31/54 (57%) | 🟡 On-Track | Adriana Colacicco |
 | 10 | **Sofa.Com Ltd** | 006OG00000HtxKFYAZ | 29/54 (54%) | 🟡 On-Track | Ben Rees |
-| 11 | **Cycle King & Hawk** | 006OG00000Fbj8nYAB | 22/54 (41%) | 🔴 At-Risk | Ben Rees |
-| 12 | + others | — | — | — | — |
+| 11 | **OLIVER BONAS LIMITED** | 006OG00000FHHAHYA5 | 28.5/54 (53%) | 🟡 On-Track | Ben Rees |
+| 12 | **Cycle King & Hawk** | 006OG00000Fbj8nYAB | 22/54 (41%) | 🔴 At-Risk | Ben Rees |
 
 ---
 
 ## Changelog
+
+### v2.3 — 2026-02-20
+- **CRITICAL FIX: Single-directory architecture.** Eliminated `deal-health-site/` and `deal-health-dashboard/` directories that caused data loss by drifting out of sync with `deal-health-app/`. Everything now lives in ONE directory: `/home/swarm/deal-health-app/`.
+- **build-data.js now writes BOTH** root `data.js` AND `quick-deploy/data.js` (previously only wrote to quick-deploy, causing stale root data.js).
+- **publish.sh rewritten** to work from single directory with safety checks (refuses to run if opportunities.json missing or has < 2 opps).
+- **Added ARCHITECTURE.md** — definitive reference for data flow, source of truth, safety checks, and emergency restore procedures.
+- **Payload nesting documented** — narratives under `.narrative` not `.narratives`, sections under `.meddpicc` not `.sections`.
 
 ### v2.2 — 2026-02-20
 - **IPP field found:** `Incremental_Product_Gross_Profit__c` exists and is a Currency (Formula) field. Previously documented as "DOES NOT EXIST" — corrected.
