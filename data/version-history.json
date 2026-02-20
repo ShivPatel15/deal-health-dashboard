@@ -303,5 +303,24 @@
         "Competition: improved (0 → 2)"
       ]
     }
+  ],
+  "006OG00000KW83lYAD": [
+    {
+      "date": "2026-02-20",
+      "totalScore": 27,
+      "totalMax": 54,
+      "status": "on-track",
+      "sectionScores": {
+        "Metrics": 4.5,
+        "Economic Buyer": 2,
+        "Decision Process": 4.5,
+        "Decision Criteria": 2,
+        "Paper Process": 2,
+        "Identify Pain": 6,
+        "Champion": 4.5,
+        "Competition": 1.5
+      },
+      "changes": []
+    }
   ]
 }

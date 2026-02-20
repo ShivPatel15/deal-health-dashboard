@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-20T17:23:49.264Z",
+  "generatedAt": "2026-02-20T17:42:34.982Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -16544,6 +16544,1307 @@ const DEAL_DATA = {
               "score": 2,
               "max": 5,
               "pct": 40
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "006OG00000KW83lYAD",
+      "name": "C.P. Hart & Sons Limited",
+      "accountName": "C.P. Hart & Sons Limited",
+      "accountId": "0018V00002epV9yQAE",
+      "owner": "Adriana Colacicco",
+      "ownerEmail": "adriana.colacicco@shopify.com",
+      "stage": "Solution",
+      "closeDate": "2026-05-29",
+      "forecastCategory": "Pipeline",
+      "probability": 40,
+      "merchantIntent": "Committed - At Risk",
+      "type": "New Business",
+      "created": "2026-01-21",
+      "lastAnalysisDate": "2026-02-20",
+      "revenue": {
+        "mcv": 82800,
+        "totalRev3yr": 2184000,
+        "d2cGmv": 40000000,
+        "b2bGmv": null,
+        "retailGmv": null,
+        "paymentsGpv": 26000000,
+        "paymentsAttached": true,
+        "ipp": 1112865.6
+      },
+      "projectedBilledRevenue": null,
+      "products": [
+        "Plus Product Suite",
+        "D2C - Standard",
+        "Shopify Payments - D2C Plus"
+      ],
+      "competitor": "",
+      "compellingEvent": "Board meeting mid-February requires Mo to present a costed replatforming proposal with topline figures; budgets for the new financial year (starting 1 August) are signed off by end of June — meaning if this doesn't get approved in this cycle, the project slips a full year.",
+      "nextStep": "19.02 presented commercials, board meeting this month, awaiting statements for RR, NDA in works",
+      "narrative": {
+        "oppSummary": "C.P. Hart & Sons Limited is a luxury bathroom retailer (~90 years old) evaluating Shopify Plus to replace their outdated, custom-built e-commerce platform. The deal is valued at $82,800/year ($2.18M over 3 years) with $40M D2C GMV, $26M Payments GPV, and a projected billed revenue of ~$759K. Mo Goodfellow (Director, Marketing & Digital) is leading the evaluation after his senior e-commerce manager (Diamante) went on personal leave, and he needs to present a costed replatforming proposal to the board in mid-February, with budgets signed off by end of June for a new financial year starting August 1.",
+        "whyChange": "C.P. Hart's current e-commerce platform is a custom-built, legacy system described as 'quite custom made, quite old' and 'split in two,' where every small change requires going through a dev agency with no clarity on timelines. The website is the primary lead generation engine for their showroom business (90-95% of sales), yet the current platform fails to represent their luxury brand adequately online and lacks best-practice UI/UX, templated design capabilities, and proper customer journey tracking. Mo emphasized the existential business case: 'we're 90 years old next year. If we want to last for another 90 years we need to start at the beginning of the funnel again.' Significant organizational change — their MD was promoted out and the parent company has a new CEO — adds pressure to demonstrate digital modernization.",
+        "whyShopify": "C.P. Hart is drawn to Shopify Plus for its templated best practices, built-in UI/UX capabilities, and the ability to represent their luxury brand beautifully without requiring an in-house expert designer. Shopify's integrated approach to online and in-store operations appeals to their hybrid business model (50% end consumer, 50% trade/contracts), and the platform's flexibility, faster development cycles, and clear timelines stand in direct contrast to their current agency dependency. Shopify Payments at potentially advantageous rates was noted as a factor. No other competitors were explicitly mentioned, suggesting Shopify may be the primary alternative being evaluated.",
+        "whyNow": "The primary urgency driver is a board meeting in mid-February where Mo must present a costed replatforming proposal. Budgets for the new financial year (starting August 1) are signed off by end of June — if not approved this cycle, the project slips an entire year. Additional urgency from organizational shake-up (MD promoted out, new parent company CEO) creates both risk and opportunity. Diamante's unexpected personal leave has compressed the evaluation timeline.",
+        "supportNeeded": "Business case / TCO calculation for board presentation; case studies of similar luxury retailers on Shopify Plus; agency recommendations for implementation partner; NDA in Word format (process prerequisite); payments clarity around third-party fee implications; extra technical hand-holding while Diamante is on leave; timeline confidence for August launch."
+      },
+      "meddpicc": {
+        "metrics": {
+          "label": "Metrics",
+          "questions": [
+            {
+              "q": "Do we know the business reasons as to why they are migrating?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Clearly articulated — outdated custom platform, dev agency bottlenecks, poor brand representation online, inability to track customer journeys, need to modernize lead generation funnel.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we have specific quantifiable goals aligned with the project?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Website drives leads to showrooms (90-95% of sales happen in-store), gap between £600 online and £60K in-store. No specific KPIs established.",
+              "solution": "Work with Mo/Diamante to define measurable success metrics.",
+              "action": "AE to propose specific success metrics framework in next call.",
+              "due": "2026-03-06",
+              "highlight": false
+            },
+            {
+              "q": "Do they need to make a platform change to achieve this goal?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Current platform is fundamentally limiting — custom-built, rigid, dependent on unresponsive dev agency.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we understand the impact if this goal isn't achieved?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Mo alluded to existential risk ('if we want to last for another 90 years'), but no specific revenue impact figures quantified.",
+              "solution": "Quantify the cost of inaction — lost leads, competitive risk, ongoing platform costs.",
+              "action": "AE/SE to build a 'cost of doing nothing' analysis.",
+              "due": "2026-03-06",
+              "highlight": false
+            },
+            {
+              "q": "Is there a compelling event in place driving action?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Board meeting mid-February, budget sign-off by end of June for August financial year. If not approved this cycle, slips a full year.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have I validated the metrics with the customer?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Specific quantifiable metrics have not been discussed or validated. Conversations have been directional but not tied to measurable targets.",
+              "solution": "Present a proposed metrics framework and validate with Mo and Diamante.",
+              "action": "AE to include proposed success metrics in follow-up after board meeting.",
+              "due": "2026-03-06",
+              "highlight": false
+            },
+            {
+              "q": "Are the metrics compelling enough to justify change?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Qualitative case is strong but without quantified metrics, unclear if the board will view numbers as compelling enough.",
+              "solution": "Help Mo build the quantitative business case with TCO comparison and projected ROI.",
+              "action": "AE/SE to deliver TCO analysis and ROI projections for board presentation.",
+              "due": "2026-02-28",
+              "highlight": false
+            }
+          ]
+        },
+        "economicBuyer": {
+          "label": "Economic Buyer",
+          "questions": [
+            {
+              "q": "Have I identified the true economic buyer?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Mo is the champion but budget sign-off is at the board level. True EB likely a board member or C-suite exec at parent company. No specific name identified.",
+              "solution": "Ask Mo who at the board will approve the budget allocation.",
+              "action": "AE to clarify the budget approval authority.",
+              "due": "2026-03-06",
+              "highlight": false
+            },
+            {
+              "q": "Do we know who's signing the contract?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Not discussed. Likely Mo or someone above him.",
+              "solution": "Understand contract signing authority.",
+              "action": "AE to ask Mo about contract signing process.",
+              "due": "2026-03-06",
+              "highlight": false
+            },
+            {
+              "q": "Do we have access to this individual?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Access to Mo but not to the board-level decision maker.",
+              "solution": "Request introduction through Mo.",
+              "action": "AE to ask Mo for introduction to the budget approver.",
+              "due": "2026-03-13",
+              "highlight": false
+            },
+            {
+              "q": "Can we get access?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Mo is willing to collaborate on the business case, suggesting he could facilitate introductions. Organizational upheaval may complicate.",
+              "solution": "Position Shopify as a resource for Mo's board presentation to create a path to access.",
+              "action": "AE to offer to join a board presentation or provide exec-level support.",
+              "due": "2026-03-06",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what the economic buyer cares about most?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Board cares about project prioritization and budget allocation. New CEO likely cares about modernization and ROI. Specifics unknown.",
+              "solution": "Ask Mo what the board's evaluation criteria are.",
+              "action": "AE to probe Mo on board priorities.",
+              "due": "2026-03-06",
+              "highlight": false
+            },
+            {
+              "q": "Do you know how they make decisions and allocate budget?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "High-level process known (board meeting → budget sign-off by June). Specifics (who votes, thresholds, CapEx vs OpEx) unknown.",
+              "solution": "Map the full budget approval process.",
+              "action": "AE to ask Mo to walk through the budget approval workflow.",
+              "due": "2026-03-06",
+              "highlight": false
+            }
+          ]
+        },
+        "decisionProcess": {
+          "label": "Decision Process",
+          "questions": [
+            {
+              "q": "Do we know how they will be making the decision?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Board meeting for initial prioritization, then budget approval by June. Steps between board buy-in and contract signature unclear.",
+              "solution": "Map the end-to-end decision process.",
+              "action": "AE to establish a mutual action plan with Mo post-board meeting.",
+              "due": "2026-03-13",
+              "highlight": false
+            },
+            {
+              "q": "Do we know who's involved / buying committee?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Mo (project lead), Diamante (technical), board (funding), parent company CEO (influence). Full committee not mapped.",
+              "solution": "Ask Mo to identify all stakeholders.",
+              "action": "AE to request org chart or stakeholder map.",
+              "due": "2026-03-06",
+              "highlight": false
+            },
+            {
+              "q": "Do we know when they want to make a decision by?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Budgets signed off by end of June for August financial year. Close date of May 29 aligns.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what is driving this timeline?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Financial year starting August 1, mid-February board meeting, June budget sign-off, organizational change.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know if they have tried to solve this problem before?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Diamante described longstanding frustration suggesting incremental attempts. Full replatform not attempted before. Not explicitly explored.",
+              "solution": "Explore prior attempts and why they stalled.",
+              "action": "AE to ask about prior replatforming conversations.",
+              "due": "2026-03-13",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what will happen if they do nothing?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Mo implied long-term business risk. No specific 'stay put' scenario articulated with numbers.",
+              "solution": "Help Mo articulate the cost of inaction for the board.",
+              "action": "AE/SE to build a 'status quo risk' slide for Mo's board deck.",
+              "due": "2026-02-28",
+              "highlight": false
+            },
+            {
+              "q": "Have you validated this process with the buyer?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Mo confirmed board meeting and budget timeline. Full procurement/approval process not formally validated.",
+              "solution": "Create and share a mutual action plan.",
+              "action": "AE to propose MAP and validate with Mo after board outcome.",
+              "due": "2026-03-13",
+              "highlight": false
+            }
+          ]
+        },
+        "decisionCriteria": {
+          "label": "Decision Criteria",
+          "questions": [
+            {
+              "q": "Do we know what criteria the customer is using to evaluate vendors?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Key criteria surfaced: brand-quality design, ease of use, faster timelines, lead tracking. Not formally documented as weighted criteria.",
+              "solution": "Formalize and validate the decision criteria.",
+              "action": "AE to present a summary of understood criteria and ask what's missing.",
+              "due": "2026-03-06",
+              "highlight": false
+            },
+            {
+              "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "D2C discussed, retail/POS mentioned. B2B (50% of business is trade) and detailed POS not explored.",
+              "solution": "Present B2B and POS capabilities for their showroom model.",
+              "action": "SE to prepare tailored demo covering B2B, POS, omnichannel.",
+              "due": "2026-03-13",
+              "highlight": false
+            },
+            {
+              "q": "Have we surfaced technical complications (integrations)?",
+              "answer": "No",
+              "score": 0,
+              "notes": "With Diamante on leave, technical discovery deferred. No integration requirements or complications discussed.",
+              "solution": "Conduct technical discovery when Diamante returns.",
+              "action": "AE to schedule technical deep-dive with Diamante.",
+              "due": "2026-03-13",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how payments play into their decision?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Diamante stated 'no leeway' on current provider but acknowledged competitive rates could change this. 0.2% third-party fee explained.",
+              "solution": "Prepare detailed payments comparison.",
+              "action": "AE/SE to build payments cost comparison.",
+              "due": "2026-03-06",
+              "highlight": false
+            },
+            {
+              "q": "Do we have a mutual action plan in place?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Engagement roadmap outlined but no formal MAP with milestones, owners, and dates.",
+              "solution": "Create a formal mutual action plan.",
+              "action": "AE to draft and share MAP post-board meeting.",
+              "due": "2026-03-13",
+              "highlight": false
+            },
+            {
+              "q": "Did we help shape those criteria in our favour?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Adriana positioned Shopify's strengths but no deliberate effort to shape formal evaluation criteria.",
+              "solution": "Introduce evaluation criteria highlighting Shopify's differentiation.",
+              "action": "AE to propose a platform evaluation framework.",
+              "due": "2026-03-06",
+              "highlight": false
+            },
+            {
+              "q": "Do we know who defined the decision criteria?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Criteria emerging organically from frustrations, not formally defined by buying committee.",
+              "solution": "Ask Mo who defines criteria and whether the board has specific requirements.",
+              "action": "AE to ask about board-level criteria.",
+              "due": "2026-03-06",
+              "highlight": false
+            }
+          ]
+        },
+        "paperProcess": {
+          "label": "Paper Process",
+          "questions": [
+            {
+              "q": "Do we know what their procurement process is?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Budgets approved by June, financial year starts August. Full procurement process unknown.",
+              "solution": "Map the full procurement process.",
+              "action": "AE to ask Mo about procurement steps after budget approval.",
+              "due": "2026-03-13",
+              "highlight": false
+            },
+            {
+              "q": "Are there likely to be redlines?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "NDA requested in Word format suggests legal review process exists. Likely redlines on main contract.",
+              "solution": "Prepare for legal review process.",
+              "action": "AE to send NDA in Word format and ask about contract review.",
+              "due": "2026-02-28",
+              "highlight": false
+            },
+            {
+              "q": "If redlines, how long does review take?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Not discussed.",
+              "solution": "Understand legal review timelines.",
+              "action": "AE to ask about typical legal review duration.",
+              "due": "2026-03-13",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how long it will take?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Overall timeline understood but specific procurement duration not scoped.",
+              "solution": "Factor procurement timeline into MAP.",
+              "action": "AE to include procurement milestones in MAP.",
+              "due": "2026-03-13",
+              "highlight": false
+            },
+            {
+              "q": "Do we have contract details?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Commercials presented Feb 19. Product pricing structured. Full contract terms not discussed.",
+              "solution": "Prepare contract for review once board gives green light.",
+              "action": "AE to have draft contract ready.",
+              "due": "2026-04-30",
+              "highlight": false
+            },
+            {
+              "q": "Have we sent the contract?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Commercials presented but contract not sent. NDA still in progress.",
+              "solution": "Prepare contract for post-board approval.",
+              "action": "AE to prepare contract.",
+              "due": "2026-04-30",
+              "highlight": false
+            },
+            {
+              "q": "Do we know target date for signature?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Budget sign-off by June, close date May 29 aligns. Not explicitly confirmed with customer.",
+              "solution": "Validate target signature date.",
+              "action": "AE to confirm end-of-May target.",
+              "due": "2026-03-13",
+              "highlight": false
+            }
+          ]
+        },
+        "identifyPain": {
+          "label": "Identify Pain",
+          "questions": [
+            {
+              "q": "Do we know their current issues and why they are reviewing their tech stack?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Extensively discussed — outdated custom platform, split architecture, dev agency bottleneck, poor brand representation, lack of UI/UX templates, no customer journey tracking.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have they tried to resolve this issue in the past?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Diamante's frustration suggests incremental attempts within current platform. Full replatform not attempted. Not explicitly explored.",
+              "solution": "Ask about prior attempts.",
+              "action": "AE to explore prior modernization efforts.",
+              "due": "2026-03-13",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how pains are affecting business operations?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Website drives 90-95% of showroom leads. Poor online experience directly impacts highest-value sales channel (£600 online to £60K in-store).",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what teams are affected and to what extent?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Marketing/Digital and E-Commerce clearly affected. Showroom/sales teams indirectly affected. Impact on trade/B2B side (50% of business) not explored.",
+              "solution": "Explore impact on trade/B2B teams.",
+              "action": "AE/SE to discuss B2B and showroom pain points.",
+              "due": "2026-03-13",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how urgent it is to solve this pain?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Board meeting mid-Feb, budget cycle ending June, August financial year start. Positioned as priority project.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Can they solve this pain using another option?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "No competitors mentioned. Doing nothing is the primary alternative. Staying with a new agency on same platform not discussed.",
+              "solution": "Explicitly discuss alternatives and why Shopify is the best path.",
+              "action": "AE to ask what other options the board is considering.",
+              "due": "2026-03-06",
+              "highlight": false
+            },
+            {
+              "q": "Do we know why this problem is important to solve now?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Budget cycle timing, organizational change, 90-year brand at existential risk if digital presence doesn't modernize.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Is our solution uniquely positioned to solve this pain?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Shopify's templated best practices and speed align well. No explicit competitive comparison made. Unique positioning not fully articulated.",
+              "solution": "Articulate Shopify's unique value vs. alternatives.",
+              "action": "SE to prepare competitive positioning brief.",
+              "due": "2026-03-06",
+              "highlight": false
+            }
+          ]
+        },
+        "champion": {
+          "label": "Champion",
+          "questions": [
+            {
+              "q": "Have you identified a true champion (influence + motivation)?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Mo Goodfellow is clearly motivated — driving the board presentation, proactively engaged despite Diamante's absence, articulated strategic case for change.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Does your champion have political capital and credibility?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Mo is Director-level and presenting to the board. However, with MD leaving and new CEO, his political capital with new leadership is uncertain.",
+              "solution": "Help Mo build the strongest possible board case.",
+              "action": "AE to provide board-ready materials.",
+              "due": "2026-02-28",
+              "highlight": false
+            },
+            {
+              "q": "Have they given insights you wouldn't get otherwise?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Mo shared critical internal dynamics — MD promotion, new CEO, Diamante's leave, budget cycle details, board meeting timing.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Are they connected with the key decision makers?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Mo is presenting directly to the board.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have you been introduced to the decision maker?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No introduction to any board member or economic buyer above Mo.",
+              "solution": "Request introduction after board meeting.",
+              "action": "AE to ask Mo about meeting with a board member.",
+              "due": "2026-03-13",
+              "highlight": false
+            },
+            {
+              "q": "Are they willing to bring you into the board/buying group?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Mo accepted help building the business case (indirectly brings Shopify into board discussion). Hasn't offered direct board access.",
+              "solution": "Offer exec-level engagement.",
+              "action": "AE to offer a Shopify executive sponsor.",
+              "due": "2026-03-06",
+              "highlight": false
+            },
+            {
+              "q": "Why are they such a champion for you?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Mo motivated by need to modernize for long-term survival and his role as Director of Marketing & Digital. Personal stake inferred not confirmed.",
+              "solution": "Validate Mo's personal motivation.",
+              "action": "AE to explore what success looks like personally for Mo.",
+              "due": "2026-03-06",
+              "highlight": false
+            }
+          ]
+        },
+        "competition": {
+          "label": "Competition",
+          "questions": [
+            {
+              "q": "Do we know who else the customer is evaluating?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No competitors mentioned in any call. Salesforce competitor field is null.",
+              "solution": "Directly ask about other vendors.",
+              "action": "AE to ask Mo if evaluating other platforms.",
+              "due": "2026-03-06",
+              "highlight": false
+            },
+            {
+              "q": "Have we asked if doing nothing is an option?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Mo's comments suggest doing nothing is possible but not desirable. Not directly asked.",
+              "solution": "Ask what happens if the board says no.",
+              "action": "AE to ask about fallback plan.",
+              "due": "2026-03-06",
+              "highlight": false
+            },
+            {
+              "q": "Are there internal alternatives to our solution?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Staying with current platform (with/without new agency) is implicit alternative. No internal build mentioned.",
+              "solution": "Explore whether improving current platform is being considered.",
+              "action": "AE to discuss current platform alternatives.",
+              "due": "2026-03-06",
+              "highlight": false
+            },
+            {
+              "q": "Do we know why alternatives are being evaluated?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Don't know if alternatives are being evaluated at all. Appears Shopify-focused but not confirmed.",
+              "solution": "Understand full competitive landscape.",
+              "action": "AE to ask if board expects multiple vendor options.",
+              "due": "2026-03-06",
+              "highlight": false
+            },
+            {
+              "q": "Do we know why we would win or lose?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Win factors: speed, templates, lower TCO, integrated platform. Lose factors: board deprioritization, payment lock-in, Diamante absence, new leadership priorities.",
+              "solution": "Mitigate risk factors.",
+              "action": "AE/SE to build risk mitigation plan.",
+              "due": "2026-03-06",
+              "highlight": false
+            }
+          ]
+        }
+      },
+      "scores": {
+        "Metrics": {
+          "score": 4.5,
+          "max": 7,
+          "pct": 64
+        },
+        "Economic Buyer": {
+          "score": 2,
+          "max": 6,
+          "pct": 33
+        },
+        "Decision Process": {
+          "score": 4.5,
+          "max": 7,
+          "pct": 64
+        },
+        "Decision Criteria": {
+          "score": 2,
+          "max": 7,
+          "pct": 29
+        },
+        "Paper Process": {
+          "score": 2,
+          "max": 7,
+          "pct": 29
+        },
+        "Identify Pain": {
+          "score": 6,
+          "max": 8,
+          "pct": 75
+        },
+        "Champion": {
+          "score": 4.5,
+          "max": 7,
+          "pct": 64
+        },
+        "Competition": {
+          "score": 1.5,
+          "max": 5,
+          "pct": 30
+        },
+        "_total": {
+          "score": 27,
+          "max": 54,
+          "pct": 50,
+          "status": "on-track"
+        }
+      },
+      "nextSteps": [
+        {
+          "p": 1,
+          "cat": "Metrics",
+          "issue": "Website drives leads to showrooms (90-95% of sales happen in-store), gap between £600 online and £60K in-store. No specific KPIs established.",
+          "rec": "AE to propose specific success metrics framework in next call.",
+          "due": "2026-03-06"
+        },
+        {
+          "p": 2,
+          "cat": "Metrics",
+          "issue": "Mo alluded to existential risk ('if we want to last for another 90 years'), but no specific revenue impact figures quantified.",
+          "rec": "AE/SE to build a 'cost of doing nothing' analysis.",
+          "due": "2026-03-06"
+        },
+        {
+          "p": 3,
+          "cat": "Metrics",
+          "issue": "Specific quantifiable metrics have not been discussed or validated. Conversations have been directional but not tied to measurable targets.",
+          "rec": "AE to include proposed success metrics in follow-up after board meeting.",
+          "due": "2026-03-06"
+        },
+        {
+          "p": 4,
+          "cat": "Metrics",
+          "issue": "Qualitative case is strong but without quantified metrics, unclear if the board will view numbers as compelling enough.",
+          "rec": "AE/SE to deliver TCO analysis and ROI projections for board presentation.",
+          "due": "2026-02-28"
+        },
+        {
+          "p": 5,
+          "cat": "Economic Buyer",
+          "issue": "Mo is the champion but budget sign-off is at the board level. True EB likely a board member or C-suite exec at parent company. No specific name identified.",
+          "rec": "AE to clarify the budget approval authority.",
+          "due": "2026-03-06"
+        },
+        {
+          "p": 6,
+          "cat": "Economic Buyer",
+          "issue": "Not discussed. Likely Mo or someone above him.",
+          "rec": "AE to ask Mo about contract signing process.",
+          "due": "2026-03-06"
+        },
+        {
+          "p": 7,
+          "cat": "Economic Buyer",
+          "issue": "Access to Mo but not to the board-level decision maker.",
+          "rec": "AE to ask Mo for introduction to the budget approver.",
+          "due": "2026-03-13"
+        },
+        {
+          "p": 8,
+          "cat": "Economic Buyer",
+          "issue": "Mo is willing to collaborate on the business case, suggesting he could facilitate introductions. Organizational upheaval may complicate.",
+          "rec": "AE to offer to join a board presentation or provide exec-level support.",
+          "due": "2026-03-06"
+        },
+        {
+          "p": 9,
+          "cat": "Economic Buyer",
+          "issue": "Board cares about project prioritization and budget allocation. New CEO likely cares about modernization and ROI. Specifics unknown.",
+          "rec": "AE to probe Mo on board priorities.",
+          "due": "2026-03-06"
+        },
+        {
+          "p": 10,
+          "cat": "Economic Buyer",
+          "issue": "High-level process known (board meeting → budget sign-off by June). Specifics (who votes, thresholds, CapEx vs OpEx) unknown.",
+          "rec": "AE to ask Mo to walk through the budget approval workflow.",
+          "due": "2026-03-06"
+        },
+        {
+          "p": 11,
+          "cat": "Decision Process",
+          "issue": "Board meeting for initial prioritization, then budget approval by June. Steps between board buy-in and contract signature unclear.",
+          "rec": "AE to establish a mutual action plan with Mo post-board meeting.",
+          "due": "2026-03-13"
+        },
+        {
+          "p": 12,
+          "cat": "Decision Process",
+          "issue": "Mo (project lead), Diamante (technical), board (funding), parent company CEO (influence). Full committee not mapped.",
+          "rec": "AE to request org chart or stakeholder map.",
+          "due": "2026-03-06"
+        },
+        {
+          "p": 13,
+          "cat": "Decision Process",
+          "issue": "Diamante described longstanding frustration suggesting incremental attempts. Full replatform not attempted before. Not explicitly explored.",
+          "rec": "AE to ask about prior replatforming conversations.",
+          "due": "2026-03-13"
+        },
+        {
+          "p": 14,
+          "cat": "Decision Process",
+          "issue": "Mo implied long-term business risk. No specific 'stay put' scenario articulated with numbers.",
+          "rec": "AE/SE to build a 'status quo risk' slide for Mo's board deck.",
+          "due": "2026-02-28"
+        },
+        {
+          "p": 15,
+          "cat": "Decision Process",
+          "issue": "Mo confirmed board meeting and budget timeline. Full procurement/approval process not formally validated.",
+          "rec": "AE to propose MAP and validate with Mo after board outcome.",
+          "due": "2026-03-13"
+        },
+        {
+          "p": 16,
+          "cat": "Decision Criteria",
+          "issue": "Key criteria surfaced: brand-quality design, ease of use, faster timelines, lead tracking. Not formally documented as weighted criteria.",
+          "rec": "AE to present a summary of understood criteria and ask what's missing.",
+          "due": "2026-03-06"
+        },
+        {
+          "p": 17,
+          "cat": "Decision Criteria",
+          "issue": "D2C discussed, retail/POS mentioned. B2B (50% of business is trade) and detailed POS not explored.",
+          "rec": "SE to prepare tailored demo covering B2B, POS, omnichannel.",
+          "due": "2026-03-13"
+        },
+        {
+          "p": 18,
+          "cat": "Decision Criteria",
+          "issue": "With Diamante on leave, technical discovery deferred. No integration requirements or complications discussed.",
+          "rec": "AE to schedule technical deep-dive with Diamante.",
+          "due": "2026-03-13"
+        },
+        {
+          "p": 19,
+          "cat": "Decision Criteria",
+          "issue": "Diamante stated 'no leeway' on current provider but acknowledged competitive rates could change this. 0.2% third-party fee explained.",
+          "rec": "AE/SE to build payments cost comparison.",
+          "due": "2026-03-06"
+        },
+        {
+          "p": 20,
+          "cat": "Decision Criteria",
+          "issue": "Engagement roadmap outlined but no formal MAP with milestones, owners, and dates.",
+          "rec": "AE to draft and share MAP post-board meeting.",
+          "due": "2026-03-13"
+        },
+        {
+          "p": 21,
+          "cat": "Decision Criteria",
+          "issue": "Adriana positioned Shopify's strengths but no deliberate effort to shape formal evaluation criteria.",
+          "rec": "AE to propose a platform evaluation framework.",
+          "due": "2026-03-06"
+        },
+        {
+          "p": 22,
+          "cat": "Decision Criteria",
+          "issue": "Criteria emerging organically from frustrations, not formally defined by buying committee.",
+          "rec": "AE to ask about board-level criteria.",
+          "due": "2026-03-06"
+        },
+        {
+          "p": 23,
+          "cat": "Paper Process",
+          "issue": "Budgets approved by June, financial year starts August. Full procurement process unknown.",
+          "rec": "AE to ask Mo about procurement steps after budget approval.",
+          "due": "2026-03-13"
+        },
+        {
+          "p": 24,
+          "cat": "Paper Process",
+          "issue": "NDA requested in Word format suggests legal review process exists. Likely redlines on main contract.",
+          "rec": "AE to send NDA in Word format and ask about contract review.",
+          "due": "2026-02-28"
+        },
+        {
+          "p": 25,
+          "cat": "Paper Process",
+          "issue": "Not discussed.",
+          "rec": "AE to ask about typical legal review duration.",
+          "due": "2026-03-13"
+        },
+        {
+          "p": 26,
+          "cat": "Paper Process",
+          "issue": "Overall timeline understood but specific procurement duration not scoped.",
+          "rec": "AE to include procurement milestones in MAP.",
+          "due": "2026-03-13"
+        },
+        {
+          "p": 27,
+          "cat": "Paper Process",
+          "issue": "Commercials presented Feb 19. Product pricing structured. Full contract terms not discussed.",
+          "rec": "AE to have draft contract ready.",
+          "due": "2026-04-30"
+        },
+        {
+          "p": 28,
+          "cat": "Paper Process",
+          "issue": "Commercials presented but contract not sent. NDA still in progress.",
+          "rec": "AE to prepare contract.",
+          "due": "2026-04-30"
+        },
+        {
+          "p": 29,
+          "cat": "Paper Process",
+          "issue": "Budget sign-off by June, close date May 29 aligns. Not explicitly confirmed with customer.",
+          "rec": "AE to confirm end-of-May target.",
+          "due": "2026-03-13"
+        },
+        {
+          "p": 30,
+          "cat": "Identify Pain",
+          "issue": "Diamante's frustration suggests incremental attempts within current platform. Full replatform not attempted. Not explicitly explored.",
+          "rec": "AE to explore prior modernization efforts.",
+          "due": "2026-03-13"
+        },
+        {
+          "p": 31,
+          "cat": "Identify Pain",
+          "issue": "Marketing/Digital and E-Commerce clearly affected. Showroom/sales teams indirectly affected. Impact on trade/B2B side (50% of business) not explored.",
+          "rec": "AE/SE to discuss B2B and showroom pain points.",
+          "due": "2026-03-13"
+        },
+        {
+          "p": 32,
+          "cat": "Identify Pain",
+          "issue": "No competitors mentioned. Doing nothing is the primary alternative. Staying with a new agency on same platform not discussed.",
+          "rec": "AE to ask what other options the board is considering.",
+          "due": "2026-03-06"
+        },
+        {
+          "p": 33,
+          "cat": "Identify Pain",
+          "issue": "Shopify's templated best practices and speed align well. No explicit competitive comparison made. Unique positioning not fully articulated.",
+          "rec": "SE to prepare competitive positioning brief.",
+          "due": "2026-03-06"
+        },
+        {
+          "p": 34,
+          "cat": "Champion",
+          "issue": "Mo is Director-level and presenting to the board. However, with MD leaving and new CEO, his political capital with new leadership is uncertain.",
+          "rec": "AE to provide board-ready materials.",
+          "due": "2026-02-28"
+        },
+        {
+          "p": 35,
+          "cat": "Champion",
+          "issue": "No introduction to any board member or economic buyer above Mo.",
+          "rec": "AE to ask Mo about meeting with a board member.",
+          "due": "2026-03-13"
+        },
+        {
+          "p": 36,
+          "cat": "Champion",
+          "issue": "Mo accepted help building the business case (indirectly brings Shopify into board discussion). Hasn't offered direct board access.",
+          "rec": "AE to offer a Shopify executive sponsor.",
+          "due": "2026-03-06"
+        },
+        {
+          "p": 37,
+          "cat": "Champion",
+          "issue": "Mo motivated by need to modernize for long-term survival and his role as Director of Marketing & Digital. Personal stake inferred not confirmed.",
+          "rec": "AE to explore what success looks like personally for Mo.",
+          "due": "2026-03-06"
+        },
+        {
+          "p": 38,
+          "cat": "Competition",
+          "issue": "No competitors mentioned in any call. Salesforce competitor field is null.",
+          "rec": "AE to ask Mo if evaluating other platforms.",
+          "due": "2026-03-06"
+        },
+        {
+          "p": 39,
+          "cat": "Competition",
+          "issue": "Mo's comments suggest doing nothing is possible but not desirable. Not directly asked.",
+          "rec": "AE to ask about fallback plan.",
+          "due": "2026-03-06"
+        },
+        {
+          "p": 40,
+          "cat": "Competition",
+          "issue": "Staying with current platform (with/without new agency) is implicit alternative. No internal build mentioned.",
+          "rec": "AE to discuss current platform alternatives.",
+          "due": "2026-03-06"
+        },
+        {
+          "p": 41,
+          "cat": "Competition",
+          "issue": "Don't know if alternatives are being evaluated at all. Appears Shopify-focused but not confirmed.",
+          "rec": "AE to ask if board expects multiple vendor options.",
+          "due": "2026-03-06"
+        },
+        {
+          "p": 42,
+          "cat": "Competition",
+          "issue": "Win factors: speed, templates, lower TCO, integrated platform. Lose factors: board deprioritization, payment lock-in, Diamante absence, new leadership priorities.",
+          "rec": "AE/SE to build risk mitigation plan.",
+          "due": "2026-03-06"
+        }
+      ],
+      "stakeholders": [
+        {
+          "name": "Mo Goodfellow",
+          "title": "Director, Marketing & Digital",
+          "role": "Champion / Project Lead",
+          "email": "mo.goodfellow@cphart.co.uk",
+          "engagement": "none",
+          "callsAttended": 0,
+          "callsInvited": 0
+        },
+        {
+          "name": "Diamante Campolmi",
+          "title": "Senior E-Commerce Manager",
+          "role": "Technical Evaluator",
+          "email": "diamante.campolmi@cphart.co.uk",
+          "engagement": "none",
+          "callsAttended": 0,
+          "callsInvited": 0
+        }
+      ],
+      "shopifyTeam": [
+        {
+          "name": "Adriana Colacicco",
+          "role": "Account Executive",
+          "email": "adriana.colacicco@shopify.com"
+        },
+        {
+          "name": "Sarah Berelowitz",
+          "role": "Solutions Engineer",
+          "email": "sarah.berelowitz@shopify.com"
+        },
+        {
+          "name": "Alex Panagiotou",
+          "role": "Sales Support",
+          "email": "alexandros.panagiotou@shopify.com"
+        }
+      ],
+      "calls": [
+        {
+          "date": "2026-02-06",
+          "title": "Shopify x C.P. Hart & Sons",
+          "duration": "30 min",
+          "shopifyAttendees": [
+            "Adriana Colacicco",
+            "Alex Panagiotou"
+          ],
+          "merchantAttendees": [
+            "Mo Goodfellow",
+            "Diamante Campolmi"
+          ],
+          "summary": "During this sales meeting, Shopify representatives Adriana and Alex presented their Shopify Plus platform to Mo, outlining the cost model including variable platform fees (0.35% online, 0.25% retail above revenue thresholds), payment processing options, and hardware costs. They detailed a multi-phase engagement roadmap from discovery to launch. Mo, needing information for an upcoming board meeting due to recent organizational changes, sought process understanding, timelines, and ballpark costs for migrating to Shopify, targeting an August launch. Mo confirmed the NDA needs Word format. Seller will send slides, Mo will update after board meeting."
+        },
+        {
+          "date": "2026-01-23",
+          "title": "Shopify x C.P. Hart & Sons",
+          "duration": "30 min",
+          "shopifyAttendees": [
+            "Adriana Colacicco",
+            "Alex Panagiotou"
+          ],
+          "merchantAttendees": [
+            "Mo Goodfellow",
+            "Diamante Campolmi"
+          ],
+          "summary": "Discovery call centered on replacing C.P. Hart's outdated e-commerce platform. Shopify proposed its flexible, integrated solution emphasizing brand representation, customer acquisition, and online/in-store integration. C.P. Hart expressed significant frustration with their current custom, rigid, and costly system lacking clear development timelines. They seek templated best practices, better UI/UX, and improved lead generation. Need a compelling business case for board approval by mid-February. Next steps: case studies, agency recommendations, TCO calculations, follow-up Feb 6."
+        },
+        {
+          "date": "2026-01-21",
+          "title": "",
+          "duration": "",
+          "shopifyAttendees": [],
+          "merchantAttendees": [
+            "Mo Goodfellow"
+          ],
+          "summary": ""
+        },
+        {
+          "date": "2024-12-05",
+          "title": "",
+          "duration": "",
+          "shopifyAttendees": [],
+          "merchantAttendees": [
+            "Andrew Merriman"
+          ],
+          "summary": ""
+        },
+        {
+          "date": "2024-11-26",
+          "title": "",
+          "duration": "",
+          "shopifyAttendees": [],
+          "merchantAttendees": [
+            "Andrew Merriman"
+          ],
+          "summary": ""
+        },
+        {
+          "date": "2024-11-12",
+          "title": "",
+          "duration": "",
+          "shopifyAttendees": [],
+          "merchantAttendees": [
+            "Andrew Merriman"
+          ],
+          "summary": ""
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-02-20",
+          "totalScore": 27,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 4.5,
+            "Economic Buyer": 2,
+            "Decision Process": 4.5,
+            "Decision Criteria": 2,
+            "Paper Process": 2,
+            "Identify Pain": 6,
+            "Champion": 4.5,
+            "Competition": 1.5
+          },
+          "changes": []
+        }
+      ],
+      "mutualActionPlan": {
+        "merchantName": "C.P. Hart & Sons Limited",
+        "kickoffDate": "",
+        "goLiveDate": "2026-05-29",
+        "contactName": "Adriana Colacicco",
+        "contactEmail": "adriana.colacicco@shopify.com",
+        "champion": "Mo Goodfellow",
+        "items": [
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Initial discovery & intro calls",
+            "ownerMerchant": "Mo Goodfellow",
+            "ownerShopify": "Adriana",
+            "notes": "6 calls completed"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Identify champion & project team",
+            "ownerMerchant": "Mo Goodfellow",
+            "ownerShopify": "Adriana",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "AE to propose specific success metrics framework in next call.",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": "Metrics · Due 2026-03-06",
+            "due": "2026-03-06"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "AE/SE to build a 'cost of doing nothing' analysis.",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": "Metrics · Due 2026-03-06",
+            "due": "2026-03-06"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Validate business case with economic buyer",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Confirm economic buyer & signing authority",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "AE to ask Mo for introduction to the budget approver.",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": "Due 2026-03-13",
+            "due": "2026-03-13"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Map complete decision & approval process",
+            "ownerMerchant": "Mo Goodfellow",
+            "ownerShopify": "Adriana",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "AE to establish a mutual action plan with Mo post-board meeting.",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": "Due 2026-03-13",
+            "due": "2026-03-13"
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Submit merchant intent",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": "Intent: Committed - At Risk"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Finalize commercial proposal",
+            "ownerMerchant": "Mo Goodfellow",
+            "ownerShopify": "Adriana",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Confirm procurement process & legal steps",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "AE to ask Mo about procurement steps after budget approval.",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": "Paper Process · Due 2026-03-13",
+            "due": "2026-03-13"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "AE to send NDA in Word format and ask about contract review.",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": "Paper Process · Due 2026-02-28",
+            "due": "2026-02-28"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Contract sent for signature",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Contract signed ✍️",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": "Target: 2026-05-29"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Introduction to Shopify Launch team",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Go-Live 🚀",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          }
+        ]
+      },
+      "coachingSnapshots": [
+        {
+          "date": "2026-02-20",
+          "sections": {
+            "Metrics": {
+              "score": 4.5,
+              "max": 7,
+              "pct": 64
+            },
+            "Economic Buyer": {
+              "score": 2,
+              "max": 6,
+              "pct": 33
+            },
+            "Decision Process": {
+              "score": 4.5,
+              "max": 7,
+              "pct": 64
+            },
+            "Decision Criteria": {
+              "score": 2,
+              "max": 7,
+              "pct": 29
+            },
+            "Paper Process": {
+              "score": 2,
+              "max": 7,
+              "pct": 29
+            },
+            "Identify Pain": {
+              "score": 6,
+              "max": 8,
+              "pct": 75
+            },
+            "Champion": {
+              "score": 4.5,
+              "max": 7,
+              "pct": 64
+            },
+            "Competition": {
+              "score": 1.5,
+              "max": 5,
+              "pct": 30
             }
           }
         }
