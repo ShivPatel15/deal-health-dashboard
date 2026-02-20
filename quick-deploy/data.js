@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-20T17:04:44.517Z",
+  "generatedAt": "2026-02-20T17:23:49.264Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -16276,25 +16276,39 @@ const DEAL_DATA = {
         {
           "date": "2026-01-07",
           "title": "Ben & Jordan Sync",
-          "duration": "",
-          "shopifyAttendees": [],
-          "merchantAttendees": [],
+          "duration": "30 min",
+          "shopifyAttendees": [
+            "Ben Rees (ben.rees@shopify.com)"
+          ],
+          "merchantAttendees": [
+            "Jordan Sykes (jordan.sykes@bugaboo.com)"
+          ],
           "summary": ""
         },
         {
           "date": "2025-11-06",
           "title": "Shopify X Bugaboo",
-          "duration": "",
-          "shopifyAttendees": [],
-          "merchantAttendees": [],
+          "duration": "50 min",
+          "shopifyAttendees": [
+            "Ben Rees (ben.rees@shopify.com)"
+          ],
+          "merchantAttendees": [
+            "Jordan Sykes (jordan.sykes@bugaboo.com)",
+            "Jimmy Cai (jimmy.cai@bugaboo.com)",
+            "Jurryt van Arend (jurryt@joolz.com)"
+          ],
           "summary": ""
         },
         {
           "date": "2025-09-16",
           "title": "Ben and Jordan - catch up",
-          "duration": "",
-          "shopifyAttendees": [],
-          "merchantAttendees": [],
+          "duration": "30 min",
+          "shopifyAttendees": [
+            "Ben Rees (ben.rees@shopify.com)"
+          ],
+          "merchantAttendees": [
+            "Jordan Sykes (jordan.sykes@bugaboo.com)"
+          ],
           "summary": ""
         }
       ],
