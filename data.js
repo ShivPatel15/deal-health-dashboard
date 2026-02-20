@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-20T12:58:37.627Z",
+  "generatedAt": "2026-02-20T13:14:33.979Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -14384,6 +14384,1191 @@ const DEAL_DATA = {
               "score": 3,
               "max": 5,
               "pct": 60
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "006OG00000FYX8zYAH",
+      "name": "Hawes & Curtis Limited",
+      "accountName": "Hawes & Curtis Limited",
+      "accountId": "0018V00002epVCgQAM",
+      "owner": "Maissa Fatte",
+      "ownerEmail": "maissa.fatte@shopify.com",
+      "stage": "Deal Craft",
+      "closeDate": "2026-03-26",
+      "forecastCategory": "Commit",
+      "probability": 80,
+      "merchantIntent": "Committed",
+      "type": "New Business",
+      "created": "2025-07-14",
+      "lastAnalysisDate": "2026-02-20",
+      "revenue": {
+        "mcv": 82800,
+        "totalRev3yr": 2040937.5,
+        "d2cGmv": 50000000,
+        "b2bGmv": null,
+        "retailGmv": null,
+        "paymentsGpv": 32500000,
+        "paymentsAttached": true,
+        "ipp": 1087618.88
+      },
+      "projectedBilledRevenue": 664590.3,
+      "products": [
+        "Plus Product Suite",
+        "D2C - Standard",
+        "Shopify Payments - D2C Plus"
+      ],
+      "competitor": "Custom Build",
+      "compellingEvent": "Must be live by August 2026 ahead of peak trading season. CEO Touker Suleyman personally mandating 4-5 month completion timeline. Aggressive growth targets require platform migration.",
+      "nextStep": "13/02 MF: Finalising agency selection before signing Shopify contract. Paul Rogers (Vervaunt) introduced more agencies with design focus, might not sign before Q2 now. Catch up with Paul next week (Alexandra supporting).",
+      "narrative": {
+        "oppSummary": "Hawes & Curtis is an $82,800 MCV Plus deal (projected $2.04M total 3-year revenue) to migrate the UK-based fashion retailer off a legacy custom-built platform onto Shopify Plus, including Shopify Payments ($32.5M GPV). The deal is at 80% probability in Deal Craft stage, with CEO Touker Suleyman pushing aggressively to sign and go live by August 2026 ahead of peak trading season. Agency selection (implementation partner) is the final gating item before contract signature.",
+        "whyChange": "Hawes & Curtis is running on a legacy custom-built platform that is actively preventing the business from growing and innovating. Their current tech stack cannot deliver the customer experiences they need to drive online growth, with technical limitations surfacing around inventory management, order statuses, and the inability to unify D2C and POS without heavy integration work. The CTO's team raised multiple concerns about their current platform's rigidity during the technical workshop. The business has aggressive growth targets and the CEO is personally driving urgency, demanding project completion in four to five months with no delays.",
+        "whyShopify": "Other brands within the Hawes & Curtis group are already on Shopify, which means the team has existing Shopify expertise and organizational confidence in the platform. The technical workshop demonstrated strong platform foundations, developer tools, pre-built integrations, and Shopify Markets for consolidating multiple stores. The payments discussion highlighted Shopify's integrated payment solution with superior authorization rates and end-to-end fraud management compared to Adyen. The unified D2C and POS platform eliminates integration friction.",
+        "whyNow": "The primary driver is an August 2026 go-live target ahead of the peak trading season — missing this window would mean another year on the underperforming legacy platform during their most critical revenue period. CEO Touker Suleyman is personally mandating the timeline, stating: 'I want the whole project done in four months... four to five months. So by mid-June latest.' The aggressive growth targets make delay commercially unacceptable.",
+        "supportNeeded": "Agency/implementation partner selection support (Paul Rogers/Vervaunt introducing agencies - risk of Q2 slip). Commercial clarity on fee structure for Sam Nesan. Payments competitive positioning vs. Adyen with additional data. Fraud management confidence building for retail team. Technical deep-dive follow-up to close CTO's open questions on inventory management, order statuses, and cookie control."
+      },
+      "meddpicc": {
+        "metrics": {
+          "label": "Metrics",
+          "questions": [
+            {
+              "q": "Do we know the business reasons as to why they are migrating?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Clear business reasons documented — legacy custom platform preventing growth and innovation, aggressive growth targets, need for better customer experiences.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we have specific quantifiable goals aligned with the project?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Growth targets mentioned as 'aggressive' but no specific quantified KPIs stated (e.g., revenue growth %, conversion rate targets). $50M D2C GMV is projected but not tied to specific improvement metrics.",
+              "solution": "Quantify specific goals — ask what revenue growth, conversion rate, or operational efficiency targets they're measuring against.",
+              "action": "Maissa to schedule a brief call with Sam or Touker to confirm measurable success criteria tied to the migration.",
+              "due": "03/06/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do they need to make a platform change to achieve this goal?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Legacy custom build is the problem — they cannot achieve their goals without migrating. Touker is personally pushing the platform change. Technical workshop confirmed the current platform cannot support required functionality.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we understand the impact if this goal isn't achieved?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Implied impact — another year on legacy platform during peak, continued inability to grow and innovate. No specific financial quantification of cost of inaction.",
+              "solution": "Quantify the cost of inaction — lost revenue from poor customer experience, cost of maintaining legacy platform.",
+              "action": "Maissa to explore with Sam/Chan what the annual cost of maintaining the legacy platform is and what revenue they believe they're leaving on the table.",
+              "due": "03/06/2026",
+              "highlight": false
+            },
+            {
+              "q": "Is there a compelling event in place driving action?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "August 2026 go-live ahead of peak trading season is a clear compelling event. Touker set a mid-June completion target. Well-documented in Salesforce and confirmed in calls.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have I validated the metrics with the customer?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Metrics around timeline have been validated directly with Touker and Sam. However, quantifiable business goals have not been explicitly validated with the customer.",
+              "solution": "Formally validate specific measurable outcomes the customer expects post-migration.",
+              "action": "Include metrics validation in next commercial/planning call.",
+              "due": "03/06/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are the metrics compelling enough to justify change?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "CEO is personally driving urgency and refusing delays. 'Don't worry about that. Just sign it. We need to move.' Other group brands on Shopify further validates.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            }
+          ]
+        },
+        "economicBuyer": {
+          "label": "Economic Buyer",
+          "questions": [
+            {
+              "q": "Have I identified the true economic buyer?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Touker Suleyman (CEO/Founder) is clearly the economic buyer. He personally attended the Jan 30 call, overrode Sam's hesitation on costs, and directly mandated signing.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know who's signing the contract?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Touker directed Sam to sign, and Sam is CFO. It's likely Touker or Sam signs the contract, but exact signatory has not been explicitly confirmed.",
+              "solution": "Confirm who specifically will be the contract signatory.",
+              "action": "Maissa to confirm with Sam whether he or Touker will execute the agreement.",
+              "due": "02/27/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we have access to this individual?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Touker attended the Jan 30 call directly with Maissa. Maissa has direct access to the economic buyer.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Can we get access?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Already have access — Touker was on the call and actively participating in decision-making.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what the economic buyer cares about most?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Touker cares about speed of execution and being live before peak. Sam cares about commercial terms, cost structure, and PCI compliance. Both priorities are well understood.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do you know how they make decisions and allocate budget?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Touker makes decisions quickly and authoritatively. Budget allocation process is less clear — Sam was checking commercials but no formal approval/procurement steps detailed.",
+              "solution": "Understand if there's a formal board approval or procurement step beyond Touker's verbal commitment.",
+              "action": "Maissa to confirm with Sam if any additional internal approvals are needed beyond Touker's direction.",
+              "due": "02/27/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "decisionProcess": {
+          "label": "Decision Process",
+          "questions": [
+            {
+              "q": "Do we know how they will be making the decision?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Touker is the final decision-maker and has directed Sam to finalize. Full formal decision process (board approval, procurement steps) hasn't been explicitly mapped. Current blocker is agency selection.",
+              "solution": "Map the full internal decision process — from Touker's approval to contract execution.",
+              "action": "Maissa to ask Sam to walk through exact steps from 'decision made' to 'contract signed'.",
+              "due": "02/27/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know who's involved / buying committee?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Buying committee well-identified: Touker (CEO/decision-maker), Sam (CFO/commercial review), Suley (Director), Chan (CTO/technical), Michael (launch contact). All involved in various calls.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know when they want to make a decision by?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Touker stated 'sign the contract by next Friday' (Jan 30). Target close date March 26. AE notes indicate possible slip to Q2 due to agency selection.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what is driving this timeline?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Timeline driven by August 2026 peak trading season go-live. Touker wants 4-5 month project completion.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know if they have tried to solve this problem before?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Currently on a legacy custom platform — the existing solution. Technical workshop revealed extent of customization and workarounds.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what will happen if they do nothing?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "If they do nothing, they remain on a legacy platform that prevents growth, miss aggressive targets, and endure another peak season on underperforming technology.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have you validated this process with the buyer?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Process discussed informally — Touker gave direct instructions and timelines. A formal mutual action plan has not been confirmed.",
+              "solution": "Formalize the decision process into a documented mutual action plan.",
+              "action": "Maissa to propose a mutual action plan with key milestones from contract signature through August go-live.",
+              "due": "03/06/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "decisionCriteria": {
+          "label": "Decision Criteria",
+          "questions": [
+            {
+              "q": "Do we know what criteria the customer is using to evaluate vendors?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Criteria emerged across calls: platform capability, payments performance/cost, fraud management, unified D2C+POS, speed to go-live, total cost, PCI compliance. Not formally listed or ranked.",
+              "solution": "Ask the customer to explicitly rank their top evaluation criteria.",
+              "action": "Maissa to confirm with Sam/Chan what the top 3-5 criteria are for final decision.",
+              "due": "03/06/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "D2C extensively discussed. POS discussed with retail team but decision appears unresolved. B2B not discussed (null GMV). POS team had significant concerns about fraud and hardware.",
+              "solution": "Close the loop on POS decision — is it in scope for this phase?",
+              "action": "Maissa to confirm with Sam whether POS migration is included in initial scope or Phase 2.",
+              "due": "03/06/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have we surfaced technical complications (integrations)?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Technical workshop (120 min) extensively covered integrations — mandatory third-party vendors, data stores, partner integrations, cookie control, inventory management, order statuses.",
+              "solution": "",
+              "action": "Ensure all open technical questions from the workshop are addressed before or alongside contract signature.",
+              "due": "03/13/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how payments play into their decision?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Payments was a dedicated agenda item. H&C compared Shopify Payments against Adyen on rates, authorization performance, and fraud management. Payments attached at $32.5M GPV.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we have a mutual action plan in place?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "No formal mutual action plan mentioned. Touker set informal milestones. AE notes reference agency selection as current step.",
+              "solution": "Create and share a formal mutual action plan.",
+              "action": "Maissa to draft a mutual action plan covering agency selection → contract signature → project kickoff → go-live.",
+              "due": "03/06/2026",
+              "highlight": false
+            },
+            {
+              "q": "Did we help shape those criteria in our favour?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Shopify has influenced criteria through workshops and demos. Other group brands on Shopify may have pre-set criteria. Not clear if criteria were formally shaped.",
+              "solution": "Continue to reinforce Shopify's unique differentiators.",
+              "action": "Stephen to prepare a summary document of how Shopify addresses each of H&C's stated requirements.",
+              "due": "03/06/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know who defined the decision criteria?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Criteria internally driven by CTO (technical), CFO (commercial), CEO (speed/growth). Paul Rogers (Vervaunt) involved in agency selection may influence platform expectations.",
+              "solution": "Understand Vervaunt's role and influence on platform criteria.",
+              "action": "Maissa/Alexandra to assess Vervaunt's influence during next catch-up with Paul Rogers.",
+              "due": "02/27/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "paperProcess": {
+          "label": "Paper Process",
+          "questions": [
+            {
+              "q": "Do we know what their procurement process is?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Sam is reviewing commercials, Touker directed signing. Formal procurement steps (legal review, specific approval workflow) haven't been detailed.",
+              "solution": "Map exact procurement steps from Sam's review to executed contract.",
+              "action": "Maissa to ask Sam: 'After you review commercials, what are the exact steps to get this signed?'",
+              "due": "02/27/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are there likely to be redlines?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Sam wanted to reconfirm commercial terms and had concern about paying from day one before go-live. No legal team mentioned.",
+              "solution": "Proactively identify potential redlines by asking Sam if legal review is required.",
+              "action": "Maissa to ask Sam if their legal team will need to review the contract.",
+              "due": "02/27/2026",
+              "highlight": false
+            },
+            {
+              "q": "If redlines, how long does review take?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No information on how long legal or procurement review takes at Hawes & Curtis.",
+              "solution": "Understand typical contract review timelines.",
+              "action": "Maissa to ask Sam about their standard contract review timeline.",
+              "due": "02/27/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how long it will take?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Touker said 'sign by next Friday' (Jan 30) but AE notes from Feb 13 indicate agency selection delays may push to Q2.",
+              "solution": "Separate agency selection from Shopify contract signing if possible.",
+              "action": "Maissa to explore whether Shopify contract can be signed independently of agency finalization.",
+              "due": "02/27/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we have contract details?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Draft contract has been sent to H&C. Commercial terms including $2,300/month minimum fee have been shared.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have we sent the contract?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Contract has been sent per Call 1 discussion. Sam is actively reviewing it.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know target date for signature?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Original target was 'next Friday' after Jan 30. Salesforce close date March 26. Feb 13 AE notes suggest possible Q2 slip due to agency selection.",
+              "solution": "Reconfirm signature target date and decouple from agency selection.",
+              "action": "Maissa to get a firm updated signature date commitment from Sam.",
+              "due": "02/27/2026",
+              "highlight": false
+            }
+          ]
+        },
+        "identifyPain": {
+          "label": "Identify Pain",
+          "questions": [
+            {
+              "q": "Do we know their current issues and why they are reviewing their tech stack?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Clearly identified — legacy custom platform preventing growth and innovation, poor customer experience, inability to unify D2C/POS, technical debt, fraud gaps, PCI compliance burden.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have they tried to resolve this issue in the past?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Operating on custom-built platform with various workarounds. Technical workshop revealed extensive customizations indicating past attempts to solve problems within existing system.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how pains are affecting business operations?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Business operations affected by slow innovation, poor customer experience, integration issues, fraud exposure, cost inefficiencies.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know what teams are affected and to what extent?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Multiple teams affected: ecommerce/digital (Chan, Michael), finance/CFO (Sam), retail/POS (Danny, Panos), executive leadership (Touker, Suley). Each raised domain-specific pain.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Do we know how urgent it is to solve this pain?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Very urgent — CEO mandating 4-5 month completion, August peak deadline, 'no messing about' directive.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Can they solve this pain using another option?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Alternative is staying on custom build (listed as competitor). No other platforms mentioned. Unclear if they evaluated alternatives.",
+              "solution": "Confirm competitive landscape.",
+              "action": "Maissa to ask if they've looked at any other platform vendors or if this is Shopify vs. status quo.",
+              "due": "03/06/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know why this problem is important to solve now?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Important to solve now because of August peak season, aggressive growth targets, CEO mandate, and fundamental limitation of legacy platform.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Is our solution uniquely positioned to solve this pain?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Shopify uniquely positioned — group brands already on Shopify, unified D2C+POS, Shopify Payments addresses authorization/fraud concerns, team has existing expertise.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            }
+          ]
+        },
+        "champion": {
+          "label": "Champion",
+          "questions": [
+            {
+              "q": "Have you identified a true champion (influence + motivation)?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Sam Nesan (CFO) is the primary champion — primary stakeholder, multiple calls, reviewing commercials, operational contact. Touker is EB/sponsor. Chan and Michael are technical champions.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Does your champion have political capital and credibility?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Sam is CFO with direct access to and authority from Touker. 'Sam, do it by Monday' confirmed trust and delegation. Chan as CTO has technical credibility.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have they given insights you wouldn't get otherwise?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Sam provided commercial context (Adyen comparison, cost concerns, PCI priorities). Chan's team provided deep technical requirements during 2-hour workshop.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Are they connected with the key decision makers?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Sam reports directly to Touker. Touker was on the same call. Sam is clearly connected with decision-makers.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have you been introduced to the decision maker?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Maissa was on a call directly with Touker. Sam facilitated access. Champion has introduced Shopify to the ultimate decision-maker.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Are they willing to bring you into the board/buying group?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Sam has facilitated access to Touker and broader team. No explicit mention of a board or buying group presentation. Touker's direct involvement may make this unnecessary.",
+              "solution": "Confirm whether any board or group-level approval is needed beyond Touker.",
+              "action": "Maissa to ask Sam if there are any group-level approvals required.",
+              "due": "03/06/2026",
+              "highlight": false
+            },
+            {
+              "q": "Why are they such a champion for you?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Sam championing because: legacy platform creates CFO pain, group brands already on Shopify, reduces PCI burden, and Touker personally mandating the change.",
+              "solution": "",
+              "action": "",
+              "due": "",
+              "highlight": false
+            }
+          ]
+        },
+        "competition": {
+          "label": "Competition",
+          "questions": [
+            {
+              "q": "Do we know who else the customer is evaluating?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Competitor is 'Custom Build' — primary competition is status quo. No other platform vendors mentioned in any calls.",
+              "solution": "Confirm whether other vendors were ever considered.",
+              "action": "Maissa to ask Sam directly: 'Did you evaluate any other platforms before landing on Shopify?'",
+              "due": "03/06/2026",
+              "highlight": false
+            },
+            {
+              "q": "Have we asked if doing nothing is an option?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Doing nothing (staying on custom build) is implicitly an option but Touker's urgency suggests it's not viable. Not explicitly confirmed as ruled out.",
+              "solution": "Explicitly confirm that doing nothing has been ruled out.",
+              "action": "Maissa to validate that staying on the custom platform is definitively off the table.",
+              "due": "03/06/2026",
+              "highlight": false
+            },
+            {
+              "q": "Are there internal alternatives to our solution?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Internal alternative is current custom build. Could theoretically rebuild on new custom stack. Not explicitly discussed.",
+              "solution": "Understand if rebuilding custom is being considered by CTO's team.",
+              "action": "Maissa or Stephen to confirm with Chan that a new custom build is not being considered.",
+              "due": "03/06/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know why alternatives are being evaluated?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Know why current custom build is failing. Haven't explicitly asked why they might consider alternatives to Shopify specifically. Group's existing Shopify usage likely pre-empted broader evaluation.",
+              "solution": "Document why alternatives were ruled out for deal defensibility.",
+              "action": "Ask Sam to articulate why Shopify was chosen over other options.",
+              "due": "03/06/2026",
+              "highlight": false
+            },
+            {
+              "q": "Do we know why we would win or lose?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Strong win indicators: CEO mandate, group brands on Shopify, team expertise, contract sent, 80% probability. Potential risk: agency selection delays, cost concerns, unresolved technical questions. Deal could stall rather than be lost to a competitor.",
+              "solution": "Mitigate stall risk by resolving agency selection blocker and outstanding technical questions.",
+              "action": "Maissa and Alexandra to actively support agency selection; Stephen to close out open technical items with Chan.",
+              "due": "03/13/2026",
+              "highlight": false
+            }
+          ]
+        }
+      },
+      "scores": {
+        "Metrics": {
+          "score": 5.5,
+          "max": 7,
+          "pct": 79
+        },
+        "Economic Buyer": {
+          "score": 5,
+          "max": 6,
+          "pct": 83
+        },
+        "Decision Process": {
+          "score": 6,
+          "max": 7,
+          "pct": 86
+        },
+        "Decision Criteria": {
+          "score": 4.5,
+          "max": 7,
+          "pct": 64
+        },
+        "Paper Process": {
+          "score": 4,
+          "max": 7,
+          "pct": 57
+        },
+        "Identify Pain": {
+          "score": 7.5,
+          "max": 8,
+          "pct": 94
+        },
+        "Champion": {
+          "score": 6.5,
+          "max": 7,
+          "pct": 93
+        },
+        "Competition": {
+          "score": 2.5,
+          "max": 5,
+          "pct": 50
+        },
+        "_total": {
+          "score": 41.5,
+          "max": 54,
+          "pct": 77,
+          "status": "good-health"
+        }
+      },
+      "nextSteps": [
+        {
+          "p": 1,
+          "cat": "Metrics",
+          "issue": "Growth targets mentioned as 'aggressive' but no specific quantified KPIs stated (e.g., revenue growth %, conversion rate targets). $50M D2C GMV is projected but not tied to specific improvement metrics.",
+          "rec": "Maissa to schedule a brief call with Sam or Touker to confirm measurable success criteria tied to the migration.",
+          "due": "03/06/2026"
+        },
+        {
+          "p": 2,
+          "cat": "Metrics",
+          "issue": "Implied impact — another year on legacy platform during peak, continued inability to grow and innovate. No specific financial quantification of cost of inaction.",
+          "rec": "Maissa to explore with Sam/Chan what the annual cost of maintaining the legacy platform is and what revenue they believe they're leaving on the table.",
+          "due": "03/06/2026"
+        },
+        {
+          "p": 3,
+          "cat": "Metrics",
+          "issue": "Metrics around timeline have been validated directly with Touker and Sam. However, quantifiable business goals have not been explicitly validated with the customer.",
+          "rec": "Include metrics validation in next commercial/planning call.",
+          "due": "03/06/2026"
+        },
+        {
+          "p": 4,
+          "cat": "Economic Buyer",
+          "issue": "Touker directed Sam to sign, and Sam is CFO. It's likely Touker or Sam signs the contract, but exact signatory has not been explicitly confirmed.",
+          "rec": "Maissa to confirm with Sam whether he or Touker will execute the agreement.",
+          "due": "02/27/2026"
+        },
+        {
+          "p": 5,
+          "cat": "Economic Buyer",
+          "issue": "Touker makes decisions quickly and authoritatively. Budget allocation process is less clear — Sam was checking commercials but no formal approval/procurement steps detailed.",
+          "rec": "Maissa to confirm with Sam if any additional internal approvals are needed beyond Touker's direction.",
+          "due": "02/27/2026"
+        },
+        {
+          "p": 6,
+          "cat": "Decision Process",
+          "issue": "Touker is the final decision-maker and has directed Sam to finalize. Full formal decision process (board approval, procurement steps) hasn't been explicitly mapped. Current blocker is agency selection.",
+          "rec": "Maissa to ask Sam to walk through exact steps from 'decision made' to 'contract signed'.",
+          "due": "02/27/2026"
+        },
+        {
+          "p": 7,
+          "cat": "Decision Process",
+          "issue": "Process discussed informally — Touker gave direct instructions and timelines. A formal mutual action plan has not been confirmed.",
+          "rec": "Maissa to propose a mutual action plan with key milestones from contract signature through August go-live.",
+          "due": "03/06/2026"
+        },
+        {
+          "p": 8,
+          "cat": "Decision Criteria",
+          "issue": "Criteria emerged across calls: platform capability, payments performance/cost, fraud management, unified D2C+POS, speed to go-live, total cost, PCI compliance. Not formally listed or ranked.",
+          "rec": "Maissa to confirm with Sam/Chan what the top 3-5 criteria are for final decision.",
+          "due": "03/06/2026"
+        },
+        {
+          "p": 9,
+          "cat": "Decision Criteria",
+          "issue": "D2C extensively discussed. POS discussed with retail team but decision appears unresolved. B2B not discussed (null GMV). POS team had significant concerns about fraud and hardware.",
+          "rec": "Maissa to confirm with Sam whether POS migration is included in initial scope or Phase 2.",
+          "due": "03/06/2026"
+        },
+        {
+          "p": 10,
+          "cat": "Decision Criteria",
+          "issue": "No formal mutual action plan mentioned. Touker set informal milestones. AE notes reference agency selection as current step.",
+          "rec": "Maissa to draft a mutual action plan covering agency selection → contract signature → project kickoff → go-live.",
+          "due": "03/06/2026"
+        },
+        {
+          "p": 11,
+          "cat": "Decision Criteria",
+          "issue": "Shopify has influenced criteria through workshops and demos. Other group brands on Shopify may have pre-set criteria. Not clear if criteria were formally shaped.",
+          "rec": "Stephen to prepare a summary document of how Shopify addresses each of H&C's stated requirements.",
+          "due": "03/06/2026"
+        },
+        {
+          "p": 12,
+          "cat": "Decision Criteria",
+          "issue": "Criteria internally driven by CTO (technical), CFO (commercial), CEO (speed/growth). Paul Rogers (Vervaunt) involved in agency selection may influence platform expectations.",
+          "rec": "Maissa/Alexandra to assess Vervaunt's influence during next catch-up with Paul Rogers.",
+          "due": "02/27/2026"
+        },
+        {
+          "p": 13,
+          "cat": "Paper Process",
+          "issue": "Sam is reviewing commercials, Touker directed signing. Formal procurement steps (legal review, specific approval workflow) haven't been detailed.",
+          "rec": "Maissa to ask Sam: 'After you review commercials, what are the exact steps to get this signed?'",
+          "due": "02/27/2026"
+        },
+        {
+          "p": 14,
+          "cat": "Paper Process",
+          "issue": "Sam wanted to reconfirm commercial terms and had concern about paying from day one before go-live. No legal team mentioned.",
+          "rec": "Maissa to ask Sam if their legal team will need to review the contract.",
+          "due": "02/27/2026"
+        },
+        {
+          "p": 15,
+          "cat": "Paper Process",
+          "issue": "No information on how long legal or procurement review takes at Hawes & Curtis.",
+          "rec": "Maissa to ask Sam about their standard contract review timeline.",
+          "due": "02/27/2026"
+        },
+        {
+          "p": 16,
+          "cat": "Paper Process",
+          "issue": "Touker said 'sign by next Friday' (Jan 30) but AE notes from Feb 13 indicate agency selection delays may push to Q2.",
+          "rec": "Maissa to explore whether Shopify contract can be signed independently of agency finalization.",
+          "due": "02/27/2026"
+        },
+        {
+          "p": 17,
+          "cat": "Paper Process",
+          "issue": "Original target was 'next Friday' after Jan 30. Salesforce close date March 26. Feb 13 AE notes suggest possible Q2 slip due to agency selection.",
+          "rec": "Maissa to get a firm updated signature date commitment from Sam.",
+          "due": "02/27/2026"
+        },
+        {
+          "p": 18,
+          "cat": "Identify Pain",
+          "issue": "Alternative is staying on custom build (listed as competitor). No other platforms mentioned. Unclear if they evaluated alternatives.",
+          "rec": "Maissa to ask if they've looked at any other platform vendors or if this is Shopify vs. status quo.",
+          "due": "03/06/2026"
+        },
+        {
+          "p": 19,
+          "cat": "Champion",
+          "issue": "Sam has facilitated access to Touker and broader team. No explicit mention of a board or buying group presentation. Touker's direct involvement may make this unnecessary.",
+          "rec": "Maissa to ask Sam if there are any group-level approvals required.",
+          "due": "03/06/2026"
+        },
+        {
+          "p": 20,
+          "cat": "Competition",
+          "issue": "Competitor is 'Custom Build' — primary competition is status quo. No other platform vendors mentioned in any calls.",
+          "rec": "Maissa to ask Sam directly: 'Did you evaluate any other platforms before landing on Shopify?'",
+          "due": "03/06/2026"
+        },
+        {
+          "p": 21,
+          "cat": "Competition",
+          "issue": "Doing nothing (staying on custom build) is implicitly an option but Touker's urgency suggests it's not viable. Not explicitly confirmed as ruled out.",
+          "rec": "Maissa to validate that staying on the custom platform is definitively off the table.",
+          "due": "03/06/2026"
+        },
+        {
+          "p": 22,
+          "cat": "Competition",
+          "issue": "Internal alternative is current custom build. Could theoretically rebuild on new custom stack. Not explicitly discussed.",
+          "rec": "Maissa or Stephen to confirm with Chan that a new custom build is not being considered.",
+          "due": "03/06/2026"
+        },
+        {
+          "p": 23,
+          "cat": "Competition",
+          "issue": "Know why current custom build is failing. Haven't explicitly asked why they might consider alternatives to Shopify specifically. Group's existing Shopify usage likely pre-empted broader evaluation.",
+          "rec": "Ask Sam to articulate why Shopify was chosen over other options.",
+          "due": "03/06/2026"
+        },
+        {
+          "p": 24,
+          "cat": "Competition",
+          "issue": "Strong win indicators: CEO mandate, group brands on Shopify, team expertise, contract sent, 80% probability. Potential risk: agency selection delays, cost concerns, unresolved technical questions. Deal could stall rather than be lost to a competitor.",
+          "rec": "Maissa and Alexandra to actively support agency selection; Stephen to close out open technical items with Chan.",
+          "due": "03/13/2026"
+        }
+      ],
+      "stakeholders": [
+        {
+          "name": "Sam Nesan",
+          "title": "Chief Financial Officer, Fd",
+          "role": "Influencer",
+          "email": "sam@low-profile.com",
+          "engagement": "high",
+          "callsAttended": 3,
+          "callsInvited": 4
+        },
+        {
+          "name": "Suley Suleyman",
+          "title": "Director",
+          "role": "Influencer",
+          "email": "suley@low-profile.com",
+          "engagement": "medium",
+          "callsAttended": 2,
+          "callsInvited": 3
+        },
+        {
+          "name": "Chan Eli Weer",
+          "title": "CTO",
+          "role": "Technical Evaluator",
+          "email": "chanuka@hawesandcurtis.com",
+          "engagement": "medium",
+          "callsAttended": 2,
+          "callsInvited": 2
+        },
+        {
+          "name": "Michael Maynard",
+          "title": "Launch Contact",
+          "role": "Launch Contact",
+          "email": "mmaynard@hawesandcurtis.com",
+          "engagement": "low",
+          "callsAttended": 1,
+          "callsInvited": 1
+        },
+        {
+          "name": "Touker Suleyman",
+          "title": "CEO / Founder",
+          "role": "Economic Buyer",
+          "email": "touker@low-profile.com",
+          "engagement": "high",
+          "callsAttended": 1,
+          "callsInvited": 1
+        }
+      ],
+      "shopifyTeam": [
+        {
+          "name": "Maissa Fatte",
+          "role": "Account Executive",
+          "email": "maissa.fatte@shopify.com"
+        },
+        {
+          "name": "Stephen Brook",
+          "role": "Solutions Engineer",
+          "email": "stephen.brook@shopify.com"
+        }
+      ],
+      "calls": [
+        {
+          "date": "2026-01-30",
+          "title": "Shopify X Hawes & Curtis",
+          "duration": "30 min",
+          "shopifyAttendees": [
+            "Maissa Fatte (AE)"
+          ],
+          "merchantAttendees": [
+            "Michael Maynard",
+            "Sam Nesan (CFO)",
+            "Suley Suleyman (Director)",
+            "Touker Suleyman (CEO)"
+          ],
+          "summary": "Contract review with CEO Touker Suleyman. Touker pushed to sign by next Friday, demanding 4-5 month project completion. Sam reviewing commercials by Monday. Agency partner (ROI) selection finalizing next week. $2.3K/month minimum fee confirmed."
+        },
+        {
+          "date": "2025-09-26",
+          "title": "H&C X Shopify - Technical Workshop",
+          "duration": "120 min",
+          "shopifyAttendees": [
+            "Maissa Fatte (AE)",
+            "Stephen Brook (SE)"
+          ],
+          "merchantAttendees": [
+            "Chan Weerasinghe (CTO)",
+            "Jean Burgevin"
+          ],
+          "summary": "Deep technical workshop covering Shopify Plus platform foundations, developer tools, integrations, discount strategies, bundling, Shopify Markets for store consolidation, and Managed Markets for US store. CTO team raised questions on data stores, cookie control, inventory management, and collar-to-sleeve recommendation feature."
+        },
+        {
+          "date": "2025-09-19",
+          "title": "Shopify X H&C - commercials and fraud session",
+          "duration": "60 min",
+          "shopifyAttendees": [
+            "Maissa Fatte (AE)",
+            "Stephen Brook (SE)",
+            "Fraser Trivett"
+          ],
+          "merchantAttendees": [
+            "Anthony (Ghost)",
+            "Chan Weerasinghe (CTO)",
+            "Jean Burgevin",
+            "Sam Nesan (CFO)",
+            "SI Patel",
+            "Suley Suleyman (Director)"
+          ],
+          "summary": "Commercials and fraud session. Shopify highlighted integrated payment performance, authorization rates vs. Adyen, and fraud management tools. H&C compared Shopify Payments rates against Adyen, weighed Shop Pay uplift vs. higher costs. Sam and team to discuss internally and determine go-live timeline."
+        },
+        {
+          "date": "2025-08-21",
+          "title": "Shopify X Hawes & Curtis - POS",
+          "duration": "30 min",
+          "shopifyAttendees": [
+            "Maissa Fatte (AE)",
+            "Stephen Brook (SE)",
+            "Peyman Naeini"
+          ],
+          "merchantAttendees": [
+            "Danny Crowe",
+            "Panos Gatsios",
+            "Sam Nesan (CFO)",
+            "Suley Suleyman (Director)"
+          ],
+          "summary": "POS evaluation session. Shopify highlighted unified D2C+POS platform, fraud management, user roles/permissions. Panos raised concerns about refund fraud exposure and hardware reliability. Danny focused on CRM integration and reporting. Sam emphasized cost and PCI compliance."
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-02-20",
+          "totalScore": 41.5,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 5,
+            "Decision Process": 6,
+            "Decision Criteria": 4.5,
+            "Paper Process": 4,
+            "Identify Pain": 7.5,
+            "Champion": 6.5,
+            "Competition": 2.5
+          },
+          "changes": []
+        }
+      ],
+      "mutualActionPlan": {
+        "merchantName": "Hawes & Curtis Limited",
+        "kickoffDate": "",
+        "goLiveDate": "2026-03-26",
+        "contactName": "Maissa Fatte",
+        "contactEmail": "maissa.fatte@shopify.com",
+        "champion": "Sam Nesan",
+        "items": [
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Initial discovery & intro calls",
+            "ownerMerchant": "Sam Nesan",
+            "ownerShopify": "Maissa",
+            "notes": "4 calls completed"
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Identify champion & project team",
+            "ownerMerchant": "Sam Nesan",
+            "ownerShopify": "Maissa",
+            "notes": "Champion: Sam Nesan"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Maissa to schedule a brief call with Sam or Touker to confirm measurable success criteria tied to the migration.",
+            "ownerMerchant": "",
+            "ownerShopify": "Maissa",
+            "notes": "Metrics · Due 03/06/2026",
+            "due": "03/06/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Maissa to explore with Sam/Chan what the annual cost of maintaining the legacy platform is and what revenue they believe",
+            "ownerMerchant": "",
+            "ownerShopify": "Maissa",
+            "notes": "Metrics · Due 03/06/2026",
+            "due": "03/06/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Validate business case with economic buyer",
+            "ownerMerchant": "",
+            "ownerShopify": "Maissa",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Confirm economic buyer & signing authority",
+            "ownerMerchant": "",
+            "ownerShopify": "Maissa",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Map complete decision & approval process",
+            "ownerMerchant": "Sam Nesan",
+            "ownerShopify": "Maissa",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Maissa to propose a mutual action plan with key milestones from contract signature through August go-live.",
+            "ownerMerchant": "",
+            "ownerShopify": "Maissa",
+            "notes": "Due 03/06/2026",
+            "due": "03/06/2026"
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Submit merchant intent",
+            "ownerMerchant": "",
+            "ownerShopify": "Maissa",
+            "notes": "Intent: Committed"
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Finalize commercial proposal",
+            "ownerMerchant": "Sam Nesan",
+            "ownerShopify": "Maissa",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Confirm procurement process & legal steps",
+            "ownerMerchant": "",
+            "ownerShopify": "Maissa",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Maissa to ask Sam: 'After you review commercials, what are the exact steps to get this signed?'",
+            "ownerMerchant": "",
+            "ownerShopify": "Maissa",
+            "notes": "Paper Process · Due 02/27/2026",
+            "due": "02/27/2026"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Maissa to ask Sam if their legal team will need to review the contract.",
+            "ownerMerchant": "",
+            "ownerShopify": "Maissa",
+            "notes": "Paper Process · Due 02/27/2026",
+            "due": "02/27/2026"
+          },
+          {
+            "date": "",
+            "done": true,
+            "milestone": "Contract sent for signature",
+            "ownerMerchant": "",
+            "ownerShopify": "Maissa",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Contract signed ✍️",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": "Target: 2026-03-26"
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Introduction to Shopify Launch team",
+            "ownerMerchant": "",
+            "ownerShopify": "Maissa",
+            "notes": ""
+          },
+          {
+            "date": "",
+            "done": false,
+            "milestone": "Go-Live 🚀",
+            "ownerMerchant": "",
+            "ownerShopify": "",
+            "notes": ""
+          }
+        ]
+      },
+      "coachingSnapshots": [
+        {
+          "date": "2026-02-20",
+          "sections": {
+            "Metrics": {
+              "score": 5.5,
+              "max": 7,
+              "pct": 79
+            },
+            "Economic Buyer": {
+              "score": 5,
+              "max": 6,
+              "pct": 83
+            },
+            "Decision Process": {
+              "score": 6,
+              "max": 7,
+              "pct": 86
+            },
+            "Decision Criteria": {
+              "score": 4.5,
+              "max": 7,
+              "pct": 64
+            },
+            "Paper Process": {
+              "score": 4,
+              "max": 7,
+              "pct": 57
+            },
+            "Identify Pain": {
+              "score": 7.5,
+              "max": 8,
+              "pct": 94
+            },
+            "Champion": {
+              "score": 6.5,
+              "max": 7,
+              "pct": 93
+            },
+            "Competition": {
+              "score": 2.5,
+              "max": 5,
+              "pct": 50
             }
           }
         }
