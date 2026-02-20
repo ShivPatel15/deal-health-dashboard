@@ -15968,9 +15968,336 @@ const DEAL_DATA = {
             }
           ]
         }
-      }
+      },
+      "scores": {
+        "Metrics": {
+          "score": 3.0,
+          "max": 7,
+          "pct": 43
+        },
+        "Economic Buyer": {
+          "score": 3.5,
+          "max": 6,
+          "pct": 58
+        },
+        "Decision Process": {
+          "score": 4.5,
+          "max": 7,
+          "pct": 64
+        },
+        "Decision Criteria": {
+          "score": 2.0,
+          "max": 7,
+          "pct": 29
+        },
+        "Paper Process": {
+          "score": 1.5,
+          "max": 7,
+          "pct": 21
+        },
+        "Identify Pain": {
+          "score": 5.5,
+          "max": 8,
+          "pct": 69
+        },
+        "Champion": {
+          "score": 5.0,
+          "max": 7,
+          "pct": 71
+        },
+        "Competition": {
+          "score": 2.0,
+          "max": 5,
+          "pct": 40
+        },
+        "_total": {
+          "score": 27.0,
+          "max": 54,
+          "pct": 50,
+          "status": "on-track"
+        }
+      },
+      "nextSteps": [
+        {
+          "p": 1,
+          "cat": "Metrics",
+          "issue": "No specific quantifiable goals discussed. D2C GMV of $51M in Salesforce but not validated.",
+          "rec": "Prepare business case framework with benchmark metrics",
+          "due": "2026-03-06",
+          "status": "open"
+        },
+        {
+          "p": 2,
+          "cat": "Metrics",
+          "issue": "SFCC contract end date referenced but not specified. Organizational restructuring creates implicit urgency. Compelling Event field in Salesforce is null.",
+          "rec": "Ask Jordan for exact SFCC renewal/end date",
+          "due": "2026-02-27",
+          "status": "open"
+        },
+        {
+          "p": 3,
+          "cat": "Metrics",
+          "issue": "Metrics not formally validated — conversation focused on agency selection and contract structure.",
+          "rec": "Prepare metrics validation discussion for next sync",
+          "due": "2026-03-06",
+          "status": "open"
+        },
+        {
+          "p": 4,
+          "cat": "Economic Buyer",
+          "issue": "Jimmy Cai attended Nov 2025 group call. Richard has not appeared on any Shopify calls. Access to Jimmy exists; Richard is through Jordan.",
+          "rec": "Propose introductory call with Richard",
+          "due": "2026-03-06",
+          "status": "open"
+        },
+        {
+          "p": 5,
+          "cat": "Economic Buyer",
+          "issue": "No discussion of budget allocation, approval process, or budget authority.",
+          "rec": "Ask Jordan about budget allocation and approval thresholds",
+          "due": "2026-03-06",
+          "status": "open"
+        },
+        {
+          "p": 6,
+          "cat": "Decision Process",
+          "issue": "Agency selection process is clear. Broader organizational approval not fully mapped.",
+          "rec": "Ask Jordan to walk through decision chain",
+          "due": "2026-02-27",
+          "status": "open"
+        },
+        {
+          "p": 7,
+          "cat": "Decision Criteria",
+          "issue": "Only D2C discussed. B2B, Retail, POS, omnichannel not explored. Payments GPV is $0.",
+          "rec": "Schedule discovery around full commerce needs",
+          "due": "2026-03-13",
+          "status": "open"
+        },
+        {
+          "p": 8,
+          "cat": "Decision Criteria",
+          "issue": "Payments GPV $0, Payments Attached false. Not discussed in any calls.",
+          "rec": "Include Payments overview in next commercial discussion",
+          "due": "2026-03-06",
+          "status": "open"
+        },
+        {
+          "p": 9,
+          "cat": "Decision Criteria",
+          "issue": "No formal MAP. Process managed informally through Jordan-Ben syncs.",
+          "rec": "Draft mutual action plan and share with Jordan",
+          "due": "2026-02-27",
+          "status": "open"
+        },
+        {
+          "p": 10,
+          "cat": "Paper Process",
+          "issue": "Jordan wants break clause for Artipoppe engagement. Likely redline.",
+          "rec": "Discuss break clause feasibility with Shopify legal",
+          "due": "2026-03-06",
+          "status": "open"
+        },
+        {
+          "p": 11,
+          "cat": "Paper Process",
+          "issue": "MSA not started yet.",
+          "rec": "Begin MSA draft",
+          "due": "2026-03-06",
+          "status": "open"
+        },
+        {
+          "p": 12,
+          "cat": "Champion",
+          "issue": "Jordan has influence but is 'still waiting to hear whether I even have an official position with Artipoppe.'",
+          "rec": "Check Jordan's Artipoppe role status",
+          "due": "2026-02-27",
+          "status": "open"
+        },
+        {
+          "p": 13,
+          "cat": "Champion",
+          "issue": "Jordan has not introduced Shopify to Richard. Richard not on any calls.",
+          "rec": "Ask Jordan to set up call with Richard",
+          "due": "2026-03-06",
+          "status": "open"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-02-20",
+          "totalScore": 27.0,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": {
+              "score": 3.0,
+              "max": 7,
+              "pct": 43
+            },
+            "Economic Buyer": {
+              "score": 3.5,
+              "max": 6,
+              "pct": 58
+            },
+            "Decision Process": {
+              "score": 4.5,
+              "max": 7,
+              "pct": 64
+            },
+            "Decision Criteria": {
+              "score": 2.0,
+              "max": 7,
+              "pct": 29
+            },
+            "Paper Process": {
+              "score": 1.5,
+              "max": 7,
+              "pct": 21
+            },
+            "Identify Pain": {
+              "score": 5.5,
+              "max": 8,
+              "pct": 69
+            },
+            "Champion": {
+              "score": 5.0,
+              "max": 7,
+              "pct": 71
+            },
+            "Competition": {
+              "score": 2.0,
+              "max": 5,
+              "pct": 40
+            }
+          },
+          "changes": [
+            "Initial MEDDPICC analysis completed"
+          ]
+        }
+      ],
+      "mutualActionPlan": {
+        "merchantName": "Bugaboo International B.V",
+        "kickoffDate": "",
+        "goLiveDate": "2026-04-23",
+        "contactName": "Ben Rees",
+        "contactEmail": "ben.rees@shopify.com",
+        "phases": [
+          {
+            "name": "Agency Selection",
+            "milestones": [
+              {
+                "name": "All agency pitches completed",
+                "owner": "Jordan Sykes",
+                "date": "2026-01-31",
+                "status": "done",
+                "notes": "Code, Flatline, AskPhill pitched; Wolfpack invited"
+              },
+              {
+                "name": "Agency decision finalized",
+                "owner": "Jordan Sykes / Richard",
+                "date": "2026-02-28",
+                "status": "open",
+                "notes": "Pending agency evaluation"
+              }
+            ]
+          },
+          {
+            "name": "Commercial & Legal",
+            "milestones": [
+              {
+                "name": "MSA draft initiated",
+                "owner": "Ben Rees",
+                "date": "2026-03-06",
+                "status": "open",
+                "notes": "Jordan agreed to MSA approach for multi-brand"
+              },
+              {
+                "name": "Legal review by Bugaboo",
+                "owner": "Jordan Sykes",
+                "date": "2026-03-20",
+                "status": "open",
+                "notes": "Break clause negotiation expected"
+              },
+              {
+                "name": "Contract signed",
+                "owner": "Richard / Jimmy Cai",
+                "date": "2026-04-23",
+                "status": "open",
+                "notes": "Target close date"
+              }
+            ]
+          },
+          {
+            "name": "Migration Phase 1 (Artipoppe)",
+            "milestones": [
+              {
+                "name": "Project kickoff",
+                "owner": "Agency TBD",
+                "date": "2026-04-30",
+                "status": "open",
+                "notes": "Q2 start target"
+              },
+              {
+                "name": "NetSuite integration scoped",
+                "owner": "Agency / Bugaboo IT",
+                "date": "2026-05-15",
+                "status": "open",
+                "notes": "Flagged as most challenging element"
+              }
+            ]
+          }
+        ]
+      },
+      "coachingSnapshots": [
+        {
+          "date": "2026-02-20",
+          "sections": {
+            "Metrics": {
+              "score": 3.0,
+              "max": 7,
+              "pct": 43
+            },
+            "Economic Buyer": {
+              "score": 3.5,
+              "max": 6,
+              "pct": 58
+            },
+            "Decision Process": {
+              "score": 4.5,
+              "max": 7,
+              "pct": 64
+            },
+            "Decision Criteria": {
+              "score": 2.0,
+              "max": 7,
+              "pct": 29
+            },
+            "Paper Process": {
+              "score": 1.5,
+              "max": 7,
+              "pct": 21
+            },
+            "Identify Pain": {
+              "score": 5.5,
+              "max": 8,
+              "pct": 69
+            },
+            "Champion": {
+              "score": 5.0,
+              "max": 7,
+              "pct": 71
+            },
+            "Competition": {
+              "score": 2.0,
+              "max": 5,
+              "pct": 40
+            }
+          }
+        }
+      ]
     }
   ]
 };
 
-if (typeof module !== 'undefined' && module.exports) { module.exports = DEAL_DATA; }
+if (typeof module !== "undefined" && module.exports) { module.exports = DEAL_DATA; }
