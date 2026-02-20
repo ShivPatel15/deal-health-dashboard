@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-20T12:41:35.610Z",
+  "generatedAt": "2026-02-20T12:46:06.218Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -11717,7 +11717,7 @@ const DEAL_DATA = {
         "paymentsAttached": false,
         "ipp": 0
       },
-      "projectedBilledRevenue": null,
+      "projectedBilledRevenue": 271358.65,
       "products": [
         "D2C - Standard (Plus)",
         "Plus - POS Pro",
@@ -13005,7 +13005,7 @@ const DEAL_DATA = {
         "paymentsAttached": true,
         "ipp": 0
       },
-      "projectedBilledRevenue": null,
+      "projectedBilledRevenue": 6660618.5,
       "products": [
         "CCS for enterprise - D2C",
         "CCS for Enterprise Product Suite",
