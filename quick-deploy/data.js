@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-20T12:46:06.218Z",
+  "generatedAt": "2026-02-20T12:51:36.344Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -11710,12 +11710,12 @@ const DEAL_DATA = {
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 874667.61,
-        "d2cGmv": null,
+        "d2cGmv": 2006280,
         "b2bGmv": null,
-        "retailGmv": null,
+        "retailGmv": 18056520,
         "paymentsGpv": 2608164,
-        "paymentsAttached": false,
-        "ipp": 0
+        "paymentsAttached": true,
+        "ipp": null
       },
       "projectedBilledRevenue": 271358.65,
       "products": [
@@ -11726,7 +11726,7 @@ const DEAL_DATA = {
       ],
       "competitor": "Citrus Lime (incumbent)",
       "compellingEvent": "Citrus Lime e-commerce contract expiration in April 2026 — hard deadline requiring platform decision and migration before expiry.",
-      "nextStep": "Follow up with solutions to address concerns re inventory and commissions raised at November store visit. Merchant keen to close on Shopify online but no plans to migrate POS until 2027.",
+      "nextStep": "11.02 Merchant awaiting feedback from board, however is now considering Advanced, I will now decrease involvement, it is not looking as likely anymore",
       "narrative": {
         "oppSummary": "Cycle King & Hawk is a UK multi-store cycling retailer (23 stores, expanding to 26) evaluating Shopify Plus for D2C e-commerce and eventually POS. The deal is valued at $82,800 MCV with $874K in 3-year total revenue and $2.6M in Payments GPV. The merchant's online business is significantly underperforming (£1.5M online vs £13.5M in-store, 0.3% conversion rate), and their current platform provider Citrus Lime is limiting growth through poor functionality, lack of customization, and high costs (~£250K/year). The deal is in Demonstrate stage with a close date of March 27, 2026, and the merchant's current e-commerce contract expires in April 2026, creating a hard deadline.",
         "whyChange": "Cycle King's current e-commerce and EPOS provider, Citrus Lime, is fundamentally limiting their online growth. Their online conversion rate sits at just 0.3%, and online revenue (£1.5M) represents only ~10% of their total retail revenue (£13.5M in-store), suggesting massive untapped digital potential. Darren Hunt has explicitly stated that the current solution 'is impeding online growth' due to poor functionality, lack of customization, and limited ability to create a customer-centric experience. Key operational pain points include poor integration between website and EPOS, difficulties handling cycle-to-work vouchers, and limited click-and-collect and workshop/servicing capabilities. The cost of Citrus Lime at ~£250K/year is high relative to value delivered, and the business is rapidly scaling (23 stores growing to 26).",
@@ -12998,12 +12998,12 @@ const DEAL_DATA = {
       "revenue": {
         "mcv": 4582000,
         "totalRev3yr": 13756191,
-        "d2cGmv": null,
+        "d2cGmv": 162000000,
         "b2bGmv": null,
-        "retailGmv": null,
+        "retailGmv": 8000000,
         "paymentsGpv": 210600000,
         "paymentsAttached": true,
-        "ipp": 0
+        "ipp": null
       },
       "projectedBilledRevenue": 6660618.5,
       "products": [
@@ -13014,7 +13014,7 @@ const DEAL_DATA = {
         "Retail Payments - Plus",
         "Retail Hardware"
       ],
-      "competitor": "Commerce Tools",
+      "competitor": "commercetools",
       "compellingEvent": "New CEO mandate for customer obsession with D2C experience below standard. ATG end-of-life. Fusefabric discovery completing mid-Feb 2026 with board decision expected end of February.",
       "nextStep": "18/02: Fusefabric review of proposed solution (Wed 18 Feb 3pm). Ordergroove POC follow-up Thu 19 Feb 2-2:30pm GMT. Board decision expected end Feb. Working on SP Q&A, multiple solution meets with Fuse and Recharge + Ordergroove for subs. Engaged PS for token migration.",
       "narrative": {
