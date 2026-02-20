@@ -274,5 +274,34 @@
       },
       "changes": []
     }
+  ],
+  "006OG00000Dh2YXYAZ": [
+    {
+      "date": "2026-02-20",
+      "totalScore": 27,
+      "totalMax": 54,
+      "status": "on-track",
+      "sectionScores": {
+        "Metrics": 3,
+        "Economic Buyer": 3.5,
+        "Decision Process": 4.5,
+        "Decision Criteria": 2,
+        "Paper Process": 1.5,
+        "Identify Pain": 5.5,
+        "Champion": 5,
+        "Competition": 2
+      },
+      "changes": [
+        "Score improved by 27 points",
+        "Metrics: improved (0 → 3)",
+        "Economic Buyer: improved (0 → 3.5)",
+        "Decision Process: improved (0 → 4.5)",
+        "Decision Criteria: improved (0 → 2)",
+        "Paper Process: improved (0 → 1.5)",
+        "Identify Pain: improved (0 → 5.5)",
+        "Champion: improved (0 → 5)",
+        "Competition: improved (0 → 2)"
+      ]
+    }
   ]
 }

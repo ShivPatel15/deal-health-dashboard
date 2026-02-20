@@ -165,18 +165,35 @@ function transformPayload(payload) {
 
   // Build MEDDPICC sections from analyst output
   const meddpicc = {};
-  const analystMeddpicc = analysis.meddpicc || {};
+  // Support both 'meddpicc' and 'sections' keys from analyst output
+  const analystMeddpicc = analysis.sections || analysis.meddpicc || {};
+
+  // Map snake_case keys to camelCase for section lookup
+  const sectionKeyMap = {
+    metrics: 'metrics',
+    economicBuyer: 'economic_buyer',
+    decisionProcess: 'decision_process',
+    decisionCriteria: 'decision_criteria',
+    paperProcess: 'paper_process',
+    identifyPain: 'identify_pain',
+    champion: 'champion',
+    competition: 'competition',
+  };
 
   for (const [sectionKey, template] of Object.entries(MEDDPICC_TEMPLATE)) {
-    const analystSection = analystMeddpicc[sectionKey] || {};
-    const analystQuestions = analystSection.questions || [];
+    // Try both camelCase and snake_case versions
+    const snakeKey = sectionKeyMap[sectionKey] || sectionKey;
+    const analystSection = analystMeddpicc[sectionKey] || analystMeddpicc[snakeKey] || {};
+    const analystQuestions = analystSection.questions || {};
 
     meddpicc[sectionKey] = {
       label: template.label,
       questions: template.questions.map((q, i) => {
-        // Try to match analyst output by index or fuzzy match
-        const aq = analystQuestions[i] || {};
-        const answer = aq.answer || 'No';
+        // Analyst output uses Q1, Q2, etc. keys (object), not array
+        const questionKey = `Q${i + 1}`;
+        const aq = Array.isArray(analystQuestions) ? analystQuestions[i] : analystQuestions[questionKey] || {};
+        // Support both 'answer' and 'score' field from analyst
+        const answer = aq.answer || aq.score || 'No';
         return {
           q: q,
           answer: answer,
@@ -184,7 +201,7 @@ function transformPayload(payload) {
           notes: aq.notes || '',
           solution: aq.solution || '',
           action: aq.action || '',
-          due: aq.due || '',
+          due: aq.due_date || aq.due || '',
           highlight: aq.highlight || false,
         };
       })
@@ -192,64 +209,65 @@ function transformPayload(payload) {
   }
 
   // Build the opportunity record
+  // Support both snake_case (from Salesforce Reader) and camelCase field names
   const opp = {
-    id: sf.opportunityId || sf.id || `opp_${Date.now()}`,
-    name: sf.name || sf.accountName || 'Unknown',
-    accountName: sf.accountName || sf.name || 'Unknown',
-    accountId: sf.accountId || '',
+    id: sf.opportunity_id || sf.opportunityId || sf.id || `opp_${Date.now()}`,
+    name: sf.opportunity_name || sf.name || sf.account_name || sf.accountName || 'Unknown',
+    accountName: sf.account_name || sf.accountName || sf.opportunity_name || sf.name || 'Unknown',
+    accountId: sf.account_id || sf.accountId || '',
     stage: sf.stage || 'Unknown',
-    closeDate: sf.closeDate || '',
-    forecastCategory: sf.forecastCategory || '',
+    closeDate: sf.close_date || sf.closeDate || '',
+    forecastCategory: sf.forecast_category || sf.forecastCategory || '',
     probability: sf.probability || 0,
     type: sf.type || 'New Business',
-    merchantIntent: sf.merchantIntent || '',
+    merchantIntent: sf.merchant_intent || sf.merchantIntent || '',
     owner: sf.owner || '',
-    ownerEmail: sf.ownerEmail || '',
+    ownerEmail: sf.owner_email || sf.ownerEmail || '',
     revenue: {
-      mcv: sf.revenue?.mcv || sf.mcv || 0,
-      totalRev3yr: sf.revenue?.totalRev3yr || sf.totalRev3yr || 0,
-      d2cGmv: sf.revenue?.d2cGmv || null,
-      b2bGmv: sf.revenue?.b2bGmv || null,
-      retailGmv: sf.revenue?.retailGmv || null,
-      paymentsGpv: sf.revenue?.paymentsGpv || 0,
-      paymentsAttached: sf.revenue?.paymentsAttached || false,
+      mcv: sf.revenue?.mcv || sf.revenue?.amount || sf.mcv || 0,
+      totalRev3yr: sf.revenue?.totalRev3yr || sf.revenue?.total_revenue_3yr || sf.totalRev3yr || 0,
+      d2cGmv: sf.revenue?.d2cGmv || sf.revenue?.d2c_gmv || null,
+      b2bGmv: sf.revenue?.b2bGmv || sf.revenue?.b2b_gmv || null,
+      retailGmv: sf.revenue?.retailGmv || sf.revenue?.retail_gmv || null,
+      paymentsGpv: sf.revenue?.paymentsGpv || sf.revenue?.payments_gpv || 0,
+      paymentsAttached: sf.revenue?.paymentsAttached || sf.revenue?.payments_attached || false,
       ipp: sf.revenue?.ipp || 0,
     },
     // Normalize products to strings (payload may send {name, amount} or plain strings)
-    products: (sf.products || []).map(p => typeof p === 'string' ? p : (p.name || String(p))),
+    products: (sf.products || []).map(p => typeof p === 'string' ? p : (p.name || p.product_name || String(p))),
     stakeholders: (sf.stakeholders || []).map(s => ({
       name: s.name || '',
       title: s.title || '',
       role: s.role || '',
       email: s.email || '',
       engagement: s.engagement || 'none',
-      callsAttended: s.callsAttended || 0,
-      callsInvited: s.callsInvited || 0,
+      callsAttended: s.calls_attended || s.callsAttended || 0,
+      callsInvited: s.calls_invited || s.callsInvited || 0,
     })),
-    shopifyTeam: (sf.shopifyTeam || []).map(s => ({
+    shopifyTeam: (sf.shopify_team || sf.shopifyTeam || []).map(s => ({
       name: s.name || '',
       role: s.role || '',
       email: s.email || '',
     })),
     competitive: {
       primary: sf.competitive?.primary || sf.competitor || '',
-      position: sf.competitive?.position || '',
+      position: sf.competitive?.position || sf.position_vs_competitor || '',
       partner: sf.competitive?.partner || '',
     },
     timeline: {
-      created: sf.timeline?.created || sf.created || new Date().toISOString().split('T')[0],
-      proposedLaunch: sf.timeline?.proposedLaunch || '',
+      created: sf.timeline?.created || sf.created_date || sf.created || new Date().toISOString().split('T')[0],
+      proposedLaunch: sf.timeline?.proposedLaunch || sf.proposed_launch_date_plus || sf.proposed_launch_date_enterprise || '',
       region: sf.timeline?.region || 'EMEA',
     },
-    projectedBilledRevenue: sf.projectedBilledRevenue || null,
-    compellingEvent: analysis.compellingEvent || sf.compellingEvent || '',
-    aeNextStep: sf.aeNextStep || sf.nextStep || '',
+    projectedBilledRevenue: sf.projected_billed_revenue || sf.projectedBilledRevenue || null,
+    compellingEvent: analysis.compellingEvent || sf.compelling_event || sf.compellingEvent || '',
+    aeNextStep: sf.ae_next_steps || sf.aeNextStep || sf.nextStep || '',
     narrative: {
-      oppSummary: analysis.oppSummary || analysis.narrative?.oppSummary || '',
-      whyChange: analysis.whyChange || analysis.narrative?.whyChange || '',
-      whyShopify: analysis.whyShopify || analysis.narrative?.whyShopify || '',
-      whyNow: analysis.whyNow || analysis.narrative?.whyNow || '',
-      supportNeeded: analysis.supportNeeded || analysis.narrative?.supportNeeded || '',
+      oppSummary: analysis.opp_summary || analysis.oppSummary || analysis.narratives?.opp_summary || analysis.narratives?.oppSummary || analysis.narrative?.oppSummary || '',
+      whyChange: analysis.why_change || analysis.whyChange || analysis.narratives?.why_change || analysis.narratives?.whyChange || analysis.narrative?.whyChange || '',
+      whyShopify: analysis.why_shopify || analysis.whyShopify || analysis.narratives?.why_shopify || analysis.narratives?.whyShopify || analysis.narrative?.whyShopify || '',
+      whyNow: analysis.why_now || analysis.whyNow || analysis.narratives?.why_now || analysis.narratives?.whyNow || analysis.narrative?.whyNow || '',
+      supportNeeded: analysis.support_needed || analysis.supportNeeded || analysis.narratives?.support_needed || analysis.narratives?.supportNeeded || analysis.narrative?.supportNeeded || '',
     },
     meddpicc: meddpicc,
     lastAnalysisDate: new Date().toISOString().split('T')[0],
