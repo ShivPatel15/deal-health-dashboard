@@ -20,10 +20,12 @@
 
 const fs = require('fs');
 const path = require('path');
+const { fixPayload } = require('./lib/fix-payload');
 
 const DATA_DIR = path.join(__dirname, 'data');
 const OPP_FILE = path.join(DATA_DIR, 'opportunities.json');
 const SHARING_FILE = path.join(DATA_DIR, 'sharing.json');
+const SPEAKERS_FILE = path.join(DATA_DIR, 'transcript-speakers.json');
 
 // ============================================================
 // READ INPUT
@@ -372,7 +374,24 @@ function rebuildQuickDeploy() {
 async function main() {
   try {
     console.log('\n🔄 Deal Health Dashboard — Ingesting opportunity data...\n');
-    const payload = await readInput();
+    let payload = await readInput();
+
+    // === AUTO-FIX: resolve AE/SE→names and compute transcript-verified attendance ===
+    // Load transcript speakers map if it exists (written by orchestrator from BigQuery step 2b)
+    let transcriptSpeakers = null;
+    if (fs.existsSync(SPEAKERS_FILE)) {
+      try {
+        transcriptSpeakers = JSON.parse(fs.readFileSync(SPEAKERS_FILE, 'utf-8'));
+        console.log(`   📋 Loaded transcript speakers for ${Object.keys(transcriptSpeakers).length} calls`);
+      } catch (e) {
+        console.log(`   ⚠ Could not load transcript speakers: ${e.message}`);
+      }
+    } else {
+      console.log('   ℹ No transcript-speakers.json found — attendance will use RSVP fallback');
+    }
+    payload = fixPayload(payload, transcriptSpeakers);
+    console.log('   ✅ Payload fixed (names resolved, attendance computed)');
+
     const opp = transformPayload(payload);
     upsertOpportunity(opp);
     rebuildQuickDeploy();
