@@ -1,0 +1,155 @@
+{
+  "_meta": {
+    "description": "AUTHORITATIVE Salesforce Opportunity field mapping for Deal Health Dashboard. Sourced from Salesforce describe_object API on 2026-02-20. DO NOT GUESS FIELD NAMES - USE THIS FILE.",
+    "last_verified": "2026-02-20",
+    "source": "Salesforce Opportunity describe_object API (Production)"
+  },
+  "core_fields": {
+    "opportunity_id":        { "api_name": "Id",                     "label": "Opportunity ID",         "type": "id" },
+    "name":                  { "api_name": "Name",                   "label": "Name",                   "type": "string" },
+    "account_id":            { "api_name": "AccountId",              "label": "Account ID",             "type": "reference" },
+    "stage":                 { "api_name": "StageName",              "label": "Stage",                  "type": "picklist" },
+    "close_date":            { "api_name": "CloseDate",              "label": "Close Date",             "type": "date" },
+    "probability":           { "api_name": "Probability",            "label": "Probability (%)",        "type": "percent" },
+    "amount":                { "api_name": "Amount",                 "label": "Amount",                 "type": "currency" },
+    "forecast_category":     { "api_name": "ForecastCategoryName",   "label": "Forecast Category",      "type": "picklist" },
+    "opportunity_type":      { "api_name": "Type",                   "label": "Opportunity Type",       "type": "picklist" },
+    "owner_id":              { "api_name": "OwnerId",                "label": "Owner ID",               "type": "reference" },
+    "description":           { "api_name": "Description",            "label": "Description",            "type": "textarea" },
+    "currency":              { "api_name": "CurrencyIsoCode",        "label": "Opportunity Currency",   "type": "picklist" },
+    "next_step":             { "api_name": "NextStep",               "label": "Next Step",              "type": "string",     "notes": "STANDARD FIELD - NO __c suffix" },
+    "lead_source":           { "api_name": "LeadSource",             "label": "Source - Most Recent",   "type": "picklist" },
+    "created_date":          { "api_name": "CreatedDate",            "label": "Created Date",           "type": "datetime" },
+    "last_modified_date":    { "api_name": "LastModifiedDate",       "label": "Last Modified Date",     "type": "datetime" }
+  },
+  "revenue_fields": {
+    "total_revenue":                { "api_name": "Total_Revenue__c",                     "label": "Total Revenue",                        "type": "currency",  "notes": "Discounted lifetime revenue estimate" },
+    "mcv":                          { "api_name": "eComm_Amount__c",                      "label": "Monthly Contract Value (MCV)",          "type": "currency",  "notes": "Monthly subscription payment" },
+    "total_acv":                    { "api_name": "Total_ACV_Amount__c",                  "label": "Total ACV Amount",                     "type": "currency",  "notes": "Annualized contract value" },
+    "projected_billed_revenue":     { "api_name": "Projected_Billed_Revenue__c",          "label": "Projection of Billed Revenue",         "type": "currency",  "notes": "CRITICAL - 3yr billed revenue estimate. Read-only." },
+    "subscription_solutions_rev":   { "api_name": "Subscription_Solutions_Revenue__c",    "label": "Subscription Solutions Revenue",        "type": "currency" },
+    "services_revenue":             { "api_name": "Services_Revenue__c",                  "label": "Services Revenue",                     "type": "currency" },
+    "incremental_product_gp":       { "api_name": "Incremental_Product_Gross_Profit__c",  "label": "Incremental Product Gross Profit",     "type": "currency" }
+  },
+  "gmv_fields": {
+    "d2c_gmv":              { "api_name": "Opp_Annual_Online_Revenue_Verified__c",    "label": "Opp D2C Revenue Verified",             "type": "currency",  "notes": "Last 12 months D2C revenue" },
+    "b2b_gmv":              { "api_name": "Incremental_Annual_B2B__c",                "label": "Opp B2B Revenue Verified",             "type": "currency",  "notes": "Last 12 months B2B revenue" },
+    "retail_gmv":           { "api_name": "Opp_Annual_Offline_Revenue__c",            "label": "Opp Retail Revenue Verified",           "type": "currency",  "notes": "Last 12 months Retail revenue" },
+    "total_revenue_verified": { "api_name": "Opp_Annual_Total_Revenue_Verified__c",   "label": "Opp Annual Total Revenue Verified",    "type": "currency",  "notes": "USD converted total" },
+    "total_revenue_local":  { "api_name": "Opp_Annual_Total_Revenue__c",              "label": "Opp Annual Total Revenue Verified",    "type": "currency",  "notes": "Local currency formula: D2C + B2B + Retail" },
+    "payments_gpv":         { "api_name": "Payments_GPV__c",                          "label": "Payments GPV (USD)",                   "type": "currency",  "notes": "Gross Payments Volume. Read-only. Default 65% of online rev." },
+    "installments_igmv":    { "api_name": "Installments_iGMV__c",                     "label": "Installments iGMV (USD)",              "type": "currency",  "notes": "Installments GMV (IPP). Read-only." },
+    "d2c_payments_gpv":     { "api_name": "D2C_Payments_GPV__c",                      "label": "D2C Payments GPV",                     "type": "currency" },
+    "b2b_payments_gpv":     { "api_name": "B2B_Payments_GPV__c",                      "label": "B2B Payments GPV",                     "type": "currency" },
+    "retail_payments_gpv":  { "api_name": "Retail_Payments_GPV__c",                   "label": "Retail Payments GPV",                  "type": "currency" },
+    "markets_gmv":          { "api_name": "Markets_GMV__c",                           "label": "Markets GMV",                          "type": "currency" },
+    "shop_campaigns_gmv":   { "api_name": "Shop_Campaigns_GMV__c",                    "label": "Shop Campaigns GMV",                   "type": "currency" }
+  },
+  "deal_context_fields": {
+    "compelling_event":     { "api_name": "Compelling_Event__c",                "label": "Compelling Event",              "type": "string" },
+    "competitor":           { "api_name": "Competitor__c",                      "label": "Competitor",                    "type": "picklist",  "notes": "Dependent on Primary_Product_Interest__c" },
+    "other_competitor":     { "api_name": "Other_Competitor__c",                "label": "Other Competitor",              "type": "string" },
+    "merchant_intent":      { "api_name": "Merchant_Intent__c",                "label": "Merchant Intent",               "type": "picklist",  "notes": "Values: Committed, Committed - At Risk, Uncommitted, Committed - Renew on Existing Term" },
+    "business_problem":     { "api_name": "Business_Problem__c",               "label": "Business Problem",              "type": "textarea",  "notes": "Why Shopify? Pain points. Goals." },
+    "position_vs_competitor": { "api_name": "Position_Against_Competitor__c",   "label": "Position Against Competitor",   "type": "string" },
+    "close_probability":    { "api_name": "Close_Probability__c",              "label": "Close Probability",             "type": "picklist",  "notes": "Values: Very High, High, Low, Very Low" },
+    "complexity_score":     { "api_name": "Complexity_Score__c",               "label": "Complexity Score",              "type": "picklist",  "notes": "Values: 0-20, 21-40, 41-60, 61-80, 81-100" },
+    "opportunity_source":   { "api_name": "Opportunity_Source__c",             "label": "Opportunity Source",            "type": "picklist",  "notes": "Values: Inbound, Outbound, Partner" }
+  },
+  "launch_date_fields": {
+    "proposed_launch_plus":       { "api_name": "Proposed_Launch_Date_Plus__c",       "label": "Proposed Launch Date - Plus",       "type": "date" },
+    "proposed_launch_retail":     { "api_name": "Proposed_Launch_Date_Retail__c",     "label": "Proposed Launch Date - Retail",     "type": "date" },
+    "proposed_launch_b2b":        { "api_name": "Proposed_Launch_Date_B2B__c",        "label": "Proposed Launch Date - B2B",        "type": "date" },
+    "proposed_launch_enterprise": { "api_name": "Proposed_Launch_Date_Enterprise__c", "label": "Proposed Launch Date - Enterprise", "type": "date" },
+    "proposed_launch_ccs":        { "api_name": "Proposed_Launch_Date_CCS__c",        "label": "Proposed Launch Date - CCS",        "type": "date" },
+    "target_migration_date":      { "api_name": "Target_Migration_Date__c",           "label": "Target Migration Date",            "type": "date" }
+  },
+  "product_fields": {
+    "products_on_opp":         { "api_name": "Products_On_Opportunity_List__c",       "label": "Products On Opportunity List",         "type": "multipicklist" },
+    "product_family_features": { "api_name": "Product_Family_Features_On_Opportunity__c", "label": "Product Family Features On Opportunity", "type": "multipicklist" },
+    "primary_product_interest": { "api_name": "Primary_Product_Interest__c",          "label": "Primary Product Interest",             "type": "picklist" },
+    "product_count":           { "api_name": "Product_Count__c",                      "label": "Product Count",                        "type": "double" },
+    "product_attach_count":    { "api_name": "Product_Attach_Count__c",               "label": "Product Attach Count",                 "type": "double" },
+    "has_plus":                { "api_name": "Has_Plus_Products__c",                  "label": "Has Plus Products",                    "type": "boolean" },
+    "has_payments":            { "api_name": "Has_Payment_Product__c",                "label": "Has Payments Product",                 "type": "boolean" },
+    "has_pos":                 { "api_name": "Has_POS_Product__c",                    "label": "Has POS Product",                      "type": "boolean" },
+    "has_b2b":                 { "api_name": "Has_B2B_Product__c",                    "label": "Has B2B Product",                      "type": "boolean" },
+    "has_installments":        { "api_name": "Has_Installments_Product__c",           "label": "Has Installments Product",             "type": "boolean" },
+    "has_enterprise":          { "api_name": "Has_Enterprise_Product__c",             "label": "Has Enterprise Product",               "type": "boolean" },
+    "has_commerce_components": { "api_name": "Has_Commerce_Components__c",            "label": "Has Commerce Components",              "type": "boolean" },
+    "has_commerce_catalysts":  { "api_name": "Has_Commerce_Catalysts__c",             "label": "Has Commerce Catalysts",               "type": "boolean" },
+    "has_retail_products":     { "api_name": "Has_Retail_Products__c",                "label": "Has Retail Products",                  "type": "boolean" },
+    "has_capital":             { "api_name": "Has_Capital_Product__c",                "label": "Has Capital Product",                  "type": "boolean" }
+  },
+  "notes_fields": {
+    "se_notes":             { "api_name": "SE_Notes__c",              "label": "Launch Recommendations Context",  "type": "textarea" },
+    "se_next_steps":        { "api_name": "SE_Next_Steps__c",         "label": "SE Next Steps",                  "type": "textarea" },
+    "se_manager_notes":     { "api_name": "SE_Manager_Notes__c",      "label": "SE Manager Notes",               "type": "textarea" },
+    "reason_details":       { "api_name": "Reason_Details__c",        "label": "Reason Details",                 "type": "textarea" }
+  },
+  "contract_fields": {
+    "agreement_type":       { "api_name": "Agreement_Type__c",            "label": "Agreement Type",           "type": "picklist" },
+    "term_length":          { "api_name": "Term_Length__c",                "label": "Term Length",              "type": "picklist",  "notes": "Values: 1, 3 (years)" },
+    "contract_type":        { "api_name": "Contract_Type__c",             "label": "Contract Type",            "type": "picklist",  "notes": "Values: Standard, Custom" },
+    "contract_expiry_date": { "api_name": "Contract_Expiry_Date__c",      "label": "Contract Expiry Date",     "type": "date" },
+    "current_contract_term": { "api_name": "Current_Contract_Term__c",    "label": "Current Contract Term",    "type": "picklist" }
+  },
+  "partner_fields": {
+    "partners_engaged":         { "api_name": "Partners_Engaged__c",             "label": "Partners Engaged",             "type": "string" },
+    "partner_involvement":      { "api_name": "PartnerInvolvement__c",           "label": "Partner Involvement",          "type": "picklist" },
+    "partner_relationship_src": { "api_name": "Partner_Relationship_Source__c",  "label": "Partner Relationship Source",  "type": "picklist" }
+  },
+  "retail_fields": {
+    "total_retail_locations": { "api_name": "Total_Retail_Locations__c",  "label": "Total Retail Locations",  "type": "double" },
+    "hardware_order_no":      { "api_name": "Hardware_Order_No__c",       "label": "Hardware Order No",       "type": "string" }
+  },
+  "payments_rate_fields": {
+    "agreed_sp_rates":              { "api_name": "Agreed_Upon_SP_rates__c",                "label": "Agreed Upon SP rates",                   "type": "string" },
+    "existing_sp_rate":             { "api_name": "Existing_SP_Rate__c",                    "label": "Existing SP Rate",                       "type": "string" },
+    "agreed_variable_platform_fee": { "api_name": "Agreed_Upon_Plus_Variable_Platform_Fee__c", "label": "Agreed Upon Plus Variable Platform Fee", "type": "currency" },
+    "current_variable_platform_fee": { "api_name": "Current_Plus_Variable_Platform_Fee__c", "label": "Current Plus Variable Platform Fee",      "type": "currency" },
+    "final_installment_rate":       { "api_name": "Final_Installment_Rate__c",              "label": "Final Installment Rate",                 "type": "percent" }
+  },
+  "territory_fields": {
+    "territory_region":       { "api_name": "Territory_Region__c",        "label": "Territory Region",         "type": "picklist" },
+    "territory_segment":      { "api_name": "Territory_Segment__c",       "label": "Territory Segment",        "type": "picklist" },
+    "territory_sales_motion": { "api_name": "Territory_Sales_Motion__c",  "label": "Territory Sales Motion",   "type": "picklist" },
+    "territory_lob":          { "api_name": "Territory_Line_Of_Business__c", "label": "Territory Line Of Business", "type": "multipicklist" },
+    "territory_subregion":    { "api_name": "Territory_Subregion__c",     "label": "Territory Subregion",      "type": "picklist" },
+    "territory_name":         { "api_name": "Territory_Name__c",          "label": "Territory Name",           "type": "string" }
+  },
+  "lookup_fields": {
+    "primary_shop":           { "api_name": "Primary_Shop__c",            "label": "Primary Shop",             "type": "reference" },
+    "primary_shop_id":        { "api_name": "Primary_Shop_Id__c",         "label": "Primary Shop Id",          "type": "string" },
+    "solution_engineer":      { "api_name": "SolutionEngineer__c",        "label": "Solution Engineer",        "type": "reference" },
+    "sales_qualifier":        { "api_name": "Sales_Qualifier__c",         "label": "Sales Qualifier",          "type": "reference" },
+    "opportunity_owner_mgr":  { "api_name": "Opportunity_Owner_Manager__c", "label": "Opportunity Owner Manager", "type": "reference" }
+  },
+  "soql_template": {
+    "description": "Use this as the base SOQL for deal health analysis. Copy exact API names.",
+    "query": "SELECT Id, Name, AccountId, Account.Name, StageName, CloseDate, Probability, Amount, ForecastCategoryName, Type, CurrencyIsoCode, NextStep, Total_Revenue__c, eComm_Amount__c, Total_ACV_Amount__c, Projected_Billed_Revenue__c, Opp_Annual_Online_Revenue_Verified__c, Incremental_Annual_B2B__c, Opp_Annual_Offline_Revenue__c, Opp_Annual_Total_Revenue_Verified__c, Payments_GPV__c, Installments_iGMV__c, D2C_Payments_GPV__c, B2B_Payments_GPV__c, Retail_Payments_GPV__c, Compelling_Event__c, Competitor__c, Other_Competitor__c, Merchant_Intent__c, Business_Problem__c, Position_Against_Competitor__c, Close_Probability__c, Complexity_Score__c, Opportunity_Source__c, Proposed_Launch_Date_Plus__c, Proposed_Launch_Date_Retail__c, Proposed_Launch_Date_B2B__c, Proposed_Launch_Date_Enterprise__c, Proposed_Launch_Date_CCS__c, Products_On_Opportunity_List__c, Product_Family_Features_On_Opportunity__c, Primary_Product_Interest__c, Partners_Engaged__c, Total_Retail_Locations__c, Hardware_Order_No__c, Agreed_Upon_SP_rates__c, Term_Length__c, Agreement_Type__c, Contract_Type__c, Contract_Expiry_Date__c, Territory_Segment__c, Territory_Region__c, Territory_Sales_Motion__c, Primary_Shop_Id__c, SE_Notes__c, SE_Next_Steps__c, Reason_Details__c, Vertical__c FROM Opportunity WHERE Id = '{OPP_ID}'"
+  },
+  "common_mistakes": {
+    "WRONG: Projection_of_Billed_Revenue_c":   "CORRECT: Projected_Billed_Revenue__c",
+    "WRONG: Projection_of_Billed_Revenue__c":  "CORRECT: Projected_Billed_Revenue__c",
+    "WRONG: D2C_GMV__c":                       "CORRECT: Opp_Annual_Online_Revenue_Verified__c",
+    "WRONG: D2C_GMVc":                         "CORRECT: Opp_Annual_Online_Revenue_Verified__c",
+    "WRONG: B2B_GMV__c":                       "CORRECT: Incremental_Annual_B2B__c",
+    "WRONG: B2B_GMVc":                         "CORRECT: Incremental_Annual_B2B__c",
+    "WRONG: Retail_GMV__c":                    "CORRECT: Opp_Annual_Offline_Revenue__c",
+    "WRONG: Retail_GMVc":                      "CORRECT: Opp_Annual_Offline_Revenue__c",
+    "WRONG: Payments_Attached__c":             "CORRECT: Payments_GPV__c",
+    "WRONG: Payments_Attachedc":               "CORRECT: Payments_GPV__c",
+    "WRONG: IPP__c":                           "CORRECT: Installments_iGMV__c",
+    "WRONG: IPPc":                             "CORRECT: Installments_iGMV__c",
+    "WRONG: Next_Steps__c":                    "CORRECT: NextStep (STANDARD FIELD - no __c)",
+    "WRONG: Next_Stepsc":                      "CORRECT: NextStep (STANDARD FIELD - no __c)",
+    "WRONG: Competitive_Notes__c":             "CORRECT: Position_Against_Competitor__c (or Competitor__c for picklist)",
+    "WRONG: Competitive_Notesc":               "CORRECT: Position_Against_Competitor__c (or Competitor__c for picklist)",
+    "WRONG: Proposed_Launch_Date_c":           "CORRECT: Proposed_Launch_Date_Plus__c (or _Retail__c, _B2B__c, _Enterprise__c, _CCS__c)",
+    "WRONG: MCV__c":                           "CORRECT: eComm_Amount__c",
+    "WRONG: D2C_Revenue__c":                   "CORRECT: Opp_Annual_Online_Revenue_Verified__c",
+    "WRONG: Retail_Revenue_Verified__c":       "CORRECT: Opp_Annual_Offline_Revenue__c",
+    "WRONG: B2B_Revenue_Verified__c":          "CORRECT: Incremental_Annual_B2B__c"
+  }
+}

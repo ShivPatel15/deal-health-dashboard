@@ -1,6 +1,6 @@
 const DEAL_DATA = {
   "team": {
-    "name": "Sales Large — EMEA"
+    "name": "Sales Large \u2014 EMEA"
   },
   "generatedAt": "2026-02-20T15:09:03.699Z",
   "owners": [
@@ -1009,7 +1009,7 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": false,
-            "milestone": "Contract signed ✍️",
+            "milestone": "Contract signed \u270d\ufe0f",
             "ownerMerchant": "",
             "ownerShopify": "",
             "notes": "Target: TBD"
@@ -1025,7 +1025,7 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": false,
-            "milestone": "Go-Live 🚀",
+            "milestone": "Go-Live \ud83d\ude80",
             "ownerMerchant": "",
             "ownerShopify": "",
             "notes": ""

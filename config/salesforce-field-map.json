@@ -1,0 +1,29 @@
+{
+  "FIELD_MAP": {
+    "Projected_Billed_Revenue": "Projected_Billed_Revenue__c",
+    "D2C_GMV": "Opp_Annual_Online_Revenue_Verified__c",
+    "B2B_GMV": "Incremental_Annual_B2B__c",
+    "Retail_GMV": "Opp_Annual_Offline_Revenue__c",
+    "Payments_GPV": "Payments_GPV__c",
+    "IPP_Installments": "Installments_iGMV__c",
+    "Next_Steps": "NextStep",
+    "Competitor_Picklist": "Competitor__c",
+    "Competitor_Position": "Position_Against_Competitor__c",
+    "Proposed_Launch_Date_Plus": "Proposed_Launch_Date_Plus__c",
+    "Proposed_Launch_Date_Retail": "Proposed_Launch_Date_Retail__c",
+    "Proposed_Launch_Date_B2B": "Proposed_Launch_Date_B2B__c",
+    "Proposed_Launch_Date_Enterprise": "Proposed_Launch_Date_Enterprise__c",
+    "Proposed_Launch_Date_CCS": "Proposed_Launch_Date_CCS__c"
+  },
+  "NOTES": {
+    "Projected_Billed_Revenue__c": "Read-only formula field",
+    "Opp_Annual_Online_Revenue_Verified__c": "Last 12mo D2C revenue",
+    "Incremental_Annual_B2B__c": "Last 12mo B2B revenue",
+    "Opp_Annual_Offline_Revenue__c": "Last 12mo Retail revenue",
+    "Payments_GPV__c": "65% of online rev default",
+    "Installments_iGMV__c": "Installments GMV",
+    "NextStep": "STANDARD field - NO __c suffix!",
+    "Competitor__c": "Picklist field",
+    "Position_Against_Competitor__c": "Free text field"
+  }
+}
