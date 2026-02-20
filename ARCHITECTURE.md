@@ -231,12 +231,17 @@ The orchestrator writes this JSON to `data/incoming-payload.json`:
 ```
 
 ### Key rules for the payload:
-- `salesforce.opportunityId` is the **merge key** — ingest finds the existing opp by this ID
-- MEDDPICC questions are matched **by array index** to the template in ingest-deal.js
+- `salesforce.opportunity_id` (or `opportunityId`) is the **merge key** — ingest finds the existing opp by this ID
+- MEDDPICC questions can be either:
+  - An **array** matched by index (preferred): `"questions": [{"answer": "Yes", ...}, ...]`
+  - An **object** with keys `Q1`/`q1`, `Q2`/`q2`, etc.: `"questions": {"q1": {"score": "Yes", ...}, ...}`
+  - Both `answer` and `score` fields are accepted for the Yes/No/Partial value
 - Each section must have the exact number of questions (metrics: 7, EB: 6, DP: 7, DC: 7, PP: 7, IP: 8, CH: 7, CO: 5)
-- `answer` must be exactly `"Yes"`, `"No"`, or `"Partial"` (case-sensitive)
-- Narratives go under `meddpicc_analysis.narrative` (NOT `meddpicc_analysis.narratives`)
-- MEDDPICC sections go under `meddpicc_analysis.meddpicc` (NOT `meddpicc_analysis.sections`)
+- `answer`/`score` must be exactly `"Yes"`, `"No"`, or `"Partial"` (case-sensitive)
+- Narratives: accepted under `meddpicc_analysis.narrative` OR `meddpicc_analysis.narratives`
+- MEDDPICC sections: accepted under `meddpicc_analysis.meddpicc` OR `meddpicc_analysis.sections`
+- `projectedBilledRevenue`: accepted at `salesforce.projected_billed_revenue`, `salesforce.projectedBilledRevenue`, OR nested inside `salesforce.revenue.projected_billed_revenue`
+- Revenue display: The dashboard shows **PBR (Projection of Billed Revenue)** as the primary revenue metric, NOT MCV
 
 ---
 

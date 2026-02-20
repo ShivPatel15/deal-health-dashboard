@@ -256,11 +256,15 @@ DO NOT use Salesloft API if BigQuery is working. BigQuery is strictly superior.
 
 See `ARCHITECTURE.md` for the definitive payload schema with all nesting rules.
 
-Key nesting gotchas (these cause 0/54 scores if wrong):
-- Narratives: `meddpicc_analysis.narrative.{oppSummary, whyChange, ...}` (NOT `.narratives`)
-- MEDDPICC sections: `meddpicc_analysis.meddpicc.{metrics, economicBuyer, ...}` (NOT `.sections`)
-- Revenue: `salesforce.revenue.{mcv, totalRev3yr, d2cGmv, ...}` (camelCase, no underscores)
-- `answer` values must be exactly `"Yes"`, `"No"`, or `"Partial"` (case-sensitive)
+Key nesting — all of these are now handled flexibly by ingest-deal.js:
+- Narratives: accepts both `meddpicc_analysis.narrative` and `meddpicc_analysis.narratives`
+- MEDDPICC sections: accepts both `meddpicc_analysis.meddpicc` and `meddpicc_analysis.sections`
+- MEDDPICC question keys: accepts both object format (`Q1`/`q1`/`Q2`/`q2`...) and array format (matched by index)
+- MEDDPICC answer field: accepts both `answer` and `score` as the Yes/No/Partial field name
+- Revenue: `salesforce.revenue.{mcv, totalRev3yr, d2cGmv, ...}` (camelCase or snake_case)
+- `projectedBilledRevenue`: accepts at top-level (`salesforce.projected_billed_revenue`) OR nested (`salesforce.revenue.projected_billed_revenue`)
+- `answer`/`score` values must be exactly `"Yes"`, `"No"`, or `"Partial"` (case-sensitive)
+- Dashboard displays **PBR (Projection of Billed Revenue)** as the primary revenue column, NOT MCV
 
 ---
 

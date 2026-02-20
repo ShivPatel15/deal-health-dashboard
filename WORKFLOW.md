@@ -430,9 +430,11 @@ These are the field names that DON'T match what you'd expect:
 - **Month grouping** — when a quarter is selected, deals are grouped under month headers (e.g., "📅 Feb 2026", "📅 Mar 2026") instead of by owner, with per-month stats
 - Default view (no quarter selected) groups by owner
 - ❌ **DO NOT show Total MCV on the home page summary**
+- Table column header is **PBR** (Projection of Billed Revenue), NOT MCV
+- Table cells show `projectedBilledRevenue` with fallback to `revenue.mcv`
 
 ### Opportunity Detail View
-- Header chips: Stage, Close Date, MCV, Proj Billed Rev, Forecast, Owner, Competitor
+- Header chips: Stage, Close Date, **PBR**, Forecast, Owner, Competitor
 - Products strip (pill badges)
 - Big score display + 8 MEDDPICC category tiles
 - Revenue card
