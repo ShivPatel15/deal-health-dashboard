@@ -363,12 +363,13 @@ const data = {
   opportunities: fullOpps,
 };
 
-// Write data.js
+// Write data.js to BOTH quick-deploy/ and root (site serves from root data.js)
 if (!fs.existsSync(OUT_DIR)) fs.mkdirSync(OUT_DIR, { recursive: true });
 const content = `const DEAL_DATA = ${JSON.stringify(data, null, 2)};\n`;
 fs.writeFileSync(path.join(OUT_DIR, 'data.js'), content);
+fs.writeFileSync(path.join(__dirname, 'data.js'), content);
 
-console.log(`✅ Built quick-deploy/data.js`);
+console.log(`✅ Built data.js (root + quick-deploy/)`);
 console.log(`   ${fullOpps.length} opportunities`);
 console.log(`   ${owners.length} owners: ${owners.join(', ')}`);
 fullOpps.forEach(o => {

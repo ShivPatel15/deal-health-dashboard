@@ -1,20 +1,44 @@
 #!/bin/bash
 # ============================================================
 # PUBLISH.SH — Single-command deal health pipeline
-# 
-# Runs ingest → build → git commit → push in one shot.
-# Eliminates multiple sequential LLM tool calls.
+#
+# Everything runs from /home/swarm/deal-health-app which is
+# BOTH the working directory AND the git repo.
+#
+# Pipeline: ingest → build → git commit → push
 #
 # Usage:
-#   bash publish.sh "Update deal health: Account Name - 2026-02-19"
+#   bash publish.sh "Update deal health: Account Name - 2026-02-20"
+#   bash publish.sh --skip-ingest "Daily refresh - 2026-02-20"
 #   bash publish.sh  (uses default commit message)
 #
 # Prerequisites:
-#   - Payload already written to deal-health-app/data/incoming-payload.json
+#   - Payload written to data/incoming-payload.json (unless --skip-ingest)
 #   - GitHub auth configured (GH_TOKEN or git credentials)
+#
+# ARCHITECTURE (single directory):
+#   /home/swarm/deal-health-app/
+#     ├── data/opportunities.json  ← source of truth for all opps
+#     ├── data.js                  ← built output (serves the site)
+#     ├── quick-deploy/data.js     ← copy of data.js
+#     ├── index.html               ← dashboard UI
+#     ├── ingest-deal.js           ← merges payload into opportunities.json
+#     ├── build-data.js            ← builds data.js from opportunities.json
+#     └── .git/                    ← git repo (pushes to GitHub)
+#
+# CRITICAL RULES:
+#   1. data/opportunities.json is the SINGLE SOURCE OF TRUTH
+#   2. ingest-deal.js MERGES into existing opps (never overwrites)
+#   3. build-data.js writes BOTH root data.js AND quick-deploy/data.js
+#   4. There is only ONE directory — no deal-health-site or deal-health-dashboard
 # ============================================================
 
 set -euo pipefail
+
+APP_DIR="/home/swarm/deal-health-app"
+PAYLOAD="$APP_DIR/data/incoming-payload.json"
+
+cd "$APP_DIR"
 
 # Parse flags
 SKIP_INGEST=false
@@ -27,124 +51,94 @@ while [[ $# -gt 0 ]]; do
 done
 COMMIT_MSG="${COMMIT_MSG:-Update deal health dashboard - $(date +%Y-%m-%d)}"
 
-APP_DIR="/home/swarm/deal-health-app"
-SITE_DIR="/home/swarm/deal-health-site"
-REPO_DIR="/home/swarm/deal-health-dashboard"
-PAYLOAD="$APP_DIR/data/incoming-payload.json"
-
 echo "🔄 Deal Health Publish Pipeline"
 echo "================================"
+echo "   Working directory: $APP_DIR"
 
 # -------------------------------------------------------
-# Step 0: Ensure symlink for deal-health-site/data
+# SAFETY CHECK: Verify opportunities.json exists and has data
 # -------------------------------------------------------
-if [ ! -L "$SITE_DIR/data" ] && [ ! -d "$SITE_DIR/data" ]; then
-  ln -sfn "$APP_DIR/data" "$SITE_DIR/data"
-  echo "✅ Created symlink: deal-health-site/data → deal-health-app/data"
+OPP_FILE="$APP_DIR/data/opportunities.json"
+if [ ! -f "$OPP_FILE" ]; then
+  echo "❌ FATAL: data/opportunities.json does not exist!"
+  echo "   This file is the source of truth for all opportunities."
+  echo "   Refusing to continue — this would create a blank dashboard."
+  exit 1
+fi
+
+OPP_COUNT=$(python3 -c "import json; print(len(json.load(open('$OPP_FILE'))))" 2>/dev/null || echo "0")
+echo "   Existing opportunities: $OPP_COUNT"
+
+if [ "$OPP_COUNT" -lt 2 ]; then
+  echo "⚠️  WARNING: Only $OPP_COUNT opportunities in data store!"
+  echo "   Expected 10+ opportunities. This may indicate data loss."
+  echo "   Continuing but review the output carefully."
 fi
 
 # -------------------------------------------------------
-# Step 1: Run ingest pipeline (unless --skip-ingest)
+# Step 1: Ingest (unless --skip-ingest)
 # -------------------------------------------------------
 if [ "$SKIP_INGEST" = true ]; then
-  echo "⏭️  Skipping ingest (--skip-ingest flag set, assuming already ingested)"
+  echo ""
+  echo "⏭️  Skipping ingest (--skip-ingest flag)"
 else
   if [ ! -f "$PAYLOAD" ]; then
-    echo "❌ No payload found at $PAYLOAD"
-    echo "   The orchestrator should write the payload before calling publish."
+    echo "❌ No payload at $PAYLOAD"
+    echo "   Write the payload before calling publish.sh"
     exit 1
   fi
-  echo "✅ Payload found: $(wc -c < "$PAYLOAD") bytes"
   echo ""
-  echo "📥 Running ingest..."
-  cd "$APP_DIR"
+  echo "📥 Ingesting payload ($(wc -c < "$PAYLOAD") bytes)..."
   node ingest-deal.js --input data/incoming-payload.json
-  echo "✅ Ingest complete"
 fi
 
 # -------------------------------------------------------
-# Step 3: Run build pipeline (uses newer build-data.js with MAP support)
+# Step 2: Build (writes BOTH data.js and quick-deploy/data.js)
 # -------------------------------------------------------
 echo ""
-echo "🏗️  Running build..."
-cd "$SITE_DIR"
+echo "🏗️  Building data.js..."
 node build-data.js
-echo "✅ Build complete"
 
 # -------------------------------------------------------
-# Step 4: Ensure git repo is cloned and configured
+# SAFETY CHECK: Verify build output has same opp count
 # -------------------------------------------------------
-echo ""
-echo "📦 Preparing git repo..."
-if [ ! -d "$REPO_DIR/.git" ]; then
-  echo "   Cloning repository..."
-  cd /home/swarm
-  git clone https://github.com/ShivPatel15/deal-health-dashboard.git
-  cd "$REPO_DIR"
-  git config user.email "shiv.patel@shopify.com"
-  git config user.name "Shiv Patel"
-else
-  cd "$REPO_DIR"
-  # Reset to remote to avoid conflicts from other clones pushing
-  git fetch origin main 2>/dev/null || true
-  git reset --hard origin/main 2>/dev/null || true
+BUILT_COUNT=$(python3 -c "
+import json
+with open('data.js') as f:
+    c = f.read()
+d = json.loads(c[c.index('{'):c.rindex('};')+1])
+print(len(d.get('opportunities', [])))
+" 2>/dev/null || echo "0")
+
+if [ "$BUILT_COUNT" != "$OPP_COUNT" ] && [ "$SKIP_INGEST" = true ]; then
+  echo "⚠️  WARNING: Built data.js has $BUILT_COUNT opps but opportunities.json had $OPP_COUNT"
 fi
+echo "   Built $BUILT_COUNT opportunities into data.js"
 
 # -------------------------------------------------------
-# Step 5: Copy built files to git repo
-# -------------------------------------------------------
-echo "   Copying built files..."
-
-# Copy the generated data.js (the main output)
-cp "$SITE_DIR/quick-deploy/data.js" "$REPO_DIR/data.js"
-
-# Copy to quick-deploy subdirectory if it exists
-mkdir -p "$REPO_DIR/quick-deploy"
-cp "$SITE_DIR/quick-deploy/data.js" "$REPO_DIR/quick-deploy/data.js"
-
-# Copy index.html if it's newer than what's in the repo
-if [ "$SITE_DIR/index.html" -nt "$REPO_DIR/index.html" ] 2>/dev/null; then
-  cp "$SITE_DIR/index.html" "$REPO_DIR/index.html"
-  echo "   → Updated index.html"
-fi
-
-# Copy version history
-if [ -f "$SITE_DIR/data-version-history.json" ]; then
-  cp "$SITE_DIR/data-version-history.json" "$REPO_DIR/data-version-history.json"
-fi
-
-# Sync source scripts (build-data.js, ingest-deal.js, etc.) so repo stays current
-for f in build-data.js ingest-deal.js coaching-engine.js lite-refresh.js score-rules.json daily-refresh.js; do
-  if [ -f "$SITE_DIR/$f" ]; then
-    cp "$SITE_DIR/$f" "$REPO_DIR/$f"
-  fi
-done
-
-echo "✅ Files copied to git repo"
-
-# -------------------------------------------------------
-# Step 6: Git commit and push
+# Step 3: Git commit and push
 # -------------------------------------------------------
 echo ""
 echo "🚀 Committing and pushing..."
-cd "$REPO_DIR"
 git add -A
 if git diff --cached --quiet; then
-  echo "ℹ️  No changes to commit — dashboard is already up to date"
+  echo "ℹ️  No changes to commit — dashboard already up to date"
 else
   git commit -m "$COMMIT_MSG"
   git push origin main
-  echo "✅ Pushed to GitHub"
+  COMMIT_HASH=$(git rev-parse --short HEAD)
+  echo "✅ Pushed commit $COMMIT_HASH"
 fi
 
 # -------------------------------------------------------
-# Step 7: Summary
+# Summary
 # -------------------------------------------------------
 echo ""
 echo "================================"
 echo "✨ Publish complete!"
+echo "   Opportunities: $BUILT_COUNT"
 echo "   Repo: https://github.com/ShivPatel15/deal-health-dashboard"
 echo "   Site: https://deal-health.quick.shopify.io/"
 echo ""
-echo "⚠️  Reminder: Run 'quick deploy . deal-health --force' from local machine to make changes live."
+echo "⚠️  Deploy: Clone the repo locally and run 'quick deploy . deal-health --force'"
 echo "================================"
