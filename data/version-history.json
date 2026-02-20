@@ -322,5 +322,24 @@
       },
       "changes": []
     }
+  ],
+  "006OG00000JMQ91YAH": [
+    {
+      "date": "2026-02-20",
+      "totalScore": 0,
+      "totalMax": 54,
+      "status": "at-risk",
+      "sectionScores": {
+        "Metrics": 0,
+        "Economic Buyer": 0,
+        "Decision Process": 0,
+        "Decision Criteria": 0,
+        "Paper Process": 0,
+        "Identify Pain": 0,
+        "Champion": 0,
+        "Competition": 0
+      },
+      "changes": []
+    }
   ]
 }
