@@ -1,176 +1,585 @@
 {
   "salesforce": {
-    "opportunityId": "006OG00000G28JdYAJ",
-    "accountName": "Direct Wines Limited",
-    "accountId": "0018V00002a7BPLQA2",
+    "opportunity_id": "006OG00000Dh2YXYAZ",
+    "opportunity_name": "Bugaboo - Artipoppe & Joolz MBA",
+    "account_name": "Bugaboo International B.V",
+    "account_id": "001OG000010jdb5YAA",
     "stage": "Demonstrate",
-    "closeDate": "2026-03-31",
+    "close_date": "2026-04-23",
     "probability": 60,
-    "forecastCategory": "Commit",
-    "merchantIntent": "Committed - At Risk",
+    "forecast_category": "Commit",
     "type": "New Business",
+    "merchant_intent": "Uncommitted",
+    "created_date": "2025-04-15",
     "owner": "Ben Rees",
-    "ownerEmail": "ben.rees@shopify.com",
-    "created": "2025-08-06",
+    "owner_email": "ben.rees@shopify.com",
     "revenue": {
-      "mcv": 4582000,
-      "totalRev3yr": 13756191,
-      "d2cGmv": 162000000,
-      "b2bGmv": null,
-      "retailGmv": 8000000,
-      "paymentsGpv": 210600000,
-      "paymentsAttached": true,
-      "ipp": 7943380.68
+      "amount": 82800,
+      "total_revenue_3yr": 841500,
+      "projected_billed_revenue": 276727.83,
+      "d2c_gmv": 51000000,
+      "b2b_gmv": null,
+      "retail_gmv": null,
+      "payments_gpv": 0,
+      "payments_attached": false,
+      "ipp": 734400
     },
-    "projectedBilledRevenue": 6660618.50,
     "products": [
-      {"name": "CCS for Enterprise Product Suite (PSUITE-CCSE)", "amount": 0},
-      {"name": "CCS for enterprise - D2C (PLAN-COM-CCS-D2CE)", "amount": 4572000},
-      {"name": "Shopify Payments - D2C Plus, Shopify for ent, CCS (MSERV-FIN-SP-D2C-P)", "amount": 0},
-      {"name": "CCS for enterprise - POS Pro (PLAN-COM-CCSE-POSE)", "amount": 0},
-      {"name": "Retail Payments - Plus (MSERV-RET-PLUS)", "amount": 0},
-      {"name": "Retail Hardware (MSERV-RET-RHW)", "amount": 10000}
+      {
+        "name": "D2C - Standard",
+        "code": "PLAN-PLUS-STD",
+        "amount": 82800
+      }
     ],
     "stakeholders": [
-      {"name": "Neil Rhodes", "title": "COO", "role": "Economic Buyer", "email": "neil.rhodes@directwinesinc.com"},
-      {"name": "Matt Knight", "title": "MD", "role": "Influencer", "email": "matt.knight@laithwaiteswine.com"},
-      {"name": "Andy Brooks", "title": "Director of Ecommerce", "role": "Launch Contact", "email": "andy.brooks@directwines.com"},
-      {"name": "Martyn Oakley", "title": "Group CIO", "role": "Decision Maker", "email": "martyn.oakley@directwines.com"},
-      {"name": "Octavia Neuberger", "title": "Commercial Finance", "role": "Influencer", "email": "octavia.neuberger@directwines.com"},
-      {"name": "Tim Curtis", "title": "Global Treasurer", "role": "Payments Decision Maker", "email": "tim.curtis@directwines.com"}
+      {
+        "name": "Jurryt van Arend",
+        "title": "Head of Ecom",
+        "role": "Decision Maker",
+        "email": "jurryt@joolz.com"
+      },
+      {
+        "name": "Jordan Sykes",
+        "title": "Head of Digital CX & Engineering",
+        "role": "Champion",
+        "email": "jordan.sykes@bugaboo.com"
+      },
+      {
+        "name": "Cai Jimmy",
+        "title": "IT Director for APAC / Global Director of IT",
+        "role": "Economic Buyer",
+        "email": "cai.jimmy@bugaboo.com"
+      }
     ],
-    "shopifyTeam": [
-      {"name": "Beatrice Porcescu", "role": "Solutions Engineer", "email": "beatrice.porcescu@shopify.com"},
-      {"name": "Ben Rees", "role": "Account Executive", "email": "ben.rees@shopify.com"},
-      {"name": "Shiv Patel", "role": "Executive Sponsor", "email": "shiv.patel@shopify.com"},
-      {"name": "Fraser Trivett", "role": "Northern Media Team Lead", "email": "fraser.trivett@shopify.com"}
+    "shopify_team": [
+      {
+        "name": "Beatrice Porcescu",
+        "role": "Solutions Engineer",
+        "email": "beatrice.porcescu@shopify.com"
+      }
     ],
-    "competitive": {
-      "primary": "commercetools",
-      "position": "Strong - Shopify holds weight here with Brewdog + Recharge",
-      "partner": "Fusefabric"
-    },
-    "timeline": {
-      "created": "2025-08-06",
-      "proposedLaunch": "2026-06-30",
-      "region": "EMEA"
-    },
-    "compellingEvent": "New CEO has challenged Leadership team in UK to become customer obsessed - D2C experience outlined as below required level. ATG support EOL. Now is Discovery with Fuse Fabric",
-    "aeNextStep": "18/02 BR Discovery with Fuse ending next week. Board / sign off meeting for 24/03. Still awaiting feedback on Plus vs Ent before we can finalise commercials",
-    "seNextStep": "BP 18/02 Fusefabric review of proposed solution (Wed 18 Feb 3pm). Ordergroove POC follow-up Thu 19 Feb 2-2:30pm GMT. Board decision expected end Feb."
+    "compelling_event": null,
+    "ae_next_steps": "12/02 BR Call with Jordan. 2 agencies still to pitch (Askphil and Wolfpack). Running through Payments and Biz case with him on 23rd",
+    "se_next_steps": null,
+    "competitor": "Salesforce Commerce Cloud",
+    "position_vs_competitor": null,
+    "other_competitor": null,
+    "proposed_launch_date_plus": null,
+    "proposed_launch_date_retail": null,
+    "proposed_launch_date_b2b": null,
+    "proposed_launch_date_enterprise": null
   },
   "meddpicc_analysis": {
-    "narrative": {
-      "oppSummary": "Direct Wines Limited is a $4.58M new business opportunity ($13.76M 3-year revenue, $7.94M IPP) to migrate their global wine e-commerce operation (15-17 brands across UK, US, AU/NZ, $162M D2C GMV, $8M Retail GMV, $210.6M Payments GPV) from a legacy ATG/commercetools tech stack to Shopify Enterprise with Payments, POS, and Recharge subscriptions. The deal is in Demonstrate stage at 60% probability with a March 31, 2026 close date, a board sign-off meeting targeted for March 24, and Fusefabric (SI partner) discovery wrapping up mid-February. Commercetools is the primary competitor, but Shopify holds a strong position bolstered by BrewDog references and Recharge alignment, though payment rate competitiveness and Enterprise vs Plus pricing remain key commercial hurdles.",
-      "whyChange": "Direct Wines is trapped in a legacy technology stack that is actively harming their business. Their ATG platform is approaching end-of-life for support, and their migration to commercetools has been slow, expensive, and fraught with integration challenges. Nicole Romito stated: 'We are not on the right tech stack for customer expectations in our market,' and 'Right now, if we want to migrate to a new customer service tool, it's a two-year project of a custom build.' The company is spending over $6M/year on outsourced development, their Contentful CMS is described as expensive and restrictive, and custom builds take 8-12 months. The new global CEO has challenged UK leadership to become 'customer obsessed,' but the current D2C experience is below the required level. Subscriptions represent approximately 50-60% of revenue, making subscription commerce capability a non-negotiable requirement.",
-      "whyShopify": "Direct Wines sees Shopify as a path to dramatically reduce tech complexity and cost while improving customer experience and time-to-market. Andy Brooks (Director of Ecommerce) was highly impressed by the platform demo: 'I think it's incredible. I think it's an amazing product.' The US team (Nicole Romito, Elyse Barton) is extremely pro-Shopify. Key advantages include: consolidated tech stack replacing ATG/commercetools/Contentful, dramatically faster store builds ($75K-$180K vs 8-12 month custom builds), variabilized technology costs vs heavy capex, Shopify Audiences for customer acquisition (CEO's #1 concern), Shop Pay conversion uplift and fraud tools, and a proven migration path with Recharge for their critical 50-60% subscription business.",
-      "whyNow": "Multiple converging urgency drivers: ATG support reaching end-of-life, new CEO mandate for customer obsession, D2C experience below required standard, $6M+/year ongoing development costs creating continuous financial pressure, and board sign-off meeting targeted for March 24, 2026. Fusefabric's SI discovery is wrapping up the week of February 17. Martyn Oakley (CIO): 'If the rates are going to blow our heads off and we can take cost out and sell more wine, we will go fast.'",
-      "supportNeeded": "1) Competitive payment rate modeling - Tim Curtis identified a 'sizeable gap' between current UK rates and Shopify's proposed rates. Need DW's unredacted December UK payment statement. 2) Enterprise vs Plus pricing clarity - Neil Rhodes indicated Plus being cheaper might 'push them over the edge.' 3) Token migration confidence across 15-17 brands and multiple PSPs. 4) Board-ready business case / complete TCO comparison. 5) Fusefabric discovery alignment and implementation timeline confidence. 6) Peer references and case studies (BrewDog)."
+    "narratives": {
+      "opp_summary": "Bugaboo International B.V. is evaluating Shopify Plus for a multi-brand D2C migration starting with Artipoppe, with the intent to subsequently migrate Joolz and potentially Bugaboo itself. The deal is valued at $82,800 (Plus Standard) with $51M D2C GMV and a 3-year revenue impact of $841,500. The group is currently on Salesforce Commerce Cloud and is undergoing significant organizational restructuring — including acquisitions (Joolz), leadership changes, and a new co-CEO (Richard) — while simultaneously selecting a migration agency and negotiating an MSA structure with Shopify.",
+      "why_change": "Bugaboo Group is consolidating multiple brands (Bugaboo, Artipoppe, Joolz) under a single umbrella following acquisitions, and needs a unified, scalable commerce platform to support this multi-brand strategy. The current Joolz agency (Wolfpack) is being terminated, indicating dissatisfaction with existing vendor relationships. Artipoppe is migrating to NetSuite on the ERP side, suggesting broader digital transformation. There is an implicit Salesforce Commerce Cloud contract end date driving the evaluation, with Jordan explicitly stating 'when this Salesforce contract ends' there's no reason they wouldn't migrate. Organizational changes (new co-CEO Richard, new Artipoppe GM) create a decision window where leadership wants to future-proof the tech stack.",
+      "why_shopify": "The entire agency evaluation (Code, Flatline, AskPhill, Wolfpack) is centered around Shopify implementation, indicating Shopify Plus has already been selected as the target platform — the decision is about which agency will implement it, not whether to use Shopify. Jordan's champion behavior is evident: he is actively managing the agency selection process and coordinating with Ben Rees on contract structure. Ben has proactively proposed an MSA structure that allows multi-brand onboarding under a single legal framework. The agencies being evaluated are all dedicated Shopify agencies, reinforcing that the platform decision has effectively been made. External consultant Metis also recommended Shopify in their report.",
+      "why_now": "The SFCC contract has a defined end date creating a natural decision point. Organizational restructuring — new co-CEO Richard in place, new Artipoppe GM hired, Joolz acquisition integration underway — means leadership is actively making infrastructure decisions now. Jordan indicated a realistic Q2 start with agency pitches expected to conclude by end of January. Ben suggested negotiating the Shopify contract within Q1 could be advantageous even if the project starts in Q2.",
+      "support_needed": "1) MSA/Legal framework preparation — Jordan agreed to MSA approach; Shopify legal needs to begin drafting. 2) Agency selection support — continued guidance on agency capabilities for the NetSuite integration. 3) NetSuite integration expertise — flagged as 'the most challenging bit' due to low internal IT capacity. 4) Engagement with Richard (co-CEO) — he can sign off the deal but Shopify hasn't engaged directly with him yet. 5) NRF in-person engagement — Jordan attending; opportunity to deepen relationship. 6) Q1 contract negotiation timing — late Jan/early Feb target for commercial terms discussion."
     },
-    "meddpicc": {
+    "sections": {
       "metrics": {
-        "questions": [
-          {"answer": "Yes", "notes": "ATG EOL, commercetools integration challenges, $6M+/year outsourced dev costs, poor D2C customer experience, new CEO mandate for customer obsession, slow time-to-market (8-12 month custom builds).", "solution": "", "action": "", "due": ""},
-          {"answer": "Partial", "notes": "Some quantification ($6M+ dev spend reduction, conversion improvement implied) but no specific numeric targets validated with customer.", "solution": "Work with Andy Brooks and Neil Rhodes to define specific success metrics.", "action": "Ben Rees to propose a success metrics framework and validate before board meeting.", "due": "2026-03-07"},
-          {"answer": "Yes", "notes": "ATG approaching EOL. Commercetools migration slow/problematic. Current stack cannot deliver customer obsession mandate.", "solution": "", "action": "", "due": ""},
-          {"answer": "Partial", "notes": "Implied impacts clear ($6M+ annual tech spend, poor D2C experience) but specific quantified downside not explicitly stated by customer.", "solution": "Help DW quantify cost of inaction using industry benchmarks.", "action": "Beatrice Porcescu to prepare 'cost of inaction' analysis.", "due": "2026-03-07"},
-          {"answer": "Yes", "notes": "ATG support EOL, new CEO mandate, board sign-off March 24, Fusefabric discovery completing mid-Feb.", "solution": "", "action": "", "due": ""},
-          {"answer": "Partial", "notes": "Business reasons discussed extensively but specific quantified success metrics not formally agreed upon.", "solution": "Formalize metrics validation in pre-board meeting.", "action": "Ben Rees to schedule metrics validation call once Fusefabric discovery completes.", "due": "2026-03-10"},
-          {"answer": "Partial", "notes": "Qualitative case very strong but payment rate gap and Enterprise vs Plus cost question create commercial uncertainty.", "solution": "Finalize payment rate comparison with actual DW data.", "action": "Ben Rees to complete rate modeling once December payment statement received.", "due": "2026-02-28"}
-        ]
+        "questions": {
+          "Q1": {
+            "text": "Have you identified the business reasons for the change?",
+            "score": "Partial",
+            "notes": "Consolidating brands and moving away from SFCC, but specific business reasons (cost savings, performance issues, revenue targets) are not quantified.",
+            "solution": "Ask Jordan/Richard to articulate the business case — what ROI are they expecting?",
+            "action": "Schedule discovery call focused on business metrics and expected outcomes",
+            "due_date": "2026-02-27"
+          },
+          "Q2": {
+            "text": "Are there specific quantifiable goals tied to the initiative?",
+            "score": "No",
+            "notes": "No specific quantifiable goals (conversion rate improvement, cost reduction, time-to-market targets) discussed. D2C GMV of $51M in Salesforce but not validated.",
+            "solution": "Work with Jordan to define success metrics for the Artipoppe migration extensible to Joolz/Bugaboo.",
+            "action": "Prepare business case framework with benchmark metrics from similar multi-brand migrations",
+            "due_date": "2026-03-06"
+          },
+          "Q3": {
+            "text": "Does the customer acknowledge a need for change?",
+            "score": "Yes",
+            "notes": "Jordan explicitly stated 'when this Salesforce contract ends... there's no reason we wouldn't migrate.' Entire agency evaluation is Shopify-focused.",
+            "solution": null,
+            "action": null,
+            "due_date": null
+          },
+          "Q4": {
+            "text": "Is there a clear understanding of the cost of inaction?",
+            "score": "Partial",
+            "notes": "Implied that staying on SFCC is undesirable and incumbent agency is being terminated, but explicit business impact of NOT migrating not articulated.",
+            "solution": "Ask what happens if they stay on SFCC — contract cost, opportunity cost, consolidation delays.",
+            "action": "Include cost of inaction analysis in next business case discussion",
+            "due_date": "2026-03-06"
+          },
+          "Q5": {
+            "text": "Is there a compelling event driving urgency?",
+            "score": "Partial",
+            "notes": "SFCC contract end date referenced but not specified. Organizational restructuring creates implicit urgency. Compelling Event field in Salesforce is null.",
+            "solution": "Pin down the SFCC contract end date and any board-mandated timeline.",
+            "action": "Ask Jordan for exact SFCC renewal/end date and board deadlines",
+            "due_date": "2026-02-27"
+          },
+          "Q6": {
+            "text": "Have the metrics been validated with the customer?",
+            "score": "No",
+            "notes": "Metrics have not been formally validated — conversation has been about agency selection and contract structure, not business outcomes.",
+            "solution": "Shift next call to include business metrics validation with Jordan and ideally Richard.",
+            "action": "Prepare metrics validation discussion for next sync",
+            "due_date": "2026-03-06"
+          },
+          "Q7": {
+            "text": "Are the metrics compelling enough to drive urgency?",
+            "score": "Partial",
+            "notes": "Multi-brand consolidation story and SFCC departure are directionally compelling but lack quantified urgency.",
+            "solution": "Quantify cost of running multiple platforms vs. consolidated Shopify MSA.",
+            "action": "Build TCO comparison (SFCC multi-brand vs. Shopify MSA)",
+            "due_date": "2026-03-13"
+          }
+        }
       },
-      "economicBuyer": {
-        "questions": [
-          {"answer": "Yes", "notes": "Neil Rhodes (COO) identified as Economic Buyer. Martyn Oakley (CIO) is Decision Maker. Global CEO Filipa has final authority.", "solution": "", "action": "", "due": ""},
-          {"answer": "Partial", "notes": "Neil Rhodes listed as Economic Buyer but unclear if sole signing authority or CEO co-sign needed given $4.58M deal size.", "solution": "Confirm contract signing authority.", "action": "Ben Rees to clarify signing authority and whether board approval is formal or advisory.", "due": "2026-03-01"},
-          {"answer": "Yes", "notes": "Direct access to Neil Rhodes (multiple calls) and Martyn Oakley (Jan 8 call).", "solution": "", "action": "", "due": ""},
-          {"answer": "Yes", "notes": "Already have access to EB and DM. Access to global CEO less clear.", "solution": "Consider exec-to-exec session (Shiv Patel to Filipa).", "action": "Ben Rees and Shiv Patel to discuss CEO-to-CEO touchpoint pre-board.", "due": "2026-03-07"},
-          {"answer": "Yes", "notes": "Neil Rhodes: cost optimization. Martyn Oakley: budget management. CEO Filipa: customer acquisition (#1 priority).", "solution": "", "action": "", "due": ""},
-          {"answer": "Partial", "notes": "Board meeting March 24 known. Formal budget allocation process not documented.", "solution": "Clarify formal approval process.", "action": "Ben Rees to confirm budget approval process with Neil Rhodes.", "due": "2026-03-01"}
-        ]
+      "economic_buyer": {
+        "questions": {
+          "Q1": {
+            "text": "Has the Economic Buyer been identified?",
+            "score": "Yes",
+            "notes": "Cai Jimmy (IT Director APAC / Global Director of IT) listed as EB. Richard (co-CEO) also referenced as someone who 'can sign this off.'",
+            "solution": "Clarify whether Jimmy Cai or Richard is the true final signatory — possible dual authority.",
+            "action": "Ask Jordan to confirm the approval chain",
+            "due_date": "2026-02-27"
+          },
+          "Q2": {
+            "text": "Is the EB the right person who can sign off on the deal?",
+            "score": "Partial",
+            "notes": "Jimmy Cai listed as EB but Richard (co-CEO) described as decision-maker who 'can sign this off.' Unclear who literally signs the contract.",
+            "solution": "Validate contract signatory during MSA discussion.",
+            "action": "Confirm signatory authority when initiating MSA legal review",
+            "due_date": "2026-03-06"
+          },
+          "Q3": {
+            "text": "Have you had direct access to the EB?",
+            "score": "Partial",
+            "notes": "Jimmy Cai attended November 2025 group call. Richard has not appeared on any Shopify calls. Access to Jimmy exists; access to Richard is through Jordan.",
+            "solution": "Request introduction to Richard through Jordan.",
+            "action": "Propose introductory call with Richard to discuss MSA approach and multi-brand vision",
+            "due_date": "2026-03-06"
+          },
+          "Q4": {
+            "text": "Is the champion willing to facilitate access to the EB?",
+            "score": "Yes",
+            "notes": "Jordan indicated willingness ('it's good that we've got Richard in place now') and Jimmy already participated in a call.",
+            "solution": null,
+            "action": "Formalize request for Richard introduction",
+            "due_date": "2026-03-06"
+          },
+          "Q5": {
+            "text": "Do you understand the EB's personal priorities?",
+            "score": "Partial",
+            "notes": "Jordan described Richard as 'extremely impulsive' wanting multi-brand consolidation. Jimmy's specific priorities unknown.",
+            "solution": "Prepare tailored messaging for Richard focusing on speed, simplicity, and multi-brand scalability.",
+            "action": "Create executive briefing doc for Richard",
+            "due_date": "2026-03-13"
+          },
+          "Q6": {
+            "text": "Do you understand the budget and approval process?",
+            "score": "No",
+            "notes": "No discussion of budget allocation, approval process, or budget authority.",
+            "solution": "Understand budget process — capex, opex, or board-approved investment.",
+            "action": "Ask Jordan about budget allocation process and approval thresholds",
+            "due_date": "2026-03-06"
+          }
+        }
       },
-      "decisionProcess": {
-        "questions": [
-          {"answer": "Partial", "notes": "Board sign-off March 24. Post-board procurement/legal/sign-off not fully mapped.", "solution": "Map full decision journey from board to contract.", "action": "Ben Rees to discuss post-board process with Neil Rhodes.", "due": "2026-03-01"},
-          {"answer": "Yes", "notes": "Well-mapped: Neil Rhodes (COO/EB), Martyn Oakley (CIO/DM), Andy Brooks (Dir Ecommerce), Tim Curtis (Treasurer), Octavia Neuberger (Finance), CEO Filipa.", "solution": "", "action": "", "due": ""},
-          {"answer": "Yes", "notes": "Board sign-off March 24. Close date March 31. Neil: need costs 'way before end of February.'", "solution": "", "action": "", "due": ""},
-          {"answer": "Yes", "notes": "ATG EOL, CEO mandate, Fusefabric discovery mid-Feb, proposed D2C/Retail launch June 30.", "solution": "", "action": "", "due": ""},
-          {"answer": "Yes", "notes": "Migrated to commercetools - slow, expensive, incomplete. Contentful CMS also adopted but problematic.", "solution": "", "action": "", "due": ""},
-          {"answer": "Partial", "notes": "ATG EOL creates hard deadline. Specific delay costs not quantified.", "solution": "Quantify cost of delay.", "action": "Include 'cost of delay' data in board presentation materials.", "due": "2026-03-14"},
-          {"answer": "Partial", "notes": "March 24 board timeline discussed. Full post-board process not validated.", "solution": "Validate complete decision-to-signature timeline.", "action": "Ben Rees to walk through post-board steps with Neil Rhodes.", "due": "2026-03-01"}
-        ]
+      "decision_process": {
+        "questions": {
+          "Q1": {
+            "text": "Is the decision-making process clearly understood?",
+            "score": "Partial",
+            "notes": "Agency selection process is clear (4 agencies pitching). Broader organizational approval process not fully mapped.",
+            "solution": "Map full decision process from agency selection → Shopify contract → project kickoff.",
+            "action": "Ask Jordan to walk through decision chain: Who approves agency? Who approves contract? Board approval needed?",
+            "due_date": "2026-02-27"
+          },
+          "Q2": {
+            "text": "Are all key decision makers identified?",
+            "score": "Partial",
+            "notes": "Jordan, Richard, Jimmy Cai, and Jurryt van Arend identified. Unknown if procurement, finance, or other stakeholders are involved.",
+            "solution": "Confirm full buying committee including procurement or finance stakeholders.",
+            "action": "Ask Jordan if procurement or finance teams will be involved in contract review",
+            "due_date": "2026-02-27"
+          },
+          "Q3": {
+            "text": "Is there a defined timeline for the decision?",
+            "score": "Yes",
+            "notes": "Agency pitches conclude end of January, Q2 project start, close date April 23, 2026.",
+            "solution": null,
+            "action": "Confirm timeline still holds in next sync",
+            "due_date": "2026-02-27"
+          },
+          "Q4": {
+            "text": "Are there any events driving the timeline?",
+            "score": "Partial",
+            "notes": "SFCC contract end and organizational restructuring drive timeline, but no single hard deadline explicitly confirmed.",
+            "solution": "Pin down SFCC contract end date as primary timeline driver.",
+            "action": "Ask for SFCC contract details",
+            "due_date": "2026-02-27"
+          },
+          "Q5": {
+            "text": "Is the current solution / status quo clearly understood?",
+            "score": "Yes",
+            "notes": "Currently on SFCC with Wolfpack for Joolz. Both being replaced. Prior attempts actively being dismantled.",
+            "solution": null,
+            "action": null,
+            "due_date": null
+          },
+          "Q6": {
+            "text": "Has the 'do nothing' scenario been explored?",
+            "score": "Partial",
+            "notes": "Jordan implied staying on SFCC is not viable, but explicit consequences not fully explored.",
+            "solution": "Articulate the 'do nothing' scenario — fragmentation costs.",
+            "action": "Include cost-of-inaction discussion in business case",
+            "due_date": "2026-03-06"
+          },
+          "Q7": {
+            "text": "Has the decision process been validated with multiple stakeholders?",
+            "score": "Partial",
+            "notes": "Jordan described process informally. No formal mutual validation with Richard or Jimmy.",
+            "solution": "Validate process with Richard or Jimmy during intro call.",
+            "action": "Confirm decision process and timeline during Richard intro call",
+            "due_date": "2026-03-13"
+          }
+        }
       },
-      "decisionCriteria": {
-        "questions": [
-          {"answer": "Partial", "notes": "Key criteria surfaced (TCO, payment rates, subscription capability, time-to-market) but no formal evaluation framework.", "solution": "Propose formal evaluation criteria matrix.", "action": "Ben Rees to share evaluation criteria framework with Andy Brooks.", "due": "2026-03-01"},
-          {"answer": "Partial", "notes": "D2C extensively demo'd. POS/Retail included but less attention. B2B not discussed.", "solution": "Ensure POS/Retail value proposition for board case.", "action": "Beatrice Porcescu to confirm retail use case requirements.", "due": "2026-03-10"},
-          {"answer": "Yes", "notes": "Extensive: token migration across 15-17 brands/multiple PSPs, Apple Pay/Google Pay, MOTO handling, PayPal, Recharge, multi-currency.", "solution": "", "action": "", "due": ""},
-          {"answer": "Yes", "notes": "Payments critical/contentious. Tim Curtis: 'sizeable gap' in UK rates. Ben acknowledged premium, argued conversion uplift justifies it.", "solution": "", "action": "", "due": ""},
-          {"answer": "No", "notes": "Key milestones loosely defined but no formal documented MAP with shared ownership and dates.", "solution": "Create formal MAP.", "action": "Ben Rees to draft and share MAP with Andy Brooks and Neil Rhodes.", "due": "2026-02-28", "highlight": true},
-          {"answer": "Yes", "notes": "Active criteria shaping: 'stop being tech company' narrative, Shop Pay conversion framing, Audiences for customer acquisition.", "solution": "", "action": "", "due": ""},
-          {"answer": "Partial", "notes": "Criteria emerging organically. Unclear if formal RFP/evaluation matrix exists.", "solution": "Check if formal evaluation matrix exists.", "action": "Ben Rees to ask Andy Brooks about formal vendor evaluation framework.", "due": "2026-03-01"}
-        ]
+      "decision_criteria": {
+        "questions": {
+          "Q1": {
+            "text": "Are the decision criteria clearly defined?",
+            "score": "Partial",
+            "notes": "Agency evaluation criteria partially visible. Platform-level criteria not explicitly discussed — Shopify is the assumed platform.",
+            "solution": "Confirm Shopify definitively selected and understand remaining criteria.",
+            "action": "Ask Jordan if any remaining platform evaluation criteria exist or if it's purely agency selection",
+            "due_date": "2026-02-27"
+          },
+          "Q2": {
+            "text": "Have all potential solutions been explored?",
+            "score": "No",
+            "notes": "Only D2C discussed. B2B and Retail GMV null. POS and omnichannel not explored. Payments GPV is $0.",
+            "solution": "Explore B2B, wholesale, and retail needs.",
+            "action": "Schedule discovery around full commerce needs including B2B, POS, and omnichannel",
+            "due_date": "2026-03-13"
+          },
+          "Q3": {
+            "text": "Are there any technical or integration requirements?",
+            "score": "Yes",
+            "notes": "Jordan explicitly called out NetSuite integration as 'the most challenging bit' due to low IT capacity.",
+            "solution": "Provide Shopify's perspective on NetSuite integration options.",
+            "action": "Connect Jordan with Shopify integration resources or case studies",
+            "due_date": "2026-03-06"
+          },
+          "Q4": {
+            "text": "Is there an opportunity to expand the solution scope?",
+            "score": "No",
+            "notes": "Payments GPV $0, Payments Attached false. Payments not discussed in any calls.",
+            "solution": "Introduce Shopify Payments as differentiator and cost saver.",
+            "action": "Include Shopify Payments overview in next commercial discussion",
+            "due_date": "2026-03-06"
+          },
+          "Q5": {
+            "text": "Is there a mutual action plan in place?",
+            "score": "No",
+            "notes": "No formal MAP. Process managed informally through Jordan-Ben syncs.",
+            "solution": "Create formal MAP with milestones.",
+            "action": "Draft mutual action plan and share with Jordan for validation",
+            "due_date": "2026-02-27"
+          },
+          "Q6": {
+            "text": "Have you shaped the decision criteria in your favor?",
+            "score": "Partial",
+            "notes": "Ben has informally guided agency selection and proposed MSA structure. No formal criteria-shaping exercise done.",
+            "solution": "More deliberately shape criteria around Shopify's multi-brand, integration, and ecosystem strengths.",
+            "action": "Prepare 'why Shopify for multi-brand' positioning doc for Jordan to share internally",
+            "due_date": "2026-03-06"
+          },
+          "Q7": {
+            "text": "Do you know who defined the evaluation criteria?",
+            "score": "No",
+            "notes": "Unknown who defined agency/platform evaluation criteria.",
+            "solution": "Understand if criteria defined by Jordan alone or with input from Richard/Jimmy.",
+            "action": "Ask Jordan who set evaluation criteria and whether others have requirements",
+            "due_date": "2026-02-27"
+          }
+        }
       },
-      "paperProcess": {
-        "questions": [
-          {"answer": "No", "notes": "Not discussed. Board approval March 24 but post-approval procurement process not mapped.", "solution": "Discover procurement process.", "action": "Ben Rees to ask Neil Rhodes about procurement process and contract execution timeline.", "due": "2026-03-01", "highlight": true},
-          {"answer": "Partial", "notes": "For $4.58M deal with global enterprise, legal redlines highly likely. Ben advised DW to review Plus agreement.", "solution": "Proactively identify likely redline areas.", "action": "Ben Rees to engage Shopify legal to prepare for enterprise contract redlines.", "due": "2026-03-07"},
-          {"answer": "No", "notes": "Not discussed.", "solution": "Establish expected legal review timeline.", "action": "Ben Rees to ask about typical legal review cycles.", "due": "2026-03-07", "highlight": true},
-          {"answer": "No", "notes": "Only 7 days between March 24 board and March 31 close date - unrealistic without pre-work.", "solution": "Start contract/legal process in parallel with board approval.", "action": "Ben Rees to propose sending draft contract terms for pre-review before board.", "due": "2026-03-07", "highlight": true},
-          {"answer": "Partial", "notes": "Pricing discussed in detail. Enterprise vs Plus decision pending. Contract terms not finalized.", "solution": "Finalize Enterprise vs Plus recommendation.", "action": "Ben Rees to get final DW feedback and prepare contract package.", "due": "2026-03-07"},
-          {"answer": "No", "notes": "Contract not sent. Enterprise vs Plus decision pending.", "solution": "Prepare draft contracts for both scenarios.", "action": "Ben Rees to prepare draft contract terms for review.", "due": "2026-03-14", "highlight": true},
-          {"answer": "Partial", "notes": "Close date March 31. Board meeting March 24. June 30 launch creates working-backward deadline.", "solution": "Validate March 31 realism.", "action": "Ben Rees to confirm target signature date with Neil Rhodes.", "due": "2026-03-01"}
-        ]
+      "paper_process": {
+        "questions": {
+          "Q1": {
+            "text": "Is the procurement/legal process understood?",
+            "score": "Partial",
+            "notes": "Ben proposed MSA route, Jordan agreed. Jordan mentioned legal team 'want to look at this once.' Full procurement process not mapped.",
+            "solution": "Map Bugaboo's procurement and legal review process.",
+            "action": "Ask Jordan how long legal reviews typically take and who is involved",
+            "due_date": "2026-02-27"
+          },
+          "Q2": {
+            "text": "Are there any known redlines or deal-breakers?",
+            "score": "Partial",
+            "notes": "Jordan wants a break clause for Artipoppe engagement (exit if initial migration doesn't go well). This is a likely redline.",
+            "solution": "Prepare for break clause negotiation.",
+            "action": "Discuss break clause feasibility with Shopify legal",
+            "due_date": "2026-03-06"
+          },
+          "Q3": {
+            "text": "Do you know how long the legal review will take?",
+            "score": "No",
+            "notes": "No information on Bugaboo's legal review timeline.",
+            "solution": "Ask Jordan directly.",
+            "action": "Include procurement timeline question in next sync",
+            "due_date": "2026-02-27"
+          },
+          "Q4": {
+            "text": "Is the total procurement timeline mapped?",
+            "score": "No",
+            "notes": "Total procurement timeline unknown.",
+            "solution": "Map end-to-end paper process.",
+            "action": "Ask Jordan for typical contract turnaround time",
+            "due_date": "2026-02-27"
+          },
+          "Q5": {
+            "text": "Have contract details been shared?",
+            "score": "No",
+            "notes": "No contract details shared yet. Ben suggested starting MSA process but hasn't begun.",
+            "solution": "Initiate MSA drafting.",
+            "action": "Begin MSA draft and share with Jordan for initial review",
+            "due_date": "2026-03-06"
+          },
+          "Q6": {
+            "text": "Has the contract been sent for review?",
+            "score": "No",
+            "notes": "Contract has not been sent.",
+            "solution": "Prepare MSA draft for review.",
+            "action": "Draft MSA and initial sales order for Artipoppe",
+            "due_date": "2026-03-13"
+          },
+          "Q7": {
+            "text": "Is there a target signature date?",
+            "score": "Partial",
+            "notes": "Ben suggested Q1 contract negotiation. Jordan indicated end of January as good time. Close date April 23, 2026.",
+            "solution": "Align on specific target signature date.",
+            "action": "Propose target signature date in next conversation",
+            "due_date": "2026-02-27"
+          }
+        }
       },
-      "identifyPain": {
-        "questions": [
-          {"answer": "Yes", "notes": "ATG EOL, commercetools challenges, $6M+/year dev spend, Contentful expensive/restrictive, 8-12 month builds, poor D2C experience, CEO mandate.", "solution": "", "action": "", "due": ""},
-          {"answer": "Yes", "notes": "Migrated to commercetools - slow, expensive, incomplete. Contentful adopted but problematic.", "solution": "", "action": "", "due": ""},
-          {"answer": "Yes", "notes": "Slow time-to-market, $6M+/year dev spend, D2C below expectations, two-year projects for basic tools.", "solution": "", "action": "", "due": ""},
-          {"answer": "Partial", "notes": "Ecommerce, US team, Finance, IT affected. Impact on customer service, marketing, supply chain not detailed.", "solution": "Explore wider organizational impact.", "action": "Ben Rees to ask Andy Brooks about cross-functional impact.", "due": "2026-03-07"},
-          {"answer": "Yes", "notes": "ATG EOL hard deadline. CEO mandate. Board meeting March 24 forcing function.", "solution": "", "action": "", "due": ""},
-          {"answer": "Yes", "notes": "Commercetools is identified competitor. Could continue that migration.", "solution": "Strengthen competitive differentiation vs commercetools.", "action": "Beatrice to prepare commercetools comparison for board materials.", "due": "2026-03-10"},
-          {"answer": "Yes", "notes": "CEO mandate, ATG EOL, $6M+/year costs, customer acquisition priority, board approval needed for June 30 launch.", "solution": "", "action": "", "due": ""},
-          {"answer": "Yes", "notes": "Uniquely consolidated platform + payments + subscriptions + POS. Andy Brooks: 'I think it's incredible.' Recharge addresses 50-60% subscription revenue.", "solution": "", "action": "", "due": ""}
-        ]
+      "identify_pain": {
+        "questions": {
+          "Q1": {
+            "text": "Has the customer's core pain been identified?",
+            "score": "Yes",
+            "notes": "Multiple pains: SFCC platform fatigue, Wolfpack termination, multi-brand consolidation need, low IT capacity, NetSuite integration complexity.",
+            "solution": null,
+            "action": "Continue to document and validate pains",
+            "due_date": null
+          },
+          "Q2": {
+            "text": "Have prior attempts to solve the problem been explored?",
+            "score": "Yes",
+            "notes": "Running on SFCC with Wolfpack for Joolz — both being replaced, indicating prior approaches failed.",
+            "solution": null,
+            "action": null,
+            "due_date": null
+          },
+          "Q3": {
+            "text": "Is the business impact of the pain quantified?",
+            "score": "Partial",
+            "notes": "Low IT capacity and organizational restructuring mentioned. Specific quantified business impact not discussed.",
+            "solution": "Quantify business impact of current pains.",
+            "action": "Ask Jordan what current tech stack fragmentation costs in time, money, opportunity",
+            "due_date": "2026-03-06"
+          },
+          "Q4": {
+            "text": "Is the pain felt across multiple teams/levels?",
+            "score": "Partial",
+            "notes": "Digital CX, IT team, and brand-level teams affected. Extent of impact per team not detailed.",
+            "solution": "Map affected teams and specific pain points.",
+            "action": "Include team-level pain mapping in discovery",
+            "due_date": "2026-03-13"
+          },
+          "Q5": {
+            "text": "Is there urgency to resolve the pain?",
+            "score": "Partial",
+            "notes": "Urgency from restructuring and SFCC timeline, but Jordan noted process has been 'slow because of change in company.' Mixed signals.",
+            "solution": "Reinforce urgency by connecting platform decision to transformation timeline.",
+            "action": "Frame Shopify migration as enabler of broader group consolidation",
+            "due_date": "2026-03-06"
+          },
+          "Q6": {
+            "text": "Are there alternative solutions being considered?",
+            "score": "Partial",
+            "notes": "SFCC is incumbent. Jordan's language strongly suggests departure. No other platform competitors mentioned.",
+            "solution": "Ensure SFCC stay option is fully de-positioned.",
+            "action": "Prepare TCO comparison and migration risk assessment vs. staying on SFCC",
+            "due_date": "2026-03-13"
+          },
+          "Q7": {
+            "text": "Is there a triggering event that created the pain?",
+            "score": "Partial",
+            "notes": "Organizational restructuring (acquisitions, new leadership) creates a 'now' moment, but not explicitly tied to hard deadline.",
+            "solution": "Connect the 'why now' to a specific business milestone.",
+            "action": "Ask what business milestone is the hard deadline",
+            "due_date": "2026-02-27"
+          },
+          "Q8": {
+            "text": "Can Shopify uniquely address the pain?",
+            "score": "Yes",
+            "notes": "Multi-brand MSA approach, strong agency ecosystem (Code, Flatline, AskPhill), and platform flexibility for phased migration uniquely position Shopify.",
+            "solution": null,
+            "action": "Reinforce multi-brand MSA advantage in all discussions",
+            "due_date": null
+          }
+        }
       },
       "champion": {
-        "questions": [
-          {"answer": "Yes", "notes": "Andy Brooks (Dir of Ecommerce) primary UK champion. US: Nicole Romito and Elyse Barton are strong champions.", "solution": "", "action": "", "due": ""},
-          {"answer": "Partial", "notes": "Andy has operational credibility. But CIO Martyn Oakley could block - 'managing to a budget.'", "solution": "Strengthen champion with board-ready materials.", "action": "Ben Rees to arm Andy Brooks with executive summary for influencing CIO.", "due": "2026-03-10"},
-          {"answer": "Yes", "notes": "Elyse: internal dynamics intel on CIO. Nicole: CEO priorities. Neil: cautioned about data accuracy. Tim: payment infrastructure.", "solution": "", "action": "", "due": ""},
-          {"answer": "Yes", "notes": "Andy reports to Matt Knight (MD), works with Martyn Oakley (CIO). Nicole presents to CEO.", "solution": "", "action": "", "due": ""},
-          {"answer": "Yes", "notes": "Direct calls with Martyn Oakley (CIO) and Neil Rhodes (COO). Presentations prepared for CEO.", "solution": "", "action": "", "due": ""},
-          {"answer": "Partial", "notes": "Board meeting March 24 scheduled. Unclear if Shopify presents directly or DW presents on their behalf.", "solution": "Clarify Shopify's role in board meeting.", "action": "Ben Rees to confirm with Neil Rhodes whether Shopify can attend/present.", "due": "2026-03-01"},
-          {"answer": "Yes", "notes": "Andy: product quality and simplicity. Nicole/US: liberation from legacy stack. Personal success tied to CEO mandate.", "solution": "", "action": "", "due": ""}
-        ]
+        "questions": {
+          "Q1": {
+            "text": "Has a champion been identified?",
+            "score": "Yes",
+            "notes": "Jordan Sykes (Head of Digital CX & Engineering) is the champion. Actively managing agency evaluation, coordinating with Ben, sharing internal insights, advocating for Shopify.",
+            "solution": null,
+            "action": "Continue to invest in Jordan as primary champion",
+            "due_date": null
+          },
+          "Q2": {
+            "text": "Does the champion have organizational influence?",
+            "score": "Partial",
+            "notes": "Jordan has influence over agency and tech stack decisions but is 'still waiting to hear whether I even have an official position with Artipoppe.'",
+            "solution": "Monitor Jordan's role stability.",
+            "action": "Check in on Jordan's Artipoppe role status in next sync",
+            "due_date": "2026-02-27"
+          },
+          "Q3": {
+            "text": "Is the champion sharing insider information?",
+            "score": "Yes",
+            "notes": "Jordan shares extensive internal insights: org restructuring, leadership changes, Wolfpack termination, agency dynamics, Richard's personality, IT constraints.",
+            "solution": null,
+            "action": "Continue building trust and information exchange",
+            "due_date": null
+          },
+          "Q4": {
+            "text": "Does the champion have access to the EB?",
+            "score": "Yes",
+            "notes": "Jordan directly connected to Richard (co-CEO) and works alongside Jimmy Cai (EB). Stated 'it's good that we've got Richard in place now.'",
+            "solution": null,
+            "action": "Leverage Jordan's access for introductions",
+            "due_date": null
+          },
+          "Q5": {
+            "text": "Has the champion introduced you to the EB?",
+            "score": "No",
+            "notes": "Jordan has not yet introduced Ben/Shopify directly to Richard. Richard has not appeared on any calls.",
+            "solution": "Request formal introduction to Richard.",
+            "action": "Ask Jordan to set up introductory call with Richard",
+            "due_date": "2026-03-06"
+          },
+          "Q6": {
+            "text": "Is the champion actively selling internally?",
+            "score": "Partial",
+            "notes": "Jordan appears willing to advocate but hasn't explicitly brought Shopify into a buying group meeting. Shared that Richard can 'sign this off' but no formal intro.",
+            "solution": "Ask Jordan about formal buying committee review and whether Shopify can present.",
+            "action": "Propose group presentation or executive briefing with Richard and Jimmy",
+            "due_date": "2026-03-13"
+          },
+          "Q7": {
+            "text": "Does the champion have a personal reason to support Shopify?",
+            "score": "Yes",
+            "notes": "Jordan champions Shopify because: (a) believes in platform for multi-brand consolidation, (b) actively terminating incumbent agency, (c) wants unified tech stack for acquisitions, (d) professional stake in digital transformation success.",
+            "solution": null,
+            "action": "Continue supporting Jordan's vision and make him look good internally",
+            "due_date": null
+          }
+        }
       },
       "competition": {
-        "questions": [
-          {"answer": "Yes", "notes": "Commercetools is primary competitor, already partially deployed. Position: Strong with Brewdog + Recharge.", "solution": "", "action": "", "due": ""},
-          {"answer": "Yes", "notes": "ATG EOL means doing nothing long-term not viable. Continuing commercetools is the implicit alternative.", "solution": "", "action": "", "due": ""},
-          {"answer": "Yes", "notes": "Completing commercetools migration is internal alternative. Sunk cost consideration for CEO as former CFO.", "solution": "Frame as avoiding further investment in failing approach.", "action": "Include commercetools total cost to complete vs Shopify in board materials.", "due": "2026-03-14"},
-          {"answer": "Yes", "notes": "Commercetools migration slow/expensive/incomplete. CEO mandate prompted full tech strategy re-evaluation.", "solution": "", "action": "", "due": ""},
-          {"answer": "Yes", "notes": "Win: consolidated platform, faster TTM, lower TCO, Shop Pay, Audiences, BrewDog. Lose: UK payment rate gap, Enterprise pricing, CIO budget sensitivity, complex migration.", "solution": "Close payment rate narrative; resolve Ent vs Plus.", "action": "Ben Rees to prepare 'why we win' narrative addressing each lose factor.", "due": "2026-03-10"}
-        ]
+        "questions": {
+          "Q1": {
+            "text": "Is the competitive landscape understood?",
+            "score": "Partial",
+            "notes": "SFCC is listed as competitor but appears to be the incumbent being replaced rather than an active competitor. No other platforms mentioned — evaluation is between Shopify agencies.",
+            "solution": "Confirm whether SFCC is actively being re-evaluated or departure is firm.",
+            "action": "Ask Jordan if SFCC renewal is a realistic option",
+            "due_date": "2026-02-27"
+          },
+          "Q2": {
+            "text": "Has the 'do nothing' option been addressed?",
+            "score": "No",
+            "notes": "Jordan implies staying on SFCC is unattractive but not formally ruled out.",
+            "solution": "Explicitly ask if staying on SFCC is on the table.",
+            "action": "Include in next discovery conversation",
+            "due_date": "2026-02-27"
+          },
+          "Q3": {
+            "text": "Is there an internal champion for a competitor?",
+            "score": "Partial",
+            "notes": "Wolfpack is being terminated. No visible SFCC advocate. Could theoretically stay on SFCC with different agency.",
+            "solution": "Check if any stakeholder advocates for staying on SFCC.",
+            "action": "Ask Jordan if anyone internally prefers SFCC",
+            "due_date": "2026-02-27"
+          },
+          "Q4": {
+            "text": "Are competitor strengths and weaknesses documented?",
+            "score": "Partial",
+            "notes": "SFCC being evaluated implicitly. The 'why leave' is implied but not explicitly detailed.",
+            "solution": "Document specific SFCC shortcomings driving evaluation.",
+            "action": "Ask Jordan for top 3 reasons for leaving SFCC",
+            "due_date": "2026-03-06"
+          },
+          "Q5": {
+            "text": "Is there a clear win strategy against the competition?",
+            "score": "Partial",
+            "notes": "Shopify strongly positioned — agency evaluation entirely Shopify-focused, Jordan championing. Risks: Jordan's role uncertainty, Richard's impulsive style, NetSuite integration.",
+            "solution": "Mitigate risks by securing Richard engagement, demonstrating NetSuite capability, supporting Jordan.",
+            "action": "Address all three risk factors in upcoming engagements",
+            "due_date": "2026-03-13"
+          }
+        }
       }
     }
   },
   "calls": [
-    {"title": "Fusefabric <> Direct Wines - Shopify Demo", "date": "2026-02-13", "duration": 115, "summary": "Fusefabric-led Shopify demo with 20+ attendees from Direct Wines, Fusefabric, and Archway PI."},
-    {"title": "Direct Wines x Shopify - Migration of Tokens", "date": "2026-02-12", "duration": 45, "summary": "Detailed PCI-compliant token migration walkthrough. 3-step process. Discussed multi-brand migration across Barclays, Worldline, CyberSource. Tim Curtis deeply engaged."},
-    {"title": "Direct Wines | Shopify - Shopify Payments", "date": "2026-01-29", "duration": 45, "summary": "Payment processing deep-dive. Tim Curtis flagged 'sizeable gap' in UK rates. Multi-currency payouts discussed. Shopify to model competitive rates after receiving DW payment statements."},
-    {"title": "Direct Wines x Shopify (Platform Fee Sync)", "date": "2026-01-28", "duration": 30, "summary": "Enterprise vs Plus pricing comparison. Enterprise: dedicated CSM, enhanced support, SLAs, TAM. Plus: ~$127K/month for 17 brands + rev share. Neil Rhodes open to exploring Plus."},
-    {"title": "Ben, Tim & Octavia - Data", "date": "2026-01-19", "duration": 30, "summary": "Financial data alignment. Working off shared Google Sheet for pricing comparison. Awaiting UK payment statement data for apples-to-apples comparison."},
-    {"title": "Fusefabric <> Direct Wines - Workshop 5", "date": "2026-01-27", "duration": 120, "summary": "Business architecture workshop - business process walkthrough with Fusefabric."},
-    {"title": "Fusefabric Discovery Kick Off", "date": "2026-01-13", "duration": 45, "summary": "Fusefabric SI discovery phase kickoff."},
-    {"title": "Direct Wines | Shopify UK", "date": "2026-01-08", "duration": 30, "summary": "Handover to new team: Ben Rees as AE, Shiv Patel as exec sponsor. Martyn Oakley: 'if rates blow our heads off and we can take cost out, we will go fast.'"},
-    {"title": "Direct Wines x Shopify (Commercials)", "date": "2025-10-08", "duration": 60, "summary": "Enterprise pricing: $217K/month. Payment rates by market. Recharge: $450K license. Neil Sumner: board meeting about 'the why.' Nicole strongly pro-Shopify."},
-    {"title": "Direct Wines x Shopify (Demo)", "date": "2025-09-30", "duration": 60, "summary": "Full platform demo. Andy Brooks: 'I think it's incredible. I think it's an amazing product.' Key concern: commercials and integration detail."},
-    {"title": "Direct Wines x Shopify (Overview)", "date": "2025-09-25", "duration": 45, "summary": "Platform overview: $1.7B R&D, 4000 devs, Shopify Audiences, Shop Pay with 250M buyers. DW dev spend ~$8M+/year."},
-    {"title": "Direct Wines x Shopify (Tech Solutioning)", "date": "2025-09-23", "duration": 30, "summary": "Nicole outlined 3 needs: mock store, business case, rollout plan. Elyse: 'if we get Andy on board, no one stopping us besides the CIO.'"},
-    {"title": "Direct Wines x Shopify (Finalize Deck)", "date": "2025-09-16", "duration": 45, "summary": "Preparing CEO presentation. CEO's #1 concern: customer acquisition. Discussed dual running costs and legacy capex write-offs."},
-    {"title": "Direct Wines x Shopify x Recharge (Deck Sync)", "date": "2025-09-12", "duration": 30, "summary": "Current vs future state: DW spending $6M+/year outsourced dev. Shopify store build $75K-$180K. Pilot approach discussed."},
-    {"title": "Direct Wines x Shopify (Sync)", "date": "2025-08-13", "duration": 30, "summary": "Early exploratory call. DW 'should be in business of selling wine, not being a tech company.' Subscriptions ~50-60% of revenue."}
+    {
+      "event_id": "et93057a1tf9lga7sgdkof2l1c",
+      "title": "Ben & Jordan Sync",
+      "date": "2026-01-07",
+      "duration_minutes": 30,
+      "platform": "google_meet",
+      "has_transcript": true,
+      "shopify_attendees": ["Ben Rees (ben.rees@shopify.com)"],
+      "merchant_attendees": ["Jordan Sykes (jordan.sykes@bugaboo.com)"],
+      "ai_summary": null,
+      "transcript_available": true
+    },
+    {
+      "event_id": "_60q30c1g60o30e1i60o4ac1g60rj8gpl88rj2c1h84s34h9g60s30c1g60o30c1g60o32g9l7513adhp6h0k8gpg64o30c1g60o30c1g60o30c1g60o32c1g60o30c1g8l346c1g6oo4ac1p84o30c1k6t0j8cq464qjichn8p0k6dpj70sg",
+      "title": "Shopify X Bugaboo",
+      "date": "2025-11-06",
+      "duration_minutes": 50,
+      "platform": "google_meet",
+      "has_transcript": true,
+      "shopify_attendees": ["Ben Rees (ben.rees@shopify.com)"],
+      "merchant_attendees": ["Jordan Sykes (jordan.sykes@bugaboo.com)", "Jimmy Cai (jimmy.cai@bugaboo.com)", "Jurryt van Arend (jurryt@joolz.com)"],
+      "ai_summary": null,
+      "transcript_available": false
+    },
+    {
+      "event_id": "4j604vkm69812k7qncro4655qk",
+      "title": "Ben and Jordan - catch up",
+      "date": "2025-09-16",
+      "duration_minutes": 30,
+      "platform": "google_meet",
+      "has_transcript": true,
+      "shopify_attendees": ["Ben Rees (ben.rees@shopify.com)"],
+      "merchant_attendees": ["Jordan Sykes (jordan.sykes@bugaboo.com)"],
+      "ai_summary": null,
+      "transcript_available": false
+    }
   ]
 }
