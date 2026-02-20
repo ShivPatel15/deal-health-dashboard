@@ -3,5 +3,12 @@
     "owner": "shiv.patel@shopify.com",
     "editors": [],
     "viewers": []
+  },
+  "006OG00000G28JdYAJ": {
+    "owner": "ben.rees@shopify.com",
+    "editors": [
+      "beatrice.porcescu@shopify.com"
+    ],
+    "viewers": []
   }
 }

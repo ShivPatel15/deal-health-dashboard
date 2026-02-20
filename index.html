@@ -479,9 +479,7 @@ function showDetail(id){
   // Build tabs
   const tabNames=['Overview'];
   if(hasMeddpicc)tabNames.push('MEDDPICC');
-  tabNames.push('MAP','Next Steps','Stakeholders','Calls');
-  if(opp.tco)tabNames.push('TCO');
-  tabNames.push('History','Comments');
+  tabNames.push('MAP','Next Steps','Stakeholders','Calls','History','Comments');
 
   el.innerHTML=`<button class="back" onclick="goBack()">← Pipeline</button>
   <div class="dh-top"><div>
@@ -606,69 +604,6 @@ function showDetail(id){
   <div class="pane" id="p-calls">
     ${(opp.calls||[]).length?opp.calls.map(c=>`<div class="cc"><div class="cc-top"><div class="cc-title">📞 ${c.title}</div><div class="cc-date">${c.date} · ${c.duration}</div></div><div class="cc-att"><b>Shopify:</b> ${c.shopifyAttendees.join(', ')} | <b>Merchant:</b> ${c.merchantAttendees.join(', ')}</div><div class="cc-sum">${c.summary}</div></div>`).join(''):'<p style="color:var(--t3);font-size:12px">No calls recorded.</p>'}
   </div>
-
-  <!-- TCO ANALYSIS -->
-  ${opp.tco?`<div class="pane" id="p-tco">
-    ${(()=>{const t=opp.tco,cr=t.calculatedResults||{},gm=t.gmvData||{},ex=t.extractedFromCalls||[];
-      const fM=v=>v!=null?'$'+(Math.abs(v)/1e6).toFixed(1)+'M':'—';
-      const fP=v=>v!=null?v.toFixed(1)+'%':'—';
-      return `<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(155px,1fr));gap:12px;margin-bottom:20px">
-        <div style="background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:16px;text-align:center">
-          <div style="font-size:11px;color:var(--t3)">3-Year Benefit</div>
-          <div style="font-size:26px;font-weight:700;color:var(--g)">${fM(cr.totalEconomicBenefit||cr.totalSavings)}</div>
-        </div>
-        <div style="background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:16px;text-align:center">
-          <div style="font-size:11px;color:var(--t3)">ROI</div>
-          <div style="font-size:26px;font-weight:700;color:${(cr.roi||0)>=0?'var(--g)':'var(--r)'}">${fP(cr.roi)}</div>
-        </div>
-        <div style="background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:16px;text-align:center">
-          <div style="font-size:11px;color:var(--t3)">Payback</div>
-          <div style="font-size:26px;font-weight:700;color:var(--bl)">${cr.paybackMonths?cr.paybackMonths+' mo':'N/A'}</div>
-        </div>
-        <div style="background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:16px;text-align:center">
-          <div style="font-size:11px;color:var(--t3)">Platform/GMV</div>
-          <div style="font-size:26px;font-weight:700;color:${(cr.platformCostAsPercentGMV||0)<5?'var(--g)':'var(--r)'}">${fP(cr.platformCostAsPercentGMV)}</div>
-        </div>
-      </div>
-      <div style="background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:16px;margin-bottom:14px">
-        <h4 style="font-size:13px;margin:0 0 10px">📊 GMV Baseline</h4>
-        <div style="display:flex;gap:20px;flex-wrap:wrap;font-size:13px">
-          ${gm.online?'<div><span style="color:var(--t3)">D2C: </span><b>'+fM(gm.online)+'</b></div>':''}
-          ${gm.retail?'<div><span style="color:var(--t3)">Retail: </span><b>'+fM(gm.retail)+'</b></div>':''}
-          ${gm.paymentsGpv?'<div><span style="color:var(--t3)">Payments GPV: </span><b style="color:var(--bl)">'+fM(gm.paymentsGpv)+'</b></div>':''}
-        </div>
-      </div>
-      <div style="background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:16px;margin-bottom:14px">
-        <h4 style="font-size:13px;margin:0 0 10px">💡 Extracted from Calls (${ex.length} items)</h4>
-        <table style="width:100%;border-collapse:collapse;font-size:12px">
-          <thead><tr style="border-bottom:2px solid var(--bd)">
-            <th style="text-align:left;padding:5px">Category</th>
-            <th style="text-align:left;padding:5px">Item</th>
-            <th style="text-align:right;padding:5px">Cost</th>
-            <th style="text-align:center;padding:5px">Conf</th>
-          </tr></thead>
-          <tbody>${ex.map(e=>'<tr style="border-bottom:1px solid var(--bd)"><td style="padding:4px"><span style="background:var(--bg);padding:1px 5px;border-radius:3px;font-size:10px">'+e.category+'</span></td><td style="padding:4px">'+e.item+'</td><td style="padding:4px;text-align:right;font-weight:600">'+(e.currentCost?fM(e.currentCost):e.cost?fM(e.cost):e.value||'—')+'</td><td style="padding:4px;text-align:center"><span style="color:'+(e.confidence>=0.8?'var(--g)':e.confidence>=0.5?'var(--y)':'var(--r)')+'">●</span> '+(e.confidence?(e.confidence*100).toFixed(0)+'%':'—')+'</td></tr>').join('')}</tbody>
-        </table>
-      </div>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
-        <div style="background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:16px">
-          <h4 style="font-size:13px;margin:0 0 8px">📈 Assumptions</h4>
-          <div style="font-size:12px;line-height:1.9">
-            <div>Online Growth: <b>${((t.growthRates?.online||0)*100).toFixed(0)}%</b></div>
-            <div>Retail Growth: <b>${((t.growthRates?.retail||0)*100).toFixed(0)}%</b></div>
-            <div>Shop Pay Conv: <b>${((t.shopPayAssumptions?.conversionUplift||0)*100).toFixed(1)}%</b></div>
-            <div>Shop Pay AOV: <b>${((t.shopPayAssumptions?.aovUplift||0)*100).toFixed(1)}%</b></div>
-          </div>
-        </div>
-        <div style="background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:16px">
-          <h4 style="font-size:13px;margin:0 0 8px">⏱ Updated</h4>
-          <div style="font-size:12px;color:var(--t3)">${t.lastUpdated?new Date(t.lastUpdated).toLocaleDateString('en-US',{year:'numeric',month:'short',day:'numeric'}):'Never'}</div>
-          <div style="margin-top:6px;font-size:11px;color:var(--t3)">Confidence: <b style="color:var(--y)">MEDIUM</b></div>
-          <div style="margin-top:4px;font-size:11px;color:var(--t3)">TCO Savings: <b style="color:var(--g)">${fM(cr.totalSavings)}</b></div>
-        </div>
-      </div>`;
-    })()}
-  </div>`:''}
 
   <!-- VERSION HISTORY -->
   <div class="pane" id="p-history">
