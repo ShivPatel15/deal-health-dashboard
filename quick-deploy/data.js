@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-20T17:49:57.123Z",
+  "generatedAt": "2026-02-20T17:54:38.718Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -17531,8 +17531,8 @@ const DEAL_DATA = {
           "title": "Senior E-Commerce Manager",
           "role": "Technical Evaluator",
           "email": "diamante.campolmi@cphart.co.uk",
-          "engagement": "high",
-          "callsAttended": 2,
+          "engagement": "medium",
+          "callsAttended": 1,
           "callsInvited": 2
         }
       ],
