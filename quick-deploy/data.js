@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-20T13:14:33.979Z",
+  "generatedAt": "2026-02-20T14:28:43.486Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -12993,7 +12993,7 @@ const DEAL_DATA = {
       "probability": 60,
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
-      "created": "2025-08-06",
+      "created": "2026-02-20",
       "lastAnalysisDate": "2026-02-20",
       "revenue": {
         "mcv": 4582000,
@@ -13003,7 +13003,7 @@ const DEAL_DATA = {
         "retailGmv": 8000000,
         "paymentsGpv": 210600000,
         "paymentsAttached": true,
-        "ipp": null
+        "ipp": 0
       },
       "projectedBilledRevenue": 6660618.5,
       "products": [
@@ -13014,15 +13014,15 @@ const DEAL_DATA = {
         "Retail Payments - Plus",
         "Retail Hardware"
       ],
-      "competitor": "commercetools",
+      "competitor": "",
       "compellingEvent": "New CEO mandate for customer obsession with D2C experience below standard. ATG end-of-life. Fusefabric discovery completing mid-Feb 2026 with board decision expected end of February.",
       "nextStep": "18/02: Fusefabric review of proposed solution (Wed 18 Feb 3pm). Ordergroove POC follow-up Thu 19 Feb 2-2:30pm GMT. Board decision expected end Feb. Working on SP Q&A, multiple solution meets with Fuse and Recharge + Ordergroove for subs. Engaged PS for token migration.",
       "narrative": {
-        "oppSummary": "Direct Wines Limited is a major EMEA enterprise deal worth $4.58M MCV ($13.76M total 3yr revenue) with $210.6M in Payments GPV. The account operates 12 brands across 16 websites globally (UK, APAC, NZ) and is evaluating a full platform migration from their legacy Oracle ATG stack to Shopify, driven by ATG end-of-life, a new CEO mandate to become customer-obsessed, and a desire to dramatically reduce their current $8M annual dev spend. The deal is in Demonstrate stage at 60% probability with a board decision expected end of February 2026, Fusefabric (SI partner) completing discovery, and Commerce Tools actively being evaluated as an alternative.",
-        "whyChange": "Direct Wines' current Oracle ATG platform is reaching end-of-life, creating an existential technology risk. Their existing tech stack generates significant technical debt with ~$8M annual dev spend. A new CEO has challenged the UK leadership team to become 'customer obsessed,' explicitly calling out the D2C experience as below standard. The business is undergoing supply chain restructuring and needs to double sales. Multiple stakeholders have referenced the current checkout experience limitations and historical resistance to platform changes as key pain points. The board is now actively questioning the value of their current architecture.",
-        "whyShopify": "Shopify's primary value proposition centers on dramatically reducing the $8M dev spend (50-90% reduction estimates discussed) while increasing speed-to-market. The platform's native multi-brand and multi-region capabilities are relevant to the 12-brand, 16-website global footprint. Shop Pay and checkout optimization were highlighted as acquisition tools enabling potential 50% revenue growth. However, Commerce Tools is actively being compared, and Shopify Payments rate gaps and T+3 settlement concerns are working against the financial case.",
-        "whyNow": "ATG end-of-life support means Direct Wines cannot remain on their current platform indefinitely. The new CEO's mandate has created top-down executive pressure, culminating in a board-level evaluation with a decision expected end of February 2026. Fusefabric was engaged for focused discovery Jan-Feb, with proposed solution review Feb 18 and Ordergroove POC Feb 19. Supply chain restructuring means the business needs its new platform operational to support doubled sales targets.",
-        "supportNeeded": "Critical support needed: (1) Resolve 'sizeable gap' in UK payment rates vs current provider and T+3 settlement concerns — major financial blocker, (2) Token migration and SRD clarity for UK continuous subscriptions, (3) Enterprise vs Plus comprehensive revenue modeling for 12 brands/17 websites, (4) Competitive positioning document vs Commerce Tools, (5) Multi-brand/multi-region architecture point-of-view including brand definition, (6) Subscription solution finalization (Recharge vs Ordergroove), (7) Board-ready business case that avoids alienating internal tech team."
+        "oppSummary": "",
+        "whyChange": "",
+        "whyShopify": "",
+        "whyNow": "",
+        "supportNeeded": ""
       },
       "meddpicc": {
         "metrics": {
@@ -13880,297 +13880,9 @@ const DEAL_DATA = {
           "due": "02/24/2026"
         }
       ],
-      "stakeholders": [
-        {
-          "name": "Neil Rhodes",
-          "title": "COO",
-          "role": "Economic Buyer",
-          "email": "neil.rhodes@directwinesinc.com",
-          "engagement": "high",
-          "callsAttended": 2,
-          "callsInvited": 3
-        },
-        {
-          "name": "Matt Knight",
-          "title": "MD",
-          "role": "Influencer",
-          "email": "matt.knight@laithwaiteswine.com",
-          "engagement": "medium",
-          "callsAttended": 0,
-          "callsInvited": 1
-        },
-        {
-          "name": "Andy Brooks",
-          "title": "Director of Ecommerce",
-          "role": "Launch Contact",
-          "email": "andy.brooks@directwines.com",
-          "engagement": "high",
-          "callsAttended": 5,
-          "callsInvited": 7
-        },
-        {
-          "name": "Martyn Oakley",
-          "title": "Group CIO",
-          "role": "Decision Maker",
-          "email": "martyn.oakley@directwines.com",
-          "engagement": "medium",
-          "callsAttended": 1,
-          "callsInvited": 2
-        },
-        {
-          "name": "Octavia Neuberger",
-          "title": "Commercial Finance",
-          "role": "Influencer",
-          "email": "octavia.neuberger@directwines.com",
-          "engagement": "high",
-          "callsAttended": 3,
-          "callsInvited": 4
-        }
-      ],
-      "shopifyTeam": [
-        {
-          "name": "Ben Rees",
-          "role": "Account Executive",
-          "email": "ben.rees@shopify.com"
-        },
-        {
-          "name": "Beatrice Porcescu",
-          "role": "Solutions Engineer",
-          "email": "beatrice.porcescu@shopify.com"
-        },
-        {
-          "name": "Marc Katz",
-          "role": "Account Executive (previous)",
-          "email": "marc.katz@shopify.com"
-        },
-        {
-          "name": "Matthew Duff",
-          "role": "Account Executive",
-          "email": "matthew.duff@shopify.com"
-        },
-        {
-          "name": "Chelsea Tabert",
-          "role": "Payments Specialist",
-          "email": "chelsea.tabert@shopify.com"
-        },
-        {
-          "name": "Fraser Trivett",
-          "role": "Account Executive",
-          "email": "fraser.trivett@shopify.com"
-        }
-      ],
-      "calls": [
-        {
-          "date": "2026-02-13",
-          "title": "Fusefabric <> Direct Wines - Shopify Demo",
-          "duration": "115 min",
-          "shopifyAttendees": [
-            "Beatrice Porcescu (SE)",
-            "Ben Rees (AE)"
-          ],
-          "merchantAttendees": [
-            "32 attendees including full DW team, Fusefabric, Archway PI"
-          ],
-          "summary": "Major Shopify demo event with SI partner Fusefabric and full Direct Wines team. Largest engagement event in the deal cycle."
-        },
-        {
-          "date": "2026-02-12",
-          "title": "Direct Wines x Shopify - Migration of Tokens",
-          "duration": "45 min",
-          "shopifyAttendees": [
-            "Ben Rees (AE)",
-            "Chelsea Tabert",
-            "Marc Katz",
-            "Beatrice Porcescu (SE)"
-          ],
-          "merchantAttendees": [
-            "Tim Curtis (Treasurer)"
-          ],
-          "summary": "Deep dive on PCI-compliant token migration. Tim Curtis flagged SRD migration for UK subscriptions as critical. Challenged 0.35% variable fee. Business case comparison against Commerce Tools explicitly referenced."
-        },
-        {
-          "date": "2026-02-12",
-          "title": "Fusefabric <> DW - Understanding Your Transformation",
-          "duration": "60 min",
-          "shopifyAttendees": [
-            "Ben Rees (AE)"
-          ],
-          "merchantAttendees": [
-            "16 attendees"
-          ],
-          "summary": "Fusefabric-led transformation discovery session with broad DW participation."
-        },
-        {
-          "date": "2026-01-29",
-          "title": "Direct Wines | Shopify - Shopify Payments",
-          "duration": "45 min",
-          "shopifyAttendees": [
-            "Ben Rees (AE)",
-            "Marc Katz",
-            "Beatrice Porcescu (SE)"
-          ],
-          "merchantAttendees": [
-            "Tim Curtis (Treasurer)",
-            "Octavia Neuberger (Finance)"
-          ],
-          "summary": "Payment processing deep dive. DW expressed 'sizeable gap' in UK rates vs current provider. T+3 settlement concerns impacting working capital. Token migration complexity and cost flagged."
-        },
-        {
-          "date": "2026-01-28",
-          "title": "Direct Wines x Shopify (Platform Fee Sync)",
-          "duration": "30 min",
-          "shopifyAttendees": [
-            "Ben Rees (AE)",
-            "Marc Katz"
-          ],
-          "merchantAttendees": [
-            "Andy Brooks (Dir Ecommerce)",
-            "Neil Rhodes (COO)"
-          ],
-          "summary": "Enterprise vs Plus pricing comparison. Enterprise: $127K/month for 17 brands with dedicated support and SLAs. Plus: $2,300/brand but higher transaction costs. Neil Rhodes (EB) directly engaged in commercial discussions."
-        },
-        {
-          "date": "2026-01-27",
-          "title": "Fusefabric <> DW: Understanding Your Business (2 of 3)",
-          "duration": "120 min",
-          "shopifyAttendees": [
-            "Ben Rees (AE)"
-          ],
-          "merchantAttendees": [
-            "24 attendees"
-          ],
-          "summary": "Second of three Fusefabric deep-dive business understanding sessions."
-        },
-        {
-          "date": "2026-01-26",
-          "title": "Fusefabric <> DW: Understanding Your Business (1 of 3)",
-          "duration": "150 min",
-          "shopifyAttendees": [
-            "Ben Rees (AE)"
-          ],
-          "merchantAttendees": [
-            "28 attendees"
-          ],
-          "summary": "First of three Fusefabric deep-dive sessions. 2.5 hours with 29 total attendees — comprehensive business discovery."
-        },
-        {
-          "date": "2026-01-19",
-          "title": "Ben, Tim & Octavia - Data",
-          "duration": "30 min",
-          "shopifyAttendees": [
-            "Ben Rees (AE)"
-          ],
-          "merchantAttendees": [
-            "Tim Curtis (Treasurer)",
-            "Octavia Neuberger (Finance)"
-          ],
-          "summary": "Data and financial discussion with DW finance stakeholders."
-        },
-        {
-          "date": "2026-01-08",
-          "title": "Direct Wines | Shopify UK",
-          "duration": "30 min",
-          "shopifyAttendees": [
-            "Ben Rees (AE)",
-            "Matthew Duff",
-            "Fraser Trivett"
-          ],
-          "merchantAttendees": [
-            "Andy Brooks",
-            "Martyn Oakley (CIO)",
-            "Octavia Neuberger"
-          ],
-          "summary": "UK team alignment session with key DW decision makers including CIO Martyn Oakley."
-        },
-        {
-          "date": "2025-10-08",
-          "title": "Direct Wines x Shopify (Commercials)",
-          "duration": "60 min",
-          "shopifyAttendees": [
-            "Marc Katz",
-            "Joey O'Kane",
-            "Diana Gates"
-          ],
-          "merchantAttendees": [
-            "Nicole Romito",
-            "Neil Sumner"
-          ],
-          "summary": "Enterprise pricing presentation: $217K/month platform fee for 12 brands/16 websites. Recharge licensing £105K with 40% discount. Neil Sumner highlighted need to justify 'why' of platform change to stakeholders."
-        },
-        {
-          "date": "2025-09-30",
-          "title": "Direct Wines x Shopify (Demo)",
-          "duration": "60 min",
-          "shopifyAttendees": [
-            "Marc Katz",
-            "Julia Cardenas"
-          ],
-          "merchantAttendees": [
-            "Andy Brooks",
-            "Lauren Dubinsky",
-            "Nicole Romito"
-          ],
-          "summary": "Platform demo covering customer journey, admin panel, theme management. Andy voiced concerns about revenue share model needing to align with cost reduction goals."
-        },
-        {
-          "date": "2025-09-25",
-          "title": "Direct Wines x Shopify (Overview)",
-          "duration": "45 min",
-          "shopifyAttendees": [
-            "Marc Katz",
-            "Julia Cardenas",
-            "Joey O'Kane"
-          ],
-          "merchantAttendees": [
-            "Andy Brooks",
-            "Lauren Dubinsky",
-            "Elise Barton"
-          ],
-          "summary": "Reintroduced Shopify platform. Highlighted potential 50-90% reduction in $8M annual dev spend. Andy questioned dev cost estimate and Shop Pay differentiation."
-        },
-        {
-          "date": "2025-09-16",
-          "title": "Direct Wines x Shopify (Finalize Deck)",
-          "duration": "45 min",
-          "shopifyAttendees": [
-            "Marc Katz",
-            "Paul Tolvo (Recharge)"
-          ],
-          "merchantAttendees": [
-            "Neil Sumner",
-            "Nicole Romito"
-          ],
-          "summary": "Deck preparation for CEO presentation. Neil concerned about tech team defensiveness, suggested reframing around speed-to-market and acquisition. Potential 50% revenue growth with functional platform."
-        },
-        {
-          "date": "2025-09-12",
-          "title": "Direct Wines x Shopify x Recharge (Deck Sync)",
-          "duration": "30 min",
-          "shopifyAttendees": [
-            "Marc Katz",
-            "Paul Tolvo (Recharge)"
-          ],
-          "merchantAttendees": [
-            "Neil Sumner",
-            "Elise Barton",
-            "Nicole Romito",
-            "Jessica Oddo"
-          ],
-          "summary": "Migration plan for Laithwaites initially. Current vs future state cost savings. Neil cautioned against exaggerating data points to avoid alienating tech team."
-        },
-        {
-          "date": "2025-08-13",
-          "title": "Direct Wines x Shopify (Sync)",
-          "duration": "30 min",
-          "shopifyAttendees": [
-            "Marc Katz"
-          ],
-          "merchantAttendees": [
-            "Lauren Dubinsky"
-          ],
-          "summary": "Initial exploration of Commerce Components vs full migration. Lauren shared ATG checkout challenges, team's historical resistance to platform changes, and potential points redemption partnership requirement."
-        }
-      ],
+      "stakeholders": [],
+      "shopifyTeam": [],
+      "calls": [],
       "history": [
         {
           "date": "2026-02-20",
@@ -14196,23 +13908,23 @@ const DEAL_DATA = {
         "goLiveDate": "2026-03-31",
         "contactName": "Ben Rees",
         "contactEmail": "ben.rees@shopify.com",
-        "champion": "Neil Rhodes",
+        "champion": "",
         "items": [
           {
             "date": "",
-            "done": true,
+            "done": false,
             "milestone": "Initial discovery & intro calls",
-            "ownerMerchant": "Neil Rhodes",
+            "ownerMerchant": "Direct Wines Limited",
             "ownerShopify": "Ben",
-            "notes": "15 calls completed"
+            "notes": ""
           },
           {
             "date": "",
-            "done": true,
+            "done": false,
             "milestone": "Identify champion & project team",
-            "ownerMerchant": "Neil Rhodes",
+            "ownerMerchant": "Direct Wines Limited",
             "ownerShopify": "Ben",
-            "notes": "Champion: Neil Rhodes"
+            "notes": ""
           },
           {
             "date": "",
@@ -14252,7 +13964,7 @@ const DEAL_DATA = {
             "date": "",
             "done": false,
             "milestone": "Map complete decision & approval process",
-            "ownerMerchant": "Neil Rhodes",
+            "ownerMerchant": "Direct Wines Limited",
             "ownerShopify": "Ben",
             "notes": ""
           },
@@ -14277,7 +13989,7 @@ const DEAL_DATA = {
             "date": "",
             "done": false,
             "milestone": "Finalize commercial proposal",
-            "ownerMerchant": "Neil Rhodes",
+            "ownerMerchant": "Direct Wines Limited",
             "ownerShopify": "Ben",
             "notes": ""
           },
