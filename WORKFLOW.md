@@ -1,6 +1,6 @@
 # Deal Health Dashboard — Workflow & Architecture
 
-## Last Updated: 2026-02-19
+## Last Updated: 2026-02-20
 
 ---
 
@@ -57,15 +57,14 @@ When user requests visual or functional changes to the dashboard:
   - Business problem, timeline, proposed launch dates
 - Store the full response
 
-### Step 2: Gather Call Transcripts
-- Delegate to **WorkWithSalesloftAgent**
-- Provide: Account name from Salesforce
-- If account name returns wrong company, try:
-  - Search by contact email addresses
-  - Search by domain
-  - Search by Salesforce Account ID
-- Request: All call transcripts, meetings, attendees, dates, summaries
-- If no transcripts available, note it and proceed — SE notes from Salesforce are often very detailed
+### Step 2: Gather Call Transcripts (BigQuery — PRIMARY)
+- **Query BigQuery directly** using `query_bigquery` on `shopify-dw.sales.sales_calls`
+- Use the **Account ID** from Step 1 (NOT account name)
+- Two queries:
+  - **2a: Metadata + AI summaries** — filter by `salesforce_account_ids` (ARRAY, use UNNEST)
+  - **2b: Full transcripts** — UNNEST `transcript_details.full_transcript` for calls with `has_transcript=TRUE`
+- Extract **transcript speakers per call** (distinct `speaker_name` grouped by `event_id`) — needed for Step 3.5
+- **Fallback ONLY:** If BigQuery auth fails after 1 retry, use WorkWithSalesloftAgent as backup
 
 ### Step 3: MEDDPICC Analysis
 - Delegate to **WorkWithMEDDPICCAnalyst**
@@ -83,21 +82,31 @@ When user requests visual or functional changes to the dashboard:
     - Competition (5 questions)
   - Each question needs: answer, notes, solution, action, due date
 
+### Step 3.5: Fix Payload (REQUIRED before publishing)
+- **Run `fix-payload.js`** on the assembled payload BEFORE publishing
+- This module (`deal-health-app/lib/fix-payload.js`) does two critical things:
+  1. **Resolves generic role refs → actual names**: "AE to" → "Adriana to", "SE to" → "Sarah to", "AE/SE to" → "Adriana & Sarah to" (uses `salesforce.owner` and `shopify_team` SE role)
+  2. **Computes transcript-verified call attendance**: Uses transcript speaker data (from Step 2b) as ground truth — NOT calendar RSVPs which can be stale
+- **Why this matters:**
+  - Calendar RSVP (`response_status=accepted`) only means **invited**, not attended
+  - Example: A stakeholder may accept a calendar invite then go on leave and not join — transcript speakers prove who was actually there
+- **Usage:**
+  ```javascript
+  const { fixPayload } = require('./lib/fix-payload');
+  // transcriptSpeakers: { event_id: [speaker_name, ...] } from Step 2b
+  const fixed = fixPayload(payload, transcriptSpeakers);
+  ```
+- **Attendance logic:**
+  - `calls_invited` = appeared in call's attendee/merchant list
+  - `calls_attended` = for transcribed calls: spoke in transcript. For dialer calls: disposition=Connected
+  - Engagement: attended ≥ 2 → high, ≥ 1 → medium, 0 → low
+
 ### Step 4: Assemble Payload & Publish
 1. **Build the opportunity JSON** matching the data schema below
-2. **Add to opportunities.json** at `/home/swarm/deal-health-app/data/opportunities.json`
-3. **Run build:** `cd /home/swarm/deal-health-app && node build-data.js`
-4. **Verify scores** in the output
-5. **Copy data.js** to site dir and cloned repo:
-   ```
-   cp deal-health-app/quick-deploy/data.js deal-health-site/data.js
-   cp deal-health-app/quick-deploy/data.js deal-health-dashboard/data.js
-   ```
-6. **Git commit & push:**
-   ```
-   cd /home/swarm/deal-health-dashboard
-   git add -A && git commit -m "Add {Account Name}" && git push origin main
-   ```
+2. **Apply fix-payload.js** (Step 3.5 above) with transcript speakers map
+3. **Write to** `deal-health-app/data/incoming-payload.json`
+4. **Delegate to WorkWithSitePublisher** — just reference the file path, do NOT pass JSON in the message
+5. Site Publisher runs: ingest → build → git push
 
 ### Step 5: Present Results
 - Show the score breakdown, key risks, and dashboard link
@@ -128,6 +137,7 @@ Always verify the repo is cloned and configured before trying to push.
 | `/home/swarm/deal-health-app/data/opportunities.json` | **Source of truth** — raw opportunity data with full MEDDPICC |
 | `/home/swarm/deal-health-app/build-data.js` | Build script — reads opportunities.json, computes scores, outputs data.js |
 | `/home/swarm/deal-health-app/quick-deploy/data.js` | Build output — generated data.js |
+| `/home/swarm/deal-health-app/lib/fix-payload.js` | **Payload fixer** — resolves AE/SE→names, computes transcript-verified attendance |
 | `/home/swarm/deal-health-site/index.html` | **Dashboard HTML** — the single-file app |
 | `/home/swarm/deal-health-site/data.js` | Local copy of data.js (keep in sync) |
 | `/home/swarm/deal-health-dashboard/` | **GitHub repo clone** — what gets pushed |
@@ -259,18 +269,32 @@ If build-data.js is ever rewritten, verify the output data.js contains ALL analy
 
 ---
 
-## SALESLOFT LOOKUP FLOW
+## CALL TRANSCRIPT LOOKUP — BigQuery (PRIMARY)
 
-**DO NOT search Salesloft by account name alone.** This often pulls wrong accounts (e.g., "Mulberry" NYC media company instead of Mulberry UK fashion brand).
+**Always use BigQuery `shopify-dw.sales.sales_calls` for transcripts.** This is faster, more reliable, and has broader coverage than the Salesloft API.
 
 **Correct flow:**
-1. Search by account name first
-2. If wrong company returned, try:
-   - Search by specific contact email addresses from Salesforce
-   - Search by domain (e.g., "mulberry.com")
-   - Search by Salesforce Account ID
-3. Once correct account found, pull all calls/meetings/transcripts
-4. If Salesloft has no data or agent errors persist, proceed with MEDDPICC analysis using Salesforce data + SE notes only — flag the limitation
+1. Get Account ID from Salesforce (Step 1)
+2. Query BigQuery with `'{ACCOUNT_ID}' IN UNNEST(salesforce_account_ids)`
+3. Step 2a: metadata + AI summaries (all calls)
+4. Step 2b: full transcripts (only where `has_transcript=TRUE`)
+5. Extract distinct speakers per event_id from Step 2b results → `transcriptSpeakers` map
+6. **Only fall back to WorkWithSalesloftAgent** if BigQuery auth fails after 1 retry (persistent 401)
+
+**CRITICAL: Extract transcript speakers for fix-payload.js**
+From the Step 2b BigQuery results, build this map before assembling the payload:
+```javascript
+// Group by event_id, collect distinct speaker_names
+const transcriptSpeakers = {};
+for (const row of step2bResults) {
+  if (!transcriptSpeakers[row.event_id]) transcriptSpeakers[row.event_id] = new Set();
+  transcriptSpeakers[row.event_id].add(row.speaker_name);
+}
+// Convert sets to arrays
+for (const k of Object.keys(transcriptSpeakers)) {
+  transcriptSpeakers[k] = [...transcriptSpeakers[k]];
+}
+```
 
 ---
 
