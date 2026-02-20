@@ -1,0 +1,26 @@
+{
+  "opportunityId": "006OG00000G28JdYAJ",
+  "accountName": "Direct Wines Limited",
+  "lastUpdated": "2026-02-20T14:30:00Z",
+  "gmvData": {"online": 162000000, "retail": 8000000, "b2bGmv": null, "paymentsGpv": 210600000, "d2cGmv": 162000000},
+  "extractedFromCalls": [
+    {"category": "operational", "item": "Development Team", "currentCost": 5000000, "confidence": 0.55},
+    {"category": "operational", "item": "Tech Stack (CT+ATG+Contentful+Algolia)", "currentCost": 1200000, "confidence": 0.30},
+    {"category": "operational", "item": "Hosting/Infrastructure", "currentCost": 400000, "confidence": 0.25},
+    {"category": "operational", "item": "Oracle ATG Licensing", "currentCost": 375000, "confidence": 0.30},
+    {"category": "platform", "item": "Shopify Enterprise License", "cost": 1524000, "confidence": 0.95},
+    {"category": "platform", "item": "Recharge Subscriptions", "cost": 133350, "confidence": 0.85},
+    {"category": "payment", "item": "US: 2.15% + $0.30", "value": "2.15%", "confidence": 0.95},
+    {"category": "payment", "item": "UK: 1.2% + £0.25", "value": "1.2%", "confidence": 0.95},
+    {"category": "payment", "item": "AU: 1.1% + A$0.30", "value": "1.1%", "confidence": 0.95},
+    {"category": "payment", "item": "NZ: 2.2% + NZ$0.30", "value": "2.2%", "confidence": 0.95},
+    {"category": "tech_stack", "item": "CommerceTools", "confidence": 0.90},
+    {"category": "tech_stack", "item": "Oracle ATG", "confidence": 0.90},
+    {"category": "tech_stack", "item": "Contentful", "confidence": 0.90},
+    {"category": "tech_stack", "item": "Algolia", "confidence": 0.85}
+  ],
+  "manualEntries": [],
+  "growthRates": {"online": 0.18, "retail": 0.12},
+  "shopPayAssumptions": {"conversionUplift": 0.025, "aovUplift": 0.02},
+  "calculatedResults": {"totalSavings": 13041708, "totalEconomicBenefit": 44118151, "roi": 641.1, "paybackMonths": 6.4, "platformCostAsPercentGMV": 0.76}
+}
