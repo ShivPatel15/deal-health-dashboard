@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-20T17:42:34.982Z",
+  "generatedAt": "2026-02-20T17:49:51.746Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -16610,7 +16610,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Website drives leads to showrooms (90-95% of sales happen in-store), gap between £600 online and £60K in-store. No specific KPIs established.",
               "solution": "Work with Mo/Diamante to define measurable success metrics.",
-              "action": "AE to propose specific success metrics framework in next call.",
+              "action": "Adriana to propose specific success metrics framework in next call.",
               "due": "2026-03-06",
               "highlight": false
             },
@@ -16630,7 +16630,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Mo alluded to existential risk ('if we want to last for another 90 years'), but no specific revenue impact figures quantified.",
               "solution": "Quantify the cost of inaction — lost leads, competitive risk, ongoing platform costs.",
-              "action": "AE/SE to build a 'cost of doing nothing' analysis.",
+              "action": "Adriana & Sarah to build a 'cost of doing nothing' analysis.",
               "due": "2026-03-06",
               "highlight": false
             },
@@ -16650,7 +16650,7 @@ const DEAL_DATA = {
               "score": 0,
               "notes": "Specific quantifiable metrics have not been discussed or validated. Conversations have been directional but not tied to measurable targets.",
               "solution": "Present a proposed metrics framework and validate with Mo and Diamante.",
-              "action": "AE to include proposed success metrics in follow-up after board meeting.",
+              "action": "Adriana to include proposed success metrics in follow-up after board meeting.",
               "due": "2026-03-06",
               "highlight": false
             },
@@ -16660,7 +16660,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Qualitative case is strong but without quantified metrics, unclear if the board will view numbers as compelling enough.",
               "solution": "Help Mo build the quantitative business case with TCO comparison and projected ROI.",
-              "action": "AE/SE to deliver TCO analysis and ROI projections for board presentation.",
+              "action": "Adriana & Sarah to deliver TCO analysis and ROI projections for board presentation.",
               "due": "2026-02-28",
               "highlight": false
             }
@@ -16675,7 +16675,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Mo is the champion but budget sign-off is at the board level. True EB likely a board member or C-suite exec at parent company. No specific name identified.",
               "solution": "Ask Mo who at the board will approve the budget allocation.",
-              "action": "AE to clarify the budget approval authority.",
+              "action": "Adriana to clarify the budget approval authority.",
               "due": "2026-03-06",
               "highlight": false
             },
@@ -16685,7 +16685,7 @@ const DEAL_DATA = {
               "score": 0,
               "notes": "Not discussed. Likely Mo or someone above him.",
               "solution": "Understand contract signing authority.",
-              "action": "AE to ask Mo about contract signing process.",
+              "action": "Adriana to ask Mo about contract signing process.",
               "due": "2026-03-06",
               "highlight": false
             },
@@ -16695,7 +16695,7 @@ const DEAL_DATA = {
               "score": 0,
               "notes": "Access to Mo but not to the board-level decision maker.",
               "solution": "Request introduction through Mo.",
-              "action": "AE to ask Mo for introduction to the budget approver.",
+              "action": "Adriana to ask Mo for introduction to the budget approver.",
               "due": "2026-03-13",
               "highlight": false
             },
@@ -16705,7 +16705,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Mo is willing to collaborate on the business case, suggesting he could facilitate introductions. Organizational upheaval may complicate.",
               "solution": "Position Shopify as a resource for Mo's board presentation to create a path to access.",
-              "action": "AE to offer to join a board presentation or provide exec-level support.",
+              "action": "Adriana to offer to join a board presentation or provide exec-level support.",
               "due": "2026-03-06",
               "highlight": false
             },
@@ -16715,7 +16715,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Board cares about project prioritization and budget allocation. New CEO likely cares about modernization and ROI. Specifics unknown.",
               "solution": "Ask Mo what the board's evaluation criteria are.",
-              "action": "AE to probe Mo on board priorities.",
+              "action": "Adriana to probe Mo on board priorities.",
               "due": "2026-03-06",
               "highlight": false
             },
@@ -16725,7 +16725,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "High-level process known (board meeting → budget sign-off by June). Specifics (who votes, thresholds, CapEx vs OpEx) unknown.",
               "solution": "Map the full budget approval process.",
-              "action": "AE to ask Mo to walk through the budget approval workflow.",
+              "action": "Adriana to ask Mo to walk through the budget approval workflow.",
               "due": "2026-03-06",
               "highlight": false
             }
@@ -16740,7 +16740,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Board meeting for initial prioritization, then budget approval by June. Steps between board buy-in and contract signature unclear.",
               "solution": "Map the end-to-end decision process.",
-              "action": "AE to establish a mutual action plan with Mo post-board meeting.",
+              "action": "Adriana to establish a mutual action plan with Mo post-board meeting.",
               "due": "2026-03-13",
               "highlight": false
             },
@@ -16750,7 +16750,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Mo (project lead), Diamante (technical), board (funding), parent company CEO (influence). Full committee not mapped.",
               "solution": "Ask Mo to identify all stakeholders.",
-              "action": "AE to request org chart or stakeholder map.",
+              "action": "Adriana to request org chart or stakeholder map.",
               "due": "2026-03-06",
               "highlight": false
             },
@@ -16780,7 +16780,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Diamante described longstanding frustration suggesting incremental attempts. Full replatform not attempted before. Not explicitly explored.",
               "solution": "Explore prior attempts and why they stalled.",
-              "action": "AE to ask about prior replatforming conversations.",
+              "action": "Adriana to ask about prior replatforming conversations.",
               "due": "2026-03-13",
               "highlight": false
             },
@@ -16790,7 +16790,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Mo implied long-term business risk. No specific 'stay put' scenario articulated with numbers.",
               "solution": "Help Mo articulate the cost of inaction for the board.",
-              "action": "AE/SE to build a 'status quo risk' slide for Mo's board deck.",
+              "action": "Adriana & Sarah to build a 'status quo risk' slide for Mo's board deck.",
               "due": "2026-02-28",
               "highlight": false
             },
@@ -16800,7 +16800,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Mo confirmed board meeting and budget timeline. Full procurement/approval process not formally validated.",
               "solution": "Create and share a mutual action plan.",
-              "action": "AE to propose MAP and validate with Mo after board outcome.",
+              "action": "Adriana to propose MAP and validate with Mo after board outcome.",
               "due": "2026-03-13",
               "highlight": false
             }
@@ -16815,7 +16815,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Key criteria surfaced: brand-quality design, ease of use, faster timelines, lead tracking. Not formally documented as weighted criteria.",
               "solution": "Formalize and validate the decision criteria.",
-              "action": "AE to present a summary of understood criteria and ask what's missing.",
+              "action": "Adriana to present a summary of understood criteria and ask what's missing.",
               "due": "2026-03-06",
               "highlight": false
             },
@@ -16825,7 +16825,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "D2C discussed, retail/POS mentioned. B2B (50% of business is trade) and detailed POS not explored.",
               "solution": "Present B2B and POS capabilities for their showroom model.",
-              "action": "SE to prepare tailored demo covering B2B, POS, omnichannel.",
+              "action": "Sarah to prepare tailored demo covering B2B, POS, omnichannel.",
               "due": "2026-03-13",
               "highlight": false
             },
@@ -16835,7 +16835,7 @@ const DEAL_DATA = {
               "score": 0,
               "notes": "With Diamante on leave, technical discovery deferred. No integration requirements or complications discussed.",
               "solution": "Conduct technical discovery when Diamante returns.",
-              "action": "AE to schedule technical deep-dive with Diamante.",
+              "action": "Adriana to schedule technical deep-dive with Diamante.",
               "due": "2026-03-13",
               "highlight": false
             },
@@ -16845,7 +16845,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Diamante stated 'no leeway' on current provider but acknowledged competitive rates could change this. 0.2% third-party fee explained.",
               "solution": "Prepare detailed payments comparison.",
-              "action": "AE/SE to build payments cost comparison.",
+              "action": "Adriana & Sarah to build payments cost comparison.",
               "due": "2026-03-06",
               "highlight": false
             },
@@ -16855,7 +16855,7 @@ const DEAL_DATA = {
               "score": 0,
               "notes": "Engagement roadmap outlined but no formal MAP with milestones, owners, and dates.",
               "solution": "Create a formal mutual action plan.",
-              "action": "AE to draft and share MAP post-board meeting.",
+              "action": "Adriana to draft and share MAP post-board meeting.",
               "due": "2026-03-13",
               "highlight": false
             },
@@ -16865,7 +16865,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Adriana positioned Shopify's strengths but no deliberate effort to shape formal evaluation criteria.",
               "solution": "Introduce evaluation criteria highlighting Shopify's differentiation.",
-              "action": "AE to propose a platform evaluation framework.",
+              "action": "Adriana to propose a platform evaluation framework.",
               "due": "2026-03-06",
               "highlight": false
             },
@@ -16875,7 +16875,7 @@ const DEAL_DATA = {
               "score": 0,
               "notes": "Criteria emerging organically from frustrations, not formally defined by buying committee.",
               "solution": "Ask Mo who defines criteria and whether the board has specific requirements.",
-              "action": "AE to ask about board-level criteria.",
+              "action": "Adriana to ask about board-level criteria.",
               "due": "2026-03-06",
               "highlight": false
             }
@@ -16890,7 +16890,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Budgets approved by June, financial year starts August. Full procurement process unknown.",
               "solution": "Map the full procurement process.",
-              "action": "AE to ask Mo about procurement steps after budget approval.",
+              "action": "Adriana to ask Mo about procurement steps after budget approval.",
               "due": "2026-03-13",
               "highlight": false
             },
@@ -16900,7 +16900,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "NDA requested in Word format suggests legal review process exists. Likely redlines on main contract.",
               "solution": "Prepare for legal review process.",
-              "action": "AE to send NDA in Word format and ask about contract review.",
+              "action": "Adriana to send NDA in Word format and ask about contract review.",
               "due": "2026-02-28",
               "highlight": false
             },
@@ -16910,7 +16910,7 @@ const DEAL_DATA = {
               "score": 0,
               "notes": "Not discussed.",
               "solution": "Understand legal review timelines.",
-              "action": "AE to ask about typical legal review duration.",
+              "action": "Adriana to ask about typical legal review duration.",
               "due": "2026-03-13",
               "highlight": false
             },
@@ -16920,7 +16920,7 @@ const DEAL_DATA = {
               "score": 0,
               "notes": "Overall timeline understood but specific procurement duration not scoped.",
               "solution": "Factor procurement timeline into MAP.",
-              "action": "AE to include procurement milestones in MAP.",
+              "action": "Adriana to include procurement milestones in MAP.",
               "due": "2026-03-13",
               "highlight": false
             },
@@ -16930,7 +16930,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Commercials presented Feb 19. Product pricing structured. Full contract terms not discussed.",
               "solution": "Prepare contract for review once board gives green light.",
-              "action": "AE to have draft contract ready.",
+              "action": "Adriana to have draft contract ready.",
               "due": "2026-04-30",
               "highlight": false
             },
@@ -16940,7 +16940,7 @@ const DEAL_DATA = {
               "score": 0,
               "notes": "Commercials presented but contract not sent. NDA still in progress.",
               "solution": "Prepare contract for post-board approval.",
-              "action": "AE to prepare contract.",
+              "action": "Adriana to prepare contract.",
               "due": "2026-04-30",
               "highlight": false
             },
@@ -16950,7 +16950,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Budget sign-off by June, close date May 29 aligns. Not explicitly confirmed with customer.",
               "solution": "Validate target signature date.",
-              "action": "AE to confirm end-of-May target.",
+              "action": "Adriana to confirm end-of-May target.",
               "due": "2026-03-13",
               "highlight": false
             }
@@ -16975,7 +16975,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Diamante's frustration suggests incremental attempts within current platform. Full replatform not attempted. Not explicitly explored.",
               "solution": "Ask about prior attempts.",
-              "action": "AE to explore prior modernization efforts.",
+              "action": "Adriana to explore prior modernization efforts.",
               "due": "2026-03-13",
               "highlight": false
             },
@@ -16995,7 +16995,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Marketing/Digital and E-Commerce clearly affected. Showroom/sales teams indirectly affected. Impact on trade/B2B side (50% of business) not explored.",
               "solution": "Explore impact on trade/B2B teams.",
-              "action": "AE/SE to discuss B2B and showroom pain points.",
+              "action": "Adriana & Sarah to discuss B2B and showroom pain points.",
               "due": "2026-03-13",
               "highlight": false
             },
@@ -17015,7 +17015,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "No competitors mentioned. Doing nothing is the primary alternative. Staying with a new agency on same platform not discussed.",
               "solution": "Explicitly discuss alternatives and why Shopify is the best path.",
-              "action": "AE to ask what other options the board is considering.",
+              "action": "Adriana to ask what other options the board is considering.",
               "due": "2026-03-06",
               "highlight": false
             },
@@ -17035,7 +17035,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Shopify's templated best practices and speed align well. No explicit competitive comparison made. Unique positioning not fully articulated.",
               "solution": "Articulate Shopify's unique value vs. alternatives.",
-              "action": "SE to prepare competitive positioning brief.",
+              "action": "Sarah to prepare competitive positioning brief.",
               "due": "2026-03-06",
               "highlight": false
             }
@@ -17060,7 +17060,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Mo is Director-level and presenting to the board. However, with MD leaving and new CEO, his political capital with new leadership is uncertain.",
               "solution": "Help Mo build the strongest possible board case.",
-              "action": "AE to provide board-ready materials.",
+              "action": "Adriana to provide board-ready materials.",
               "due": "2026-02-28",
               "highlight": false
             },
@@ -17090,7 +17090,7 @@ const DEAL_DATA = {
               "score": 0,
               "notes": "No introduction to any board member or economic buyer above Mo.",
               "solution": "Request introduction after board meeting.",
-              "action": "AE to ask Mo about meeting with a board member.",
+              "action": "Adriana to ask Mo about meeting with a board member.",
               "due": "2026-03-13",
               "highlight": false
             },
@@ -17100,7 +17100,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Mo accepted help building the business case (indirectly brings Shopify into board discussion). Hasn't offered direct board access.",
               "solution": "Offer exec-level engagement.",
-              "action": "AE to offer a Shopify executive sponsor.",
+              "action": "Adriana to offer a Shopify executive sponsor.",
               "due": "2026-03-06",
               "highlight": false
             },
@@ -17110,7 +17110,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Mo motivated by need to modernize for long-term survival and his role as Director of Marketing & Digital. Personal stake inferred not confirmed.",
               "solution": "Validate Mo's personal motivation.",
-              "action": "AE to explore what success looks like personally for Mo.",
+              "action": "Adriana to explore what success looks like personally for Mo.",
               "due": "2026-03-06",
               "highlight": false
             }
@@ -17125,7 +17125,7 @@ const DEAL_DATA = {
               "score": 0,
               "notes": "No competitors mentioned in any call. Salesforce competitor field is null.",
               "solution": "Directly ask about other vendors.",
-              "action": "AE to ask Mo if evaluating other platforms.",
+              "action": "Adriana to ask Mo if evaluating other platforms.",
               "due": "2026-03-06",
               "highlight": false
             },
@@ -17135,7 +17135,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Mo's comments suggest doing nothing is possible but not desirable. Not directly asked.",
               "solution": "Ask what happens if the board says no.",
-              "action": "AE to ask about fallback plan.",
+              "action": "Adriana to ask about fallback plan.",
               "due": "2026-03-06",
               "highlight": false
             },
@@ -17145,7 +17145,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Staying with current platform (with/without new agency) is implicit alternative. No internal build mentioned.",
               "solution": "Explore whether improving current platform is being considered.",
-              "action": "AE to discuss current platform alternatives.",
+              "action": "Adriana to discuss current platform alternatives.",
               "due": "2026-03-06",
               "highlight": false
             },
@@ -17155,7 +17155,7 @@ const DEAL_DATA = {
               "score": 0,
               "notes": "Don't know if alternatives are being evaluated at all. Appears Shopify-focused but not confirmed.",
               "solution": "Understand full competitive landscape.",
-              "action": "AE to ask if board expects multiple vendor options.",
+              "action": "Adriana to ask if board expects multiple vendor options.",
               "due": "2026-03-06",
               "highlight": false
             },
@@ -17165,7 +17165,7 @@ const DEAL_DATA = {
               "score": 0.5,
               "notes": "Win factors: speed, templates, lower TCO, integrated platform. Lose factors: board deprioritization, payment lock-in, Diamante absence, new leadership priorities.",
               "solution": "Mitigate risk factors.",
-              "action": "AE/SE to build risk mitigation plan.",
+              "action": "Adriana & Sarah to build risk mitigation plan.",
               "due": "2026-03-06",
               "highlight": false
             }
@@ -17225,294 +17225,294 @@ const DEAL_DATA = {
           "p": 1,
           "cat": "Metrics",
           "issue": "Website drives leads to showrooms (90-95% of sales happen in-store), gap between £600 online and £60K in-store. No specific KPIs established.",
-          "rec": "AE to propose specific success metrics framework in next call.",
+          "rec": "Adriana to propose specific success metrics framework in next call.",
           "due": "2026-03-06"
         },
         {
           "p": 2,
           "cat": "Metrics",
           "issue": "Mo alluded to existential risk ('if we want to last for another 90 years'), but no specific revenue impact figures quantified.",
-          "rec": "AE/SE to build a 'cost of doing nothing' analysis.",
+          "rec": "Adriana & Sarah to build a 'cost of doing nothing' analysis.",
           "due": "2026-03-06"
         },
         {
           "p": 3,
           "cat": "Metrics",
           "issue": "Specific quantifiable metrics have not been discussed or validated. Conversations have been directional but not tied to measurable targets.",
-          "rec": "AE to include proposed success metrics in follow-up after board meeting.",
+          "rec": "Adriana to include proposed success metrics in follow-up after board meeting.",
           "due": "2026-03-06"
         },
         {
           "p": 4,
           "cat": "Metrics",
           "issue": "Qualitative case is strong but without quantified metrics, unclear if the board will view numbers as compelling enough.",
-          "rec": "AE/SE to deliver TCO analysis and ROI projections for board presentation.",
+          "rec": "Adriana & Sarah to deliver TCO analysis and ROI projections for board presentation.",
           "due": "2026-02-28"
         },
         {
           "p": 5,
           "cat": "Economic Buyer",
           "issue": "Mo is the champion but budget sign-off is at the board level. True EB likely a board member or C-suite exec at parent company. No specific name identified.",
-          "rec": "AE to clarify the budget approval authority.",
+          "rec": "Adriana to clarify the budget approval authority.",
           "due": "2026-03-06"
         },
         {
           "p": 6,
           "cat": "Economic Buyer",
           "issue": "Not discussed. Likely Mo or someone above him.",
-          "rec": "AE to ask Mo about contract signing process.",
+          "rec": "Adriana to ask Mo about contract signing process.",
           "due": "2026-03-06"
         },
         {
           "p": 7,
           "cat": "Economic Buyer",
           "issue": "Access to Mo but not to the board-level decision maker.",
-          "rec": "AE to ask Mo for introduction to the budget approver.",
+          "rec": "Adriana to ask Mo for introduction to the budget approver.",
           "due": "2026-03-13"
         },
         {
           "p": 8,
           "cat": "Economic Buyer",
           "issue": "Mo is willing to collaborate on the business case, suggesting he could facilitate introductions. Organizational upheaval may complicate.",
-          "rec": "AE to offer to join a board presentation or provide exec-level support.",
+          "rec": "Adriana to offer to join a board presentation or provide exec-level support.",
           "due": "2026-03-06"
         },
         {
           "p": 9,
           "cat": "Economic Buyer",
           "issue": "Board cares about project prioritization and budget allocation. New CEO likely cares about modernization and ROI. Specifics unknown.",
-          "rec": "AE to probe Mo on board priorities.",
+          "rec": "Adriana to probe Mo on board priorities.",
           "due": "2026-03-06"
         },
         {
           "p": 10,
           "cat": "Economic Buyer",
           "issue": "High-level process known (board meeting → budget sign-off by June). Specifics (who votes, thresholds, CapEx vs OpEx) unknown.",
-          "rec": "AE to ask Mo to walk through the budget approval workflow.",
+          "rec": "Adriana to ask Mo to walk through the budget approval workflow.",
           "due": "2026-03-06"
         },
         {
           "p": 11,
           "cat": "Decision Process",
           "issue": "Board meeting for initial prioritization, then budget approval by June. Steps between board buy-in and contract signature unclear.",
-          "rec": "AE to establish a mutual action plan with Mo post-board meeting.",
+          "rec": "Adriana to establish a mutual action plan with Mo post-board meeting.",
           "due": "2026-03-13"
         },
         {
           "p": 12,
           "cat": "Decision Process",
           "issue": "Mo (project lead), Diamante (technical), board (funding), parent company CEO (influence). Full committee not mapped.",
-          "rec": "AE to request org chart or stakeholder map.",
+          "rec": "Adriana to request org chart or stakeholder map.",
           "due": "2026-03-06"
         },
         {
           "p": 13,
           "cat": "Decision Process",
           "issue": "Diamante described longstanding frustration suggesting incremental attempts. Full replatform not attempted before. Not explicitly explored.",
-          "rec": "AE to ask about prior replatforming conversations.",
+          "rec": "Adriana to ask about prior replatforming conversations.",
           "due": "2026-03-13"
         },
         {
           "p": 14,
           "cat": "Decision Process",
           "issue": "Mo implied long-term business risk. No specific 'stay put' scenario articulated with numbers.",
-          "rec": "AE/SE to build a 'status quo risk' slide for Mo's board deck.",
+          "rec": "Adriana & Sarah to build a 'status quo risk' slide for Mo's board deck.",
           "due": "2026-02-28"
         },
         {
           "p": 15,
           "cat": "Decision Process",
           "issue": "Mo confirmed board meeting and budget timeline. Full procurement/approval process not formally validated.",
-          "rec": "AE to propose MAP and validate with Mo after board outcome.",
+          "rec": "Adriana to propose MAP and validate with Mo after board outcome.",
           "due": "2026-03-13"
         },
         {
           "p": 16,
           "cat": "Decision Criteria",
           "issue": "Key criteria surfaced: brand-quality design, ease of use, faster timelines, lead tracking. Not formally documented as weighted criteria.",
-          "rec": "AE to present a summary of understood criteria and ask what's missing.",
+          "rec": "Adriana to present a summary of understood criteria and ask what's missing.",
           "due": "2026-03-06"
         },
         {
           "p": 17,
           "cat": "Decision Criteria",
           "issue": "D2C discussed, retail/POS mentioned. B2B (50% of business is trade) and detailed POS not explored.",
-          "rec": "SE to prepare tailored demo covering B2B, POS, omnichannel.",
+          "rec": "Sarah to prepare tailored demo covering B2B, POS, omnichannel.",
           "due": "2026-03-13"
         },
         {
           "p": 18,
           "cat": "Decision Criteria",
           "issue": "With Diamante on leave, technical discovery deferred. No integration requirements or complications discussed.",
-          "rec": "AE to schedule technical deep-dive with Diamante.",
+          "rec": "Adriana to schedule technical deep-dive with Diamante.",
           "due": "2026-03-13"
         },
         {
           "p": 19,
           "cat": "Decision Criteria",
           "issue": "Diamante stated 'no leeway' on current provider but acknowledged competitive rates could change this. 0.2% third-party fee explained.",
-          "rec": "AE/SE to build payments cost comparison.",
+          "rec": "Adriana & Sarah to build payments cost comparison.",
           "due": "2026-03-06"
         },
         {
           "p": 20,
           "cat": "Decision Criteria",
           "issue": "Engagement roadmap outlined but no formal MAP with milestones, owners, and dates.",
-          "rec": "AE to draft and share MAP post-board meeting.",
+          "rec": "Adriana to draft and share MAP post-board meeting.",
           "due": "2026-03-13"
         },
         {
           "p": 21,
           "cat": "Decision Criteria",
           "issue": "Adriana positioned Shopify's strengths but no deliberate effort to shape formal evaluation criteria.",
-          "rec": "AE to propose a platform evaluation framework.",
+          "rec": "Adriana to propose a platform evaluation framework.",
           "due": "2026-03-06"
         },
         {
           "p": 22,
           "cat": "Decision Criteria",
           "issue": "Criteria emerging organically from frustrations, not formally defined by buying committee.",
-          "rec": "AE to ask about board-level criteria.",
+          "rec": "Adriana to ask about board-level criteria.",
           "due": "2026-03-06"
         },
         {
           "p": 23,
           "cat": "Paper Process",
           "issue": "Budgets approved by June, financial year starts August. Full procurement process unknown.",
-          "rec": "AE to ask Mo about procurement steps after budget approval.",
+          "rec": "Adriana to ask Mo about procurement steps after budget approval.",
           "due": "2026-03-13"
         },
         {
           "p": 24,
           "cat": "Paper Process",
           "issue": "NDA requested in Word format suggests legal review process exists. Likely redlines on main contract.",
-          "rec": "AE to send NDA in Word format and ask about contract review.",
+          "rec": "Adriana to send NDA in Word format and ask about contract review.",
           "due": "2026-02-28"
         },
         {
           "p": 25,
           "cat": "Paper Process",
           "issue": "Not discussed.",
-          "rec": "AE to ask about typical legal review duration.",
+          "rec": "Adriana to ask about typical legal review duration.",
           "due": "2026-03-13"
         },
         {
           "p": 26,
           "cat": "Paper Process",
           "issue": "Overall timeline understood but specific procurement duration not scoped.",
-          "rec": "AE to include procurement milestones in MAP.",
+          "rec": "Adriana to include procurement milestones in MAP.",
           "due": "2026-03-13"
         },
         {
           "p": 27,
           "cat": "Paper Process",
           "issue": "Commercials presented Feb 19. Product pricing structured. Full contract terms not discussed.",
-          "rec": "AE to have draft contract ready.",
+          "rec": "Adriana to have draft contract ready.",
           "due": "2026-04-30"
         },
         {
           "p": 28,
           "cat": "Paper Process",
           "issue": "Commercials presented but contract not sent. NDA still in progress.",
-          "rec": "AE to prepare contract.",
+          "rec": "Adriana to prepare contract.",
           "due": "2026-04-30"
         },
         {
           "p": 29,
           "cat": "Paper Process",
           "issue": "Budget sign-off by June, close date May 29 aligns. Not explicitly confirmed with customer.",
-          "rec": "AE to confirm end-of-May target.",
+          "rec": "Adriana to confirm end-of-May target.",
           "due": "2026-03-13"
         },
         {
           "p": 30,
           "cat": "Identify Pain",
           "issue": "Diamante's frustration suggests incremental attempts within current platform. Full replatform not attempted. Not explicitly explored.",
-          "rec": "AE to explore prior modernization efforts.",
+          "rec": "Adriana to explore prior modernization efforts.",
           "due": "2026-03-13"
         },
         {
           "p": 31,
           "cat": "Identify Pain",
           "issue": "Marketing/Digital and E-Commerce clearly affected. Showroom/sales teams indirectly affected. Impact on trade/B2B side (50% of business) not explored.",
-          "rec": "AE/SE to discuss B2B and showroom pain points.",
+          "rec": "Adriana & Sarah to discuss B2B and showroom pain points.",
           "due": "2026-03-13"
         },
         {
           "p": 32,
           "cat": "Identify Pain",
           "issue": "No competitors mentioned. Doing nothing is the primary alternative. Staying with a new agency on same platform not discussed.",
-          "rec": "AE to ask what other options the board is considering.",
+          "rec": "Adriana to ask what other options the board is considering.",
           "due": "2026-03-06"
         },
         {
           "p": 33,
           "cat": "Identify Pain",
           "issue": "Shopify's templated best practices and speed align well. No explicit competitive comparison made. Unique positioning not fully articulated.",
-          "rec": "SE to prepare competitive positioning brief.",
+          "rec": "Sarah to prepare competitive positioning brief.",
           "due": "2026-03-06"
         },
         {
           "p": 34,
           "cat": "Champion",
           "issue": "Mo is Director-level and presenting to the board. However, with MD leaving and new CEO, his political capital with new leadership is uncertain.",
-          "rec": "AE to provide board-ready materials.",
+          "rec": "Adriana to provide board-ready materials.",
           "due": "2026-02-28"
         },
         {
           "p": 35,
           "cat": "Champion",
           "issue": "No introduction to any board member or economic buyer above Mo.",
-          "rec": "AE to ask Mo about meeting with a board member.",
+          "rec": "Adriana to ask Mo about meeting with a board member.",
           "due": "2026-03-13"
         },
         {
           "p": 36,
           "cat": "Champion",
           "issue": "Mo accepted help building the business case (indirectly brings Shopify into board discussion). Hasn't offered direct board access.",
-          "rec": "AE to offer a Shopify executive sponsor.",
+          "rec": "Adriana to offer a Shopify executive sponsor.",
           "due": "2026-03-06"
         },
         {
           "p": 37,
           "cat": "Champion",
           "issue": "Mo motivated by need to modernize for long-term survival and his role as Director of Marketing & Digital. Personal stake inferred not confirmed.",
-          "rec": "AE to explore what success looks like personally for Mo.",
+          "rec": "Adriana to explore what success looks like personally for Mo.",
           "due": "2026-03-06"
         },
         {
           "p": 38,
           "cat": "Competition",
           "issue": "No competitors mentioned in any call. Salesforce competitor field is null.",
-          "rec": "AE to ask Mo if evaluating other platforms.",
+          "rec": "Adriana to ask Mo if evaluating other platforms.",
           "due": "2026-03-06"
         },
         {
           "p": 39,
           "cat": "Competition",
           "issue": "Mo's comments suggest doing nothing is possible but not desirable. Not directly asked.",
-          "rec": "AE to ask about fallback plan.",
+          "rec": "Adriana to ask about fallback plan.",
           "due": "2026-03-06"
         },
         {
           "p": 40,
           "cat": "Competition",
           "issue": "Staying with current platform (with/without new agency) is implicit alternative. No internal build mentioned.",
-          "rec": "AE to discuss current platform alternatives.",
+          "rec": "Adriana to discuss current platform alternatives.",
           "due": "2026-03-06"
         },
         {
           "p": 41,
           "cat": "Competition",
           "issue": "Don't know if alternatives are being evaluated at all. Appears Shopify-focused but not confirmed.",
-          "rec": "AE to ask if board expects multiple vendor options.",
+          "rec": "Adriana to ask if board expects multiple vendor options.",
           "due": "2026-03-06"
         },
         {
           "p": 42,
           "cat": "Competition",
           "issue": "Win factors: speed, templates, lower TCO, integrated platform. Lose factors: board deprioritization, payment lock-in, Diamante absence, new leadership priorities.",
-          "rec": "AE/SE to build risk mitigation plan.",
+          "rec": "Adriana & Sarah to build risk mitigation plan.",
           "due": "2026-03-06"
         }
       ],
@@ -17522,18 +17522,18 @@ const DEAL_DATA = {
           "title": "Director, Marketing & Digital",
           "role": "Champion / Project Lead",
           "email": "mo.goodfellow@cphart.co.uk",
-          "engagement": "none",
-          "callsAttended": 0,
-          "callsInvited": 0
+          "engagement": "high",
+          "callsAttended": 3,
+          "callsInvited": 3
         },
         {
           "name": "Diamante Campolmi",
           "title": "Senior E-Commerce Manager",
           "role": "Technical Evaluator",
           "email": "diamante.campolmi@cphart.co.uk",
-          "engagement": "none",
-          "callsAttended": 0,
-          "callsInvited": 0
+          "engagement": "high",
+          "callsAttended": 2,
+          "callsInvited": 2
         }
       ],
       "shopifyTeam": [
@@ -17660,16 +17660,16 @@ const DEAL_DATA = {
           },
           {
             "date": "",
-            "done": false,
+            "done": true,
             "milestone": "Identify champion & project team",
             "ownerMerchant": "Mo Goodfellow",
             "ownerShopify": "Adriana",
-            "notes": ""
+            "notes": "Champion: Mo Goodfellow"
           },
           {
             "date": "",
             "done": false,
-            "milestone": "AE to propose specific success metrics framework in next call.",
+            "milestone": "Adriana to propose specific success metrics framework in next call.",
             "ownerMerchant": "",
             "ownerShopify": "Adriana",
             "notes": "Metrics · Due 2026-03-06",
@@ -17678,7 +17678,7 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": false,
-            "milestone": "AE/SE to build a 'cost of doing nothing' analysis.",
+            "milestone": "Adriana & Sarah to build a 'cost of doing nothing' analysis.",
             "ownerMerchant": "",
             "ownerShopify": "Adriana",
             "notes": "Metrics · Due 2026-03-06",
@@ -17703,7 +17703,7 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": false,
-            "milestone": "AE to ask Mo for introduction to the budget approver.",
+            "milestone": "Adriana to ask Mo for introduction to the budget approver.",
             "ownerMerchant": "",
             "ownerShopify": "Adriana",
             "notes": "Due 2026-03-13",
@@ -17720,7 +17720,7 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": false,
-            "milestone": "AE to establish a mutual action plan with Mo post-board meeting.",
+            "milestone": "Adriana to establish a mutual action plan with Mo post-board meeting.",
             "ownerMerchant": "",
             "ownerShopify": "Adriana",
             "notes": "Due 2026-03-13",
@@ -17753,7 +17753,7 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": false,
-            "milestone": "AE to ask Mo about procurement steps after budget approval.",
+            "milestone": "Adriana to ask Mo about procurement steps after budget approval.",
             "ownerMerchant": "",
             "ownerShopify": "Adriana",
             "notes": "Paper Process · Due 2026-03-13",
@@ -17762,7 +17762,7 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": false,
-            "milestone": "AE to send NDA in Word format and ask about contract review.",
+            "milestone": "Adriana to send NDA in Word format and ask about contract review.",
             "ownerMerchant": "",
             "ownerShopify": "Adriana",
             "notes": "Paper Process · Due 2026-02-28",
