@@ -15279,43 +15279,113 @@ const DEAL_DATA = {
       ]
     },
     {
-      "id": "opp_1771606030199",
-      "name": "Unknown",
-      "accountName": "Unknown",
-      "accountId": "",
+      "id": "006OG00000Dh2YXYAZ",
+      "name": "Bugaboo - Artipoppe & Joolz MBA",
+      "accountName": "Bugaboo International B.V",
+      "accountId": "001OG000010jdb5YAA",
       "owner": "Ben Rees",
-      "ownerEmail": "",
+      "ownerEmail": "ben.rees@shopify.com",
       "stage": "Demonstrate",
-      "closeDate": "",
-      "forecastCategory": "",
+      "closeDate": "2026-04-23",
+      "forecastCategory": "Commit",
       "probability": 60,
-      "merchantIntent": "",
+      "merchantIntent": "Uncommitted",
       "type": "New Business",
-      "created": "2026-02-20",
+      "created": "2025-04-15",
       "lastAnalysisDate": "2026-02-20",
       "revenue": {
-        "mcv": 0,
-        "totalRev3yr": 0,
-        "d2cGmv": null,
+        "mcv": 82800,
+        "totalRev3yr": 841500,
+        "d2cGmv": 51000000,
         "b2bGmv": null,
         "retailGmv": null,
         "paymentsGpv": 0,
         "paymentsAttached": false,
         "ipp": 734400
       },
-      "projectedBilledRevenue": null,
+      "projectedBilledRevenue": 276727.83,
       "products": [
-        "D2C - Standard"
+        "D2C - Standard (PLAN-PLUS-STD)"
       ],
       "competitor": "Salesforce Commerce Cloud",
-      "compellingEvent": "",
-      "nextStep": "",
+      "compellingEvent": "SFCC contract end date (unspecified) combined with organizational restructuring: Joolz acquisition, new co-CEO Richard appointed, Artipoppe NetSuite migration. Multi-brand consolidation creating decision window.",
+      "nextStep": "12/02 BR Call with Jordan. 2 agencies still to pitch (Askphil and Wolfpack). Running through Payments and Biz case with him on 23rd",
+      "stakeholders": [
+        {
+          "name": "Jurryt van Arend",
+          "title": "Head of Ecom",
+          "role": "Decision Maker",
+          "email": "jurryt@joolz.com"
+        },
+        {
+          "name": "Jordan Sykes",
+          "title": "Head of Digital CX & Engineering",
+          "role": "Champion",
+          "email": "jordan.sykes@bugaboo.com"
+        },
+        {
+          "name": "Cai Jimmy",
+          "title": "IT Director APAC / Global Director of IT",
+          "role": "Economic Buyer",
+          "email": "cai.jimmy@bugaboo.com"
+        }
+      ],
+      "shopifyTeam": [
+        {
+          "name": "Beatrice Porcescu",
+          "role": "Solutions Engineer",
+          "email": "beatrice.porcescu@shopify.com"
+        }
+      ],
+      "calls": [
+        {
+          "title": "Ben & Jordan Sync",
+          "date": "2026-01-07",
+          "duration": 30,
+          "platform": "Google Meet",
+          "hasTranscript": true,
+          "shopifyAttendees": [
+            "Ben Rees"
+          ],
+          "merchantAttendees": [
+            "Jordan Sykes"
+          ]
+        },
+        {
+          "title": "Shopify X Bugaboo",
+          "date": "2025-11-06",
+          "duration": 50,
+          "platform": "Google Meet",
+          "hasTranscript": false,
+          "shopifyAttendees": [
+            "Ben Rees"
+          ],
+          "merchantAttendees": [
+            "Jordan Sykes",
+            "Jimmy Cai",
+            "Jurryt van Arend"
+          ]
+        },
+        {
+          "title": "Ben and Jordan - catch up",
+          "date": "2025-09-16",
+          "duration": 30,
+          "platform": "Google Meet",
+          "hasTranscript": false,
+          "shopifyAttendees": [
+            "Ben Rees"
+          ],
+          "merchantAttendees": [
+            "Jordan Sykes"
+          ]
+        }
+      ],
       "narrative": {
-        "oppSummary": "",
-        "whyChange": "",
-        "whyShopify": "",
-        "whyNow": "",
-        "supportNeeded": ""
+        "oppSummary": "Bugaboo International B.V. is evaluating Shopify Plus for a multi-brand D2C migration starting with Artipoppe, with the intent to subsequently migrate Joolz and potentially Bugaboo itself. The deal is valued at $82,800 (Plus Standard) with $51M D2C GMV and a 3-year revenue impact of $841,500. The group is currently on Salesforce Commerce Cloud and is undergoing significant organizational restructuring — including acquisitions (Joolz), leadership changes, and a new co-CEO (Richard) — while simultaneously selecting a migration agency and negotiating an MSA structure with Shopify.",
+        "whyChange": "Bugaboo Group is consolidating multiple brands (Bugaboo, Artipoppe, Joolz) under a single umbrella following acquisitions, and needs a unified, scalable commerce platform to support this multi-brand strategy. The current Joolz agency (Wolfpack) is being terminated, indicating dissatisfaction with existing vendor relationships. Artipoppe is migrating to NetSuite on the ERP side, suggesting broader digital transformation. There is an implicit Salesforce Commerce Cloud contract end date driving the evaluation, with Jordan explicitly stating 'when this Salesforce contract ends' there's no reason they wouldn't migrate. Organizational changes (new co-CEO Richard, new Artipoppe GM) create a decision window where leadership wants to future-proof the tech stack.",
+        "whyShopify": "The entire agency evaluation (Code, Flatline, AskPhill, Wolfpack) is centered around Shopify implementation, indicating Shopify Plus has already been selected as the target platform — the decision is about which agency will implement it, not whether to use Shopify. Jordan's champion behavior is evident: he is actively managing the agency selection process and coordinating with Ben Rees on contract structure. Ben has proactively proposed an MSA structure that allows multi-brand onboarding under a single legal framework. External consultant Metis also recommended Shopify in their report.",
+        "whyNow": "The SFCC contract has a defined end date creating a natural decision point. Organizational restructuring — new co-CEO Richard in place, new Artipoppe GM hired, Joolz acquisition integration underway — means leadership is actively making infrastructure decisions now. Jordan indicated a realistic Q2 start with agency pitches expected to conclude by end of January. Ben suggested negotiating the Shopify contract within Q1 could be advantageous even if the project starts in Q2.",
+        "supportNeeded": "1) MSA/Legal framework preparation — Jordan agreed to MSA approach; Shopify legal needs to begin drafting. 2) Agency selection support — continued guidance on agency capabilities for the NetSuite integration. 3) NetSuite integration expertise — flagged as 'the most challenging bit' due to low internal IT capacity. 4) Engagement with Richard (co-CEO) — he can sign off the deal but Shopify hasn't engaged directly with him yet. 5) NRF in-person engagement — Jordan attending; opportunity to deepen relationship. 6) Q1 contract negotiation timing — late Jan/early Feb target for commercial terms discussion."
       },
       "meddpicc": {
         "metrics": {
@@ -15323,29 +15393,29 @@ const DEAL_DATA = {
           "questions": [
             {
               "q": "Do we know the business reasons as to why they are migrating?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Consolidating brands and moving away from SFCC, but specific business reasons (cost savings, performance issues, revenue targets) are not quantified.",
+              "solution": "Ask Jordan/Richard to articulate the business case — what ROI are they expecting?",
+              "action": "Schedule discovery call focused on business metrics and expected outcomes",
+              "due": "2026-02-27",
               "highlight": false
             },
             {
               "q": "Do we have specific quantifiable goals aligned with the project?",
               "answer": "No",
               "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
-              "highlight": false
+              "notes": "No specific quantifiable goals discussed. D2C GMV of $51M in Salesforce but not validated.",
+              "solution": "Work with Jordan to define success metrics for Artipoppe migration.",
+              "action": "Prepare business case framework with benchmark metrics",
+              "due": "2026-03-06",
+              "highlight": true
             },
             {
               "q": "Do they need to make a platform change to achieve this goal?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Jordan explicitly stated 'when this Salesforce contract ends... there's no reason we wouldn't migrate.' Agency evaluation is 100% Shopify-focused.",
               "solution": "",
               "action": "",
               "due": "",
@@ -15353,42 +15423,42 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we understand the impact if this goal isn't achieved?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Implied staying on SFCC is undesirable and incumbent agency being terminated, but explicit business impact not articulated.",
+              "solution": "Ask what happens if they stay on SFCC — contract cost, opportunity cost, consolidation delays.",
+              "action": "Include cost of inaction analysis in next business case discussion",
+              "due": "2026-03-06",
               "highlight": false
             },
             {
               "q": "Is there a compelling event in place driving action?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
-              "highlight": false
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "SFCC contract end date referenced but not specified. Organizational restructuring creates implicit urgency. Compelling Event field in Salesforce is null.",
+              "solution": "Pin down SFCC contract end date and board-mandated timeline.",
+              "action": "Ask Jordan for exact SFCC renewal/end date",
+              "due": "2026-02-27",
+              "highlight": true
             },
             {
               "q": "Have I validated the metrics with the customer?",
               "answer": "No",
               "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
-              "highlight": false
+              "notes": "Metrics not formally validated — conversation focused on agency selection and contract structure.",
+              "solution": "Shift next call to include business metrics validation with Jordan and ideally Richard.",
+              "action": "Prepare metrics validation discussion for next sync",
+              "due": "2026-03-06",
+              "highlight": true
             },
             {
               "q": "Are the metrics compelling enough to justify change?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Multi-brand consolidation story and SFCC departure are directionally compelling but lack quantified urgency.",
+              "solution": "Quantify cost of running multiple platforms vs. Shopify MSA.",
+              "action": "Build TCO comparison",
+              "due": "2026-03-13",
               "highlight": false
             }
           ]
@@ -15398,63 +15468,63 @@ const DEAL_DATA = {
           "questions": [
             {
               "q": "Have I identified the true economic buyer?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Cai Jimmy (IT Director) listed as EB. Richard (co-CEO) also referenced as someone who can sign off.",
+              "solution": "Clarify whether Jimmy or Richard is the true final signatory.",
+              "action": "Ask Jordan to confirm approval chain",
+              "due": "2026-02-27",
               "highlight": false
             },
             {
               "q": "Do we know who's signing the contract?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Jimmy listed as EB but Richard described as decision-maker. Unclear who literally signs.",
+              "solution": "Validate during MSA discussion.",
+              "action": "Confirm signatory authority during MSA legal review",
+              "due": "2026-03-06",
               "highlight": false
             },
             {
               "q": "Do we have access to this individual?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
-              "highlight": false
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Jimmy Cai attended Nov 2025 group call. Richard has not appeared on any Shopify calls. Access to Jimmy exists; Richard is through Jordan.",
+              "solution": "Request introduction to Richard.",
+              "action": "Propose introductory call with Richard",
+              "due": "2026-03-06",
+              "highlight": true
             },
             {
               "q": "Can we get access?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Jordan indicated willingness and Jimmy already participated. Access is achievable.",
               "solution": "",
-              "action": "",
-              "due": "",
+              "action": "Formalize request for Richard introduction",
+              "due": "2026-03-06",
               "highlight": false
             },
             {
               "q": "Do we know what the economic buyer cares about most?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Richard described as 'extremely impulsive' wanting multi-brand consolidation. Jimmy's priorities unknown.",
+              "solution": "Prepare tailored messaging for Richard.",
+              "action": "Create executive briefing doc for Richard",
+              "due": "2026-03-13",
               "highlight": false
             },
             {
               "q": "Do you know how they make decisions and allocate budget?",
               "answer": "No",
               "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
-              "highlight": false
+              "notes": "No discussion of budget allocation, approval process, or budget authority.",
+              "solution": "Understand budget process.",
+              "action": "Ask Jordan about budget allocation and approval thresholds",
+              "due": "2026-03-06",
+              "highlight": true
             }
           ]
         },
@@ -15463,72 +15533,72 @@ const DEAL_DATA = {
           "questions": [
             {
               "q": "Do we know how they will be making the decision?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Agency selection process is clear. Broader organizational approval not fully mapped.",
+              "solution": "Map full decision process.",
+              "action": "Ask Jordan to walk through decision chain",
+              "due": "2026-02-27",
+              "highlight": true
+            },
+            {
+              "q": "Do we know all the decision makers?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Jordan, Richard, Jimmy, Jurryt identified. Unknown if procurement or finance involved.",
+              "solution": "Confirm full buying committee.",
+              "action": "Ask Jordan about procurement/finance involvement",
+              "due": "2026-02-27",
+              "highlight": false
+            },
+            {
+              "q": "Is there a timeline for the decision?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Agency pitches end of January, Q2 project start, close date April 23, 2026.",
+              "solution": "",
+              "action": "Confirm timeline in next sync",
+              "due": "2026-02-27",
+              "highlight": false
+            },
+            {
+              "q": "What is driving the timeline?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "SFCC contract end and restructuring drive timeline but no hard deadline confirmed.",
+              "solution": "Pin down SFCC end date.",
+              "action": "Ask for SFCC contract details",
+              "due": "2026-02-27",
+              "highlight": false
+            },
+            {
+              "q": "Do we understand the current solution?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Currently on SFCC with Wolfpack for Joolz. Both being replaced.",
               "solution": "",
               "action": "",
               "due": "",
               "highlight": false
             },
             {
-              "q": "Do we know who's involved / buying committee?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "q": "Has the do-nothing scenario been explored?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Jordan implied staying on SFCC not viable but explicit consequences not explored.",
+              "solution": "Articulate do-nothing scenario.",
+              "action": "Include cost-of-inaction in business case",
+              "due": "2026-03-06",
               "highlight": false
             },
             {
-              "q": "Do we know when they want to make a decision by?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
-              "highlight": false
-            },
-            {
-              "q": "Do we know what is driving this timeline?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
-              "highlight": false
-            },
-            {
-              "q": "Do we know if they have tried to solve this problem before?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
-              "highlight": false
-            },
-            {
-              "q": "Do we know what will happen if they do nothing?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
-              "highlight": false
-            },
-            {
-              "q": "Have you validated this process with the buyer?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "q": "Has the decision process been validated with multiple stakeholders?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Only validated informally with Jordan. Not with Richard or Jimmy.",
+              "solution": "Validate with Richard/Jimmy.",
+              "action": "Confirm during Richard intro call",
+              "due": "2026-03-13",
               "highlight": false
             }
           ]
@@ -15537,73 +15607,73 @@ const DEAL_DATA = {
           "label": "Decision Criteria",
           "questions": [
             {
-              "q": "Do we know what criteria the customer is using to evaluate vendors?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "q": "Are the decision criteria clearly defined?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Agency evaluation criteria partially visible. Platform-level criteria not explicitly discussed.",
+              "solution": "Confirm Shopify definitively selected.",
+              "action": "Ask if any remaining platform evaluation criteria exist",
+              "due": "2026-02-27",
               "highlight": false
             },
             {
-              "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
+              "q": "Have all potential solutions been explored?",
               "answer": "No",
               "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "notes": "Only D2C discussed. B2B, Retail, POS, omnichannel not explored. Payments GPV is $0.",
+              "solution": "Explore B2B, wholesale, retail needs.",
+              "action": "Schedule discovery around full commerce needs",
+              "due": "2026-03-13",
+              "highlight": true
+            },
+            {
+              "q": "Are there technical or integration requirements?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Jordan explicitly called out NetSuite integration as 'the most challenging bit.'",
+              "solution": "Provide NetSuite integration options.",
+              "action": "Connect Jordan with integration resources",
+              "due": "2026-03-06",
               "highlight": false
             },
             {
-              "q": "Have we surfaced technical complications (integrations)?",
+              "q": "Is there an opportunity to expand scope?",
               "answer": "No",
               "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "notes": "Payments GPV $0, Payments Attached false. Not discussed in any calls.",
+              "solution": "Introduce Shopify Payments.",
+              "action": "Include Payments overview in next commercial discussion",
+              "due": "2026-03-06",
+              "highlight": true
+            },
+            {
+              "q": "Is there a mutual action plan?",
+              "answer": "No",
+              "score": 0,
+              "notes": "No formal MAP. Process managed informally through Jordan-Ben syncs.",
+              "solution": "Create formal MAP with milestones.",
+              "action": "Draft mutual action plan and share with Jordan",
+              "due": "2026-02-27",
+              "highlight": true
+            },
+            {
+              "q": "Have we shaped the decision criteria in our favor?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Ben informally guided agency selection and proposed MSA. No formal criteria-shaping.",
+              "solution": "Deliberately shape criteria around multi-brand strengths.",
+              "action": "Prepare 'why Shopify for multi-brand' positioning doc",
+              "due": "2026-03-06",
               "highlight": false
             },
             {
-              "q": "Do we know how payments play into their decision?",
+              "q": "Do we know who defined the criteria?",
               "answer": "No",
               "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
-              "highlight": false
-            },
-            {
-              "q": "Do we have a mutual action plan in place?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
-              "highlight": false
-            },
-            {
-              "q": "Did we help shape those criteria in our favour?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
-              "highlight": false
-            },
-            {
-              "q": "Do we know who defined the decision criteria?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "notes": "Unknown who defined evaluation criteria.",
+              "solution": "Understand if Jordan alone or with input from Richard/Jimmy.",
+              "action": "Ask Jordan who set criteria",
+              "due": "2026-02-27",
               "highlight": false
             }
           ]
@@ -15612,73 +15682,73 @@ const DEAL_DATA = {
           "label": "Paper Process",
           "questions": [
             {
-              "q": "Do we know what their procurement process is?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "q": "Is the procurement/legal process understood?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Ben proposed MSA, Jordan agreed. Jordan's legal team 'want to look at this once.' Full process not mapped.",
+              "solution": "Map procurement and legal review process.",
+              "action": "Ask Jordan about legal review timeline",
+              "due": "2026-02-27",
               "highlight": false
             },
             {
-              "q": "Are there likely to be redlines?",
+              "q": "Are there known redlines or deal-breakers?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Jordan wants break clause for Artipoppe engagement. Likely redline.",
+              "solution": "Prepare for break clause negotiation.",
+              "action": "Discuss break clause feasibility with Shopify legal",
+              "due": "2026-03-06",
+              "highlight": true
+            },
+            {
+              "q": "How long will legal review take?",
               "answer": "No",
               "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "notes": "No information on legal review timeline.",
+              "solution": "Ask Jordan directly.",
+              "action": "Include in next sync",
+              "due": "2026-02-27",
               "highlight": false
             },
             {
-              "q": "If redlines, how long does review take?",
+              "q": "Is the total procurement timeline mapped?",
               "answer": "No",
               "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "notes": "Unknown.",
+              "solution": "Map end-to-end paper process.",
+              "action": "Ask Jordan for typical contract turnaround",
+              "due": "2026-02-27",
               "highlight": false
             },
             {
-              "q": "Do we know how long it will take?",
+              "q": "Have contract details been shared?",
               "answer": "No",
               "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "notes": "MSA not started yet.",
+              "solution": "Initiate MSA drafting.",
+              "action": "Begin MSA draft",
+              "due": "2026-03-06",
+              "highlight": true
+            },
+            {
+              "q": "Has the contract been sent for review?",
+              "answer": "No",
+              "score": 0,
+              "notes": "Contract not sent.",
+              "solution": "Prepare MSA draft.",
+              "action": "Draft MSA and initial sales order",
+              "due": "2026-03-13",
               "highlight": false
             },
             {
-              "q": "Do we have contract details?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
-              "highlight": false
-            },
-            {
-              "q": "Have we sent the contract?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
-              "highlight": false
-            },
-            {
-              "q": "Do we know target date for signature?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "q": "Is there a target signature date?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Ben suggested Q1. Jordan indicated end of Jan. Close date April 23, 2026.",
+              "solution": "Align on specific target.",
+              "action": "Propose target signature date",
+              "due": "2026-02-27",
               "highlight": false
             }
           ]
@@ -15687,82 +15757,82 @@ const DEAL_DATA = {
           "label": "Identify Pain",
           "questions": [
             {
-              "q": "Do we know their current issues and why they are reviewing their tech stack?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
+              "q": "Has the core pain been identified?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Multiple pains: SFCC fatigue, Wolfpack termination, multi-brand consolidation need, low IT capacity, NetSuite complexity.",
+              "solution": "",
+              "action": "Continue documenting pains",
+              "due": "",
+              "highlight": false
+            },
+            {
+              "q": "Have prior attempts been explored?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Running on SFCC with Wolfpack — both being replaced, indicating prior approaches failed.",
               "solution": "",
               "action": "",
               "due": "",
               "highlight": false
             },
             {
-              "q": "Have they tried to resolve this issue in the past?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "q": "Is the business impact quantified?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Low IT capacity and restructuring mentioned. Specific quantified impact not discussed.",
+              "solution": "Quantify business impact.",
+              "action": "Ask Jordan about costs of tech stack fragmentation",
+              "due": "2026-03-06",
               "highlight": false
             },
             {
-              "q": "Do we know how pains are affecting business operations?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "q": "Is the pain felt across multiple teams?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Digital CX, IT, and brand teams affected. Per-team impact not detailed.",
+              "solution": "Map affected teams.",
+              "action": "Include team-level pain mapping in discovery",
+              "due": "2026-03-13",
               "highlight": false
             },
             {
-              "q": "Do we know what teams are affected and to what extent?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "q": "Is there urgency to resolve?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Mixed signals: urgency from restructuring but 'slow because of change in company.'",
+              "solution": "Reinforce urgency.",
+              "action": "Frame migration as enabler of group consolidation",
+              "due": "2026-03-06",
               "highlight": false
             },
             {
-              "q": "Do we know how urgent it is to solve this pain?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "q": "Are alternatives being considered?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "SFCC is incumbent. Jordan strongly suggests departure. No other platforms mentioned.",
+              "solution": "De-position SFCC stay option.",
+              "action": "Prepare TCO comparison vs SFCC",
+              "due": "2026-03-13",
               "highlight": false
             },
             {
-              "q": "Can they solve this pain using another option?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "q": "Is there a triggering event?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Org restructuring creates a now moment but not tied to hard deadline.",
+              "solution": "Connect to specific milestone.",
+              "action": "Ask what business milestone is the hard deadline",
+              "due": "2026-02-27",
               "highlight": false
             },
             {
-              "q": "Do we know why this problem is important to solve now?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
+              "q": "Can Shopify uniquely address the pain?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Multi-brand MSA, strong agency ecosystem, phased migration flexibility uniquely position Shopify.",
               "solution": "",
-              "action": "",
-              "due": "",
-              "highlight": false
-            },
-            {
-              "q": "Is our solution uniquely positioned to solve this pain?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
+              "action": "Reinforce MSA advantage in all discussions",
               "due": "",
               "highlight": false
             }
@@ -15772,72 +15842,72 @@ const DEAL_DATA = {
           "label": "Champion",
           "questions": [
             {
-              "q": "Have you identified a true champion (influence + motivation)?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
+              "q": "Has a champion been identified?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Jordan Sykes (Head of Digital CX & Engineering). Actively managing agency evaluation, sharing insights, advocating for Shopify.",
               "solution": "",
-              "action": "",
+              "action": "Continue investing in Jordan",
               "due": "",
               "highlight": false
             },
             {
-              "q": "Does your champion have political capital and credibility?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
+              "q": "Does the champion have organizational influence?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Jordan has influence but is 'still waiting to hear whether I even have an official position with Artipoppe.'",
+              "solution": "Monitor role stability.",
+              "action": "Check Jordan's Artipoppe role status",
+              "due": "2026-02-27",
+              "highlight": true
+            },
+            {
+              "q": "Is the champion sharing insider information?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Shares extensive internal insights: restructuring, leadership changes, agency dynamics, Richard's personality, IT constraints.",
               "solution": "",
-              "action": "",
+              "action": "Continue building trust",
               "due": "",
               "highlight": false
             },
             {
-              "q": "Have they given insights you wouldn't get otherwise?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
+              "q": "Does the champion have access to the EB?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Directly connected to Richard (co-CEO) and works alongside Jimmy Cai. Stated 'it's good that we've got Richard in place.'",
               "solution": "",
-              "action": "",
+              "action": "Leverage access for introductions",
               "due": "",
               "highlight": false
             },
             {
-              "q": "Are they connected with the key decision makers?",
+              "q": "Has the champion introduced you to the EB?",
               "answer": "No",
               "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "notes": "Jordan has not introduced Shopify to Richard. Richard not on any calls.",
+              "solution": "Request formal introduction.",
+              "action": "Ask Jordan to set up call with Richard",
+              "due": "2026-03-06",
+              "highlight": true
+            },
+            {
+              "q": "Is the champion actively selling internally?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Willing to advocate but hasn't brought Shopify into buying group meeting.",
+              "solution": "Ask about formal buying committee.",
+              "action": "Propose executive briefing with Richard and Jimmy",
+              "due": "2026-03-13",
               "highlight": false
             },
             {
-              "q": "Have you been introduced to the decision maker?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
+              "q": "Does the champion have a personal reason to support?",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Believes in platform, terminating incumbent, wants unified tech stack, professional stake in transformation success.",
               "solution": "",
-              "action": "",
-              "due": "",
-              "highlight": false
-            },
-            {
-              "q": "Are they willing to bring you into the board/buying group?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
-              "highlight": false
-            },
-            {
-              "q": "Why are they such a champion for you?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
+              "action": "Support Jordan's vision",
               "due": "",
               "highlight": false
             }
@@ -15847,335 +15917,60 @@ const DEAL_DATA = {
           "label": "Competition",
           "questions": [
             {
-              "q": "Do we know who else the customer is evaluating?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "q": "Is the competitive landscape understood?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "SFCC is incumbent being replaced, not active competitor. No other platforms mentioned.",
+              "solution": "Confirm SFCC departure is firm.",
+              "action": "Ask Jordan if SFCC renewal is realistic",
+              "due": "2026-02-27",
               "highlight": false
             },
             {
-              "q": "Have we asked if doing nothing is an option?",
+              "q": "Has the do-nothing option been addressed?",
               "answer": "No",
               "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "notes": "Jordan implies unattractive but not formally ruled out.",
+              "solution": "Explicitly ask.",
+              "action": "Include in next conversation",
+              "due": "2026-02-27",
               "highlight": false
             },
             {
-              "q": "Are there internal alternatives to our solution?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "q": "Is there an internal champion for a competitor?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Wolfpack being terminated. No visible SFCC advocate. Could stay on SFCC with different agency.",
+              "solution": "Check for SFCC advocates.",
+              "action": "Ask Jordan if anyone prefers SFCC",
+              "due": "2026-02-27",
               "highlight": false
             },
             {
-              "q": "Do we know why alternatives are being evaluated?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "q": "Are competitor strengths/weaknesses documented?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "SFCC departure implied but reasons not explicitly detailed.",
+              "solution": "Document SFCC shortcomings.",
+              "action": "Ask Jordan for top 3 reasons for leaving SFCC",
+              "due": "2026-03-06",
               "highlight": false
             },
             {
-              "q": "Do we know why we would win or lose?",
-              "answer": "No",
-              "score": 0,
-              "notes": "",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "q": "Is there a clear win strategy?",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Strongly positioned. Risks: Jordan's role uncertainty, Richard's impulsive style, NetSuite integration.",
+              "solution": "Mitigate risks.",
+              "action": "Address all three risk factors",
+              "due": "2026-03-13",
               "highlight": false
             }
           ]
         }
-      },
-      "scores": {
-        "Metrics": {
-          "score": 0,
-          "max": 7,
-          "pct": 0
-        },
-        "Economic Buyer": {
-          "score": 0,
-          "max": 6,
-          "pct": 0
-        },
-        "Decision Process": {
-          "score": 0,
-          "max": 7,
-          "pct": 0
-        },
-        "Decision Criteria": {
-          "score": 0,
-          "max": 7,
-          "pct": 0
-        },
-        "Paper Process": {
-          "score": 0,
-          "max": 7,
-          "pct": 0
-        },
-        "Identify Pain": {
-          "score": 0,
-          "max": 8,
-          "pct": 0
-        },
-        "Champion": {
-          "score": 0,
-          "max": 7,
-          "pct": 0
-        },
-        "Competition": {
-          "score": 0,
-          "max": 5,
-          "pct": 0
-        },
-        "_total": {
-          "score": 0,
-          "max": 54,
-          "pct": 0,
-          "status": "at-risk"
-        }
-      },
-      "nextSteps": [],
-      "stakeholders": [
-        {
-          "name": "Jurryt van Arend",
-          "title": "Head of Ecom",
-          "role": "Decision Maker",
-          "email": "jurryt@joolz.com",
-          "engagement": "none",
-          "callsAttended": 0,
-          "callsInvited": 0
-        },
-        {
-          "name": "Jordan Sykes",
-          "title": "Head of Digital CX & Engineering",
-          "role": "Champion",
-          "email": "jordan.sykes@bugaboo.com",
-          "engagement": "none",
-          "callsAttended": 0,
-          "callsInvited": 0
-        },
-        {
-          "name": "Cai Jimmy",
-          "title": "IT Director for APAC / Global Director of IT",
-          "role": "Economic Buyer",
-          "email": "cai.jimmy@bugaboo.com",
-          "engagement": "none",
-          "callsAttended": 0,
-          "callsInvited": 0
-        }
-      ],
-      "shopifyTeam": [],
-      "calls": [
-        {
-          "date": "2026-01-07",
-          "title": "Ben & Jordan Sync",
-          "duration": "",
-          "shopifyAttendees": [],
-          "merchantAttendees": [],
-          "summary": ""
-        },
-        {
-          "date": "2025-11-06",
-          "title": "Shopify X Bugaboo",
-          "duration": "",
-          "shopifyAttendees": [],
-          "merchantAttendees": [],
-          "summary": ""
-        },
-        {
-          "date": "2025-09-16",
-          "title": "Ben and Jordan - catch up",
-          "duration": "",
-          "shopifyAttendees": [],
-          "merchantAttendees": [],
-          "summary": ""
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-02-20",
-          "totalScore": 0,
-          "totalMax": 54,
-          "status": "at-risk",
-          "sectionScores": {
-            "Metrics": 0,
-            "Economic Buyer": 0,
-            "Decision Process": 0,
-            "Decision Criteria": 0,
-            "Paper Process": 0,
-            "Identify Pain": 0,
-            "Champion": 0,
-            "Competition": 0
-          },
-          "changes": []
-        }
-      ],
-      "mutualActionPlan": {
-        "merchantName": "Unknown",
-        "kickoffDate": "",
-        "goLiveDate": "",
-        "contactName": "Ben Rees",
-        "contactEmail": "",
-        "champion": "Jurryt van Arend",
-        "items": [
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Initial discovery & intro calls",
-            "ownerMerchant": "Jurryt van Arend",
-            "ownerShopify": "Ben",
-            "notes": "3 calls completed"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Identify champion & project team",
-            "ownerMerchant": "Jurryt van Arend",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Validate business case with economic buyer",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm economic buyer & signing authority",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Map complete decision & approval process",
-            "ownerMerchant": "Jurryt van Arend",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Submit merchant intent",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Finalize commercial proposal",
-            "ownerMerchant": "Jurryt van Arend",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm procurement process & legal steps",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Contract sent for signature",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Contract signed ✍️",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": "Target: TBD"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Introduction to Shopify Launch team",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live 🚀",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          }
-        ]
-      },
-      "coachingSnapshots": [
-        {
-          "date": "2026-02-20",
-          "sections": {
-            "Metrics": {
-              "score": 0,
-              "max": 7,
-              "pct": 0
-            },
-            "Economic Buyer": {
-              "score": 0,
-              "max": 6,
-              "pct": 0
-            },
-            "Decision Process": {
-              "score": 0,
-              "max": 7,
-              "pct": 0
-            },
-            "Decision Criteria": {
-              "score": 0,
-              "max": 7,
-              "pct": 0
-            },
-            "Paper Process": {
-              "score": 0,
-              "max": 7,
-              "pct": 0
-            },
-            "Identify Pain": {
-              "score": 0,
-              "max": 8,
-              "pct": 0
-            },
-            "Champion": {
-              "score": 0,
-              "max": 7,
-              "pct": 0
-            },
-            "Competition": {
-              "score": 0,
-              "max": 5,
-              "pct": 0
-            }
-          }
-        }
-      ]
+      }
     }
   ]
 };
+
+if (typeof module !== 'undefined' && module.exports) { module.exports = DEAL_DATA; }
