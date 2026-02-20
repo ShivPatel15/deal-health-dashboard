@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-19T18:03:57.677Z",
+  "generatedAt": "2026-02-20T08:32:05.353Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -1102,213 +1102,23 @@ const DEAL_DATA = {
             "SF trigger: proposedLaunch \"2026-04-01\" → \"2026-05-29\" (pushed back ~2 months)"
           ],
           "type": "lite-refresh"
-        }
-      ],
-      "mutualActionPlan": {
-        "merchantName": "Moda in Pelle",
-        "kickoffDate": "",
-        "goLiveDate": "2026-02-27",
-        "contactName": "Adriana Colacicco",
-        "contactEmail": "adriana.colacicco@shopify.com",
-        "champion": "David Duke",
-        "items": [
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Initial discovery & intro calls",
-            "ownerMerchant": "David Duke",
-            "ownerShopify": "Adriana",
-            "notes": "3 calls completed"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Identify champion & project team",
-            "ownerMerchant": "David Duke",
-            "ownerShopify": "Adriana",
-            "notes": "Champion: David Duke"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Ask Matt/Anil to share the board-facing business case metrics so Shopify can align value narrative.",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Metrics · Due 02/21/2026",
-            "due": "02/21/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Work with Matt to articulate what continued platform stagnation means in revenue/brand terms for board justification.",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Metrics · Due 02/21/2026",
-            "due": "02/21/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Validate business case with economic buyer",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm economic buyer & signing authority",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Leverage David Duke's relationship to schedule a 15-min call with Anil to discuss final commercial terms.",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Due 02/21/2026",
-            "due": "02/21/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Map complete decision & approval process",
-            "ownerMerchant": "David Duke",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Ben Homer to schedule technical discovery with Matt and Jason Holt to map all integrations, POS requirements, SEO plan.",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Due 02/24/2026",
-            "due": "02/24/2026"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Submit merchant intent",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Intent: Committed - At Risk"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Finalize commercial proposal",
-            "ownerMerchant": "David Duke",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm procurement process & legal steps",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Ask Matt/David: 'Once Anil agrees to terms, what's the process? Does legal or finance need to review? Is a PO required?'",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Paper Process · Due 02/20/2026",
-            "due": "02/20/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Share standard contract terms with Matt/Anil in advance and ask: 'Are there any terms your legal or finance team will wa",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Paper Process · Due 02/21/2026",
-            "due": "02/21/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Contract sent for signature",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Contract signed ✍️",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": "Target: 2026-02-27"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Introduction to Shopify Launch team",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live 🚀",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          }
-        ]
-      },
-      "coachingSnapshots": [
+        },
         {
-          "date": "2026-02-19",
-          "sections": {
-            "Metrics": {
-              "score": 5.5,
-              "max": 7,
-              "pct": 79
-            },
-            "Economic Buyer": {
-              "score": 2.5,
-              "max": 6,
-              "pct": 42
-            },
-            "Decision Process": {
-              "score": 3.5,
-              "max": 7,
-              "pct": 50
-            },
-            "Decision Criteria": {
-              "score": 3.5,
-              "max": 7,
-              "pct": 50
-            },
-            "Paper Process": {
-              "score": 3,
-              "max": 7,
-              "pct": 43
-            },
-            "Identify Pain": {
-              "score": 6.5,
-              "max": 8,
-              "pct": 81
-            },
-            "Champion": {
-              "score": 3.5,
-              "max": 7,
-              "pct": 50
-            },
-            "Competition": {
-              "score": 3.5,
-              "max": 5,
-              "pct": 70
-            }
-          }
+          "date": "2026-02-20",
+          "totalScore": 31.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 3.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 3,
+            "Identify Pain": 6.5,
+            "Champion": 3.5,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ]
     },
@@ -2298,204 +2108,23 @@ const DEAL_DATA = {
             "SF trigger: paymentsGpv $0 → $8,125,000 (new payments data)"
           ],
           "type": "lite-refresh"
-        }
-      ],
-      "mutualActionPlan": {
-        "merchantName": "Whittard of Chelsea",
-        "kickoffDate": "",
-        "goLiveDate": "2026-02-27",
-        "contactName": "Adriana Colacicco",
-        "contactEmail": "adriana.colacicco@shopify.com",
-        "champion": "Alice Bennett",
-        "items": [
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Initial discovery & intro calls",
-            "ownerMerchant": "Alice Bennett",
-            "ownerShopify": "Adriana",
-            "notes": "3 calls completed"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Identify champion & project team",
-            "ownerMerchant": "Alice Bennett",
-            "ownerShopify": "Adriana",
-            "notes": "Champion: Alice Bennett"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Adriana to model revenue impact of delayed migration with Fiona",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Metrics · Due 02/24/2026",
-            "due": "02/24/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Adriana to confirm Nathan has validated growth targets internally",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Metrics · Due 02/21/2026",
-            "due": "02/21/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Validate business case with economic buyer",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Confirm economic buyer & signing authority",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Map complete decision & approval process",
-            "ownerMerchant": "Alice Bennett",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Adriana to draft MAP: contract sign → agency kick-off → build → QA → launch",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Due 02/24/2026",
-            "due": "02/24/2026"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Submit merchant intent",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Intent: Committed - At Risk"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Finalize commercial proposal",
-            "ownerMerchant": "Alice Bennett",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm procurement process & legal steps",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Ask Fiona about internal process to get contract signed — legal or procurement review?",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Paper Process · Due 02/21/2026",
-            "due": "02/21/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Ask Fiona if legal typically redlines vendor contracts",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Paper Process · Due 02/21/2026",
-            "due": "02/21/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Contract sent for signature",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Contract signed ✍️",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": "Target: 2026-02-27"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Introduction to Shopify Launch team",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live 🚀",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          }
-        ]
-      },
-      "coachingSnapshots": [
+        },
         {
-          "date": "2026-02-19",
-          "sections": {
-            "Metrics": {
-              "score": 6,
-              "max": 7,
-              "pct": 86
-            },
-            "Economic Buyer": {
-              "score": 4,
-              "max": 6,
-              "pct": 67
-            },
-            "Decision Process": {
-              "score": 5,
-              "max": 7,
-              "pct": 71
-            },
-            "Decision Criteria": {
-              "score": 4,
-              "max": 7,
-              "pct": 57
-            },
-            "Paper Process": {
-              "score": 1,
-              "max": 7,
-              "pct": 14
-            },
-            "Identify Pain": {
-              "score": 7,
-              "max": 8,
-              "pct": 88
-            },
-            "Champion": {
-              "score": 6.5,
-              "max": 7,
-              "pct": 93
-            },
-            "Competition": {
-              "score": 3,
-              "max": 5,
-              "pct": 60
-            }
-          }
+          "date": "2026-02-20",
+          "totalScore": 36.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 6,
+            "Economic Buyer": 4,
+            "Decision Process": 5,
+            "Decision Criteria": 4,
+            "Paper Process": 1,
+            "Identify Pain": 7,
+            "Champion": 6.5,
+            "Competition": 3
+          },
+          "changes": []
         }
       ]
     },
@@ -3592,213 +3221,23 @@ const DEAL_DATA = {
             "SF trigger: competitor \"Salesforce Commerce Cloud (incumbent)\" → \"None\" (cleared)"
           ],
           "type": "lite-refresh"
-        }
-      ],
-      "mutualActionPlan": {
-        "merchantName": "The Dune Group",
-        "kickoffDate": "",
-        "goLiveDate": "2026-02-27",
-        "contactName": "Adriana Colacicco",
-        "contactEmail": "adriana.colacicco@shopify.com",
-        "champion": "Martin Wareing",
-        "items": [
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Initial discovery & intro calls",
-            "ownerMerchant": "Martin Wareing",
-            "ownerShopify": "Adriana",
-            "notes": "9 calls completed"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Identify champion & project team",
-            "ownerMerchant": "Martin Wareing",
-            "ownerShopify": "Adriana",
-            "notes": "Champion: Martin Wareing"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Ask Martin for 2-3 specific measurable outcomes.",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Metrics · Due 02/28/2026",
-            "due": "02/28/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Use TCO document to model cost of SFCC renewal vs Shopify.",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Metrics · Due 02/25/2026",
-            "due": "02/25/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Validate business case with economic buyer",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm economic buyer & signing authority",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Ask Martin to facilitate brief intro call with Nigel before signature.",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Due 02/25/2026",
-            "due": "02/25/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Map complete decision & approval process",
-            "ownerMerchant": "Martin Wareing",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Map end-to-end decision process with Martin.",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Due 02/22/2026",
-            "due": "02/22/2026"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Submit merchant intent",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Intent: Committed - At Risk"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Finalize commercial proposal",
-            "ownerMerchant": "Martin Wareing",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm procurement process & legal steps",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Ask: 'Does contract go through legal/procurement before Nigel signs?'",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Paper Process · Due 02/22/2026",
-            "due": "02/22/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm monthly invoicing internally. Prepare responses.",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Paper Process · Due 02/22/2026",
-            "due": "02/22/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Contract sent for signature",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Contract signed ✍️",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": "Target: 2026-02-27"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Introduction to Shopify Launch team",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live 🚀",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          }
-        ]
-      },
-      "coachingSnapshots": [
+        },
         {
-          "date": "2026-02-19",
-          "sections": {
-            "Metrics": {
-              "score": 5.5,
-              "max": 7,
-              "pct": 79
-            },
-            "Economic Buyer": {
-              "score": 2.5,
-              "max": 6,
-              "pct": 42
-            },
-            "Decision Process": {
-              "score": 4.5,
-              "max": 7,
-              "pct": 64
-            },
-            "Decision Criteria": {
-              "score": 5,
-              "max": 7,
-              "pct": 71
-            },
-            "Paper Process": {
-              "score": 4,
-              "max": 7,
-              "pct": 57
-            },
-            "Identify Pain": {
-              "score": 6,
-              "max": 8,
-              "pct": 75
-            },
-            "Champion": {
-              "score": 5.5,
-              "max": 7,
-              "pct": 79
-            },
-            "Competition": {
-              "score": 4,
-              "max": 5,
-              "pct": 80
-            }
-          }
+          "date": "2026-02-20",
+          "totalScore": 37,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 4.5,
+            "Decision Criteria": 5,
+            "Paper Process": 4,
+            "Identify Pain": 6,
+            "Champion": 5.5,
+            "Competition": 4
+          },
+          "changes": []
         }
       ]
     },
@@ -4959,204 +4398,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
-        }
-      ],
-      "mutualActionPlan": {
-        "merchantName": "Mulberry Company (Sales) Limited",
-        "kickoffDate": "",
-        "goLiveDate": "2026-02-28",
-        "contactName": "Ben Rees",
-        "contactEmail": "ben.rees@shopify.com",
-        "champion": "Carmen De Teran",
-        "items": [
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Initial discovery & intro calls",
-            "ownerMerchant": "Carmen De Teran",
-            "ownerShopify": "Ben",
-            "notes": "8 calls completed"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Identify champion & project team",
-            "ownerMerchant": "Carmen De Teran",
-            "ownerShopify": "Ben",
-            "notes": "Champion: Carmen De Teran"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Ben Rees to work with Carmen De Teran or Simon Oates to document specific measurable goals tied to the migration.",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Metrics · Due 02/25/2026",
-            "due": "02/25/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Explore with Simon Oates/Carmen De Teran what happens if they miss Jan 2027 deadline — extended support costs, security ",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Metrics · Due 02/25/2026",
-            "due": "02/25/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Validate business case with economic buyer",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm economic buyer & signing authority",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Map complete decision & approval process",
-            "ownerMerchant": "Carmen De Teran",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Ben Rees to propose written MAP to Simon Oates covering remaining eval steps, legal resolution, SI selection, target dec",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Due 02/21/2026",
-            "due": "02/21/2026"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Submit merchant intent",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Intent: Committed - At Risk"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Finalize commercial proposal",
-            "ownerMerchant": "Carmen De Teran",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm procurement process & legal steps",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Ben Rees to ask Simon Oates for complete procurement workflow: legal → approvals → signature → PO timeline.",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Paper Process · Due 02/21/2026",
-            "due": "02/21/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Ben Rees to propose target date for final contract terms to Simon Oates and Mulberry legal.",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Paper Process · Due 02/21/2026",
-            "due": "02/21/2026"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Contract sent for signature",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Contract signed ✍️",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": "Target: 2026-02-28"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Introduction to Shopify Launch team",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live 🚀",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          }
-        ]
-      },
-      "coachingSnapshots": [
+        },
         {
-          "date": "2026-02-19",
-          "sections": {
-            "Metrics": {
-              "score": 5.5,
-              "max": 7,
-              "pct": 79
-            },
-            "Economic Buyer": {
-              "score": 3,
-              "max": 6,
-              "pct": 50
-            },
-            "Decision Process": {
-              "score": 5,
-              "max": 7,
-              "pct": 71
-            },
-            "Decision Criteria": {
-              "score": 3.5,
-              "max": 7,
-              "pct": 50
-            },
-            "Paper Process": {
-              "score": 4.5,
-              "max": 7,
-              "pct": 64
-            },
-            "Identify Pain": {
-              "score": 6.5,
-              "max": 8,
-              "pct": 81
-            },
-            "Champion": {
-              "score": 4,
-              "max": 7,
-              "pct": 57
-            },
-            "Competition": {
-              "score": 2.5,
-              "max": 5,
-              "pct": 50
-            }
-          }
+          "date": "2026-02-20",
+          "totalScore": 34.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 4.5,
+            "Identify Pain": 6.5,
+            "Champion": 4,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ]
     },
@@ -5174,14 +4432,14 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2025-10-16",
-      "lastAnalysisDate": "2026-02-19",
+      "lastAnalysisDate": "2026-02-20",
       "revenue": {
         "mcv": 285200,
         "totalRev3yr": 1244375,
         "d2cGmv": 29000000,
         "b2bGmv": null,
         "retailGmv": null,
-        "paymentsGpv": 0,
+        "paymentsGpv": 18850000,
         "paymentsAttached": true,
         "ipp": 0
       },
@@ -5217,12 +4475,12 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we have specific quantifiable goals aligned with the project?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "Budget parameters clear (400K VML, 500K+ triggers Japan), Nov 2026 go-live, $29M D2C GMV. No specific quantifiable success goals articulated.",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Budget parameters clear (400K VML, 500K+ triggers Japan), Nov 2026 go-live, $29M D2C GMV. No specific quantifiable success goals articulated.\n[Lite Refresh 2026-02-20] Payments GPV is a specific quantifiable metric aligned with the project.\n[Resolved 2026-02-20] Maissa to ask Danny what success looks like 12 months post-launch in quantifiable terms.",
               "solution": "Work with Danny to define measurable success metrics (conversion improvement, time-to-market, cost reduction).",
-              "action": "Maissa to ask Danny what success looks like 12 months post-launch in quantifiable terms.",
-              "due": "02/25/2026",
+              "action": "",
+              "due": "",
               "highlight": false
             },
             {
@@ -5785,9 +5043,9 @@ const DEAL_DATA = {
       },
       "scores": {
         "Metrics": {
-          "score": 5,
+          "score": 5.5,
           "max": 7,
-          "pct": 71
+          "pct": 79
         },
         "Economic Buyer": {
           "score": 4,
@@ -5825,9 +5083,9 @@ const DEAL_DATA = {
           "pct": 60
         },
         "_total": {
-          "score": 42.5,
+          "score": 43,
           "max": 54,
-          "pct": 79,
+          "pct": 80,
           "status": "good-health"
         }
       },
@@ -5835,131 +5093,124 @@ const DEAL_DATA = {
         {
           "p": 1,
           "cat": "Metrics",
-          "issue": "Budget parameters clear (400K VML, 500K+ triggers Japan), Nov 2026 go-live, $29M D2C GMV. No specific quantifiable success goals articulated.",
-          "rec": "Maissa to ask Danny what success looks like 12 months post-launch in quantifiable terms.",
-          "due": "02/25/2026"
-        },
-        {
-          "p": 2,
-          "cat": "Metrics",
           "issue": "Danny stated worst case is staying on SAP another year. Finance team anxiety about settlement is evident. No explicit revenue-at-risk quantified.",
           "rec": "Stephen to prepare a cost-of-inaction analysis framework for Danny.",
           "due": "02/25/2026"
         },
         {
-          "p": 3,
+          "p": 2,
           "cat": "Metrics",
           "issue": "Danny validated timeline and budget constraints. Quantifiable business outcome metrics beyond cost/timeline not explicitly validated with broader stakeholders.",
           "rec": "Maissa to confirm what success metrics Danny used in board presentation.",
           "due": "02/25/2026"
         },
         {
-          "p": 4,
+          "p": 3,
           "cat": "Metrics",
           "issue": "SAP expiry and budget are compelling, but Danny explicitly said he could delay a year if commercials don't work. Deal hinges on commercial terms.",
           "rec": "Maissa to present cost-of-delay analysis alongside final commercial offer.",
           "due": "02/25/2026"
         },
         {
-          "p": 5,
+          "p": 4,
           "cat": "Economic Buyer",
           "issue": "Shopify has had NO direct contact with Vaughn (CFO) or Jeff (CEO). All interactions through Danny. Early dialer attempts to Vaughan all 'No Answer.'",
           "rec": "Maissa to ask Danny if a brief call with Vaughn/Jeff is possible to address executive-level concerns before Feb 27 decision.",
           "due": "02/22/2026"
         },
         {
-          "p": 6,
+          "p": 5,
           "cat": "Economic Buyer",
           "issue": "Danny willing to serve as conduit but no direct introduction offered. Danny controls the relationship as sole point of contact.",
           "rec": "Maissa to propose brief 'executive alignment' call with Vaughn or Jeff.",
           "due": "02/22/2026"
         },
         {
-          "p": 7,
+          "p": 6,
           "cat": "Economic Buyer",
           "issue": "Board approval obtained. Budget parameters known. But don't know what Vaughn/Jeff specifically care about beyond budget.",
           "rec": "Maissa to ask: 'When Vaughn reviews the contract, what will he focus on? What would make him hesitate?'",
           "due": "02/22/2026"
         },
         {
-          "p": 8,
+          "p": 7,
           "cat": "Decision Criteria",
           "issue": "D2C multi-brand thoroughly discussed. B2B leaning toward New Order. POS/Retail not discussed. Omnichannel not explored.",
           "rec": "Stephen to briefly explore whether Shopify POS is relevant for Bravissimo future state.",
           "due": "03/01/2026"
         },
         {
-          "p": 9,
+          "p": 8,
           "cat": "Decision Criteria",
           "issue": "Informal mutual timeline exists (Feb 27 decision, March 13 expiry, Nov 2026 go-live) but no formal documented mutual action plan with milestones.",
           "rec": "Maissa to draft and share mutual action plan ahead of Feb 27 decision.",
           "due": "02/22/2026"
         },
         {
-          "p": 10,
+          "p": 9,
           "cat": "Decision Criteria",
           "issue": "Shopify influenced criteria through workshops and references, but payments fee comparison was set by Danny against Comptop — a criterion where Shopify is at a disadvantage.",
           "rec": "Stephen/Maissa to present TCO comparison beyond per-transaction fees.",
           "due": "02/25/2026"
         },
         {
-          "p": 11,
+          "p": 10,
           "cat": "Paper Process",
           "issue": "Danny indicated he'd do initial legal review himself. No mention of external legal or lengthy procurement. No specific timeline given.",
           "rec": "Maissa to ask Danny if legal review is finalized and if any outstanding contract concerns.",
           "due": "02/22/2026"
         },
         {
-          "p": 12,
+          "p": 11,
           "cat": "Paper Process",
           "issue": "Overall timeline known (Feb 27 decision, March 13 expiry). But exact time from decision to executed signature unclear.",
           "rec": "Maissa to confirm: once decision is made Feb 27, how quickly can Vaughn/Jeff sign?",
           "due": "02/22/2026"
         },
         {
-          "p": 13,
+          "p": 12,
           "cat": "Identify Pain",
           "issue": "Danny mentioned retendering with Scale if Shopify commercials don't work. Staying on SAP viable. New Order for B2B. Alternatives exist but all involve significant effort/delay.",
           "rec": "Maissa to remind Danny of retendering risk and Alkai precedent when presenting final offer.",
           "due": "02/25/2026"
         },
         {
-          "p": 14,
+          "p": 13,
           "cat": "Identify Pain",
           "issue": "Shopify well-positioned for multi-brand D2C. But NOT uniquely positioned on payments (Comptop cheaper) and NOT chosen for B2B (New Order). Unique positioning is platform consolidation + Wacoal US precedent.",
           "rec": "Stephen to prepare brief on unique Shopify advantages competitors cannot match.",
           "due": "02/25/2026"
         },
         {
-          "p": 15,
+          "p": 14,
           "cat": "Champion",
           "issue": "Despite Danny's strong champion behavior, Shopify has NOT been introduced to economic buyer (Vaughn/Jeff). All interactions flow through Danny only.",
           "rec": "Maissa to ask Danny to facilitate brief intro with Vaughn/Jeff to confirm executive alignment.",
           "due": "02/22/2026"
         },
         {
-          "p": 16,
+          "p": 15,
           "cat": "Champion",
           "issue": "Danny has been the board interface. Hasn't explicitly offered to bring Shopify into a board/buying group meeting. Manages relationship as gatekeeper.",
           "rec": "Pursue executive alignment touchpoint.",
           "due": "02/22/2026"
         },
         {
-          "p": 17,
+          "p": 16,
           "cat": "Competition",
           "issue": "Danny mentioned 'Scale' as potential retender competitor. Comptop is current payment provider (12p/transaction). SAP is incumbent. New Order for B2B. No formal competitive evaluation active.",
           "rec": "Maissa to ask Danny if Scale or any other vendor has been in contact or if hypothetical.",
           "due": "02/25/2026"
         },
         {
-          "p": 18,
+          "p": 17,
           "cat": "Competition",
           "issue": "Scale mentioned only as hypothetical fallback in retender scenario. Not an active evaluation. Commercial-driven, not capability-driven.",
           "rec": "Final offer should be positioned as best-and-final with clear value articulation.",
           "due": "02/25/2026"
         },
         {
-          "p": 19,
+          "p": 18,
           "cat": "Competition",
           "issue": "Shopify would win on capability and ecosystem. Could lose on payment fees. Commercial terms are the deciding factor. Retendering costs time and risks another Alkai-type failure.",
           "rec": "Maissa/Stephen to prepare 'why Shopify wins' talking points for Danny's internal presentation.",
@@ -6200,213 +5451,28 @@ const DEAL_DATA = {
             "Champion: improved (3.5 → 5.5)",
             "Competition: improved (1 → 3)"
           ]
-        }
-      ],
-      "mutualActionPlan": {
-        "merchantName": "Wacoal Europe",
-        "kickoffDate": "",
-        "goLiveDate": "2026-02-28",
-        "contactName": "Maissa Fatte",
-        "contactEmail": "maissa.fatte@shopify.com",
-        "champion": "Danny Dawes",
-        "items": [
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Initial discovery & intro calls",
-            "ownerMerchant": "Danny Dawes",
-            "ownerShopify": "Maissa",
-            "notes": "10 calls completed"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Identify champion & project team",
-            "ownerMerchant": "Danny Dawes",
-            "ownerShopify": "Maissa",
-            "notes": "Champion: Danny Dawes"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Maissa to ask Danny what success looks like 12 months post-launch in quantifiable terms.",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": "Metrics · Due 02/25/2026",
-            "due": "02/25/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Stephen to prepare a cost-of-inaction analysis framework for Danny.",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": "Metrics · Due 02/25/2026",
-            "due": "02/25/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Validate business case with economic buyer",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Confirm economic buyer & signing authority",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Maissa to ask Danny if a brief call with Vaughn/Jeff is possible to address executive-level concerns before Feb 27 decis",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": "Due 02/22/2026",
-            "due": "02/22/2026"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Map complete decision & approval process",
-            "ownerMerchant": "Danny Dawes",
-            "ownerShopify": "Maissa",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Maissa to draft and share mutual action plan ahead of Feb 27 decision.",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": "Due 02/22/2026",
-            "due": "02/22/2026"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Submit merchant intent",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": "Intent: Committed - At Risk"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Finalize commercial proposal",
-            "ownerMerchant": "Danny Dawes",
-            "ownerShopify": "Maissa",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Confirm procurement process & legal steps",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Maissa to ask Danny if legal review is finalized and if any outstanding contract concerns.",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": "Paper Process · Due 02/22/2026",
-            "due": "02/22/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Maissa to confirm: once decision is made Feb 27, how quickly can Vaughn/Jeff sign?",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": "Paper Process · Due 02/22/2026",
-            "due": "02/22/2026"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Contract sent for signature",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Contract signed ✍️",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": "Target: 2026-02-28"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Introduction to Shopify Launch team",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live 🚀",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          }
-        ]
-      },
-      "coachingSnapshots": [
+        },
         {
-          "date": "2026-02-19",
-          "sections": {
-            "Metrics": {
-              "score": 5,
-              "max": 7,
-              "pct": 71
-            },
-            "Economic Buyer": {
-              "score": 4,
-              "max": 6,
-              "pct": 67
-            },
-            "Decision Process": {
-              "score": 7,
-              "max": 7,
-              "pct": 100
-            },
-            "Decision Criteria": {
-              "score": 5,
-              "max": 7,
-              "pct": 71
-            },
-            "Paper Process": {
-              "score": 6,
-              "max": 7,
-              "pct": 86
-            },
-            "Identify Pain": {
-              "score": 7,
-              "max": 8,
-              "pct": 88
-            },
-            "Champion": {
-              "score": 5.5,
-              "max": 7,
-              "pct": 79
-            },
-            "Competition": {
-              "score": 3,
-              "max": 5,
-              "pct": 60
-            }
-          }
+          "date": "2026-02-20",
+          "totalScore": 43,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 4,
+            "Decision Process": 7,
+            "Decision Criteria": 5,
+            "Paper Process": 6,
+            "Identify Pain": 7,
+            "Champion": 5.5,
+            "Competition": 3
+          },
+          "changes": [
+            "Score improved by 0.5 points (42.5 → 43) — lite refresh",
+            "Metrics Q1: Partial → Yes (+0.5) — Payments GPV is a specific quantifiable metric aligned with the project.",
+            "SF trigger: revenue.paymentsGpv \"0\" → \"18850000\""
+          ],
+          "type": "lite-refresh"
         }
       ]
     },
@@ -7434,213 +6500,23 @@ const DEAL_DATA = {
             "Competition": 3.5
           },
           "changes": []
-        }
-      ],
-      "mutualActionPlan": {
-        "merchantName": "Sofa.Com Ltd",
-        "kickoffDate": "",
-        "goLiveDate": "2026-03-26",
-        "contactName": "Maissa Fatte",
-        "contactEmail": "maissa.fatte@shopify.com",
-        "champion": "Blayne Griffin-Reader",
-        "items": [
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Initial discovery & intro calls",
-            "ownerMerchant": "Blayne Griffin-Reader",
-            "ownerShopify": "Maissa",
-            "notes": "3 calls completed"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Identify champion & project team",
-            "ownerMerchant": "Blayne Griffin-Reader",
-            "ownerShopify": "Maissa",
-            "notes": "Champion: Blayne Griffin-Reader"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Ben to prepare Hybris limitations vs Shopify comparison",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": "Metrics · Due 03/03/2026",
-            "due": "03/03/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Maissa to ask Tom about impact of not migrating",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": "Metrics · Due 03/03/2026",
-            "due": "03/03/2026"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Validate business case with economic buyer",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm economic buyer & signing authority",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm authorized signatory in next call",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": "Due 03/03/2026",
-            "due": "03/03/2026"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Map complete decision & approval process",
-            "ownerMerchant": "Blayne Griffin-Reader",
-            "ownerShopify": "Maissa",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Maissa to draft mutual action plan",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": "Due 03/05/2026",
-            "due": "03/05/2026"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Submit merchant intent",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": "Intent: Uncommitted"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Finalize commercial proposal",
-            "ownerMerchant": "Blayne Griffin-Reader",
-            "ownerShopify": "Maissa",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm procurement process & legal steps",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Ask about vendor onboarding, PO requirements",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": "Paper Process · Due 03/03/2026",
-            "due": "03/03/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm contract is accessible for legal review",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": "Paper Process · Due 03/05/2026",
-            "due": "03/05/2026"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Contract sent for signature",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Contract signed ✍️",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": "Target: 2026-03-26"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Introduction to Shopify Launch team",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live 🚀",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          }
-        ]
-      },
-      "coachingSnapshots": [
+        },
         {
-          "date": "2026-02-19",
-          "sections": {
-            "Metrics": {
-              "score": 4.5,
-              "max": 7,
-              "pct": 64
-            },
-            "Economic Buyer": {
-              "score": 2.5,
-              "max": 6,
-              "pct": 42
-            },
-            "Decision Process": {
-              "score": 3.5,
-              "max": 7,
-              "pct": 50
-            },
-            "Decision Criteria": {
-              "score": 3.5,
-              "max": 7,
-              "pct": 50
-            },
-            "Paper Process": {
-              "score": 3,
-              "max": 7,
-              "pct": 43
-            },
-            "Identify Pain": {
-              "score": 4,
-              "max": 8,
-              "pct": 50
-            },
-            "Champion": {
-              "score": 4.5,
-              "max": 7,
-              "pct": 64
-            },
-            "Competition": {
-              "score": 3.5,
-              "max": 5,
-              "pct": 70
-            }
-          }
+          "date": "2026-02-20",
+          "totalScore": 29,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 4.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 3.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 3,
+            "Identify Pain": 4,
+            "Champion": 4.5,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ]
     },
@@ -7658,9 +6534,9 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2024-07-16",
-      "lastAnalysisDate": "2026-02-19",
+      "lastAnalysisDate": "2026-02-20",
       "revenue": {
-        "mcv": 82800,
+        "mcv": 132800,
         "totalRev3yr": 2333229,
         "d2cGmv": 25495422,
         "b2bGmv": null,
@@ -8725,204 +7601,23 @@ const DEAL_DATA = {
             "Competition": 2
           },
           "changes": []
-        }
-      ],
-      "mutualActionPlan": {
-        "merchantName": "ESSENTIEL Antwerp",
-        "kickoffDate": "",
-        "goLiveDate": "2026-03-16",
-        "contactName": "Ben Rees",
-        "contactEmail": "ben.rees@shopify.com",
-        "champion": "Koen Van Den Broek",
-        "items": [
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Initial discovery & intro calls",
-            "ownerMerchant": "Koen Van Den Broek",
-            "ownerShopify": "Ben",
-            "notes": "7 calls completed"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Identify champion & project team",
-            "ownerMerchant": "Koen Van Den Broek",
-            "ownerShopify": "Ben",
-            "notes": "Champion: Koen Van Den Broek"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Ben Rees to propose metrics workshop for CFO review.",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Metrics · Due 03/05/2026",
-            "due": "03/05/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Ben Homer to model cost-of-inaction scenario for CFO.",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Metrics · Due 03/10/2026",
-            "due": "03/10/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Validate business case with economic buyer",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Confirm economic buyer & signing authority",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Map complete decision & approval process",
-            "ownerMerchant": "Koen Van Den Broek",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Propose MAP to Filip after agency sense-checks complete.",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Due 03/10/2026",
-            "due": "03/10/2026"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Submit merchant intent",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Intent: Committed - At Risk"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Finalize commercial proposal",
-            "ownerMerchant": "Koen Van Den Broek",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm procurement process & legal steps",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Ben Rees to raise procurement question.",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Paper Process · Due 03/10/2026",
-            "due": "03/10/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Consult EMEA legal on common Belgian enterprise redlines.",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Paper Process · Due 03/15/2026",
-            "due": "03/15/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Contract sent for signature",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Contract signed ✍️",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": "Target: 2026-03-16"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Introduction to Shopify Launch team",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live 🚀",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          }
-        ]
-      },
-      "coachingSnapshots": [
+        },
         {
-          "date": "2026-02-19",
-          "sections": {
-            "Metrics": {
-              "score": 5.5,
-              "max": 7,
-              "pct": 79
-            },
-            "Economic Buyer": {
-              "score": 4.5,
-              "max": 6,
-              "pct": 75
-            },
-            "Decision Process": {
-              "score": 4.5,
-              "max": 7,
-              "pct": 64
-            },
-            "Decision Criteria": {
-              "score": 3.5,
-              "max": 7,
-              "pct": 50
-            },
-            "Paper Process": {
-              "score": 0.5,
-              "max": 7,
-              "pct": 7
-            },
-            "Identify Pain": {
-              "score": 6,
-              "max": 8,
-              "pct": 75
-            },
-            "Champion": {
-              "score": 4.5,
-              "max": 7,
-              "pct": 64
-            },
-            "Competition": {
-              "score": 2,
-              "max": 5,
-              "pct": 40
-            }
-          }
+          "date": "2026-02-20",
+          "totalScore": 31,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 4.5,
+            "Decision Process": 4.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 6,
+            "Champion": 4.5,
+            "Competition": 2
+          },
+          "changes": []
         }
       ]
     },
@@ -9977,213 +8672,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
-        }
-      ],
-      "mutualActionPlan": {
-        "merchantName": "Mint Velvet",
-        "kickoffDate": "",
-        "goLiveDate": "2026-03-27",
-        "contactName": "Ben Rees",
-        "contactEmail": "ben.rees@shopify.com",
-        "champion": "Eleanor Bassett",
-        "items": [
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Initial discovery & intro calls",
-            "ownerMerchant": "Eleanor Bassett",
-            "ownerShopify": "Ben",
-            "notes": "7 calls completed"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Identify champion & project team",
-            "ownerMerchant": "Eleanor Bassett",
-            "ownerShopify": "Ben",
-            "notes": "Champion: Eleanor Bassett"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Include ROI discussion in commercial call.",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Metrics · Due 02/27/2026",
-            "due": "02/27/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Prepare cost-of-inaction analysis.",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Metrics · Due 03/05/2026",
-            "due": "03/05/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Validate business case with economic buyer",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm economic buyer & signing authority",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Ask on Feb 20 call: 'Who needs to approve this?'",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Due 02/20/2026",
-            "due": "02/20/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Map complete decision & approval process",
-            "ownerMerchant": "Eleanor Bassett",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Ben Rees to map in next call.",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Due 02/27/2026",
-            "due": "02/27/2026"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Submit merchant intent",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Intent: Committed - At Risk"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Finalize commercial proposal",
-            "ownerMerchant": "Eleanor Bassett",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm procurement process & legal steps",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Ask: 'What does your internal procurement look like?'",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Paper Process · Due 02/27/2026",
-            "due": "02/27/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Consult deal desk on typical UK retail POS redlines.",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Paper Process · Due 03/05/2026",
-            "due": "03/05/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Contract sent for signature",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Contract signed ✍️",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": "Target: 2026-03-27"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Introduction to Shopify Launch team",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live 🚀",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          }
-        ]
-      },
-      "coachingSnapshots": [
+        },
         {
-          "date": "2026-02-19",
-          "sections": {
-            "Metrics": {
-              "score": 5,
-              "max": 7,
-              "pct": 71
-            },
-            "Economic Buyer": {
-              "score": 3,
-              "max": 6,
-              "pct": 50
-            },
-            "Decision Process": {
-              "score": 4,
-              "max": 7,
-              "pct": 57
-            },
-            "Decision Criteria": {
-              "score": 4.5,
-              "max": 7,
-              "pct": 64
-            },
-            "Paper Process": {
-              "score": 1,
-              "max": 7,
-              "pct": 14
-            },
-            "Identify Pain": {
-              "score": 6.5,
-              "max": 8,
-              "pct": 81
-            },
-            "Champion": {
-              "score": 5.5,
-              "max": 7,
-              "pct": 79
-            },
-            "Competition": {
-              "score": 2.5,
-              "max": 5,
-              "pct": 50
-            }
-          }
+          "date": "2026-02-20",
+          "totalScore": 32,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 3,
+            "Decision Process": 4,
+            "Decision Criteria": 4.5,
+            "Paper Process": 1,
+            "Identify Pain": 6.5,
+            "Champion": 5.5,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ]
     },
@@ -11331,213 +9836,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
-        }
-      ],
-      "mutualActionPlan": {
-        "merchantName": "OLIVER BONAS LIMITED",
-        "kickoffDate": "",
-        "goLiveDate": "2026-05-30",
-        "contactName": "Adriana Colacicco",
-        "contactEmail": "adriana.colacicco@shopify.com",
-        "champion": "Ben Curtis",
-        "items": [
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Initial discovery & intro calls",
-            "ownerMerchant": "Ben Curtis",
-            "ownerShopify": "Adriana",
-            "notes": "6 calls completed"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Identify champion & project team",
-            "ownerMerchant": "Ben Curtis",
-            "ownerShopify": "Adriana",
-            "notes": "Champion: Ben Curtis"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Adriana to include quantifiable ROI metrics in TCO collaboration session.",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Metrics · Due 03/05/2026",
-            "due": "03/05/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Adriana to share ROI framework / business case template with Ben.",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Metrics · Due 03/05/2026",
-            "due": "03/05/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Validate business case with economic buyer",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm economic buyer & signing authority",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Adriana to ask Ben for intro to budget approver or confirm he is the final sign-off.",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Due 03/05/2026",
-            "due": "03/05/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Map complete decision & approval process",
-            "ownerMerchant": "Ben Curtis",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Adriana to map EB priorities in next call — ask Ben what leadership team cares most about in this decision.",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Due 03/05/2026",
-            "due": "03/05/2026"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Submit merchant intent",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Intent: Committed - At Risk"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Finalize commercial proposal",
-            "ownerMerchant": "Ben Curtis",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm procurement process & legal steps",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Adriana to ask Ben: 'Once we agree on terms, what does your internal procurement and approval process look like?'",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Paper Process · Due 03/10/2026",
-            "due": "03/10/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Adriana to share standard contract terms early to identify potential redlines.",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Paper Process · Due 03/15/2026",
-            "due": "03/15/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Contract sent for signature",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Contract signed ✍️",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": "Target: 2026-05-30"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Introduction to Shopify Launch team",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live 🚀",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
-          }
-        ]
-      },
-      "coachingSnapshots": [
+        },
         {
-          "date": "2026-02-19",
-          "sections": {
-            "Metrics": {
-              "score": 5.5,
-              "max": 7,
-              "pct": 79
-            },
-            "Economic Buyer": {
-              "score": 3,
-              "max": 6,
-              "pct": 50
-            },
-            "Decision Process": {
-              "score": 4,
-              "max": 7,
-              "pct": 57
-            },
-            "Decision Criteria": {
-              "score": 3.5,
-              "max": 7,
-              "pct": 50
-            },
-            "Paper Process": {
-              "score": 0.5,
-              "max": 7,
-              "pct": 7
-            },
-            "Identify Pain": {
-              "score": 5.5,
-              "max": 8,
-              "pct": 69
-            },
-            "Champion": {
-              "score": 4,
-              "max": 7,
-              "pct": 57
-            },
-            "Competition": {
-              "score": 2.5,
-              "max": 5,
-              "pct": 50
-            }
-          }
+          "date": "2026-02-20",
+          "totalScore": 28.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 4,
+            "Decision Criteria": 3.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 5.5,
+            "Champion": 4,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ]
     }
