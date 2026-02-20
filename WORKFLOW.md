@@ -1,6 +1,6 @@
 # Deal Health Dashboard — Workflow & Architecture
 
-## Last Updated: 2026-02-19 (SF field reference verified & added)
+## Last Updated: 2026-02-20
 
 ---
 
@@ -132,6 +132,20 @@ ORDER BY sc.event_start DESC, sentence.sequence_number ASC
 ```
 
 #### Why BigQuery over Salesloft API:
+
+#### Step 2c: Extract transcript speakers → write to file (REQUIRED)
+After processing Step 2b results, extract distinct speakers per call and write to file:
+```
+deal-health-app/data/transcript-speakers.json
+```
+Format: `{ "event_id": ["Speaker Name 1", "Speaker Name 2"], ... }`
+
+This file is **auto-loaded by `ingest-deal.js`** to compute transcript-verified attendance.
+Calendar RSVP ≠ actual attendance — a stakeholder may accept a calendar invite then not join.
+Transcript speaker data is ground truth.
+
+If this file is missing, ingest falls back to RSVP-based attendance (less accurate but not broken).
+Names are still resolved regardless.
 | Factor | BigQuery sales_calls | Salesloft API |
 |--------|---------------------|---------------|
 | Queries needed | 1-2 | 8-15+ |
@@ -168,6 +182,17 @@ If `list_data_platform_docs` or `query_bigquery` returns a 401 auth error:
   - Each question needs: answer, notes, solution, action, due date
 
 ### Step 4: Assemble Payload & Publish ⚡ OPTIMIZED
+
+### Step 3.5: Fix Payload (AUTOMATED in ingest-deal.js)
+`ingest-deal.js` now **auto-runs `lib/fix-payload.js`** during ingest. You do NOT call it manually.
+It does two things:
+1. **Resolves generic role refs → actual names**: "AE to" → "{owner first name} to", "SE to" → "{SE first name} to"
+   - Uses `salesforce.owner` and `shopify_team` SE role from the payload
+2. **Computes transcript-verified call attendance** from `data/transcript-speakers.json` (Step 2c)
+   - `calls_invited` = appeared in call's attendee list (calendar RSVP)
+   - `calls_attended` = spoke in transcript (transcribed calls) OR disposition=Connected (dialer calls)
+   - Engagement: attended ≥ 2 → high, ≥ 1 → medium, 0 → low
+
 1. **Build the opportunity JSON** matching the data schema below
 2. **Write the payload directly** to `deal-health-app/data/incoming-payload.json` using WorkspaceWrite
 3. **Delegate to WorkWithSitePublisher** with ONLY: account name + commit message (NO JSON in the message)
@@ -230,6 +255,7 @@ Runs: build → git fetch/reset → copy → commit → push (skips ingest)
 |------|---------|
 | `/home/swarm/deal-health-app/data/opportunities.json` | **Source of truth** — raw opportunity data with full MEDDPICC |
 | `/home/swarm/deal-health-app/build-data.js` | Build script — reads opportunities.json, computes scores, outputs data.js |
+| `/home/swarm/deal-health-app/lib/fix-payload.js` | **Payload fixer** — auto-run by ingest: resolves AE/SE→names, computes transcript-verified attendance |
 | `/home/swarm/deal-health-app/quick-deploy/data.js` | Build output — generated data.js |
 | `/home/swarm/deal-health-site/index.html` | **Dashboard HTML** — the single-file app |
 | `/home/swarm/deal-health-site/data.js` | Local copy of data.js (keep in sync) |
