@@ -8,70 +8,65 @@ const DEAL_DATA = {
   ],
   "opportunities": [
     {
-      "id": "opp_1771600143460",
-      "name": "Unknown",
-      "accountName": "Unknown",
-      "accountId": "",
+      "id": "006OG00000G28JdYAJ",
+      "name": "Direct Wines Limited - D2C + Payments",
+      "accountName": "Direct Wines Limited",
+      "accountId": "0018V00002a7BPLQA2",
       "owner": "Ben Rees",
-      "ownerEmail": "",
+      "ownerEmail": "ben.rees@shopify.com",
       "stage": "Demonstrate",
-      "closeDate": "",
-      "forecastCategory": "",
+      "closeDate": "2026-03-31",
+      "forecastCategory": "Commit",
       "probability": 60,
-      "merchantIntent": "",
+      "merchantIntent": "Committed - At Risk",
       "type": "New Business",
-      "created": "2026-02-20",
+      "created": "2025-08-06",
       "lastAnalysisDate": "2026-02-20",
       "revenue": {
-        "mcv": 0,
-        "totalRev3yr": 0,
-        "d2cGmv": null,
-        "b2bGmv": null,
-        "retailGmv": null,
-        "paymentsGpv": 0,
-        "paymentsAttached": false,
-        "ipp": 0
+        "amount": 4582000,
+        "total_revenue_3yr": 13756191,
+        "d2c_gmv": 162000000,
+        "b2b_gmv": null,
+        "retail_gmv": 8000000,
+        "payments_gpv": 210600000,
+        "ipp_installments": 0
       },
-      "projectedBilledRevenue": null,
+      "projectedBilledRevenue": 6660618.5,
       "products": [
-        {
-          "name": "CCS for Enterprise Product Suite (PSUITE-CCSE)",
-          "amount": 0
-        },
         {
           "name": "CCS for enterprise - D2C (PLAN-COM-CCS-D2CE)",
           "amount": 4572000
         },
         {
-          "name": "Shopify Payments - D2C Plus, Shopify for ent, CCS (MSERV-FIN-SP-D2C-P)",
-          "amount": 0
-        },
-        {
           "name": "CCS for Enterprise Product Suite (PSUITE-CCSE)",
           "amount": 0
         },
         {
-          "name": "CCS for enterprise - POS Pro (PLAN-COM-CCSE-POSE)",
+          "name": "Shopify Payments - D2C Plus, Ent, CCS",
           "amount": 0
         },
         {
-          "name": "Retail Payments - Plus (MSERV-RET-PLUS)",
+          "name": "CCS for enterprise - POS Pro",
           "amount": 0
         },
         {
-          "name": "Retail Hardware (MSERV-RET-RHW)",
+          "name": "Retail Payments - Plus",
+          "amount": 0
+        },
+        {
+          "name": "Retail Hardware",
           "amount": 10000
         }
       ],
       "competitor": "commercetools",
-      "compellingEvent": "",
-      "nextStep": "",
+      "compellingEvent": "New CEO has challenged Leadership team in UK to become customer obsessed - D2C experience outlined as below required level. ATG support EOL. Now is Discovery with Fuse Fabric",
+      "nextStep": "18/02 BR Discovery with Fuse ending next week. Board / sign off meeting for 24/03. Still awaiting feedback on Plus vs Ent before we can finalise commercials",
       "narrative": {
-        "oppSummary": "",
-        "whyChange": "",
-        "whyShopify": "",
-        "whyNow": "",
-        "supportNeeded": ""
+        "oppSummary": "$4.58M ACV new business ($13.76M 3yr) \u2014 full D2C platform migration plus Shopify Payments across multi-brand wine subscription business (~$162M D2C GMV, $210.6M Payments GPV). Demonstrate stage, 60% probability, close 03/31. Active competition from commercetools. Unresolved Enterprise vs Plus pricing. Payments rate gap concerns. Board sign-off meeting 24/03.",
+        "whyChange": "Aging Oracle ATG approaching EOL. Fragmented Contentful stack causing slow speed to market, ~$8M annual dev costs, inability to manage 12+ brands effectively. New CEO mandated customer obsession, D2C experience below standard. Business must double sales due to supply chain restructuring.",
+        "whyShopify": "50-90% dev cost reduction, tech stack consolidation, faster time-to-market. Key: Shop Pay, Shopify Audiences, checkout extensibility, integrated Recharge subscriptions (wine subscriptions). Strong with Brewdog + Recharge references. Risk: payments rate gap and 0.35% variable platform fee contested by Tim Curtis (Treasurer).",
+        "whyNow": "ATG EOL platform risk. CEO mandate for digital transformation. Fuse Fabric completing discovery week of 2026-02-18. Board sign-off 24/03. Need to double sales. Close date 03/31 extremely tight \u2014 Enterprise vs Plus unresolved, payments commercials contentious.",
+        "supportNeeded": "1) Enterprise vs Plus comparison document (#1 blocker). 2) Competitive payments rate proposal (UK rates gap). 3) Token migration + SRD clarity for UK subscriptions. 4) Brand definition/multi-region pricing. 5) Brewdog exec reference for 24/03 board. 6) Fuse Fabric alignment. 7) Reframe value for CIO (avoid dev cost displacement messaging)."
       },
       "meddpicc": {
         "metrics": {
@@ -653,54 +648,51 @@ const DEAL_DATA = {
               "highlight": false
             }
           ]
-        }
+        },
+        "overallScore": 36,
+        "maxScore": 54,
+        "healthStatus": "At Risk"
       },
       "scores": {
         "Metrics": {
-          "score": 0,
+          "score": 5,
           "max": 7,
-          "pct": 0
+          "pct": 71
         },
         "Economic Buyer": {
-          "score": 0,
+          "score": 4.5,
           "max": 6,
-          "pct": 0
+          "pct": 75
         },
         "Decision Process": {
-          "score": 0,
+          "score": 5.5,
           "max": 7,
-          "pct": 0
+          "pct": 79
         },
         "Decision Criteria": {
-          "score": 0,
+          "score": 4.5,
           "max": 7,
-          "pct": 0
+          "pct": 64
         },
         "Paper Process": {
-          "score": 0,
+          "score": 1.5,
           "max": 7,
-          "pct": 0
+          "pct": 21
         },
         "Identify Pain": {
-          "score": 0,
+          "score": 7,
           "max": 8,
-          "pct": 0
+          "pct": 88
         },
         "Champion": {
-          "score": 0,
+          "score": 5,
           "max": 7,
-          "pct": 0
+          "pct": 71
         },
         "Competition": {
-          "score": 0,
+          "score": 3,
           "max": 5,
-          "pct": 0
-        },
-        "_total": {
-          "score": 0,
-          "max": 54,
-          "pct": 0,
-          "status": "at-risk"
+          "pct": 60
         }
       },
       "nextSteps": [],
@@ -709,204 +701,105 @@ const DEAL_DATA = {
           "name": "Neil Rhodes",
           "title": "COO",
           "role": "Economic Buyer",
-          "email": "neil.rhodes@directwinesinc.com",
-          "engagement": "none",
-          "callsAttended": 0,
-          "callsInvited": 0
-        },
-        {
-          "name": "Matt Knight",
-          "title": "MD",
-          "role": "Influencer",
-          "email": "matt.knight@laithwaiteswine.com",
-          "engagement": "none",
-          "callsAttended": 0,
-          "callsInvited": 0
-        },
-        {
-          "name": "Andy Brooks",
-          "title": "Director of Ecommerce",
-          "role": "Launch Contact",
-          "email": "andy.brooks@directwines.com",
-          "engagement": "none",
-          "callsAttended": 0,
-          "callsInvited": 0
+          "email": "neil.rhodes@directwinesinc.com"
         },
         {
           "name": "Martyn Oakley",
           "title": "Group CIO",
           "role": "Decision Maker",
-          "email": "martyn.oakley@directwines.com",
-          "engagement": "none",
-          "callsAttended": 0,
-          "callsInvited": 0
+          "email": "martyn.oakley@directwines.com"
+        },
+        {
+          "name": "Matt Knight",
+          "title": "MD",
+          "role": "Influencer",
+          "email": "matt.knight@laithwaiteswine.com"
+        },
+        {
+          "name": "Andy Brooks",
+          "title": "Director of Ecommerce",
+          "role": "Launch Contact",
+          "email": "andy.brooks@directwines.com"
+        },
+        {
+          "name": "Tim Curtis",
+          "title": "Global Treasurer",
+          "role": "Payments Decision Maker"
         },
         {
           "name": "Octavia Neuberger",
           "title": "Commercial Finance",
           "role": "Influencer",
-          "email": "octavia.neuberger@directwines.com",
-          "engagement": "none",
-          "callsAttended": 0,
-          "callsInvited": 0
-        },
-        {
-          "name": "Tim Curtis",
-          "title": "Global Treasurer",
-          "role": "Payments Decision Maker (from calls)",
-          "email": "",
-          "engagement": "none",
-          "callsAttended": 0,
-          "callsInvited": 0
+          "email": "octavia.neuberger@directwines.com"
         }
       ],
-      "shopifyTeam": [],
-      "calls": [
+      "shopifyTeam": [
         {
-          "date": "2026-02-13",
-          "title": "Fusefabric <> Direct Wines - Shopify Demo",
-          "duration": "",
-          "shopifyAttendees": [],
-          "merchantAttendees": [],
-          "summary": ""
+          "name": "Ben Rees",
+          "role": "Account Executive (Owner)",
+          "email": "ben.rees@shopify.com"
         },
         {
-          "date": "2026-02-12",
-          "title": "Direct Wines x Shopify - Migration of Tokens",
-          "duration": "",
-          "shopifyAttendees": [],
-          "merchantAttendees": [],
-          "summary": ""
+          "name": "Beatrice Porcescu",
+          "role": "Solutions Engineer",
+          "email": "beatrice.porcescu@shopify.com"
         },
         {
-          "date": "2026-02-12",
-          "title": "Fusefabric <> Direct Wines - Understanding Your Transformation Capabilities",
-          "duration": "",
-          "shopifyAttendees": [],
-          "merchantAttendees": [],
-          "summary": ""
-        },
-        {
-          "date": "2026-01-29",
-          "title": "Direct Wines | Shopify - Shopify Payments",
-          "duration": "",
-          "shopifyAttendees": [],
-          "merchantAttendees": [],
-          "summary": ""
-        },
-        {
-          "date": "2026-01-28",
-          "title": "Direct Wines x Shopify (Platform Fee Sync)",
-          "duration": "",
-          "shopifyAttendees": [],
-          "merchantAttendees": [],
-          "summary": ""
-        },
-        {
-          "date": "2026-01-27",
-          "title": "Fusefabric <> Direct Wines : Understanding Your Business (2 of 3)",
-          "duration": "",
-          "shopifyAttendees": [],
-          "merchantAttendees": [],
-          "summary": ""
-        },
-        {
-          "date": "2026-01-26",
-          "title": "Fusefabric <> Direct Wines - Understanding your business (1 of 3): eCommerce",
-          "duration": "",
-          "shopifyAttendees": [],
-          "merchantAttendees": [],
-          "summary": ""
-        },
-        {
-          "date": "2026-01-19",
-          "title": "Ben, Tim & Octavia - Data",
-          "duration": "",
-          "shopifyAttendees": [],
-          "merchantAttendees": [],
-          "summary": ""
-        },
-        {
-          "date": "2026-01-14",
-          "title": "Fusefabric <> Direct Wines Workshop 1, Kick off & Business Overview",
-          "duration": "",
-          "shopifyAttendees": [],
-          "merchantAttendees": [],
-          "summary": ""
-        },
-        {
-          "date": "2026-01-08",
-          "title": "Direct Wines | Shopify UK",
-          "duration": "",
-          "shopifyAttendees": [],
-          "merchantAttendees": [],
-          "summary": ""
-        },
-        {
-          "date": "2025-12-08",
-          "title": "Direct Wines | Shopify UK: Introduction Call",
-          "duration": "",
-          "shopifyAttendees": [],
-          "merchantAttendees": [],
-          "summary": ""
-        },
-        {
-          "date": "2025-10-08",
-          "title": "Direct Wines x Shopify (Commercials)",
-          "duration": "",
-          "shopifyAttendees": [],
-          "merchantAttendees": [],
-          "summary": ""
-        },
-        {
-          "date": "2025-09-30",
-          "title": "Direct Wines x Shopify (Demo)",
-          "duration": "",
-          "shopifyAttendees": [],
-          "merchantAttendees": [],
-          "summary": ""
-        },
-        {
-          "date": "2025-09-25",
-          "title": "Direct Wines x Shopify (Overview)",
-          "duration": "",
-          "shopifyAttendees": [],
-          "merchantAttendees": [],
-          "summary": ""
-        },
-        {
-          "date": "2025-09-23",
-          "title": "Direct Wines x Shopify (Tech Solutioning)",
-          "duration": "",
-          "shopifyAttendees": [],
-          "merchantAttendees": [],
-          "summary": ""
-        },
-        {
-          "date": "2025-09-16",
-          "title": "Direct Wines x Shopify (Finalize Deck)",
-          "duration": "",
-          "shopifyAttendees": [],
-          "merchantAttendees": [],
-          "summary": ""
-        },
-        {
-          "date": "2025-09-12",
-          "title": "Direct Wines x Shopify x Recharge (Deck Sync)",
-          "duration": "",
-          "shopifyAttendees": [],
-          "merchantAttendees": [],
-          "summary": ""
-        },
-        {
-          "date": "2025-08-13",
-          "title": "Direct Wines x Shopify (Sync)",
-          "duration": "",
-          "shopifyAttendees": [],
-          "merchantAttendees": [],
-          "summary": ""
+          "name": "Marc Katz",
+          "role": "Account Executive / Manager",
+          "email": "marc.katz@shopify.com"
         }
       ],
+      "calls": {
+        "total": 45,
+        "withTranscripts": 12,
+        "withAiSummaries": 10,
+        "dateRange": "2025-01-29 to 2026-02-13",
+        "recentCalls": [
+          {
+            "date": "2026-02-13",
+            "title": "Fusefabric <> Direct Wines - Shopify Demo",
+            "duration": 115,
+            "hasTranscript": false
+          },
+          {
+            "date": "2026-02-12",
+            "title": "Migration of Tokens",
+            "duration": 45,
+            "hasTranscript": true
+          },
+          {
+            "date": "2026-02-12",
+            "title": "Understanding Transformation Capabilities",
+            "duration": 60,
+            "hasTranscript": false
+          },
+          {
+            "date": "2026-01-29",
+            "title": "Shopify Payments",
+            "duration": 45,
+            "hasTranscript": true
+          },
+          {
+            "date": "2026-01-28",
+            "title": "Platform Fee Sync",
+            "duration": 30,
+            "hasTranscript": true
+          },
+          {
+            "date": "2026-01-19",
+            "title": "Ben, Tim & Octavia - Data",
+            "duration": 30,
+            "hasTranscript": true
+          },
+          {
+            "date": "2026-01-08",
+            "title": "Direct Wines | Shopify UK",
+            "duration": 30,
+            "hasTranscript": true
+          }
+        ]
+      },
       "history": [
         {
           "date": "2026-02-20",
