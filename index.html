@@ -49,6 +49,55 @@ table{width:100%;border-collapse:collapse;background:var(--s1);border-radius:10p
 .vh{background:var(--s1);border:1px solid var(--b1);border-radius:10px;padding:14px 16px;margin-bottom:9px;border-left:3px solid var(--bl)}.vh-date{font-size:13px;font-weight:700;margin-bottom:6px;display:flex;align-items:center;gap:8px}.vh-score{font-size:12px;color:var(--t2)}.vh-changes{margin-top:6px}.vh-change{font-size:11px;color:var(--t2);padding:3px 0;display:flex;align-items:center;gap:6px}.vh-delta{font-weight:700;font-size:11px;padding:1px 6px;border-radius:4px}.vh-delta.up{color:var(--g);background:var(--g-bg)}.vh-delta.down{color:var(--r);background:var(--r-bg)}.vh-delta.neutral{color:var(--t3);background:var(--s3)}
 /* Comments */
 .cmt-section{margin-top:18px;border-top:1px solid var(--b1);padding-top:14px}.cmt-section h3{font-size:13px;margin-bottom:10px}.cmt-row{display:flex;gap:8px;margin-bottom:12px}.cmt-inp{flex:1;padding:8px 12px;border-radius:8px;border:1px solid var(--inp-b);background:var(--inp-bg);color:var(--t);font-size:12px;outline:none;font-family:inherit}.cmt-inp:focus{border-color:var(--acc)}.cmt-row button{padding:8px 16px;border-radius:8px;background:var(--acc);color:#fff;border:none;font-size:12px;font-weight:600;cursor:pointer}.cmt{background:var(--s2);border-radius:8px;padding:9px 12px;margin-bottom:6px}.cmt-top{display:flex;justify-content:space-between;margin-bottom:3px}.cmt-author{font-size:11px;font-weight:600}.cmt-time{font-size:9px;color:var(--t3)}.cmt-text{font-size:12px;color:var(--t2);line-height:1.55}.cmt-del{font-size:9px;color:var(--t3);cursor:pointer;margin-left:6px}.cmt-del:hover{color:var(--r)}
+/* Org Chart */
+.org-chart-container{padding:20px 0;overflow-x:auto}
+.org-tree{display:flex;flex-direction:column;align-items:center;gap:0;min-width:fit-content}
+.org-node-wrap{display:flex;flex-direction:column;align-items:center;position:relative}
+.org-node{background:var(--s1);border:1.5px solid var(--b1);border-radius:10px;padding:14px 18px;min-width:180px;max-width:220px;text-align:center;cursor:grab;user-select:none;transition:all .2s;position:relative;z-index:2}
+.org-node:hover{border-color:var(--acc);box-shadow:0 2px 12px rgba(150,191,72,.15)}
+.org-node:active{cursor:grabbing;opacity:.85}
+.org-node.dragging{opacity:.4;border-style:dashed}
+.org-node.drag-over{border-color:var(--acc);background:var(--acc-d);box-shadow:0 0 0 3px rgba(150,191,72,.2)}
+.org-node .on-avatar{width:40px;height:40px;border-radius:50%;margin:0 auto 8px;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px;flex-shrink:0}
+.org-node .on-avatar.merchant{background:var(--s3);color:var(--acc-t)}
+.org-node .on-avatar.shopify{background:rgba(111,168,220,.15);color:var(--bl)}
+.org-node .on-name{font-size:12px;font-weight:700;margin-bottom:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.org-node .on-title{font-size:10px;color:var(--t2);margin-bottom:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.org-node .on-role{font-size:8px;font-weight:700;padding:2px 7px;border-radius:3px;display:inline-block}
+.org-node .on-role.dm{background:var(--r-bg);color:var(--r);border:1px solid var(--r-b)}
+.org-node .on-role.ev{background:var(--y-bg);color:var(--y);border:1px solid var(--y-b)}
+.org-node .on-role.inf{background:var(--g-bg);color:var(--g);border:1px solid var(--g-b)}
+.org-node .on-role.ch{background:rgba(111,168,220,.1);color:var(--bl);border:1px solid rgba(111,168,220,.22)}
+.org-node .on-eng{margin-top:6px;font-size:9px;color:var(--t3)}
+.org-node .on-eng .dot{display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:3px}
+.org-node .on-eng .dot.high{background:var(--g)}.org-node .on-eng .dot.medium{background:var(--y)}.org-node .on-eng .dot.low{background:var(--r)}.org-node .on-eng .dot.none{background:var(--t3)}
+.org-children{display:flex;gap:0;justify-content:center;position:relative}
+.org-children::before{content:'';position:absolute;top:0;left:50%;width:0;height:20px;border-left:1.5px solid var(--b2)}
+.org-child-branch{display:flex;flex-direction:column;align-items:center;position:relative;padding:0 12px}
+.org-child-branch::before{content:'';position:absolute;top:0;width:50%;height:20px;border-top:1.5px solid var(--b2)}
+.org-child-branch:first-child::before{left:50%;border-left:1.5px solid var(--b2);border-top-left-radius:6px}
+.org-child-branch:last-child::before{right:50%;left:auto;border-right:1.5px solid var(--b2);border-top-right-radius:6px}
+.org-child-branch:only-child::before{border-top:none;border-left:1.5px solid var(--b2);left:50%;width:0}
+.org-child-branch .org-connector{width:0;height:20px;border-left:1.5px solid var(--b2)}
+.org-connector-down{width:0;height:20px;border-left:1.5px solid var(--b2)}
+.org-drop-zone{min-height:40px;min-width:120px;border:1.5px dashed var(--b2);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:10px;color:var(--t3);margin:8px 0;padding:8px;transition:all .2s;opacity:0}
+.org-drop-zone.visible{opacity:1}
+.org-drop-zone.drag-over{border-color:var(--acc);background:var(--acc-d);color:var(--acc-t)}
+.org-toolbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:8px}
+.org-toolbar h3{font-size:14px;font-weight:700;display:flex;align-items:center;gap:8px}
+.org-toolbar-actions{display:flex;gap:6px}
+.org-btn{padding:5px 12px;border-radius:6px;font-size:11px;font-weight:600;cursor:pointer;border:1px solid var(--b1);background:var(--s3);color:var(--t2);transition:all .15s}
+.org-btn:hover{border-color:var(--b2);color:var(--t)}
+.org-btn.primary{background:var(--acc);color:#fff;border-color:var(--acc)}
+.org-btn.primary:hover{opacity:.9}
+.org-legend{display:flex;gap:12px;margin-bottom:16px;flex-wrap:wrap}
+.org-legend-item{display:flex;align-items:center;gap:4px;font-size:10px;color:var(--t3)}
+.org-legend-dot{width:8px;height:8px;border-radius:50%}
+.org-unassigned{margin-top:20px;padding:16px;background:var(--s2);border:1px dashed var(--b2);border-radius:10px}
+.org-unassigned h4{font-size:12px;font-weight:600;color:var(--t2);margin-bottom:10px}
+.org-unassigned-list{display:flex;flex-wrap:wrap;gap:8px}
+.org-unassigned .org-node{min-width:160px;max-width:180px;padding:10px 14px}
+.org-side-label{position:absolute;top:8px;right:8px;font-size:8px;padding:1px 5px;border-radius:3px;background:var(--s3);color:var(--t3)}
 /* MAP table */
 .map-tbl{width:100%;border-collapse:collapse;background:var(--s1);border:1px solid var(--b1);border-radius:10px;overflow:hidden;margin-bottom:16px}.map-tbl th{text-align:left;padding:8px 12px;font-size:9px;text-transform:uppercase;letter-spacing:.5px;color:var(--t3);background:var(--s2);border-bottom:1px solid var(--b1);white-space:nowrap}.map-tbl td{padding:8px 12px;font-size:11px;border-bottom:1px solid var(--b1);vertical-align:middle}.map-tbl tr:last-child td{border-bottom:none}.map-tbl tr.map-done td{opacity:.5}.map-tbl tr.map-done td:nth-child(3){text-decoration:line-through}.map-tbl .map-check{accent-color:var(--acc);width:16px;height:16px;cursor:pointer}.map-tbl .map-bold{font-weight:700}.map-hdr{display:flex;align-items:center;justify-content:space-between;padding:14px 16px;background:var(--s2);border:1px solid var(--b1);border-radius:10px 10px 0 0;margin-bottom:0}.map-hdr h3{font-size:14px;font-weight:700;display:flex;align-items:center;gap:8px}.map-progress{display:flex;align-items:center;gap:10px}.map-progress .mp-bar{width:120px;height:6px;background:var(--s3);border-radius:3px;overflow:hidden}.map-progress .mp-fill{height:100%;border-radius:3px;transition:width .5s}.map-info{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:14px 16px;background:var(--s1);border:1px solid var(--b1);border-top:none;margin-bottom:16px}.map-info-item{font-size:12px}.map-info-label{font-size:9px;color:var(--t3);text-transform:uppercase;letter-spacing:.5px;margin-bottom:2px}
 /* Coaching drilldown */
@@ -479,7 +528,9 @@ function showDetail(id){
   // Build tabs
   const tabNames=['Overview'];
   if(hasMeddpicc)tabNames.push('MEDDPICC');
-  tabNames.push('MAP','Next Steps','Stakeholders','Calls','History','Comments');
+  tabNames.push('MAP','Next Steps','Stakeholders');
+  if((opp.stakeholders||[]).length)tabNames.push('Org Chart');
+  tabNames.push('Calls','History','Comments');
 
   el.innerHTML=`<button class="back" onclick="goBack()">← Pipeline</button>
   <div class="dh-top"><div>
@@ -599,6 +650,26 @@ function showDetail(id){
     ${(opp.shopifyTeam||[]).length?`<h3 style="font-size:14px;margin-bottom:10px">Shopify Team</h3><div class="sg">${opp.shopifyTeam.map(s=>`<div class="sc"><div class="av blue">${ini(s.name)}</div><div class="si"><div class="sn">${s.name}</div><div class="st">${s.role||''}</div></div></div>`).join('')}</div>`:''}
   </div>
 
+  <!-- ORG CHART -->
+  ${(opp.stakeholders||[]).length?`<div class="pane" id="p-orgchart">
+    <div class="org-toolbar">
+      <h3>🏢 Organization Chart</h3>
+      <div class="org-toolbar-actions">
+        <button class="org-btn" onclick="resetOrgChart('${opp.id}')">↺ Reset Layout</button>
+      </div>
+    </div>
+    <div class="org-legend">
+      <div class="org-legend-item"><div class="org-legend-dot" style="background:var(--r)"></div> Decision Maker</div>
+      <div class="org-legend-item"><div class="org-legend-dot" style="background:var(--y)"></div> Evaluator</div>
+      <div class="org-legend-item"><div class="org-legend-dot" style="background:var(--g)"></div> Influencer</div>
+      <div class="org-legend-item"><div class="org-legend-dot" style="background:var(--bl)"></div> Champion</div>
+      <div class="org-legend-item"><div class="org-legend-dot" style="background:var(--t3)"></div> Contact</div>
+      <div style="flex:1"></div>
+      <div class="org-legend-item" style="color:var(--t2)">💡 Drag & drop people to rearrange the hierarchy</div>
+    </div>
+    <div class="org-chart-container" id="orgchart-${opp.id}"></div>
+  </div>`:''}
+
   <!-- CALLS -->
   <div class="pane" id="p-calls">
     ${(opp.calls||[]).length?opp.calls.map(c=>`<div class="cc"><div class="cc-top"><div class="cc-title">📞 ${c.title}</div><div class="cc-date">${c.date} · ${c.duration}</div></div><div class="cc-att"><b>Shopify:</b> ${c.shopifyAttendees.join(', ')} | <b>Merchant:</b> ${c.merchantAttendees.join(', ')}</div><div class="cc-sum">${c.summary}</div></div>`).join(''):'<p style="color:var(--t3);font-size:12px">No calls recorded.</p>'}
@@ -669,7 +740,7 @@ function showDetail(id){
     el.querySelectorAll('.pane').forEach(x=>x.classList.remove('on'));
     t.classList.add('on');document.getElementById('p-'+t.dataset.p).classList.add('on');
   }));
-  renderComments();window.scrollTo(0,0);history.replaceState(null,null,'#'+id);
+  renderComments();if((opp.stakeholders||[]).length)renderOrgChart(opp);window.scrollTo(0,0);history.replaceState(null,null,'#'+id);
 }
 
 // ============================================================
@@ -1112,6 +1183,310 @@ function toggleAction2(checkId,el){
 function goHome(){history.replaceState(null,null,' ');currentOpp=null;renderList()}
 function goBack(){goHome()}
 window.addEventListener('hashchange',()=>{const h=location.hash.replace('#','');if(h)showDetail(h);else renderList()});
+
+// ============================================================
+// ORG CHART — Drag & Drop Hierarchy
+// ============================================================
+function getOrgLayout(oppId){
+  try{return JSON.parse(localStorage.getItem('orgchart_'+oppId))||null}catch(e){return null}
+}
+function saveOrgLayout(oppId,layout){
+  localStorage.setItem('orgchart_'+oppId,JSON.stringify(layout));
+  toast('✓ Org chart saved');
+}
+function resetOrgChart(oppId){
+  localStorage.removeItem('orgchart_'+oppId);
+  const opp=opps.find(o=>o.id===oppId);
+  if(opp)renderOrgChart(opp);
+  toast('↺ Org chart reset');
+}
+
+// Infer default hierarchy from titles/roles
+function inferOrgHierarchy(stakeholders){
+  const people=stakeholders.map((s,i)=>({
+    id:'s_'+i,
+    name:s.name,
+    title:s.title||'',
+    role:s.role||'Contact',
+    engagement:s.engagement||'none',
+    email:s.email||'',
+    callsAttended:s.callsAttended||0,
+    callsInvited:s.callsInvited||0,
+    type:'merchant'
+  }));
+
+  // Title-based seniority scoring
+  function seniority(p){
+    const t=(p.title+' '+p.role).toLowerCase();
+    if(/\b(ceo|cto|cfo|coo|cmo|chief|founder|president|owner|managing director)\b/.test(t))return 100;
+    if(/\b(vp|vice president|svp|evp|gvp)\b/.test(t))return 90;
+    if(/\b(director|head of)\b/.test(t))return 80;
+    if(/\b(senior manager|sr manager|principal)\b/.test(t))return 70;
+    if(/\b(manager)\b/.test(t))return 60;
+    if(/\b(lead|senior|sr\.?)\b/.test(t))return 50;
+    if(/\b(specialist|analyst|coordinator|associate)\b/.test(t))return 30;
+    // Role-based fallback
+    if(p.role==='Economic Buyer'||p.role==='Decision Maker')return 85;
+    if(p.role==='Champion')return 65;
+    if(p.role==='Evaluator')return 55;
+    if(p.role==='Influencer')return 45;
+    return 20;
+  }
+
+  people.sort((a,b)=>seniority(b)-seniority(a));
+
+  // Build tree: highest seniority is root, then group by seniority tiers
+  const tree={};
+  if(people.length===0)return{tree:{},rootId:null};
+
+  const root=people[0];
+  tree[root.id]={...root,parentId:null,children:[]};
+
+  // Group remaining people into tiers under appropriate parents
+  const tiers=[];
+  let currentTier=[];
+  let currentScore=seniority(people[0]);
+
+  for(let i=1;i<people.length;i++){
+    const s=seniority(people[i]);
+    if(Math.abs(s-currentScore)<=10){
+      currentTier.push(people[i]);
+    }else{
+      if(currentTier.length)tiers.push([...currentTier]);
+      currentTier=[people[i]];
+      currentScore=s;
+    }
+  }
+  if(currentTier.length)tiers.push(currentTier);
+
+  // First tier reports to root
+  let parentIds=[root.id];
+  for(const tier of tiers){
+    const newParentIds=[];
+    tier.forEach((p,i)=>{
+      // Distribute among parents
+      const parentIdx=Math.min(i,parentIds.length-1);
+      const parentId=parentIds[parentIdx];
+      tree[p.id]={...p,parentId:parentId,children:[]};
+      tree[parentId].children.push(p.id);
+      newParentIds.push(p.id);
+    });
+    if(newParentIds.length)parentIds=newParentIds;
+  }
+
+  return{tree,rootId:root.id};
+}
+
+// Convert saved layout format to tree
+function layoutToTree(layout,stakeholders){
+  const people=stakeholders.map((s,i)=>({
+    id:'s_'+i,name:s.name,title:s.title||'',role:s.role||'Contact',
+    engagement:s.engagement||'none',email:s.email||'',
+    callsAttended:s.callsAttended||0,callsInvited:s.callsInvited||0,type:'merchant'
+  }));
+  const pMap={};
+  people.forEach(p=>pMap[p.id]=p);
+
+  const tree={};
+  let rootId=layout.rootId;
+
+  // Rebuild tree from layout
+  for(const[id,node]of Object.entries(layout.tree)){
+    if(!pMap[id])continue;
+    tree[id]={...pMap[id],parentId:node.parentId,children:(node.children||[]).filter(c=>pMap[c])};
+  }
+  // Add any new stakeholders not in saved layout
+  people.forEach(p=>{
+    if(!tree[p.id])tree[p.id]={...p,parentId:null,children:[]};
+  });
+
+  return{tree,rootId};
+}
+
+let orgDragState=null;
+
+function renderOrgChart(opp){
+  const container=document.getElementById('orgchart-'+opp.id);
+  if(!container)return;
+
+  const stakeholders=opp.stakeholders||[];
+  if(!stakeholders.length){container.innerHTML='<p style="color:var(--t3);font-size:12px">No stakeholders to display.</p>';return;}
+
+  const saved=getOrgLayout(opp.id);
+  let {tree,rootId}=saved?layoutToTree(saved,stakeholders):inferOrgHierarchy(stakeholders);
+
+  // Find unassigned (no parent & not root)
+  const unassigned=Object.values(tree).filter(n=>n.id!==rootId&&n.parentId===null);
+
+  function roleClass(r){
+    if(r==='Decision Maker'||r==='Economic Buyer'||r==='Signatory')return 'dm';
+    if(r==='Evaluator')return 'ev';
+    if(r==='Influencer')return 'inf';
+    if(r==='Champion')return 'ch';
+    return '';
+  }
+
+  function renderNode(nodeId,depth){
+    const n=tree[nodeId];
+    if(!n)return '';
+    const rc=roleClass(n.role);
+    const eng=n.engagement||'none';
+    const engLabel=eng.charAt(0).toUpperCase()+eng.slice(1);
+    const children=(n.children||[]).filter(c=>tree[c]);
+
+    return `<div class="org-node-wrap" data-depth="${depth}">
+      <div class="org-node" draggable="true" data-node-id="${n.id}" data-opp-id="${opp.id}"
+        ondragstart="orgDragStart(event)" ondragend="orgDragEnd(event)"
+        ondragover="orgDragOver(event)" ondragenter="orgDragEnter(event)"
+        ondragleave="orgDragLeave(event)" ondrop="orgDrop(event)">
+        <div class="on-avatar merchant">${ini(n.name)}</div>
+        <div class="on-name">${n.name}</div>
+        <div class="on-title">${n.title}</div>
+        <span class="on-role ${rc}">${n.role}</span>
+        <div class="on-eng"><span class="dot ${eng}"></span>${engLabel} engagement${n.callsAttended?' · '+n.callsAttended+' calls':''}</div>
+      </div>
+      ${children.length?`
+        <div class="org-connector-down"></div>
+        <div class="org-children">
+          ${children.map(c=>`<div class="org-child-branch">
+            <div class="org-connector"></div>
+            ${renderNode(c,depth+1)}
+          </div>`).join('')}
+        </div>
+      `:''}
+    </div>`;
+  }
+
+  let html='<div class="org-tree">';
+  if(rootId&&tree[rootId]){
+    html+=renderNode(rootId,0);
+  }
+  html+='</div>';
+
+  // Unassigned people pool
+  if(unassigned.length){
+    html+=`<div class="org-unassigned">
+      <h4>📋 Unassigned Contacts (${unassigned.length}) — drag onto a person above to assign</h4>
+      <div class="org-unassigned-list">
+        ${unassigned.map(n=>{
+          const rc=roleClass(n.role);
+          const eng=n.engagement||'none';
+          return `<div class="org-node" draggable="true" data-node-id="${n.id}" data-opp-id="${opp.id}"
+            ondragstart="orgDragStart(event)" ondragend="orgDragEnd(event)"
+            ondragover="orgDragOver(event)" ondragenter="orgDragEnter(event)"
+            ondragleave="orgDragLeave(event)" ondrop="orgDrop(event)">
+            <div class="on-avatar merchant" style="width:32px;height:32px;font-size:11px">${ini(n.name)}</div>
+            <div class="on-name">${n.name}</div>
+            <div class="on-title">${n.title}</div>
+            <span class="on-role ${rc}">${n.role}</span>
+          </div>`;
+        }).join('')}
+      </div>
+    </div>`;
+  }
+
+  container.innerHTML=html;
+}
+
+function orgDragStart(e){
+  const nodeId=e.target.closest('.org-node').dataset.nodeId;
+  const oppId=e.target.closest('.org-node').dataset.oppId;
+  orgDragState={nodeId,oppId};
+  e.dataTransfer.effectAllowed='move';
+  e.dataTransfer.setData('text/plain',nodeId);
+  setTimeout(()=>e.target.closest('.org-node').classList.add('dragging'),0);
+}
+
+function orgDragEnd(e){
+  orgDragState=null;
+  document.querySelectorAll('.org-node.dragging').forEach(n=>n.classList.remove('dragging'));
+  document.querySelectorAll('.org-node.drag-over').forEach(n=>n.classList.remove('drag-over'));
+}
+
+function orgDragOver(e){
+  e.preventDefault();
+  e.dataTransfer.dropEffect='move';
+}
+
+function orgDragEnter(e){
+  e.preventDefault();
+  const target=e.target.closest('.org-node');
+  if(target&&orgDragState&&target.dataset.nodeId!==orgDragState.nodeId){
+    target.classList.add('drag-over');
+  }
+}
+
+function orgDragLeave(e){
+  const target=e.target.closest('.org-node');
+  if(target)target.classList.remove('drag-over');
+}
+
+function orgDrop(e){
+  e.preventDefault();
+  const targetNode=e.target.closest('.org-node');
+  if(!targetNode||!orgDragState)return;
+  targetNode.classList.remove('drag-over');
+
+  const draggedId=orgDragState.nodeId;
+  const targetId=targetNode.dataset.nodeId;
+  const oppId=orgDragState.oppId;
+
+  if(draggedId===targetId)return;
+
+  const opp=opps.find(o=>o.id===oppId);
+  if(!opp)return;
+
+  const stakeholders=opp.stakeholders||[];
+  const saved=getOrgLayout(oppId);
+  let {tree,rootId}=saved?layoutToTree(saved,stakeholders):inferOrgHierarchy(stakeholders);
+
+  // Check for circular reference — can't drop onto own descendant
+  function isDescendant(parentId,childId){
+    if(!tree[parentId])return false;
+    const children=tree[parentId].children||[];
+    if(children.includes(childId))return true;
+    return children.some(c=>isDescendant(c,childId));
+  }
+  if(isDescendant(draggedId,targetId))return; // Prevent circular
+
+  // Remove dragged from old parent's children
+  const oldParentId=tree[draggedId]?.parentId;
+  if(oldParentId&&tree[oldParentId]){
+    tree[oldParentId].children=tree[oldParentId].children.filter(c=>c!==draggedId);
+  }
+
+  // If dragged was root, promote first child as new root
+  if(draggedId===rootId){
+    const draggedChildren=tree[draggedId].children||[];
+    if(draggedChildren.length){
+      rootId=draggedChildren[0];
+      tree[rootId].parentId=null;
+      // Remaining children of old root become children of new root
+      for(let i=1;i<draggedChildren.length;i++){
+        tree[draggedChildren[i]].parentId=rootId;
+        tree[rootId].children.push(draggedChildren[i]);
+      }
+    }
+  }
+
+  // Add dragged as child of target
+  tree[draggedId].parentId=targetId;
+  tree[draggedId].children=tree[draggedId].children||[];
+  if(!tree[targetId].children)tree[targetId].children=[];
+  if(!tree[targetId].children.includes(draggedId)){
+    tree[targetId].children.push(draggedId);
+  }
+
+  // Save the layout (only store ids, parentId, children)
+  const saveTree={};
+  for(const[id,node]of Object.entries(tree)){
+    saveTree[id]={parentId:node.parentId,children:node.children||[]};
+  }
+  saveOrgLayout(oppId,{tree:saveTree,rootId});
+
+  // Re-render
+  renderOrgChart(opp);
+}
 
 // ============================================================
 // INIT
