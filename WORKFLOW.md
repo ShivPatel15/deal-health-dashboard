@@ -652,22 +652,80 @@ Lite refresh entries include:
 
 ---
 
-## SCHEDULED DAILY REFRESH (8 AM UK)
+## SCHEDULED DAILY REFRESH (8 AM UK) — v2 RESILIENT
 
 ⚠️⚠️⚠️ **THIS IS THE MOST IMPORTANT SECTION. READ EVERY WORD.** ⚠️⚠️⚠️
 
-The scheduled refresh runs automatically. Its ONLY job is to detect what changed since the last run, update ONLY those parts, and leave everything else untouched.
+### Architecture: `scheduled-refresh.js` + Batched Queries + Checkpointing
+
+The v2 refresh is **resilient by design**:
+1. **`scheduled-refresh.js --plan`** generates a refresh plan with batched SQL (1 SOQL + 1 BigQuery for ALL accounts)
+2. **Per-opportunity checkpointing** — if the swarm dies mid-run, it resumes from the last checkpoint
+3. **`scheduled-refresh.js --finalize`** writes a dated log file
+4. **Graceful degradation** — if one opportunity errors, the rest still process
 
 ### THE GOLDEN RULE
 **If nothing changed for an opportunity, DO NOT TOUCH IT. Do not re-analyze. Do not rewrite. Do not re-score. Leave it exactly as it is.**
 
-### STEP-BY-STEP SCHEDULED REFRESH FLOW
+### SCHEDULED PROMPT
 
-**Step 0: Load existing data**
+See `/home/swarm/SCHEDULED-PROMPT-v2.md` for the full prompt to paste into the swarm scheduler.
+
+### KEY FILES
+- `scheduled-refresh.js` — Plan generation, checkpointing, finalization
+- `data/refresh-checkpoint.json` — Current run state (auto-created, auto-cleaned)
+- `data/refresh-logs/refresh-{date}.json` — Historical run logs
+- `data/refresh-plan.json` — Last generated plan
+
+### REFRESH FLOW (7 Phases)
+
+**Phase 1: Plan** — `node scheduled-refresh.js --plan`
+- Pure Node.js, no API calls, always succeeds
+- Generates: 1 batched SOQL + 1 batched BigQuery query
+- Detects existing checkpoint for resume
+
+**Phase 2: SF Batch Check** — 1 SOQL query for ALL opportunities
+- Compares each opp's fields against stored values
+- Tracks diffs per opportunity
+
+**Phase 3: BigQuery Batch Call Check** — 1 query for ALL accounts
+- Uses per-account cutoff dates from last known calls
+- Returns new calls grouped by opp_id
+
+**Phase 4: Process Each Opportunity** — Decision matrix + checkpoint
+
+| SF Changed? | New Calls? | Action |
+|---|---|---|
+| No | No | SKIP → checkpoint as `no-change` |
+| Yes | No | lite-refresh.js → checkpoint as `sf-only` |
+| Any | Yes | Pull transcripts → MEDDPICC → checkpoint as `new-calls` |
+
+**Phase 5: Build & Push** — Only if anything changed
+**Phase 6: Finalize** — `node scheduled-refresh.js --finalize`
+**Phase 7: Report** — Write summary markdown file
+
+### RESUMABILITY
+
+If the refresh fails at opportunity #6:
+1. Opportunities #1-5 are checkpointed as done
+2. Next run: `--plan` detects the checkpoint, skips #1-5, continues from #6
+3. No data loss, no duplicate processing
+
+### MONITORING
+
+Check if today's refresh ran:
+```bash
+cat deal-health-app/data/refresh-logs/refresh-$(date +%Y-%m-%d).json
 ```
-Read /home/swarm/deal-health-app/data/opportunities.json
-For each opportunity, note its ID and the date of its last call (from the calls array)
+
+Check mid-run progress:
+```bash
+node deal-health-app/scheduled-refresh.js --status
 ```
+
+### STEP-BY-STEP (LEGACY — for manual runs)
+
+The legacy per-opportunity sequential flow is still documented below for manual runs when you want to process a single opportunity. For the daily refresh of all opportunities, use the v2 resilient flow above.
 
 **Step 1: For EACH opportunity, check Salesforce for changes**
 - Delegate to WorkWithSalesforceReader — pull ONLY these lightweight fields:
@@ -675,15 +733,14 @@ For each opportunity, note its ID and the date of its last call (from the calls 
   - AE next steps, SE next steps
   - Revenue fields (eComm_Amount__c for MCV, Projected_Billed_Revenue__c)
 - **COMPARE** each field against what's stored in opportunities.json
-- Track what changed (e.g., "stage changed from Demonstrate to Deal Craft", "close date moved from Feb 28 to Mar 15")
+- Track what changed
 
-**Step 2: For EACH opportunity, check BigQuery for NEW calls only** ⭐ UPDATED
+**Step 2: For EACH opportunity, check BigQuery for NEW calls only**
 
 ⚠️ **Use BigQuery `sales_calls` — NOT the Salesloft API.**
 
 ```sql
-SELECT
-  event_id, call_title, event_start, platform,
+SELECT event_id, call_title, event_start, platform,
   call_duration_minutes, has_transcript,
   ARRAY_LENGTH(transcript_details) AS transcript_segments,
   transcript_summary
@@ -693,40 +750,20 @@ WHERE '{ACCOUNT_ID}' IN UNNEST(salesforce_account_ids)
 ORDER BY event_start DESC
 ```
 
-- If new calls with transcripts are found, pull the full transcript text:
-```sql
-SELECT sc.event_id, sc.call_title, sc.event_start,
-  sentence.speaker_name, sentence.speaker_text, sentence.sequence_number
-FROM `shopify-dw.sales.sales_calls` sc,
-UNNEST(sc.transcript_details) AS transcript,
-UNNEST(transcript.full_transcript) AS sentence
-WHERE '{ACCOUNT_ID}' IN UNNEST(sc.salesforce_account_ids)
-  AND DATE(sc.event_start) > '{LAST_CALL_DATE}'
-  AND sc.has_transcript = TRUE AND ARRAY_LENGTH(sc.transcript_details) > 0
-ORDER BY sc.event_start DESC, sentence.sequence_number ASC
-```
-
-- **ONLY retrieve transcripts for NEW calls** — do not re-pull old ones
-- If BigQuery auth fails (401), retry once, then fall back to Salesloft API
-
 **Step 3: Decide what to do for each opportunity**
 
 | SF Changed? | New Calls? | Action |
 |-------------|------------|--------|
-| No | No | **DO NOTHING.** Skip entirely. Add version history note: "No changes detected" |
-| Yes | No | Update ONLY the changed SF fields in opportunities.json. Do NOT re-run MEDDPICC. Add version history note listing what SF fields changed. |
-| No | Yes | Add new calls to the calls array. Re-run MEDDPICC analysis ONLY if the new calls contain substantive information that would change scoring. Add version history note listing new calls found. |
-| Yes | Yes | Update SF fields AND add new calls. Re-run MEDDPICC only if new calls warrant it. Add version history notes for both. |
+| No | No | **DO NOTHING.** Skip entirely. |
+| Yes | No | Write diffs → run lite-refresh.js |
+| Any | Yes | Pull transcripts → MEDDPICC Analyst |
 
 **Step 4: If ANY opportunity was updated**
-1. Save updated opportunities.json
-2. Run `node build-data.js`
-3. Copy data.js to deal-health-dashboard repo
-4. Git commit with descriptive message listing what changed per opp
-5. Git push
+1. Run `node build-data.js`
+2. Run `bash publish.sh --skip-ingest "Daily refresh..."`
 
 **Step 5: If NOTHING changed across ALL opportunities**
-- Report: "✅ Dashboard is current — no changes detected across all 8 opportunities"
+- Report: "✅ Dashboard is current — no changes detected"
 - Do NOT rebuild, do NOT push, do NOT touch any files
 
 ### VERSION HISTORY NOTES
