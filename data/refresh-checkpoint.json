@@ -1,0 +1,96 @@
+{
+  "date": "2026-02-24",
+  "started": "2026-02-24T08:06:19.743Z",
+  "results": {
+    "006OG00000EZIy6YAH": {
+      "accountName": "Whittard of Chelsea",
+      "status": "no-change",
+      "details": "No SF field changes, no new calls",
+      "timestamp": "2026-02-24T08:06:19.743Z"
+    },
+    "0068V0000113rSIQAY": {
+      "accountName": "Moda in Pelle",
+      "status": "sf-only",
+      "details": "competitor changed to Other, revenue backfill, nextStep minor text",
+      "timestamp": "2026-02-24T08:07:30.612Z"
+    },
+    "006OG00000CRabaYAD": {
+      "accountName": "Mulberry Company (Sales) Limited",
+      "status": "sf-only",
+      "details": "nextStep minor text update, revenue backfill",
+      "timestamp": "2026-02-24T08:07:30.664Z"
+    },
+    "006OG00000HnVs8YAF": {
+      "accountName": "Wacoal Europe",
+      "status": "sf-only",
+      "details": "competitor cleared, nextStep updated with offer expiry, revenue backfill",
+      "timestamp": "2026-02-24T08:07:30.710Z"
+    },
+    "006OG00000HtxKFYAZ": {
+      "accountName": "Sofa.Com Ltd",
+      "status": "sf-only",
+      "details": "nextStep updated with biz case review, revenue backfill",
+      "timestamp": "2026-02-24T08:07:30.757Z"
+    },
+    "0068V0000113peWQAQ": {
+      "accountName": "ESSENTIEL Antwerp",
+      "status": "sf-only",
+      "details": "nextStep minor text, revenue backfill",
+      "timestamp": "2026-02-24T08:07:30.804Z"
+    },
+    "006OG00000FHHAHYA5": {
+      "accountName": "OLIVER BONAS LIMITED",
+      "status": "sf-only",
+      "details": "competitor cleared, revenue backfill",
+      "timestamp": "2026-02-24T08:07:30.854Z"
+    },
+    "006OG00000Fbj8nYAB": {
+      "accountName": "Cycle King & Hawk",
+      "status": "sf-only",
+      "details": "competitor cleared, revenue backfill",
+      "timestamp": "2026-02-24T08:07:30.909Z"
+    },
+    "006OG00000G28JdYAJ": {
+      "accountName": "Direct Wines Limited",
+      "status": "sf-only",
+      "details": "stage Demonstrate->Deal Craft, probability 60->80, nextStep updated, revenue backfill",
+      "timestamp": "2026-02-24T08:07:30.961Z"
+    },
+    "006OG00000FYX8zYAH": {
+      "accountName": "Hawes & Curtis Limited",
+      "status": "sf-only",
+      "details": "nextStep updated re agency selection delay, revenue backfill",
+      "timestamp": "2026-02-24T08:07:31.011Z"
+    },
+    "006OG00000Dh2YXYAZ": {
+      "accountName": "Bugaboo International B.V",
+      "status": "sf-only",
+      "details": "competitor set to SFCC, nextStep added re biz case/Adyen/SP, revenue backfill",
+      "timestamp": "2026-02-24T08:07:31.062Z"
+    },
+    "006OG00000KW83lYAD": {
+      "accountName": "C.P. Hart & Sons Limited",
+      "status": "sf-only",
+      "details": "nextStep added re commercials/board, revenue backfill",
+      "timestamp": "2026-02-24T08:07:31.111Z"
+    },
+    "006OG00000JMQ91YAH": {
+      "accountName": "TRINNY LONDON",
+      "status": "sf-only",
+      "details": "nextStep added re biz case/rate review, revenue backfill",
+      "timestamp": "2026-02-24T08:07:31.160Z"
+    },
+    "006OG00000GJ5IvYAL": {
+      "accountName": "The Dune Group",
+      "status": "new-calls",
+      "details": "1 new call (no transcript): Dial in session with Shopify 2026-02-19, SF nextStep updated, revenue backfill",
+      "timestamp": "2026-02-24T08:07:31.210Z"
+    },
+    "006OG00000JUPVtYAP": {
+      "accountName": "Mint Velvet",
+      "status": "new-calls",
+      "details": "1 new call: Ben x Eleanor - Biz Case (2026-02-20, partial transcript). MEDDPICC incremental update applied. Score unchanged 32/54. 8 action items updated with new due dates.",
+      "timestamp": "2026-02-24T08:09:53.714Z"
+    }
+  }
+}

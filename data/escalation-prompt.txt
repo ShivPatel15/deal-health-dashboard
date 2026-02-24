@@ -1,0 +1,123 @@
+You are a MEDDPICC scoring analyst. The following Salesforce field changes were detected in a daily refresh but do NOT have deterministic scoring rules. Based ONLY on these changes (no transcript re-analysis needed), recommend specific MEDDPICC score adjustments.
+
+For each recommendation, return JSON:
+{
+  "opportunityId": "...",
+  "adjustments": [
+    {
+      "section": "sectionKey",
+      "questionIndex": 0,
+      "currentAnswer": "Partial",
+      "recommendedAnswer": "Yes",
+      "reason": "Why this change justifies the adjustment"
+    }
+  ]
+}
+
+---
+
+### Moda in Pelle (0068V0000113rSIQAY)
+Unmatched changes:
+- competitor: "Visualsoft (status quo)" → "Other"
+- nextStep: "02/18 - Spoke to David Duke and we are on track to get it signed before end of Feb" → "02/18 -Spoke to David Duke and we are on track to get it signed before end of Feb"
+- ecommAmount: "null" → "75900"
+- projectedBilledRevenue: "null" → "435319.79"
+- paymentsGPV: "null" → "13860032.55"
+- totalRevenue: "null" → "1039799"
+
+### Mulberry Company (Sales) Limited (006OG00000CRabaYAD)
+Unmatched changes:
+- nextStep: "18/02 BR. Legal are still working through the PLUS contract as we have pushed back 3X on their asked." → "18/02 BR. Legal Are still working through the PLUS contract as we have pushed back 3X on their asked. Have just kicked off discovery with Arsenalia and some peripheral queries around china and markets have arisen. Working through Async."
+- ecommAmount: "null" → "82800"
+- projectedBilledRevenue: "null" → "276727.83"
+- totalRevenue: "null" → "841500"
+
+### Wacoal Europe (006OG00000HnVs8YAF)
+Unmatched changes:
+- competitor: "SAP (incumbent) / Scale (potential retender)" → "null"
+- nextStep: "13/02 MF: Will have a decision by 27/02. Contract reviewed and rates presented." → "20/02 MF: Will have a decision by 27/02. Contract reviewed and rates presented. Offer expires March 13th."
+- ecommAmount: "null" → "285200"
+- projectedBilledRevenue: "null" → "647389.47"
+- paymentsGPV: "null" → "18850000"
+- totalRevenue: "null" → "1244375"
+
+### Sofa.Com Ltd (006OG00000HtxKFYAZ)
+Unmatched changes:
+- nextStep: "13/02 MF: Handover from Yas - merchant pushing to get meeting with IT at Frasers group to get approval." → "20/02 MF: Handover from Yas - merchant pushing to get meeting with IT at Frasers group to get approval. Reviewing the buss case numbers with them next week."
+- ecommAmount: "null" → "82800"
+- projectedBilledRevenue: "null" → "483034.36"
+- paymentsGPV: "null" → "17129515"
+- totalRevenue: "null" → "1220972.06"
+
+### ESSENTIEL Antwerp (0068V0000113peWQAQ)
+Unmatched changes:
+- nextStep: "18/2 BR RFP has landed and I am speaking to each agency (7) to get a sense check." → "18/2 BR RFP has landed and I ma speaking to each agency (7) to get a sense check. Timelines on RFP indicate build to start in April"
+- ecommAmount: "null" → "82800"
+- projectedBilledRevenue: "null" → "719854.75"
+- paymentsGPV: "null" → "33144049.22"
+- totalRevenue: "null" → "2333229.33"
+
+### OLIVER BONAS LIMITED (006OG00000FHHAHYA5)
+Unmatched changes:
+- competitor: "Adobe Commerce (Magento)" → "null"
+- ecommAmount: "null" → "82800"
+- projectedBilledRevenue: "null" → "1483249.63"
+- paymentsGPV: "null" → "113100000"
+- totalRevenue: "null" → "5809546.88"
+
+### Cycle King & Hawk (006OG00000Fbj8nYAB)
+Unmatched changes:
+- competitor: "Citrus Lime (incumbent)" → "null"
+- ecommAmount: "null" → "82800"
+- projectedBilledRevenue: "null" → "271358.65"
+- paymentsGPV: "null" → "2608164"
+- totalRevenue: "null" → "874667.61"
+
+### Direct Wines Limited (006OG00000G28JdYAJ)
+Unmatched changes:
+- stage: "Demonstrate" → "Deal Craft"
+- probability: "60" → "80"
+- nextStep: "18/02: Fusefabric review of proposed solution" → "18/02 BR Discovery with Fuse ending next week. Board / sign off meeting for 24/03. Still awaiting feedback on Plus vs Ent before we can finalise commercials"
+- projectedBilledRevenue: "null" → "6660618.5"
+- paymentsGPV: "null" → "210600000"
+- totalRevenue: "null" → "13756191"
+
+### Hawes & Curtis Limited (006OG00000FYX8zYAH)
+Unmatched changes:
+- nextStep: "13/02 MF: Finalising agency selection before signing Shopify contract." → "20/02 MF: Finalising agency selection before signing Shopify contract. Paul Rogers (Vervaunt) introduced more agencies with design focus, might not sign before Q2 now. Catch up with Paul next week (Alexandra supporting)."
+- ecommAmount: "null" → "82800"
+- projectedBilledRevenue: "null" → "664590.3"
+- paymentsGPV: "null" → "32500000"
+- totalRevenue: "null" → "2040937.5"
+
+### Bugaboo International B.V (006OG00000Dh2YXYAZ)
+Unmatched changes:
+- competitor: "null" → "Salesforce Commerce Cloud"
+- nextStep: "null" → "23/02 BR Call with Jordan. He is working through biz case but biggest aspect is going to be the SP since we will not approve Adyen. Agency decision in March. SP call schedulled for 11th March"
+- ecommAmount: "null" → "82800"
+- projectedBilledRevenue: "null" → "276727.83"
+- totalRevenue: "null" → "841500"
+
+### C.P. Hart & Sons Limited (006OG00000KW83lYAD)
+Unmatched changes:
+- nextStep: "null" → "19.02 presented commercials, board meeting this month, awaiting statements for RR, NDA in works"
+- ecommAmount: "null" → "82800"
+- projectedBilledRevenue: "null" → "758832.18"
+- paymentsGPV: "null" → "26000000"
+- totalRevenue: "null" → "2184000"
+
+### TRINNY LONDON (006OG00000JMQ91YAH)
+Unmatched changes:
+- nextStep: "null" → "20/02 MF: Supporting them with the business case, technical validation and with merchant references. Started a rate review discussion. Catch up on 25/02"
+- ecommAmount: "null" → "82800"
+- projectedBilledRevenue: "null" → "948568.42"
+- paymentsGPV: "null" → "49400000"
+- totalRevenue: "null" → "3311700"
+
+### The Dune Group (006OG00000GJ5IvYAL)
+Unmatched changes:
+- nextStep: "19.02 onsite meeting cancelled" → "19.02 onsite meeting cancelled as team members sick, had meeting with Dune and Tryzens to discuss launch steps, Martin confirmed They're very close to getting budged signed off "any day now""
+- ecommAmount: "null" → "82800"
+- projectedBilledRevenue: "null" → "641867.88"
+- totalRevenue: "null" → "4269146.5"
+

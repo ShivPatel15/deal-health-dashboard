@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-23T09:15:12.954Z",
+  "generatedAt": "2026-02-24T08:10:02.009Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -1096,6 +1096,23 @@ const DEAL_DATA = {
             "Competition": 3.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-24",
+          "totalScore": 31.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 3.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 3,
+            "Identify Pain": 6.5,
+            "Champion": 3.5,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ],
       "mutualActionPlan": {
@@ -1305,7 +1322,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-23",
+          "date": "2026-02-24",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -2331,6 +2348,23 @@ const DEAL_DATA = {
             "Competition": 3
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-24",
+          "totalScore": 36.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 6,
+            "Economic Buyer": 4,
+            "Decision Process": 5,
+            "Decision Criteria": 4,
+            "Paper Process": 1,
+            "Identify Pain": 7,
+            "Champion": 6.5,
+            "Competition": 3
+          },
+          "changes": []
         }
       ],
       "mutualActionPlan": {
@@ -2531,7 +2565,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-23",
+          "date": "2026-02-24",
           "sections": {
             "Metrics": {
               "score": 6,
@@ -3664,6 +3698,23 @@ const DEAL_DATA = {
             "Competition": 4
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-24",
+          "totalScore": 37,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 4.5,
+            "Decision Criteria": 5,
+            "Paper Process": 4,
+            "Identify Pain": 6,
+            "Champion": 5.5,
+            "Competition": 4
+          },
+          "changes": []
         }
       ],
       "mutualActionPlan": {
@@ -3873,7 +3924,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-23",
+          "date": "2026-02-24",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -5076,6 +5127,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-24",
+          "totalScore": 34.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 4.5,
+            "Identify Pain": 6.5,
+            "Champion": 4,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "mutualActionPlan": {
@@ -5276,7 +5344,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-23",
+          "date": "2026-02-24",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -6346,6 +6414,23 @@ const DEAL_DATA = {
             "Competition": 3
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-24",
+          "totalScore": 43,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 4,
+            "Decision Process": 7,
+            "Decision Criteria": 5,
+            "Paper Process": 6,
+            "Identify Pain": 7,
+            "Champion": 5.5,
+            "Competition": 3
+          },
+          "changes": []
         }
       ],
       "mutualActionPlan": {
@@ -6555,7 +6640,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-23",
+          "date": "2026-02-24",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -7642,6 +7727,23 @@ const DEAL_DATA = {
             "Competition": 3.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-24",
+          "totalScore": 29,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 4.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 3.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 3,
+            "Identify Pain": 4,
+            "Champion": 4.5,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ],
       "mutualActionPlan": {
@@ -7851,7 +7953,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-23",
+          "date": "2026-02-24",
           "sections": {
             "Metrics": {
               "score": 4.5,
@@ -8995,6 +9097,23 @@ const DEAL_DATA = {
             "Competition": 2
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-24",
+          "totalScore": 31,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 4.5,
+            "Decision Process": 4.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 6,
+            "Champion": 4.5,
+            "Competition": 2
+          },
+          "changes": []
         }
       ],
       "mutualActionPlan": {
@@ -9195,7 +9314,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-23",
+          "date": "2026-02-24",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -9255,7 +9374,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "Existing Business",
       "created": "2025-12-12",
-      "lastAnalysisDate": "2026-02-19",
+      "lastAnalysisDate": "2026-02-24",
       "revenue": {
         "mcv": 0,
         "totalRev3yr": 1562351,
@@ -10273,6 +10392,22 @@ const DEAL_DATA = {
             "Tom (CTO)"
           ],
           "summary": "Arttov sub-brand inventory sync via Patchworks (Shopify Collective unsuitable). Irish entity activation for POS discussed. Both agreed solutions are achievable."
+        },
+        {
+          "callId": "3qt65hc3825medn5ch3bvvfbuc",
+          "title": "Ben x Eleanor - Biz Case",
+          "date": "2026-02-20",
+          "duration": "30 min",
+          "platform": "Google Meet",
+          "shopifyAttendees": [
+            "Ben Rees"
+          ],
+          "merchantAttendees": [
+            "Eleanor Bassett",
+            "Tom Clements"
+          ],
+          "transcriptStatus": "partial — only opening captured",
+          "summary": "Business case call with Eleanor (FD) and Tom (CTO). Full transcript not captured. Call title and SF notes indicate rate/cost/business case discussion. Ben Rees debrief needed."
         }
       ],
       "history": [
@@ -10309,6 +10444,26 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-24",
+          "totalScore": 32,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 3,
+            "Decision Process": 4,
+            "Decision Criteria": 4.5,
+            "Paper Process": 1,
+            "Identify Pain": 6.5,
+            "Champion": 5.5,
+            "Competition": 2.5
+          },
+          "changes": [
+            "New call added: \"Ben x Eleanor - Biz Case\" on 2026-02-20"
+          ],
+          "type": "incremental-meddpicc"
         }
       ],
       "mutualActionPlan": {
@@ -10518,7 +10673,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-23",
+          "date": "2026-02-24",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -11725,6 +11880,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-24",
+          "totalScore": 28.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 4,
+            "Decision Criteria": 3.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 5.5,
+            "Champion": 4,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "mutualActionPlan": {
@@ -11934,7 +12106,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-23",
+          "date": "2026-02-24",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -13075,6 +13247,23 @@ const DEAL_DATA = {
             "Competition": 0
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-24",
+          "totalScore": 22,
+          "totalMax": 54,
+          "status": "at-risk",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 2,
+            "Decision Process": 4,
+            "Decision Criteria": 2.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 5,
+            "Champion": 3,
+            "Competition": 0
+          },
+          "changes": []
         }
       ],
       "mutualActionPlan": {
@@ -13284,7 +13473,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-23",
+          "date": "2026-02-24",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -14529,6 +14718,23 @@ const DEAL_DATA = {
             "Competition": 5
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-24",
+          "totalScore": 40,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 5,
+            "Decision Process": 5.5,
+            "Decision Criteria": 4.5,
+            "Paper Process": 1.5,
+            "Identify Pain": 7.5,
+            "Champion": 6,
+            "Competition": 5
+          },
+          "changes": []
         }
       ],
       "mutualActionPlan": {
@@ -14729,7 +14935,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-23",
+          "date": "2026-02-24",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -15776,6 +15982,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-24",
+          "totalScore": 41.5,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 5,
+            "Decision Process": 6,
+            "Decision Criteria": 4.5,
+            "Paper Process": 4,
+            "Identify Pain": 7.5,
+            "Champion": 6.5,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "mutualActionPlan": {
@@ -15976,7 +16199,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-23",
+          "date": "2026-02-24",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -17100,6 +17323,23 @@ const DEAL_DATA = {
             "Competition": 2
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-24",
+          "totalScore": 27,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 3,
+            "Economic Buyer": 3.5,
+            "Decision Process": 4.5,
+            "Decision Criteria": 2,
+            "Paper Process": 1.5,
+            "Identify Pain": 5.5,
+            "Champion": 5,
+            "Competition": 2
+          },
+          "changes": []
         }
       ],
       "mutualActionPlan": {
@@ -17264,7 +17504,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-02-23",
+          "date": "2026-02-24",
           "sections": {
             "Metrics": {
               "score": 3,
@@ -18418,6 +18658,23 @@ const DEAL_DATA = {
             "Competition": 1.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-24",
+          "totalScore": 27,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 4.5,
+            "Economic Buyer": 2,
+            "Decision Process": 4.5,
+            "Decision Criteria": 2,
+            "Paper Process": 2,
+            "Identify Pain": 6,
+            "Champion": 4.5,
+            "Competition": 1.5
+          },
+          "changes": []
         }
       ],
       "mutualActionPlan": {
@@ -18582,7 +18839,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-02-23",
+          "date": "2026-02-24",
           "sections": {
             "Metrics": {
               "score": 4.5,
@@ -19790,6 +20047,23 @@ const DEAL_DATA = {
             "Competition": 2
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-24",
+          "totalScore": 27,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 2,
+            "Decision Process": 4.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 6,
+            "Champion": 3.5,
+            "Competition": 2
+          },
+          "changes": []
         }
       ],
       "mutualActionPlan": {
@@ -19954,7 +20228,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-02-23",
+          "date": "2026-02-24",
           "sections": {
             "Metrics": {
               "score": 5,

@@ -1,0 +1,105 @@
+{
+  "opportunityId": "006OG00000JUPVtYAP",
+  "narrative": {
+    "oppSummary": null,
+    "whyChange": null,
+    "whyShopify": null,
+    "whyNow": null,
+    "supportNeeded": "Rate negotiation remains the #1 blocker — board has pushed back on costs and rates (per SF nextStep 02/18). A 30-min business case call with Eleanor (FD) and Tom (CTO) took place on Feb 20 but full transcript was not captured, so outcome of rate/cost discussion is unknown. Follow-up needed to confirm: (1) whether rate concerns were addressed or narrowed, (2) whether board-ready TCO materials were reviewed, (3) next steps Eleanor/board need. Additional support still needed: Irish entity guidance (Ben Homer international docs), Arttov architecture clarity, implementation timeline to hit Christmas 2026 go-live."
+  },
+  "meddpicc": {
+    "economicBuyer": {
+      "questions": [
+        {
+          "index": 0,
+          "answer": "Partial",
+          "notes": "Eleanor (FD) engaged on Feb 20 biz case call (30 min, with Tom). Board pushback on costs confirmed in SF notes. Full transcript not captured — cannot confirm whether true EB / final approver was identified.",
+          "action": "Follow up with Tom/Eleanor to confirm: did Feb 20 call clarify who gives final sign-off?",
+          "due": "02/27/2026"
+        },
+        {
+          "index": 2,
+          "answer": "Partial",
+          "notes": "Feb 20 biz case call with Eleanor happened as planned (positive engagement signal). Transcript only captured opening pleasantries. Cannot confirm whether deeper access was achieved.",
+          "action": "Debrief with Ben Rees on what was covered in Feb 20 biz case call. Did Eleanor commit to any next steps or board presentation?",
+          "due": "02/27/2026"
+        },
+        {
+          "index": 4,
+          "answer": "Partial",
+          "notes": "SF nextStep confirms board cares about costs and rates. Feb 20 biz case call with Eleanor likely addressed this, but transcript not captured.",
+          "action": "Debrief Ben Rees: what does Eleanor/board care about most beyond rates? Capture specific objections.",
+          "due": "02/27/2026"
+        }
+      ]
+    },
+    "decisionCriteria": {
+      "questions": [
+        {
+          "index": 3,
+          "answer": "Yes",
+          "notes": "Payments central issue throughout. Feb 20 biz case call almost certainly covered rates/payments given SF nextStep + call title. Maintaining Yes.",
+          "action": "Confirm with Ben Rees: did Feb 20 result in movement on rate agreement? Were revised rates presented?",
+          "due": "02/27/2026"
+        }
+      ]
+    },
+    "paperProcess": {
+      "questions": [
+        {
+          "index": 4,
+          "answer": "Partial",
+          "notes": "Rack rates presented; final rates not agreed. Feb 20 biz case call likely discussed rates but transcript not captured.",
+          "action": "Debrief Ben Rees urgently: were revised rates discussed on Feb 20? What was Eleanor's response? Path to agreement?",
+          "due": "02/27/2026"
+        }
+      ]
+    },
+    "identifyPain": {
+      "questions": [
+        {
+          "index": 7,
+          "answer": "Yes",
+          "notes": "Already on Shopify Plus D2C — POS is only native unification option. Call happened, maintaining Yes. FD investing 30 min on biz case is positive signal.",
+          "action": "Confirm with Ben Rees: did unified commerce value prop resonate with Eleanor?",
+          "due": "02/27/2026"
+        }
+      ]
+    },
+    "champion": {
+      "questions": [
+        {
+          "index": 4,
+          "answer": "Partial",
+          "notes": "Tom facilitated Eleanor's presence on Feb 20 biz case call (champion delivering access to decision-makers). Cannot confirm if broader buying committee was discussed.",
+          "action": "Debrief Ben Rees: did Tom or Eleanor name the board-level approver? Any commitment to introduce Shopify to the board?",
+          "due": "02/27/2026"
+        }
+      ]
+    },
+    "competition": {
+      "questions": [
+        {
+          "index": 4,
+          "answer": "Yes",
+          "notes": "Win factors well established. Feb 20 call happened. Maintaining Yes — competitive positioning unchanged.",
+          "action": "Confirm with Ben Rees: any new competitive threats surfaced? Competitive brief ready for board?",
+          "due": "02/27/2026"
+        }
+      ]
+    }
+  },
+  "newCalls": [
+    {
+      "callId": "3qt65hc3825medn5ch3bvvfbuc",
+      "title": "Ben x Eleanor - Biz Case",
+      "date": "2026-02-20",
+      "duration": "30 min",
+      "platform": "Google Meet",
+      "shopifyAttendees": ["Ben Rees"],
+      "merchantAttendees": ["Eleanor Bassett", "Tom Clements"],
+      "transcriptStatus": "partial — only opening captured",
+      "summary": "Business case call with Eleanor (FD) and Tom (CTO). Full transcript not captured. Call title and SF notes indicate rate/cost/business case discussion. Ben Rees debrief needed."
+    }
+  ]
+}

@@ -9047,7 +9047,7 @@
     "merchantIntent": "Committed - At Risk",
     "type": "Existing Business",
     "created": "2025-12-12",
-    "lastAnalysisDate": "2026-02-19",
+    "lastAnalysisDate": "2026-02-24",
     "revenue": {
       "mcv": 0,
       "totalRev3yr": 1562351,
@@ -10065,6 +10065,22 @@
           "Tom (CTO)"
         ],
         "summary": "Arttov sub-brand inventory sync via Patchworks (Shopify Collective unsuitable). Irish entity activation for POS discussed. Both agreed solutions are achievable."
+      },
+      {
+        "callId": "3qt65hc3825medn5ch3bvvfbuc",
+        "title": "Ben x Eleanor - Biz Case",
+        "date": "2026-02-20",
+        "duration": "30 min",
+        "platform": "Google Meet",
+        "shopifyAttendees": [
+          "Ben Rees"
+        ],
+        "merchantAttendees": [
+          "Eleanor Bassett",
+          "Tom Clements"
+        ],
+        "transcriptStatus": "partial — only opening captured",
+        "summary": "Business case call with Eleanor (FD) and Tom (CTO). Full transcript not captured. Call title and SF notes indicate rate/cost/business case discussion. Ben Rees debrief needed."
       }
     ],
     "history": [

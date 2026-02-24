@@ -1,0 +1,156 @@
+[
+  {
+    "opportunityId": "0068V0000113rSIQAY",
+    "accountName": "Moda in Pelle",
+    "changes": [
+      { "field": "competitor", "oldValue": "Visualsoft (status quo)", "newValue": "Other" },
+      { "field": "nextStep", "oldValue": "02/18 - Spoke to David Duke and we are on track to get it signed before end of Feb", "newValue": "02/18 -Spoke to David Duke and we are on track to get it signed before end of Feb" },
+      { "field": "ecommAmount", "oldValue": null, "newValue": 75900.0 },
+      { "field": "projectedBilledRevenue", "oldValue": null, "newValue": 435319.79 },
+      { "field": "paymentsGPV", "oldValue": null, "newValue": 13860032.55 },
+      { "field": "totalRevenue", "oldValue": null, "newValue": 1039799.0 }
+    ]
+  },
+  {
+    "opportunityId": "006OG00000CRabaYAD",
+    "accountName": "Mulberry Company (Sales) Limited",
+    "changes": [
+      { "field": "nextStep", "oldValue": "18/02 BR. Legal are still working through the PLUS contract as we have pushed back 3X on their asked.", "newValue": "18/02 BR. Legal Are still working through the PLUS contract as we have pushed back 3X on their asked. Have just kicked off discovery with Arsenalia and some peripheral queries around china and markets have arisen. Working through Async." },
+      { "field": "ecommAmount", "oldValue": null, "newValue": 82800.0 },
+      { "field": "projectedBilledRevenue", "oldValue": null, "newValue": 276727.83 },
+      { "field": "totalRevenue", "oldValue": null, "newValue": 841500.0 }
+    ]
+  },
+  {
+    "opportunityId": "006OG00000HnVs8YAF",
+    "accountName": "Wacoal Europe",
+    "changes": [
+      { "field": "competitor", "oldValue": "SAP (incumbent) / Scale (potential retender)", "newValue": null },
+      { "field": "nextStep", "oldValue": "13/02 MF: Will have a decision by 27/02. Contract reviewed and rates presented.", "newValue": "20/02 MF: Will have a decision by 27/02. Contract reviewed and rates presented. Offer expires March 13th." },
+      { "field": "ecommAmount", "oldValue": null, "newValue": 285200.0 },
+      { "field": "projectedBilledRevenue", "oldValue": null, "newValue": 647389.47 },
+      { "field": "paymentsGPV", "oldValue": null, "newValue": 18850000.0 },
+      { "field": "totalRevenue", "oldValue": null, "newValue": 1244375.0 }
+    ]
+  },
+  {
+    "opportunityId": "006OG00000HtxKFYAZ",
+    "accountName": "Sofa.Com Ltd",
+    "changes": [
+      { "field": "nextStep", "oldValue": "13/02 MF: Handover from Yas - merchant pushing to get meeting with IT at Frasers group to get approval.", "newValue": "20/02 MF: Handover from Yas - merchant pushing to get meeting with IT at Frasers group to get approval. Reviewing the buss case numbers with them next week." },
+      { "field": "ecommAmount", "oldValue": null, "newValue": 82800.0 },
+      { "field": "projectedBilledRevenue", "oldValue": null, "newValue": 483034.36 },
+      { "field": "paymentsGPV", "oldValue": null, "newValue": 17129515.0 },
+      { "field": "totalRevenue", "oldValue": null, "newValue": 1220972.06 }
+    ]
+  },
+  {
+    "opportunityId": "0068V0000113peWQAQ",
+    "accountName": "ESSENTIEL Antwerp",
+    "changes": [
+      { "field": "nextStep", "oldValue": "18/2 BR RFP has landed and I am speaking to each agency (7) to get a sense check.", "newValue": "18/2 BR RFP has landed and I ma speaking to each agency (7) to get a sense check. Timelines on RFP indicate build to start in April" },
+      { "field": "ecommAmount", "oldValue": null, "newValue": 82800.0 },
+      { "field": "projectedBilledRevenue", "oldValue": null, "newValue": 719854.75 },
+      { "field": "paymentsGPV", "oldValue": null, "newValue": 33144049.22 },
+      { "field": "totalRevenue", "oldValue": null, "newValue": 2333229.33 }
+    ]
+  },
+  {
+    "opportunityId": "006OG00000FHHAHYA5",
+    "accountName": "OLIVER BONAS LIMITED",
+    "changes": [
+      { "field": "competitor", "oldValue": "Adobe Commerce (Magento)", "newValue": null },
+      { "field": "ecommAmount", "oldValue": null, "newValue": 82800.0 },
+      { "field": "projectedBilledRevenue", "oldValue": null, "newValue": 1483249.63 },
+      { "field": "paymentsGPV", "oldValue": null, "newValue": 113100000.0 },
+      { "field": "totalRevenue", "oldValue": null, "newValue": 5809546.88 }
+    ]
+  },
+  {
+    "opportunityId": "006OG00000Fbj8nYAB",
+    "accountName": "Cycle King & Hawk",
+    "changes": [
+      { "field": "competitor", "oldValue": "Citrus Lime (incumbent)", "newValue": null },
+      { "field": "ecommAmount", "oldValue": null, "newValue": 82800.0 },
+      { "field": "projectedBilledRevenue", "oldValue": null, "newValue": 271358.65 },
+      { "field": "paymentsGPV", "oldValue": null, "newValue": 2608164.0 },
+      { "field": "totalRevenue", "oldValue": null, "newValue": 874667.61 }
+    ]
+  },
+  {
+    "opportunityId": "006OG00000G28JdYAJ",
+    "accountName": "Direct Wines Limited",
+    "changes": [
+      { "field": "stage", "oldValue": "Demonstrate", "newValue": "Deal Craft" },
+      { "field": "probability", "oldValue": 60, "newValue": 80 },
+      { "field": "nextStep", "oldValue": "18/02: Fusefabric review of proposed solution", "newValue": "18/02 BR Discovery with Fuse ending next week. Board / sign off meeting for 24/03. Still awaiting feedback on Plus vs Ent before we can finalise commercials" },
+      { "field": "projectedBilledRevenue", "oldValue": null, "newValue": 6660618.5 },
+      { "field": "paymentsGPV", "oldValue": null, "newValue": 210600000.0 },
+      { "field": "totalRevenue", "oldValue": null, "newValue": 13756191.0 }
+    ]
+  },
+  {
+    "opportunityId": "006OG00000FYX8zYAH",
+    "accountName": "Hawes & Curtis Limited",
+    "changes": [
+      { "field": "nextStep", "oldValue": "13/02 MF: Finalising agency selection before signing Shopify contract.", "newValue": "20/02 MF: Finalising agency selection before signing Shopify contract. Paul Rogers (Vervaunt) introduced more agencies with design focus, might not sign before Q2 now. Catch up with Paul next week (Alexandra supporting)." },
+      { "field": "ecommAmount", "oldValue": null, "newValue": 82800.0 },
+      { "field": "projectedBilledRevenue", "oldValue": null, "newValue": 664590.3 },
+      { "field": "paymentsGPV", "oldValue": null, "newValue": 32500000.0 },
+      { "field": "totalRevenue", "oldValue": null, "newValue": 2040937.5 }
+    ]
+  },
+  {
+    "opportunityId": "006OG00000Dh2YXYAZ",
+    "accountName": "Bugaboo International B.V",
+    "changes": [
+      { "field": "competitor", "oldValue": null, "newValue": "Salesforce Commerce Cloud" },
+      { "field": "nextStep", "oldValue": null, "newValue": "23/02 BR Call with Jordan. He is working through biz case but biggest aspect is going to be the SP since we will not approve Adyen. Agency decision in March. SP call schedulled for 11th March" },
+      { "field": "ecommAmount", "oldValue": null, "newValue": 82800.0 },
+      { "field": "projectedBilledRevenue", "oldValue": null, "newValue": 276727.83 },
+      { "field": "totalRevenue", "oldValue": null, "newValue": 841500.0 }
+    ]
+  },
+  {
+    "opportunityId": "006OG00000KW83lYAD",
+    "accountName": "C.P. Hart & Sons Limited",
+    "changes": [
+      { "field": "nextStep", "oldValue": null, "newValue": "19.02 presented commercials, board meeting this month, awaiting statements for RR, NDA in works" },
+      { "field": "ecommAmount", "oldValue": null, "newValue": 82800.0 },
+      { "field": "projectedBilledRevenue", "oldValue": null, "newValue": 758832.18 },
+      { "field": "paymentsGPV", "oldValue": null, "newValue": 26000000.0 },
+      { "field": "totalRevenue", "oldValue": null, "newValue": 2184000.0 }
+    ]
+  },
+  {
+    "opportunityId": "006OG00000JMQ91YAH",
+    "accountName": "TRINNY LONDON",
+    "changes": [
+      { "field": "nextStep", "oldValue": null, "newValue": "20/02 MF: Supporting them with the business case, technical validation and with merchant references. Started a rate review discussion. Catch up on 25/02" },
+      { "field": "ecommAmount", "oldValue": null, "newValue": 82800.0 },
+      { "field": "projectedBilledRevenue", "oldValue": null, "newValue": 948568.42 },
+      { "field": "paymentsGPV", "oldValue": null, "newValue": 49400000.0 },
+      { "field": "totalRevenue", "oldValue": null, "newValue": 3311700.0 }
+    ]
+  },
+  {
+    "opportunityId": "006OG00000GJ5IvYAL",
+    "accountName": "The Dune Group",
+    "changes": [
+      { "field": "nextStep", "oldValue": "19.02 onsite meeting cancelled", "newValue": "19.02 onsite meeting cancelled as team members sick, had meeting with Dune and Tryzens to discuss launch steps, Martin confirmed They're very close to getting budged signed off \"any day now\"" },
+      { "field": "ecommAmount", "oldValue": null, "newValue": 82800.0 },
+      { "field": "projectedBilledRevenue", "oldValue": null, "newValue": 641867.88 },
+      { "field": "totalRevenue", "oldValue": null, "newValue": 4269146.5 }
+    ],
+    "newCall": {
+      "eventId": "_60q30c1g60o30e1i60o4ac1g60rj8gpl88rj2c1h84s34h9g60s30c1g60o30c1g74o46e1p84ojed1p75148gpg64o30c1g60o30c1g60o30c1g60o32c1g60o30c1g6orjaghg690jec1i74pkachk88s4cg9p60r3eh1i8p1j4c1k6kr0",
+      "title": "Dial in session with Shopify",
+      "date": "2026-02-19",
+      "duration": 30,
+      "platform": "google_meet",
+      "hasTranscript": false,
+      "shopifyAttendees": ["adriana.colacicco@shopify.com", "sarah.berelowitz@shopify.com"],
+      "merchantAttendees": ["mwareing@thedunegroup.com", "agrainger@thedunegroup.com", "juddin@thedunegroup.com", "mburfoot@thedunegroup.com", "mhawes@thedunegroup.com", "mmavropoulou@thedunegroup.com", "msubirats-knowles@thedunegroup.com", "ro'hara@thedunegroup.com"]
+    }
+  }
+]
