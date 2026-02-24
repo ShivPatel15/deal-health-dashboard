@@ -1,246 +1,797 @@
 {
   "salesforce": {
-    "opportunity_id": "006OG00000JMQ91YAH",
-    "account_name": "TRINNY LONDON",
-    "account_id": "0018V00002czmgWQAQ",
+    "opportunityId": "006OG00000JMQ91YAH",
+    "accountName": "TRINNY LONDON",
+    "accountId": "0018V00002czmgWQAQ",
     "stage": "Solution",
-    "close_date": "2026-06-30",
+    "closeDate": "2026-06-30",
+    "forecastCategory": "Pipeline",
     "probability": 40,
-    "forecast_category": "Pipeline",
+    "merchantIntent": "Uncommitted",
     "type": "New Business",
-    "merchant_intent": "Uncommitted",
-    "created_date": "2025-12-08",
-    "owner": "Maissa Fatte",
-    "owner_email": "maissa.fatte@shopify.com",
     "revenue": {
-      "amount": 82800,
-      "total_revenue_3yr": 3311700,
-      "projected_billed_revenue": 948568.42,
-      "d2c_gmv": 76000000,
-      "b2b_gmv": null,
-      "retail_gmv": null,
-      "payments_gpv": 49400000,
-      "payments_attached": true,
+      "mcv": 82800,
+      "totalRev3yr": 3311700,
+      "d2cGmv": 76000000,
+      "b2bGmv": null,
+      "retailGmv": null,
+      "paymentsGpv": 49400000,
+      "paymentsAttached": true,
       "ipp": 1745433.48
     },
+    "projectedBilledRevenue": 948568.42,
     "products": [
-      {"name": "Plus Product Suite", "code": "PSUITE-PLUS", "amount": 0},
-      {"name": "D2C - Standard", "code": "PLAN-PLUS-STD", "amount": 82800},
-      {"name": "Shopify Payments - D2C Plus, Shopify for ent, CCS", "code": "MSERV-FIN-SP-D2C-P", "amount": 0}
+      "Plus Product Suite",
+      "D2C - Standard",
+      "Shopify Payments - D2C Plus, Shopify for ent, CCS"
     ],
-    "stakeholders": [
-      {"name": "Jay Jetley", "title": "CTO", "role": "Emergency Technical Contact", "email": "jay@trinnylondon.com"}
-    ],
-    "shopify_team": [
-      {"name": "Stephen Brook", "role": "Solutions Engineer", "email": "stephen.brook@shopify.com"}
-    ],
-    "compelling_event": null,
-    "ae_next_steps": "20/02 MF: Supporting them with the business case, technical validation and with merchant references. Started a rate review discussion. Catch up on 25/02",
-    "se_next_steps": "Comprehensive follow-up email sent Feb 17 covering all outstanding questions from Feb 13 call (store architecture, dual-store implications doc attached, Markets guidance, tax considerations). Ben Homer cc'd as SE cover during paternity leave (18 Feb - 17 Mar). Hiten acknowledged receipt. Deal expected to close during Stephen's leave — Ben Homer to support. Maissa working Adyen vs SP conversion rate comparison and POS hardware pricing (19 terminals).",
     "competitor": null,
-    "position_vs_competitor": null,
-    "other_competitor": null,
-    "proposed_launch_date_plus": null,
-    "proposed_launch_date_retail": null,
-    "proposed_launch_date_b2b": null,
-    "proposed_launch_date_enterprise": null
+    "compellingEvent": "",
+    "nextStep": null,
+    "stakeholders": [
+      {
+        "name": "Jay Jetley",
+        "title": "CTO",
+        "role": "Emergency Technical Contact",
+        "email": "jay@trinnylondon.com",
+        "engagement": "high",
+        "callsAttended": 2,
+        "callsInvited": 2
+      }
+    ],
+    "shopifyTeam": [
+      {
+        "name": "Stephen Brook",
+        "role": "Solutions Engineer",
+        "email": "stephen.brook@shopify.com"
+      }
+    ],
+    "owner": "Maissa Fatte",
+    "ownerEmail": "maissa.fatte@shopify.com"
   },
   "meddpicc_analysis": {
-    "narratives": {
-      "opp_summary": "Trinny London is an $82,800 Plus deal (D2C Standard) with $76M projected D2C GMV, $49.4M Payments GPV, and a 3-year total revenue of $3.31M. The London-based beauty brand is evaluating a migration from Commerce Tools (their current headless commerce platform) to Shopify Plus, driven by contract renewal timing, operational inefficiencies, tech debt, and a desire for faster development and reduced total cost of ownership. The deal is currently in Solution stage at 40% probability with a June 30, 2026 close target, and the merchant is actively deep in technical validation — having conducted 14 calls including detailed architecture demos, tax/store structure discussions, and business case presentations.",
-      "why_change": "Trinny London's current Commerce Tools headless architecture is creating significant operational friction and cost burden. The team explicitly stated they are exploring alternatives due to their Commerce Tools renewal, citing the need for increased efficiencies, enhanced internationalization (Germany), and better tech support. Their headless setup has created challenges with bundling and customization — core to their 'match to me' personalized product experience. They've been considering moving back to Shopify for nearly a year (since April 2025), with concerns about headless limitations around app compatibility, tax handling, discount codes, and gift cards. Faye Roth stressed the importance of swift decision to avoid stagnation, suggesting internal frustration with the pace of progress on their current stack.",
-      "why_shopify": "Shopify is positioned as a unified commerce platform that reduces complexity and lowers TCO compared to Commerce Tools' composable/headless approach. The headed (integrated) theme approach enables significantly faster migration (3-6 months vs longer headless rebuilds), with a hybrid option for initial launch speed. Business case highlights conversion uplift, TCO reduction, and improved CX as key differentiators. The Feb 5 demo showcased native capabilities around promotions, product management, dynamic price lists for multi-market differentiation, and flexible product variants/metafields. Shopify Payments ($49.4M GPV) is a significant value driver with competitive rates and revenue impact simulations offered. The merchant is evaluating D2C first before multi-channel POS, aligning with Shopify's platform expansion model.",
-      "why_now": "The Commerce Tools contract renewal is the primary compelling event. Internal urgency is evident: a board-level go/no-go decision was referenced in the Feb 4 check-in, Faye Roth emphasized avoiding stagnation, and the team is targeting a full launch by early next FY. The combination of contract renewal pressure, board-level attention, and nearly a year of evaluation (since April 2025) suggests the merchant is approaching a decision point, though the 'Uncommitted' merchant intent flag indicates they haven't fully committed to migrating yet.",
-      "support_needed": "Key support areas: (1) Merchant references for brands that migrated from headless/composable to Shopify Plus; (2) Adyen vs Shopify Payments conversion rate comparison and POS hardware pricing for 19 terminals; (3) Tax and store architecture clarity — single vs dual store for US tax filing automation, Avalara integration, Shopify Tax capabilities; (4) HCL partner enablement — they have limited Shopify experience; (5) Advanced bundling and VIP price list solutions for their 'match to me' personalized products; (6) Rate review / commercial optimization for TCO argument; (7) Continuity during Stephen Brook's paternity leave (Feb 18 – Mar 17) — Ben Homer covering as SE."
+    "narrative": {
+      "oppSummary": "Trinny London is an $82,800 Plus deal (D2C Standard) with $76M projected D2C GMV, $49.4M Payments GPV, and a 3-year total revenue of $3.31M. The London-based beauty brand is evaluating a migration from Commerce Tools (their current headless commerce platform) to Shopify Plus, driven by contract renewal timing, operational inefficiencies, tech debt, and a desire for faster development and reduced total cost of ownership. The deal is currently in Solution stage at 40% probability with a June 30, 2026 close target, and the merchant is actively deep in technical validation \u2014 having conducted 14 calls including detailed architecture demos, tax/store structure discussions, and business case presentations.",
+      "whyChange": "Trinny London's current Commerce Tools headless architecture is creating significant operational friction and cost burden. The team explicitly stated they are exploring alternatives due to their Commerce Tools renewal, citing the need for increased efficiencies, enhanced internationalization (Germany), and better tech support. Their headless setup has created challenges with bundling and customization \u2014 core to their 'match to me' personalized product experience. They've been considering moving back to Shopify for nearly a year (since April 2025), with concerns about headless limitations around app compatibility, tax handling, discount codes, and gift cards. Faye Roth stressed the importance of swift decision to avoid stagnation, suggesting internal frustration with the pace of progress on their current stack.",
+      "whyShopify": "Shopify is positioned as a unified commerce platform that reduces complexity and lowers TCO compared to Commerce Tools' composable/headless approach. The headed (integrated) theme approach enables significantly faster migration (3-6 months vs longer headless rebuilds), with a hybrid option for initial launch speed. Business case highlights conversion uplift, TCO reduction, and improved CX as key differentiators. The Feb 5 demo showcased native capabilities around promotions, product management, dynamic price lists for multi-market differentiation, and flexible product variants/metafields. Shopify Payments ($49.4M GPV) is a significant value driver with competitive rates and revenue impact simulations offered. The merchant is evaluating D2C first before multi-channel POS, aligning with Shopify's platform expansion model.",
+      "whyNow": "The urgency has sharpened considerably since the Feb 13 call. James Parker stated explicitly that 'every day we don't have a decision is costly to the project delivery' and indicated the team was hoping for 'a final decision in the next one to two weeks' \u2014 targeting ~Feb 27. It is now Feb 24 and merchant intent remains 'Uncommitted,' suggesting the decision is either imminent or has slipped. The unresolved tax architecture question (single store vs. dual store) is the critical blocker: Claire Curran flagged that the lack of automated US tax filing in a single-store model is 'edging toward a red flag.' The Commerce Tools renewal remains the macro compelling event, but the micro-urgency is now project delivery cost accumulating daily. Stephen Brook's paternity leave from Feb 18 created a handover gap to Ben Homer/Ben Rees.",
+      "supportNeeded": "Key support areas: (1) Tax architecture recommendation with clear trade-off analysis \u2014 Claire Curran and James Parker need a definitive recommendation, not three options; (2) Regional discount/promotion workaround validation \u2014 discount codes not market-specific natively, need proven workaround with merchant reference; (3) Recommended app stack for cost modeling; (4) Seamless SE handover continuity \u2014 Ben Homer/Rees must be fully briefed on tax decision context, discount limitation, and HCL alignment; (5) Merchant references for brands that migrated from headless/composable to Shopify Plus (CEO-level request, still outstanding); (6) Dual-store Netsuite integration clarity."
     },
-    "sections": {
+    "meddpicc": {
       "metrics": {
-        "questions": {
-          "q1": {"score": "Yes", "text": "Do we know the business reasons driving the opportunity?", "notes": "Multiple calls confirm business reasons: operational inefficiencies, tech debt from headless architecture, bundling/customization challenges, need for better internationalization (Germany), reduced TCO, conversion uplift.", "solution": null, "action": null, "due_date": null},
-          "q2": {"score": "Partial", "text": "Have we identified and quantified the key metrics the customer will use to measure success?", "notes": "$76M D2C GMV, $49.4M Payments GPV, ~£60M turnover are known. Business case references conversion uplift and TCO reduction as goals, but no specific quantified targets captured from merchant.", "solution": "Work with Charlotte to define specific, quantifiable success metrics tied to the migration.", "action": "Maissa to follow up with Charlotte on projected GMV and cost analysis, and anchor specific KPIs in the business case.", "due_date": "2026-02-28"},
-          "q3": {"score": "Yes", "text": "Does the customer agree there is a need for a solution?", "notes": "The entire evaluation is predicated on the need for a platform change. Commerce Tools renewal is the trigger, and Shopify vs staying is the core decision.", "solution": null, "action": null, "due_date": null},
-          "q4": {"score": "Partial", "text": "Have we quantified the impact of not changing (cost of inaction)?", "notes": "Faye Roth stressed 'importance of swift decision to avoid stagnation' and general pain around operational inefficiency and tech debt is clear. However, specific quantified impact of NOT changing hasn't been explicitly documented.", "solution": "Quantify the cost of inaction — what does another year on Commerce Tools cost in developer hours, lost conversion, delayed Germany launch?", "action": "Maissa to build a 'cost of doing nothing' slide into the business case with specific financial projections.", "due_date": "2026-03-04"},
-          "q5": {"score": "Yes", "text": "Is there a compelling event driving urgency?", "notes": "Commerce Tools contract renewal. Board-level go/no-go decision referenced (Feb 4). Target of full launch by early next FY. Multiple references to tight timelines and urgency.", "solution": null, "action": "Confirm the exact Commerce Tools renewal date to anchor the timeline.", "due_date": "2026-02-25"},
-          "q6": {"score": "Partial", "text": "Has the customer validated and agreed to our stated metrics?", "notes": "Business case presented with conversion uplift, TCO reduction, improved CX pillars. However, no evidence merchant has explicitly validated and agreed to Shopify's stated metrics.", "solution": "Get explicit merchant sign-off on the key business case metrics/assumptions.", "action": "In the Feb 25 catch-up, Maissa to walk through business case metrics and get Charlotte/Faye to confirm or adjust assumptions.", "due_date": "2026-02-25"},
-          "q7": {"score": "Partial", "text": "Are the metrics compelling enough to drive a decision?", "notes": "Metrics around TCO, conversion, and operational efficiency are directionally compelling. However, 'Uncommitted' intent and 40% probability suggest the case isn't yet compelling enough. Financial comparison still being built.", "solution": "Complete the Adyen vs Shopify Payments analysis and full TCO comparison to make the financial case undeniable.", "action": "Maissa to finalize Adyen vs SP conversion rate comparison and incorporate into business case.", "due_date": "2026-03-04"}
-        }
+        "label": "Metrics",
+        "questions": [
+          {
+            "q": "Do we know the business reasons as to why they are migrating?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Multiple calls confirm business reasons: operational inefficiencies, tech debt from headless architecture, bundling/customization challenges, need for better internationalization (Germany), reduced TCO, conversion uplift.",
+            "solution": "",
+            "action": "",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do we have specific quantifiable goals aligned with the project?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "$76M D2C GMV, $49.4M Payments GPV, ~\u00a360M turnover are known. Business case references conversion uplift and TCO reduction as goals, but no specific quantified targets captured from merchant.",
+            "solution": "Work with Charlotte to define specific, quantifiable success metrics tied to the migration.",
+            "action": "Maissa to follow up with Charlotte on projected GMV and cost analysis, and anchor specific KPIs in the business case.",
+            "due": "2026-02-28",
+            "highlight": false
+          },
+          {
+            "q": "Do they need to make a platform change to achieve this goal?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "The entire evaluation is predicated on the need for a platform change. Commerce Tools renewal is the trigger, and Shopify vs staying is the core decision.",
+            "solution": "",
+            "action": "",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do we understand the impact if this goal isn't achieved?",
+            "answer": "Yes",
+            "score": 0.5,
+            "notes": "James Parker stated: 'every day we don't have a decision is costly to the project delivery.' Claire Curran: 'significant uplift in workload' for manual filing. Impact of inaction now clear across financial, operational, and project dimensions.",
+            "solution": "Quantify the cost of inaction \u2014 what does another year on Commerce Tools cost in developer hours, lost conversion, delayed Germany launch?",
+            "action": "Reflect urgency language in follow-up comms to maintain pressure.",
+            "due": "2026-02-25",
+            "highlight": false
+          },
+          {
+            "q": "Is there a compelling event in place driving action?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Commerce Tools contract renewal. Board-level go/no-go decision referenced (Feb 4). Target of full launch by early next FY. Multiple references to tight timelines and urgency.",
+            "solution": "",
+            "action": "Confirm the exact Commerce Tools renewal date to anchor the timeline.",
+            "due": "2026-02-25",
+            "highlight": false
+          },
+          {
+            "q": "Have I validated the metrics with the customer?",
+            "answer": "Yes",
+            "score": 0.5,
+            "notes": "James committed to 'one to two week' decision timeline (from Feb 13 = ~Feb 27). Driven by project delivery cost + Commerce Tools renewal. Two-tier compelling event confirmed.",
+            "solution": "Get explicit merchant sign-off on the key business case metrics/assumptions.",
+            "action": "Validate if ~Feb 27 timeline is holding on Feb 25 catch-up.",
+            "due": "2026-02-25",
+            "highlight": false
+          },
+          {
+            "q": "Are the metrics compelling enough to justify change?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Metrics around TCO, conversion, and operational efficiency are directionally compelling. However, 'Uncommitted' intent and 40% probability suggest the case isn't yet compelling enough. Financial comparison still being built.",
+            "solution": "Complete the Adyen vs Shopify Payments analysis and full TCO comparison to make the financial case undeniable.",
+            "action": "Maissa to finalize Adyen vs SP conversion rate comparison and incorporate into business case.",
+            "due": "2026-03-04",
+            "highlight": false
+          }
+        ]
       },
-      "economic_buyer": {
-        "questions": {
-          "q1": {"score": "Partial", "text": "Have we identified the Economic Buyer?", "notes": "Jay Jetley (CTO) is listed as Salesforce stakeholder. Faye Roth appears senior driving urgency. Charlotte Lecuyer is primary operational contact. True economic buyer for a $3.3M 3-year commitment hasn't been clearly identified. Board meeting reference suggests EB sits at board level.", "solution": "Clarify who at board level is the final economic decision-maker.", "action": "Maissa to ask Charlotte/Faye directly: 'Who at board level will make the final sign-off on this investment?'", "due_date": "2026-02-25"},
-          "q2": {"score": "No", "text": "Do we know who will sign the contract?", "notes": "No information about who specifically will sign the contract. Jay Jetley as CTO may have signing authority but this hasn't been confirmed.", "solution": "Identify the contract signatory — likely legal/procurement or C-suite.", "action": "Maissa to ask: 'When we get to contract stage, who will be the signatory and what does your procurement process look like?'", "due_date": "2026-03-04"},
-          "q3": {"score": "Partial", "text": "Have we engaged directly with the Economic Buyer?", "notes": "Jay Jetley was in early April calls but hasn't appeared in recent calls. Faye Roth attended Feb 4 and Jan 28 calls but exact title unknown. No direct engagement with CEO/CFO.", "solution": "Get access to the true economic buyer.", "action": "Request a brief executive alignment call with the EB to validate business case and timeline.", "due_date": "2026-03-10"},
-          "q4": {"score": "Partial", "text": "Can we access the Economic Buyer through our Champion?", "notes": "Shopify has strong operational-level access. Faye may be able to facilitate EB access. Board go/no-go discussion suggests a path, but Shopify hasn't been in the room for that conversation.", "solution": "Leverage Faye or Charlotte to arrange EB introduction.", "action": "Maissa to request introduction to the final decision-maker, positioned as 'aligning on business case and timeline.'", "due_date": "2026-03-04"},
-          "q5": {"score": "Partial", "text": "Do we understand what the Economic Buyer values most?", "notes": "CTO (Jay) cares about technical feasibility. Faye cares about speed and avoiding stagnation. Charlotte cares about operational efficiency. Board priorities unknown.", "solution": "Understand the EB's top 3 priorities for this investment.", "action": "During EB engagement, ask what their #1 criterion for this decision is.", "due_date": "2026-03-10"},
-          "q6": {"score": "No", "text": "Do we understand the budget allocation and approval process?", "notes": "No evidence of understanding how budget is allocated, approval thresholds, or competing priorities. Jan 28 call mentioned Trinny is 'budget-conscious' (HCL partner choice).", "solution": "Map the budget approval process — CapEx/OpEx, board approval, budget envelope.", "action": "Maissa to probe Charlotte/Faye on budget allocation process and competing investment priorities.", "due_date": "2026-03-04"}
-        }
+      "economicBuyer": {
+        "label": "Economic Buyer",
+        "questions": [
+          {
+            "q": "Have I identified the true economic buyer?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Jay Jetley (CTO) is listed as Salesforce stakeholder. Faye Roth appears senior driving urgency. Charlotte Lecuyer is primary operational contact. True economic buyer for a $3.3M 3-year commitment hasn't been clearly identified. Board meeting reference suggests EB sits at board level.",
+            "solution": "Clarify who at board level is the final economic decision-maker.",
+            "action": "Maissa to ask Charlotte/Faye directly: 'Who at board level will make the final sign-off on this investment?'",
+            "due": "2026-02-25",
+            "highlight": false
+          },
+          {
+            "q": "Do we know who's signing the contract?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No information about who specifically will sign the contract. Jay Jetley as CTO may have signing authority but this hasn't been confirmed.",
+            "solution": "Identify the contract signatory \u2014 likely legal/procurement or C-suite.",
+            "action": "Maissa to ask: 'When we get to contract stage, who will be the signatory and what does your procurement process look like?'",
+            "due": "2026-03-04",
+            "highlight": false
+          },
+          {
+            "q": "Do we have access to this individual?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Jay Jetley was in early April calls but hasn't appeared in recent calls. Faye Roth attended Feb 4 and Jan 28 calls but exact title unknown. No direct engagement with CEO/CFO.",
+            "solution": "Get access to the true economic buyer.",
+            "action": "Request a brief executive alignment call with the EB to validate business case and timeline.",
+            "due": "2026-03-10",
+            "highlight": false
+          },
+          {
+            "q": "Can we get access?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Shopify has strong operational-level access. Faye may be able to facilitate EB access. Board go/no-go discussion suggests a path, but Shopify hasn't been in the room for that conversation.",
+            "solution": "Leverage Faye or Charlotte to arrange EB introduction.",
+            "action": "Maissa to request introduction to the final decision-maker, positioned as 'aligning on business case and timeline.'",
+            "due": "2026-03-04",
+            "highlight": false
+          },
+          {
+            "q": "Do we know what the economic buyer cares about most?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "James Parker's priorities now clearer: (1) minimizing project delay cost, (2) total cost of ownership per architecture, (3) regional promotion flexibility. Claire cares about tax filing workload. But ultimate EB's (CEO/board) priorities still unknown.",
+            "solution": "Understand the EB's top 3 priorities for this investment.",
+            "action": "Ask champion if CEO has additional/different criteria beyond James's priorities.",
+            "due": "2026-02-28",
+            "highlight": false
+          },
+          {
+            "q": "Do you know how they make decisions and allocate budget?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No evidence of understanding how budget is allocated, approval thresholds, or competing priorities. Jan 28 call mentioned Trinny is 'budget-conscious' (HCL partner choice).",
+            "solution": "Map the budget approval process \u2014 CapEx/OpEx, board approval, budget envelope.",
+            "action": "Maissa to probe Charlotte/Faye on budget allocation process and competing investment priorities.",
+            "due": "2026-03-04",
+            "highlight": false
+          }
+        ]
       },
-      "decision_process": {
-        "questions": {
-          "q1": {"score": "Partial", "text": "Do we know the full decision-making process?", "notes": "Board-level go/no-go decision known. Technical validation and business case evaluation underway. Full end-to-end process from evaluation to vendor selection to procurement to contract not mapped.", "solution": "Map the complete decision process from current state to signed contract.", "action": "Maissa to ask: 'Can you walk me through what happens between now and a signed contract?'", "due_date": "2026-02-25"},
-          "q2": {"score": "Partial", "text": "Have we identified all decision-makers and influencers?", "notes": "Good visibility into evaluation committee: Charlotte (ecommerce lead), Claire Curran (tax/finance), Rob Brown (technical/UX), Faye Roth (senior), Hiten (technical), Jay Jetley (CTO), HCL team. Don't know formal buying committee or veto power.", "solution": "Confirm formal decision-making committee and each person's role.", "action": "Maissa to map the buying committee with Charlotte — who has a vote, who has a veto?", "due_date": "2026-02-25"},
-          "q3": {"score": "Partial", "text": "Do we know the decision timeline?", "notes": "Jan 8: full launch by early next FY. Jan 28: rapid MVP decision. Feb 4: board go/no-go. SF close date June 30, 2026. Exact vendor selection date not pinned.", "solution": "Distinguish vendor decision date from go-live target.", "action": "Maissa to confirm: 'When do you need to make a final vendor decision by?'", "due_date": "2026-02-25"},
-          "q4": {"score": "Yes", "text": "Is there an event driving the decision timeline?", "notes": "Commerce Tools renewal driving timeline. Board-level pressure clear. Faye's urgency about stagnation. Target of early next FY launch.", "solution": null, "action": "Confirm exact Commerce Tools renewal date.", "due_date": "2026-02-25"},
-          "q5": {"score": "Yes", "text": "Have they tried to solve this problem before?", "notes": "Currently on Commerce Tools — previous attempt to solve commerce needs after leaving Shopify. They moved to headless and are now reconsidering that decision.", "solution": null, "action": null, "due_date": null},
-          "q6": {"score": "Partial", "text": "Do they understand the consequences of not deciding?", "notes": "Faye stressed stagnation risk. General pain around inefficiency clear. But specific consequences of not acting haven't been explicitly articulated by merchant.", "solution": "Help the merchant articulate cost of doing nothing in concrete terms.", "action": "Include 'cost of inaction' analysis in next business case update.", "due_date": "2026-03-04"},
-          "q7": {"score": "Partial", "text": "Has the decision process been validated?", "notes": "Partially validated through repeated engagement — Faye confirmed board meeting timeline, Charlotte managing evaluation cadence. Formal validation of full procurement/decision process hasn't occurred.", "solution": "Get explicit confirmation of the process from a decision-maker.", "action": "Ask Faye or Charlotte to validate the full process map once created.", "due_date": "2026-03-04"}
-        }
+      "decisionProcess": {
+        "label": "Decision Process",
+        "questions": [
+          {
+            "q": "Do we know how they will be making the decision?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Board-level go/no-go decision known. Technical validation and business case evaluation underway. Full end-to-end process from evaluation to vendor selection to procurement to contract not mapped.",
+            "solution": "Map the complete decision process from current state to signed contract.",
+            "action": "Maissa to ask: 'Can you walk me through what happens between now and a signed contract?'",
+            "due": "2026-02-25",
+            "highlight": false
+          },
+          {
+            "q": "Do we know who's involved / buying committee?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Good visibility into evaluation committee: Charlotte (ecommerce lead), Claire Curran (tax/finance), Rob Brown (technical/UX), Faye Roth (senior), Hiten (technical), Jay Jetley (CTO), HCL team. Don't know formal buying committee or veto power.",
+            "solution": "Confirm formal decision-making committee and each person's role.",
+            "action": "Maissa to map the buying committee with Charlotte \u2014 who has a vote, who has a veto?",
+            "due": "2026-02-25",
+            "highlight": false
+          },
+          {
+            "q": "Do we know when they want to make a decision by?",
+            "answer": "Yes",
+            "score": 0.5,
+            "notes": "James Parker stated: 'in the next one to two weeks we'll have a final decision' (from Feb 13 = ~Feb 27). Most concrete timeline commitment yet. Caveatted with 'don't want to overcommit' \u2014 slight slippage risk.",
+            "solution": "Distinguish vendor decision date from go-live target.",
+            "action": "Maissa to open Feb 25 call: 'James mentioned targeting a decision by end of this week \u2014 are we on track?'",
+            "due": "2026-02-25",
+            "highlight": false
+          },
+          {
+            "q": "Do we know what is driving this timeline?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Commerce Tools renewal driving timeline. Board-level pressure clear. Faye's urgency about stagnation. Target of early next FY launch.",
+            "solution": "",
+            "action": "Confirm exact Commerce Tools renewal date.",
+            "due": "2026-02-25",
+            "highlight": false
+          },
+          {
+            "q": "Do we know if they have tried to solve this problem before?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Currently on Commerce Tools \u2014 previous attempt to solve commerce needs after leaving Shopify. They moved to headless and are now reconsidering that decision.",
+            "solution": "",
+            "action": "",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do we know what will happen if they do nothing?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Faye stressed stagnation risk. General pain around inefficiency clear. But specific consequences of not acting haven't been explicitly articulated by merchant.",
+            "solution": "Help the merchant articulate cost of doing nothing in concrete terms.",
+            "action": "Include 'cost of inaction' analysis in next business case update.",
+            "due": "2026-03-04",
+            "highlight": false
+          },
+          {
+            "q": "Have you validated this process with the buyer?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Partially validated through repeated engagement \u2014 Faye confirmed board meeting timeline, Charlotte managing evaluation cadence. Formal validation of full procurement/decision process hasn't occurred.",
+            "solution": "Get explicit confirmation of the process from a decision-maker.",
+            "action": "Ask Faye or Charlotte to validate the full process map once created.",
+            "due": "2026-03-04",
+            "highlight": false
+          }
+        ]
       },
-      "decision_criteria": {
-        "questions": {
-          "q1": {"score": "Partial", "text": "Do we know the formal decision criteria?", "notes": "Criteria gathered organically: TCO/cost, migration speed, operational efficiency, bundling/customization, internationalization, tax automation, SP economics, app ecosystem, headless flexibility. No formal weighted list from merchant.", "solution": "Get a formal, prioritized list of decision criteria from the buying committee.", "action": "Maissa to ask: 'What are your top 5 criteria for this decision, and how are you weighting them?'", "due_date": "2026-02-25"},
-          "q2": {"score": "Partial", "text": "Are we aligned on D2C, B2B, Retail, and Payments requirements?", "notes": "D2C is primary focus, extensively discussed. POS mentioned briefly (19 terminals). B2B GMV null, not discussed. D2C well-covered, POS secondary, B2B not applicable.", "solution": "Confirm POS requirements and timeline as part of phased approach.", "action": "Maissa/Ben Homer to include POS scoping in upcoming discussions.", "due_date": "2026-03-10"},
-          "q3": {"score": "Yes", "text": "Have technical integrations and requirements been surfaced?", "notes": "Extensively surfaced: tax systems (Avalara, Shopify Tax), payment processing (Adyen vs SP), HCL as implementation partner, headless vs headed architecture, store architecture for multi-market, bundling solutions, metafields, discount codes. Feb 17 follow-up addressed outstanding technical questions.", "solution": null, "action": "Continue addressing technical questions through Ben Homer during Stephen's leave.", "due_date": null},
-          "q4": {"score": "Yes", "text": "Have Payments requirements been discussed?", "notes": "SP with $49.4M GPV attached. Feb 4 call included SP rate discussion and revenue impact simulation. Maissa working on Adyen vs SP conversion rate comparison. Competitive rates offered.", "solution": null, "action": "Maissa to complete Adyen vs SP analysis.", "due_date": "2026-02-28"},
-          "q5": {"score": "No", "text": "Is there a mutual action plan (MAP)?", "notes": "No formal MAP or mutual close plan documented or agreed. Engagement has been reactive/organic.", "solution": "Create a mutual action plan with key milestones, owners, and dates.", "action": "Maissa to draft a MAP and propose it during the Feb 25 catch-up.", "due_date": "2026-02-25"},
-          "q6": {"score": "Partial", "text": "Are we shaping the decision criteria in our favor?", "notes": "Actively shaping through demos, business case, architecture recommendations (headed vs headless), SP positioning. However, Commerce Tools likely also active — no visibility into their engagement.", "solution": "Understand what Commerce Tools is presenting and counter-position.", "action": "Ask Charlotte/Faye: 'What is Commerce Tools proposing for renewal?'", "due_date": "2026-03-04"},
-          "q7": {"score": "No", "text": "Do we know who defined the decision criteria?", "notes": "No evidence of who originally defined the evaluation criteria — IT/CTO, operations, board, or external consultant.", "solution": "Identify who set the evaluation criteria and whether Shopify can influence them.", "action": "Maissa to ask: 'Who put together the evaluation criteria for this platform decision?'", "due_date": "2026-03-04"}
-        }
+      "decisionCriteria": {
+        "label": "Decision Criteria",
+        "questions": [
+          {
+            "q": "Do we know what criteria the customer is using to evaluate vendors?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Criteria gathered organically: TCO/cost, migration speed, operational efficiency, bundling/customization, internationalization, tax automation, SP economics, app ecosystem, headless flexibility. No formal weighted list from merchant.",
+            "solution": "Get a formal, prioritized list of decision criteria from the buying committee.",
+            "action": "Maissa to ask: 'What are your top 5 criteria for this decision, and how are you weighting them?'",
+            "due": "2026-02-25",
+            "highlight": false
+          },
+          {
+            "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "D2C is primary focus, extensively discussed. POS mentioned briefly (19 terminals). B2B GMV null, not discussed. D2C well-covered, POS secondary, B2B not applicable.",
+            "solution": "Confirm POS requirements and timeline as part of phased approach.",
+            "action": "Maissa/Ben Homer to include POS scoping in upcoming discussions.",
+            "due": "2026-03-10",
+            "highlight": false
+          },
+          {
+            "q": "Have we surfaced technical complications (integrations)?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Extensively surfaced: tax systems (Avalara, Shopify Tax), payment processing (Adyen vs SP), HCL as implementation partner, headless vs headed architecture, store architecture for multi-market, bundling solutions, metafields, discount codes. Feb 17 follow-up addressed outstanding technical questions.",
+            "solution": "",
+            "action": "Continue addressing technical questions through Ben Homer during Stephen's leave.",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do we know how payments play into their decision?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "SP with $49.4M GPV attached. Feb 4 call included SP rate discussion and revenue impact simulation. Maissa working on Adyen vs SP conversion rate comparison. Competitive rates offered.",
+            "solution": "",
+            "action": "Maissa to complete Adyen vs SP analysis.",
+            "due": "2026-02-28",
+            "highlight": false
+          },
+          {
+            "q": "Do we have a mutual action plan in place?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No formal MAP or mutual close plan documented or agreed. Engagement has been reactive/organic.",
+            "solution": "Create a mutual action plan with key milestones, owners, and dates.",
+            "action": "Maissa to draft a MAP and propose it during the Feb 25 catch-up.",
+            "due": "2026-02-25",
+            "highlight": false
+          },
+          {
+            "q": "Did we help shape those criteria in our favour?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Actively shaping through demos, business case, architecture recommendations (headed vs headless), SP positioning. However, Commerce Tools likely also active \u2014 no visibility into their engagement.",
+            "solution": "Understand what Commerce Tools is presenting and counter-position.",
+            "action": "Ask Charlotte/Faye: 'What is Commerce Tools proposing for renewal?'",
+            "due": "2026-03-04",
+            "highlight": false
+          },
+          {
+            "q": "Do we know who defined the decision criteria?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No evidence of who originally defined the evaluation criteria \u2014 IT/CTO, operations, board, or external consultant.",
+            "solution": "Identify who set the evaluation criteria and whether Shopify can influence them.",
+            "action": "Maissa to ask: 'Who put together the evaluation criteria for this platform decision?'",
+            "due": "2026-03-04",
+            "highlight": false
+          }
+        ]
       },
-      "paper_process": {
-        "questions": {
-          "q1": {"score": "No", "text": "Do we know the procurement process?", "notes": "No discussion of procurement process captured. Don't know if there's formal RFP, legal review, security assessment, or procurement team.", "solution": "Map the procurement process early to avoid surprises.", "action": "Maissa to ask Charlotte/Faye: 'Once a decision is made, what does your procurement and contracting process look like?'", "due_date": "2026-03-04"},
-          "q2": {"score": "No", "text": "Have likely contract redlines been identified?", "notes": "No information about legal review requirements. Given ~£60M turnover, they likely have legal review processes.", "solution": "Anticipate common enterprise redlines and prepare Shopify legal.", "action": "Maissa to proactively ask about legal review process and deal-breaker terms.", "due_date": "2026-03-10"},
-          "q3": {"score": "No", "text": "Do we know the legal review timeline?", "notes": "No information on legal review duration.", "solution": "Get an estimate of legal review timeline.", "action": "Include in procurement process discovery.", "due_date": "2026-03-10"},
-          "q4": {"score": "No", "text": "Do we know the overall procurement timeline?", "notes": "No information on overall procurement timeline from decision to signature.", "solution": "Map end-to-end timeline.", "action": "Include in procurement process discovery.", "due_date": "2026-03-10"},
-          "q5": {"score": "No", "text": "Have contract details been discussed?", "notes": "No contract details discussed. Deal is at Solution stage — contract hasn't been introduced yet.", "solution": "Prepare contract draft based on current scope for readiness.", "action": "Maissa to prepare preliminary contract scope/terms for when deal moves to Negotiate stage.", "due_date": "2026-03-15"},
-          "q6": {"score": "No", "text": "Has the contract been sent?", "notes": "Contract has not been sent. Deal is in Solution stage.", "solution": null, "action": "Send contract once technical validation is complete and decision criteria are met.", "due_date": "2026-04-15"},
-          "q7": {"score": "Partial", "text": "Is there a target signature date?", "notes": "SF close date is June 30, 2026. Merchant referenced 'early next FY' for go-live and board go/no-go process underway. No explicit target signature date agreed.", "solution": "Align on a target signature date that supports the go-live timeline.", "action": "Maissa to work backwards from desired go-live to determine when contract needs to be signed.", "due_date": "2026-03-04"}
-        }
+      "paperProcess": {
+        "label": "Paper Process",
+        "questions": [
+          {
+            "q": "Do we know what their procurement process is?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No discussion of procurement process captured. Don't know if there's formal RFP, legal review, security assessment, or procurement team.",
+            "solution": "Map the procurement process early to avoid surprises.",
+            "action": "Maissa to ask Charlotte/Faye: 'Once a decision is made, what does your procurement and contracting process look like?'",
+            "due": "2026-03-04",
+            "highlight": false
+          },
+          {
+            "q": "Are there likely to be redlines?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No information about legal review requirements. Given ~\u00a360M turnover, they likely have legal review processes.",
+            "solution": "Anticipate common enterprise redlines and prepare Shopify legal.",
+            "action": "Maissa to proactively ask about legal review process and deal-breaker terms.",
+            "due": "2026-03-10",
+            "highlight": false
+          },
+          {
+            "q": "If redlines, how long does review take?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No information on legal review duration.",
+            "solution": "Get an estimate of legal review timeline.",
+            "action": "Include in procurement process discovery.",
+            "due": "2026-03-10",
+            "highlight": false
+          },
+          {
+            "q": "Do we know how long it will take?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No information on overall procurement timeline from decision to signature.",
+            "solution": "Map end-to-end timeline.",
+            "action": "Include in procurement process discovery.",
+            "due": "2026-03-10",
+            "highlight": false
+          },
+          {
+            "q": "Do we have contract details?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No contract details discussed. Deal is at Solution stage \u2014 contract hasn't been introduced yet.",
+            "solution": "Prepare contract draft based on current scope for readiness.",
+            "action": "Maissa to prepare preliminary contract scope/terms for when deal moves to Negotiate stage.",
+            "due": "2026-03-15",
+            "highlight": false
+          },
+          {
+            "q": "Have we sent the contract?",
+            "answer": "No",
+            "score": 0,
+            "notes": "Contract has not been sent. Deal is in Solution stage.",
+            "solution": "",
+            "action": "Send contract once technical validation is complete and decision criteria are met.",
+            "due": "2026-04-15",
+            "highlight": false
+          },
+          {
+            "q": "Do we know target date for signature?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "SF close date is June 30, 2026. Merchant referenced 'early next FY' for go-live and board go/no-go process underway. No explicit target signature date agreed.",
+            "solution": "Align on a target signature date that supports the go-live timeline.",
+            "action": "Maissa to work backwards from desired go-live to determine when contract needs to be signed.",
+            "due": "2026-03-04",
+            "highlight": false
+          }
+        ]
       },
-      "identify_pain": {
-        "questions": {
-          "q1": {"score": "Yes", "text": "Have we identified the customer's key pain points?", "notes": "Extensively discussed: operational inefficiencies, complexity, slow development, bundling/customization challenges, tax handling requiring manual work, limited internationalization (Germany), app ecosystem limitations in headless, high TCO.", "solution": null, "action": null, "due_date": null},
-          "q2": {"score": "Yes", "text": "Have they tried to solve this problem before?", "notes": "Previously migrated from Shopify to Commerce Tools headless, which was itself an attempt to solve limitations. Now evaluating moving back — previous solution didn't work.", "solution": null, "action": "Use this narrative in business case: 'You've seen both sides — here's what's changed on Shopify since you left.'", "due_date": "2026-02-25"},
-          "q3": {"score": "Yes", "text": "Is the pain impacting business operations?", "notes": "Multiple impacts documented: manual US tax filing workload, slow development/time-to-market, high TCO, inability to easily manage promotions and pricing, data fragmentation concerns, stagnation risk.", "solution": null, "action": null, "due_date": null},
-          "q4": {"score": "Partial", "text": "Do we know who is affected by the pain?", "notes": "Multiple affected teams identified: ecommerce/merchandising (Charlotte, Rob), finance/tax (Claire), technology (Hiten, HCL), senior leadership (Faye), CTO (Jay). But extent of impact per team not quantified.", "solution": "Quantify team-level impact to strengthen business case.", "action": "Ask Charlotte to provide estimates of time/resources each team spends on workarounds.", "due_date": "2026-03-10"},
-          "q5": {"score": "Partial", "text": "Is there urgency to solve the pain?", "notes": "Clear urgency — Faye's stagnation comment, board-level review, Commerce Tools renewal. But not 'hair on fire' — 40% probability and 'Uncommitted' intent suggest merchant could renew with Commerce Tools.", "solution": "Increase urgency by quantifying cost of delay and highlighting competitive risk.", "action": "Include 'cost of 12-month delay' scenario in business case.", "due_date": "2026-03-04"},
-          "q6": {"score": "Partial", "text": "Have alternatives to Shopify been explored?", "notes": "Commerce Tools renewal is the obvious alternative. No other vendors mentioned. CT renewal offer not known.", "solution": "Understand the Commerce Tools renewal offer to counter-position.", "action": "Maissa to ask: 'What is Commerce Tools proposing for renewal?'", "due_date": "2026-02-25"},
-          "q7": {"score": "Yes", "text": "Is there a clear 'why now' for solving the pain?", "notes": "Commerce Tools renewal timing, board-level review, desire to launch on new platform by early next FY, frustration with stagnation, operational pain of manual processes (especially US tax).", "solution": null, "action": null, "due_date": null},
-          "q8": {"score": "Partial", "text": "Is Shopify well-positioned to solve the pain?", "notes": "Well-positioned for unified commerce, lower TCO, faster migration (headed approach). SP is a differentiator. Gaps in native bundling, VIP pricing, and some tax automation. Commerce Tools' composable architecture may appeal for flexibility.", "solution": "Ensure identified product gaps (bundling, VIP pricing) have clear app/partner solutions documented.", "action": "Ben Homer to follow up on Stephen's commitments to investigate VIP price list and advanced bundling solutions.", "due_date": "2026-03-04"}
-        }
+      "identifyPain": {
+        "label": "Identify Pain",
+        "questions": [
+          {
+            "q": "Do we know their current issues and why they are reviewing their tech stack?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Extensively discussed: operational inefficiencies, complexity, slow development, bundling/customization challenges, tax handling requiring manual work, limited internationalization (Germany), app ecosystem limitations in headless, high TCO.",
+            "solution": "",
+            "action": "",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Have they tried to resolve this issue in the past?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Previously migrated from Shopify to Commerce Tools headless, which was itself an attempt to solve limitations. Now evaluating moving back \u2014 previous solution didn't work.",
+            "solution": "",
+            "action": "Use this narrative in business case: 'You've seen both sides \u2014 here's what's changed on Shopify since you left.'",
+            "due": "2026-02-25",
+            "highlight": false
+          },
+          {
+            "q": "Do we know how pains are affecting business operations?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Multiple impacts documented: manual US tax filing workload, slow development/time-to-market, high TCO, inability to easily manage promotions and pricing, data fragmentation concerns, stagnation risk.",
+            "solution": "",
+            "action": "",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do we know what teams are affected and to what extent?",
+            "answer": "Yes",
+            "score": 0.5,
+            "notes": "Pain now mapped across 4 teams: (1) Engineering \u2014 tech debt, slow dev, (2) Finance/Tax \u2014 manual VAT filing, workload (Claire, Feb 13), (3) Marketing/Growth \u2014 can't run region-specific promotions (James, Feb 13), (4) Operations \u2014 complexity overhead (James, Feb 13).",
+            "solution": "Quantify team-level impact to strengthen business case.",
+            "action": "Ensure business case document reflects all 4 team impacts, not just engineering.",
+            "due": "2026-02-27",
+            "highlight": false
+          },
+          {
+            "q": "Do we know how urgent it is to solve this pain?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Clear urgency \u2014 Faye's stagnation comment, board-level review, Commerce Tools renewal. But not 'hair on fire' \u2014 40% probability and 'Uncommitted' intent suggest merchant could renew with Commerce Tools.",
+            "solution": "Increase urgency by quantifying cost of delay and highlighting competitive risk.",
+            "action": "Include 'cost of 12-month delay' scenario in business case.",
+            "due": "2026-03-04",
+            "highlight": false
+          },
+          {
+            "q": "Can they solve this pain using another option?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Commerce Tools renewal is the obvious alternative. No other vendors mentioned. CT renewal offer not known.",
+            "solution": "Understand the Commerce Tools renewal offer to counter-position.",
+            "action": "Maissa to ask: 'What is Commerce Tools proposing for renewal?'",
+            "due": "2026-02-25",
+            "highlight": false
+          },
+          {
+            "q": "Do we know why this problem is important to solve now?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Commerce Tools renewal timing, board-level review, desire to launch on new platform by early next FY, frustration with stagnation, operational pain of manual processes (especially US tax).",
+            "solution": "",
+            "action": "",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Is our solution uniquely positioned to solve this pain?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Well-positioned for unified commerce, lower TCO, faster migration (headed approach). SP is a differentiator. Gaps in native bundling, VIP pricing, and some tax automation. Commerce Tools' composable architecture may appeal for flexibility.",
+            "solution": "Ensure identified product gaps (bundling, VIP pricing) have clear app/partner solutions documented.",
+            "action": "Ben Homer to follow up on Stephen's commitments to investigate VIP price list and advanced bundling solutions.",
+            "due": "2026-03-04",
+            "highlight": false
+          }
+        ]
       },
       "champion": {
-        "questions": {
-          "q1": {"score": "Partial", "text": "Have we identified a Champion?", "notes": "Charlotte Lecuyer appears to be primary champion — in almost every call, driving evaluation operationally. Faye Roth shows champion-like behavior (driving urgency, attending business case calls). Neither explicitly tested as true champion.", "solution": "Validate Charlotte and/or Faye as true champions through champion test.", "action": "Maissa to have 1:1 with Charlotte (or Faye) and ask: 'If it were up to you, would you choose Shopify?'", "due_date": "2026-02-25"},
-          "q2": {"score": "Partial", "text": "Does our Champion have organizational credibility?", "notes": "Charlotte has operational credibility — coordinating evaluation, managing multiple teams. Faye has political capital — attended business case call, drove urgency. Formal positions and recommendation weight unknown.", "solution": "Understand Charlotte's and Faye's organizational authority.", "action": "Maissa to map org chart and understand reporting lines of key contacts.", "due_date": "2026-02-25"},
-          "q3": {"score": "Yes", "text": "Is our Champion sharing internal information?", "notes": "Evaluation team has shared significant internal information: platform pain points, HCL budget constraints, board meeting timelines, tax filing workload, projected GMV, competitive dynamics. High transparency suggests champion-level relationship.", "solution": null, "action": null, "due_date": null},
-          "q4": {"score": "Yes", "text": "Is our Champion connected with decision-makers?", "notes": "Charlotte and Faye appear connected — Feb 4 board meeting reference, Faye appears close to senior leadership. Charlotte coordinates across CTO, finance, and HCL partner.", "solution": null, "action": null, "due_date": null},
-          "q5": {"score": "No", "text": "Has our Champion introduced us to the Economic Buyer?", "notes": "No evidence of direct introduction to true EB/board-level decision-maker. Jay Jetley (CTO) not in recent calls. Board go/no-go happened without Shopify.", "solution": "Get direct introduction to the EB/board sponsor.", "action": "Ask Charlotte/Faye to introduce Maissa to the board-level decision-maker.", "due_date": "2026-03-10"},
-          "q6": {"score": "No", "text": "Have we been invited to present to the buying group/board?", "notes": "No evidence of invitation to present to board or buying group. Board go/no-go discussion happened internally.", "solution": "Offer executive-level presentation for the board.", "action": "Maissa to offer: 'Would it be helpful if we joined a brief session with your board?'", "due_date": "2026-03-10"},
-          "q7": {"score": "Partial", "text": "Do we understand our Champion's personal motivation?", "notes": "Charlotte's motivation appears operational — dealing with daily platform pain. Faye's appears strategic — avoiding stagnation. Neither has explicitly stated 'I want Shopify to win' but behavior suggests strong leanings.", "solution": "Explicitly test commitment and understand personal motivation.", "action": "Maissa to conduct champion validation in 1:1 conversation.", "due_date": "2026-02-25"}
-        }
+        "label": "Champion",
+        "questions": [
+          {
+            "q": "Have you identified a true champion (influence + motivation)?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Charlotte Lecuyer appears to be primary champion \u2014 in almost every call, driving evaluation operationally. Faye Roth shows champion-like behavior (driving urgency, attending business case calls). Neither explicitly tested as true champion.",
+            "solution": "Validate Charlotte and/or Faye as true champions through champion test.",
+            "action": "Maissa to have 1:1 with Charlotte (or Faye) and ask: 'If it were up to you, would you choose Shopify?'",
+            "due": "2026-02-25",
+            "highlight": false
+          },
+          {
+            "q": "Does your champion have political capital and credibility?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Charlotte has operational credibility \u2014 coordinating evaluation, managing multiple teams. Faye has political capital \u2014 attended business case call, drove urgency. Formal positions and recommendation weight unknown.",
+            "solution": "Understand Charlotte's and Faye's organizational authority.",
+            "action": "Maissa to map org chart and understand reporting lines of key contacts.",
+            "due": "2026-02-25",
+            "highlight": false
+          },
+          {
+            "q": "Have they given insights you wouldn't get otherwise?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Evaluation team has shared significant internal information: platform pain points, HCL budget constraints, board meeting timelines, tax filing workload, projected GMV, competitive dynamics. High transparency suggests champion-level relationship.",
+            "solution": "",
+            "action": "",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Are they connected with the key decision makers?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Charlotte and Faye appear connected \u2014 Feb 4 board meeting reference, Faye appears close to senior leadership. Charlotte coordinates across CTO, finance, and HCL partner.",
+            "solution": "",
+            "action": "",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Have you been introduced to the decision maker?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No evidence of direct introduction to true EB/board-level decision-maker. Jay Jetley (CTO) not in recent calls. Board go/no-go happened without Shopify.",
+            "solution": "Get direct introduction to the EB/board sponsor.",
+            "action": "Ask Charlotte/Faye to introduce Maissa to the board-level decision-maker.",
+            "due": "2026-03-10",
+            "highlight": false
+          },
+          {
+            "q": "Are they willing to bring you into the board/buying group?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No evidence of invitation to present to board or buying group. Board go/no-go discussion happened internally.",
+            "solution": "Offer executive-level presentation for the board.",
+            "action": "Maissa to offer: 'Would it be helpful if we joined a brief session with your board?'",
+            "due": "2026-03-10",
+            "highlight": false
+          },
+          {
+            "q": "Why are they such a champion for you?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Charlotte's motivation appears operational \u2014 dealing with daily platform pain. Faye's appears strategic \u2014 avoiding stagnation. Neither has explicitly stated 'I want Shopify to win' but behavior suggests strong leanings.",
+            "solution": "Explicitly test commitment and understand personal motivation.",
+            "action": "Maissa to conduct champion validation in 1:1 conversation.",
+            "due": "2026-02-25",
+            "highlight": false
+          }
+        ]
       },
       "competition": {
-        "questions": {
-          "q1": {"score": "Partial", "text": "Do we know who the competitors are?", "notes": "Commerce Tools is clearly the incumbent/primary competition. Entire evaluation framed as 'Shopify vs Commerce Tools'. No other vendors mentioned. Haven't explicitly confirmed no other vendors being evaluated.", "solution": "Confirm competitive landscape explicitly.", "action": "Maissa to ask: 'Beyond Shopify and Commerce Tools, are you evaluating any other platforms?'", "due_date": "2026-02-25"},
-          "q2": {"score": "Partial", "text": "Is 'do nothing' an option?", "notes": "Staying on Commerce Tools (renewing) is explicitly an option. Board go/no-go was deciding whether to proceed with migration. Haven't deeply explored what 'doing nothing' means or positioned against it.", "solution": "Build a strong 'cost of doing nothing' narrative.", "action": "Include in business case.", "due_date": "2026-03-04"},
-          "q3": {"score": "No", "text": "Are there internal alternatives being considered?", "notes": "No discussion of internal alternatives (e.g., building on Commerce Tools, re-platforming internally). CT may be offering new architecture or incentives.", "solution": "Understand if Commerce Tools is proposing changes or renewal incentives.", "action": "Ask: 'Is Commerce Tools offering any changes to your architecture or renewal incentives?'", "due_date": "2026-02-25"},
-          "q4": {"score": "Partial", "text": "Do we understand why they might choose a competitor?", "notes": "Reasons they might stay on CT: switching cost fear, sunk cost, team familiarity, headless flexibility. These haven't been directly explored.", "solution": "Understand what would make them stay on Commerce Tools.", "action": "Maissa to ask: 'What would Commerce Tools need to offer for you to stay? What concerns do you have about switching?'", "due_date": "2026-02-25"},
-          "q5": {"score": "Partial", "text": "Do we know what would make us win or lose?", "notes": "Win reasons: lower TCO, faster migration, unified commerce, SP economics. Loss risks: product gaps (bundling, VIP pricing), HCL inexperience, headless flexibility concerns, CT renewal incentives. No explicit confirmation from merchant.", "solution": "Directly ask what would tip the decision.", "action": "Maissa to ask Charlotte/Faye: 'What would need to be true for you to choose Shopify?'", "due_date": "2026-02-25"}
-        }
+        "label": "Competition",
+        "questions": [
+          {
+            "q": "Do we know who else the customer is evaluating?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Commerce Tools is clearly the incumbent/primary competition. Entire evaluation framed as 'Shopify vs Commerce Tools'. No other vendors mentioned. Haven't explicitly confirmed no other vendors being evaluated.",
+            "solution": "Confirm competitive landscape explicitly.",
+            "action": "Maissa to ask: 'Beyond Shopify and Commerce Tools, are you evaluating any other platforms?'",
+            "due": "2026-02-25",
+            "highlight": false
+          },
+          {
+            "q": "Have we asked if doing nothing is an option?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Staying on Commerce Tools (renewing) is explicitly an option. Board go/no-go was deciding whether to proceed with migration. Haven't deeply explored what 'doing nothing' means or positioned against it.",
+            "solution": "Build a strong 'cost of doing nothing' narrative.",
+            "action": "Include in business case.",
+            "due": "2026-03-04",
+            "highlight": false
+          },
+          {
+            "q": "Are there internal alternatives to our solution?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No discussion of internal alternatives (e.g., building on Commerce Tools, re-platforming internally). CT may be offering new architecture or incentives.",
+            "solution": "Understand if Commerce Tools is proposing changes or renewal incentives.",
+            "action": "Ask: 'Is Commerce Tools offering any changes to your architecture or renewal incentives?'",
+            "due": "2026-02-25",
+            "highlight": false
+          },
+          {
+            "q": "Do we know why alternatives are being evaluated?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Reasons they might stay on CT: switching cost fear, sunk cost, team familiarity, headless flexibility. These haven't been directly explored.",
+            "solution": "Understand what would make them stay on Commerce Tools.",
+            "action": "Maissa to ask: 'What would Commerce Tools need to offer for you to stay? What concerns do you have about switching?'",
+            "due": "2026-02-25",
+            "highlight": false
+          },
+          {
+            "q": "Do we know why we would win or lose?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Win reasons: lower TCO, faster migration, unified commerce, SP economics. Loss risks: product gaps (bundling, VIP pricing), HCL inexperience, headless flexibility concerns, CT renewal incentives. No explicit confirmation from merchant.",
+            "solution": "Directly ask what would tip the decision.",
+            "action": "Maissa to ask Charlotte/Faye: 'What would need to be true for you to choose Shopify?'",
+            "due": "2026-02-25",
+            "highlight": false
+          }
+        ]
       }
+    },
+    "scores": {
+      "metrics": 6.0,
+      "economicBuyer": 2.0,
+      "decisionProcess": 5.0,
+      "decisionCriteria": 3.5,
+      "paperProcess": 0.5,
+      "identifyPain": 6.5,
+      "champion": 3.5,
+      "competition": 2.0,
+      "total": 29.0,
+      "max": 54
     }
   },
   "calls": [
     {
-      "event_id": "3gda19mtb5ja66h1o046ps03fp",
-      "title": "Trinny London / Shopify",
       "date": "2026-02-13",
-      "duration_minutes": 30,
-      "platform": "google_meet",
-      "has_transcript": true,
-      "shopify_attendees": ["stephen.brook@shopify.com", "maissa.fatte@shopify.com"],
-      "merchant_attendees": ["alex.hoza@trinnylondon.com", "charlotte.lecuyer@trinnylondon.com", "claire.curran@trinnylondon.com", "hiten@trinnylondon.com", "james.parker@trinnylondon.com", "philippa@trinnylondon.com", "rob.brown@trinnylondon.com"],
-      "ai_summary": "Focused on store architecture options for tax management. Three scenarios presented: single store with Avalara, single store with Shopify Tax, or dual store for automated US tax filing. Buyers prioritized cost implications and automated US tax filing. Reservations about discount code limitations and data fragmentation with dual stores. Decision expected within 1-2 weeks."
+      "title": "Trinny London / Shopify",
+      "duration": "30 min",
+      "shopifyAttendees": [
+        "stephen.brook@shopify.com",
+        "maissa.fatte@shopify.com"
+      ],
+      "merchantAttendees": [
+        "alex.hoza@trinnylondon.com",
+        "charlotte.lecuyer@trinnylondon.com",
+        "claire.curran@trinnylondon.com",
+        "hiten@trinnylondon.com",
+        "james.parker@trinnylondon.com",
+        "philippa@trinnylondon.com",
+        "rob.brown@trinnylondon.com"
+      ],
+      "summary": "Deep store architecture session. Three tax options discussed (single+Avalara, single+ShopifyTax, dual-store for US auto-filing). James Parker stated decision expected in 1-2 weeks (~Feb 27). Claire Curran flagged automated filing as near-red-flag concern. Regional discount limitation surfaced as material gap (not market-specific natively). Stephen Brook announced paternity leave starting Feb 18, handing off to Ben Homer/Rees. HCL (Nakshatra, Rahul) actively engaged and technically aligned.",
+      "transcriptAnalyzed": true,
+      "analyzedDate": "2026-02-24"
     },
     {
-      "event_id": "trinny-demo-20260205",
-      "title": "Trinny London Demo",
       "date": "2026-02-05",
-      "duration_minutes": 60,
-      "platform": "google_meet",
-      "has_transcript": true,
-      "shopify_attendees": ["stephen.brook@shopify.com"],
-      "merchant_attendees": ["charlotte.lecuyer@trinnylondon.com", "rob.brown@trinnylondon.com", "faye@trinnylondon.com", "hiten@trinnylondon.com", "claire.curran@trinnylondon.com"],
-      "ai_summary": "Demo of Shopify back-end: promotions, product management, customization. Dynamic price lists for multi-market differentiation. Key priorities: scheduled price changes, VIP price lists, complex bundling for personalized products. Gaps: no native customer-specific price lists, limited timeline-based theme previewing."
+      "title": "Trinny London Demo",
+      "duration": "60 min",
+      "shopifyAttendees": [
+        "stephen.brook@shopify.com"
+      ],
+      "merchantAttendees": [
+        "charlotte.lecuyer@trinnylondon.com",
+        "rob.brown@trinnylondon.com",
+        "faye@trinnylondon.com",
+        "hiten@trinnylondon.com",
+        "claire.curran@trinnylondon.com"
+      ],
+      "summary": "Demo of Shopify back-end: promotions, product management, customization. Dynamic price lists for multi-market differentiation. Key priorities: scheduled price changes, VIP price lists, complex bundling for personalized products. Gaps: no native customer-specific price lists, limited timeline-based theme previewing."
     },
     {
-      "event_id": "trinny-checkin-20260204",
-      "title": "Shopify X Trinny London - check in",
       "date": "2026-02-04",
-      "duration_minutes": 20,
-      "platform": "google_meet",
-      "has_transcript": true,
-      "shopify_attendees": ["maissa.fatte@shopify.com", "stephen.brook@shopify.com"],
-      "merchant_attendees": ["charlotte.lecuyer@trinnylondon.com", "claire.curran@trinnylondon.com", "faye@trinnylondon.com", "hiten@trinnylondon.com", "rob.brown@trinnylondon.com"],
-      "ai_summary": "Aligned next steps: OOTB demo, tech stack review, SP rates with revenue impact simulations. Buyers revealed board go/no-go decision next Tuesday. Faye stressed swift decision to avoid stagnation. Can't provide Adyen invoices for full cost comparison."
+      "title": "Shopify X Trinny London - check in",
+      "duration": "20 min",
+      "shopifyAttendees": [
+        "maissa.fatte@shopify.com",
+        "stephen.brook@shopify.com"
+      ],
+      "merchantAttendees": [
+        "charlotte.lecuyer@trinnylondon.com",
+        "claire.curran@trinnylondon.com",
+        "faye@trinnylondon.com",
+        "hiten@trinnylondon.com",
+        "rob.brown@trinnylondon.com"
+      ],
+      "summary": "Aligned next steps: OOTB demo, tech stack review, SP rates with revenue impact simulations. Buyers revealed board go/no-go decision next Tuesday. Faye stressed swift decision to avoid stagnation. Can't provide Adyen invoices for full cost comparison."
     },
     {
-      "event_id": "trinny-biz-case-20260128",
-      "title": "Shopify X Trinny London - Business Case",
       "date": "2026-01-28",
-      "duration_minutes": 40,
-      "platform": "google_meet",
-      "has_transcript": true,
-      "shopify_attendees": ["maissa.fatte@shopify.com"],
-      "merchant_attendees": ["charlotte.lecuyer@trinnylondon.com", "faye@trinnylondon.com"],
-      "ai_summary": "Business case framework presented: conversion uplift, TCO reduction, improved CX. Trinny aiming for rapid MVP decision, D2C first. Need clarity on platform costs. Seeking architectural/technical leadership. Want HCL integration despite limited Shopify experience. Decision steer critical by next Tuesday."
+      "title": "Shopify X Trinny London - Business Case",
+      "duration": "40 min",
+      "shopifyAttendees": [
+        "maissa.fatte@shopify.com"
+      ],
+      "merchantAttendees": [
+        "charlotte.lecuyer@trinnylondon.com",
+        "faye@trinnylondon.com"
+      ],
+      "summary": "Business case framework presented: conversion uplift, TCO reduction, improved CX. Trinny aiming for rapid MVP decision, D2C first. Need clarity on platform costs. Seeking architectural/technical leadership. Want HCL integration despite limited Shopify experience. Decision steer critical by next Tuesday."
     },
     {
-      "event_id": "trinny-ootb-20260123",
-      "title": "Trinny London // Shopify - OOTB Functionality Demo",
       "date": "2026-01-23",
-      "duration_minutes": 90,
-      "platform": "google_meet",
-      "has_transcript": true,
-      "shopify_attendees": ["stephen.brook@shopify.com"],
-      "merchant_attendees": ["charlotte.lecuyer@trinnylondon.com", "claire.curran@trinnylondon.com", "faye@trinnylondon.com", "hiten@trinnylondon.com", "rob.brown@trinnylondon.com", "anya@trinnylondon.com", "kimara@trinnylondon.com", "sophie@trinnylondon.com"],
-      "ai_summary": "90-minute OOTB functionality demo. Rob Brown asked about tax pass-through. Full transcript available (962 lines). Comprehensive demo of Shopify Plus capabilities."
+      "title": "Trinny London // Shopify - OOTB Functionality Demo",
+      "duration": "90 min",
+      "shopifyAttendees": [
+        "stephen.brook@shopify.com"
+      ],
+      "merchantAttendees": [
+        "charlotte.lecuyer@trinnylondon.com",
+        "claire.curran@trinnylondon.com",
+        "faye@trinnylondon.com",
+        "hiten@trinnylondon.com",
+        "rob.brown@trinnylondon.com",
+        "anya@trinnylondon.com",
+        "kimara@trinnylondon.com",
+        "sophie@trinnylondon.com"
+      ],
+      "summary": "90-minute OOTB functionality demo. Rob Brown asked about tax pass-through. Full transcript available (962 lines). Comprehensive demo of Shopify Plus capabilities."
     },
     {
-      "event_id": "trinny-arch-20260108",
-      "title": "Trinny London // Shopify",
       "date": "2026-01-08",
-      "duration_minutes": 45,
-      "platform": "google_meet",
-      "has_transcript": true,
-      "shopify_attendees": ["stephen.brook@shopify.com"],
-      "merchant_attendees": ["charlotte.lecuyer@trinnylondon.com", "claire.curran@trinnylondon.com", "hiten@trinnylondon.com", "rob.brown@trinnylondon.com"],
-      "ai_summary": "Assessment of Shopify as platform. Headed theme offers quicker migration (3-6 months). Hybrid option for faster launch. Trinny evaluating vs Commerce Tools, targeting full launch by early next FY. Prioritized MVP path but stressed long-term suitability."
+      "title": "Trinny London // Shopify",
+      "duration": "45 min",
+      "shopifyAttendees": [
+        "stephen.brook@shopify.com"
+      ],
+      "merchantAttendees": [
+        "charlotte.lecuyer@trinnylondon.com",
+        "claire.curran@trinnylondon.com",
+        "hiten@trinnylondon.com",
+        "rob.brown@trinnylondon.com"
+      ],
+      "summary": "Assessment of Shopify as platform. Headed theme offers quicker migration (3-6 months). Hybrid option for faster launch. Trinny evaluating vs Commerce Tools, targeting full launch by early next FY. Prioritized MVP path but stressed long-term suitability."
     },
     {
-      "event_id": "trinny-intro-20251215",
-      "title": "Shopify X Trinny London - intro call",
       "date": "2025-12-15",
-      "duration_minutes": 60,
-      "platform": "google_meet",
-      "has_transcript": true,
-      "shopify_attendees": ["maissa.fatte@shopify.com", "dino.manoli@shopify.com", "stephen.brook@shopify.com"],
-      "merchant_attendees": ["charlotte.lecuyer@trinnylondon.com", "faye@trinnylondon.com", "hiten@trinnylondon.com", "claire.curran@trinnylondon.com"],
-      "ai_summary": "Initial presentation: unified commerce, reduced complexity, lower TCO. Trinny exploring due to Commerce Tools renewal. Need internationalization (Germany), better tech support. Commercial: $2,300 USD/mo pre-live, 0.35% online GMV post-live. Migration 5-7 months."
-    },
-    {
-      "event_id": "trinny-intro-20250417",
       "title": "Shopify X Trinny London - intro call",
-      "date": "2025-04-17",
-      "duration_minutes": 77,
-      "platform": "salesloft_conversation",
-      "has_transcript": true,
-      "shopify_attendees": ["maissa.fatte@shopify.com"],
-      "merchant_attendees": ["jay@trinnylondon.com"],
-      "ai_summary": "Jay from Trinny discussed interest in Shopify's apps/integrations. Explored technical feasibility, costs, and migration from current headless system."
+      "duration": "60 min",
+      "shopifyAttendees": [
+        "maissa.fatte@shopify.com",
+        "dino.manoli@shopify.com",
+        "stephen.brook@shopify.com"
+      ],
+      "merchantAttendees": [
+        "charlotte.lecuyer@trinnylondon.com",
+        "faye@trinnylondon.com",
+        "hiten@trinnylondon.com",
+        "claire.curran@trinnylondon.com"
+      ],
+      "summary": "Initial presentation: unified commerce, reduced complexity, lower TCO. Trinny exploring due to Commerce Tools renewal. Need internationalization (Germany), better tech support. Commercial: $2,300 USD/mo pre-live, 0.35% online GMV post-live. Migration 5-7 months."
     },
     {
-      "event_id": "trinny-jay-alex-20250415",
-      "title": "Jay and Alex: 30-minute Meeting",
+      "date": "2025-04-17",
+      "title": "Shopify X Trinny London - intro call",
+      "duration": "77 min",
+      "shopifyAttendees": [
+        "maissa.fatte@shopify.com"
+      ],
+      "merchantAttendees": [
+        "jay@trinnylondon.com"
+      ],
+      "summary": "Jay from Trinny discussed interest in Shopify's apps/integrations. Explored technical feasibility, costs, and migration from current headless system."
+    },
+    {
       "date": "2025-04-15",
-      "duration_minutes": 20,
-      "platform": "salesloft_conversation",
-      "has_transcript": true,
-      "shopify_attendees": [],
-      "merchant_attendees": ["jay@trinnylondon.com"],
-      "ai_summary": "Exploring move back to Shopify from headless. Concerns: app compatibility, external services from Liquid. Topics: settlement, tax pricing, discount codes, email integration, variable bundles, gift cards. Turnover ~£60M."
+      "title": "Jay and Alex: 30-minute Meeting",
+      "duration": "20 min",
+      "shopifyAttendees": [],
+      "merchantAttendees": [
+        "jay@trinnylondon.com"
+      ],
+      "summary": "Exploring move back to Shopify from headless. Concerns: app compatibility, external services from Liquid. Topics: settlement, tax pricing, discount codes, email integration, variable bundles, gift cards. Turnover ~\u00a360M."
     }
   ]
 }

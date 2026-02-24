@@ -17097,7 +17097,7 @@
         "title": "CTO",
         "role": "Emergency Technical Contact",
         "email": "jay@trinnylondon.com",
-        "engagement": "high",
+        "engagement": "low",
         "callsAttended": 2,
         "callsInvited": 2
       }
@@ -17115,19 +17115,19 @@
       "partner": ""
     },
     "timeline": {
-      "created": "2025-12-08",
+      "created": "2026-02-24",
       "proposedLaunch": "",
       "region": "EMEA"
     },
     "projectedBilledRevenue": 948568.42,
     "compellingEvent": "",
-    "aeNextStep": "20/02 MF: Supporting them with the business case, technical validation and with merchant references. Started a rate review discussion. Catch up on 25/02",
+    "aeNextStep": "",
     "narrative": {
       "oppSummary": "Trinny London is an $82,800 Plus deal (D2C Standard) with $76M projected D2C GMV, $49.4M Payments GPV, and a 3-year total revenue of $3.31M. The London-based beauty brand is evaluating a migration from Commerce Tools (their current headless commerce platform) to Shopify Plus, driven by contract renewal timing, operational inefficiencies, tech debt, and a desire for faster development and reduced total cost of ownership. The deal is currently in Solution stage at 40% probability with a June 30, 2026 close target, and the merchant is actively deep in technical validation — having conducted 14 calls including detailed architecture demos, tax/store structure discussions, and business case presentations.",
       "whyChange": "Trinny London's current Commerce Tools headless architecture is creating significant operational friction and cost burden. The team explicitly stated they are exploring alternatives due to their Commerce Tools renewal, citing the need for increased efficiencies, enhanced internationalization (Germany), and better tech support. Their headless setup has created challenges with bundling and customization — core to their 'match to me' personalized product experience. They've been considering moving back to Shopify for nearly a year (since April 2025), with concerns about headless limitations around app compatibility, tax handling, discount codes, and gift cards. Faye Roth stressed the importance of swift decision to avoid stagnation, suggesting internal frustration with the pace of progress on their current stack.",
       "whyShopify": "Shopify is positioned as a unified commerce platform that reduces complexity and lowers TCO compared to Commerce Tools' composable/headless approach. The headed (integrated) theme approach enables significantly faster migration (3-6 months vs longer headless rebuilds), with a hybrid option for initial launch speed. Business case highlights conversion uplift, TCO reduction, and improved CX as key differentiators. The Feb 5 demo showcased native capabilities around promotions, product management, dynamic price lists for multi-market differentiation, and flexible product variants/metafields. Shopify Payments ($49.4M GPV) is a significant value driver with competitive rates and revenue impact simulations offered. The merchant is evaluating D2C first before multi-channel POS, aligning with Shopify's platform expansion model.",
-      "whyNow": "The Commerce Tools contract renewal is the primary compelling event. Internal urgency is evident: a board-level go/no-go decision was referenced in the Feb 4 check-in, Faye Roth emphasized avoiding stagnation, and the team is targeting a full launch by early next FY. The combination of contract renewal pressure, board-level attention, and nearly a year of evaluation (since April 2025) suggests the merchant is approaching a decision point, though the 'Uncommitted' merchant intent flag indicates they haven't fully committed to migrating yet.",
-      "supportNeeded": "Key support areas: (1) Merchant references for brands that migrated from headless/composable to Shopify Plus; (2) Adyen vs Shopify Payments conversion rate comparison and POS hardware pricing for 19 terminals; (3) Tax and store architecture clarity — single vs dual store for US tax filing automation, Avalara integration, Shopify Tax capabilities; (4) HCL partner enablement — they have limited Shopify experience; (5) Advanced bundling and VIP price list solutions for their 'match to me' personalized products; (6) Rate review / commercial optimization for TCO argument; (7) Continuity during Stephen Brook's paternity leave (Feb 18 – Mar 17) — Ben Homer covering as SE."
+      "whyNow": "The urgency has sharpened considerably since the Feb 13 call. James Parker stated explicitly that 'every day we don't have a decision is costly to the project delivery' and indicated the team was hoping for 'a final decision in the next one to two weeks' — targeting ~Feb 27. It is now Feb 24 and merchant intent remains 'Uncommitted,' suggesting the decision is either imminent or has slipped. The unresolved tax architecture question (single store vs. dual store) is the critical blocker: Claire Curran flagged that the lack of automated US tax filing in a single-store model is 'edging toward a red flag.' The Commerce Tools renewal remains the macro compelling event, but the micro-urgency is now project delivery cost accumulating daily. Stephen Brook's paternity leave from Feb 18 created a handover gap to Ben Homer/Ben Rees.",
+      "supportNeeded": "Key support areas: (1) Tax architecture recommendation with clear trade-off analysis — Claire Curran and James Parker need a definitive recommendation, not three options; (2) Regional discount/promotion workaround validation — discount codes not market-specific natively, need proven workaround with merchant reference; (3) Recommended app stack for cost modeling; (4) Seamless SE handover continuity — Ben Homer/Rees must be fully briefed on tax decision context, discount limitation, and HCL alignment; (5) Merchant references for brands that migrated from headless/composable to Shopify Plus (CEO-level request, still outstanding); (6) Dual-store Netsuite integration clarity."
     },
     "meddpicc": {
       "metrics": {
@@ -17165,12 +17165,12 @@
           },
           {
             "q": "Do we understand the impact if this goal isn't achieved?",
-            "answer": "Partial",
-            "score": 0.5,
-            "notes": "Faye Roth stressed 'importance of swift decision to avoid stagnation' and general pain around operational inefficiency and tech debt is clear. However, specific quantified impact of NOT changing hasn't been explicitly documented.",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "James Parker stated: 'every day we don't have a decision is costly to the project delivery.' Claire Curran: 'significant uplift in workload' for manual filing. Impact of inaction now clear across financial, operational, and project dimensions.",
             "solution": "Quantify the cost of inaction — what does another year on Commerce Tools cost in developer hours, lost conversion, delayed Germany launch?",
-            "action": "Maissa to build a 'cost of doing nothing' slide into the business case with specific financial projections.",
-            "due": "2026-03-04",
+            "action": "Reflect urgency language in follow-up comms to maintain pressure.",
+            "due": "2026-02-25",
             "highlight": false
           },
           {
@@ -17185,11 +17185,11 @@
           },
           {
             "q": "Have I validated the metrics with the customer?",
-            "answer": "Partial",
-            "score": 0.5,
-            "notes": "Business case presented with conversion uplift, TCO reduction, improved CX pillars. However, no evidence merchant has explicitly validated and agreed to Shopify's stated metrics.",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "James committed to 'one to two week' decision timeline (from Feb 13 = ~Feb 27). Driven by project delivery cost + Commerce Tools renewal. Two-tier compelling event confirmed.",
             "solution": "Get explicit merchant sign-off on the key business case metrics/assumptions.",
-            "action": "In the Feb 25 catch-up, Maissa to walk through business case metrics and get Charlotte/Faye to confirm or adjust assumptions.",
+            "action": "Validate if ~Feb 27 timeline is holding on Feb 25 catch-up.",
             "due": "2026-02-25",
             "highlight": false
           },
@@ -17252,10 +17252,10 @@
             "q": "Do we know what the economic buyer cares about most?",
             "answer": "Partial",
             "score": 0.5,
-            "notes": "CTO (Jay) cares about technical feasibility. Faye cares about speed and avoiding stagnation. Charlotte cares about operational efficiency. Board priorities unknown.",
+            "notes": "James Parker's priorities now clearer: (1) minimizing project delay cost, (2) total cost of ownership per architecture, (3) regional promotion flexibility. Claire cares about tax filing workload. But ultimate EB's (CEO/board) priorities still unknown.",
             "solution": "Understand the EB's top 3 priorities for this investment.",
-            "action": "During EB engagement, ask what their #1 criterion for this decision is.",
-            "due": "2026-03-10",
+            "action": "Ask champion if CEO has additional/different criteria beyond James's priorities.",
+            "due": "2026-02-28",
             "highlight": false
           },
           {
@@ -17295,11 +17295,11 @@
           },
           {
             "q": "Do we know when they want to make a decision by?",
-            "answer": "Partial",
-            "score": 0.5,
-            "notes": "Jan 8: full launch by early next FY. Jan 28: rapid MVP decision. Feb 4: board go/no-go. SF close date June 30, 2026. Exact vendor selection date not pinned.",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "James Parker stated: 'in the next one to two weeks we'll have a final decision' (from Feb 13 = ~Feb 27). Most concrete timeline commitment yet. Caveatted with 'don't want to overcommit' — slight slippage risk.",
             "solution": "Distinguish vendor decision date from go-live target.",
-            "action": "Maissa to confirm: 'When do you need to make a final vendor decision by?'",
+            "action": "Maissa to open Feb 25 call: 'James mentioned targeting a decision by end of this week — are we on track?'",
             "due": "2026-02-25",
             "highlight": false
           },
@@ -17530,12 +17530,12 @@
           },
           {
             "q": "Do we know what teams are affected and to what extent?",
-            "answer": "Partial",
-            "score": 0.5,
-            "notes": "Multiple affected teams identified: ecommerce/merchandising (Charlotte, Rob), finance/tax (Claire), technology (Hiten, HCL), senior leadership (Faye), CTO (Jay). But extent of impact per team not quantified.",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Pain now mapped across 4 teams: (1) Engineering — tech debt, slow dev, (2) Finance/Tax — manual VAT filing, workload (Claire, Feb 13), (3) Marketing/Growth — can't run region-specific promotions (James, Feb 13), (4) Operations — complexity overhead (James, Feb 13).",
             "solution": "Quantify team-level impact to strengthen business case.",
-            "action": "Ask Charlotte to provide estimates of time/resources each team spends on workarounds.",
-            "due": "2026-03-10",
+            "action": "Ensure business case document reflects all 4 team impacts, not just engineering.",
+            "due": "2026-02-27",
             "highlight": false
           },
           {
@@ -17711,7 +17711,7 @@
         ]
       }
     },
-    "lastAnalysisDate": "2026-02-20",
+    "lastAnalysisDate": "2026-02-24",
     "calls": [
       {
         "date": "2026-02-13",
@@ -17730,7 +17730,7 @@
           "philippa@trinnylondon.com",
           "rob.brown@trinnylondon.com"
         ],
-        "summary": "Focused on store architecture options for tax management. Three scenarios presented: single store with Avalara, single store with Shopify Tax, or dual store for automated US tax filing. Buyers prioritized cost implications and automated US tax filing. Reservations about discount code limitations and data fragmentation with dual stores. Decision expected within 1-2 weeks."
+        "summary": "Deep store architecture session. Three tax options discussed (single+Avalara, single+ShopifyTax, dual-store for US auto-filing). James Parker stated decision expected in 1-2 weeks (~Feb 27). Claire Curran flagged automated filing as near-red-flag concern. Regional discount limitation surfaced as material gap (not market-specific natively). Stephen Brook announced paternity leave starting Feb 18, handing off to Ben Homer/Rees. HCL (Nakshatra, Rahul) actively engaged and technically aligned."
       },
       {
         "date": "2026-02-05",

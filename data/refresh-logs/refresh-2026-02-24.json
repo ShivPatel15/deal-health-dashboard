@@ -1,6 +1,9 @@
 {
   "date": "2026-02-24",
   "started": "2026-02-24T08:06:19.743Z",
+  "finished": "2026-02-24T08:10:08.561Z",
+  "totalOpportunities": 15,
+  "processed": 15,
   "results": {
     "006OG00000EZIy6YAH": {
       "accountName": "Whittard of Chelsea",
@@ -92,5 +95,12 @@
       "details": "1 new call: Ben x Eleanor - Biz Case (2026-02-20, partial transcript). MEDDPICC incremental update applied. Score unchanged 32/54. 8 action items updated with new due dates.",
       "timestamp": "2026-02-24T08:09:53.714Z"
     }
+  },
+  "summary": {
+    "noChange": 1,
+    "sfOnly": 12,
+    "newCalls": 2,
+    "errors": 0,
+    "skipped": 0
   }
 }

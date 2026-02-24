@@ -849,20 +849,25 @@
     },
     {
       "date": "2026-02-24",
-      "totalScore": 27,
+      "totalScore": 29,
       "totalMax": 54,
       "status": "on-track",
       "sectionScores": {
-        "Metrics": 5,
+        "Metrics": 6,
         "Economic Buyer": 2,
-        "Decision Process": 4.5,
+        "Decision Process": 5,
         "Decision Criteria": 3.5,
         "Paper Process": 0.5,
-        "Identify Pain": 6,
+        "Identify Pain": 6.5,
         "Champion": 3.5,
         "Competition": 2
       },
-      "changes": []
+      "changes": [
+        "Score improved by 2 points",
+        "Metrics: improved (5 → 6)",
+        "Decision Process: improved (4.5 → 5)",
+        "Identify Pain: improved (6 → 6.5)"
+      ]
     }
   ]
 }
