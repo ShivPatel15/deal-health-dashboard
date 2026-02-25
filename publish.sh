@@ -119,6 +119,14 @@ echo "   Built $BUILT_COUNT opportunities into data.js"
 # Step 3: Git commit and push
 # -------------------------------------------------------
 echo ""
+echo "🔍 Running pre-push validation..."
+bash validate-before-push.sh
+if [ $? -ne 0 ]; then
+  echo "❌ Validation failed — aborting push. Fix the issues above."
+  exit 1
+fi
+
+echo ""
 echo "🚀 Committing and pushing..."
 git add -A
 if git diff --cached --quiet; then
