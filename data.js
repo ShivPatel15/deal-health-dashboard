@@ -3322,185 +3322,38 @@ const DEAL_DATA = {
       "nextSteps": [
         {
           "p": 1,
-          "cat": "Metrics",
-          "issue": "TCO savings discussed and document shared. Budget ~£50M total revenue known. No specific quantifiable targets from customer.",
-          "rec": "Ask Martin for 2-3 specific measurable outcomes.",
-          "due": "02/28/2026"
+          "cat": "Execution",
+          "rec": "Schedule an urgent call with Martin THIS WEEK (by Feb 27) to clear 17-item overdue backlog. Agenda: (1) root cause of close date slip, (2) decision process mapping, (3) legal/procurement timeline, (4) Nigel intro.",
+          "due": "02/27/2026",
+          "issue": "17 overdue action items indicate deal is not being actively qualified despite forward motion from Martin."
         },
         {
           "p": 2,
-          "cat": "Metrics",
-          "issue": "Qualitative impact clear (continued dependency, high TCO, fragmented systems). Not quantified in hard numbers.",
-          "rec": "Use TCO document to model cost of SFCC renewal vs Shopify.",
-          "due": "02/25/2026"
+          "cat": "Champion",
+          "rec": "Secure the Nigel introduction. Frame as: 'Before contracting, we'd love 15-min exec alignment.' Provide specific agenda and value prop for Nigel.",
+          "due": "03/04/2026",
+          "issue": "Deal is single-threaded through Martin. No EB access. Multiple intro requests unactioned."
         },
         {
           "p": 3,
-          "cat": "Metrics",
-          "issue": "TCO doc shared and discussed with Martin and finance. Not confirmed if Martin used it in budget approval request.",
-          "rec": "Ask Martin if TCO doc was used in budget request.",
-          "due": "02/25/2026"
+          "cat": "Paper Process",
+          "rec": "Back-plan from Mar 30: Confirm legal review duration, procurement steps, and contract approval chain. If legal takes 2+ weeks, contract MUST be sent by mid-March.",
+          "due": "03/04/2026",
+          "issue": "Zero visibility into paper process. Close date already slipped once."
         },
         {
           "p": 4,
-          "cat": "Economic Buyer",
-          "issue": "Nigel Darwin (CEO) is Signatory. Martin (Head of IT) is Decision Maker pursuing budget. Unclear if Nigel is true EB or if CFO/Finance Director involved.",
-          "rec": "Ask Martin: 'Who gives final sign-off on the budget?'",
-          "due": "02/25/2026"
+          "cat": "Timeline",
+          "rec": "Directly probe: 'What changed between Feb 27 and Mar 30? Was budget delayed?' Close date moved but narrative didn't change — this is a red flag.",
+          "due": "02/27/2026",
+          "issue": "Close date slipped 1 month but 'any day now' has persisted too long."
         },
         {
           "p": 5,
-          "cat": "Economic Buyer",
-          "issue": "Nigel Darwin has not appeared in any of the 6 recorded calls. Zero direct Shopify-CEO engagement.",
-          "rec": "Ask Martin to facilitate brief intro call with Nigel before signature.",
-          "due": "02/25/2026"
-        },
-        {
-          "p": 6,
-          "cat": "Economic Buyer",
-          "issue": "Martin is highly collaborative and can likely facilitate CEO access, but this hasn't been requested.",
-          "rec": "Adriana to ask Martin for 15-min executive alignment call with Nigel.",
-          "due": "02/25/2026"
-        },
-        {
-          "p": 7,
-          "cat": "Economic Buyer",
-          "issue": "No direct insight into Nigel Darwin's priorities. Martin's concerns may not fully align with CEO priorities.",
-          "rec": "Ask Martin: 'What does Nigel care about most in this decision?'",
-          "due": "02/25/2026"
-        },
-        {
-          "p": 8,
-          "cat": "Decision Process",
-          "issue": "Martin is tech decision maker, Nigel signs, Cheryl handles finance review. Formal decision/approval process not mapped.",
-          "rec": "Map end-to-end decision process with Martin.",
-          "due": "02/22/2026"
-        },
-        {
-          "p": 9,
-          "cat": "Decision Process",
-          "issue": "Martin, Nigel, Andy, Cheryl Lee, Kyle Williams, Haris Majid known. Full committee (CFO, COO, Head of Retail?) not confirmed.",
-          "rec": "Ask: 'Besides you and Nigel, who else could approve or block?'",
-          "due": "02/22/2026"
-        },
-        {
-          "p": 10,
-          "cat": "Decision Process",
-          "issue": "No evidence of previous migration attempts or alternative evaluations.",
-          "rec": "Ask: 'Have you looked at migrating before?'",
-          "due": "02/28/2026"
-        },
-        {
-          "p": 11,
-          "cat": "Decision Process",
-          "issue": "Martin transparent about timeline but full process not formally validated. No documented MAP.",
-          "rec": "Ask: 'Once budget approved, what remains before you can sign?'",
-          "due": "02/22/2026"
-        },
-        {
-          "p": 12,
-          "cat": "Decision Criteria",
-          "issue": "Key criteria known: in-house control, unified eCom+POS, TCO reduction, migration playbook, hardware compat, payments. No formal evaluation doc.",
-          "rec": "Ask if there's a formal requirements document.",
-          "due": "02/25/2026"
-        },
-        {
-          "p": 13,
-          "cat": "Decision Criteria",
-          "issue": "Hardware compatibility detailed. Migration sequencing explored. Broader integrations (ERP, OMS, loyalty) not evident in calls.",
-          "rec": "Confirm with Martin/Tryzens that all integration touchpoints are in SOW.",
-          "due": "02/28/2026"
-        },
-        {
-          "p": 14,
-          "cat": "Decision Criteria",
-          "issue": "De facto plan exists (hardware demo, SOW, budget, signature, May launch) but no formal documented MAP.",
-          "rec": "Draft joint timeline: budget → signature → SOW → hardware → migration → May 1.",
-          "due": "02/25/2026"
-        },
-        {
-          "p": 15,
-          "cat": "Decision Criteria",
-          "issue": "Martin defines technical/operational criteria. Finance likely defines cost criteria. CEO criteria unknown.",
-          "rec": "When engaging Nigel, ask about additional requirements.",
-          "due": "03/03/2026"
-        },
-        {
-          "p": 16,
-          "cat": "Paper Process",
-          "issue": "Budget approval required, Nigel signs, contract terms discussed. Formal procurement steps (legal, PO) not mapped.",
-          "rec": "Ask: 'Does contract go through legal/procurement before Nigel signs?'",
-          "due": "02/22/2026"
-        },
-        {
-          "p": 17,
-          "cat": "Paper Process",
-          "issue": "Martin raised monthly invoicing (non-standard), 'store' definition, SP integration. Could become redline items.",
-          "rec": "Confirm monthly invoicing internally. Prepare responses.",
-          "due": "02/22/2026"
-        },
-        {
-          "p": 18,
-          "cat": "Paper Process",
-          "issue": "No information on Dune's legal/contract review duration.",
-          "rec": "Ask: 'How long does your legal review typically take?'",
-          "due": "02/22/2026"
-        },
-        {
-          "p": 19,
-          "cat": "Paper Process",
-          "issue": "Martin targeted end-Jan. Now Feb 19, budget not yet signed. ~3 week slippage. Delay is budget, not contract process.",
-          "rec": "Validate close date once budget is approved.",
-          "due": "02/22/2026"
-        },
-        {
-          "p": 20,
-          "cat": "Paper Process",
-          "issue": "Terms discussed in detail. Martin has commercial documentation. Unclear if formal contract sent for signature.",
-          "rec": "Verify if formal contract has been sent or is ready to send.",
-          "due": "02/22/2026"
-        },
-        {
-          "p": 21,
-          "cat": "Identify Pain",
-          "issue": "No evidence of previous migration attempts.",
-          "rec": "Ask Martin if this was considered before.",
-          "due": "02/28/2026"
-        },
-        {
-          "p": 22,
-          "cat": "Identify Pain",
-          "issue": "IT team deeply engaged. Finance involved. Retail ops across 55+ stores affected. Marketing/merchandising impact not documented.",
-          "rec": "Map all affected teams during implementation planning.",
-          "due": "03/10/2026"
-        },
-        {
-          "p": 23,
-          "cat": "Identify Pain",
-          "issue": "No competitor identified. Could renew SFCC or evaluate others. Tryzens specifically recommended Shopify.",
-          "rec": "Validate with Martin no other platforms being evaluated.",
-          "due": "02/25/2026"
-        },
-        {
-          "p": 24,
-          "cat": "Champion",
-          "issue": "Nigel Darwin (CEO/Signatory) not in any calls. All engagement through Martin and operational stakeholders.",
-          "rec": "Ask Martin for 15-min intro to Nigel to confirm Shopify exec commitment.",
-          "due": "02/25/2026"
-        },
-        {
-          "p": 25,
-          "cat": "Champion",
-          "issue": "Martin brought finance and IT team into discussions. But no direct CEO engagement facilitated yet.",
-          "rec": "Frame as exec alignment: 'Shopify leadership committed to Dune's success.'",
-          "due": "02/25/2026"
-        },
-        {
-          "p": 26,
           "cat": "Competition",
-          "issue": "SFCC renewal is the internal alternative. Unknown if anyone advocates for staying. Budget cuts could force it.",
-          "rec": "Ask: 'Is anyone internally advocating for renewing SFCC?'",
-          "due": "02/25/2026"
+          "rec": "Validate competitive landscape in same call: 'Are you looking at any other platforms or is SFCC renewal on the table?'",
+          "due": "03/04/2026",
+          "issue": "No visibility into whether status quo or other vendors are being evaluated."
         }
       ],
       "stakeholders": [
@@ -3791,159 +3644,137 @@ const DEAL_DATA = {
       "mutualActionPlan": {
         "merchantName": "The Dune Group",
         "kickoffDate": "",
-        "goLiveDate": "2026-02-27",
+        "goLiveDate": "2026-03-30",
         "contactName": "Adriana Colacicco",
         "contactEmail": "adriana.colacicco@shopify.com",
         "champion": "Martin Wareing",
         "items": [
           {
-            "date": "",
-            "done": true,
             "milestone": "Initial discovery & intro calls",
-            "ownerMerchant": "Martin Wareing",
+            "done": true,
             "ownerShopify": "Adriana",
+            "ownerMerchant": "Martin Wareing",
+            "date": "",
             "notes": "9 calls completed"
           },
           {
-            "date": "",
-            "done": true,
             "milestone": "Identify champion & project team",
-            "ownerMerchant": "Martin Wareing",
+            "done": true,
             "ownerShopify": "Adriana",
+            "ownerMerchant": "Martin Wareing",
+            "date": "",
             "notes": "Champion: Martin Wareing"
           },
           {
-            "date": "",
-            "done": false,
-            "milestone": "Ask Martin for 2-3 specific measurable outcomes.",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Metrics · Due 02/28/2026",
-            "due": "02/28/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Use TCO document to model cost of SFCC renewal vs Shopify.",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Metrics · Due 02/25/2026",
-            "due": "02/25/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Validate business case with economic buyer",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm economic buyer & signing authority",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Ask Martin to facilitate brief intro call with Nigel before signature.",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Due 02/25/2026",
-            "due": "02/25/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Map complete decision & approval process",
-            "ownerMerchant": "Martin Wareing",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Map end-to-end decision process with Martin.",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Due 02/22/2026",
-            "due": "02/22/2026"
-          },
-          {
-            "date": "",
-            "done": true,
             "milestone": "Submit merchant intent",
-            "ownerMerchant": "",
+            "done": true,
             "ownerShopify": "Adriana",
+            "ownerMerchant": "",
+            "date": "",
             "notes": "Intent: Committed - At Risk"
           },
           {
-            "date": "",
-            "done": true,
             "milestone": "Finalize commercial proposal",
+            "done": true,
+            "ownerShopify": "Adriana",
             "ownerMerchant": "Martin Wareing",
-            "ownerShopify": "Adriana",
+            "date": "",
             "notes": ""
           },
           {
-            "date": "",
+            "milestone": "⚠️ Revalidate budget timeline after 1-month close date slip",
             "done": false,
+            "ownerShopify": "Adriana",
+            "ownerMerchant": "Martin",
+            "date": "2026-02-27",
+            "notes": "NEW: Must understand root cause of slip and confirm new timeline is real."
+          },
+          {
+            "milestone": "Budget sign-off confirmed",
+            "done": false,
+            "ownerShopify": "Adriana",
+            "ownerMerchant": "Martin",
+            "date": "2026-03-06",
+            "notes": "Feb 19 call: Martin said 'any day now.' Must land by early March for Mar 30 to hold."
+          },
+          {
+            "milestone": "Complete TCO modeling",
+            "done": false,
+            "ownerShopify": "Adriana",
+            "ownerMerchant": "Martin",
+            "date": "2026-03-04",
+            "notes": "OVERDUE. Needed to support budget conversations."
+          },
+          {
+            "milestone": "Nigel (EB) intro / exec alignment call",
+            "done": false,
+            "ownerShopify": "Adriana",
+            "ownerMerchant": "Martin",
+            "date": "2026-03-10",
+            "notes": "Multiple overdue asks. Critical for multi-threading."
+          },
+          {
+            "milestone": "Map full decision process and buying committee",
+            "done": false,
+            "ownerShopify": "Adriana",
+            "ownerMerchant": "Martin",
+            "date": "2026-03-04",
+            "notes": "OVERDUE since 02/22."
+          },
+          {
+            "milestone": "Understand legal/procurement process and timeline",
+            "done": false,
+            "ownerShopify": "Adriana",
+            "ownerMerchant": "Martin",
+            "date": "2026-03-04",
+            "notes": "OVERDUE since 02/22. Blocks paper process planning."
+          },
+          {
             "milestone": "Confirm procurement process & legal steps",
-            "ownerMerchant": "",
+            "done": false,
             "ownerShopify": "Adriana",
+            "ownerMerchant": "Martin / Legal",
+            "date": "2026-03-10",
             "notes": ""
           },
           {
-            "date": "",
+            "milestone": "Send contract / order form",
             "done": false,
-            "milestone": "Ask: 'Does contract go through legal/procurement before Nigel signs?'",
-            "ownerMerchant": "",
             "ownerShopify": "Adriana",
-            "notes": "Paper Process · Due 02/22/2026",
-            "due": "02/22/2026"
+            "ownerMerchant": "Martin",
+            "date": "2026-03-13",
+            "notes": "Must allow 2-3 weeks for legal review before Mar 30 close."
           },
           {
-            "date": "",
+            "milestone": "Legal / procurement review",
             "done": false,
-            "milestone": "Confirm monthly invoicing internally. Prepare responses.",
-            "ownerMerchant": "",
             "ownerShopify": "Adriana",
-            "notes": "Paper Process · Due 02/22/2026",
-            "due": "02/22/2026"
+            "ownerMerchant": "Martin / Legal",
+            "date": "2026-03-27",
+            "notes": "Estimated 2 weeks."
           },
           {
-            "date": "",
-            "done": false,
-            "milestone": "Contract sent for signature",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
             "milestone": "Contract signed ✍️",
-            "ownerMerchant": "",
+            "done": false,
             "ownerShopify": "",
-            "notes": "Target: 2026-02-27"
+            "ownerMerchant": "Nigel / Martin",
+            "date": "2026-03-30",
+            "notes": "New close date. At risk if upstream milestones slip."
           },
           {
-            "date": "",
-            "done": false,
             "milestone": "Introduction to Shopify Launch team",
-            "ownerMerchant": "",
+            "done": false,
             "ownerShopify": "Adriana",
+            "ownerMerchant": "",
+            "date": "",
             "notes": ""
           },
           {
-            "date": "",
-            "done": false,
             "milestone": "Go-Live 🚀",
-            "ownerMerchant": "",
+            "done": false,
             "ownerShopify": "",
+            "ownerMerchant": "",
+            "date": "",
             "notes": ""
           }
         ]
@@ -4038,6 +3869,33 @@ const DEAL_DATA = {
               "pct": 80
             }
           }
+        }
+      ],
+      "dealRisks": [
+        {
+          "risk": "TIMELINE RISK: Close date slipped 1 month (Feb 27 → Mar 30) while next step still reads 'budget signed off any day now' — language unchanged despite delay, suggesting budget approval is stalling.",
+          "severity": "high",
+          "category": "timeline"
+        },
+        {
+          "risk": "EXECUTION RISK: 17 action items overdue from Feb 22–25. Critical discovery, decision process mapping, legal/procurement, and champion intro tasks remain unexecuted.",
+          "severity": "high",
+          "category": "execution"
+        },
+        {
+          "risk": "CHAMPION RISK: Multiple requests to 'Ask Martin for intro to Nigel' remain overdue. Without EB access, deal validation is single-threaded through Martin.",
+          "severity": "high",
+          "category": "champion"
+        },
+        {
+          "risk": "PAPER PROCESS RISK: No evidence that procurement, legal review timelines, or contract details have been discussed. With Mar 30 close, paper process must start by early March.",
+          "severity": "medium",
+          "category": "timeline"
+        },
+        {
+          "risk": "CREDIBILITY RISK: 'Any day now' on budget has persisted through a close date slip. If budget isn't confirmed within 1–2 weeks, Mar 30 is also at risk.",
+          "severity": "medium",
+          "category": "commercial"
         }
       ]
     },
@@ -14386,164 +14244,38 @@ const DEAL_DATA = {
       "nextSteps": [
         {
           "p": 1,
-          "cat": "Metrics",
-          "issue": "Some quantification ($6M+ dev spend reduction, conversion improvement implied) but no specific numeric targets validated with customer.",
-          "rec": "Ben Rees to propose a success metrics framework and validate before board meeting.",
-          "due": "2026-03-07"
+          "cat": "Commercial",
+          "rec": "INVESTIGATE PBR DROP IMMEDIATELY. PBR dropped 43% and MCV went to $0. Determine if deal restructure, data error, or scope reduction.",
+          "due": "02/27/2026",
+          "issue": "$6.66M → $3.81M PBR and $4.58M → $0 MCV with no explanation."
         },
         {
           "p": 2,
-          "cat": "Metrics",
-          "issue": "Implied impacts clear ($6M+ annual tech spend, poor D2C experience) but specific quantified downside not explicitly stated by customer.",
-          "rec": "Beatrice Porcescu to prepare 'cost of inaction' analysis.",
-          "due": "2026-03-07"
+          "cat": "Decision Criteria",
+          "rec": "Drive Plus vs Enterprise decision to closure by Mar 13. Provide clear recommendation with feature comparison and cost modeling for both.",
+          "due": "03/13/2026",
+          "issue": "Commercials cannot be finalized until Plus vs Enterprise is decided. Board in 27 days."
         },
         {
           "p": 3,
-          "cat": "Metrics",
-          "issue": "Business reasons discussed extensively but specific quantified success metrics not formally agreed upon.",
-          "rec": "Ben Rees to schedule metrics validation call once Fusefabric discovery completes.",
-          "due": "2026-03-10"
+          "cat": "Decision Process",
+          "rec": "Confirm Fusefabric discovery wraps ~Mar 6, get readout, ensure alignment before board materials prepared.",
+          "due": "03/06/2026",
+          "issue": "Partner discovery is gating dependency."
         },
         {
           "p": 4,
-          "cat": "Metrics",
-          "issue": "Qualitative case very strong but payment rate gap and Enterprise vs Plus cost question create commercial uncertainty.",
-          "rec": "Ben Rees to complete rate modeling once December payment statement received.",
-          "due": "2026-02-28"
+          "cat": "Paper Process",
+          "rec": "Pre-stage the contract NOW. Only 7 days between board (3/24) and close (3/31). Prepare order forms for both Plus and Enterprise.",
+          "due": "03/20/2026",
+          "issue": "7-day close window post-board is dangerously tight."
         },
         {
           "p": 5,
           "cat": "Economic Buyer",
-          "issue": "Neil Rhodes listed as Economic Buyer but unclear if sole signing authority or CEO co-sign needed given $4.58M deal size.",
-          "rec": "Ben Rees to clarify signing authority and whether board approval is formal or advisory.",
-          "due": "2026-03-01"
-        },
-        {
-          "p": 6,
-          "cat": "Economic Buyer",
-          "issue": "Board meeting March 24 known. Formal budget allocation process not documented.",
-          "rec": "Ben Rees to confirm budget approval process with Neil Rhodes.",
-          "due": "2026-03-01"
-        },
-        {
-          "p": 7,
-          "cat": "Decision Process",
-          "issue": "Board sign-off March 24. Post-board procurement/legal/sign-off not fully mapped.",
-          "rec": "Ben Rees to discuss post-board process with Neil Rhodes.",
-          "due": "2026-03-01"
-        },
-        {
-          "p": 8,
-          "cat": "Decision Process",
-          "issue": "ATG EOL creates hard deadline. Specific delay costs not quantified.",
-          "rec": "Include 'cost of delay' data in board presentation materials.",
-          "due": "2026-03-14"
-        },
-        {
-          "p": 9,
-          "cat": "Decision Process",
-          "issue": "March 24 board timeline discussed. Full post-board process not validated.",
-          "rec": "Ben Rees to walk through post-board steps with Neil Rhodes.",
-          "due": "2026-03-01"
-        },
-        {
-          "p": 10,
-          "cat": "Decision Criteria",
-          "issue": "Key criteria surfaced (TCO, payment rates, subscription capability, time-to-market) but no formal evaluation framework.",
-          "rec": "Ben Rees to share evaluation criteria framework with Andy Brooks.",
-          "due": "2026-03-01"
-        },
-        {
-          "p": 11,
-          "cat": "Decision Criteria",
-          "issue": "D2C extensively demo'd. POS/Retail included but less attention. B2B not discussed.",
-          "rec": "Beatrice Porcescu to confirm retail use case requirements.",
-          "due": "2026-03-10"
-        },
-        {
-          "p": 12,
-          "cat": "Decision Criteria",
-          "issue": "Key milestones loosely defined but no formal documented MAP with shared ownership and dates.",
-          "rec": "Ben Rees to draft and share MAP with Andy Brooks and Neil Rhodes.",
-          "due": "2026-02-28"
-        },
-        {
-          "p": 13,
-          "cat": "Decision Criteria",
-          "issue": "Criteria emerging organically. Unclear if formal RFP/evaluation matrix exists.",
-          "rec": "Ben Rees to ask Andy Brooks about formal vendor evaluation framework.",
-          "due": "2026-03-01"
-        },
-        {
-          "p": 14,
-          "cat": "Paper Process",
-          "issue": "[2026-02-25 SF refresh] Deal advanced to Deal Craft stage. Awaiting feedback on Plus vs Enterprise before finalising commercials. Board sign-off meeting scheduled for 24/03.",
-          "rec": "Clarify Plus vs Enterprise product tier decision to unblock commercial finalisation before 24/03 board meeting.",
-          "due": "2026-03-14"
-        },
-        {
-          "p": 15,
-          "cat": "Paper Process",
-          "issue": "For $4.58M deal with global enterprise, legal redlines highly likely. Ben advised DW to review Plus agreement.",
-          "rec": "Ben Rees to engage Shopify legal to prepare for enterprise contract redlines.",
-          "due": "2026-03-07"
-        },
-        {
-          "p": 16,
-          "cat": "Paper Process",
-          "issue": "Not discussed.",
-          "rec": "Ben Rees to ask about typical legal review cycles.",
-          "due": "2026-03-07"
-        },
-        {
-          "p": 17,
-          "cat": "Paper Process",
-          "issue": "Only 7 days between March 24 board and March 31 close date - unrealistic without pre-work.",
-          "rec": "Ben Rees to propose sending draft contract terms for pre-review before board.",
-          "due": "2026-03-07"
-        },
-        {
-          "p": 18,
-          "cat": "Paper Process",
-          "issue": "Pricing discussed in detail. Enterprise vs Plus decision pending. Contract terms not finalized.",
-          "rec": "Ben Rees to get final DW feedback and prepare contract package.",
-          "due": "2026-03-07"
-        },
-        {
-          "p": 19,
-          "cat": "Paper Process",
-          "issue": "Contract not sent. Enterprise vs Plus decision pending.",
-          "rec": "Ben Rees to prepare draft contract terms for review.",
-          "due": "2026-03-14"
-        },
-        {
-          "p": 20,
-          "cat": "Paper Process",
-          "issue": "Close date March 31. Board meeting March 24. June 30 launch creates working-backward deadline.",
-          "rec": "Ben Rees to confirm target signature date with Neil Rhodes.",
-          "due": "2026-03-01"
-        },
-        {
-          "p": 21,
-          "cat": "Identify Pain",
-          "issue": "Ecommerce, US team, Finance, IT affected. Impact on customer service, marketing, supply chain not detailed.",
-          "rec": "Ben Rees to ask Andy Brooks about cross-functional impact.",
-          "due": "2026-03-07"
-        },
-        {
-          "p": 22,
-          "cat": "Champion",
-          "issue": "Andy has operational credibility. But CIO Martyn Oakley could block - 'managing to a budget.'",
-          "rec": "Ben Rees to arm Andy Brooks with executive summary for influencing CIO.",
-          "due": "2026-03-10"
-        },
-        {
-          "p": 23,
-          "cat": "Champion",
-          "issue": "Board meeting March 24 scheduled. Unclear if Shopify presents directly or DW presents on their behalf.",
-          "rec": "Ben Rees to confirm with Neil Rhodes whether Shopify can attend/present.",
-          "due": "2026-03-01"
+          "rec": "Map the board: Who attends Mar 24? Who has veto power? Ask Andy/Neil to share board dynamics.",
+          "due": "03/06/2026",
+          "issue": "Board is the decision event but we don't know who's in the room."
         }
       ],
       "stakeholders": [
@@ -14957,144 +14689,123 @@ const DEAL_DATA = {
         "champion": "Neil Rhodes",
         "items": [
           {
-            "date": "",
-            "done": true,
             "milestone": "Initial discovery & intro calls",
-            "ownerMerchant": "Neil Rhodes",
+            "done": true,
             "ownerShopify": "Ben",
+            "ownerMerchant": "Neil Rhodes",
+            "date": "",
             "notes": "15 calls completed"
           },
           {
-            "date": "",
-            "done": true,
             "milestone": "Identify champion & project team",
-            "ownerMerchant": "Neil Rhodes",
+            "done": true,
             "ownerShopify": "Ben",
+            "ownerMerchant": "Neil Rhodes",
+            "date": "",
             "notes": "Champion: Neil Rhodes"
           },
           {
-            "date": "",
-            "done": false,
-            "milestone": "Ben Rees to propose a metrics framework document and validate with DW stakeholders.",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Metrics · Due 02/25/2026",
-            "due": "02/25/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Ben Rees to build a cost-of-inaction slide for board decision materials.",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Metrics · Due 02/24/2026",
-            "due": "02/24/2026"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Validate business case with economic buyer",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": true,
             "milestone": "Confirm economic buyer & signing authority",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Map complete decision & approval process",
-            "ownerMerchant": "Neil Rhodes",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Ben Rees to draft and share mutual action plan with Andy Brooks and Martyn Oakley.",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Due 02/22/2026",
-            "due": "02/22/2026"
-          },
-          {
-            "date": "",
             "done": true,
-            "milestone": "Submit merchant intent",
-            "ownerMerchant": "",
             "ownerShopify": "Ben",
+            "ownerMerchant": "",
+            "date": "",
+            "notes": ""
+          },
+          {
+            "milestone": "Submit merchant intent",
+            "done": true,
+            "ownerShopify": "Ben",
+            "ownerMerchant": "",
+            "date": "",
             "notes": "Intent: Committed - At Risk"
           },
           {
-            "date": "",
+            "milestone": "⚠️ Investigate PBR drop ($6.66M → $3.81M) and MCV zeroing",
             "done": false,
-            "milestone": "Finalize commercial proposal",
-            "ownerMerchant": "Neil Rhodes",
             "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm procurement process & legal steps",
             "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
+            "date": "2026-02-27",
+            "notes": "NEW CRITICAL: 43% PBR drop with no explanation. Data error or deal restructure?"
           },
           {
-            "date": "",
+            "milestone": "Complete rate modeling (Plus + Enterprise scenarios)",
             "done": false,
-            "milestone": "Ben Rees to ask Andy Brooks or Neil Rhodes about procurement/legal process and timeline.",
-            "ownerMerchant": "",
             "ownerShopify": "Ben",
-            "notes": "Paper Process · Due 02/25/2026",
-            "due": "02/25/2026"
+            "ownerMerchant": "N/A",
+            "date": "2026-02-28",
+            "notes": "Active — build for both scenarios."
           },
           {
-            "date": "",
+            "milestone": "Fusefabric discovery completion",
             "done": false,
-            "milestone": "Ben Rees to engage Shopify legal to prepare for contract negotiations on SLAs, rates, and variable fees.",
-            "ownerMerchant": "",
             "ownerShopify": "Ben",
-            "notes": "Paper Process · Due 03/01/2026",
-            "due": "03/01/2026"
+            "ownerMerchant": "Andy/Neil + Fusefabric",
+            "date": "2026-03-06",
+            "notes": "Gating item for solution finalization."
           },
           {
-            "date": "",
+            "milestone": "Plus vs Enterprise decision finalized",
             "done": false,
-            "milestone": "Contract sent for signature",
-            "ownerMerchant": "",
             "ownerShopify": "Ben",
-            "notes": ""
+            "ownerMerchant": "Andy/Neil",
+            "date": "2026-03-13",
+            "notes": "Blocks commercial finalization."
           },
           {
-            "date": "",
+            "milestone": "Commercial proposal finalized",
             "done": false,
+            "ownerShopify": "Ben",
+            "ownerMerchant": "Andy/Neil",
+            "date": "2026-03-17",
+            "notes": "Must be locked 1 week before board."
+          },
+          {
+            "milestone": "Board-ready materials prepared and shared",
+            "done": false,
+            "ownerShopify": "Ben",
+            "ownerMerchant": "Andy/Neil",
+            "date": "2026-03-20",
+            "notes": "Exec summary, ROI case, migration timeline, Fuse endorsement."
+          },
+          {
+            "milestone": "🎯 Board / sign-off meeting",
+            "done": false,
+            "ownerShopify": "Ben (on standby)",
+            "ownerMerchant": "Board / Andy / Neil",
+            "date": "2026-03-24",
+            "notes": "Confirmed decision event."
+          },
+          {
+            "milestone": "Contract sent (pre-staged)",
+            "done": false,
+            "ownerShopify": "Ben",
+            "ownerMerchant": "Andy/Neil / Legal",
+            "date": "2026-03-24",
+            "notes": "Send same day as board approval. Must be pre-prepared."
+          },
+          {
             "milestone": "Contract signed ✍️",
-            "ownerMerchant": "",
+            "done": false,
             "ownerShopify": "",
-            "notes": "Target: 2026-03-31"
+            "ownerMerchant": "EB / Legal",
+            "date": "2026-03-31",
+            "notes": "7-day window post-board. Very tight."
           },
           {
-            "date": "",
-            "done": false,
             "milestone": "Introduction to Shopify Launch team",
-            "ownerMerchant": "",
+            "done": false,
             "ownerShopify": "Ben",
+            "ownerMerchant": "",
+            "date": "",
             "notes": ""
           },
           {
-            "date": "",
-            "done": false,
             "milestone": "Go-Live 🚀",
-            "ownerMerchant": "",
+            "done": false,
             "ownerShopify": "",
+            "ownerMerchant": "",
+            "date": "",
             "notes": ""
           }
         ]
@@ -15189,6 +14900,33 @@ const DEAL_DATA = {
               "pct": 100
             }
           }
+        }
+      ],
+      "dealRisks": [
+        {
+          "risk": "COMMERCIAL RISK: PBR dropped 43% ($6.66M → $3.81M). MCV zeroed from $4.58M to $0. Deal appears significantly restructured.",
+          "severity": "high",
+          "category": "commercial"
+        },
+        {
+          "risk": "TIMELINE RISK: Only 7 calendar days between board meeting (Mar 24) and close date (Mar 31). No buffer for legal/procurement.",
+          "severity": "high",
+          "category": "timeline"
+        },
+        {
+          "risk": "DECISION CRITERIA RISK: Plus vs Enterprise still pending. Blocks commercial finalization. Must resolve BEFORE board meeting.",
+          "severity": "high",
+          "category": "commercial"
+        },
+        {
+          "risk": "PARTNER DEPENDENCY: Fusefabric still in discovery. If discovery extends beyond ~Mar 6, it compresses board prep time.",
+          "severity": "medium",
+          "category": "execution"
+        },
+        {
+          "risk": "POSITIVE SIGNAL: Stage advanced to Deal Craft (80% prob). Board date confirmed Mar 24. Momentum is real but execution window tight.",
+          "severity": "low",
+          "category": "timeline"
         }
       ]
     },
@@ -17145,276 +16883,38 @@ const DEAL_DATA = {
       "nextSteps": [
         {
           "p": 1,
-          "cat": "Metrics",
-          "issue": "Consolidating brands and moving away from SFCC, but specific business reasons (cost savings, performance issues, revenue targets) are not quantified.",
-          "rec": "Schedule discovery call focused on business metrics and expected outcomes",
-          "due": "2026-02-27"
+          "cat": "Decision Criteria",
+          "rec": "PREPARE KILLER SP PRESENTATION FOR MARCH 11. Coordinate with SP team: map Bugaboo's geographic markets, SP coverage, gap analysis, SP advantage vs Adyen narrative.",
+          "due": "03/06/2026",
+          "issue": "Merchant 'won't approve Adyen' — SP is the single make-or-break criterion."
         },
         {
           "p": 2,
-          "cat": "Metrics",
-          "issue": "No specific quantifiable goals (conversion rate improvement, cost reduction, time-to-market targets) discussed. D2C GMV of $51M in Salesforce but not validated.",
-          "rec": "Prepare business case framework with benchmark metrics from similar multi-brand migrations",
-          "due": "2026-03-06"
+          "cat": "Competition",
+          "rec": "Build SFCC competitive displacement materials: TCO comparison, similar brand migration case studies, SFCC pain points.",
+          "due": "03/06/2026",
+          "issue": "SFCC confirmed as competitor. Jordan needs ammunition."
         },
         {
           "p": 3,
-          "cat": "Metrics",
-          "issue": "Implied that staying on SFCC is undesirable and incumbent agency is being terminated, but explicit business impact of NOT migrating not articulated.",
-          "rec": "Include cost of inaction analysis in next business case discussion",
-          "due": "2026-03-06"
+          "cat": "Champion",
+          "rec": "Support Jordan's business case proactively. Send ROI frameworks, reference customers, SP advantage data, SFCC displacement stories.",
+          "due": "03/06/2026",
+          "issue": "Jordan is building biz case alone. He needs Shopify's help."
         },
         {
           "p": 4,
-          "cat": "Metrics",
-          "issue": "SFCC contract end date referenced but not specified. Organizational restructuring creates implicit urgency. Compelling Event field in Salesforce is null.",
-          "rec": "Ask Jordan for exact SFCC renewal/end date and board deadlines",
-          "due": "2026-02-27"
+          "cat": "Economic Buyer",
+          "rec": "Ask Jordan: 'Who reviews and approves the business case? Who makes final platform decision?'",
+          "due": "03/04/2026",
+          "issue": "No EB identified. Deal single-threaded through Jordan."
         },
         {
           "p": 5,
-          "cat": "Metrics",
-          "issue": "Metrics have not been formally validated — conversation has been about agency selection and contract structure, not business outcomes.",
-          "rec": "Prepare metrics validation discussion for next sync",
-          "due": "2026-03-06"
-        },
-        {
-          "p": 6,
-          "cat": "Metrics",
-          "issue": "Multi-brand consolidation story and SFCC departure are directionally compelling but lack quantified urgency.",
-          "rec": "Build TCO comparison (SFCC multi-brand vs. Shopify MSA)",
-          "due": "2026-03-13"
-        },
-        {
-          "p": 7,
-          "cat": "Economic Buyer",
-          "issue": "Jimmy Cai listed as EB but Richard (co-CEO) described as decision-maker who 'can sign this off.' Unclear who literally signs the contract.",
-          "rec": "Confirm signatory authority when initiating MSA legal review",
-          "due": "2026-03-06"
-        },
-        {
-          "p": 8,
-          "cat": "Economic Buyer",
-          "issue": "Jimmy Cai attended November 2025 group call. Richard has not appeared on any Shopify calls. Access to Jimmy exists; access to Richard is through Jordan.",
-          "rec": "Propose introductory call with Richard to discuss MSA approach and multi-brand vision",
-          "due": "2026-03-06"
-        },
-        {
-          "p": 9,
-          "cat": "Economic Buyer",
-          "issue": "Jordan described Richard as 'extremely impulsive' wanting multi-brand consolidation. Jimmy's specific priorities unknown.",
-          "rec": "Create executive briefing doc for Richard",
-          "due": "2026-03-13"
-        },
-        {
-          "p": 10,
-          "cat": "Economic Buyer",
-          "issue": "No discussion of budget allocation, approval process, or budget authority.",
-          "rec": "Ask Jordan about budget allocation process and approval thresholds",
-          "due": "2026-03-06"
-        },
-        {
-          "p": 11,
           "cat": "Decision Process",
-          "issue": "Agency selection process is clear (4 agencies pitching). Broader organizational approval process not fully mapped.",
-          "rec": "Ask Jordan to walk through decision chain: Who approves agency? Who approves contract? Board approval needed?",
-          "due": "2026-02-27"
-        },
-        {
-          "p": 12,
-          "cat": "Decision Process",
-          "issue": "Jordan, Richard, Jimmy Cai, and Jurryt van Arend identified. Unknown if procurement, finance, or other stakeholders are involved.",
-          "rec": "Ask Jordan if procurement or finance teams will be involved in contract review",
-          "due": "2026-02-27"
-        },
-        {
-          "p": 13,
-          "cat": "Decision Process",
-          "issue": "SFCC contract end and organizational restructuring drive timeline, but no single hard deadline explicitly confirmed.",
-          "rec": "Ask for SFCC contract details",
-          "due": "2026-02-27"
-        },
-        {
-          "p": 14,
-          "cat": "Decision Process",
-          "issue": "Jordan implied staying on SFCC is not viable, but explicit consequences not fully explored.",
-          "rec": "Include cost-of-inaction discussion in business case",
-          "due": "2026-03-06"
-        },
-        {
-          "p": 15,
-          "cat": "Decision Process",
-          "issue": "Jordan described process informally. No formal mutual validation with Richard or Jimmy.",
-          "rec": "Confirm decision process and timeline during Richard intro call",
-          "due": "2026-03-13"
-        },
-        {
-          "p": 16,
-          "cat": "Decision Criteria",
-          "issue": "Agency evaluation criteria partially visible. Platform-level criteria not explicitly discussed — Shopify is the assumed platform.",
-          "rec": "Ask Jordan if any remaining platform evaluation criteria exist or if it's purely agency selection",
-          "due": "2026-02-27"
-        },
-        {
-          "p": 17,
-          "cat": "Decision Criteria",
-          "issue": "Only D2C discussed. B2B and Retail GMV null. POS and omnichannel not explored. Payments GPV is $0.",
-          "rec": "Schedule discovery around full commerce needs including B2B, POS, and omnichannel",
-          "due": "2026-03-13"
-        },
-        {
-          "p": 18,
-          "cat": "Decision Criteria",
-          "issue": "No formal MAP. Process managed informally through Jordan-Ben syncs.",
-          "rec": "Draft mutual action plan and share with Jordan for validation",
-          "due": "2026-02-27"
-        },
-        {
-          "p": 19,
-          "cat": "Decision Criteria",
-          "issue": "Ben has informally guided agency selection and proposed MSA structure. No formal criteria-shaping exercise done.",
-          "rec": "Prepare 'why Shopify for multi-brand' positioning doc for Jordan to share internally",
-          "due": "2026-03-06"
-        },
-        {
-          "p": 20,
-          "cat": "Decision Criteria",
-          "issue": "Unknown who defined agency/platform evaluation criteria.",
-          "rec": "Ask Jordan who set evaluation criteria and whether others have requirements",
-          "due": "2026-02-27"
-        },
-        {
-          "p": 21,
-          "cat": "Paper Process",
-          "issue": "Ben proposed MSA route, Jordan agreed. Jordan mentioned legal team 'want to look at this once.' Full procurement process not mapped.",
-          "rec": "Ask Jordan how long legal reviews typically take and who is involved",
-          "due": "2026-02-27"
-        },
-        {
-          "p": 22,
-          "cat": "Paper Process",
-          "issue": "Jordan wants a break clause for Artipoppe engagement (exit if initial migration doesn't go well). This is a likely redline.",
-          "rec": "Discuss break clause feasibility with Shopify legal",
-          "due": "2026-03-06"
-        },
-        {
-          "p": 23,
-          "cat": "Paper Process",
-          "issue": "No information on Bugaboo's legal review timeline.",
-          "rec": "Include procurement timeline question in next sync",
-          "due": "2026-02-27"
-        },
-        {
-          "p": 24,
-          "cat": "Paper Process",
-          "issue": "Total procurement timeline unknown.",
-          "rec": "Ask Jordan for typical contract turnaround time",
-          "due": "2026-02-27"
-        },
-        {
-          "p": 25,
-          "cat": "Paper Process",
-          "issue": "No contract details shared yet. Ben suggested starting MSA process but hasn't begun.",
-          "rec": "Begin MSA draft and share with Jordan for initial review",
-          "due": "2026-03-06"
-        },
-        {
-          "p": 26,
-          "cat": "Paper Process",
-          "issue": "Contract has not been sent.",
-          "rec": "Draft MSA and initial sales order for Artipoppe",
-          "due": "2026-03-13"
-        },
-        {
-          "p": 27,
-          "cat": "Paper Process",
-          "issue": "Ben suggested Q1 contract negotiation. Jordan indicated end of January as good time. Close date April 23, 2026.",
-          "rec": "Propose target signature date in next conversation",
-          "due": "2026-02-27"
-        },
-        {
-          "p": 28,
-          "cat": "Identify Pain",
-          "issue": "Low IT capacity and organizational restructuring mentioned. Specific quantified business impact not discussed.",
-          "rec": "Ask Jordan what current tech stack fragmentation costs in time, money, opportunity",
-          "due": "2026-03-06"
-        },
-        {
-          "p": 29,
-          "cat": "Identify Pain",
-          "issue": "Digital CX, IT team, and brand-level teams affected. Extent of impact per team not detailed.",
-          "rec": "Include team-level pain mapping in discovery",
-          "due": "2026-03-13"
-        },
-        {
-          "p": 30,
-          "cat": "Identify Pain",
-          "issue": "Urgency from restructuring and SFCC timeline, but Jordan noted process has been 'slow because of change in company.' Mixed signals.",
-          "rec": "Frame Shopify migration as enabler of broader group consolidation",
-          "due": "2026-03-06"
-        },
-        {
-          "p": 31,
-          "cat": "Identify Pain",
-          "issue": "SFCC is incumbent. Jordan's language strongly suggests departure. No other platform competitors mentioned.",
-          "rec": "Prepare TCO comparison and migration risk assessment vs. staying on SFCC",
-          "due": "2026-03-13"
-        },
-        {
-          "p": 32,
-          "cat": "Identify Pain",
-          "issue": "Organizational restructuring (acquisitions, new leadership) creates a 'now' moment, but not explicitly tied to hard deadline.",
-          "rec": "Ask what business milestone is the hard deadline",
-          "due": "2026-02-27"
-        },
-        {
-          "p": 33,
-          "cat": "Champion",
-          "issue": "Jordan has influence over agency and tech stack decisions but is 'still waiting to hear whether I even have an official position with Artipoppe.'",
-          "rec": "Check in on Jordan's Artipoppe role status in next sync",
-          "due": "2026-02-27"
-        },
-        {
-          "p": 34,
-          "cat": "Champion",
-          "issue": "Jordan has not yet introduced Ben/Shopify directly to Richard. Richard has not appeared on any calls.",
-          "rec": "Ask Jordan to set up introductory call with Richard",
-          "due": "2026-03-06"
-        },
-        {
-          "p": 35,
-          "cat": "Champion",
-          "issue": "Jordan appears willing to advocate but hasn't explicitly brought Shopify into a buying group meeting. Shared that Richard can 'sign this off' but no formal intro.",
-          "rec": "Propose group presentation or executive briefing with Richard and Jimmy",
-          "due": "2026-03-13"
-        },
-        {
-          "p": 36,
-          "cat": "Competition",
-          "issue": "Jordan implies staying on SFCC is unattractive but not formally ruled out.",
-          "rec": "Include in next discovery conversation",
-          "due": "2026-02-27"
-        },
-        {
-          "p": 37,
-          "cat": "Competition",
-          "issue": "Wolfpack is being terminated. No visible SFCC advocate. Could theoretically stay on SFCC with different agency.",
-          "rec": "Ask Jordan if anyone internally prefers SFCC",
-          "due": "2026-02-27"
-        },
-        {
-          "p": 38,
-          "cat": "Competition",
-          "issue": "SFCC being evaluated implicitly. The 'why leave' is implied but not explicitly detailed.",
-          "rec": "Ask Jordan for top 3 reasons for leaving SFCC",
-          "due": "2026-03-06"
-        },
-        {
-          "p": 39,
-          "cat": "Competition",
-          "issue": "Shopify strongly positioned — agency evaluation entirely Shopify-focused, Jordan championing. Risks: Jordan's role uncertainty, Richard's impulsive style, NetSuite integration.",
-          "rec": "Address all three risk factors in upcoming engagements",
-          "due": "2026-03-13"
+          "rec": "Map full decision process: Biz case → SP eval → ? → Decision. Ask Jordan what happens after Mar 11 SP call.",
+          "due": "03/04/2026",
+          "issue": "No visibility into post-SP-call process."
         }
       ],
       "stakeholders": [
@@ -17588,153 +17088,107 @@ const DEAL_DATA = {
         "champion": "Jurryt van Arend",
         "items": [
           {
-            "date": "",
-            "done": true,
             "milestone": "Initial discovery & intro calls",
-            "ownerMerchant": "Jurryt van Arend",
+            "done": true,
             "ownerShopify": "Ben",
+            "ownerMerchant": "Jordan",
+            "date": "",
             "notes": "3 calls completed"
           },
           {
-            "date": "",
-            "done": false,
-            "milestone": "Identify champion & project team",
-            "ownerMerchant": "Jurryt van Arend",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Schedule discovery call focused on business metrics and expected outcomes",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Metrics · Due 2026-02-27",
-            "due": "2026-02-27"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Prepare business case framework with benchmark metrics from similar multi-brand migrations",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Metrics · Due 2026-03-06",
-            "due": "2026-03-06"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Validate business case with economic buyer",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
+            "milestone": "Feb 23 call with Jordan completed",
             "done": true,
-            "milestone": "Confirm economic buyer & signing authority",
-            "ownerMerchant": "",
             "ownerShopify": "Ben",
+            "ownerMerchant": "Jordan",
+            "date": "2026-02-23",
+            "notes": "Outcome: Jordan working biz case, SP is biggest issue, SP call scheduled."
+          },
+          {
+            "milestone": "Research Bugaboo geographic/payment requirements",
+            "done": false,
+            "ownerShopify": "Ben",
+            "ownerMerchant": "N/A",
+            "date": "2026-03-02",
+            "notes": "NEW: Pre-work for SP presentation."
+          },
+          {
+            "milestone": "Internal SP team pre-call and gap analysis",
+            "done": false,
+            "ownerShopify": "Ben + SP Team",
+            "ownerMerchant": "N/A",
+            "date": "2026-03-04",
+            "notes": "NEW: Must understand SP capabilities vs Bugaboo needs before Mar 11."
+          },
+          {
+            "milestone": "Identify economic buyer and approval chain",
+            "done": false,
+            "ownerShopify": "Ben",
+            "ownerMerchant": "Jordan",
+            "date": "2026-03-04",
+            "notes": "NEW: Ask Jordan who approves the business case."
+          },
+          {
+            "milestone": "Provide business case support materials to Jordan",
+            "done": false,
+            "ownerShopify": "Ben",
+            "ownerMerchant": "Jordan",
+            "date": "2026-03-06",
+            "notes": "NEW: ROI data, references, SFCC competitive comparison."
+          },
+          {
+            "milestone": "Build SFCC competitive displacement materials",
+            "done": false,
+            "ownerShopify": "Ben",
+            "ownerMerchant": "N/A",
+            "date": "2026-03-06",
+            "notes": "NEW: TCO comparison, migration case studies."
+          },
+          {
+            "milestone": "🎯 SP call with Bugaboo — CRITICAL",
+            "done": false,
+            "ownerShopify": "Ben + SP Team",
+            "ownerMerchant": "Jordan + stakeholders",
+            "date": "2026-03-11",
+            "notes": "Make-or-break. If SP doesn't meet requirements, deal dies."
+          },
+          {
+            "milestone": "Post-SP call: Confirm viability and next steps",
+            "done": false,
+            "ownerShopify": "Ben",
+            "ownerMerchant": "Jordan",
+            "date": "2026-03-13",
+            "notes": "Immediate follow-up."
+          },
+          {
+            "milestone": "Business case submitted to EB",
+            "done": false,
+            "ownerShopify": "Ben (support)",
+            "ownerMerchant": "Jordan",
+            "date": "",
+            "notes": "Timeline depends on SP call outcome."
+          },
+          {
+            "milestone": "Contract / commercial proposal",
+            "done": false,
+            "ownerShopify": "Ben",
+            "ownerMerchant": "Jordan",
+            "date": "",
             "notes": ""
           },
           {
-            "date": "",
-            "done": false,
-            "milestone": "Propose introductory call with Richard to discuss MSA approach and multi-brand vision",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Due 2026-03-06",
-            "due": "2026-03-06"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Map complete decision & approval process",
-            "ownerMerchant": "Jurryt van Arend",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Draft mutual action plan and share with Jordan for validation",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Due 2026-02-27",
-            "due": "2026-02-27"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Submit merchant intent",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Intent: Uncommitted"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Finalize commercial proposal",
-            "ownerMerchant": "Jurryt van Arend",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm procurement process & legal steps",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Ask Jordan how long legal reviews typically take and who is involved",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Paper Process · Due 2026-02-27",
-            "due": "2026-02-27"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Discuss break clause feasibility with Shopify legal",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Paper Process · Due 2026-03-06",
-            "due": "2026-03-06"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Contract sent for signature",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
             "milestone": "Contract signed ✍️",
-            "ownerMerchant": "",
+            "done": false,
             "ownerShopify": "",
+            "ownerMerchant": "",
+            "date": "",
             "notes": "Target: 2026-04-23"
           },
           {
-            "date": "",
-            "done": false,
-            "milestone": "Introduction to Shopify Launch team",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
             "milestone": "Go-Live 🚀",
-            "ownerMerchant": "",
+            "done": false,
             "ownerShopify": "",
+            "ownerMerchant": "",
+            "date": "",
             "notes": ""
           }
         ]
@@ -17784,6 +17238,33 @@ const DEAL_DATA = {
               "pct": 50
             }
           }
+        }
+      ],
+      "dealRisks": [
+        {
+          "risk": "CRITICAL: Shopify Payments is make-or-break. Merchant 'won't approve Adyen.' SP call March 11 is the most critical milestone.",
+          "severity": "high",
+          "category": "commercial"
+        },
+        {
+          "risk": "COMPETITIVE RISK: SFCC now confirmed as competitor. Need competitive positioning before SP call.",
+          "severity": "high",
+          "category": "competitive"
+        },
+        {
+          "risk": "TIMELINE RISK: Business case still being built. Multiple discovery items due 02/27 may not be complete.",
+          "severity": "medium",
+          "category": "timeline"
+        },
+        {
+          "risk": "SINGLE-THREADED: Jordan is sole contact. No EB or broader buying committee access.",
+          "severity": "medium",
+          "category": "champion"
+        },
+        {
+          "risk": "POSITIVE SIGNAL: First nextStep populated, competitor identified, PBR established (£276K). Deal is activating.",
+          "severity": "low",
+          "category": "execution"
         }
       ]
     },
@@ -19813,248 +19294,38 @@ const DEAL_DATA = {
       "nextSteps": [
         {
           "p": 1,
-          "cat": "Metrics",
-          "issue": "$76M D2C GMV, $49.4M Payments GPV, ~£60M turnover are known. Business case references conversion uplift and TCO reduction as goals, but no specific quantified targets captured from merchant.",
-          "rec": "Maissa to follow up with Charlotte on projected GMV and cost analysis, and anchor specific KPIs in the business case.",
-          "due": "2026-02-28"
+          "cat": "Decision Criteria",
+          "rec": "Deliver references FAST. Identify 2-3 DTC beauty/cosmetics brands on Shopify Plus. Warm intro within 1 week.",
+          "due": "03/04/2026",
+          "issue": "References requested — merchant validating their decision."
         },
         {
           "p": 2,
           "cat": "Metrics",
-          "issue": "Metrics around TCO, conversion, and operational efficiency are directionally compelling. However, 'Uncommitted' intent and 40% probability suggest the case isn't yet compelling enough. Financial comparison still being built.",
-          "rec": "Maissa to finalize Adyen vs SP conversion rate comparison and incorporate into business case.",
-          "due": "2026-03-04"
+          "rec": "Proactively support the business case: ROI framework, TCO comparison, case studies, performance benchmarks.",
+          "due": "03/06/2026",
+          "issue": "Quality of business case support directly impacts deal outcome."
         },
         {
           "p": 3,
           "cat": "Economic Buyer",
-          "issue": "Jay Jetley (CTO) is listed as Salesforce stakeholder. Faye Roth appears senior driving urgency. Charlotte Lecuyer is primary operational contact. True economic buyer for a $3.3M 3-year commitment hasn't been clearly identified. Board meeting reference suggests EB sits at board level.",
-          "rec": "Maissa to ask Charlotte/Faye directly: 'Who at board level will make the final sign-off on this investment?'",
-          "due": "2026-02-25"
+          "rec": "Identify the EB NOW. Ask Charlotte/Faye who makes final decision. Offer to present directly.",
+          "due": "03/06/2026",
+          "issue": "Commit forecast without EB identification is a qualification gap."
         },
         {
           "p": 4,
-          "cat": "Economic Buyer",
-          "issue": "No information about who specifically will sign the contract. Jay Jetley as CTO may have signing authority but this hasn't been confirmed.",
-          "rec": "Maissa to ask: 'When we get to contract stage, who will be the signatory and what does your procurement process look like?'",
-          "due": "2026-03-04"
+          "cat": "Decision Process",
+          "rec": "Sync with Stephen immediately (by Feb 27). Understand pre-holiday progress, remaining gaps, align on plan.",
+          "due": "02/27/2026",
+          "issue": "Stephen returning from holiday. Ensure seamless handoff."
         },
         {
           "p": 5,
-          "cat": "Economic Buyer",
-          "issue": "Jay Jetley was in early April calls but hasn't appeared in recent calls. Faye Roth attended Feb 4 and Jan 28 calls but exact title unknown. No direct engagement with CEO/CFO.",
-          "rec": "Request a brief executive alignment call with the EB to validate business case and timeline.",
-          "due": "2026-03-10"
-        },
-        {
-          "p": 6,
-          "cat": "Economic Buyer",
-          "issue": "Shopify has strong operational-level access. Faye may be able to facilitate EB access. Board go/no-go discussion suggests a path, but Shopify hasn't been in the room for that conversation.",
-          "rec": "Maissa to request introduction to the final decision-maker, positioned as 'aligning on business case and timeline.'",
-          "due": "2026-03-04"
-        },
-        {
-          "p": 7,
-          "cat": "Economic Buyer",
-          "issue": "James Parker's priorities now clearer: (1) minimizing project delay cost, (2) total cost of ownership per architecture, (3) regional promotion flexibility. Claire cares about tax filing workload. But ultimate EB's (CEO/board) priorities still unknown.",
-          "rec": "Ask champion if CEO has additional/different criteria beyond James's priorities.",
-          "due": "2026-02-28"
-        },
-        {
-          "p": 8,
-          "cat": "Economic Buyer",
-          "issue": "No evidence of understanding how budget is allocated, approval thresholds, or competing priorities. Jan 28 call mentioned Trinny is 'budget-conscious' (HCL partner choice).",
-          "rec": "Maissa to probe Charlotte/Faye on budget allocation process and competing investment priorities.",
-          "due": "2026-03-04"
-        },
-        {
-          "p": 9,
-          "cat": "Decision Process",
-          "issue": "Board-level go/no-go decision known. Technical validation and business case evaluation underway. Full end-to-end process from evaluation to vendor selection to procurement to contract not mapped.",
-          "rec": "Maissa to ask: 'Can you walk me through what happens between now and a signed contract?'",
-          "due": "2026-02-25"
-        },
-        {
-          "p": 10,
-          "cat": "Decision Process",
-          "issue": "Good visibility into evaluation committee: Charlotte (ecommerce lead), Claire Curran (tax/finance), Rob Brown (technical/UX), Faye Roth (senior), Hiten (technical), Jay Jetley (CTO), HCL team. Don't know formal buying committee or veto power.",
-          "rec": "Maissa to map the buying committee with Charlotte — who has a vote, who has a veto?",
-          "due": "2026-02-25"
-        },
-        {
-          "p": 11,
-          "cat": "Decision Process",
-          "issue": "Faye stressed stagnation risk. General pain around inefficiency clear. But specific consequences of not acting haven't been explicitly articulated by merchant.",
-          "rec": "Include 'cost of inaction' analysis in next business case update.",
-          "due": "2026-03-04"
-        },
-        {
-          "p": 12,
-          "cat": "Decision Process",
-          "issue": "Partially validated through repeated engagement — Faye confirmed board meeting timeline, Charlotte managing evaluation cadence. Formal validation of full procurement/decision process hasn't occurred.",
-          "rec": "Ask Faye or Charlotte to validate the full process map once created.",
-          "due": "2026-03-04"
-        },
-        {
-          "p": 13,
-          "cat": "Decision Criteria",
-          "issue": "D2C is primary focus, extensively discussed. POS mentioned briefly (19 terminals). B2B GMV null, not discussed. D2C well-covered, POS secondary, B2B not applicable.",
-          "rec": "Maissa/Ben Homer to include POS scoping in upcoming discussions.",
-          "due": "2026-03-10"
-        },
-        {
-          "p": 14,
-          "cat": "Decision Criteria",
-          "issue": "No formal MAP or mutual close plan documented or agreed. Engagement has been reactive/organic.",
-          "rec": "Maissa to draft a MAP and propose it during the Feb 25 catch-up.",
-          "due": "2026-02-25"
-        },
-        {
-          "p": 15,
-          "cat": "Decision Criteria",
-          "issue": "Actively shaping through demos, business case, architecture recommendations (headed vs headless), SP positioning. However, Commerce Tools likely also active — no visibility into their engagement.",
-          "rec": "Ask Charlotte/Faye: 'What is Commerce Tools proposing for renewal?'",
-          "due": "2026-03-04"
-        },
-        {
-          "p": 16,
-          "cat": "Decision Criteria",
-          "issue": "No evidence of who originally defined the evaluation criteria — IT/CTO, operations, board, or external consultant.",
-          "rec": "Maissa to ask: 'Who put together the evaluation criteria for this platform decision?'",
-          "due": "2026-03-04"
-        },
-        {
-          "p": 17,
           "cat": "Paper Process",
-          "issue": "[2026-02-25 SF refresh] Rate review discussion started — commercial/procurement process beginning.",
-          "rec": "Complete rate review and map out full procurement/legal process with Trinny team.",
-          "due": "2026-03-15"
-        },
-        {
-          "p": 18,
-          "cat": "Paper Process",
-          "issue": "No information about legal review requirements. Given ~£60M turnover, they likely have legal review processes.",
-          "rec": "Maissa to proactively ask about legal review process and deal-breaker terms.",
-          "due": "2026-03-10"
-        },
-        {
-          "p": 19,
-          "cat": "Paper Process",
-          "issue": "No information on legal review duration.",
-          "rec": "Include in procurement process discovery.",
-          "due": "2026-03-10"
-        },
-        {
-          "p": 20,
-          "cat": "Paper Process",
-          "issue": "No information on overall procurement timeline from decision to signature.",
-          "rec": "Include in procurement process discovery.",
-          "due": "2026-03-10"
-        },
-        {
-          "p": 21,
-          "cat": "Paper Process",
-          "issue": "No contract details discussed. Deal is at Solution stage — contract hasn't been introduced yet.",
-          "rec": "Maissa to prepare preliminary contract scope/terms for when deal moves to Negotiate stage.",
-          "due": "2026-03-15"
-        },
-        {
-          "p": 22,
-          "cat": "Paper Process",
-          "issue": "Contract has not been sent. Deal is in Solution stage.",
-          "rec": "Send contract once technical validation is complete and decision criteria are met.",
-          "due": "2026-04-15"
-        },
-        {
-          "p": 23,
-          "cat": "Paper Process",
-          "issue": "SF close date is June 30, 2026. Merchant referenced 'early next FY' for go-live and board go/no-go process underway. No explicit target signature date agreed.",
-          "rec": "Maissa to work backwards from desired go-live to determine when contract needs to be signed.",
-          "due": "2026-03-04"
-        },
-        {
-          "p": 24,
-          "cat": "Identify Pain",
-          "issue": "Clear urgency — Faye's stagnation comment, board-level review, Commerce Tools renewal. But not 'hair on fire' — 40% probability and 'Uncommitted' intent suggest merchant could renew with Commerce Tools.",
-          "rec": "Include 'cost of 12-month delay' scenario in business case.",
-          "due": "2026-03-04"
-        },
-        {
-          "p": 25,
-          "cat": "Identify Pain",
-          "issue": "Commerce Tools renewal is the obvious alternative. No other vendors mentioned. CT renewal offer not known.",
-          "rec": "Maissa to ask: 'What is Commerce Tools proposing for renewal?'",
-          "due": "2026-02-25"
-        },
-        {
-          "p": 26,
-          "cat": "Identify Pain",
-          "issue": "Well-positioned for unified commerce, lower TCO, faster migration (headed approach). SP is a differentiator. Gaps in native bundling, VIP pricing, and some tax automation. Commerce Tools' composable architecture may appeal for flexibility.",
-          "rec": "Ben Homer to follow up on Stephen's commitments to investigate VIP price list and advanced bundling solutions.",
-          "due": "2026-03-04"
-        },
-        {
-          "p": 27,
-          "cat": "Champion",
-          "issue": "Charlotte has operational credibility — coordinating evaluation, managing multiple teams. Faye has political capital — attended business case call, drove urgency. Formal positions and recommendation weight unknown.",
-          "rec": "Maissa to map org chart and understand reporting lines of key contacts.",
-          "due": "2026-02-25"
-        },
-        {
-          "p": 28,
-          "cat": "Champion",
-          "issue": "No evidence of direct introduction to true EB/board-level decision-maker. Jay Jetley (CTO) not in recent calls. Board go/no-go happened without Shopify.",
-          "rec": "Ask Charlotte/Faye to introduce Maissa to the board-level decision-maker.",
-          "due": "2026-03-10"
-        },
-        {
-          "p": 29,
-          "cat": "Champion",
-          "issue": "No evidence of invitation to present to board or buying group. Board go/no-go discussion happened internally.",
-          "rec": "Maissa to offer: 'Would it be helpful if we joined a brief session with your board?'",
-          "due": "2026-03-10"
-        },
-        {
-          "p": 30,
-          "cat": "Champion",
-          "issue": "Charlotte's motivation appears operational — dealing with daily platform pain. Faye's appears strategic — avoiding stagnation. Neither has explicitly stated 'I want Shopify to win' but behavior suggests strong leanings.",
-          "rec": "Maissa to conduct champion validation in 1:1 conversation.",
-          "due": "2026-02-25"
-        },
-        {
-          "p": 31,
-          "cat": "Competition",
-          "issue": "Commerce Tools is clearly the incumbent/primary competition. Entire evaluation framed as 'Shopify vs Commerce Tools'. No other vendors mentioned. Haven't explicitly confirmed no other vendors being evaluated.",
-          "rec": "Maissa to ask: 'Beyond Shopify and Commerce Tools, are you evaluating any other platforms?'",
-          "due": "2026-02-25"
-        },
-        {
-          "p": 32,
-          "cat": "Competition",
-          "issue": "Staying on Commerce Tools (renewing) is explicitly an option. Board go/no-go was deciding whether to proceed with migration. Haven't deeply explored what 'doing nothing' means or positioned against it.",
-          "rec": "Include in business case.",
-          "due": "2026-03-04"
-        },
-        {
-          "p": 33,
-          "cat": "Competition",
-          "issue": "No discussion of internal alternatives (e.g., building on Commerce Tools, re-platforming internally). CT may be offering new architecture or incentives.",
-          "rec": "Ask: 'Is Commerce Tools offering any changes to your architecture or renewal incentives?'",
-          "due": "2026-02-25"
-        },
-        {
-          "p": 34,
-          "cat": "Competition",
-          "issue": "Reasons they might stay on CT: switching cost fear, sunk cost, team familiarity, headless flexibility. These haven't been directly explored.",
-          "rec": "Maissa to ask: 'What would Commerce Tools need to offer for you to stay? What concerns do you have about switching?'",
-          "due": "2026-02-25"
-        },
-        {
-          "p": 35,
-          "cat": "Competition",
-          "issue": "Win reasons: lower TCO, faster migration, unified commerce, SP economics. Loss risks: product gaps (bundling, VIP pricing), HCL inexperience, headless flexibility concerns, CT renewal incentives. No explicit confirmation from merchant.",
-          "rec": "Maissa to ask Charlotte/Faye: 'What would need to be true for you to choose Shopify?'",
-          "due": "2026-02-25"
+          "rec": "Establish a close date. Ask: 'What's your ideal timeline? Board meeting, budget cycle, or renewal date driving this?'",
+          "due": "03/06/2026",
+          "issue": "Commit forecast without close date creates risk of stalling."
         }
       ],
       "stakeholders": [
@@ -20317,153 +19588,115 @@ const DEAL_DATA = {
         "champion": "Jay Jetley",
         "items": [
           {
-            "date": "",
-            "done": true,
             "milestone": "Initial discovery & intro calls",
-            "ownerMerchant": "Jay Jetley",
+            "done": true,
             "ownerShopify": "Maissa",
+            "ownerMerchant": "Charlotte/Faye",
+            "date": "",
             "notes": "9 calls completed"
           },
           {
-            "date": "",
-            "done": false,
             "milestone": "Identify champion & project team",
-            "ownerMerchant": "Jay Jetley",
-            "ownerShopify": "Maissa",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Maissa to follow up with Charlotte on projected GMV and cost analysis, and anchor specific KPIs in the business case.",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": "Metrics · Due 2026-02-28",
-            "due": "2026-02-28"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Maissa to finalize Adyen vs SP conversion rate comparison and incorporate into business case.",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": "Metrics · Due 2026-03-04",
-            "due": "2026-03-04"
-          },
-          {
-            "date": "",
             "done": true,
-            "milestone": "Validate business case with economic buyer",
-            "ownerMerchant": "",
             "ownerShopify": "Maissa",
+            "ownerMerchant": "Charlotte/Faye",
+            "date": "",
             "notes": ""
           },
           {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm economic buyer & signing authority",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Request a brief executive alignment call with the EB to validate business case and timeline.",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": "Due 2026-03-10",
-            "due": "2026-03-10"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Map complete decision & approval process",
-            "ownerMerchant": "Jay Jetley",
-            "ownerShopify": "Maissa",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Maissa to map the buying committee with Charlotte — who has a vote, who has a veto?",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": "Due 2026-02-25",
-            "due": "2026-02-25"
-          },
-          {
-            "date": "",
+            "milestone": "Stephen (SE) returns and re-engages",
             "done": true,
-            "milestone": "Submit merchant intent",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": "Intent: Uncommitted"
+            "ownerShopify": "Stephen",
+            "ownerMerchant": "N/A",
+            "date": "2026-02-20",
+            "notes": "Confirmed: 'Stephen back from hols.'"
           },
           {
-            "date": "",
-            "done": false,
-            "milestone": "Finalize commercial proposal",
-            "ownerMerchant": "Jay Jetley",
+            "milestone": "Feb 25 catch-up / checkpoint call",
+            "done": true,
             "ownerShopify": "Maissa",
+            "ownerMerchant": "Charlotte/Faye",
+            "date": "2026-02-25",
+            "notes": "Stage advanced to Demonstrate."
+          },
+          {
+            "milestone": "Internal sync with Stephen on pre-holiday progress and gaps",
+            "done": false,
+            "ownerShopify": "Maissa + Stephen",
+            "ownerMerchant": "N/A",
+            "date": "2026-02-27",
+            "notes": "NEW: Ensure continuity after holiday."
+          },
+          {
+            "milestone": "Deliver reference customers",
+            "done": false,
+            "ownerShopify": "Maissa",
+            "ownerMerchant": "Charlotte/Faye",
+            "date": "2026-03-04",
+            "notes": "NEW: References requested — late-stage buying signal."
+          },
+          {
+            "milestone": "Complete technical validation",
+            "done": false,
+            "ownerShopify": "Stephen (SE)",
+            "ownerMerchant": "Charlotte/Faye + Tech",
+            "date": "2026-03-06",
+            "notes": "Referenced in next step."
+          },
+          {
+            "milestone": "Business case support materials delivered",
+            "done": false,
+            "ownerShopify": "Maissa",
+            "ownerMerchant": "Charlotte/Faye",
+            "date": "2026-03-06",
+            "notes": "Supporting their business case per next step."
+          },
+          {
+            "milestone": "Identify and access economic buyer",
+            "done": false,
+            "ownerShopify": "Maissa",
+            "ownerMerchant": "Charlotte/Faye",
+            "date": "2026-03-06",
+            "notes": "NEW: Commit forecast but no EB access."
+          },
+          {
+            "milestone": "Establish close date and build backward timeline",
+            "done": false,
+            "ownerShopify": "Maissa",
+            "ownerMerchant": "Charlotte/Faye",
+            "date": "2026-03-06",
+            "notes": "NEW: Commit without hard close date."
+          },
+          {
+            "milestone": "Business case submitted to EB/board",
+            "done": false,
+            "ownerShopify": "Maissa (support)",
+            "ownerMerchant": "Charlotte/Faye",
+            "date": "",
+            "notes": "TBD — need to confirm when and who reviews."
+          },
+          {
+            "milestone": "Commercial proposal / contract",
+            "done": false,
+            "ownerShopify": "Maissa",
+            "ownerMerchant": "EB",
+            "date": "",
             "notes": ""
           },
           {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm procurement process & legal steps",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Complete rate review and map out full procurement/legal process with Trinny team.",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": "Paper Process · Due 2026-03-15",
-            "due": "2026-03-15"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Maissa to proactively ask about legal review process and deal-breaker terms.",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": "Paper Process · Due 2026-03-10",
-            "due": "2026-03-10"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Contract sent for signature",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
             "milestone": "Contract signed ✍️",
-            "ownerMerchant": "",
+            "done": false,
             "ownerShopify": "",
+            "ownerMerchant": "",
+            "date": "",
             "notes": "Target: 2026-06-30"
           },
           {
-            "date": "",
-            "done": false,
-            "milestone": "Introduction to Shopify Launch team",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
             "milestone": "Go-Live 🚀",
-            "ownerMerchant": "",
+            "done": false,
             "ownerShopify": "",
+            "ownerMerchant": "",
+            "date": "",
             "notes": ""
           }
         ]
@@ -20513,6 +19746,33 @@ const DEAL_DATA = {
               "pct": 40
             }
           }
+        }
+      ],
+      "dealRisks": [
+        {
+          "risk": "POSITIVE MOMENTUM: Stage Solution → Demonstrate, prob 40→60, Commit forecast. Active tech validation, biz case support, references underway.",
+          "severity": "low",
+          "category": "execution"
+        },
+        {
+          "risk": "BUSINESS CASE DEPENDENCY: Supporting them with the business case — if it doesn't land internally, deal stalls.",
+          "severity": "medium",
+          "category": "commercial"
+        },
+        {
+          "risk": "SINGLE-THREADED: Charlotte/Faye are primary contacts. No EB access confirmed despite Commit forecast.",
+          "severity": "medium",
+          "category": "champion"
+        },
+        {
+          "risk": "RE-ENGAGEMENT RISK: Stephen was on holiday. Need to quickly re-establish cadence.",
+          "severity": "low",
+          "category": "execution"
+        },
+        {
+          "risk": "TIMELINE UNCERTAINTY: No confirmed close date or board decision date. Commit forecast but no hard deadline.",
+          "severity": "medium",
+          "category": "timeline"
         }
       ]
     }
