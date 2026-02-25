@@ -36,6 +36,16 @@ function countNoAnswers(o){
 
 function getDealRisks(o){
   const risks=[],dtc=Math.ceil((new Date(o.closeDate)-Date.now())/864e5);
+
+  // === ANALYST-PROVIDED RISKS (from MEDDPICC incremental updates) ===
+  if(o.dealRisks&&o.dealRisks.length){
+    o.dealRisks.forEach(r=>{
+      const sev=r.severity==="high"?"high":r.severity==="medium"?"med":"low";
+      risks.push({sev,signal:r.risk,coaching:r.category?("Category: "+r.category):"",source:"analyst"});
+    });
+  }
+
+  // === AUTO-GENERATED RISKS (from scores, dates, activity) ===
   const calls=o.calls||[],lastCall=calls.length?calls.reduce((l,c)=>c.date>l?c.date:l,""):null;
   const ds=lastCall?Math.ceil((Date.now()-new Date(lastCall))/864e5):999;
   const comp=o.competitive?.primary||o.competitor||"";

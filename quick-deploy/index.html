@@ -578,6 +578,21 @@ function showDetail(id){
     </div>
     ${opp.compellingEvent?`${renderNarrative(opp,'compellingEvent','⚡ Compelling Event',false,true)}`:''}
     ${opp.nextStep?`${renderNarrative(opp,'nextStep','📌 AE Next Step',false,true)}`:''}
+    ${(opp.dealRisks&&opp.dealRisks.length)?`<div class="risks-panel" style="margin-top:16px">
+      <h3 style="font-size:14px;font-weight:700;margin-bottom:10px">⚠️ Deal Risks</h3>
+      <div style="display:flex;flex-direction:column;gap:8px">
+        ${opp.dealRisks.map(r=>{
+          const sev=r.severity||'medium';
+          const icon=sev==='high'?'🔴':sev==='medium'?'🟡':'🟢';
+          const bg=sev==='high'?'rgba(255,59,48,0.08)':sev==='medium'?'rgba(255,204,0,0.08)':'rgba(52,199,89,0.08)';
+          const border=sev==='high'?'rgba(255,59,48,0.25)':sev==='medium'?'rgba(255,204,0,0.25)':'rgba(52,199,89,0.25)';
+          return`<div style="padding:10px 14px;border-radius:8px;background:${bg};border:1px solid ${border};font-size:13px;line-height:1.5">
+            <span style="margin-right:6px">${icon}</span>
+            <span style="font-weight:600;text-transform:uppercase;font-size:11px;letter-spacing:0.5px;margin-right:8px;opacity:0.7">${r.category||''}</span>
+            ${r.risk}
+          </div>`}).join('')}
+      </div>
+    </div>`:''}
   </div>
 
   <!-- MEDDPICC -->
