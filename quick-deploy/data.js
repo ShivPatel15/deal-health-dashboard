@@ -40,9 +40,9 @@ const DEAL_DATA = {
         "D2C - Standard",
         "Shopify Payments - D2C Plus"
       ],
-      "competitor": "Visualsoft (status quo)",
+      "competitor": "Other",
       "compellingEvent": "Acquisition and change in leadership has prompted merchant via partner Visualsoft to review their tech structure. New ownership reviewing P&L and 3-5 year goals, giving green light for ecommerce modernization. Domain litigation resolution progressing (Russell & Bromley bankruptcy setting favorable precedent). Target go-live March/April 2026.",
-      "nextStep": "02/18 - Spoke to David Duke and we are on track to get it signed before end of Feb",
+      "nextStep": "02/18 -Spoke to David Duke and we are on track to get it signed before end of Feb",
       "narrative": {
         "oppSummary": "Moda in Pelle is a $75,900 MCV new business opportunity ($1.04M total 3-year revenue) for a UK-based footwear and accessories retailer with 27 physical stores/concessions and a growing ecommerce presence. The company recently underwent an acquisition and leadership change, which has prompted a full review of their technology stack. They are migrating from Visualsoft (their current platform and implementation partner) to Shopify Plus with Shopify Payments, targeting a contract signature by end of February 2026 and a go-live in March/April 2026.",
         "whyChange": "Moda in Pelle has experienced significant brand and business damage over the past 12 months due to their current technology limitations. Matt Holden stated: 'I think the last 12 months have been tricky. I don't think we put our best foot forward. Probably damaged the brand more than we should have done.' The company's recent acquisition and change in leadership has triggered a comprehensive review of their technology infrastructure, with the new owners giving them 'a green light to pretty much do what we want from an ecom perspective.' Their current platform has left them stuck — Matt acknowledged that without action 'we'll be sat with the same site for the next 10 years.' The business needs a more capable ecommerce solution to drive online sales diversification.",
@@ -1393,7 +1393,7 @@ const DEAL_DATA = {
       "owner": "Adriana Colacicco",
       "ownerEmail": "adriana.colacicco@shopify.com",
       "stage": "Deal Craft",
-      "closeDate": "2026-02-27",
+      "closeDate": "2026-03-30",
       "forecastCategory": "Commit",
       "probability": 80,
       "merchantIntent": "Committed - At Risk",
@@ -1402,22 +1402,22 @@ const DEAL_DATA = {
       "lastAnalysisDate": "2026-02-19",
       "revenue": {
         "mcv": 69000,
-        "totalRev3yr": 714900,
+        "totalRev3yr": 676036.88,
         "d2cGmv": 16900000,
         "b2bGmv": null,
         "retailGmv": 43744512,
-        "paymentsGpv": 8125000,
+        "paymentsGpv": 10985000,
         "paymentsAttached": true,
         "ipp": 0
       },
-      "projectedBilledRevenue": 406078.56,
+      "projectedBilledRevenue": 303277.58,
       "products": [
         "D2C - Standard (Plus)",
         "Shopify Payments - D2C Plus"
       ],
       "competitor": "Adobe Commerce (Magento)",
       "compellingEvent": "Salesforce Commerce Cloud Site Genesis reaching end-of-life, non-mobile-native platform with 70% mobile traffic, inability to unlock digital wallets, and ambitious B2C growth targets requiring a modern platform. July 2026 launch target to avoid January 2027 crunch.",
-      "nextStep": "19.02 resubmitted rate review, WorldPay is payment processor, Barclay, Merchant keen on signing this Q (received email from Fiona today mentioning good to sign in Feb!)",
+      "nextStep": "24.02 RR back, Adriana to set up meeting with Nathan and Fiona to discuss final steps + Partner choice",
       "narrative": {
         "oppSummary": "Whittard of Chelsea is a UK-based Food & Beverage retailer evaluating a migration from Salesforce Commerce Cloud (Site Genesis) to Shopify Plus, with a projected deal value of ~$714,900 over 3 years ($69,000/yr MCV). The merchant targets a July 2026 launch to replatform their e-commerce site, with the ambition of growing online B2C penetration from 17-18% to 25% of total sales over 24 months. The deal is currently in Deal Craft stage at 80% probability with a Feb 27, 2026 close date, and the merchant has signaled readiness to sign in February — Fiona Scott (Head of eCommerce, now primary contact after Alice Bennett's maternity leave) sent a recent email indicating willingness to sign this quarter.",
         "whyChange": "Whittard is on Salesforce Commerce Cloud's Site Genesis, which Fiona stated 'won't be supported by Salesforce for much longer.' The platform is not mobile-native — a critical problem with 70% mobile traffic vs 25% desktop. They cannot unlock digital wallets (Apple Pay, Google Pay). B2C sales are 17-18% of total, targeting 25%. The original evaluation considered a phased approach but has since prioritized full migration by July 2026.",
@@ -2653,7 +2653,7 @@ const DEAL_DATA = {
       "owner": "Adriana Colacicco",
       "ownerEmail": "adriana.colacicco@shopify.com",
       "stage": "Deal Craft",
-      "closeDate": "2026-02-27",
+      "closeDate": "2026-03-30",
       "forecastCategory": "Commit",
       "probability": 80,
       "merchantIntent": "Committed - At Risk",
@@ -2662,7 +2662,7 @@ const DEAL_DATA = {
       "lastAnalysisDate": "2026-02-25",
       "revenue": {
         "mcv": 82800,
-        "totalRev3yr": 4269147,
+        "totalRev3yr": 4269146.5,
         "d2cGmv": null,
         "b2bGmv": null,
         "retailGmv": 97000000,
@@ -2670,7 +2670,7 @@ const DEAL_DATA = {
         "paymentsAttached": true,
         "ipp": 0
       },
-      "projectedBilledRevenue": 641868,
+      "projectedBilledRevenue": 641867.88,
       "products": [
         "Plus Product Suite",
         "D2C - Standard",
@@ -2681,7 +2681,7 @@ const DEAL_DATA = {
       ],
       "competitor": "None",
       "compellingEvent": "SFCC licensing expires February 2026 — hard contractual deadline, verified across multiple calls. Not a soft preference. Combined with high TCO and operational frustration, doing nothing means renewing a platform they're actively trying to leave.",
-      "nextStep": "19.02 onsite meeting cancelled as team members sick, had meeting with Dune and Tryzens to discuss launch steps, Martin confirmed They're very close to getting budget signed off 'any day now'",
+      "nextStep": "24.02  onsite meeting cancelled as team members sick, had meeting with Dune and Tryzens to discuss launch steps, Martin confirmed They're very close to getting budged signed off \"any day now\"",
       "narrative": {
         "oppSummary": "The Dune Group is a UK fashion footwear retailer with 55+ stores evaluating a full-platform migration from Salesforce Commerce Cloud + Anakta POS to Shopify Plus with POS Pro and Retail Payments. The deal is valued at $82,800 MCV with $4.27M in 3-year total revenue and is in Deal Craft stage at 80% probability. Martin Wareing (Head of IT) confirmed budget sign-off is imminent. The SFCC license expiring in February 2026 creates a hard compelling event, and SI partner Tryzens actively recommended Shopify.",
         "whyChange": "Dune is on Salesforce Commerce Cloud for eCommerce and Anakta for in-store POS, creating significant operational friction. All changes must go through Tryzens in monthly sprints — no in-house control. Martin described having to 'mold ways of working to the platform.' Anakta POS adds complexity around payment gateway management and reconciliation. TCO is high across both stacks, and with SFCC licensing expiring Feb 2026, they face an inflection point: renew an expensive, inflexible stack or migrate.",
@@ -4073,7 +4073,7 @@ const DEAL_DATA = {
       ],
       "competitor": "Salesforce Commerce Cloud",
       "compellingEvent": "SAP Hybris out of Support Jan 2027 and failed Salesforce Commerce Cloud implementation from 2024. Legacy tech identified as a growth inhibitor — identified new segment and cannot scale business for this on current stack.",
-      "nextStep": "18/02 BR. Legal are still working through the PLUS contract as we have pushed back 3X on their asks. Have just kicked off discovery with Arsenalia and some peripheral queries around China and Markets have arisen. Working through Async.",
+      "nextStep": "18/02 BR. Legal Are still working through the PLUS contract as we have pushed back 3X on their asked. Have just kicked off discovery with Arsenalia and some peripheral queries around china and markets have arisen. Working through Async.",
       "narrative": {
         "oppSummary": "Mulberry Company (Sales) Limited is a UK-based luxury fashion brand (~£161.5M revenue, ~1,000 employees) evaluating Shopify Plus as a replacement for their current custom-built SAP Hybris e-commerce platform, which goes end-of-support in January 2027. This is an $82,800 MCV new business deal with $841,500 in projected 3-year total revenue and $51M in D2C GMV. The deal is currently in the Demonstrate stage at 60% probability, forecasted as Commit but flagged as 'Committed - At Risk,' with a close date of February 28, 2026. Legal negotiations are active but contentious — Shopify has pushed back 3x on Mulberry's contract asks — and new peripheral queries around China and Markets have emerged, adding complexity. A second SI partner (Arsenalia) has just been engaged alongside Impact Commerce, suggesting implementation scoping is underway but potentially not yet settled.",
         "whyChange": "Mulberry's current e-commerce platform is built on SAP Hybris, which is going end-of-support in January 2027 — creating a hard deadline to migrate. They previously attempted to solve this by implementing Salesforce Commerce Cloud in 2024, but that project failed, meaning they've already burned time and budget on one migration attempt. Beyond the platform sunset, Mulberry's leadership has identified their legacy tech stack as a growth inhibitor — specifically, they have identified a new customer segment they want to pursue but cannot scale their business to address it on their current architecture. The business problem is therefore both defensive (platform going dark) and offensive (new growth opportunity blocked by tech limitations). The combination of a failed prior migration, an immovable platform sunset, and unmet growth ambitions creates significant organizational urgency and pain.",
@@ -5509,9 +5509,9 @@ const DEAL_DATA = {
         "D2C - Multi Brand",
         "Shopify Payments - D2C Plus"
       ],
-      "competitor": "SAP (incumbent) / Scale (potential retender)",
+      "competitor": null,
       "compellingEvent": "SAP Commerce contract expires January 2027. Must go-live by November 2026 to give notice. Board approved budget. Previous Alkai migration failed. Offer expires March 13, 2026. Decision expected by Feb 27.",
-      "nextStep": "13/02 MF: Will have a decision by 27/02. Contract reviewed and rates presented. Offer expires March 13th.",
+      "nextStep": "20/02 MF: Will have a decision by 27/02. Contract reviewed and rates presented. Offer expires March 13th.",
       "narrative": {
         "oppSummary": "Wacoal Europe is a $285,200 MCV Plus deal ($1.24M 3yr total revenue) to migrate 4 lingerie brands (Wacoal, Fantasy, Freya, Elomi) from SAP Commerce to Shopify Plus with multi-brand, multi-market D2C storefronts and Shopify Payments. The deal is in Deal Craft at 80% probability with a Feb 28, 2026 close date, driven by CIO Danny Dawes, with VML as the implementation partner. The primary negotiation sticking points have been Shopify Payments transaction fees versus their current provider Comptop, preservation of a ~$46K credit, and financial settlement/reconciliation concerns — with Danny explicitly stating he would delay a year and renew with SAP if commercials can't be resolved.",
         "whyChange": "Wacoal Europe's current SAP Commerce platform contract expires in January 2027, creating a hard deadline for a platform decision. The organization has accumulated significant technical debt and operational friction with their existing stack — Danny's team previously attempted a migration with Alkai that failed and wasted ~$40K before being terminated over contractual disagreements around co-marketing discounts. The Black Friday 2025 results underscored challenges with their D2C/ecom channel — Danny noted that 'D2C/ecom was challenging' while brick-and-mortar performed well, suggesting their current platform isn't supporting digital commerce growth. The financial reconciliation and settlement processes on their current stack are causing acute anxiety — Samantha Hadland from the finance team said the settlement piece 'makes me feel sick', and Laura Simon called it 'enormous for us.'",
@@ -6808,7 +6808,7 @@ const DEAL_DATA = {
       "lastAnalysisDate": "2026-02-19",
       "revenue": {
         "mcv": 82800,
-        "totalRev3yr": 1220972,
+        "totalRev3yr": 1220972.06,
         "d2cGmv": 26353100,
         "b2bGmv": null,
         "retailGmv": null,
@@ -6816,7 +6816,7 @@ const DEAL_DATA = {
         "paymentsAttached": true,
         "ipp": 0
       },
-      "projectedBilledRevenue": 483034,
+      "projectedBilledRevenue": 483034.36,
       "products": [
         "Plus Product Suite",
         "D2C - Standard",
@@ -6824,7 +6824,7 @@ const DEAL_DATA = {
       ],
       "competitor": "SAP Commerce Cloud (Hybris)",
       "compellingEvent": "None identified. This is a critical deal risk. The closest driver is aspirational H2 2026 go-live target. Shopify should explore Hybris licensing renewal timelines or peak trading deadlines (pre-Christmas 2026) to create urgency.",
-      "nextStep": "13/02 MF: Handover from Yas - merchant pushing to get meeting with IT at Frasers group to get approval. Reviewing the buss case numbers with them.",
+      "nextStep": "20/02 MF: Handover from Yas - merchant pushing to get meeting with IT at Frasers group to get approval. Reviewing the buss case numbers with them next week.",
       "narrative": {
         "oppSummary": "Sofa.com (owned by Frasers Group) is evaluating a migration from SAP Commerce Cloud (Hybris) to Shopify Plus, representing $82,800 MCV and $1.22M in 3-year total revenue. The deal is currently stuck in the Demonstrate stage at 60% probability, with the primary blocker being Frasers Group's internal IT approval process — Tom Humphrey and Blayne Griffin-Reader have been waiting over two months just to secure an initial meeting with Group IT. VML (agency partner) has built a TCO/business case showing ~£600K savings over 3 years with a 12-month payback period, and a 3-year ROI comparison of Hybris vs Shopify is under review, but no decision can progress until Group IT confirms the current system's inadequacy.",
         "whyChange": "Sofa.com is running on SAP Commerce Cloud (Hybris), which sits within Frasers Group's archaic, centralized tech infrastructure. The platform creates significant operational pain: manual processes dominate day-to-day work, the team has limited internal tech/dev resources, and peak trading periods expose the system's inability to scale efficiently. The complex SKU structure (large volumes of product variations) is poorly served by the current setup. Payment processing through Elevon is causing unnecessary costs. Sofa.com is a 'small cog in a big wheel' at Frasers Group, and the centralized IT approach is holding back a brand that needs agility and modern commerce capabilities.",
@@ -8137,16 +8137,16 @@ const DEAL_DATA = {
       "created": "2024-07-16",
       "lastAnalysisDate": "2026-02-20",
       "revenue": {
-        "mcv": 132800,
-        "totalRev3yr": 2333229,
+        "mcv": 82800,
+        "totalRev3yr": 2333229.33,
         "d2cGmv": 25495422,
         "b2bGmv": null,
         "retailGmv": 39402017,
-        "paymentsGpv": 33144049,
+        "paymentsGpv": 33144049.22,
         "paymentsAttached": true,
         "ipp": 0
       },
-      "projectedBilledRevenue": 719855,
+      "projectedBilledRevenue": 719854.75,
       "products": [
         "Plus Product Suite",
         "D2C - Standard",
@@ -8157,7 +8157,7 @@ const DEAL_DATA = {
       ],
       "competitor": "Centra",
       "compellingEvent": "ERP migration has prompted technical review + Magento contract renewal due EOY 2026. Both events are real and validated through multiple calls. Risk is that competing priorities (ERP costs, integration complexity) could slow decision-making.",
-      "nextStep": "18/2 BR RFP has landed and I am speaking to each agency (7) to get a sense check. Timelines on RFP indicate build to start in April.",
+      "nextStep": "18/2 BR RFP has landed and I ma speaking to each agency (7) to get a sense check. Timelines on RFP indicate  build to start in April",
       "narrative": {
         "oppSummary": "Essentiel Antwerp (Belgian fashion brand under Kadin Group) is evaluating a full-stack Shopify Plus migration encompassing D2C, POS Pro across ~50 retail stores, and Shopify Payments. The deal is valued at $82,800 MCV with $2.33M in projected 3-year revenue and significant GMV ($25.5M D2C, $39.4M Retail, $33.1M Payments GPV). The opportunity is at the Demonstrate stage with a 60% probability, but is flagged as Committed - At Risk due to dependencies on an internal ERP modernization decision and complex international entity structure. An RFP is now live with 7 agencies responding, and build is targeted to start in April 2026 with a September 2026 go-live.",
         "whyChange": "Essentiel Antwerp is carrying significant tech debt across their commerce stack. Their current Magento platform is approaching contract renewal at EOY 2026. Their ERP landscape is fragmented — wholesale has already migrated to ItsPerfect, but DTC and retail operations remain on an older Microsoft Business Central that requires expensive upgrades. The cost and complexity of upgrading Business Central is a major pain point. Filip noted the 'massive cost factor' of upgrading their current ERP stack, prompting evaluation of whether a platform consolidation to Shopify could reduce overall TCO and provide omnichannel capability they currently lack.",
@@ -9516,7 +9516,7 @@ const DEAL_DATA = {
       "lastAnalysisDate": "2026-02-24",
       "revenue": {
         "mcv": 0,
-        "totalRev3yr": 1562351,
+        "totalRev3yr": 1562351.44,
         "d2cGmv": null,
         "b2bGmv": null,
         "retailGmv": 99315424,
@@ -9524,7 +9524,7 @@ const DEAL_DATA = {
         "paymentsAttached": true,
         "ipp": 0
       },
-      "projectedBilledRevenue": 574389,
+      "projectedBilledRevenue": 574389.18,
       "products": [
         "Plus Product Suite",
         "Plus - POS Pro",
@@ -9532,7 +9532,7 @@ const DEAL_DATA = {
       ],
       "competitor": "Sitoo",
       "compellingEvent": "Christmas 2026 POS go-live target set by CTO. Moderate-strong: genuine business driver (no retailer migrates POS during holidays) but self-imposed by new CTO, not external forcing function. Deal has already been delayed twice (2024, mid-2025). Feb 20 commercial director call is make-or-break.",
-      "nextStep": "18/02 BR Board have pushback on costs (particularly rates). Call with commercial director on 20th to align on what rate we need to close this.",
+      "nextStep": "18/02 BR Board have pushback on costs (particularly rates). Call with commercial director on 20th to align on what rate we need to close this",
       "narrative": {
         "oppSummary": "Mint Velvet is an existing Shopify Plus D2C customer evaluating Shopify POS Pro and Retail Payments to replace incumbent Sitoo across 110 UK retail stores. The deal represents $1.56M in total revenue ($574K projected billed) with $99.3M in retail GMV. This is a winback — POS was explored in 2024 and paused. Now restarted by new CTO (Tom) targeting Christmas 2026 go-live. Current blocker is board-level pushback on payment processing rates, with a critical Feb 20 commercial director call to align on rates.",
         "whyChange": "Mint Velvet runs Sitoo POS across 110 stores while on Shopify Plus for D2C, creating a fragmented commerce stack. New CTO (Tom) joined with a mandate to modernize. 21+ POS sync calls in 2025 surfaced pain points around financial reconciliation, inventory management, omni-channel gaps, and operational overhead of separate systems. New sub-brand Arttov further compounds the need for a unified platform.",
@@ -10908,9 +10908,9 @@ const DEAL_DATA = {
         "Plus - POS Pro",
         "Retail Payments - Plus"
       ],
-      "competitor": "Adobe Commerce (Magento)",
+      "competitor": null,
       "compellingEvent": "Adobe Commerce contract expires October 2026. Simultaneous NetSuite ERP replacement. RFP narrowed from 6 vendors to ~2. Ben wants to avoid further investment in Adobe.",
-      "nextStep": "19.02 Awaiting statement for RR, collab on TCO, POS demo successful, received good feedback, awaiting final feedback for next round of RFP",
+      "nextStep": "24.02 Awaiting statement for RR, collab on TCO, POS demo successful, received good feedback, awaiting final feedback for next round of RFP",
       "narrative": {
         "oppSummary": "Oliver Bonas Limited is an £87M D2C / £25M Retail GMV UK fashion and lifestyle retailer with 90+ stores, evaluating Shopify Plus as a replacement for their current Adobe Commerce (Magento) platform, whose contract expires October 2026. The deal is valued at $82,800 MCV with $1.48M in projected billed revenue and $5.8M total 3-year revenue including payments ($113.1M GPV). The opportunity is in the Demonstrate stage of a competitive RFP process — originally 6 vendors narrowed to approximately 2 — with implementation cost clarity being the primary blocker to advancing the deal.",
         "whyChange": "Oliver Bonas is running on Adobe Commerce (Magento) with a NetSuite ERP that is also being replaced. Ben Curtis, Director of Ecommerce, has explicitly stated they want to avoid 'putting lots of additional investment into Adobe especially with the new ERP system... only to then rip it all out again later,' indicating significant concern about throwing good money after bad. The current tech stack creates complexity around omnichannel capabilities like click & collect, endless aisle, and save-the-sale — features Ben noted 'can be mitigated without additional development if we were to go down a single vendor solution.' The simultaneous ERP replacement and Adobe contract expiry create a natural inflection point where re-platforming makes strategic sense.",
@@ -12357,9 +12357,9 @@ const DEAL_DATA = {
         "Shopify Payments - D2C Plus, Shopify for ent, CCS",
         "Retail Payments - Plus"
       ],
-      "competitor": "Citrus Lime (incumbent)",
+      "competitor": null,
       "compellingEvent": "Citrus Lime e-commerce contract expiration in April 2026 — hard deadline requiring platform decision and migration before expiry.",
-      "nextStep": "11.02 Merchant awaiting feedback from board, however is now considering Advanced, I will now decrease involvement, it is not looking as likely anymore",
+      "nextStep": "11.02 Merchant awaiting feedback from board, however is now considering Advanced, I will no decrease involvement, it is not looking as likely anymore",
       "narrative": {
         "oppSummary": "Cycle King & Hawk is a UK multi-store cycling retailer (23 stores, expanding to 26) evaluating Shopify Plus for D2C e-commerce and eventually POS. The deal is valued at $82,800 MCV with $874K in 3-year total revenue and $2.6M in Payments GPV. The merchant's online business is significantly underperforming (£1.5M online vs £13.5M in-store, 0.3% conversion rate), and their current platform provider Citrus Lime is limiting growth through poor functionality, lack of customization, and high costs (~£250K/year). The deal is in Demonstrate stage with a close date of March 27, 2026, and the merchant's current e-commerce contract expires in April 2026, creating a hard deadline.",
         "whyChange": "Cycle King's current e-commerce and EPOS provider, Citrus Lime, is fundamentally limiting their online growth. Their online conversion rate sits at just 0.3%, and online revenue (£1.5M) represents only ~10% of their total retail revenue (£13.5M in-store), suggesting massive untapped digital potential. Darren Hunt has explicitly stated that the current solution 'is impeding online growth' due to poor functionality, lack of customization, and limited ability to create a customer-centric experience. Key operational pain points include poor integration between website and EPOS, difficulties handling cycle-to-work vouchers, and limited click-and-collect and workshop/servicing capabilities. The cost of Citrus Lime at ~£250K/year is high relative to value delivered, and the business is rapidly scaling (23 stores growing to 26).",
@@ -13716,17 +13716,17 @@ const DEAL_DATA = {
       "accountId": "0018V00002a7BPLQA2",
       "owner": "Ben Rees",
       "ownerEmail": "ben.rees@shopify.com",
-      "stage": "Demonstrate",
+      "stage": "Deal Craft",
       "closeDate": "2026-03-31",
       "forecastCategory": "Commit",
-      "probability": 60,
+      "probability": 80,
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2025-08-06",
       "lastAnalysisDate": "2026-02-25",
       "revenue": {
-        "mcv": 4582000,
-        "totalRev3yr": 13756191,
+        "mcv": 0,
+        "totalRev3yr": 10909191,
         "d2cGmv": 162000000,
         "b2bGmv": null,
         "retailGmv": 8000000,
@@ -13734,7 +13734,7 @@ const DEAL_DATA = {
         "paymentsAttached": true,
         "ipp": 7943380.68
       },
-      "projectedBilledRevenue": 6660618.5,
+      "projectedBilledRevenue": 3813618.5,
       "products": [
         "CCS for Enterprise Product Suite",
         "CCS for enterprise - D2C",
@@ -15225,7 +15225,7 @@ const DEAL_DATA = {
       ],
       "competitor": "Custom Build",
       "compellingEvent": "Must be live by August 2026 ahead of peak trading season. CEO Touker Suleyman personally mandating 4-5 month completion timeline. Aggressive growth targets require platform migration.",
-      "nextStep": "13/02 MF: Finalising agency selection before signing Shopify contract. Paul Rogers (Vervaunt) introduced more agencies with design focus, might not sign before Q2 now. Catch up with Paul next week (Alexandra supporting).",
+      "nextStep": "20/02 MF: Finalising agency selection before signing Shopify contract. Paul Rogers (Vervaunt) introduced more agencies with design focus, might not sign before Q2 now. Catch up with Paul next week (Alexandra supporting).",
       "narrative": {
         "oppSummary": "Hawes & Curtis is an $82,800 MCV Plus deal (projected $2.04M total 3-year revenue) to migrate the UK-based fashion retailer off a legacy custom-built platform onto Shopify Plus, including Shopify Payments ($32.5M GPV). The deal is at 80% probability in Deal Craft stage, with CEO Touker Suleyman pushing aggressively to sign and go live by August 2026 ahead of peak trading season. Agency selection (implementation partner) is the final gating item before contract signature.",
         "whyChange": "Hawes & Curtis is running on a legacy custom-built platform that is actively preventing the business from growing and innovating. Their current tech stack cannot deliver the customer experiences they need to drive online growth, with technical limitations surfacing around inventory management, order statuses, and the inability to unify D2C and POS without heavy integration work. The CTO's team raised multiple concerns about their current platform's rigidity during the technical workshop. The business has aggressive growth targets and the CEO is personally driving urgency, demanding project completion in four to five months with no delays.",
@@ -16498,13 +16498,13 @@ const DEAL_DATA = {
         "paymentsAttached": false,
         "ipp": 734400
       },
-      "projectedBilledRevenue": null,
+      "projectedBilledRevenue": 276727.83,
       "products": [
         "D2C - Standard"
       ],
       "competitor": "Salesforce Commerce Cloud",
       "compellingEvent": "",
-      "nextStep": "12/02 BR Call with Jordan. 2 agencies still to pitch (Askphil and Wolfpack). Running through Payments and Biz case with him on 23rd",
+      "nextStep": "23/02 BR Call with Jordan. He is working through biz case but biggest aspect is going to be the SP since we will not approve Adyen. Agency decision in March. SP call schedulled for 11th March",
       "narrative": {
         "oppSummary": "Bugaboo International B.V. is evaluating Shopify Plus for a multi-brand D2C migration starting with Artipoppe, with the intent to subsequently migrate Joolz and potentially Bugaboo itself. The deal is valued at $82,800 (Plus Standard) with $51M D2C GMV and a 3-year revenue impact of $841,500. The group is currently on Salesforce Commerce Cloud and is undergoing significant organizational restructuring — including acquisitions (Joolz), leadership changes, and a new co-CEO (Richard) — while simultaneously selecting a migration agency and negotiating an MSA structure with Shopify.",
         "whyChange": "Bugaboo Group is consolidating multiple brands (Bugaboo, Artipoppe, Joolz) under a single umbrella following acquisitions, and needs a unified, scalable commerce platform to support this multi-brand strategy. The current Joolz agency (Wolfpack) is being terminated, indicating dissatisfaction with existing vendor relationships. Artipoppe is migrating to NetSuite on the ERP side, suggesting broader digital transformation. There is an implicit Salesforce Commerce Cloud contract end date driving the evaluation, with Jordan explicitly stating 'when this Salesforce contract ends' there's no reason they wouldn't migrate. Organizational changes (new co-CEO Richard, new Artipoppe GM) create a decision window where leadership wants to future-proof the tech stack.",
@@ -17812,7 +17812,7 @@ const DEAL_DATA = {
         "paymentsAttached": true,
         "ipp": 1112865.6
       },
-      "projectedBilledRevenue": null,
+      "projectedBilledRevenue": 758832.18,
       "products": [
         "Plus Product Suite",
         "D2C - Standard",
@@ -17820,7 +17820,7 @@ const DEAL_DATA = {
       ],
       "competitor": "",
       "compellingEvent": "Board meeting mid-February requires Mo to present a costed replatforming proposal with topline figures; budgets for the new financial year (starting 1 August) are signed off by end of June — meaning if this doesn't get approved in this cycle, the project slips a full year.",
-      "nextStep": "19.02 presented commercials, board meeting this month, awaiting statements for RR, NDA in works",
+      "nextStep": "24.02 presented commercials, board meeting this month, awaiting statements for RR, NDA in works, MO ooo",
       "narrative": {
         "oppSummary": "C.P. Hart & Sons Limited is a luxury bathroom retailer (~90 years old) evaluating Shopify Plus to replace their outdated, custom-built e-commerce platform. The deal is valued at $82,800/year ($2.18M over 3 years) with $40M D2C GMV, $26M Payments GPV, and a projected billed revenue of ~$759K. Mo Goodfellow (Director, Marketing & Digital) is leading the evaluation after his senior e-commerce manager (Diamante) went on personal leave, and he needs to present a costed replatforming proposal to the board in mid-February, with budgets signed off by end of June for a new financial year starting August 1.",
         "whyChange": "C.P. Hart's current e-commerce platform is a custom-built, legacy system described as 'quite custom made, quite old' and 'split in two,' where every small change requires going through a dev agency with no clarity on timelines. The website is the primary lead generation engine for their showroom business (90-95% of sales), yet the current platform fails to represent their luxury brand adequately online and lacks best-practice UI/UX, templated design capabilities, and proper customer journey tracking. Mo emphasized the existential business case: 'we're 90 years old next year. If we want to last for another 90 years we need to start at the beginning of the funnel again.' Significant organizational change — their MD was promoted out and the parent company has a new CEO — adds pressure to demonstrate digital modernization.",
@@ -19146,10 +19146,10 @@ const DEAL_DATA = {
       "accountId": "0018V00002czmgWQAQ",
       "owner": "Maissa Fatte",
       "ownerEmail": "maissa.fatte@shopify.com",
-      "stage": "Solution",
+      "stage": "Demonstrate",
       "closeDate": "2026-06-30",
-      "forecastCategory": "Pipeline",
-      "probability": 40,
+      "forecastCategory": "Commit",
+      "probability": 60,
       "merchantIntent": "Uncommitted",
       "type": "New Business",
       "created": "2026-02-24",
@@ -19172,7 +19172,7 @@ const DEAL_DATA = {
       ],
       "competitor": "",
       "compellingEvent": "",
-      "nextStep": "",
+      "nextStep": "20/02 MF: Supporting them with the business case, technical validation and with merchant references. Started a rate review discussion. Catch up on 25/02",
       "narrative": {
         "oppSummary": "Trinny London is an $82,800 Plus deal (D2C Standard) with $76M projected D2C GMV, $49.4M Payments GPV, and a 3-year total revenue of $3.31M. The London-based beauty brand is evaluating a migration from Commerce Tools (their current headless commerce platform) to Shopify Plus, driven by contract renewal timing, operational inefficiencies, tech debt, and a desire for faster development and reduced total cost of ownership. The deal is currently in Solution stage at 40% probability with a June 30, 2026 close target, and the merchant is actively deep in technical validation — having conducted 14 calls including detailed architecture demos, tax/store structure discussions, and business case presentations.",
         "whyChange": "Trinny London's current Commerce Tools headless architecture is creating significant operational friction and cost burden. The team explicitly stated they are exploring alternatives due to their Commerce Tools renewal, citing the need for increased efficiencies, enhanced internationalization (Germany), and better tech support. Their headless setup has created challenges with bundling and customization — core to their 'match to me' personalized product experience. They've been considering moving back to Shopify for nearly a year (since April 2025), with concerns about headless limitations around app compatibility, tax handling, discount codes, and gift cards. Faye Roth stressed the importance of swift decision to avoid stagnation, suggesting internal frustration with the pace of progress on their current stack.",
