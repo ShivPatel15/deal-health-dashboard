@@ -18118,5 +18118,671 @@
       ],
       "goLiveDate": ""
     }
+  },
+  {
+    "id": "006OG00000KOC4YYAX",
+    "name": "Moss Bros. Group Ltd",
+    "accountName": "Moss Bros. Group Ltd",
+    "accountId": "001OG00000kHK7sYAG",
+    "stage": "Envision",
+    "closeDate": "2026-09-30",
+    "forecastCategory": "Pipeline",
+    "probability": 20,
+    "type": "New Business",
+    "merchantIntent": "Uncommitted",
+    "owner": "Maissa Fatte",
+    "ownerEmail": "maissa.fatte@shopify.com",
+    "revenue": {
+      "mcv": 82800,
+      "totalRev3yr": 2129400,
+      "d2cGmv": 39000000,
+      "b2bGmv": null,
+      "retailGmv": null,
+      "paymentsGpv": 25350000,
+      "paymentsAttached": true,
+      "ipp": 1085043.96
+    },
+    "products": [
+      "Plus Product Suite",
+      "D2C - Standard",
+      "Shopify Payments - D2C Plus, Shopify for ent, CCS"
+    ],
+    "stakeholders": [
+      {
+        "name": "Brett Grobler",
+        "title": "",
+        "role": "",
+        "email": "breett@mossbros.co.uk",
+        "engagement": "low",
+        "callsAttended": 0,
+        "callsInvited": 0
+      }
+    ],
+    "shopifyTeam": [
+      {
+        "name": "Dave Warrington",
+        "role": "Demo Engineering",
+        "email": "david.warrington@shopify.com"
+      },
+      {
+        "name": "Christian Mackie",
+        "role": "Solutions Architect",
+        "email": "christian.mackie@shopify.com"
+      },
+      {
+        "name": "Paul Cochrane",
+        "role": "Demo Engineering",
+        "email": "paul.cochrane@shopify.com"
+      },
+      {
+        "name": "Sarah Berelowitz",
+        "role": "Solutions Engineer",
+        "email": "sarah.berelowitz@shopify.com"
+      }
+    ],
+    "competitive": {
+      "primary": "",
+      "position": "",
+      "partner": ""
+    },
+    "timeline": {
+      "created": "2026-01-16",
+      "proposedLaunch": "",
+      "region": "EMEA"
+    },
+    "projectedBilledRevenue": 745569.83,
+    "compellingEvent": "",
+    "aeNextStep": "[AS] 16.01 Technical discovery scheduled for 26.01 + intro to deal champion, Chris Turberville-Tulley",
+    "narrative": {
+      "oppSummary": "Moss Bros. Group Ltd is a new business opportunity in the Envision stage with an annual deal value of $82,800 and a 3-year total revenue impact of $2,129,400. The deal involves D2C Standard Plus with Shopify Payments attached ($25.35M GPV against $39M D2C GMV). The opportunity was created on January 16, 2026, with a projected close date of September 30, 2026, currently at 20% probability with merchant intent listed as Uncommitted.",
+      "whyChange": "Not discussed in available calls. No call transcripts are available, and the Salesforce data does not include a compelling event or specific pain points driving the evaluation. The AE next steps reference a \"technical discovery\" session and an introduction to a deal champion (Chris Turberville-Tulley), suggesting early-stage qualification is still underway. Without transcripts or documented business pain, the reasons for evaluating a platform change remain unknown at this time.",
+      "whyShopify": "Not discussed in available calls. The Salesforce data confirms Moss Bros. is evaluating Shopify Plus with D2C Standard and Shopify Payments, but no competitive context, feature-specific interest, or comparison notes are documented. No competitor field is populated, and position vs. competitor is blank. A demo was booked for February 25, 2026, which may begin to surface why Shopify is being considered, but no evidence exists yet.",
+      "whyNow": "Not discussed in available calls. No compelling event is documented in Salesforce. The close date of September 30, 2026, suggests a roughly 8-month sales cycle was projected at opportunity creation, but there is no indication of what external business event, contract renewal, or internal pressure is driving the timeline. This is a critical gap that needs to be addressed in upcoming discovery sessions.",
+      "supportNeeded": "Complete technical discovery to understand Moss Bros.' current tech stack, pain points, and migration requirements. Introduction to and engagement with the identified deal champion, Chris Turberville-Tulley. Demo delivery (booked for February 25, 2026) tailored to Moss Bros.' D2C and payments use cases. Identification and documentation of compelling event and urgency drivers. Competitive landscape assessment — no competitors currently identified."
+    },
+    "meddpicc": {
+      "metrics": {
+        "label": "Metrics",
+        "questions": [
+          {
+            "q": "Do we know the business reasons as to why they are migrating?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "AE notes reference 'technical discovery' suggesting migration is being explored, but no specific business reasons are documented.",
+            "solution": "Use upcoming discovery and demo sessions to uncover and document specific business drivers.",
+            "action": "Maissa to document business migration reasons after technical discovery call.",
+            "due": "2026-03-07",
+            "highlight": false
+          },
+          {
+            "q": "Do we have specific quantifiable goals aligned with the project?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No quantifiable goals (revenue targets, conversion improvements, cost savings) are documented anywhere.",
+            "solution": "Ask champion and stakeholders about KPIs they expect to improve with a platform change.",
+            "action": "Maissa to prepare metrics-focused discovery questions for next stakeholder meeting.",
+            "due": "2026-03-14",
+            "highlight": false
+          },
+          {
+            "q": "Do they need to make a platform change to achieve this goal?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "The fact that they are evaluating Shopify Plus suggests they believe a platform change may be needed, but this has not been explicitly confirmed.",
+            "solution": "Validate whether incremental improvements to current stack were considered vs. full replatform.",
+            "action": "Maissa to ask directly whether they've considered staying on current platform with modifications.",
+            "due": "2026-03-14",
+            "highlight": false
+          },
+          {
+            "q": "Do we understand the impact if this goal isn't achieved?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No information on what happens if they fail to achieve their goals or don't migrate.",
+            "solution": "Explore cost of inaction during next discovery session.",
+            "action": "Maissa to document 'cost of doing nothing' during champion conversation.",
+            "due": "2026-03-14",
+            "highlight": false
+          },
+          {
+            "q": "Is there a compelling event in place driving action?",
+            "answer": "No",
+            "score": 0,
+            "notes": "Compelling Event field is null. No deadline, renewal, or business trigger documented.",
+            "solution": "Uncover whether there is a contract renewal, board mandate, or business event forcing a decision.",
+            "action": "Maissa to explicitly ask about contract timelines and business deadlines in next call.",
+            "due": "2026-03-07",
+            "highlight": false
+          },
+          {
+            "q": "Have I validated the metrics with the customer?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No metrics have been identified, so none have been validated.",
+            "solution": "Once metrics are identified, validate them with the economic buyer or champion.",
+            "action": "Defer until metrics are established.",
+            "due": "2026-04-01",
+            "highlight": false
+          },
+          {
+            "q": "Are the metrics compelling enough to justify change?",
+            "answer": "No",
+            "score": 0,
+            "notes": "Without identified metrics, cannot assess if they are compelling enough to justify change.",
+            "solution": "Build a business case with quantified impact once metrics are gathered.",
+            "action": "SA/Dave to prepare ROI framework once discovery data is available.",
+            "due": "2026-04-15",
+            "highlight": false
+          }
+        ]
+      },
+      "economicBuyer": {
+        "label": "Economic Buyer",
+        "questions": [
+          {
+            "q": "Have I identified the true economic buyer?",
+            "answer": "No",
+            "score": 0,
+            "notes": "Only one stakeholder listed (Brett Grobler) with no title or role. Deal champion Chris Turberville-Tulley referenced but not in stakeholder list. True economic buyer unknown.",
+            "solution": "Map the org chart and identify who holds budget authority for technology decisions.",
+            "action": "Maissa to ask champion who the budget holder and final decision-maker is.",
+            "due": "2026-03-07",
+            "highlight": false
+          },
+          {
+            "q": "Do we know who's signing the contract?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No information on who will sign the contract.",
+            "solution": "Confirm contract signatory during procurement discussions.",
+            "action": "Maissa to ask champion about contract signing authority.",
+            "due": "2026-03-21",
+            "highlight": false
+          },
+          {
+            "q": "Do we have access to this individual?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No evidence of access to the economic buyer. We don't even know who it is yet.",
+            "solution": "Use champion relationship to map path to economic buyer.",
+            "action": "Maissa to request introduction to economic buyer through Chris Turberville-Tulley.",
+            "due": "2026-03-21",
+            "highlight": false
+          },
+          {
+            "q": "Can we get access?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "AE notes mention an 'intro to deal champion, Chris Turberville-Tulley' which could be a path to the economic buyer, but this is speculative.",
+            "solution": "Leverage champion introduction to build upward access.",
+            "action": "Maissa to confirm champion intro happened and plan EB introduction.",
+            "due": "2026-03-14",
+            "highlight": false
+          },
+          {
+            "q": "Do we know what the economic buyer cares about most?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No information about what the economic buyer cares about.",
+            "solution": "Research Moss Bros. public statements, annual reports, and ask champion about EB priorities.",
+            "action": "Maissa to research EB priorities and prepare targeted messaging.",
+            "due": "2026-03-21",
+            "highlight": false
+          },
+          {
+            "q": "Do you know how they make decisions and allocate budget?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No information about their decision-making process or budget allocation methods.",
+            "solution": "Ask champion how technology decisions and budgets are typically approved.",
+            "action": "Maissa to include budget/decision process questions in next champion conversation.",
+            "due": "2026-03-21",
+            "highlight": false
+          }
+        ]
+      },
+      "decisionProcess": {
+        "label": "Decision Process",
+        "questions": [
+          {
+            "q": "Do we know how they will be making the decision?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No documented decision process. The opportunity is in Envision stage with early discovery activities.",
+            "solution": "Map the full decision process including evaluation steps, approvals, and timeline.",
+            "action": "Maissa to ask champion to walk through how they've made similar technology decisions in the past.",
+            "due": "2026-03-14",
+            "highlight": false
+          },
+          {
+            "q": "Do we know who's involved / buying committee?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Brett Grobler listed as stakeholder and Chris Turberville-Tulley referenced as champion, but no full buying committee mapped.",
+            "solution": "Build a complete stakeholder map with roles, influence levels, and positions on Shopify.",
+            "action": "Maissa to ask champion who else is involved in the evaluation and decision.",
+            "due": "2026-03-14",
+            "highlight": false
+          },
+          {
+            "q": "Do we know when they want to make a decision by?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Close date is September 30, 2026, but unclear if customer-driven or AE-estimated.",
+            "solution": "Validate whether the customer has a target decision date and what's driving it.",
+            "action": "Maissa to confirm customer's desired decision timeline in next meeting.",
+            "due": "2026-03-14",
+            "highlight": false
+          },
+          {
+            "q": "Do we know what is driving this timeline?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No information on what's driving the timeline. Compelling event is null.",
+            "solution": "Uncover external or internal drivers for the September timeline.",
+            "action": "Maissa to ask what business event or deadline is associated with their platform decision.",
+            "due": "2026-03-14",
+            "highlight": false
+          },
+          {
+            "q": "Do we know if they have tried to solve this problem before?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No information on whether Moss Bros. has previously attempted to solve this problem.",
+            "solution": "Ask about previous replatforming attempts or evaluations.",
+            "action": "Maissa to include 'have you tried to solve this before?' in discovery questions.",
+            "due": "2026-03-14",
+            "highlight": false
+          },
+          {
+            "q": "Do we know what will happen if they do nothing?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No information on what happens if they maintain the status quo.",
+            "solution": "Explore and document the consequences of inaction.",
+            "action": "Maissa to discuss cost of inaction with champion and stakeholders.",
+            "due": "2026-03-21",
+            "highlight": false
+          },
+          {
+            "q": "Have you validated this process with the buyer?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No decision process has been identified yet, so none has been validated.",
+            "solution": "Once process is mapped, validate it with champion and ideally the economic buyer.",
+            "action": "Defer until decision process is mapped.",
+            "due": "2026-04-01",
+            "highlight": false
+          }
+        ]
+      },
+      "decisionCriteria": {
+        "label": "Decision Criteria",
+        "questions": [
+          {
+            "q": "Do we know what criteria the customer is using to evaluate vendors?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No evaluation criteria documented. No competitor listed.",
+            "solution": "Ask what criteria they are using to evaluate platforms and who defined them.",
+            "action": "Maissa to ask champion for their evaluation criteria / RFP requirements.",
+            "due": "2026-03-14",
+            "highlight": false
+          },
+          {
+            "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
+            "answer": "No",
+            "score": 0,
+            "notes": "Products listed are D2C Standard only. Unclear if omnichannel needs discussed or ruled out.",
+            "solution": "Explore whether Moss Bros. has omnichannel needs (retail stores, B2B wholesale).",
+            "action": "SA to include omnichannel capability discussion in demo or follow-up discovery.",
+            "due": "2026-03-07",
+            "highlight": false
+          },
+          {
+            "q": "Have we surfaced technical complications (integrations)?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Technical discovery scheduled for January 26 likely surfaced requirements, but no outcomes documented.",
+            "solution": "Document technical discovery findings including current integrations, ERP, OMS, PIM, etc.",
+            "action": "SA/Dave to document and share technical discovery outcomes.",
+            "due": "2026-03-07",
+            "highlight": false
+          },
+          {
+            "q": "Do we know how payments play into their decision?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Shopify Payments attached ($25.35M GPV out of $39M GMV = ~65% attachment), suggesting payments were discussed. No details on current payment setup.",
+            "solution": "Understand current PSP, rates, and what would drive a payments switch.",
+            "action": "AE/SA to discuss payments requirements and compare to current provider.",
+            "due": "2026-03-21",
+            "highlight": false
+          },
+          {
+            "q": "Do we have a mutual action plan in place?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No mutual action plan documented.",
+            "solution": "Create a mutual action plan with the champion after discovery is complete.",
+            "action": "Maissa to propose a mutual action plan with key milestones and dates.",
+            "due": "2026-03-28",
+            "highlight": false
+          },
+          {
+            "q": "Did we help shape those criteria in our favour?",
+            "answer": "No",
+            "score": 0,
+            "notes": "Without knowing the criteria, we cannot assess whether we've shaped them.",
+            "solution": "Once criteria are known, identify areas where Shopify differentiates.",
+            "action": "SA to prepare competitive positioning once criteria are identified.",
+            "due": "2026-04-01",
+            "highlight": false
+          },
+          {
+            "q": "Do we know who defined the decision criteria?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No information on who defined the decision criteria.",
+            "solution": "Ask who is leading the evaluation and who defined the requirements.",
+            "action": "Maissa to ask champion about the origin of evaluation criteria.",
+            "due": "2026-03-14",
+            "highlight": false
+          }
+        ]
+      },
+      "paperProcess": {
+        "label": "Paper Process",
+        "questions": [
+          {
+            "q": "Do we know what their procurement process is?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No procurement process information documented. Envision stage, may be premature but should start exploring.",
+            "solution": "Begin light procurement discovery to understand typical buying processes.",
+            "action": "Maissa to ask champion about typical procurement timelines and processes.",
+            "due": "2026-04-15",
+            "highlight": false
+          },
+          {
+            "q": "Are there likely to be redlines?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No information about potential legal or commercial redlines.",
+            "solution": "Understand their legal review process and common sticking points.",
+            "action": "Maissa to ask about legal review requirements in future conversations.",
+            "due": "2026-05-01",
+            "highlight": false
+          },
+          {
+            "q": "If redlines, how long does review take?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No data on legal review duration.",
+            "solution": "Gather information on past technology contract reviews.",
+            "action": "Defer until procurement process is understood.",
+            "due": "2026-05-15",
+            "highlight": false
+          },
+          {
+            "q": "Do we know how long it will take?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No information on overall procurement timeline.",
+            "solution": "Build procurement timeline into mutual action plan.",
+            "action": "Include in mutual action plan development.",
+            "due": "2026-04-15",
+            "highlight": false
+          },
+          {
+            "q": "Do we have contract details?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No contract details discussed. Early Envision stage.",
+            "solution": "Prepare contract terms aligned with deal structure once deal progresses.",
+            "action": "Defer until deal advances past Envision stage.",
+            "due": "2026-06-01",
+            "highlight": false
+          },
+          {
+            "q": "Have we sent the contract?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No contract sent. Early Envision stage.",
+            "solution": "N/A at this stage.",
+            "action": "Defer until appropriate stage.",
+            "due": "2026-07-01",
+            "highlight": false
+          },
+          {
+            "q": "Do we know target date for signature?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No target signature date beyond close date of September 30, 2026.",
+            "solution": "Validate whether September 30 is realistic and work backward from desired go-live.",
+            "action": "Maissa to discuss go-live expectations and work backward to required signature date.",
+            "due": "2026-04-15",
+            "highlight": false
+          }
+        ]
+      },
+      "identifyPain": {
+        "label": "Identify Pain",
+        "questions": [
+          {
+            "q": "Do we know their current issues and why they are reviewing their tech stack?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No current issues or reasons for reviewing tech stack documented.",
+            "solution": "Technical discovery (scheduled Jan 26) should have surfaced this — need to document findings.",
+            "action": "AE/SA to document pain points from technical discovery session.",
+            "due": "2026-03-07",
+            "highlight": false
+          },
+          {
+            "q": "Have they tried to resolve this issue in the past?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No information on previous attempts to resolve issues.",
+            "solution": "Ask about past replatforming or optimization efforts.",
+            "action": "Maissa to explore history of tech stack changes in next call.",
+            "due": "2026-03-14",
+            "highlight": false
+          },
+          {
+            "q": "Do we know how pains are affecting business operations?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No documentation of how current pains affect business operations.",
+            "solution": "Quantify business impact of current platform issues.",
+            "action": "Maissa to ask about revenue impact, operational costs, and team productivity effects.",
+            "due": "2026-03-14",
+            "highlight": false
+          },
+          {
+            "q": "Do we know what teams are affected and to what extent?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No information on which teams are affected.",
+            "solution": "Map affected teams and their specific pain points.",
+            "action": "Maissa to explore cross-functional impact in discovery.",
+            "due": "2026-03-21",
+            "highlight": false
+          },
+          {
+            "q": "Do we know how urgent it is to solve this pain?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No urgency indicators. Compelling event null. Merchant intent Uncommitted.",
+            "solution": "Uncover whether there is genuine urgency or if this is an exploratory evaluation.",
+            "action": "Maissa to directly assess urgency level and commitment to action.",
+            "due": "2026-03-14",
+            "highlight": false
+          },
+          {
+            "q": "Can they solve this pain using another option?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No information on alternative solutions. Competitor fields all null.",
+            "solution": "Ask directly about other vendors being evaluated or internal build options.",
+            "action": "Maissa to ask 'who else are you evaluating?' in next conversation.",
+            "due": "2026-03-14",
+            "highlight": false
+          },
+          {
+            "q": "Do we know why this problem is important to solve now?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No information on why solving this problem is important now.",
+            "solution": "Connect platform pain to current business priorities and strategic objectives.",
+            "action": "Maissa to ask what has changed that makes this evaluation necessary now.",
+            "due": "2026-03-14",
+            "highlight": false
+          },
+          {
+            "q": "Is our solution uniquely positioned to solve this pain?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Shopify Plus with Payments is being evaluated, suggesting some alignment, but no specific unique positioning evidence exists.",
+            "solution": "Develop a clear narrative on why Shopify is uniquely positioned for Moss Bros.",
+            "action": "SA to prepare tailored value proposition after discovery is complete.",
+            "due": "2026-03-28",
+            "highlight": false
+          }
+        ]
+      },
+      "champion": {
+        "label": "Champion",
+        "questions": [
+          {
+            "q": "Have you identified a true champion (influence + motivation)?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "AE notes reference Chris Turberville-Tulley as 'deal champion' and intro was planned. However, champion is not in stakeholder list and no evidence of champion behavior exists.",
+            "solution": "Validate champion status by testing whether Chris is actively helping advance the deal.",
+            "action": "Maissa to confirm intro to Chris happened and assess champion qualities.",
+            "due": "2026-03-07",
+            "highlight": false
+          },
+          {
+            "q": "Does your champion have political capital and credibility?",
+            "answer": "No",
+            "score": 0,
+            "notes": "Chris Turberville-Tulley's role, title, and political capital are unknown.",
+            "solution": "Understand Chris's position, tenure, and influence within the organization.",
+            "action": "Maissa to research Chris's role and ask about their standing.",
+            "due": "2026-03-14",
+            "highlight": false
+          },
+          {
+            "q": "Have they given insights you wouldn't get otherwise?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No evidence of insider insights being shared. No call transcripts available.",
+            "solution": "Use upcoming interactions to test whether champion provides internal intelligence.",
+            "action": "Maissa to ask champion about internal dynamics, competing priorities, and decision-maker preferences.",
+            "due": "2026-03-14",
+            "highlight": false
+          },
+          {
+            "q": "Are they connected with the key decision makers?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Brett Grobler is listed stakeholder; Chris is referenced champion. Connection to key decision-makers unclear.",
+            "solution": "Map the relationship between Brett, Chris, and the economic buyer.",
+            "action": "Maissa to ask Chris about the internal reporting structure and decision chain.",
+            "due": "2026-03-14",
+            "highlight": false
+          },
+          {
+            "q": "Have you been introduced to the decision maker?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No evidence of introduction to the decision-maker. Economic buyer not identified.",
+            "solution": "Request introduction to economic buyer through champion.",
+            "action": "Maissa to ask Chris for introduction to the person who will ultimately approve the deal.",
+            "due": "2026-03-28",
+            "highlight": false
+          },
+          {
+            "q": "Are they willing to bring you into the board/buying group?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No evidence of willingness to bring Shopify into internal meetings.",
+            "solution": "Test champion's willingness by requesting participation in internal review.",
+            "action": "Maissa to ask champion if Shopify can present to the broader evaluation team.",
+            "due": "2026-04-01",
+            "highlight": false
+          },
+          {
+            "q": "Why are they such a champion for you?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No information on why Chris would champion Shopify internally. Personal motivation unknown.",
+            "solution": "Understand what Chris personally gains from a successful Shopify migration.",
+            "action": "Maissa to explore Chris's personal and professional motivations in next 1:1.",
+            "due": "2026-03-21",
+            "highlight": false
+          }
+        ]
+      },
+      "competition": {
+        "label": "Competition",
+        "questions": [
+          {
+            "q": "Do we know who else the customer is evaluating?",
+            "answer": "No",
+            "score": 0,
+            "notes": "All competitor fields in Salesforce are null. No competitors identified.",
+            "solution": "Directly ask who else is being evaluated. Research current platform.",
+            "action": "Maissa to ask 'who else are you looking at?' and research current tech stack.",
+            "due": "2026-03-07",
+            "highlight": false
+          },
+          {
+            "q": "Have we asked if doing nothing is an option?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No evidence that 'doing nothing' has been explored. Merchant intent Uncommitted — this is a real risk.",
+            "solution": "Directly ask whether staying on current platform is viable.",
+            "action": "Maissa to ask champion what happens if they decide not to change platforms.",
+            "due": "2026-03-14",
+            "highlight": false
+          },
+          {
+            "q": "Are there internal alternatives to our solution?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No information on internal alternatives.",
+            "solution": "Ask about internal development capabilities and build-vs-buy considerations.",
+            "action": "Maissa to explore build-vs-buy considerations.",
+            "due": "2026-03-14",
+            "highlight": false
+          },
+          {
+            "q": "Do we know why alternatives are being evaluated?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No information on why alternatives are being evaluated.",
+            "solution": "Understand what triggered the evaluation and what each alternative offers.",
+            "action": "Maissa to ask what prompted the search and criteria differentiating options.",
+            "due": "2026-03-14",
+            "highlight": false
+          },
+          {
+            "q": "Do we know why we would win or lose?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No competitive positioning or win/loss factors documented.",
+            "solution": "Develop clear competitive strategy once competitors and criteria are known.",
+            "action": "SA to prepare competitive battle cards once competitors are identified.",
+            "due": "2026-04-01",
+            "highlight": false
+          }
+        ]
+      }
+    },
+    "lastAnalysisDate": "2026-02-25",
+    "calls": []
   }
 ]

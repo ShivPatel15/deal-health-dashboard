@@ -1147,5 +1147,24 @@
       ],
       "type": "incremental-meddpicc"
     }
+  ],
+  "006OG00000KOC4YYAX": [
+    {
+      "date": "2026-02-25",
+      "totalScore": 5,
+      "totalMax": 54,
+      "status": "at-risk",
+      "sectionScores": {
+        "Metrics": 1,
+        "Economic Buyer": 0.5,
+        "Decision Process": 1,
+        "Decision Criteria": 1,
+        "Paper Process": 0,
+        "Identify Pain": 0.5,
+        "Champion": 1,
+        "Competition": 0
+      },
+      "changes": []
+    }
   ]
 }
