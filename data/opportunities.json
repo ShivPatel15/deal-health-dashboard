@@ -2537,7 +2537,7 @@
     "merchantIntent": "Committed - At Risk",
     "type": "New Business",
     "created": "2025-08-19",
-    "lastAnalysisDate": "2026-02-19",
+    "lastAnalysisDate": "2026-02-25",
     "revenue": {
       "mcv": 82800,
       "totalRev3yr": 4269147,
@@ -2698,12 +2698,12 @@
           },
           {
             "q": "Do you know how they make decisions and allocate budget?",
-            "answer": "Partial",
-            "score": 0.5,
-            "notes": "Budget approval process is known to exist. Cheryl Lee (Finance) engaged. But formal approval chain not fully mapped.",
-            "solution": "Map remaining steps to signature.",
-            "action": "Ask: 'Once budget approved, what are remaining steps before signing?'",
-            "due": "02/22/2026",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "[2026-02-25 SF refresh] Martin confirmed budget sign-off is imminent ('any day now'), indicating clear understanding of how the economic buyer allocates budget.",
+            "solution": "",
+            "action": "",
+            "due": "",
             "highlight": false
           }
         ]
@@ -3574,6 +3574,28 @@
           "Martin Wareing"
         ],
         "summary": "Contract finalization: 'store' = brand instance, SP rates in main contract, monthly invoicing requested. Tisens SOW pending. Martin targeting end-Jan signature. His 20% concern is budget cuts only."
+      },
+      {
+        "date": "2026-02-19",
+        "title": "Dial in session with Shopify",
+        "duration": "30 min",
+        "platform": "Google Meet",
+        "shopifyAttendees": [
+          "Adriana Colacicco",
+          "Sarah Berelowitz"
+        ],
+        "merchantAttendees": [
+          "M. Wareing (organizer)",
+          "A. Grainger",
+          "J. Uddin",
+          "M. Burfoot",
+          "M. Hawes",
+          "M. Mavropoulou",
+          "M. Subirats-Knowles",
+          "R. O'Hara"
+        ],
+        "summary": "No transcript or AI summary available for this call.",
+        "transcript": null
       }
     ],
     "history": [
@@ -13000,7 +13022,7 @@
     "merchantIntent": "Committed - At Risk",
     "type": "New Business",
     "created": "2025-08-06",
-    "lastAnalysisDate": "2026-02-20",
+    "lastAnalysisDate": "2026-02-25",
     "revenue": {
       "mcv": 4582000,
       "totalRev3yr": 13756191,
@@ -13326,12 +13348,12 @@
         "questions": [
           {
             "q": "Do we know what their procurement process is?",
-            "answer": "No",
-            "score": 0,
-            "notes": "Not discussed. Board approval March 24 but post-approval procurement process not mapped.",
-            "solution": "Discover procurement process.",
-            "action": "Ben Rees to ask Neil Rhodes about procurement process and contract execution timeline.",
-            "due": "2026-03-01",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "[2026-02-25 SF refresh] Deal advanced to Deal Craft stage. Awaiting feedback on Plus vs Enterprise before finalising commercials. Board sign-off meeting scheduled for 24/03.",
+            "solution": "",
+            "action": "Clarify Plus vs Enterprise product tier decision to unblock commercial finalisation before 24/03 board meeting.",
+            "due": "2026-03-14",
             "highlight": true
           },
           {
@@ -15951,12 +15973,12 @@
           },
           {
             "q": "Do we know how payments play into their decision?",
-            "answer": "No",
-            "score": 0,
-            "notes": "Payments GPV $0, Payments Attached false. Payments not discussed in any calls.",
-            "solution": "Introduce Shopify Payments as differentiator and cost saver.",
-            "action": "Include Shopify Payments overview in next commercial discussion",
-            "due": "2026-03-06",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "[2026-02-25 SF refresh] NextStep: 'biggest aspect is going to be the SP since we will not approve Adyen'. Payments are a critical decision criterion. SP call scheduled 11th March.\n[Resolved 2026-02-25] Prepare Shopify Payments positioning and rate card for SP call on 11th March.",
+            "solution": "",
+            "action": "",
+            "due": "",
             "highlight": false
           },
           {
@@ -16231,12 +16253,12 @@
         "questions": [
           {
             "q": "Do we know who else the customer is evaluating?",
-            "answer": "Partial",
-            "score": 0.5,
-            "notes": "SFCC is listed as competitor but appears to be the incumbent being replaced rather than an active competitor. No other platforms mentioned — evaluation is between Shopify agencies.",
-            "solution": "Confirm whether SFCC is actively being re-evaluated or departure is firm.",
-            "action": "Ask Jordan if SFCC renewal is a realistic option",
-            "due": "2026-02-27",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "[2026-02-25 SF refresh] Competitor identified: Salesforce Commerce Cloud.\n[Resolved 2026-02-25] Prepare competitive battlecard positioning vs Salesforce Commerce Cloud for Bugaboo discussions.",
+            "solution": "",
+            "action": "",
+            "due": "",
             "highlight": false
           },
           {
@@ -16282,7 +16304,7 @@
         ]
       }
     },
-    "lastAnalysisDate": "2026-02-20",
+    "lastAnalysisDate": "2026-02-25",
     "calls": [
       {
         "date": "2026-01-07",
@@ -17350,12 +17372,12 @@
         "questions": [
           {
             "q": "Do we know what criteria the customer is using to evaluate vendors?",
-            "answer": "Partial",
-            "score": 0.5,
-            "notes": "Criteria gathered organically: TCO/cost, migration speed, operational efficiency, bundling/customization, internationalization, tax automation, SP economics, app ecosystem, headless flexibility. No formal weighted list from merchant.",
-            "solution": "Get a formal, prioritized list of decision criteria from the buying committee.",
-            "action": "Maissa to ask: 'What are your top 5 criteria for this decision, and how are you weighting them?'",
-            "due": "2026-02-25",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "[2026-02-25 SF refresh] Stage advanced Solution→Demonstrate, Pipeline→Commit. Active technical validation and merchant references indicate we understand the customer's evaluation criteria.",
+            "solution": "",
+            "action": "",
+            "due": "",
             "highlight": false
           },
           {
@@ -17425,12 +17447,12 @@
         "questions": [
           {
             "q": "Do we know what their procurement process is?",
-            "answer": "No",
-            "score": 0,
-            "notes": "No discussion of procurement process captured. Don't know if there's formal RFP, legal review, security assessment, or procurement team.",
-            "solution": "Map the procurement process early to avoid surprises.",
-            "action": "Maissa to ask Charlotte/Faye: 'Once a decision is made, what does your procurement and contracting process look like?'",
-            "due": "2026-03-04",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "[2026-02-25 SF refresh] Rate review discussion started — commercial/procurement process beginning.",
+            "solution": "",
+            "action": "Complete rate review and map out full procurement/legal process with Trinny team.",
+            "due": "2026-03-15",
             "highlight": false
           },
           {
@@ -17585,12 +17607,12 @@
         "questions": [
           {
             "q": "Have you identified a true champion (influence + motivation)?",
-            "answer": "Partial",
-            "score": 0.5,
-            "notes": "Charlotte Lecuyer appears to be primary champion — in almost every call, driving evaluation operationally. Faye Roth shows champion-like behavior (driving urgency, attending business case calls). Neither explicitly tested as true champion.",
-            "solution": "Validate Charlotte and/or Faye as true champions through champion test.",
-            "action": "Maissa to have 1:1 with Charlotte (or Faye) and ask: 'If it were up to you, would you choose Shopify?'",
-            "due": "2026-02-25",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "[2026-02-25 SF refresh] Deal moved Pipeline→Commit with active collaboration on business case, technical validation, and references. Signals identified champion driving internal momentum.",
+            "solution": "",
+            "action": "",
+            "due": "",
             "highlight": false
           },
           {
@@ -17711,7 +17733,7 @@
         ]
       }
     },
-    "lastAnalysisDate": "2026-02-24",
+    "lastAnalysisDate": "2026-02-25",
     "calls": [
       {
         "date": "2026-02-13",

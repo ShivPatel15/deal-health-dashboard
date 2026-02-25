@@ -1,0 +1,19 @@
+{
+  "opportunityId": "006OG00000G28JdYAJ",
+  "accountName": "Direct Wines Limited",
+  "type": "sf-escalation",
+  "narratives": null,
+  "questionUpdates": [
+    {
+      "section": "paperProcess",
+      "questionIndex": 0,
+      "newAnswer": "Partial",
+      "notes": "[2026-02-25 SF refresh] Deal advanced to Deal Craft stage. Awaiting feedback on Plus vs Enterprise before finalising commercials. Board sign-off meeting scheduled for 24/03.",
+      "solution": null,
+      "action": "Clarify Plus vs Enterprise product tier decision to unblock commercial finalisation before 24/03 board meeting.",
+      "due": "2026-03-14",
+      "evidence": "Stage Demonstrate→Deal Craft, board sign-off meeting 24/03, Plus vs Ent pending"
+    }
+  ],
+  "newCalls": []
+}

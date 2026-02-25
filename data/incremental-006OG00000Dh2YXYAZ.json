@@ -1,0 +1,29 @@
+{
+  "opportunityId": "006OG00000Dh2YXYAZ",
+  "accountName": "Bugaboo International B.V",
+  "type": "sf-escalation",
+  "narratives": null,
+  "questionUpdates": [
+    {
+      "section": "competition",
+      "questionIndex": 0,
+      "newAnswer": "Yes",
+      "notes": "[2026-02-25 SF refresh] Competitor identified: Salesforce Commerce Cloud.",
+      "solution": null,
+      "action": "Prepare competitive battlecard positioning vs Salesforce Commerce Cloud for Bugaboo discussions.",
+      "due": "2026-03-07",
+      "evidence": "Competitor field: null → Salesforce Commerce Cloud"
+    },
+    {
+      "section": "decisionCriteria",
+      "questionIndex": 3,
+      "newAnswer": "Yes",
+      "notes": "[2026-02-25 SF refresh] NextStep: 'biggest aspect is going to be the SP since we will not approve Adyen'. Payments are a critical decision criterion. SP call scheduled 11th March.",
+      "solution": null,
+      "action": "Prepare Shopify Payments positioning and rate card for SP call on 11th March.",
+      "due": "2026-03-10",
+      "evidence": "NextStep: SP is biggest aspect, won't approve Adyen, SP call scheduled 11 March"
+    }
+  ],
+  "newCalls": []
+}

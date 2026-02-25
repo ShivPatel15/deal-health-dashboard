@@ -1,0 +1,30 @@
+{
+  "opportunityId": "006OG00000GJ5IvYAL",
+  "accountName": "The Dune Group",
+  "type": "sf-escalation",
+  "narratives": null,
+  "questionUpdates": [
+    {
+      "section": "economicBuyer",
+      "questionIndex": 5,
+      "newAnswer": "Yes",
+      "notes": "[2026-02-25 SF refresh] Martin confirmed budget sign-off is imminent ('any day now'), indicating clear understanding of how the economic buyer allocates budget.",
+      "solution": null,
+      "action": null,
+      "due": null,
+      "evidence": "NextStep: Martin confirmed very close to getting budget signed off 'any day now'"
+    }
+  ],
+  "newCalls": [
+    {
+      "date": "2026-02-19",
+      "title": "Dial in session with Shopify",
+      "duration": "30 min",
+      "platform": "Google Meet",
+      "shopifyAttendees": ["Adriana Colacicco", "Sarah Berelowitz"],
+      "merchantAttendees": ["M. Wareing", "A. Grainger", "J. Uddin", "M. Burfoot", "M. Hawes", "M. Mavropoulou", "M. Subirats-Knowles", "R. O'Hara"],
+      "summary": "No transcript or AI summary available for this call.",
+      "transcript": null
+    }
+  ]
+}

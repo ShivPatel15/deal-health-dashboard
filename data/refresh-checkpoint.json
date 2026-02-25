@@ -1,0 +1,96 @@
+{
+  "date": "2026-02-25",
+  "started": "2026-02-25T08:09:32.548Z",
+  "results": {
+    "006OG00000GJ5IvYAL": {
+      "accountName": "The Dune Group",
+      "status": "new-calls",
+      "details": "1 new call (no transcript), SF closeDate pushed, EB Q5 Partial→Yes, +0.5",
+      "timestamp": "2026-02-25T08:09:32.549Z"
+    },
+    "006OG00000G28JdYAJ": {
+      "accountName": "Direct Wines Limited",
+      "status": "sf-only",
+      "details": "Stage Demonstrate→Deal Craft, MCV dropped to 0, PP Q0 No→Partial, +0.5",
+      "timestamp": "2026-02-25T08:09:32.601Z"
+    },
+    "006OG00000JMQ91YAH": {
+      "accountName": "TRINNY LONDON",
+      "status": "sf-only",
+      "details": "Stage Solution→Demonstrate, Pipeline→Commit, DC Q0+Champion Q0→Yes, PP Q0→Partial, +1.5",
+      "timestamp": "2026-02-25T08:09:32.648Z"
+    },
+    "006OG00000Dh2YXYAZ": {
+      "accountName": "Bugaboo International B.V",
+      "status": "sf-only",
+      "details": "New competitor SFCC, payments critical criterion, Competition Q0→Yes, DC Q3→Yes, +1.5",
+      "timestamp": "2026-02-25T08:09:32.694Z"
+    },
+    "006OG00000EZIy6YAH": {
+      "accountName": "Whittard of Chelsea",
+      "status": "sf-only",
+      "details": "CloseDate pushed 2/27→3/30, revenue adjusted, nextStep updated. No score-impacting changes.",
+      "timestamp": "2026-02-25T08:09:46.230Z"
+    },
+    "0068V0000113rSIQAY": {
+      "accountName": "Moda in Pelle",
+      "status": "sf-only",
+      "details": "Competitor label change, minor nextStep edit. No score impact.",
+      "timestamp": "2026-02-25T08:09:46.277Z"
+    },
+    "006OG00000CRabaYAD": {
+      "accountName": "Mulberry Company (Sales) Limited",
+      "status": "sf-only",
+      "details": "NextStep capitalization only. No score impact.",
+      "timestamp": "2026-02-25T08:09:46.323Z"
+    },
+    "006OG00000HnVs8YAF": {
+      "accountName": "Wacoal Europe",
+      "status": "sf-only",
+      "details": "NextStep date prefix update, competitor field cleared. No score impact.",
+      "timestamp": "2026-02-25T08:09:46.369Z"
+    },
+    "006OG00000HtxKFYAZ": {
+      "accountName": "Sofa.Com Ltd",
+      "status": "sf-only",
+      "details": "NextStep date prefix update, penny rounding on revenue. No score impact.",
+      "timestamp": "2026-02-25T08:09:46.416Z"
+    },
+    "0068V0000113peWQAQ": {
+      "accountName": "ESSENTIEL Antwerp",
+      "status": "sf-only",
+      "details": "MCV 132800→82800, nextStep minor edit, penny rounding. SF fields updated, no score impact.",
+      "timestamp": "2026-02-25T08:09:46.465Z"
+    },
+    "006OG00000JUPVtYAP": {
+      "accountName": "Mint Velvet",
+      "status": "sf-only",
+      "details": "NextStep punctuation, penny rounding. No score impact.",
+      "timestamp": "2026-02-25T08:09:46.512Z"
+    },
+    "006OG00000FHHAHYA5": {
+      "accountName": "OLIVER BONAS LIMITED",
+      "status": "sf-only",
+      "details": "NextStep date prefix update, competitor field cleared. No score impact.",
+      "timestamp": "2026-02-25T08:09:46.560Z"
+    },
+    "006OG00000Fbj8nYAB": {
+      "accountName": "Cycle King & Hawk",
+      "status": "sf-only",
+      "details": "NextStep minor edit, competitor field cleared. No score impact.",
+      "timestamp": "2026-02-25T08:09:46.608Z"
+    },
+    "006OG00000FYX8zYAH": {
+      "accountName": "Hawes & Curtis Limited",
+      "status": "sf-only",
+      "details": "NextStep date prefix update only. No score impact.",
+      "timestamp": "2026-02-25T08:09:46.654Z"
+    },
+    "006OG00000KW83lYAD": {
+      "accountName": "C.P. Hart & Sons Limited",
+      "status": "sf-only",
+      "details": "NextStep and projectedBilledRevenue populated (were null). SF fields updated.",
+      "timestamp": "2026-02-25T08:09:46.702Z"
+    }
+  }
+}

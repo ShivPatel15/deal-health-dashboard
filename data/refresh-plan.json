@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-24",
+  "date": "2026-02-25",
   "totalOpportunities": 15,
   "remaining": 15,
   "alreadyDone": 0,
@@ -92,8 +92,8 @@
       "id": "006OG00000JUPVtYAP",
       "accountName": "Mint Velvet",
       "accountId": "0018V00002czX5rQAE",
-      "lastAnalysisDate": "2026-02-19",
-      "lastCallDate": "2026-02-12",
+      "lastAnalysisDate": "2026-02-24",
+      "lastCallDate": "2026-02-20",
       "owner": "Ben Rees",
       "closeDate": "2026-03-27",
       "currentScore": 32,
@@ -176,7 +176,7 @@
       "id": "006OG00000JMQ91YAH",
       "accountName": "TRINNY LONDON",
       "accountId": "0018V00002czmgWQAQ",
-      "lastAnalysisDate": "2026-02-20",
+      "lastAnalysisDate": "2026-02-24",
       "lastCallDate": "2026-02-13",
       "owner": "Maissa Fatte",
       "closeDate": "2026-06-30",
@@ -186,7 +186,7 @@
     }
   ],
   "sfBatchQuery": "SELECT Id, StageName, CloseDate, Probability, ForecastCategoryName, Merchant_Intent__c, NextStep, SE_Next_Steps__c, eComm_Amount__c, Projected_Billed_Revenue__c, Payments_GPV__c, Total_Revenue__c, Competitor__c, Position_Against_Competitor__c, Proposed_Launch_Date_Plus__c FROM Opportunity WHERE Id IN ('0068V0000113rSIQAY', '006OG00000EZIy6YAH', '006OG00000GJ5IvYAL', '006OG00000CRabaYAD', '006OG00000HnVs8YAF', '006OG00000HtxKFYAZ', '0068V0000113peWQAQ', '006OG00000JUPVtYAP', '006OG00000FHHAHYA5', '006OG00000Fbj8nYAB', '006OG00000G28JdYAJ', '006OG00000FYX8zYAH', '006OG00000Dh2YXYAZ', '006OG00000KW83lYAD', '006OG00000JMQ91YAH')",
-  "bqBatchCallCheckSQL": "-- BATCH CALL CHECK: One query for all 15 accounts\n-- Returns new calls (if any) since each account's last known call date\nWITH account_cutoffs AS (\n  SELECT account_id, cutoff_date, opp_id\n  FROM UNNEST([\n    STRUCT('0018V00002epjJDQAY' AS account_id, DATE('2026-01-21') AS cutoff_date, '0068V0000113rSIQAY' AS opp_id),\n    STRUCT('0018V00002d0KLlQAM' AS account_id, DATE('2026-01-28') AS cutoff_date, '006OG00000EZIy6YAH' AS opp_id),\n    STRUCT('0018V00002eqnGJQAY' AS account_id, DATE('2026-01-09') AS cutoff_date, '006OG00000GJ5IvYAL' AS opp_id),\n    STRUCT('0018V00002epVEaQAM' AS account_id, DATE('2026-01-20') AS cutoff_date, '006OG00000CRabaYAD' AS opp_id),\n    STRUCT('0018V00002sPF8RQAW' AS account_id, DATE('2026-01-21') AS cutoff_date, '006OG00000HnVs8YAF' AS opp_id),\n    STRUCT('0018V00002epVGWQA2' AS account_id, DATE('2026-02-11') AS cutoff_date, '006OG00000HtxKFYAZ' AS opp_id),\n    STRUCT('0018V00002lHO5KQAW' AS account_id, DATE('2026-01-08') AS cutoff_date, '0068V0000113peWQAQ' AS opp_id),\n    STRUCT('0018V00002czX5rQAE' AS account_id, DATE('2026-02-12') AS cutoff_date, '006OG00000JUPVtYAP' AS opp_id),\n    STRUCT('0018V00002d0FO8QAM' AS account_id, DATE('2026-02-11') AS cutoff_date, '006OG00000FHHAHYA5' AS opp_id),\n    STRUCT('0018V00002igC8fQAE' AS account_id, DATE('2025-11-05') AS cutoff_date, '006OG00000Fbj8nYAB' AS opp_id),\n    STRUCT('0018V00002a7BPLQA2' AS account_id, DATE('2026-02-13') AS cutoff_date, '006OG00000G28JdYAJ' AS opp_id),\n    STRUCT('0018V00002epVCgQAM' AS account_id, DATE('2026-01-30') AS cutoff_date, '006OG00000FYX8zYAH' AS opp_id),\n    STRUCT('001OG000010jdb5YAA' AS account_id, DATE('2026-01-07') AS cutoff_date, '006OG00000Dh2YXYAZ' AS opp_id),\n    STRUCT('0018V00002epV9yQAE' AS account_id, DATE('2026-02-06') AS cutoff_date, '006OG00000KW83lYAD' AS opp_id),\n    STRUCT('0018V00002czmgWQAQ' AS account_id, DATE('2026-02-13') AS cutoff_date, '006OG00000JMQ91YAH' AS opp_id)\n  ])\n)\nSELECT\n  ac.opp_id,\n  ac.account_id,\n  sc.event_id,\n  sc.call_title,\n  sc.event_start,\n  sc.platform,\n  sc.call_duration_minutes,\n  sc.has_transcript,\n  ARRAY_LENGTH(sc.transcript_details) AS transcript_segments,\n  sc.transcript_summary,\n  sc.attendee_details\nFROM account_cutoffs ac\nJOIN `shopify-dw.sales.sales_calls` sc\n  ON ac.account_id IN UNNEST(sc.salesforce_account_ids)\n  AND DATE(sc.event_start) > ac.cutoff_date\n  AND DATE(sc.event_start) >= DATE_SUB(CURRENT_DATE(), INTERVAL 730 DAY)\nORDER BY ac.opp_id, sc.event_start DESC",
+  "bqBatchCallCheckSQL": "-- BATCH CALL CHECK: One query for all 15 accounts\n-- Returns new calls (if any) since each account's last known call date\nWITH account_cutoffs AS (\n  SELECT account_id, cutoff_date, opp_id\n  FROM UNNEST([\n    STRUCT('0018V00002epjJDQAY' AS account_id, DATE('2026-01-21') AS cutoff_date, '0068V0000113rSIQAY' AS opp_id),\n    STRUCT('0018V00002d0KLlQAM' AS account_id, DATE('2026-01-28') AS cutoff_date, '006OG00000EZIy6YAH' AS opp_id),\n    STRUCT('0018V00002eqnGJQAY' AS account_id, DATE('2026-01-09') AS cutoff_date, '006OG00000GJ5IvYAL' AS opp_id),\n    STRUCT('0018V00002epVEaQAM' AS account_id, DATE('2026-01-20') AS cutoff_date, '006OG00000CRabaYAD' AS opp_id),\n    STRUCT('0018V00002sPF8RQAW' AS account_id, DATE('2026-01-21') AS cutoff_date, '006OG00000HnVs8YAF' AS opp_id),\n    STRUCT('0018V00002epVGWQA2' AS account_id, DATE('2026-02-11') AS cutoff_date, '006OG00000HtxKFYAZ' AS opp_id),\n    STRUCT('0018V00002lHO5KQAW' AS account_id, DATE('2026-01-08') AS cutoff_date, '0068V0000113peWQAQ' AS opp_id),\n    STRUCT('0018V00002czX5rQAE' AS account_id, DATE('2026-02-20') AS cutoff_date, '006OG00000JUPVtYAP' AS opp_id),\n    STRUCT('0018V00002d0FO8QAM' AS account_id, DATE('2026-02-11') AS cutoff_date, '006OG00000FHHAHYA5' AS opp_id),\n    STRUCT('0018V00002igC8fQAE' AS account_id, DATE('2025-11-05') AS cutoff_date, '006OG00000Fbj8nYAB' AS opp_id),\n    STRUCT('0018V00002a7BPLQA2' AS account_id, DATE('2026-02-13') AS cutoff_date, '006OG00000G28JdYAJ' AS opp_id),\n    STRUCT('0018V00002epVCgQAM' AS account_id, DATE('2026-01-30') AS cutoff_date, '006OG00000FYX8zYAH' AS opp_id),\n    STRUCT('001OG000010jdb5YAA' AS account_id, DATE('2026-01-07') AS cutoff_date, '006OG00000Dh2YXYAZ' AS opp_id),\n    STRUCT('0018V00002epV9yQAE' AS account_id, DATE('2026-02-06') AS cutoff_date, '006OG00000KW83lYAD' AS opp_id),\n    STRUCT('0018V00002czmgWQAQ' AS account_id, DATE('2026-02-13') AS cutoff_date, '006OG00000JMQ91YAH' AS opp_id)\n  ])\n)\nSELECT\n  ac.opp_id,\n  ac.account_id,\n  sc.event_id,\n  sc.call_title,\n  sc.event_start,\n  sc.platform,\n  sc.call_duration_minutes,\n  sc.has_transcript,\n  ARRAY_LENGTH(sc.transcript_details) AS transcript_segments,\n  sc.transcript_summary,\n  sc.attendee_details\nFROM account_cutoffs ac\nJOIN `shopify-dw.sales.sales_calls` sc\n  ON ac.account_id IN UNNEST(sc.salesforce_account_ids)\n  AND DATE(sc.event_start) > ac.cutoff_date\n  AND DATE(sc.event_start) >= DATE_SUB(CURRENT_DATE(), INTERVAL 730 DAY)\nORDER BY ac.opp_id, sc.event_start DESC",
   "sfCheckFields": [
     "StageName",
     "CloseDate",

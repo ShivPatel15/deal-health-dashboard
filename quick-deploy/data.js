@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-24T08:43:47.892Z",
+  "generatedAt": "2026-02-25T08:09:53.254Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -1113,6 +1113,23 @@ const DEAL_DATA = {
             "Competition": 3.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-25",
+          "totalScore": 31.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 3.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 3,
+            "Identify Pain": 6.5,
+            "Champion": 3.5,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ],
       "mutualActionPlan": {
@@ -1322,7 +1339,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-24",
+          "date": "2026-02-25",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -2365,6 +2382,23 @@ const DEAL_DATA = {
             "Competition": 3
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-25",
+          "totalScore": 36.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 6,
+            "Economic Buyer": 4,
+            "Decision Process": 5,
+            "Decision Criteria": 4,
+            "Paper Process": 1,
+            "Identify Pain": 7,
+            "Champion": 6.5,
+            "Competition": 3
+          },
+          "changes": []
         }
       ],
       "mutualActionPlan": {
@@ -2565,7 +2599,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-24",
+          "date": "2026-02-25",
           "sections": {
             "Metrics": {
               "score": 6,
@@ -2625,7 +2659,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2025-08-19",
-      "lastAnalysisDate": "2026-02-19",
+      "lastAnalysisDate": "2026-02-25",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 4269147,
@@ -2786,12 +2820,12 @@ const DEAL_DATA = {
             },
             {
               "q": "Do you know how they make decisions and allocate budget?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "Budget approval process is known to exist. Cheryl Lee (Finance) engaged. But formal approval chain not fully mapped.",
-              "solution": "Map remaining steps to signature.",
-              "action": "Ask: 'Once budget approved, what are remaining steps before signing?'",
-              "due": "02/22/2026",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "[2026-02-25 SF refresh] Martin confirmed budget sign-off is imminent ('any day now'), indicating clear understanding of how the economic buyer allocates budget.",
+              "solution": "",
+              "action": "",
+              "due": "",
               "highlight": false
             }
           ]
@@ -3244,9 +3278,9 @@ const DEAL_DATA = {
           "pct": 79
         },
         "Economic Buyer": {
-          "score": 2.5,
+          "score": 3,
           "max": 6,
-          "pct": 42
+          "pct": 50
         },
         "Decision Process": {
           "score": 4.5,
@@ -3279,7 +3313,7 @@ const DEAL_DATA = {
           "pct": 80
         },
         "_total": {
-          "score": 37,
+          "score": 37.5,
           "max": 54,
           "pct": 69,
           "status": "on-track"
@@ -3337,139 +3371,132 @@ const DEAL_DATA = {
         },
         {
           "p": 8,
-          "cat": "Economic Buyer",
-          "issue": "Budget approval process is known to exist. Cheryl Lee (Finance) engaged. But formal approval chain not fully mapped.",
-          "rec": "Ask: 'Once budget approved, what are remaining steps before signing?'",
-          "due": "02/22/2026"
-        },
-        {
-          "p": 9,
           "cat": "Decision Process",
           "issue": "Martin is tech decision maker, Nigel signs, Cheryl handles finance review. Formal decision/approval process not mapped.",
           "rec": "Map end-to-end decision process with Martin.",
           "due": "02/22/2026"
         },
         {
-          "p": 10,
+          "p": 9,
           "cat": "Decision Process",
           "issue": "Martin, Nigel, Andy, Cheryl Lee, Kyle Williams, Haris Majid known. Full committee (CFO, COO, Head of Retail?) not confirmed.",
           "rec": "Ask: 'Besides you and Nigel, who else could approve or block?'",
           "due": "02/22/2026"
         },
         {
-          "p": 11,
+          "p": 10,
           "cat": "Decision Process",
           "issue": "No evidence of previous migration attempts or alternative evaluations.",
           "rec": "Ask: 'Have you looked at migrating before?'",
           "due": "02/28/2026"
         },
         {
-          "p": 12,
+          "p": 11,
           "cat": "Decision Process",
           "issue": "Martin transparent about timeline but full process not formally validated. No documented MAP.",
           "rec": "Ask: 'Once budget approved, what remains before you can sign?'",
           "due": "02/22/2026"
         },
         {
-          "p": 13,
+          "p": 12,
           "cat": "Decision Criteria",
           "issue": "Key criteria known: in-house control, unified eCom+POS, TCO reduction, migration playbook, hardware compat, payments. No formal evaluation doc.",
           "rec": "Ask if there's a formal requirements document.",
           "due": "02/25/2026"
         },
         {
-          "p": 14,
+          "p": 13,
           "cat": "Decision Criteria",
           "issue": "Hardware compatibility detailed. Migration sequencing explored. Broader integrations (ERP, OMS, loyalty) not evident in calls.",
           "rec": "Confirm with Martin/Tryzens that all integration touchpoints are in SOW.",
           "due": "02/28/2026"
         },
         {
-          "p": 15,
+          "p": 14,
           "cat": "Decision Criteria",
           "issue": "De facto plan exists (hardware demo, SOW, budget, signature, May launch) but no formal documented MAP.",
           "rec": "Draft joint timeline: budget → signature → SOW → hardware → migration → May 1.",
           "due": "02/25/2026"
         },
         {
-          "p": 16,
+          "p": 15,
           "cat": "Decision Criteria",
           "issue": "Martin defines technical/operational criteria. Finance likely defines cost criteria. CEO criteria unknown.",
           "rec": "When engaging Nigel, ask about additional requirements.",
           "due": "03/03/2026"
         },
         {
-          "p": 17,
+          "p": 16,
           "cat": "Paper Process",
           "issue": "Budget approval required, Nigel signs, contract terms discussed. Formal procurement steps (legal, PO) not mapped.",
           "rec": "Ask: 'Does contract go through legal/procurement before Nigel signs?'",
           "due": "02/22/2026"
         },
         {
-          "p": 18,
+          "p": 17,
           "cat": "Paper Process",
           "issue": "Martin raised monthly invoicing (non-standard), 'store' definition, SP integration. Could become redline items.",
           "rec": "Confirm monthly invoicing internally. Prepare responses.",
           "due": "02/22/2026"
         },
         {
-          "p": 19,
+          "p": 18,
           "cat": "Paper Process",
           "issue": "No information on Dune's legal/contract review duration.",
           "rec": "Ask: 'How long does your legal review typically take?'",
           "due": "02/22/2026"
         },
         {
-          "p": 20,
+          "p": 19,
           "cat": "Paper Process",
           "issue": "Martin targeted end-Jan. Now Feb 19, budget not yet signed. ~3 week slippage. Delay is budget, not contract process.",
           "rec": "Validate close date once budget is approved.",
           "due": "02/22/2026"
         },
         {
-          "p": 21,
+          "p": 20,
           "cat": "Paper Process",
           "issue": "Terms discussed in detail. Martin has commercial documentation. Unclear if formal contract sent for signature.",
           "rec": "Verify if formal contract has been sent or is ready to send.",
           "due": "02/22/2026"
         },
         {
-          "p": 22,
+          "p": 21,
           "cat": "Identify Pain",
           "issue": "No evidence of previous migration attempts.",
           "rec": "Ask Martin if this was considered before.",
           "due": "02/28/2026"
         },
         {
-          "p": 23,
+          "p": 22,
           "cat": "Identify Pain",
           "issue": "IT team deeply engaged. Finance involved. Retail ops across 55+ stores affected. Marketing/merchandising impact not documented.",
           "rec": "Map all affected teams during implementation planning.",
           "due": "03/10/2026"
         },
         {
-          "p": 24,
+          "p": 23,
           "cat": "Identify Pain",
           "issue": "No competitor identified. Could renew SFCC or evaluate others. Tryzens specifically recommended Shopify.",
           "rec": "Validate with Martin no other platforms being evaluated.",
           "due": "02/25/2026"
         },
         {
-          "p": 25,
+          "p": 24,
           "cat": "Champion",
           "issue": "Nigel Darwin (CEO/Signatory) not in any calls. All engagement through Martin and operational stakeholders.",
           "rec": "Ask Martin for 15-min intro to Nigel to confirm Shopify exec commitment.",
           "due": "02/25/2026"
         },
         {
-          "p": 26,
+          "p": 25,
           "cat": "Champion",
           "issue": "Martin brought finance and IT team into discussions. But no direct CEO engagement facilitated yet.",
           "rec": "Frame as exec alignment: 'Shopify leadership committed to Dune's success.'",
           "due": "02/25/2026"
         },
         {
-          "p": 27,
+          "p": 26,
           "cat": "Competition",
           "issue": "SFCC renewal is the internal alternative. Unknown if anyone advocates for staying. Budget cuts could force it.",
           "rec": "Ask: 'Is anyone internally advocating for renewing SFCC?'",
@@ -3662,6 +3689,28 @@ const DEAL_DATA = {
             "Martin Wareing"
           ],
           "summary": "Contract finalization: 'store' = brand instance, SP rates in main contract, monthly invoicing requested. Tisens SOW pending. Martin targeting end-Jan signature. His 20% concern is budget cuts only."
+        },
+        {
+          "date": "2026-02-19",
+          "title": "Dial in session with Shopify",
+          "duration": "30 min",
+          "platform": "Google Meet",
+          "shopifyAttendees": [
+            "Adriana Colacicco",
+            "Sarah Berelowitz"
+          ],
+          "merchantAttendees": [
+            "M. Wareing (organizer)",
+            "A. Grainger",
+            "J. Uddin",
+            "M. Burfoot",
+            "M. Hawes",
+            "M. Mavropoulou",
+            "M. Subirats-Knowles",
+            "R. O'Hara"
+          ],
+          "summary": "No transcript or AI summary available for this call.",
+          "transcript": null
         }
       ],
       "history": [
@@ -3715,6 +3764,28 @@ const DEAL_DATA = {
             "Competition": 4
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-25",
+          "totalScore": 37.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 4.5,
+            "Decision Criteria": 5,
+            "Paper Process": 4,
+            "Identify Pain": 6,
+            "Champion": 5.5,
+            "Competition": 4
+          },
+          "changes": [
+            "Economic Buyer Q5: Partial → Partial (0) — new call evidence",
+            "New call added: \"Dial in session with Shopify\" on 2026-02-19",
+            "Economic Buyer Q5: Partial → Yes (+0.5) — NextStep: Martin confirmed very close to getting budget signed off 'any day now'"
+          ],
+          "type": "incremental-meddpicc"
         }
       ],
       "mutualActionPlan": {
@@ -3924,7 +3995,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-24",
+          "date": "2026-02-25",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -3932,9 +4003,9 @@ const DEAL_DATA = {
               "pct": 79
             },
             "Economic Buyer": {
-              "score": 2.5,
+              "score": 3,
               "max": 6,
-              "pct": 42
+              "pct": 50
             },
             "Decision Process": {
               "score": 4.5,
@@ -5144,6 +5215,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-25",
+          "totalScore": 34.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 4.5,
+            "Identify Pain": 6.5,
+            "Champion": 4,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "mutualActionPlan": {
@@ -5344,7 +5432,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-24",
+          "date": "2026-02-25",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -6431,6 +6519,23 @@ const DEAL_DATA = {
             "Competition": 3
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-25",
+          "totalScore": 43,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 4,
+            "Decision Process": 7,
+            "Decision Criteria": 5,
+            "Paper Process": 6,
+            "Identify Pain": 7,
+            "Champion": 5.5,
+            "Competition": 3
+          },
+          "changes": []
         }
       ],
       "mutualActionPlan": {
@@ -6640,7 +6745,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-24",
+          "date": "2026-02-25",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -7744,6 +7849,23 @@ const DEAL_DATA = {
             "Competition": 3.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-25",
+          "totalScore": 29,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 4.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 3.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 3,
+            "Identify Pain": 4,
+            "Champion": 4.5,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ],
       "mutualActionPlan": {
@@ -7953,7 +8075,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-24",
+          "date": "2026-02-25",
           "sections": {
             "Metrics": {
               "score": 4.5,
@@ -9114,6 +9236,23 @@ const DEAL_DATA = {
             "Competition": 2
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-25",
+          "totalScore": 31,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 4.5,
+            "Decision Process": 4.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 6,
+            "Champion": 4.5,
+            "Competition": 2
+          },
+          "changes": []
         }
       ],
       "mutualActionPlan": {
@@ -9314,7 +9453,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-24",
+          "date": "2026-02-25",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -10464,6 +10603,23 @@ const DEAL_DATA = {
             "New call added: \"Ben x Eleanor - Biz Case\" on 2026-02-20"
           ],
           "type": "incremental-meddpicc"
+        },
+        {
+          "date": "2026-02-25",
+          "totalScore": 32,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 3,
+            "Decision Process": 4,
+            "Decision Criteria": 4.5,
+            "Paper Process": 1,
+            "Identify Pain": 6.5,
+            "Champion": 5.5,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "mutualActionPlan": {
@@ -10673,7 +10829,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-24",
+          "date": "2026-02-25",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -11897,6 +12053,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-25",
+          "totalScore": 28.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 4,
+            "Decision Criteria": 3.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 5.5,
+            "Champion": 4,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "mutualActionPlan": {
@@ -12106,7 +12279,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-24",
+          "date": "2026-02-25",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -13264,6 +13437,23 @@ const DEAL_DATA = {
             "Competition": 0
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-25",
+          "totalScore": 22,
+          "totalMax": 54,
+          "status": "at-risk",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 2,
+            "Decision Process": 4,
+            "Decision Criteria": 2.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 5,
+            "Champion": 3,
+            "Competition": 0
+          },
+          "changes": []
         }
       ],
       "mutualActionPlan": {
@@ -13473,7 +13663,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-24",
+          "date": "2026-02-25",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -13533,7 +13723,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2025-08-06",
-      "lastAnalysisDate": "2026-02-20",
+      "lastAnalysisDate": "2026-02-25",
       "revenue": {
         "mcv": 4582000,
         "totalRev3yr": 13756191,
@@ -13859,12 +14049,12 @@ const DEAL_DATA = {
           "questions": [
             {
               "q": "Do we know what their procurement process is?",
-              "answer": "No",
-              "score": 0,
-              "notes": "Not discussed. Board approval March 24 but post-approval procurement process not mapped.",
-              "solution": "Discover procurement process.",
-              "action": "Ben Rees to ask Neil Rhodes about procurement process and contract execution timeline.",
-              "due": "2026-03-01",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "[2026-02-25 SF refresh] Deal advanced to Deal Craft stage. Awaiting feedback on Plus vs Enterprise before finalising commercials. Board sign-off meeting scheduled for 24/03.",
+              "solution": "",
+              "action": "Clarify Plus vs Enterprise product tier decision to unblock commercial finalisation before 24/03 board meeting.",
+              "due": "2026-03-14",
               "highlight": true
             },
             {
@@ -14167,9 +14357,9 @@ const DEAL_DATA = {
           "pct": 64
         },
         "Paper Process": {
-          "score": 1.5,
+          "score": 2,
           "max": 7,
-          "pct": 21
+          "pct": 29
         },
         "Identify Pain": {
           "score": 7.5,
@@ -14187,10 +14377,10 @@ const DEAL_DATA = {
           "pct": 100
         },
         "_total": {
-          "score": 40,
+          "score": 40.5,
           "max": 54,
-          "pct": 74,
-          "status": "on-track"
+          "pct": 75,
+          "status": "good-health"
         }
       },
       "nextSteps": [
@@ -14288,9 +14478,9 @@ const DEAL_DATA = {
         {
           "p": 14,
           "cat": "Paper Process",
-          "issue": "Not discussed. Board approval March 24 but post-approval procurement process not mapped.",
-          "rec": "Ben Rees to ask Neil Rhodes about procurement process and contract execution timeline.",
-          "due": "2026-03-01"
+          "issue": "[2026-02-25 SF refresh] Deal advanced to Deal Craft stage. Awaiting feedback on Plus vs Enterprise before finalising commercials. Board sign-off meeting scheduled for 24/03.",
+          "rec": "Clarify Plus vs Enterprise product tier decision to unblock commercial finalisation before 24/03 board meeting.",
+          "due": "2026-03-14"
         },
         {
           "p": 15,
@@ -14735,6 +14925,27 @@ const DEAL_DATA = {
             "Competition": 5
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-25",
+          "totalScore": 40.5,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 5,
+            "Decision Process": 5.5,
+            "Decision Criteria": 4.5,
+            "Paper Process": 2,
+            "Identify Pain": 7.5,
+            "Champion": 6,
+            "Competition": 5
+          },
+          "changes": [
+            "Paper Process Q0: No → No (0) — new call evidence",
+            "Paper Process Q0: No → Partial (+0.5) — Stage Demonstrate→Deal Craft, board sign-off meeting 24/03, Plus vs Ent pending"
+          ],
+          "type": "incremental-meddpicc"
         }
       ],
       "mutualActionPlan": {
@@ -14935,7 +15146,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-24",
+          "date": "2026-02-25",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -14958,9 +15169,9 @@ const DEAL_DATA = {
               "pct": 64
             },
             "Paper Process": {
-              "score": 1.5,
+              "score": 2,
               "max": 7,
-              "pct": 21
+              "pct": 29
             },
             "Identify Pain": {
               "score": 7.5,
@@ -15999,6 +16210,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-25",
+          "totalScore": 41.5,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 5,
+            "Decision Process": 6,
+            "Decision Criteria": 4.5,
+            "Paper Process": 4,
+            "Identify Pain": 7.5,
+            "Champion": 6.5,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "mutualActionPlan": {
@@ -16199,7 +16427,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-24",
+          "date": "2026-02-25",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -16259,7 +16487,7 @@ const DEAL_DATA = {
       "merchantIntent": "Uncommitted",
       "type": "New Business",
       "created": "2025-04-15",
-      "lastAnalysisDate": "2026-02-20",
+      "lastAnalysisDate": "2026-02-25",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 841500,
@@ -16535,12 +16763,12 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we know how payments play into their decision?",
-              "answer": "No",
-              "score": 0,
-              "notes": "Payments GPV $0, Payments Attached false. Payments not discussed in any calls.",
-              "solution": "Introduce Shopify Payments as differentiator and cost saver.",
-              "action": "Include Shopify Payments overview in next commercial discussion",
-              "due": "2026-03-06",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "[2026-02-25 SF refresh] NextStep: 'biggest aspect is going to be the SP since we will not approve Adyen'. Payments are a critical decision criterion. SP call scheduled 11th March.\n[Resolved 2026-02-25] Prepare Shopify Payments positioning and rate card for SP call on 11th March.",
+              "solution": "",
+              "action": "",
+              "due": "",
               "highlight": false
             },
             {
@@ -16815,12 +17043,12 @@ const DEAL_DATA = {
           "questions": [
             {
               "q": "Do we know who else the customer is evaluating?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "SFCC is listed as competitor but appears to be the incumbent being replaced rather than an active competitor. No other platforms mentioned — evaluation is between Shopify agencies.",
-              "solution": "Confirm whether SFCC is actively being re-evaluated or departure is firm.",
-              "action": "Ask Jordan if SFCC renewal is a realistic option",
-              "due": "2026-02-27",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "[2026-02-25 SF refresh] Competitor identified: Salesforce Commerce Cloud.\n[Resolved 2026-02-25] Prepare competitive battlecard positioning vs Salesforce Commerce Cloud for Bugaboo discussions.",
+              "solution": "",
+              "action": "",
+              "due": "",
               "highlight": false
             },
             {
@@ -16883,9 +17111,9 @@ const DEAL_DATA = {
           "pct": 64
         },
         "Decision Criteria": {
-          "score": 2,
+          "score": 3,
           "max": 7,
-          "pct": 29
+          "pct": 43
         },
         "Paper Process": {
           "score": 1.5,
@@ -16903,14 +17131,14 @@ const DEAL_DATA = {
           "pct": 71
         },
         "Competition": {
-          "score": 2,
+          "score": 2.5,
           "max": 5,
-          "pct": 40
+          "pct": 50
         },
         "_total": {
-          "score": 27,
+          "score": 28.5,
           "max": 54,
-          "pct": 50,
+          "pct": 53,
           "status": "on-track"
         }
       },
@@ -17037,166 +17265,152 @@ const DEAL_DATA = {
         {
           "p": 18,
           "cat": "Decision Criteria",
-          "issue": "Payments GPV $0, Payments Attached false. Payments not discussed in any calls.",
-          "rec": "Include Shopify Payments overview in next commercial discussion",
-          "due": "2026-03-06"
-        },
-        {
-          "p": 19,
-          "cat": "Decision Criteria",
           "issue": "No formal MAP. Process managed informally through Jordan-Ben syncs.",
           "rec": "Draft mutual action plan and share with Jordan for validation",
           "due": "2026-02-27"
         },
         {
-          "p": 20,
+          "p": 19,
           "cat": "Decision Criteria",
           "issue": "Ben has informally guided agency selection and proposed MSA structure. No formal criteria-shaping exercise done.",
           "rec": "Prepare 'why Shopify for multi-brand' positioning doc for Jordan to share internally",
           "due": "2026-03-06"
         },
         {
-          "p": 21,
+          "p": 20,
           "cat": "Decision Criteria",
           "issue": "Unknown who defined agency/platform evaluation criteria.",
           "rec": "Ask Jordan who set evaluation criteria and whether others have requirements",
           "due": "2026-02-27"
         },
         {
-          "p": 22,
+          "p": 21,
           "cat": "Paper Process",
           "issue": "Ben proposed MSA route, Jordan agreed. Jordan mentioned legal team 'want to look at this once.' Full procurement process not mapped.",
           "rec": "Ask Jordan how long legal reviews typically take and who is involved",
           "due": "2026-02-27"
         },
         {
-          "p": 23,
+          "p": 22,
           "cat": "Paper Process",
           "issue": "Jordan wants a break clause for Artipoppe engagement (exit if initial migration doesn't go well). This is a likely redline.",
           "rec": "Discuss break clause feasibility with Shopify legal",
           "due": "2026-03-06"
         },
         {
-          "p": 24,
+          "p": 23,
           "cat": "Paper Process",
           "issue": "No information on Bugaboo's legal review timeline.",
           "rec": "Include procurement timeline question in next sync",
           "due": "2026-02-27"
         },
         {
-          "p": 25,
+          "p": 24,
           "cat": "Paper Process",
           "issue": "Total procurement timeline unknown.",
           "rec": "Ask Jordan for typical contract turnaround time",
           "due": "2026-02-27"
         },
         {
-          "p": 26,
+          "p": 25,
           "cat": "Paper Process",
           "issue": "No contract details shared yet. Ben suggested starting MSA process but hasn't begun.",
           "rec": "Begin MSA draft and share with Jordan for initial review",
           "due": "2026-03-06"
         },
         {
-          "p": 27,
+          "p": 26,
           "cat": "Paper Process",
           "issue": "Contract has not been sent.",
           "rec": "Draft MSA and initial sales order for Artipoppe",
           "due": "2026-03-13"
         },
         {
-          "p": 28,
+          "p": 27,
           "cat": "Paper Process",
           "issue": "Ben suggested Q1 contract negotiation. Jordan indicated end of January as good time. Close date April 23, 2026.",
           "rec": "Propose target signature date in next conversation",
           "due": "2026-02-27"
         },
         {
-          "p": 29,
+          "p": 28,
           "cat": "Identify Pain",
           "issue": "Low IT capacity and organizational restructuring mentioned. Specific quantified business impact not discussed.",
           "rec": "Ask Jordan what current tech stack fragmentation costs in time, money, opportunity",
           "due": "2026-03-06"
         },
         {
-          "p": 30,
+          "p": 29,
           "cat": "Identify Pain",
           "issue": "Digital CX, IT team, and brand-level teams affected. Extent of impact per team not detailed.",
           "rec": "Include team-level pain mapping in discovery",
           "due": "2026-03-13"
         },
         {
-          "p": 31,
+          "p": 30,
           "cat": "Identify Pain",
           "issue": "Urgency from restructuring and SFCC timeline, but Jordan noted process has been 'slow because of change in company.' Mixed signals.",
           "rec": "Frame Shopify migration as enabler of broader group consolidation",
           "due": "2026-03-06"
         },
         {
-          "p": 32,
+          "p": 31,
           "cat": "Identify Pain",
           "issue": "SFCC is incumbent. Jordan's language strongly suggests departure. No other platform competitors mentioned.",
           "rec": "Prepare TCO comparison and migration risk assessment vs. staying on SFCC",
           "due": "2026-03-13"
         },
         {
-          "p": 33,
+          "p": 32,
           "cat": "Identify Pain",
           "issue": "Organizational restructuring (acquisitions, new leadership) creates a 'now' moment, but not explicitly tied to hard deadline.",
           "rec": "Ask what business milestone is the hard deadline",
           "due": "2026-02-27"
         },
         {
-          "p": 34,
+          "p": 33,
           "cat": "Champion",
           "issue": "Jordan has influence over agency and tech stack decisions but is 'still waiting to hear whether I even have an official position with Artipoppe.'",
           "rec": "Check in on Jordan's Artipoppe role status in next sync",
           "due": "2026-02-27"
         },
         {
-          "p": 35,
+          "p": 34,
           "cat": "Champion",
           "issue": "Jordan has not yet introduced Ben/Shopify directly to Richard. Richard has not appeared on any calls.",
           "rec": "Ask Jordan to set up introductory call with Richard",
           "due": "2026-03-06"
         },
         {
-          "p": 36,
+          "p": 35,
           "cat": "Champion",
           "issue": "Jordan appears willing to advocate but hasn't explicitly brought Shopify into a buying group meeting. Shared that Richard can 'sign this off' but no formal intro.",
           "rec": "Propose group presentation or executive briefing with Richard and Jimmy",
           "due": "2026-03-13"
         },
         {
-          "p": 37,
-          "cat": "Competition",
-          "issue": "SFCC is listed as competitor but appears to be the incumbent being replaced rather than an active competitor. No other platforms mentioned — evaluation is between Shopify agencies.",
-          "rec": "Ask Jordan if SFCC renewal is a realistic option",
-          "due": "2026-02-27"
-        },
-        {
-          "p": 38,
+          "p": 36,
           "cat": "Competition",
           "issue": "Jordan implies staying on SFCC is unattractive but not formally ruled out.",
           "rec": "Include in next discovery conversation",
           "due": "2026-02-27"
         },
         {
-          "p": 39,
+          "p": 37,
           "cat": "Competition",
           "issue": "Wolfpack is being terminated. No visible SFCC advocate. Could theoretically stay on SFCC with different agency.",
           "rec": "Ask Jordan if anyone internally prefers SFCC",
           "due": "2026-02-27"
         },
         {
-          "p": 40,
+          "p": 38,
           "cat": "Competition",
           "issue": "SFCC being evaluated implicitly. The 'why leave' is implied but not explicitly detailed.",
           "rec": "Ask Jordan for top 3 reasons for leaving SFCC",
           "due": "2026-03-06"
         },
         {
-          "p": 41,
+          "p": 39,
           "cat": "Competition",
           "issue": "Shopify strongly positioned — agency evaluation entirely Shopify-focused, Jordan championing. Risks: Jordan's role uncertainty, Richard's impulsive style, NetSuite integration.",
           "rec": "Address all three risk factors in upcoming engagements",
@@ -17340,6 +17554,29 @@ const DEAL_DATA = {
             "Competition": 2
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-25",
+          "totalScore": 28.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 3,
+            "Economic Buyer": 3.5,
+            "Decision Process": 4.5,
+            "Decision Criteria": 3,
+            "Paper Process": 1.5,
+            "Identify Pain": 5.5,
+            "Champion": 5,
+            "Competition": 2.5
+          },
+          "changes": [
+            "Competition Q0: Partial → Partial (0) — new call evidence",
+            "Decision Criteria Q3: No → No (0) — new call evidence",
+            "Competition Q0: Partial → Yes (+0.5) — Competitor field: null → Salesforce Commerce Cloud",
+            "Decision Criteria Q3: No → Yes (+1) — NextStep: SP is biggest aspect, won't approve Adyen, SP call scheduled 11 March"
+          ],
+          "type": "incremental-meddpicc"
         }
       ],
       "mutualActionPlan": {
@@ -17504,7 +17741,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-02-24",
+          "date": "2026-02-25",
           "sections": {
             "Metrics": {
               "score": 3,
@@ -17522,9 +17759,9 @@ const DEAL_DATA = {
               "pct": 64
             },
             "Decision Criteria": {
-              "score": 2,
+              "score": 3,
               "max": 7,
-              "pct": 29
+              "pct": 43
             },
             "Paper Process": {
               "score": 1.5,
@@ -17542,9 +17779,9 @@ const DEAL_DATA = {
               "pct": 71
             },
             "Competition": {
-              "score": 2,
+              "score": 2.5,
               "max": 5,
-              "pct": 40
+              "pct": 50
             }
           }
         }
@@ -18675,6 +18912,23 @@ const DEAL_DATA = {
             "Competition": 1.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-25",
+          "totalScore": 27,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 4.5,
+            "Economic Buyer": 2,
+            "Decision Process": 4.5,
+            "Decision Criteria": 2,
+            "Paper Process": 2,
+            "Identify Pain": 6,
+            "Champion": 4.5,
+            "Competition": 1.5
+          },
+          "changes": []
         }
       ],
       "mutualActionPlan": {
@@ -18839,7 +19093,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-02-24",
+          "date": "2026-02-25",
           "sections": {
             "Metrics": {
               "score": 4.5,
@@ -18899,7 +19153,7 @@ const DEAL_DATA = {
       "merchantIntent": "Uncommitted",
       "type": "New Business",
       "created": "2026-02-24",
-      "lastAnalysisDate": "2026-02-24",
+      "lastAnalysisDate": "2026-02-25",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 3311700,
@@ -19147,12 +19401,12 @@ const DEAL_DATA = {
           "questions": [
             {
               "q": "Do we know what criteria the customer is using to evaluate vendors?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "Criteria gathered organically: TCO/cost, migration speed, operational efficiency, bundling/customization, internationalization, tax automation, SP economics, app ecosystem, headless flexibility. No formal weighted list from merchant.",
-              "solution": "Get a formal, prioritized list of decision criteria from the buying committee.",
-              "action": "Maissa to ask: 'What are your top 5 criteria for this decision, and how are you weighting them?'",
-              "due": "2026-02-25",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "[2026-02-25 SF refresh] Stage advanced Solution→Demonstrate, Pipeline→Commit. Active technical validation and merchant references indicate we understand the customer's evaluation criteria.",
+              "solution": "",
+              "action": "",
+              "due": "",
               "highlight": false
             },
             {
@@ -19222,12 +19476,12 @@ const DEAL_DATA = {
           "questions": [
             {
               "q": "Do we know what their procurement process is?",
-              "answer": "No",
-              "score": 0,
-              "notes": "No discussion of procurement process captured. Don't know if there's formal RFP, legal review, security assessment, or procurement team.",
-              "solution": "Map the procurement process early to avoid surprises.",
-              "action": "Maissa to ask Charlotte/Faye: 'Once a decision is made, what does your procurement and contracting process look like?'",
-              "due": "2026-03-04",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "[2026-02-25 SF refresh] Rate review discussion started — commercial/procurement process beginning.",
+              "solution": "",
+              "action": "Complete rate review and map out full procurement/legal process with Trinny team.",
+              "due": "2026-03-15",
               "highlight": false
             },
             {
@@ -19382,12 +19636,12 @@ const DEAL_DATA = {
           "questions": [
             {
               "q": "Have you identified a true champion (influence + motivation)?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "Charlotte Lecuyer appears to be primary champion — in almost every call, driving evaluation operationally. Faye Roth shows champion-like behavior (driving urgency, attending business case calls). Neither explicitly tested as true champion.",
-              "solution": "Validate Charlotte and/or Faye as true champions through champion test.",
-              "action": "Maissa to have 1:1 with Charlotte (or Faye) and ask: 'If it were up to you, would you choose Shopify?'",
-              "due": "2026-02-25",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "[2026-02-25 SF refresh] Deal moved Pipeline→Commit with active collaboration on business case, technical validation, and references. Signals identified champion driving internal momentum.",
+              "solution": "",
+              "action": "",
+              "due": "",
               "highlight": false
             },
             {
@@ -19525,14 +19779,14 @@ const DEAL_DATA = {
           "pct": 71
         },
         "Decision Criteria": {
-          "score": 3.5,
+          "score": 4,
           "max": 7,
-          "pct": 50
+          "pct": 57
         },
         "Paper Process": {
-          "score": 0.5,
+          "score": 1,
           "max": 7,
-          "pct": 7
+          "pct": 14
         },
         "Identify Pain": {
           "score": 6.5,
@@ -19540,9 +19794,9 @@ const DEAL_DATA = {
           "pct": 81
         },
         "Champion": {
-          "score": 3.5,
+          "score": 4,
           "max": 7,
-          "pct": 50
+          "pct": 57
         },
         "Competition": {
           "score": 2,
@@ -19550,9 +19804,9 @@ const DEAL_DATA = {
           "pct": 40
         },
         "_total": {
-          "score": 29,
+          "score": 30.5,
           "max": 54,
-          "pct": 54,
+          "pct": 56,
           "status": "on-track"
         }
       },
@@ -19644,173 +19898,159 @@ const DEAL_DATA = {
         {
           "p": 13,
           "cat": "Decision Criteria",
-          "issue": "Criteria gathered organically: TCO/cost, migration speed, operational efficiency, bundling/customization, internationalization, tax automation, SP economics, app ecosystem, headless flexibility. No formal weighted list from merchant.",
-          "rec": "Maissa to ask: 'What are your top 5 criteria for this decision, and how are you weighting them?'",
-          "due": "2026-02-25"
-        },
-        {
-          "p": 14,
-          "cat": "Decision Criteria",
           "issue": "D2C is primary focus, extensively discussed. POS mentioned briefly (19 terminals). B2B GMV null, not discussed. D2C well-covered, POS secondary, B2B not applicable.",
           "rec": "Maissa/Ben Homer to include POS scoping in upcoming discussions.",
           "due": "2026-03-10"
         },
         {
-          "p": 15,
+          "p": 14,
           "cat": "Decision Criteria",
           "issue": "No formal MAP or mutual close plan documented or agreed. Engagement has been reactive/organic.",
           "rec": "Maissa to draft a MAP and propose it during the Feb 25 catch-up.",
           "due": "2026-02-25"
         },
         {
-          "p": 16,
+          "p": 15,
           "cat": "Decision Criteria",
           "issue": "Actively shaping through demos, business case, architecture recommendations (headed vs headless), SP positioning. However, Commerce Tools likely also active — no visibility into their engagement.",
           "rec": "Ask Charlotte/Faye: 'What is Commerce Tools proposing for renewal?'",
           "due": "2026-03-04"
         },
         {
-          "p": 17,
+          "p": 16,
           "cat": "Decision Criteria",
           "issue": "No evidence of who originally defined the evaluation criteria — IT/CTO, operations, board, or external consultant.",
           "rec": "Maissa to ask: 'Who put together the evaluation criteria for this platform decision?'",
           "due": "2026-03-04"
         },
         {
-          "p": 18,
+          "p": 17,
           "cat": "Paper Process",
-          "issue": "No discussion of procurement process captured. Don't know if there's formal RFP, legal review, security assessment, or procurement team.",
-          "rec": "Maissa to ask Charlotte/Faye: 'Once a decision is made, what does your procurement and contracting process look like?'",
-          "due": "2026-03-04"
+          "issue": "[2026-02-25 SF refresh] Rate review discussion started — commercial/procurement process beginning.",
+          "rec": "Complete rate review and map out full procurement/legal process with Trinny team.",
+          "due": "2026-03-15"
         },
         {
-          "p": 19,
+          "p": 18,
           "cat": "Paper Process",
           "issue": "No information about legal review requirements. Given ~£60M turnover, they likely have legal review processes.",
           "rec": "Maissa to proactively ask about legal review process and deal-breaker terms.",
           "due": "2026-03-10"
         },
         {
-          "p": 20,
+          "p": 19,
           "cat": "Paper Process",
           "issue": "No information on legal review duration.",
           "rec": "Include in procurement process discovery.",
           "due": "2026-03-10"
         },
         {
-          "p": 21,
+          "p": 20,
           "cat": "Paper Process",
           "issue": "No information on overall procurement timeline from decision to signature.",
           "rec": "Include in procurement process discovery.",
           "due": "2026-03-10"
         },
         {
-          "p": 22,
+          "p": 21,
           "cat": "Paper Process",
           "issue": "No contract details discussed. Deal is at Solution stage — contract hasn't been introduced yet.",
           "rec": "Maissa to prepare preliminary contract scope/terms for when deal moves to Negotiate stage.",
           "due": "2026-03-15"
         },
         {
-          "p": 23,
+          "p": 22,
           "cat": "Paper Process",
           "issue": "Contract has not been sent. Deal is in Solution stage.",
           "rec": "Send contract once technical validation is complete and decision criteria are met.",
           "due": "2026-04-15"
         },
         {
-          "p": 24,
+          "p": 23,
           "cat": "Paper Process",
           "issue": "SF close date is June 30, 2026. Merchant referenced 'early next FY' for go-live and board go/no-go process underway. No explicit target signature date agreed.",
           "rec": "Maissa to work backwards from desired go-live to determine when contract needs to be signed.",
           "due": "2026-03-04"
         },
         {
-          "p": 25,
+          "p": 24,
           "cat": "Identify Pain",
           "issue": "Clear urgency — Faye's stagnation comment, board-level review, Commerce Tools renewal. But not 'hair on fire' — 40% probability and 'Uncommitted' intent suggest merchant could renew with Commerce Tools.",
           "rec": "Include 'cost of 12-month delay' scenario in business case.",
           "due": "2026-03-04"
         },
         {
-          "p": 26,
+          "p": 25,
           "cat": "Identify Pain",
           "issue": "Commerce Tools renewal is the obvious alternative. No other vendors mentioned. CT renewal offer not known.",
           "rec": "Maissa to ask: 'What is Commerce Tools proposing for renewal?'",
           "due": "2026-02-25"
         },
         {
-          "p": 27,
+          "p": 26,
           "cat": "Identify Pain",
           "issue": "Well-positioned for unified commerce, lower TCO, faster migration (headed approach). SP is a differentiator. Gaps in native bundling, VIP pricing, and some tax automation. Commerce Tools' composable architecture may appeal for flexibility.",
           "rec": "Ben Homer to follow up on Stephen's commitments to investigate VIP price list and advanced bundling solutions.",
           "due": "2026-03-04"
         },
         {
-          "p": 28,
-          "cat": "Champion",
-          "issue": "Charlotte Lecuyer appears to be primary champion — in almost every call, driving evaluation operationally. Faye Roth shows champion-like behavior (driving urgency, attending business case calls). Neither explicitly tested as true champion.",
-          "rec": "Maissa to have 1:1 with Charlotte (or Faye) and ask: 'If it were up to you, would you choose Shopify?'",
-          "due": "2026-02-25"
-        },
-        {
-          "p": 29,
+          "p": 27,
           "cat": "Champion",
           "issue": "Charlotte has operational credibility — coordinating evaluation, managing multiple teams. Faye has political capital — attended business case call, drove urgency. Formal positions and recommendation weight unknown.",
           "rec": "Maissa to map org chart and understand reporting lines of key contacts.",
           "due": "2026-02-25"
         },
         {
-          "p": 30,
+          "p": 28,
           "cat": "Champion",
           "issue": "No evidence of direct introduction to true EB/board-level decision-maker. Jay Jetley (CTO) not in recent calls. Board go/no-go happened without Shopify.",
           "rec": "Ask Charlotte/Faye to introduce Maissa to the board-level decision-maker.",
           "due": "2026-03-10"
         },
         {
-          "p": 31,
+          "p": 29,
           "cat": "Champion",
           "issue": "No evidence of invitation to present to board or buying group. Board go/no-go discussion happened internally.",
           "rec": "Maissa to offer: 'Would it be helpful if we joined a brief session with your board?'",
           "due": "2026-03-10"
         },
         {
-          "p": 32,
+          "p": 30,
           "cat": "Champion",
           "issue": "Charlotte's motivation appears operational — dealing with daily platform pain. Faye's appears strategic — avoiding stagnation. Neither has explicitly stated 'I want Shopify to win' but behavior suggests strong leanings.",
           "rec": "Maissa to conduct champion validation in 1:1 conversation.",
           "due": "2026-02-25"
         },
         {
-          "p": 33,
+          "p": 31,
           "cat": "Competition",
           "issue": "Commerce Tools is clearly the incumbent/primary competition. Entire evaluation framed as 'Shopify vs Commerce Tools'. No other vendors mentioned. Haven't explicitly confirmed no other vendors being evaluated.",
           "rec": "Maissa to ask: 'Beyond Shopify and Commerce Tools, are you evaluating any other platforms?'",
           "due": "2026-02-25"
         },
         {
-          "p": 34,
+          "p": 32,
           "cat": "Competition",
           "issue": "Staying on Commerce Tools (renewing) is explicitly an option. Board go/no-go was deciding whether to proceed with migration. Haven't deeply explored what 'doing nothing' means or positioned against it.",
           "rec": "Include in business case.",
           "due": "2026-03-04"
         },
         {
-          "p": 35,
+          "p": 33,
           "cat": "Competition",
           "issue": "No discussion of internal alternatives (e.g., building on Commerce Tools, re-platforming internally). CT may be offering new architecture or incentives.",
           "rec": "Ask: 'Is Commerce Tools offering any changes to your architecture or renewal incentives?'",
           "due": "2026-02-25"
         },
         {
-          "p": 36,
+          "p": 34,
           "cat": "Competition",
           "issue": "Reasons they might stay on CT: switching cost fear, sunk cost, team familiarity, headless flexibility. These haven't been directly explored.",
           "rec": "Maissa to ask: 'What would Commerce Tools need to offer for you to stay? What concerns do you have about switching?'",
           "due": "2026-02-25"
         },
         {
-          "p": 37,
+          "p": 35,
           "cat": "Competition",
           "issue": "Win reasons: lower TCO, faster migration, unified commerce, SP economics. Loss risks: product gaps (bundling, VIP pricing), HCL inexperience, headless flexibility concerns, CT renewal incentives. No explicit confirmation from merchant.",
           "rec": "Maissa to ask Charlotte/Faye: 'What would need to be true for you to choose Shopify?'",
@@ -20041,6 +20281,31 @@ const DEAL_DATA = {
             "Decision Process: improved (4.5 → 5)",
             "Identify Pain: improved (6 → 6.5)"
           ]
+        },
+        {
+          "date": "2026-02-25",
+          "totalScore": 30.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 6,
+            "Economic Buyer": 2,
+            "Decision Process": 5,
+            "Decision Criteria": 4,
+            "Paper Process": 1,
+            "Identify Pain": 6.5,
+            "Champion": 4,
+            "Competition": 2
+          },
+          "changes": [
+            "Decision Criteria Q0: Partial → Partial (0) — new call evidence",
+            "Paper Process Q0: No → No (0) — new call evidence",
+            "Champion Q0: Partial → Partial (0) — new call evidence",
+            "Decision Criteria Q0: Partial → Yes (+0.5) — Stage Solution→Demonstrate, Pipeline→Commit, active technical validation + references",
+            "Paper Process Q0: No → Partial (+0.5) — NextStep: Started a rate review discussion",
+            "Champion Q0: Partial → Yes (+0.5) — Pipeline→Commit, active business case collab + tech validation + references"
+          ],
+          "type": "incremental-meddpicc"
         }
       ],
       "mutualActionPlan": {
@@ -20154,11 +20419,11 @@ const DEAL_DATA = {
           {
             "date": "",
             "done": false,
-            "milestone": "Maissa to ask Charlotte/Faye: 'Once a decision is made, what does your procurement and contracting process look like?'",
+            "milestone": "Complete rate review and map out full procurement/legal process with Trinny team.",
             "ownerMerchant": "",
             "ownerShopify": "Maissa",
-            "notes": "Paper Process · Due 2026-03-04",
-            "due": "2026-03-04"
+            "notes": "Paper Process · Due 2026-03-15",
+            "due": "2026-03-15"
           },
           {
             "date": "",
@@ -20205,7 +20470,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-02-24",
+          "date": "2026-02-25",
           "sections": {
             "Metrics": {
               "score": 6,
@@ -20223,14 +20488,14 @@ const DEAL_DATA = {
               "pct": 71
             },
             "Decision Criteria": {
-              "score": 3.5,
+              "score": 4,
               "max": 7,
-              "pct": 50
+              "pct": 57
             },
             "Paper Process": {
-              "score": 0.5,
+              "score": 1,
               "max": 7,
-              "pct": 7
+              "pct": 14
             },
             "Identify Pain": {
               "score": 6.5,
@@ -20238,9 +20503,9 @@ const DEAL_DATA = {
               "pct": 81
             },
             "Champion": {
-              "score": 3.5,
+              "score": 4,
               "max": 7,
-              "pct": 50
+              "pct": 57
             },
             "Competition": {
               "score": 2,

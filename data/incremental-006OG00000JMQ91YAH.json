@@ -1,0 +1,39 @@
+{
+  "opportunityId": "006OG00000JMQ91YAH",
+  "accountName": "TRINNY LONDON",
+  "type": "sf-escalation",
+  "narratives": null,
+  "questionUpdates": [
+    {
+      "section": "decisionCriteria",
+      "questionIndex": 0,
+      "newAnswer": "Yes",
+      "notes": "[2026-02-25 SF refresh] Stage advanced Solution→Demonstrate, Pipeline→Commit. Active technical validation and merchant references indicate we understand the customer's evaluation criteria.",
+      "solution": null,
+      "action": null,
+      "due": null,
+      "evidence": "Stage Solution→Demonstrate, Pipeline→Commit, active technical validation + references"
+    },
+    {
+      "section": "paperProcess",
+      "questionIndex": 0,
+      "newAnswer": "Partial",
+      "notes": "[2026-02-25 SF refresh] Rate review discussion started — commercial/procurement process beginning.",
+      "solution": null,
+      "action": "Complete rate review and map out full procurement/legal process with Trinny team.",
+      "due": "2026-03-15",
+      "evidence": "NextStep: Started a rate review discussion"
+    },
+    {
+      "section": "champion",
+      "questionIndex": 0,
+      "newAnswer": "Yes",
+      "notes": "[2026-02-25 SF refresh] Deal moved Pipeline→Commit with active collaboration on business case, technical validation, and references. Signals identified champion driving internal momentum.",
+      "solution": null,
+      "action": null,
+      "due": null,
+      "evidence": "Pipeline→Commit, active business case collab + tech validation + references"
+    }
+  ],
+  "newCalls": []
+}
