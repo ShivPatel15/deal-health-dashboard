@@ -569,16 +569,7 @@ function showDetail(id){
 
   <!-- OVERVIEW -->
   <div class="pane on" id="p-overview">
-    <div class="nar-grid">
-      ${renderNarrative(opp,'narrative.oppSummary','📝 Opportunity Summary',true)}
-      ${renderNarrative(opp,'narrative.whyChange','🔄 Why Change?')}
-      ${renderNarrative(opp,'narrative.whyShopify','💚 Why Shopify?')}
-      ${renderNarrative(opp,'narrative.whyNow','⏰ Why Now?')}
-      ${renderNarrative(opp,'narrative.supportNeeded','🤝 Support Needed')}
-    </div>
-    ${opp.compellingEvent?`${renderNarrative(opp,'compellingEvent','⚡ Compelling Event',false,true)}`:''}
-    ${opp.nextStep?`${renderNarrative(opp,'nextStep','📌 AE Next Step',false,true)}`:''}
-    ${(opp.dealRisks&&opp.dealRisks.length)?`<div class="risks-panel" style="margin-top:16px">
+    ${(opp.dealRisks&&opp.dealRisks.length)?`<div class="risks-panel" style="margin-bottom:16px">
       <h3 style="font-size:14px;font-weight:700;margin-bottom:10px">⚠️ Deal Risks</h3>
       <div style="display:flex;flex-direction:column;gap:8px">
         ${opp.dealRisks.map(r=>{
@@ -593,6 +584,15 @@ function showDetail(id){
           </div>`}).join('')}
       </div>
     </div>`:''}
+    <div class="nar-grid">
+      ${renderNarrative(opp,'narrative.oppSummary','📝 Opportunity Summary',true)}
+      ${renderNarrative(opp,'narrative.whyChange','🔄 Why Change?')}
+      ${renderNarrative(opp,'narrative.whyShopify','💚 Why Shopify?')}
+      ${renderNarrative(opp,'narrative.whyNow','⏰ Why Now?')}
+      ${renderNarrative(opp,'narrative.supportNeeded','🤝 Support Needed')}
+    </div>
+    ${opp.compellingEvent?`${renderNarrative(opp,'compellingEvent','⚡ Compelling Event',false,true)}`:''}
+    ${opp.nextStep?`${renderNarrative(opp,'nextStep','📌 AE Next Step',false,true)}`:''}
   </div>
 
   <!-- MEDDPICC -->
