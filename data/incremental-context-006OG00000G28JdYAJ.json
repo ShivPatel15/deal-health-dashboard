@@ -1,0 +1,573 @@
+{
+  "accountName": "Direct Wines Limited",
+  "opportunityId": "006OG00000G28JdYAJ",
+  "stage": "Demonstrate",
+  "closeDate": "2026-03-31",
+  "probability": 60,
+  "nextStep": "18/02 BR Discovery with Fuse ending next week. Board / sign off meeting for 24/03. Still awaiting feedback on Plus vs Ent before we can finalise commercials",
+  "competitor": "commercetools",
+  "sfChangesToday": [
+    {
+      "field": "stage",
+      "oldValue": "Demonstrate",
+      "newValue": "Deal Craft"
+    },
+    {
+      "field": "probability",
+      "oldValue": 60,
+      "newValue": 80
+    },
+    {
+      "field": "nextStep",
+      "oldValue": "18/02: Fusefabric review of proposed solution (Wed 18 Feb 3pm). Ordergroove POC follow-up Thu 19 Feb 2-2:30pm GMT. Board decision expected end Feb. Working on SP Q&A, multiple solution meets with Fuse and Recharge + Ordergroove for subs. Engaged PS for token migration.",
+      "newValue": "18/02 BR Discovery with Fuse ending next week. Board / sign off meeting for 24/03. Still awaiting feedback on Plus vs Ent before we can finalise commercials"
+    },
+    {
+      "field": "projectedBilledRevenue",
+      "oldValue": 6660618.5,
+      "newValue": 3813618.5
+    },
+    {
+      "field": "revenue.mcv",
+      "oldValue": 4582000,
+      "newValue": 0
+    },
+    {
+      "field": "revenue.totalRev3yr",
+      "oldValue": 13756191,
+      "newValue": 10909191
+    }
+  ],
+  "currentActionItems": [
+    {
+      "section": "Metrics",
+      "question": "Do we have specific quantifiable goals aligned with the project?",
+      "answer": "Partial",
+      "action": "Ben Rees to propose a success metrics framework and validate before board meeting.",
+      "due": "2026-03-07",
+      "notes": "Some quantification ($6M+ dev spend reduction, conversion improvement implied) but no specific numeric targets validated with customer."
+    },
+    {
+      "section": "Metrics",
+      "question": "Do we understand the impact if this goal isn't achieved?",
+      "answer": "Partial",
+      "action": "Beatrice Porcescu to prepare 'cost of inaction' analysis.",
+      "due": "2026-03-07",
+      "notes": "Implied impacts clear ($6M+ annual tech spend, poor D2C experience) but specific quantified downside not explicitly stated by customer."
+    },
+    {
+      "section": "Metrics",
+      "question": "Have I validated the metrics with the customer?",
+      "answer": "Partial",
+      "action": "Ben Rees to schedule metrics validation call once Fusefabric discovery completes.",
+      "due": "2026-03-10",
+      "notes": "Business reasons discussed extensively but specific quantified success metrics not formally agreed upon."
+    },
+    {
+      "section": "Metrics",
+      "question": "Are the metrics compelling enough to justify change?",
+      "answer": "Partial",
+      "action": "Ben Rees to complete rate modeling once December payment statement received.",
+      "due": "2026-02-28",
+      "notes": "Qualitative case very strong but payment rate gap and Enterprise vs Plus cost question create commercial uncertainty."
+    },
+    {
+      "section": "Economic Buyer",
+      "question": "Do we know who's signing the contract?",
+      "answer": "Partial",
+      "action": "Ben Rees to clarify signing authority and whether board approval is formal or advisory.",
+      "due": "2026-03-01",
+      "notes": "Neil Rhodes listed as Economic Buyer but unclear if sole signing authority or CEO co-sign needed given $4.58M deal size."
+    },
+    {
+      "section": "Economic Buyer",
+      "question": "Can we get access?",
+      "answer": "Yes",
+      "action": "Ben Rees and Shiv Patel to discuss CEO-to-CEO touchpoint pre-board.",
+      "due": "2026-03-07",
+      "notes": "Already have access to EB and DM. Access to global CEO less clear."
+    },
+    {
+      "section": "Economic Buyer",
+      "question": "Do you know how they make decisions and allocate budget?",
+      "answer": "Partial",
+      "action": "Ben Rees to confirm budget approval process with Neil Rhodes.",
+      "due": "2026-03-01",
+      "notes": "Board meeting March 24 known. Formal budget allocation process not documented."
+    },
+    {
+      "section": "Decision Process",
+      "question": "Do we know how they will be making the decision?",
+      "answer": "Partial",
+      "action": "Ben Rees to discuss post-board process with Neil Rhodes.",
+      "due": "2026-03-01",
+      "notes": "Board sign-off March 24. Post-board procurement/legal/sign-off not fully mapped."
+    },
+    {
+      "section": "Decision Process",
+      "question": "Do we know what will happen if they do nothing?",
+      "answer": "Partial",
+      "action": "Include 'cost of delay' data in board presentation materials.",
+      "due": "2026-03-14",
+      "notes": "ATG EOL creates hard deadline. Specific delay costs not quantified."
+    },
+    {
+      "section": "Decision Process",
+      "question": "Have you validated this process with the buyer?",
+      "answer": "Partial",
+      "action": "Ben Rees to walk through post-board steps with Neil Rhodes.",
+      "due": "2026-03-01",
+      "notes": "March 24 board timeline discussed. Full post-board process not validated."
+    },
+    {
+      "section": "Decision Criteria",
+      "question": "Do we know what criteria the customer is using to evaluate vendors?",
+      "answer": "Partial",
+      "action": "Ben Rees to share evaluation criteria framework with Andy Brooks.",
+      "due": "2026-03-01",
+      "notes": "Key criteria surfaced (TCO, payment rates, subscription capability, time-to-market) but no formal evaluation framework."
+    },
+    {
+      "section": "Decision Criteria",
+      "question": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
+      "answer": "Partial",
+      "action": "Beatrice Porcescu to confirm retail use case requirements.",
+      "due": "2026-03-10",
+      "notes": "D2C extensively demo'd. POS/Retail included but less attention. B2B not discussed."
+    },
+    {
+      "section": "Decision Criteria",
+      "question": "Do we have a mutual action plan in place?",
+      "answer": "No",
+      "action": "Ben Rees to draft and share MAP with Andy Brooks and Neil Rhodes.",
+      "due": "2026-02-28",
+      "notes": "Key milestones loosely defined but no formal documented MAP with shared ownership and dates."
+    },
+    {
+      "section": "Decision Criteria",
+      "question": "Do we know who defined the decision criteria?",
+      "answer": "Partial",
+      "action": "Ben Rees to ask Andy Brooks about formal vendor evaluation framework.",
+      "due": "2026-03-01",
+      "notes": "Criteria emerging organically. Unclear if formal RFP/evaluation matrix exists."
+    },
+    {
+      "section": "Paper Process",
+      "question": "Do we know what their procurement process is?",
+      "answer": "Partial",
+      "action": "Clarify Plus vs Enterprise product tier decision to unblock commercial finalisation before 24/03 board meeting.",
+      "due": "2026-03-14",
+      "notes": "[2026-02-25 SF refresh] Deal advanced to Deal Craft stage. Awaiting feedback on Plus vs Enterprise before finalising commercials. Board sign-off meeti"
+    },
+    {
+      "section": "Paper Process",
+      "question": "Are there likely to be redlines?",
+      "answer": "Partial",
+      "action": "Ben Rees to engage Shopify legal to prepare for enterprise contract redlines.",
+      "due": "2026-03-07",
+      "notes": "For $4.58M deal with global enterprise, legal redlines highly likely. Ben advised DW to review Plus agreement."
+    },
+    {
+      "section": "Paper Process",
+      "question": "If redlines, how long does review take?",
+      "answer": "No",
+      "action": "Ben Rees to ask about typical legal review cycles.",
+      "due": "2026-03-07",
+      "notes": "Not discussed."
+    },
+    {
+      "section": "Paper Process",
+      "question": "Do we know how long it will take?",
+      "answer": "No",
+      "action": "Ben Rees to propose sending draft contract terms for pre-review before board.",
+      "due": "2026-03-07",
+      "notes": "Only 7 days between March 24 board and March 31 close date - unrealistic without pre-work."
+    },
+    {
+      "section": "Paper Process",
+      "question": "Do we have contract details?",
+      "answer": "Partial",
+      "action": "Ben Rees to get final DW feedback and prepare contract package.",
+      "due": "2026-03-07",
+      "notes": "Pricing discussed in detail. Enterprise vs Plus decision pending. Contract terms not finalized."
+    },
+    {
+      "section": "Paper Process",
+      "question": "Have we sent the contract?",
+      "answer": "No",
+      "action": "Ben Rees to prepare draft contract terms for review.",
+      "due": "2026-03-14",
+      "notes": "Contract not sent. Enterprise vs Plus decision pending."
+    },
+    {
+      "section": "Paper Process",
+      "question": "Do we know target date for signature?",
+      "answer": "Partial",
+      "action": "Ben Rees to confirm target signature date with Neil Rhodes.",
+      "due": "2026-03-01",
+      "notes": "Close date March 31. Board meeting March 24. June 30 launch creates working-backward deadline."
+    },
+    {
+      "section": "Identify Pain",
+      "question": "Do we know what teams are affected and to what extent?",
+      "answer": "Partial",
+      "action": "Ben Rees to ask Andy Brooks about cross-functional impact.",
+      "due": "2026-03-07",
+      "notes": "Ecommerce, US team, Finance, IT affected. Impact on customer service, marketing, supply chain not detailed."
+    },
+    {
+      "section": "Identify Pain",
+      "question": "Can they solve this pain using another option?",
+      "answer": "Yes",
+      "action": "Beatrice to prepare commercetools comparison for board materials.",
+      "due": "2026-03-10",
+      "notes": "Commercetools is identified competitor. Could continue that migration."
+    },
+    {
+      "section": "Champion",
+      "question": "Does your champion have political capital and credibility?",
+      "answer": "Partial",
+      "action": "Ben Rees to arm Andy Brooks with executive summary for influencing CIO.",
+      "due": "2026-03-10",
+      "notes": "Andy has operational credibility. But CIO Martyn Oakley could block - 'managing to a budget.'"
+    },
+    {
+      "section": "Champion",
+      "question": "Are they willing to bring you into the board/buying group?",
+      "answer": "Partial",
+      "action": "Ben Rees to confirm with Neil Rhodes whether Shopify can attend/present.",
+      "due": "2026-03-01",
+      "notes": "Board meeting March 24 scheduled. Unclear if Shopify presents directly or DW presents on their behalf."
+    },
+    {
+      "section": "Competition",
+      "question": "Are there internal alternatives to our solution?",
+      "answer": "Yes",
+      "action": "Include commercetools total cost to complete vs Shopify in board materials.",
+      "due": "2026-03-14",
+      "notes": "Completing commercetools migration is internal alternative. Sunk cost consideration for CEO as former CFO."
+    },
+    {
+      "section": "Competition",
+      "question": "Do we know why we would win or lose?",
+      "answer": "Yes",
+      "action": "Ben Rees to prepare 'why we win' narrative addressing each lose factor.",
+      "due": "2026-03-10",
+      "notes": "Win: consolidated platform, faster TTM, lower TCO, Shop Pay, Audiences, BrewDog. Lose: UK payment rate gap, Enterprise pricing, CIO budget sensitivity"
+    }
+  ],
+  "currentMAP": {
+    "merchantName": "Direct Wines Limited",
+    "kickoffDate": "",
+    "goLiveDate": "2026-03-31",
+    "contactName": "Ben Rees",
+    "contactEmail": "ben.rees@shopify.com",
+    "champion": "Neil Rhodes",
+    "items": [
+      {
+        "date": "",
+        "done": true,
+        "milestone": "Initial discovery & intro calls",
+        "ownerMerchant": "Neil Rhodes",
+        "ownerShopify": "Ben",
+        "notes": "15 calls completed"
+      },
+      {
+        "date": "",
+        "done": true,
+        "milestone": "Identify champion & project team",
+        "ownerMerchant": "Neil Rhodes",
+        "ownerShopify": "Ben",
+        "notes": "Champion: Neil Rhodes"
+      },
+      {
+        "date": "",
+        "done": false,
+        "milestone": "Ben Rees to propose a metrics framework document and validate with DW stakeholders.",
+        "ownerMerchant": "",
+        "ownerShopify": "Ben",
+        "notes": "Metrics \u00b7 Due 02/25/2026",
+        "due": "02/25/2026"
+      },
+      {
+        "date": "",
+        "done": false,
+        "milestone": "Ben Rees to build a cost-of-inaction slide for board decision materials.",
+        "ownerMerchant": "",
+        "ownerShopify": "Ben",
+        "notes": "Metrics \u00b7 Due 02/24/2026",
+        "due": "02/24/2026"
+      },
+      {
+        "date": "",
+        "done": false,
+        "milestone": "Validate business case with economic buyer",
+        "ownerMerchant": "",
+        "ownerShopify": "Ben",
+        "notes": ""
+      },
+      {
+        "date": "",
+        "done": true,
+        "milestone": "Confirm economic buyer & signing authority",
+        "ownerMerchant": "",
+        "ownerShopify": "Ben",
+        "notes": ""
+      },
+      {
+        "date": "",
+        "done": false,
+        "milestone": "Map complete decision & approval process",
+        "ownerMerchant": "Neil Rhodes",
+        "ownerShopify": "Ben",
+        "notes": ""
+      },
+      {
+        "date": "",
+        "done": false,
+        "milestone": "Ben Rees to draft and share mutual action plan with Andy Brooks and Martyn Oakley.",
+        "ownerMerchant": "",
+        "ownerShopify": "Ben",
+        "notes": "Due 02/22/2026",
+        "due": "02/22/2026"
+      },
+      {
+        "date": "",
+        "done": true,
+        "milestone": "Submit merchant intent",
+        "ownerMerchant": "",
+        "ownerShopify": "Ben",
+        "notes": "Intent: Committed - At Risk"
+      },
+      {
+        "date": "",
+        "done": false,
+        "milestone": "Finalize commercial proposal",
+        "ownerMerchant": "Neil Rhodes",
+        "ownerShopify": "Ben",
+        "notes": ""
+      },
+      {
+        "date": "",
+        "done": false,
+        "milestone": "Confirm procurement process & legal steps",
+        "ownerMerchant": "",
+        "ownerShopify": "Ben",
+        "notes": ""
+      },
+      {
+        "date": "",
+        "done": false,
+        "milestone": "Ben Rees to ask Andy Brooks or Neil Rhodes about procurement/legal process and timeline.",
+        "ownerMerchant": "",
+        "ownerShopify": "Ben",
+        "notes": "Paper Process \u00b7 Due 02/25/2026",
+        "due": "02/25/2026"
+      },
+      {
+        "date": "",
+        "done": false,
+        "milestone": "Ben Rees to engage Shopify legal to prepare for contract negotiations on SLAs, rates, and variable fees.",
+        "ownerMerchant": "",
+        "ownerShopify": "Ben",
+        "notes": "Paper Process \u00b7 Due 03/01/2026",
+        "due": "03/01/2026"
+      },
+      {
+        "date": "",
+        "done": false,
+        "milestone": "Contract sent for signature",
+        "ownerMerchant": "",
+        "ownerShopify": "Ben",
+        "notes": ""
+      },
+      {
+        "date": "",
+        "done": false,
+        "milestone": "Contract signed \u270d\ufe0f",
+        "ownerMerchant": "",
+        "ownerShopify": "",
+        "notes": "Target: 2026-03-31"
+      },
+      {
+        "date": "",
+        "done": false,
+        "milestone": "Introduction to Shopify Launch team",
+        "ownerMerchant": "",
+        "ownerShopify": "Ben",
+        "notes": ""
+      },
+      {
+        "date": "",
+        "done": false,
+        "milestone": "Go-Live \ud83d\ude80",
+        "ownerMerchant": "",
+        "ownerShopify": "",
+        "notes": ""
+      }
+    ]
+  },
+  "currentNextSteps": [
+    {
+      "p": 1,
+      "cat": "Metrics",
+      "issue": "Some quantification ($6M+ dev spend reduction, conversion improvement implied) but no specific numeric targets validated with customer.",
+      "rec": "Ben Rees to propose a success metrics framework and validate before board meeting.",
+      "due": "2026-03-07"
+    },
+    {
+      "p": 2,
+      "cat": "Metrics",
+      "issue": "Implied impacts clear ($6M+ annual tech spend, poor D2C experience) but specific quantified downside not explicitly stated by customer.",
+      "rec": "Beatrice Porcescu to prepare 'cost of inaction' analysis.",
+      "due": "2026-03-07"
+    },
+    {
+      "p": 3,
+      "cat": "Metrics",
+      "issue": "Business reasons discussed extensively but specific quantified success metrics not formally agreed upon.",
+      "rec": "Ben Rees to schedule metrics validation call once Fusefabric discovery completes.",
+      "due": "2026-03-10"
+    },
+    {
+      "p": 4,
+      "cat": "Metrics",
+      "issue": "Qualitative case very strong but payment rate gap and Enterprise vs Plus cost question create commercial uncertainty.",
+      "rec": "Ben Rees to complete rate modeling once December payment statement received.",
+      "due": "2026-02-28"
+    },
+    {
+      "p": 5,
+      "cat": "Economic Buyer",
+      "issue": "Neil Rhodes listed as Economic Buyer but unclear if sole signing authority or CEO co-sign needed given $4.58M deal size.",
+      "rec": "Ben Rees to clarify signing authority and whether board approval is formal or advisory.",
+      "due": "2026-03-01"
+    },
+    {
+      "p": 6,
+      "cat": "Economic Buyer",
+      "issue": "Board meeting March 24 known. Formal budget allocation process not documented.",
+      "rec": "Ben Rees to confirm budget approval process with Neil Rhodes.",
+      "due": "2026-03-01"
+    },
+    {
+      "p": 7,
+      "cat": "Decision Process",
+      "issue": "Board sign-off March 24. Post-board procurement/legal/sign-off not fully mapped.",
+      "rec": "Ben Rees to discuss post-board process with Neil Rhodes.",
+      "due": "2026-03-01"
+    },
+    {
+      "p": 8,
+      "cat": "Decision Process",
+      "issue": "ATG EOL creates hard deadline. Specific delay costs not quantified.",
+      "rec": "Include 'cost of delay' data in board presentation materials.",
+      "due": "2026-03-14"
+    },
+    {
+      "p": 9,
+      "cat": "Decision Process",
+      "issue": "March 24 board timeline discussed. Full post-board process not validated.",
+      "rec": "Ben Rees to walk through post-board steps with Neil Rhodes.",
+      "due": "2026-03-01"
+    },
+    {
+      "p": 10,
+      "cat": "Decision Criteria",
+      "issue": "Key criteria surfaced (TCO, payment rates, subscription capability, time-to-market) but no formal evaluation framework.",
+      "rec": "Ben Rees to share evaluation criteria framework with Andy Brooks.",
+      "due": "2026-03-01"
+    },
+    {
+      "p": 11,
+      "cat": "Decision Criteria",
+      "issue": "D2C extensively demo'd. POS/Retail included but less attention. B2B not discussed.",
+      "rec": "Beatrice Porcescu to confirm retail use case requirements.",
+      "due": "2026-03-10"
+    },
+    {
+      "p": 12,
+      "cat": "Decision Criteria",
+      "issue": "Key milestones loosely defined but no formal documented MAP with shared ownership and dates.",
+      "rec": "Ben Rees to draft and share MAP with Andy Brooks and Neil Rhodes.",
+      "due": "2026-02-28"
+    },
+    {
+      "p": 13,
+      "cat": "Decision Criteria",
+      "issue": "Criteria emerging organically. Unclear if formal RFP/evaluation matrix exists.",
+      "rec": "Ben Rees to ask Andy Brooks about formal vendor evaluation framework.",
+      "due": "2026-03-01"
+    },
+    {
+      "p": 14,
+      "cat": "Paper Process",
+      "issue": "[2026-02-25 SF refresh] Deal advanced to Deal Craft stage. Awaiting feedback on Plus vs Enterprise before finalising commercials. Board sign-off meeting scheduled for 24/03.",
+      "rec": "Clarify Plus vs Enterprise product tier decision to unblock commercial finalisation before 24/03 board meeting.",
+      "due": "2026-03-14"
+    },
+    {
+      "p": 15,
+      "cat": "Paper Process",
+      "issue": "For $4.58M deal with global enterprise, legal redlines highly likely. Ben advised DW to review Plus agreement.",
+      "rec": "Ben Rees to engage Shopify legal to prepare for enterprise contract redlines.",
+      "due": "2026-03-07"
+    },
+    {
+      "p": 16,
+      "cat": "Paper Process",
+      "issue": "Not discussed.",
+      "rec": "Ben Rees to ask about typical legal review cycles.",
+      "due": "2026-03-07"
+    },
+    {
+      "p": 17,
+      "cat": "Paper Process",
+      "issue": "Only 7 days between March 24 board and March 31 close date - unrealistic without pre-work.",
+      "rec": "Ben Rees to propose sending draft contract terms for pre-review before board.",
+      "due": "2026-03-07"
+    },
+    {
+      "p": 18,
+      "cat": "Paper Process",
+      "issue": "Pricing discussed in detail. Enterprise vs Plus decision pending. Contract terms not finalized.",
+      "rec": "Ben Rees to get final DW feedback and prepare contract package.",
+      "due": "2026-03-07"
+    },
+    {
+      "p": 19,
+      "cat": "Paper Process",
+      "issue": "Contract not sent. Enterprise vs Plus decision pending.",
+      "rec": "Ben Rees to prepare draft contract terms for review.",
+      "due": "2026-03-14"
+    },
+    {
+      "p": 20,
+      "cat": "Paper Process",
+      "issue": "Close date March 31. Board meeting March 24. June 30 launch creates working-backward deadline.",
+      "rec": "Ben Rees to confirm target signature date with Neil Rhodes.",
+      "due": "2026-03-01"
+    },
+    {
+      "p": 21,
+      "cat": "Identify Pain",
+      "issue": "Ecommerce, US team, Finance, IT affected. Impact on customer service, marketing, supply chain not detailed.",
+      "rec": "Ben Rees to ask Andy Brooks about cross-functional impact.",
+      "due": "2026-03-07"
+    },
+    {
+      "p": 22,
+      "cat": "Champion",
+      "issue": "Andy has operational credibility. But CIO Martyn Oakley could block - 'managing to a budget.'",
+      "rec": "Ben Rees to arm Andy Brooks with executive summary for influencing CIO.",
+      "due": "2026-03-10"
+    },
+    {
+      "p": 23,
+      "cat": "Champion",
+      "issue": "Board meeting March 24 scheduled. Unclear if Shopify presents directly or DW presents on their behalf.",
+      "rec": "Ben Rees to confirm with Neil Rhodes whether Shopify can attend/present.",
+      "due": "2026-03-01"
+    }
+  ]
+}

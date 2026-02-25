@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-25T08:09:53.254Z",
+  "generatedAt": "2026-02-25T10:15:34.228Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -40,9 +40,9 @@ const DEAL_DATA = {
         "D2C - Standard",
         "Shopify Payments - D2C Plus"
       ],
-      "competitor": "Other",
+      "competitor": "Visualsoft (status quo)",
       "compellingEvent": "Acquisition and change in leadership has prompted merchant via partner Visualsoft to review their tech structure. New ownership reviewing P&L and 3-5 year goals, giving green light for ecommerce modernization. Domain litigation resolution progressing (Russell & Bromley bankruptcy setting favorable precedent). Target go-live March/April 2026.",
-      "nextStep": "02/18 -Spoke to David Duke and we are on track to get it signed before end of Feb",
+      "nextStep": "02/18 - Spoke to David Duke and we are on track to get it signed before end of Feb",
       "narrative": {
         "oppSummary": "Moda in Pelle is a $75,900 MCV new business opportunity ($1.04M total 3-year revenue) for a UK-based footwear and accessories retailer with 27 physical stores/concessions and a growing ecommerce presence. The company recently underwent an acquisition and leadership change, which has prompted a full review of their technology stack. They are migrating from Visualsoft (their current platform and implementation partner) to Shopify Plus with Shopify Payments, targeting a contract signature by end of February 2026 and a go-live in March/April 2026.",
         "whyChange": "Moda in Pelle has experienced significant brand and business damage over the past 12 months due to their current technology limitations. Matt Holden stated: 'I think the last 12 months have been tricky. I don't think we put our best foot forward. Probably damaged the brand more than we should have done.' The company's recent acquisition and change in leadership has triggered a comprehensive review of their technology infrastructure, with the new owners giving them 'a green light to pretty much do what we want from an ecom perspective.' Their current platform has left them stuck — Matt acknowledged that without action 'we'll be sat with the same site for the next 10 years.' The business needs a more capable ecommerce solution to drive online sales diversification.",
@@ -1132,6 +1132,7 @@ const DEAL_DATA = {
           "changes": []
         }
       ],
+      "dealRisks": [],
       "mutualActionPlan": {
         "merchantName": "Moda in Pelle",
         "kickoffDate": "",
@@ -1393,7 +1394,7 @@ const DEAL_DATA = {
       "owner": "Adriana Colacicco",
       "ownerEmail": "adriana.colacicco@shopify.com",
       "stage": "Deal Craft",
-      "closeDate": "2026-03-30",
+      "closeDate": "2026-02-27",
       "forecastCategory": "Commit",
       "probability": 80,
       "merchantIntent": "Committed - At Risk",
@@ -1402,22 +1403,22 @@ const DEAL_DATA = {
       "lastAnalysisDate": "2026-02-19",
       "revenue": {
         "mcv": 69000,
-        "totalRev3yr": 676036.88,
+        "totalRev3yr": 714900,
         "d2cGmv": 16900000,
         "b2bGmv": null,
         "retailGmv": 43744512,
-        "paymentsGpv": 10985000,
+        "paymentsGpv": 8125000,
         "paymentsAttached": true,
         "ipp": 0
       },
-      "projectedBilledRevenue": 303277.58,
+      "projectedBilledRevenue": 406078.56,
       "products": [
         "D2C - Standard (Plus)",
         "Shopify Payments - D2C Plus"
       ],
       "competitor": "Adobe Commerce (Magento)",
       "compellingEvent": "Salesforce Commerce Cloud Site Genesis reaching end-of-life, non-mobile-native platform with 70% mobile traffic, inability to unlock digital wallets, and ambitious B2C growth targets requiring a modern platform. July 2026 launch target to avoid January 2027 crunch.",
-      "nextStep": "24.02 RR back, Adriana to set up meeting with Nathan and Fiona to discuss final steps + Partner choice",
+      "nextStep": "19.02 resubmitted rate review, WorldPay is payment processor, Barclay, Merchant keen on signing this Q (received email from Fiona today mentioning good to sign in Feb!)",
       "narrative": {
         "oppSummary": "Whittard of Chelsea is a UK-based Food & Beverage retailer evaluating a migration from Salesforce Commerce Cloud (Site Genesis) to Shopify Plus, with a projected deal value of ~$714,900 over 3 years ($69,000/yr MCV). The merchant targets a July 2026 launch to replatform their e-commerce site, with the ambition of growing online B2C penetration from 17-18% to 25% of total sales over 24 months. The deal is currently in Deal Craft stage at 80% probability with a Feb 27, 2026 close date, and the merchant has signaled readiness to sign in February — Fiona Scott (Head of eCommerce, now primary contact after Alice Bennett's maternity leave) sent a recent email indicating willingness to sign this quarter.",
         "whyChange": "Whittard is on Salesforce Commerce Cloud's Site Genesis, which Fiona stated 'won't be supported by Salesforce for much longer.' The platform is not mobile-native — a critical problem with 70% mobile traffic vs 25% desktop. They cannot unlock digital wallets (Apple Pay, Google Pay). B2C sales are 17-18% of total, targeting 25%. The original evaluation considered a phased approach but has since prioritized full migration by July 2026.",
@@ -2401,6 +2402,7 @@ const DEAL_DATA = {
           "changes": []
         }
       ],
+      "dealRisks": [],
       "mutualActionPlan": {
         "merchantName": "Whittard of Chelsea",
         "kickoffDate": "",
@@ -3788,10 +3790,37 @@ const DEAL_DATA = {
           "type": "incremental-meddpicc"
         }
       ],
+      "dealRisks": [
+        {
+          "risk": "TIMELINE RISK: Close date slipped 1 month (Feb 27 → Mar 30) while next step still reads 'budget signed off any day now' — language unchanged despite delay.",
+          "severity": "high",
+          "category": "timeline"
+        },
+        {
+          "risk": "EXECUTION RISK: 17 action items overdue from Feb 22–25. Critical discovery, decision process, legal/procurement, and champion intro tasks remain unexecuted.",
+          "severity": "high",
+          "category": "execution"
+        },
+        {
+          "risk": "CHAMPION RISK: Multiple requests to introduce Nigel (EB) remain overdue. Deal validation is single-threaded through Martin.",
+          "severity": "high",
+          "category": "champion"
+        },
+        {
+          "risk": "PAPER PROCESS RISK: No evidence that procurement, legal review timelines, or contract details have been discussed. Paper process must start by early March.",
+          "severity": "medium",
+          "category": "timeline"
+        },
+        {
+          "risk": "CREDIBILITY RISK: 'Any day now' on budget has persisted through a close date slip. If budget isn't confirmed within 1–2 weeks, Mar 30 is also at risk.",
+          "severity": "medium",
+          "category": "commercial"
+        }
+      ],
       "mutualActionPlan": {
         "merchantName": "The Dune Group",
         "kickoffDate": "",
-        "goLiveDate": "2026-02-27",
+        "goLiveDate": "2026-03-30",
         "contactName": "Adriana Colacicco",
         "contactEmail": "adriana.colacicco@shopify.com",
         "champion": "Martin Wareing",
@@ -3921,6 +3950,30 @@ const DEAL_DATA = {
             "ownerMerchant": "",
             "ownerShopify": "Adriana",
             "notes": ""
+          },
+          {
+            "date": "2026-02-27",
+            "done": false,
+            "milestone": "⚠️ Revalidate budget timeline after 1-month close date slip",
+            "ownerMerchant": "Martin",
+            "ownerShopify": "Adriana",
+            "notes": "NEW: Must understand root cause of slip and confirm new timeline."
+          },
+          {
+            "date": "2026-03-06",
+            "done": false,
+            "milestone": "Budget sign-off confirmed",
+            "ownerMerchant": "Martin",
+            "ownerShopify": "Adriana",
+            "notes": "Feb 19 call: Martin said 'any day now.' Must land by early March for Mar 30 to hold."
+          },
+          {
+            "date": "2026-03-10",
+            "done": false,
+            "milestone": "Nigel (EB) intro / exec alignment call",
+            "ownerMerchant": "Martin",
+            "ownerShopify": "Adriana",
+            "notes": "Multiple overdue asks. Critical for multi-threading."
           },
           {
             "date": "",
@@ -4073,7 +4126,7 @@ const DEAL_DATA = {
       ],
       "competitor": "Salesforce Commerce Cloud",
       "compellingEvent": "SAP Hybris out of Support Jan 2027 and failed Salesforce Commerce Cloud implementation from 2024. Legacy tech identified as a growth inhibitor — identified new segment and cannot scale business for this on current stack.",
-      "nextStep": "18/02 BR. Legal Are still working through the PLUS contract as we have pushed back 3X on their asked. Have just kicked off discovery with Arsenalia and some peripheral queries around china and markets have arisen. Working through Async.",
+      "nextStep": "18/02 BR. Legal are still working through the PLUS contract as we have pushed back 3X on their asks. Have just kicked off discovery with Arsenalia and some peripheral queries around China and Markets have arisen. Working through Async.",
       "narrative": {
         "oppSummary": "Mulberry Company (Sales) Limited is a UK-based luxury fashion brand (~£161.5M revenue, ~1,000 employees) evaluating Shopify Plus as a replacement for their current custom-built SAP Hybris e-commerce platform, which goes end-of-support in January 2027. This is an $82,800 MCV new business deal with $841,500 in projected 3-year total revenue and $51M in D2C GMV. The deal is currently in the Demonstrate stage at 60% probability, forecasted as Commit but flagged as 'Committed - At Risk,' with a close date of February 28, 2026. Legal negotiations are active but contentious — Shopify has pushed back 3x on Mulberry's contract asks — and new peripheral queries around China and Markets have emerged, adding complexity. A second SI partner (Arsenalia) has just been engaged alongside Impact Commerce, suggesting implementation scoping is underway but potentially not yet settled.",
         "whyChange": "Mulberry's current e-commerce platform is built on SAP Hybris, which is going end-of-support in January 2027 — creating a hard deadline to migrate. They previously attempted to solve this by implementing Salesforce Commerce Cloud in 2024, but that project failed, meaning they've already burned time and budget on one migration attempt. Beyond the platform sunset, Mulberry's leadership has identified their legacy tech stack as a growth inhibitor — specifically, they have identified a new customer segment they want to pursue but cannot scale their business to address it on their current architecture. The business problem is therefore both defensive (platform going dark) and offensive (new growth opportunity blocked by tech limitations). The combination of a failed prior migration, an immovable platform sunset, and unmet growth ambitions creates significant organizational urgency and pain.",
@@ -5234,6 +5287,7 @@ const DEAL_DATA = {
           "changes": []
         }
       ],
+      "dealRisks": [],
       "mutualActionPlan": {
         "merchantName": "Mulberry Company (Sales) Limited",
         "kickoffDate": "",
@@ -5509,9 +5563,9 @@ const DEAL_DATA = {
         "D2C - Multi Brand",
         "Shopify Payments - D2C Plus"
       ],
-      "competitor": null,
+      "competitor": "SAP (incumbent) / Scale (potential retender)",
       "compellingEvent": "SAP Commerce contract expires January 2027. Must go-live by November 2026 to give notice. Board approved budget. Previous Alkai migration failed. Offer expires March 13, 2026. Decision expected by Feb 27.",
-      "nextStep": "20/02 MF: Will have a decision by 27/02. Contract reviewed and rates presented. Offer expires March 13th.",
+      "nextStep": "13/02 MF: Will have a decision by 27/02. Contract reviewed and rates presented. Offer expires March 13th.",
       "narrative": {
         "oppSummary": "Wacoal Europe is a $285,200 MCV Plus deal ($1.24M 3yr total revenue) to migrate 4 lingerie brands (Wacoal, Fantasy, Freya, Elomi) from SAP Commerce to Shopify Plus with multi-brand, multi-market D2C storefronts and Shopify Payments. The deal is in Deal Craft at 80% probability with a Feb 28, 2026 close date, driven by CIO Danny Dawes, with VML as the implementation partner. The primary negotiation sticking points have been Shopify Payments transaction fees versus their current provider Comptop, preservation of a ~$46K credit, and financial settlement/reconciliation concerns — with Danny explicitly stating he would delay a year and renew with SAP if commercials can't be resolved.",
         "whyChange": "Wacoal Europe's current SAP Commerce platform contract expires in January 2027, creating a hard deadline for a platform decision. The organization has accumulated significant technical debt and operational friction with their existing stack — Danny's team previously attempted a migration with Alkai that failed and wasted ~$40K before being terminated over contractual disagreements around co-marketing discounts. The Black Friday 2025 results underscored challenges with their D2C/ecom channel — Danny noted that 'D2C/ecom was challenging' while brick-and-mortar performed well, suggesting their current platform isn't supporting digital commerce growth. The financial reconciliation and settlement processes on their current stack are causing acute anxiety — Samantha Hadland from the finance team said the settlement piece 'makes me feel sick', and Laura Simon called it 'enormous for us.'",
@@ -6538,6 +6592,7 @@ const DEAL_DATA = {
           "changes": []
         }
       ],
+      "dealRisks": [],
       "mutualActionPlan": {
         "merchantName": "Wacoal Europe",
         "kickoffDate": "",
@@ -6808,7 +6863,7 @@ const DEAL_DATA = {
       "lastAnalysisDate": "2026-02-19",
       "revenue": {
         "mcv": 82800,
-        "totalRev3yr": 1220972.06,
+        "totalRev3yr": 1220972,
         "d2cGmv": 26353100,
         "b2bGmv": null,
         "retailGmv": null,
@@ -6816,7 +6871,7 @@ const DEAL_DATA = {
         "paymentsAttached": true,
         "ipp": 0
       },
-      "projectedBilledRevenue": 483034.36,
+      "projectedBilledRevenue": 483034,
       "products": [
         "Plus Product Suite",
         "D2C - Standard",
@@ -6824,7 +6879,7 @@ const DEAL_DATA = {
       ],
       "competitor": "SAP Commerce Cloud (Hybris)",
       "compellingEvent": "None identified. This is a critical deal risk. The closest driver is aspirational H2 2026 go-live target. Shopify should explore Hybris licensing renewal timelines or peak trading deadlines (pre-Christmas 2026) to create urgency.",
-      "nextStep": "20/02 MF: Handover from Yas - merchant pushing to get meeting with IT at Frasers group to get approval. Reviewing the buss case numbers with them next week.",
+      "nextStep": "13/02 MF: Handover from Yas - merchant pushing to get meeting with IT at Frasers group to get approval. Reviewing the buss case numbers with them.",
       "narrative": {
         "oppSummary": "Sofa.com (owned by Frasers Group) is evaluating a migration from SAP Commerce Cloud (Hybris) to Shopify Plus, representing $82,800 MCV and $1.22M in 3-year total revenue. The deal is currently stuck in the Demonstrate stage at 60% probability, with the primary blocker being Frasers Group's internal IT approval process — Tom Humphrey and Blayne Griffin-Reader have been waiting over two months just to secure an initial meeting with Group IT. VML (agency partner) has built a TCO/business case showing ~£600K savings over 3 years with a 12-month payback period, and a 3-year ROI comparison of Hybris vs Shopify is under review, but no decision can progress until Group IT confirms the current system's inadequacy.",
         "whyChange": "Sofa.com is running on SAP Commerce Cloud (Hybris), which sits within Frasers Group's archaic, centralized tech infrastructure. The platform creates significant operational pain: manual processes dominate day-to-day work, the team has limited internal tech/dev resources, and peak trading periods expose the system's inability to scale efficiently. The complex SKU structure (large volumes of product variations) is poorly served by the current setup. Payment processing through Elevon is causing unnecessary costs. Sofa.com is a 'small cog in a big wheel' at Frasers Group, and the centralized IT approach is holding back a brand that needs agility and modern commerce capabilities.",
@@ -7868,6 +7923,7 @@ const DEAL_DATA = {
           "changes": []
         }
       ],
+      "dealRisks": [],
       "mutualActionPlan": {
         "merchantName": "Sofa.Com Ltd",
         "kickoffDate": "",
@@ -8137,16 +8193,16 @@ const DEAL_DATA = {
       "created": "2024-07-16",
       "lastAnalysisDate": "2026-02-20",
       "revenue": {
-        "mcv": 82800,
-        "totalRev3yr": 2333229.33,
+        "mcv": 132800,
+        "totalRev3yr": 2333229,
         "d2cGmv": 25495422,
         "b2bGmv": null,
         "retailGmv": 39402017,
-        "paymentsGpv": 33144049.22,
+        "paymentsGpv": 33144049,
         "paymentsAttached": true,
         "ipp": 0
       },
-      "projectedBilledRevenue": 719854.75,
+      "projectedBilledRevenue": 719855,
       "products": [
         "Plus Product Suite",
         "D2C - Standard",
@@ -8157,7 +8213,7 @@ const DEAL_DATA = {
       ],
       "competitor": "Centra",
       "compellingEvent": "ERP migration has prompted technical review + Magento contract renewal due EOY 2026. Both events are real and validated through multiple calls. Risk is that competing priorities (ERP costs, integration complexity) could slow decision-making.",
-      "nextStep": "18/2 BR RFP has landed and I ma speaking to each agency (7) to get a sense check. Timelines on RFP indicate  build to start in April",
+      "nextStep": "18/2 BR RFP has landed and I am speaking to each agency (7) to get a sense check. Timelines on RFP indicate build to start in April.",
       "narrative": {
         "oppSummary": "Essentiel Antwerp (Belgian fashion brand under Kadin Group) is evaluating a full-stack Shopify Plus migration encompassing D2C, POS Pro across ~50 retail stores, and Shopify Payments. The deal is valued at $82,800 MCV with $2.33M in projected 3-year revenue and significant GMV ($25.5M D2C, $39.4M Retail, $33.1M Payments GPV). The opportunity is at the Demonstrate stage with a 60% probability, but is flagged as Committed - At Risk due to dependencies on an internal ERP modernization decision and complex international entity structure. An RFP is now live with 7 agencies responding, and build is targeted to start in April 2026 with a September 2026 go-live.",
         "whyChange": "Essentiel Antwerp is carrying significant tech debt across their commerce stack. Their current Magento platform is approaching contract renewal at EOY 2026. Their ERP landscape is fragmented — wholesale has already migrated to ItsPerfect, but DTC and retail operations remain on an older Microsoft Business Central that requires expensive upgrades. The cost and complexity of upgrading Business Central is a major pain point. Filip noted the 'massive cost factor' of upgrading their current ERP stack, prompting evaluation of whether a platform consolidation to Shopify could reduce overall TCO and provide omnichannel capability they currently lack.",
@@ -9255,6 +9311,7 @@ const DEAL_DATA = {
           "changes": []
         }
       ],
+      "dealRisks": [],
       "mutualActionPlan": {
         "merchantName": "ESSENTIEL Antwerp",
         "kickoffDate": "",
@@ -9516,7 +9573,7 @@ const DEAL_DATA = {
       "lastAnalysisDate": "2026-02-24",
       "revenue": {
         "mcv": 0,
-        "totalRev3yr": 1562351.44,
+        "totalRev3yr": 1562351,
         "d2cGmv": null,
         "b2bGmv": null,
         "retailGmv": 99315424,
@@ -9524,7 +9581,7 @@ const DEAL_DATA = {
         "paymentsAttached": true,
         "ipp": 0
       },
-      "projectedBilledRevenue": 574389.18,
+      "projectedBilledRevenue": 574389,
       "products": [
         "Plus Product Suite",
         "Plus - POS Pro",
@@ -9532,7 +9589,7 @@ const DEAL_DATA = {
       ],
       "competitor": "Sitoo",
       "compellingEvent": "Christmas 2026 POS go-live target set by CTO. Moderate-strong: genuine business driver (no retailer migrates POS during holidays) but self-imposed by new CTO, not external forcing function. Deal has already been delayed twice (2024, mid-2025). Feb 20 commercial director call is make-or-break.",
-      "nextStep": "18/02 BR Board have pushback on costs (particularly rates). Call with commercial director on 20th to align on what rate we need to close this",
+      "nextStep": "18/02 BR Board have pushback on costs (particularly rates). Call with commercial director on 20th to align on what rate we need to close this.",
       "narrative": {
         "oppSummary": "Mint Velvet is an existing Shopify Plus D2C customer evaluating Shopify POS Pro and Retail Payments to replace incumbent Sitoo across 110 UK retail stores. The deal represents $1.56M in total revenue ($574K projected billed) with $99.3M in retail GMV. This is a winback — POS was explored in 2024 and paused. Now restarted by new CTO (Tom) targeting Christmas 2026 go-live. Current blocker is board-level pushback on payment processing rates, with a critical Feb 20 commercial director call to align on rates.",
         "whyChange": "Mint Velvet runs Sitoo POS across 110 stores while on Shopify Plus for D2C, creating a fragmented commerce stack. New CTO (Tom) joined with a mandate to modernize. 21+ POS sync calls in 2025 surfaced pain points around financial reconciliation, inventory management, omni-channel gaps, and operational overhead of separate systems. New sub-brand Arttov further compounds the need for a unified platform.",
@@ -10622,6 +10679,7 @@ const DEAL_DATA = {
           "changes": []
         }
       ],
+      "dealRisks": [],
       "mutualActionPlan": {
         "merchantName": "Mint Velvet",
         "kickoffDate": "",
@@ -10908,9 +10966,9 @@ const DEAL_DATA = {
         "Plus - POS Pro",
         "Retail Payments - Plus"
       ],
-      "competitor": null,
+      "competitor": "Adobe Commerce (Magento)",
       "compellingEvent": "Adobe Commerce contract expires October 2026. Simultaneous NetSuite ERP replacement. RFP narrowed from 6 vendors to ~2. Ben wants to avoid further investment in Adobe.",
-      "nextStep": "24.02 Awaiting statement for RR, collab on TCO, POS demo successful, received good feedback, awaiting final feedback for next round of RFP",
+      "nextStep": "19.02 Awaiting statement for RR, collab on TCO, POS demo successful, received good feedback, awaiting final feedback for next round of RFP",
       "narrative": {
         "oppSummary": "Oliver Bonas Limited is an £87M D2C / £25M Retail GMV UK fashion and lifestyle retailer with 90+ stores, evaluating Shopify Plus as a replacement for their current Adobe Commerce (Magento) platform, whose contract expires October 2026. The deal is valued at $82,800 MCV with $1.48M in projected billed revenue and $5.8M total 3-year revenue including payments ($113.1M GPV). The opportunity is in the Demonstrate stage of a competitive RFP process — originally 6 vendors narrowed to approximately 2 — with implementation cost clarity being the primary blocker to advancing the deal.",
         "whyChange": "Oliver Bonas is running on Adobe Commerce (Magento) with a NetSuite ERP that is also being replaced. Ben Curtis, Director of Ecommerce, has explicitly stated they want to avoid 'putting lots of additional investment into Adobe especially with the new ERP system... only to then rip it all out again later,' indicating significant concern about throwing good money after bad. The current tech stack creates complexity around omnichannel capabilities like click & collect, endless aisle, and save-the-sale — features Ben noted 'can be mitigated without additional development if we were to go down a single vendor solution.' The simultaneous ERP replacement and Adobe contract expiry create a natural inflection point where re-platforming makes strategic sense.",
@@ -12072,6 +12130,7 @@ const DEAL_DATA = {
           "changes": []
         }
       ],
+      "dealRisks": [],
       "mutualActionPlan": {
         "merchantName": "OLIVER BONAS LIMITED",
         "kickoffDate": "",
@@ -12357,9 +12416,9 @@ const DEAL_DATA = {
         "Shopify Payments - D2C Plus, Shopify for ent, CCS",
         "Retail Payments - Plus"
       ],
-      "competitor": null,
+      "competitor": "Citrus Lime (incumbent)",
       "compellingEvent": "Citrus Lime e-commerce contract expiration in April 2026 — hard deadline requiring platform decision and migration before expiry.",
-      "nextStep": "11.02 Merchant awaiting feedback from board, however is now considering Advanced, I will no decrease involvement, it is not looking as likely anymore",
+      "nextStep": "11.02 Merchant awaiting feedback from board, however is now considering Advanced, I will now decrease involvement, it is not looking as likely anymore",
       "narrative": {
         "oppSummary": "Cycle King & Hawk is a UK multi-store cycling retailer (23 stores, expanding to 26) evaluating Shopify Plus for D2C e-commerce and eventually POS. The deal is valued at $82,800 MCV with $874K in 3-year total revenue and $2.6M in Payments GPV. The merchant's online business is significantly underperforming (£1.5M online vs £13.5M in-store, 0.3% conversion rate), and their current platform provider Citrus Lime is limiting growth through poor functionality, lack of customization, and high costs (~£250K/year). The deal is in Demonstrate stage with a close date of March 27, 2026, and the merchant's current e-commerce contract expires in April 2026, creating a hard deadline.",
         "whyChange": "Cycle King's current e-commerce and EPOS provider, Citrus Lime, is fundamentally limiting their online growth. Their online conversion rate sits at just 0.3%, and online revenue (£1.5M) represents only ~10% of their total retail revenue (£13.5M in-store), suggesting massive untapped digital potential. Darren Hunt has explicitly stated that the current solution 'is impeding online growth' due to poor functionality, lack of customization, and limited ability to create a customer-centric experience. Key operational pain points include poor integration between website and EPOS, difficulties handling cycle-to-work vouchers, and limited click-and-collect and workshop/servicing capabilities. The cost of Citrus Lime at ~£250K/year is high relative to value delivered, and the business is rapidly scaling (23 stores growing to 26).",
@@ -13456,6 +13515,7 @@ const DEAL_DATA = {
           "changes": []
         }
       ],
+      "dealRisks": [],
       "mutualActionPlan": {
         "merchantName": "Cycle King & Hawk",
         "kickoffDate": "",
@@ -14948,6 +15008,33 @@ const DEAL_DATA = {
           "type": "incremental-meddpicc"
         }
       ],
+      "dealRisks": [
+        {
+          "risk": "COMMERCIAL RISK: PBR dropped 43% ($6.66M → $3.81M). MCV zeroed from $4.58M to $0. Deal appears significantly restructured.",
+          "severity": "high",
+          "category": "commercial"
+        },
+        {
+          "risk": "TIMELINE RISK: Only 7 calendar days between board meeting (Mar 24) and close date (Mar 31). No buffer for legal/procurement.",
+          "severity": "high",
+          "category": "timeline"
+        },
+        {
+          "risk": "DECISION CRITERIA RISK: Plus vs Enterprise still pending. Blocks commercial finalization. Must resolve BEFORE board meeting.",
+          "severity": "high",
+          "category": "commercial"
+        },
+        {
+          "risk": "PARTNER DEPENDENCY: Fusefabric still in discovery. If discovery extends beyond ~Mar 6, it compresses board prep time.",
+          "severity": "medium",
+          "category": "execution"
+        },
+        {
+          "risk": "POSITIVE SIGNAL: Stage advanced to Deal Craft (80% prob). Board date confirmed Mar 24. Momentum is real.",
+          "severity": "low",
+          "category": "timeline"
+        }
+      ],
       "mutualActionPlan": {
         "merchantName": "Direct Wines Limited",
         "kickoffDate": "",
@@ -15072,6 +15159,46 @@ const DEAL_DATA = {
             "ownerMerchant": "",
             "ownerShopify": "Ben",
             "notes": ""
+          },
+          {
+            "date": "2026-02-27",
+            "done": false,
+            "milestone": "⚠️ Investigate PBR drop ($6.66M → $3.81M) and MCV zeroing",
+            "ownerMerchant": "",
+            "ownerShopify": "Ben",
+            "notes": "NEW CRITICAL: 43% PBR drop. Data error or deal restructure?"
+          },
+          {
+            "date": "2026-03-06",
+            "done": false,
+            "milestone": "Fusefabric discovery completion",
+            "ownerMerchant": "Andy/Neil + Fusefabric",
+            "ownerShopify": "Ben",
+            "notes": "Gating item for solution finalization."
+          },
+          {
+            "date": "2026-03-13",
+            "done": false,
+            "milestone": "Plus vs Enterprise decision finalized",
+            "ownerMerchant": "Andy/Neil",
+            "ownerShopify": "Ben",
+            "notes": "Blocks commercial finalization."
+          },
+          {
+            "date": "2026-03-20",
+            "done": false,
+            "milestone": "Board-ready materials prepared and shared",
+            "ownerMerchant": "Andy/Neil",
+            "ownerShopify": "Ben",
+            "notes": "Exec summary, ROI case, migration timeline."
+          },
+          {
+            "date": "2026-03-24",
+            "done": false,
+            "milestone": "🎯 Board / sign-off meeting",
+            "ownerMerchant": "Board / Andy / Neil",
+            "ownerShopify": "Ben (on standby)",
+            "notes": "Confirmed decision event."
           },
           {
             "date": "",
@@ -15225,7 +15352,7 @@ const DEAL_DATA = {
       ],
       "competitor": "Custom Build",
       "compellingEvent": "Must be live by August 2026 ahead of peak trading season. CEO Touker Suleyman personally mandating 4-5 month completion timeline. Aggressive growth targets require platform migration.",
-      "nextStep": "20/02 MF: Finalising agency selection before signing Shopify contract. Paul Rogers (Vervaunt) introduced more agencies with design focus, might not sign before Q2 now. Catch up with Paul next week (Alexandra supporting).",
+      "nextStep": "13/02 MF: Finalising agency selection before signing Shopify contract. Paul Rogers (Vervaunt) introduced more agencies with design focus, might not sign before Q2 now. Catch up with Paul next week (Alexandra supporting).",
       "narrative": {
         "oppSummary": "Hawes & Curtis is an $82,800 MCV Plus deal (projected $2.04M total 3-year revenue) to migrate the UK-based fashion retailer off a legacy custom-built platform onto Shopify Plus, including Shopify Payments ($32.5M GPV). The deal is at 80% probability in Deal Craft stage, with CEO Touker Suleyman pushing aggressively to sign and go live by August 2026 ahead of peak trading season. Agency selection (implementation partner) is the final gating item before contract signature.",
         "whyChange": "Hawes & Curtis is running on a legacy custom-built platform that is actively preventing the business from growing and innovating. Their current tech stack cannot deliver the customer experiences they need to drive online growth, with technical limitations surfacing around inventory management, order statuses, and the inability to unify D2C and POS without heavy integration work. The CTO's team raised multiple concerns about their current platform's rigidity during the technical workshop. The business has aggressive growth targets and the CEO is personally driving urgency, demanding project completion in four to five months with no delays.",
@@ -16229,6 +16356,7 @@ const DEAL_DATA = {
           "changes": []
         }
       ],
+      "dealRisks": [],
       "mutualActionPlan": {
         "merchantName": "Hawes & Curtis Limited",
         "kickoffDate": "",
@@ -16504,7 +16632,7 @@ const DEAL_DATA = {
       ],
       "competitor": "Salesforce Commerce Cloud",
       "compellingEvent": "",
-      "nextStep": "23/02 BR Call with Jordan. He is working through biz case but biggest aspect is going to be the SP since we will not approve Adyen. Agency decision in March. SP call schedulled for 11th March",
+      "nextStep": "12/02 BR Call with Jordan. 2 agencies still to pitch (Askphil and Wolfpack). Running through Payments and Biz case with him on 23rd",
       "narrative": {
         "oppSummary": "Bugaboo International B.V. is evaluating Shopify Plus for a multi-brand D2C migration starting with Artipoppe, with the intent to subsequently migrate Joolz and potentially Bugaboo itself. The deal is valued at $82,800 (Plus Standard) with $51M D2C GMV and a 3-year revenue impact of $841,500. The group is currently on Salesforce Commerce Cloud and is undergoing significant organizational restructuring — including acquisitions (Joolz), leadership changes, and a new co-CEO (Richard) — while simultaneously selecting a migration agency and negotiating an MSA structure with Shopify.",
         "whyChange": "Bugaboo Group is consolidating multiple brands (Bugaboo, Artipoppe, Joolz) under a single umbrella following acquisitions, and needs a unified, scalable commerce platform to support this multi-brand strategy. The current Joolz agency (Wolfpack) is being terminated, indicating dissatisfaction with existing vendor relationships. Artipoppe is migrating to NetSuite on the ERP side, suggesting broader digital transformation. There is an implicit Salesforce Commerce Cloud contract end date driving the evaluation, with Jordan explicitly stating 'when this Salesforce contract ends' there's no reason they wouldn't migrate. Organizational changes (new co-CEO Richard, new Artipoppe GM) create a decision window where leadership wants to future-proof the tech stack.",
@@ -17579,165 +17707,69 @@ const DEAL_DATA = {
           "type": "incremental-meddpicc"
         }
       ],
+      "dealRisks": [
+        {
+          "risk": "CRITICAL: Shopify Payments is make-or-break. Merchant 'won't approve Adyen.' SP call March 11 is the most critical milestone.",
+          "severity": "high",
+          "category": "commercial"
+        },
+        {
+          "risk": "COMPETITIVE RISK: SFCC now confirmed as competitor. Need competitive positioning before SP call.",
+          "severity": "high",
+          "category": "competitive"
+        },
+        {
+          "risk": "TIMELINE RISK: Business case still being built. Multiple discovery items due 02/27 may not be complete.",
+          "severity": "medium",
+          "category": "timeline"
+        },
+        {
+          "risk": "SINGLE-THREADED: Jordan is sole contact. No EB or broader buying committee access.",
+          "severity": "medium",
+          "category": "champion"
+        },
+        {
+          "risk": "POSITIVE SIGNAL: First nextStep populated, competitor identified, PBR established (£276K). Deal is activating.",
+          "severity": "low",
+          "category": "execution"
+        }
+      ],
       "mutualActionPlan": {
-        "merchantName": "Bugaboo International B.V",
-        "kickoffDate": "",
-        "goLiveDate": "2026-04-23",
-        "contactName": "Ben Rees",
-        "contactEmail": "ben.rees@shopify.com",
-        "champion": "Jurryt van Arend",
         "items": [
           {
-            "date": "",
-            "done": true,
-            "milestone": "Initial discovery & intro calls",
-            "ownerMerchant": "Jurryt van Arend",
-            "ownerShopify": "Ben",
-            "notes": "3 calls completed"
-          },
-          {
-            "date": "",
+            "date": "2026-03-04",
             "done": false,
-            "milestone": "Identify champion & project team",
-            "ownerMerchant": "Jurryt van Arend",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Schedule discovery call focused on business metrics and expected outcomes",
+            "milestone": "Internal SP team pre-call and gap analysis",
             "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Metrics · Due 2026-02-27",
-            "due": "2026-02-27"
+            "ownerShopify": "Ben + SP Team",
+            "notes": "NEW: Understand SP capabilities vs Bugaboo needs before Mar 11."
           },
           {
-            "date": "",
+            "date": "2026-03-06",
             "done": false,
-            "milestone": "Prepare business case framework with benchmark metrics from similar multi-brand migrations",
-            "ownerMerchant": "",
+            "milestone": "Provide business case support materials to Jordan",
+            "ownerMerchant": "Jordan",
             "ownerShopify": "Ben",
-            "notes": "Metrics · Due 2026-03-06",
-            "due": "2026-03-06"
+            "notes": "NEW: ROI data, references, SFCC competitive comparison."
           },
           {
-            "date": "",
+            "date": "2026-03-11",
             "done": false,
-            "milestone": "Validate business case with economic buyer",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
+            "milestone": "🎯 SP call with Bugaboo — CRITICAL",
+            "ownerMerchant": "Jordan + stakeholders",
+            "ownerShopify": "Ben + SP Team",
+            "notes": "Make-or-break. If SP doesn't meet requirements, deal dies."
           },
           {
-            "date": "",
-            "done": true,
-            "milestone": "Confirm economic buyer & signing authority",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
+            "date": "2026-03-13",
             "done": false,
-            "milestone": "Propose introductory call with Richard to discuss MSA approach and multi-brand vision",
-            "ownerMerchant": "",
+            "milestone": "Post-SP call: Confirm viability and next steps",
+            "ownerMerchant": "Jordan",
             "ownerShopify": "Ben",
-            "notes": "Due 2026-03-06",
-            "due": "2026-03-06"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Map complete decision & approval process",
-            "ownerMerchant": "Jurryt van Arend",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Draft mutual action plan and share with Jordan for validation",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Due 2026-02-27",
-            "due": "2026-02-27"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Submit merchant intent",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Intent: Uncommitted"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Finalize commercial proposal",
-            "ownerMerchant": "Jurryt van Arend",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm procurement process & legal steps",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Ask Jordan how long legal reviews typically take and who is involved",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Paper Process · Due 2026-02-27",
-            "due": "2026-02-27"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Discuss break clause feasibility with Shopify legal",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": "Paper Process · Due 2026-03-06",
-            "due": "2026-03-06"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Contract sent for signature",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Contract signed ✍️",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": "Target: 2026-04-23"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Introduction to Shopify Launch team",
-            "ownerMerchant": "",
-            "ownerShopify": "Ben",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live 🚀",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
+            "notes": "Immediate follow-up to capture decision."
           }
-        ]
+        ],
+        "goLiveDate": ""
       },
       "coachingSnapshots": [
         {
@@ -17812,7 +17844,7 @@ const DEAL_DATA = {
         "paymentsAttached": true,
         "ipp": 1112865.6
       },
-      "projectedBilledRevenue": 758832.18,
+      "projectedBilledRevenue": null,
       "products": [
         "Plus Product Suite",
         "D2C - Standard",
@@ -17820,7 +17852,7 @@ const DEAL_DATA = {
       ],
       "competitor": "",
       "compellingEvent": "Board meeting mid-February requires Mo to present a costed replatforming proposal with topline figures; budgets for the new financial year (starting 1 August) are signed off by end of June — meaning if this doesn't get approved in this cycle, the project slips a full year.",
-      "nextStep": "24.02 presented commercials, board meeting this month, awaiting statements for RR, NDA in works, MO ooo",
+      "nextStep": "19.02 presented commercials, board meeting this month, awaiting statements for RR, NDA in works",
       "narrative": {
         "oppSummary": "C.P. Hart & Sons Limited is a luxury bathroom retailer (~90 years old) evaluating Shopify Plus to replace their outdated, custom-built e-commerce platform. The deal is valued at $82,800/year ($2.18M over 3 years) with $40M D2C GMV, $26M Payments GPV, and a projected billed revenue of ~$759K. Mo Goodfellow (Director, Marketing & Digital) is leading the evaluation after his senior e-commerce manager (Diamante) went on personal leave, and he needs to present a costed replatforming proposal to the board in mid-February, with budgets signed off by end of June for a new financial year starting August 1.",
         "whyChange": "C.P. Hart's current e-commerce platform is a custom-built, legacy system described as 'quite custom made, quite old' and 'split in two,' where every small change requires going through a dev agency with no clarity on timelines. The website is the primary lead generation engine for their showroom business (90-95% of sales), yet the current platform fails to represent their luxury brand adequately online and lacks best-practice UI/UX, templated design capabilities, and proper customer journey tracking. Mo emphasized the existential business case: 'we're 90 years old next year. If we want to last for another 90 years we need to start at the beginning of the funnel again.' Significant organizational change — their MD was promoted out and the parent company has a new CEO — adds pressure to demonstrate digital modernization.",
@@ -18931,6 +18963,7 @@ const DEAL_DATA = {
           "changes": []
         }
       ],
+      "dealRisks": [],
       "mutualActionPlan": {
         "merchantName": "C.P. Hart & Sons Limited",
         "kickoffDate": "",
@@ -19172,7 +19205,7 @@ const DEAL_DATA = {
       ],
       "competitor": "",
       "compellingEvent": "",
-      "nextStep": "20/02 MF: Supporting them with the business case, technical validation and with merchant references. Started a rate review discussion. Catch up on 25/02",
+      "nextStep": "20/02 MF: Supporting them with the business case, technical validation and with references. Stephen back from hols so picking up where left off.",
       "narrative": {
         "oppSummary": "Trinny London is an $82,800 Plus deal (D2C Standard) with $76M projected D2C GMV, $49.4M Payments GPV, and a 3-year total revenue of $3.31M. The London-based beauty brand is evaluating a migration from Commerce Tools (their current headless commerce platform) to Shopify Plus, driven by contract renewal timing, operational inefficiencies, tech debt, and a desire for faster development and reduced total cost of ownership. The deal is currently in Solution stage at 40% probability with a June 30, 2026 close target, and the merchant is actively deep in technical validation — having conducted 14 calls including detailed architecture demos, tax/store structure discussions, and business case presentations.",
         "whyChange": "Trinny London's current Commerce Tools headless architecture is creating significant operational friction and cost burden. The team explicitly stated they are exploring alternatives due to their Commerce Tools renewal, citing the need for increased efficiencies, enhanced internationalization (Germany), and better tech support. Their headless setup has created challenges with bundling and customization — core to their 'match to me' personalized product experience. They've been considering moving back to Shopify for nearly a year (since April 2025), with concerns about headless limitations around app compatibility, tax handling, discount codes, and gift cards. Faye Roth stressed the importance of swift decision to avoid stagnation, suggesting internal frustration with the pace of progress on their current stack.",
@@ -20308,165 +20341,64 @@ const DEAL_DATA = {
           "type": "incremental-meddpicc"
         }
       ],
+      "dealRisks": [
+        {
+          "risk": "POSITIVE MOMENTUM: Stage Solution → Demonstrate, prob 40→60, Commit forecast. Active tech validation, biz case support, references underway.",
+          "severity": "low",
+          "category": "execution"
+        },
+        {
+          "risk": "BUSINESS CASE DEPENDENCY: Supporting them with the business case — if it doesn't land internally, deal stalls.",
+          "severity": "medium",
+          "category": "commercial"
+        },
+        {
+          "risk": "SINGLE-THREADED: Charlotte/Faye are primary contacts. No EB access confirmed despite Commit forecast.",
+          "severity": "medium",
+          "category": "champion"
+        },
+        {
+          "risk": "TIMELINE UNCERTAINTY: No confirmed close date or board decision date. Commit forecast but no hard deadline.",
+          "severity": "medium",
+          "category": "timeline"
+        }
+      ],
       "mutualActionPlan": {
-        "merchantName": "TRINNY LONDON",
-        "kickoffDate": "",
-        "goLiveDate": "2026-06-30",
-        "contactName": "Maissa Fatte",
-        "contactEmail": "maissa.fatte@shopify.com",
-        "champion": "Jay Jetley",
         "items": [
           {
-            "date": "",
-            "done": true,
-            "milestone": "Initial discovery & intro calls",
-            "ownerMerchant": "Jay Jetley",
-            "ownerShopify": "Maissa",
-            "notes": "9 calls completed"
-          },
-          {
-            "date": "",
+            "date": "2026-03-04",
             "done": false,
-            "milestone": "Identify champion & project team",
-            "ownerMerchant": "Jay Jetley",
+            "milestone": "Deliver reference customers (2-3 DTC beauty brands)",
+            "ownerMerchant": "Charlotte/Faye",
             "ownerShopify": "Maissa",
-            "notes": ""
+            "notes": "NEW: References requested — late-stage buying signal."
           },
           {
-            "date": "",
+            "date": "2026-03-06",
             "done": false,
-            "milestone": "Maissa to follow up with Charlotte on projected GMV and cost analysis, and anchor specific KPIs in the business case.",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": "Metrics · Due 2026-02-28",
-            "due": "2026-02-28"
+            "milestone": "Complete technical validation",
+            "ownerMerchant": "Charlotte/Faye + Tech",
+            "ownerShopify": "Stephen (SE)",
+            "notes": "Referenced in next step. Stephen back from holiday."
           },
           {
-            "date": "",
+            "date": "2026-03-06",
             "done": false,
-            "milestone": "Maissa to finalize Adyen vs SP conversion rate comparison and incorporate into business case.",
-            "ownerMerchant": "",
+            "milestone": "Business case support materials delivered",
+            "ownerMerchant": "Charlotte/Faye",
             "ownerShopify": "Maissa",
-            "notes": "Metrics · Due 2026-03-04",
-            "due": "2026-03-04"
+            "notes": "Supporting their business case per next step."
           },
           {
-            "date": "",
-            "done": true,
-            "milestone": "Validate business case with economic buyer",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": ""
-          },
-          {
-            "date": "",
+            "date": "2026-03-06",
             "done": false,
-            "milestone": "Confirm economic buyer & signing authority",
-            "ownerMerchant": "",
+            "milestone": "Identify and access economic buyer",
+            "ownerMerchant": "Charlotte/Faye",
             "ownerShopify": "Maissa",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Request a brief executive alignment call with the EB to validate business case and timeline.",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": "Due 2026-03-10",
-            "due": "2026-03-10"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Map complete decision & approval process",
-            "ownerMerchant": "Jay Jetley",
-            "ownerShopify": "Maissa",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Maissa to map the buying committee with Charlotte — who has a vote, who has a veto?",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": "Due 2026-02-25",
-            "due": "2026-02-25"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Submit merchant intent",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": "Intent: Uncommitted"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Finalize commercial proposal",
-            "ownerMerchant": "Jay Jetley",
-            "ownerShopify": "Maissa",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Confirm procurement process & legal steps",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Complete rate review and map out full procurement/legal process with Trinny team.",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": "Paper Process · Due 2026-03-15",
-            "due": "2026-03-15"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Maissa to proactively ask about legal review process and deal-breaker terms.",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": "Paper Process · Due 2026-03-10",
-            "due": "2026-03-10"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Contract sent for signature",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Contract signed ✍️",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": "Target: 2026-06-30"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Introduction to Shopify Launch team",
-            "ownerMerchant": "",
-            "ownerShopify": "Maissa",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live 🚀",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
+            "notes": "NEW: Commit forecast but no EB access confirmed."
           }
-        ]
+        ],
+        "goLiveDate": ""
       },
       "coachingSnapshots": [
         {

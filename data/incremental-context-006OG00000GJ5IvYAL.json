@@ -1,0 +1,609 @@
+{
+  "accountName": "The Dune Group",
+  "opportunityId": "006OG00000GJ5IvYAL",
+  "stage": "Deal Craft",
+  "closeDate": "2026-02-27",
+  "probability": 80,
+  "nextStep": "19.02 onsite meeting cancelled as team members sick, had meeting with Dune and Tryzens to discuss launch steps, Martin confirmed They're very close to getting budget signed off 'any day now'",
+  "competitor": "None",
+  "sfChangesToday": [
+    {
+      "field": "closeDate",
+      "oldValue": "2026-02-27",
+      "newValue": "2026-03-30"
+    },
+    {
+      "field": "nextStep",
+      "oldValue": "19.02 onsite meeting cancelled as team members sick, had meeting with Dune and Tryzens to discuss launch steps, Martin confirmed They're very close to getting budget signed off 'any day now'",
+      "newValue": "24.02  onsite meeting cancelled as team members sick, had meeting with Dune and Tryzens to discuss launch steps, Martin confirmed They're very close to getting budged signed off \"any day now\""
+    },
+    {
+      "field": "projectedBilledRevenue",
+      "oldValue": 641868,
+      "newValue": 641867.88
+    },
+    {
+      "field": "revenue.totalRev3yr",
+      "oldValue": 4269147,
+      "newValue": 4269146.5
+    }
+  ],
+  "currentActionItems": [
+    {
+      "section": "Metrics",
+      "question": "Do we have specific quantifiable goals aligned with the project?",
+      "answer": "Partial",
+      "action": "Ask Martin for 2-3 specific measurable outcomes.",
+      "due": "02/28/2026",
+      "notes": "TCO savings discussed and document shared. Budget ~\u00a350M total revenue known. No specific quantifiable targets from customer."
+    },
+    {
+      "section": "Metrics",
+      "question": "Do we understand the impact if this goal isn't achieved?",
+      "answer": "Partial",
+      "action": "Use TCO document to model cost of SFCC renewal vs Shopify.",
+      "due": "02/25/2026",
+      "notes": "Qualitative impact clear (continued dependency, high TCO, fragmented systems). Not quantified in hard numbers."
+    },
+    {
+      "section": "Metrics",
+      "question": "Have I validated the metrics with the customer?",
+      "answer": "Partial",
+      "action": "Ask Martin if TCO doc was used in budget request.",
+      "due": "02/25/2026",
+      "notes": "TCO doc shared and discussed with Martin and finance. Not confirmed if Martin used it in budget approval request."
+    },
+    {
+      "section": "Economic Buyer",
+      "question": "Have I identified the true economic buyer?",
+      "answer": "Partial",
+      "action": "Ask Martin: 'Who gives final sign-off on the budget?'",
+      "due": "02/25/2026",
+      "notes": "Nigel Darwin (CEO) is Signatory. Martin (Head of IT) is Decision Maker pursuing budget. Unclear if Nigel is true EB or if CFO/Finance Director involve"
+    },
+    {
+      "section": "Economic Buyer",
+      "question": "Do we have access to this individual?",
+      "answer": "No",
+      "action": "Ask Martin to facilitate brief intro call with Nigel before signature.",
+      "due": "02/25/2026",
+      "notes": "Nigel Darwin has not appeared in any of the 6 recorded calls. Zero direct Shopify-CEO engagement."
+    },
+    {
+      "section": "Economic Buyer",
+      "question": "Can we get access?",
+      "answer": "Partial",
+      "action": "Adriana to ask Martin for 15-min executive alignment call with Nigel.",
+      "due": "02/25/2026",
+      "notes": "Martin is highly collaborative and can likely facilitate CEO access, but this hasn't been requested."
+    },
+    {
+      "section": "Economic Buyer",
+      "question": "Do we know what the economic buyer cares about most?",
+      "answer": "No",
+      "action": "Ask Martin: 'What does Nigel care about most in this decision?'",
+      "due": "02/25/2026",
+      "notes": "No direct insight into Nigel Darwin's priorities. Martin's concerns may not fully align with CEO priorities."
+    },
+    {
+      "section": "Decision Process",
+      "question": "Do we know how they will be making the decision?",
+      "answer": "Partial",
+      "action": "Map end-to-end decision process with Martin.",
+      "due": "02/22/2026",
+      "notes": "Martin is tech decision maker, Nigel signs, Cheryl handles finance review. Formal decision/approval process not mapped."
+    },
+    {
+      "section": "Decision Process",
+      "question": "Do we know who's involved / buying committee?",
+      "answer": "Partial",
+      "action": "Ask: 'Besides you and Nigel, who else could approve or block?'",
+      "due": "02/22/2026",
+      "notes": "Martin, Nigel, Andy, Cheryl Lee, Kyle Williams, Haris Majid known. Full committee (CFO, COO, Head of Retail?) not confirmed."
+    },
+    {
+      "section": "Decision Process",
+      "question": "Do we know if they have tried to solve this problem before?",
+      "answer": "No",
+      "action": "Ask: 'Have you looked at migrating before?'",
+      "due": "02/28/2026",
+      "notes": "No evidence of previous migration attempts or alternative evaluations."
+    },
+    {
+      "section": "Decision Process",
+      "question": "Have you validated this process with the buyer?",
+      "answer": "Partial",
+      "action": "Ask: 'Once budget approved, what remains before you can sign?'",
+      "due": "02/22/2026",
+      "notes": "Martin transparent about timeline but full process not formally validated. No documented MAP."
+    },
+    {
+      "section": "Decision Criteria",
+      "question": "Do we know what criteria the customer is using to evaluate vendors?",
+      "answer": "Partial",
+      "action": "Ask if there's a formal requirements document.",
+      "due": "02/25/2026",
+      "notes": "Key criteria known: in-house control, unified eCom+POS, TCO reduction, migration playbook, hardware compat, payments. No formal evaluation doc."
+    },
+    {
+      "section": "Decision Criteria",
+      "question": "Have we surfaced technical complications (integrations)?",
+      "answer": "Partial",
+      "action": "Confirm with Martin/Tryzens that all integration touchpoints are in SOW.",
+      "due": "02/28/2026",
+      "notes": "Hardware compatibility detailed. Migration sequencing explored. Broader integrations (ERP, OMS, loyalty) not evident in calls."
+    },
+    {
+      "section": "Decision Criteria",
+      "question": "Do we have a mutual action plan in place?",
+      "answer": "Partial",
+      "action": "Draft joint timeline: budget \u2192 signature \u2192 SOW \u2192 hardware \u2192 migration \u2192 May 1.",
+      "due": "02/25/2026",
+      "notes": "De facto plan exists (hardware demo, SOW, budget, signature, May launch) but no formal documented MAP."
+    },
+    {
+      "section": "Decision Criteria",
+      "question": "Do we know who defined the decision criteria?",
+      "answer": "Partial",
+      "action": "When engaging Nigel, ask about additional requirements.",
+      "due": "03/03/2026",
+      "notes": "Martin defines technical/operational criteria. Finance likely defines cost criteria. CEO criteria unknown."
+    },
+    {
+      "section": "Paper Process",
+      "question": "Do we know what their procurement process is?",
+      "answer": "Partial",
+      "action": "Ask: 'Does contract go through legal/procurement before Nigel signs?'",
+      "due": "02/22/2026",
+      "notes": "Budget approval required, Nigel signs, contract terms discussed. Formal procurement steps (legal, PO) not mapped."
+    },
+    {
+      "section": "Paper Process",
+      "question": "Are there likely to be redlines?",
+      "answer": "Partial",
+      "action": "Confirm monthly invoicing internally. Prepare responses.",
+      "due": "02/22/2026",
+      "notes": "Martin raised monthly invoicing (non-standard), 'store' definition, SP integration. Could become redline items."
+    },
+    {
+      "section": "Paper Process",
+      "question": "If redlines, how long does review take?",
+      "answer": "No",
+      "action": "Ask: 'How long does your legal review typically take?'",
+      "due": "02/22/2026",
+      "notes": "No information on Dune's legal/contract review duration."
+    },
+    {
+      "section": "Paper Process",
+      "question": "Do we know how long it will take?",
+      "answer": "Partial",
+      "action": "Validate close date once budget is approved.",
+      "due": "02/22/2026",
+      "notes": "Martin targeted end-Jan. Now Feb 19, budget not yet signed. ~3 week slippage. Delay is budget, not contract process."
+    },
+    {
+      "section": "Paper Process",
+      "question": "Have we sent the contract?",
+      "answer": "Partial",
+      "action": "Verify if formal contract has been sent or is ready to send.",
+      "due": "02/22/2026",
+      "notes": "Terms discussed in detail. Martin has commercial documentation. Unclear if formal contract sent for signature."
+    },
+    {
+      "section": "Paper Process",
+      "question": "Do we know target date for signature?",
+      "answer": "Yes",
+      "action": "Monitor daily for budget approval.",
+      "due": "02/27/2026",
+      "notes": "Martin targeted end-Jan. SF close date Feb 27. Budget 'any day now.'"
+    },
+    {
+      "section": "Identify Pain",
+      "question": "Have they tried to resolve this issue in the past?",
+      "answer": "No",
+      "action": "Ask Martin if this was considered before.",
+      "due": "02/28/2026",
+      "notes": "No evidence of previous migration attempts."
+    },
+    {
+      "section": "Identify Pain",
+      "question": "Do we know what teams are affected and to what extent?",
+      "answer": "Partial",
+      "action": "Map all affected teams during implementation planning.",
+      "due": "03/10/2026",
+      "notes": "IT team deeply engaged. Finance involved. Retail ops across 55+ stores affected. Marketing/merchandising impact not documented."
+    },
+    {
+      "section": "Identify Pain",
+      "question": "Can they solve this pain using another option?",
+      "answer": "Partial",
+      "action": "Validate with Martin no other platforms being evaluated.",
+      "due": "02/25/2026",
+      "notes": "No competitor identified. Could renew SFCC or evaluate others. Tryzens specifically recommended Shopify."
+    },
+    {
+      "section": "Champion",
+      "question": "Have you been introduced to the decision maker?",
+      "answer": "No",
+      "action": "Ask Martin for 15-min intro to Nigel to confirm Shopify exec commitment.",
+      "due": "02/25/2026",
+      "notes": "Nigel Darwin (CEO/Signatory) not in any calls. All engagement through Martin and operational stakeholders."
+    },
+    {
+      "section": "Champion",
+      "question": "Are they willing to bring you into the board/buying group?",
+      "answer": "Partial",
+      "action": "Frame as exec alignment: 'Shopify leadership committed to Dune's success.'",
+      "due": "02/25/2026",
+      "notes": "Martin brought finance and IT team into discussions. But no direct CEO engagement facilitated yet."
+    },
+    {
+      "section": "Competition",
+      "question": "Do we know who else the customer is evaluating?",
+      "answer": "Yes",
+      "action": "Confirm with Martin no other vendors in evaluation.",
+      "due": "02/25/2026",
+      "notes": "No competitor identified. Tryzens recommended Shopify specifically. Sole evaluation \u2014 Shopify vs SFCC renewal."
+    },
+    {
+      "section": "Competition",
+      "question": "Are there internal alternatives to our solution?",
+      "answer": "Partial",
+      "action": "Ask: 'Is anyone internally advocating for renewing SFCC?'",
+      "due": "02/25/2026",
+      "notes": "SFCC renewal is the internal alternative. Unknown if anyone advocates for staying. Budget cuts could force it."
+    },
+    {
+      "section": "Competition",
+      "question": "Do we know why we would win or lose?",
+      "answer": "Yes",
+      "action": "Budget support + CEO touchpoint in next 7 days.",
+      "due": "02/27/2026",
+      "notes": "Win: unified platform, in-house control, TCO, Tryzens champion, no competition, strong champion. Lose: budget cuts (20% risk), CEO not engaged, AE han"
+    }
+  ],
+  "currentMAP": {
+    "merchantName": "The Dune Group",
+    "kickoffDate": "",
+    "goLiveDate": "2026-02-27",
+    "contactName": "Adriana Colacicco",
+    "contactEmail": "adriana.colacicco@shopify.com",
+    "champion": "Martin Wareing",
+    "items": [
+      {
+        "date": "",
+        "done": true,
+        "milestone": "Initial discovery & intro calls",
+        "ownerMerchant": "Martin Wareing",
+        "ownerShopify": "Adriana",
+        "notes": "9 calls completed"
+      },
+      {
+        "date": "",
+        "done": true,
+        "milestone": "Identify champion & project team",
+        "ownerMerchant": "Martin Wareing",
+        "ownerShopify": "Adriana",
+        "notes": "Champion: Martin Wareing"
+      },
+      {
+        "date": "",
+        "done": false,
+        "milestone": "Ask Martin for 2-3 specific measurable outcomes.",
+        "ownerMerchant": "",
+        "ownerShopify": "Adriana",
+        "notes": "Metrics \u00b7 Due 02/28/2026",
+        "due": "02/28/2026"
+      },
+      {
+        "date": "",
+        "done": false,
+        "milestone": "Use TCO document to model cost of SFCC renewal vs Shopify.",
+        "ownerMerchant": "",
+        "ownerShopify": "Adriana",
+        "notes": "Metrics \u00b7 Due 02/25/2026",
+        "due": "02/25/2026"
+      },
+      {
+        "date": "",
+        "done": false,
+        "milestone": "Validate business case with economic buyer",
+        "ownerMerchant": "",
+        "ownerShopify": "Adriana",
+        "notes": ""
+      },
+      {
+        "date": "",
+        "done": false,
+        "milestone": "Confirm economic buyer & signing authority",
+        "ownerMerchant": "",
+        "ownerShopify": "Adriana",
+        "notes": ""
+      },
+      {
+        "date": "",
+        "done": false,
+        "milestone": "Ask Martin to facilitate brief intro call with Nigel before signature.",
+        "ownerMerchant": "",
+        "ownerShopify": "Adriana",
+        "notes": "Due 02/25/2026",
+        "due": "02/25/2026"
+      },
+      {
+        "date": "",
+        "done": false,
+        "milestone": "Map complete decision & approval process",
+        "ownerMerchant": "Martin Wareing",
+        "ownerShopify": "Adriana",
+        "notes": ""
+      },
+      {
+        "date": "",
+        "done": false,
+        "milestone": "Map end-to-end decision process with Martin.",
+        "ownerMerchant": "",
+        "ownerShopify": "Adriana",
+        "notes": "Due 02/22/2026",
+        "due": "02/22/2026"
+      },
+      {
+        "date": "",
+        "done": true,
+        "milestone": "Submit merchant intent",
+        "ownerMerchant": "",
+        "ownerShopify": "Adriana",
+        "notes": "Intent: Committed - At Risk"
+      },
+      {
+        "date": "",
+        "done": true,
+        "milestone": "Finalize commercial proposal",
+        "ownerMerchant": "Martin Wareing",
+        "ownerShopify": "Adriana",
+        "notes": ""
+      },
+      {
+        "date": "",
+        "done": false,
+        "milestone": "Confirm procurement process & legal steps",
+        "ownerMerchant": "",
+        "ownerShopify": "Adriana",
+        "notes": ""
+      },
+      {
+        "date": "",
+        "done": false,
+        "milestone": "Ask: 'Does contract go through legal/procurement before Nigel signs?'",
+        "ownerMerchant": "",
+        "ownerShopify": "Adriana",
+        "notes": "Paper Process \u00b7 Due 02/22/2026",
+        "due": "02/22/2026"
+      },
+      {
+        "date": "",
+        "done": false,
+        "milestone": "Confirm monthly invoicing internally. Prepare responses.",
+        "ownerMerchant": "",
+        "ownerShopify": "Adriana",
+        "notes": "Paper Process \u00b7 Due 02/22/2026",
+        "due": "02/22/2026"
+      },
+      {
+        "date": "",
+        "done": false,
+        "milestone": "Contract sent for signature",
+        "ownerMerchant": "",
+        "ownerShopify": "Adriana",
+        "notes": ""
+      },
+      {
+        "date": "",
+        "done": false,
+        "milestone": "Contract signed \u270d\ufe0f",
+        "ownerMerchant": "",
+        "ownerShopify": "",
+        "notes": "Target: 2026-02-27"
+      },
+      {
+        "date": "",
+        "done": false,
+        "milestone": "Introduction to Shopify Launch team",
+        "ownerMerchant": "",
+        "ownerShopify": "Adriana",
+        "notes": ""
+      },
+      {
+        "date": "",
+        "done": false,
+        "milestone": "Go-Live \ud83d\ude80",
+        "ownerMerchant": "",
+        "ownerShopify": "",
+        "notes": ""
+      }
+    ]
+  },
+  "currentNextSteps": [
+    {
+      "p": 1,
+      "cat": "Metrics",
+      "issue": "TCO savings discussed and document shared. Budget ~\u00a350M total revenue known. No specific quantifiable targets from customer.",
+      "rec": "Ask Martin for 2-3 specific measurable outcomes.",
+      "due": "02/28/2026"
+    },
+    {
+      "p": 2,
+      "cat": "Metrics",
+      "issue": "Qualitative impact clear (continued dependency, high TCO, fragmented systems). Not quantified in hard numbers.",
+      "rec": "Use TCO document to model cost of SFCC renewal vs Shopify.",
+      "due": "02/25/2026"
+    },
+    {
+      "p": 3,
+      "cat": "Metrics",
+      "issue": "TCO doc shared and discussed with Martin and finance. Not confirmed if Martin used it in budget approval request.",
+      "rec": "Ask Martin if TCO doc was used in budget request.",
+      "due": "02/25/2026"
+    },
+    {
+      "p": 4,
+      "cat": "Economic Buyer",
+      "issue": "Nigel Darwin (CEO) is Signatory. Martin (Head of IT) is Decision Maker pursuing budget. Unclear if Nigel is true EB or if CFO/Finance Director involved.",
+      "rec": "Ask Martin: 'Who gives final sign-off on the budget?'",
+      "due": "02/25/2026"
+    },
+    {
+      "p": 5,
+      "cat": "Economic Buyer",
+      "issue": "Nigel Darwin has not appeared in any of the 6 recorded calls. Zero direct Shopify-CEO engagement.",
+      "rec": "Ask Martin to facilitate brief intro call with Nigel before signature.",
+      "due": "02/25/2026"
+    },
+    {
+      "p": 6,
+      "cat": "Economic Buyer",
+      "issue": "Martin is highly collaborative and can likely facilitate CEO access, but this hasn't been requested.",
+      "rec": "Adriana to ask Martin for 15-min executive alignment call with Nigel.",
+      "due": "02/25/2026"
+    },
+    {
+      "p": 7,
+      "cat": "Economic Buyer",
+      "issue": "No direct insight into Nigel Darwin's priorities. Martin's concerns may not fully align with CEO priorities.",
+      "rec": "Ask Martin: 'What does Nigel care about most in this decision?'",
+      "due": "02/25/2026"
+    },
+    {
+      "p": 8,
+      "cat": "Decision Process",
+      "issue": "Martin is tech decision maker, Nigel signs, Cheryl handles finance review. Formal decision/approval process not mapped.",
+      "rec": "Map end-to-end decision process with Martin.",
+      "due": "02/22/2026"
+    },
+    {
+      "p": 9,
+      "cat": "Decision Process",
+      "issue": "Martin, Nigel, Andy, Cheryl Lee, Kyle Williams, Haris Majid known. Full committee (CFO, COO, Head of Retail?) not confirmed.",
+      "rec": "Ask: 'Besides you and Nigel, who else could approve or block?'",
+      "due": "02/22/2026"
+    },
+    {
+      "p": 10,
+      "cat": "Decision Process",
+      "issue": "No evidence of previous migration attempts or alternative evaluations.",
+      "rec": "Ask: 'Have you looked at migrating before?'",
+      "due": "02/28/2026"
+    },
+    {
+      "p": 11,
+      "cat": "Decision Process",
+      "issue": "Martin transparent about timeline but full process not formally validated. No documented MAP.",
+      "rec": "Ask: 'Once budget approved, what remains before you can sign?'",
+      "due": "02/22/2026"
+    },
+    {
+      "p": 12,
+      "cat": "Decision Criteria",
+      "issue": "Key criteria known: in-house control, unified eCom+POS, TCO reduction, migration playbook, hardware compat, payments. No formal evaluation doc.",
+      "rec": "Ask if there's a formal requirements document.",
+      "due": "02/25/2026"
+    },
+    {
+      "p": 13,
+      "cat": "Decision Criteria",
+      "issue": "Hardware compatibility detailed. Migration sequencing explored. Broader integrations (ERP, OMS, loyalty) not evident in calls.",
+      "rec": "Confirm with Martin/Tryzens that all integration touchpoints are in SOW.",
+      "due": "02/28/2026"
+    },
+    {
+      "p": 14,
+      "cat": "Decision Criteria",
+      "issue": "De facto plan exists (hardware demo, SOW, budget, signature, May launch) but no formal documented MAP.",
+      "rec": "Draft joint timeline: budget \u2192 signature \u2192 SOW \u2192 hardware \u2192 migration \u2192 May 1.",
+      "due": "02/25/2026"
+    },
+    {
+      "p": 15,
+      "cat": "Decision Criteria",
+      "issue": "Martin defines technical/operational criteria. Finance likely defines cost criteria. CEO criteria unknown.",
+      "rec": "When engaging Nigel, ask about additional requirements.",
+      "due": "03/03/2026"
+    },
+    {
+      "p": 16,
+      "cat": "Paper Process",
+      "issue": "Budget approval required, Nigel signs, contract terms discussed. Formal procurement steps (legal, PO) not mapped.",
+      "rec": "Ask: 'Does contract go through legal/procurement before Nigel signs?'",
+      "due": "02/22/2026"
+    },
+    {
+      "p": 17,
+      "cat": "Paper Process",
+      "issue": "Martin raised monthly invoicing (non-standard), 'store' definition, SP integration. Could become redline items.",
+      "rec": "Confirm monthly invoicing internally. Prepare responses.",
+      "due": "02/22/2026"
+    },
+    {
+      "p": 18,
+      "cat": "Paper Process",
+      "issue": "No information on Dune's legal/contract review duration.",
+      "rec": "Ask: 'How long does your legal review typically take?'",
+      "due": "02/22/2026"
+    },
+    {
+      "p": 19,
+      "cat": "Paper Process",
+      "issue": "Martin targeted end-Jan. Now Feb 19, budget not yet signed. ~3 week slippage. Delay is budget, not contract process.",
+      "rec": "Validate close date once budget is approved.",
+      "due": "02/22/2026"
+    },
+    {
+      "p": 20,
+      "cat": "Paper Process",
+      "issue": "Terms discussed in detail. Martin has commercial documentation. Unclear if formal contract sent for signature.",
+      "rec": "Verify if formal contract has been sent or is ready to send.",
+      "due": "02/22/2026"
+    },
+    {
+      "p": 21,
+      "cat": "Identify Pain",
+      "issue": "No evidence of previous migration attempts.",
+      "rec": "Ask Martin if this was considered before.",
+      "due": "02/28/2026"
+    },
+    {
+      "p": 22,
+      "cat": "Identify Pain",
+      "issue": "IT team deeply engaged. Finance involved. Retail ops across 55+ stores affected. Marketing/merchandising impact not documented.",
+      "rec": "Map all affected teams during implementation planning.",
+      "due": "03/10/2026"
+    },
+    {
+      "p": 23,
+      "cat": "Identify Pain",
+      "issue": "No competitor identified. Could renew SFCC or evaluate others. Tryzens specifically recommended Shopify.",
+      "rec": "Validate with Martin no other platforms being evaluated.",
+      "due": "02/25/2026"
+    },
+    {
+      "p": 24,
+      "cat": "Champion",
+      "issue": "Nigel Darwin (CEO/Signatory) not in any calls. All engagement through Martin and operational stakeholders.",
+      "rec": "Ask Martin for 15-min intro to Nigel to confirm Shopify exec commitment.",
+      "due": "02/25/2026"
+    },
+    {
+      "p": 25,
+      "cat": "Champion",
+      "issue": "Martin brought finance and IT team into discussions. But no direct CEO engagement facilitated yet.",
+      "rec": "Frame as exec alignment: 'Shopify leadership committed to Dune's success.'",
+      "due": "02/25/2026"
+    },
+    {
+      "p": 26,
+      "cat": "Competition",
+      "issue": "SFCC renewal is the internal alternative. Unknown if anyone advocates for staying. Budget cuts could force it.",
+      "rec": "Ask: 'Is anyone internally advocating for renewing SFCC?'",
+      "due": "02/25/2026"
+    }
+  ]
+}

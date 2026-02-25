@@ -345,6 +345,9 @@ const fullOpps = opps.map(o => {
     history: oppHistory,
 
     // Mutual Action Plan — pass through as-is, auto-generate for new opps
+    // Deal risks — pass through from incremental updates
+    dealRisks: o.dealRisks || [],
+
     mutualActionPlan: o.mutualActionPlan || buildDefaultMAP(o),
 
     // Coaching snapshots — append today's section scores for trend tracking

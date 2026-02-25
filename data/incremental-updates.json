@@ -1,0 +1,337 @@
+{
+  "006OG00000GJ5IvYAL": {
+    "sfDiffs": [
+      {
+        "field": "closeDate",
+        "newValue": "2026-03-30"
+      },
+      {
+        "field": "nextStep",
+        "newValue": "24.02  onsite meeting cancelled as team members sick, had meeting with Dune and Tryzens to discuss launch steps, Martin confirmed They're very close to getting budged signed off \"any day now\""
+      },
+      {
+        "field": "projectedBilledRevenue",
+        "newValue": 641867.88
+      },
+      {
+        "field": "revenue.totalRev3yr",
+        "newValue": 4269146.5
+      }
+    ],
+    "dealRisks": [
+      {
+        "risk": "TIMELINE RISK: Close date slipped 1 month (Feb 27 → Mar 30) while next step still reads 'budget signed off any day now' — language unchanged despite delay.",
+        "severity": "high",
+        "category": "timeline"
+      },
+      {
+        "risk": "EXECUTION RISK: 17 action items overdue from Feb 22–25. Critical discovery, decision process, legal/procurement, and champion intro tasks remain unexecuted.",
+        "severity": "high",
+        "category": "execution"
+      },
+      {
+        "risk": "CHAMPION RISK: Multiple requests to introduce Nigel (EB) remain overdue. Deal validation is single-threaded through Martin.",
+        "severity": "high",
+        "category": "champion"
+      },
+      {
+        "risk": "PAPER PROCESS RISK: No evidence that procurement, legal review timelines, or contract details have been discussed. Paper process must start by early March.",
+        "severity": "medium",
+        "category": "timeline"
+      },
+      {
+        "risk": "CREDIBILITY RISK: 'Any day now' on budget has persisted through a close date slip. If budget isn't confirmed within 1–2 weeks, Mar 30 is also at risk.",
+        "severity": "medium",
+        "category": "commercial"
+      }
+    ],
+    "meddpiccUpdates": [],
+    "newMAPItems": [
+      {
+        "milestone": "⚠️ Revalidate budget timeline after 1-month close date slip",
+        "done": false,
+        "ownerShopify": "Adriana",
+        "ownerMerchant": "Martin",
+        "date": "2026-02-27",
+        "notes": "NEW: Must understand root cause of slip and confirm new timeline."
+      },
+      {
+        "milestone": "Budget sign-off confirmed",
+        "done": false,
+        "ownerShopify": "Adriana",
+        "ownerMerchant": "Martin",
+        "date": "2026-03-06",
+        "notes": "Feb 19 call: Martin said 'any day now.' Must land by early March for Mar 30 to hold."
+      },
+      {
+        "milestone": "Nigel (EB) intro / exec alignment call",
+        "done": false,
+        "ownerShopify": "Adriana",
+        "ownerMerchant": "Martin",
+        "date": "2026-03-10",
+        "notes": "Multiple overdue asks. Critical for multi-threading."
+      }
+    ],
+    "completedMAPMilestones": [],
+    "mapGoLiveDate": "2026-03-30"
+  },
+  "006OG00000G28JdYAJ": {
+    "sfDiffs": [
+      {
+        "field": "stage",
+        "newValue": "Deal Craft"
+      },
+      {
+        "field": "probability",
+        "newValue": 80
+      },
+      {
+        "field": "nextStep",
+        "newValue": "18/02 BR Discovery with Fuse ending next week. Board / sign off meeting for 24/03. Still awaiting feedback on Plus vs Ent before we can finalise commercials"
+      },
+      {
+        "field": "projectedBilledRevenue",
+        "newValue": 3813618.5
+      },
+      {
+        "field": "revenue.mcv",
+        "newValue": 0
+      },
+      {
+        "field": "revenue.totalRev3yr",
+        "newValue": 10909191
+      }
+    ],
+    "dealRisks": [
+      {
+        "risk": "COMMERCIAL RISK: PBR dropped 43% ($6.66M → $3.81M). MCV zeroed from $4.58M to $0. Deal appears significantly restructured.",
+        "severity": "high",
+        "category": "commercial"
+      },
+      {
+        "risk": "TIMELINE RISK: Only 7 calendar days between board meeting (Mar 24) and close date (Mar 31). No buffer for legal/procurement.",
+        "severity": "high",
+        "category": "timeline"
+      },
+      {
+        "risk": "DECISION CRITERIA RISK: Plus vs Enterprise still pending. Blocks commercial finalization. Must resolve BEFORE board meeting.",
+        "severity": "high",
+        "category": "commercial"
+      },
+      {
+        "risk": "PARTNER DEPENDENCY: Fusefabric still in discovery. If discovery extends beyond ~Mar 6, it compresses board prep time.",
+        "severity": "medium",
+        "category": "execution"
+      },
+      {
+        "risk": "POSITIVE SIGNAL: Stage advanced to Deal Craft (80% prob). Board date confirmed Mar 24. Momentum is real.",
+        "severity": "low",
+        "category": "timeline"
+      }
+    ],
+    "meddpiccUpdates": [],
+    "newMAPItems": [
+      {
+        "milestone": "⚠️ Investigate PBR drop ($6.66M → $3.81M) and MCV zeroing",
+        "done": false,
+        "ownerShopify": "Ben",
+        "ownerMerchant": "",
+        "date": "2026-02-27",
+        "notes": "NEW CRITICAL: 43% PBR drop. Data error or deal restructure?"
+      },
+      {
+        "milestone": "Fusefabric discovery completion",
+        "done": false,
+        "ownerShopify": "Ben",
+        "ownerMerchant": "Andy/Neil + Fusefabric",
+        "date": "2026-03-06",
+        "notes": "Gating item for solution finalization."
+      },
+      {
+        "milestone": "Plus vs Enterprise decision finalized",
+        "done": false,
+        "ownerShopify": "Ben",
+        "ownerMerchant": "Andy/Neil",
+        "date": "2026-03-13",
+        "notes": "Blocks commercial finalization."
+      },
+      {
+        "milestone": "Board-ready materials prepared and shared",
+        "done": false,
+        "ownerShopify": "Ben",
+        "ownerMerchant": "Andy/Neil",
+        "date": "2026-03-20",
+        "notes": "Exec summary, ROI case, migration timeline."
+      },
+      {
+        "milestone": "🎯 Board / sign-off meeting",
+        "done": false,
+        "ownerShopify": "Ben (on standby)",
+        "ownerMerchant": "Board / Andy / Neil",
+        "date": "2026-03-24",
+        "notes": "Confirmed decision event."
+      }
+    ],
+    "completedMAPMilestones": [],
+    "mapGoLiveDate": "2026-03-31"
+  },
+  "006OG00000Dh2YXYAZ": {
+    "sfDiffs": [
+      {
+        "field": "nextStep",
+        "newValue": "23/02 BR Call with Jordan. He is working through biz case but biggest aspect is SP, won't approve Adyen, SP call scheduled 11 March"
+      },
+      {
+        "field": "competitor",
+        "newValue": "Salesforce Commerce Cloud"
+      },
+      {
+        "field": "projectedBilledRevenue",
+        "newValue": 276727.83
+      }
+    ],
+    "dealRisks": [
+      {
+        "risk": "CRITICAL: Shopify Payments is make-or-break. Merchant 'won't approve Adyen.' SP call March 11 is the most critical milestone.",
+        "severity": "high",
+        "category": "commercial"
+      },
+      {
+        "risk": "COMPETITIVE RISK: SFCC now confirmed as competitor. Need competitive positioning before SP call.",
+        "severity": "high",
+        "category": "competitive"
+      },
+      {
+        "risk": "TIMELINE RISK: Business case still being built. Multiple discovery items due 02/27 may not be complete.",
+        "severity": "medium",
+        "category": "timeline"
+      },
+      {
+        "risk": "SINGLE-THREADED: Jordan is sole contact. No EB or broader buying committee access.",
+        "severity": "medium",
+        "category": "champion"
+      },
+      {
+        "risk": "POSITIVE SIGNAL: First nextStep populated, competitor identified, PBR established (£276K). Deal is activating.",
+        "severity": "low",
+        "category": "execution"
+      }
+    ],
+    "meddpiccUpdates": [],
+    "newMAPItems": [
+      {
+        "milestone": "Internal SP team pre-call and gap analysis",
+        "done": false,
+        "ownerShopify": "Ben + SP Team",
+        "ownerMerchant": "",
+        "date": "2026-03-04",
+        "notes": "NEW: Understand SP capabilities vs Bugaboo needs before Mar 11."
+      },
+      {
+        "milestone": "Provide business case support materials to Jordan",
+        "done": false,
+        "ownerShopify": "Ben",
+        "ownerMerchant": "Jordan",
+        "date": "2026-03-06",
+        "notes": "NEW: ROI data, references, SFCC competitive comparison."
+      },
+      {
+        "milestone": "🎯 SP call with Bugaboo — CRITICAL",
+        "done": false,
+        "ownerShopify": "Ben + SP Team",
+        "ownerMerchant": "Jordan + stakeholders",
+        "date": "2026-03-11",
+        "notes": "Make-or-break. If SP doesn't meet requirements, deal dies."
+      },
+      {
+        "milestone": "Post-SP call: Confirm viability and next steps",
+        "done": false,
+        "ownerShopify": "Ben",
+        "ownerMerchant": "Jordan",
+        "date": "2026-03-13",
+        "notes": "Immediate follow-up to capture decision."
+      }
+    ],
+    "completedMAPMilestones": [],
+    "mapGoLiveDate": null
+  },
+  "006OG00000JMQ91YAH": {
+    "sfDiffs": [
+      {
+        "field": "stage",
+        "newValue": "Demonstrate"
+      },
+      {
+        "field": "probability",
+        "newValue": 60
+      },
+      {
+        "field": "forecastCategory",
+        "newValue": "Commit"
+      },
+      {
+        "field": "nextStep",
+        "newValue": "20/02 MF: Supporting them with the business case, technical validation and with references. Stephen back from hols so picking up where left off."
+      }
+    ],
+    "dealRisks": [
+      {
+        "risk": "POSITIVE MOMENTUM: Stage Solution → Demonstrate, prob 40→60, Commit forecast. Active tech validation, biz case support, references underway.",
+        "severity": "low",
+        "category": "execution"
+      },
+      {
+        "risk": "BUSINESS CASE DEPENDENCY: Supporting them with the business case — if it doesn't land internally, deal stalls.",
+        "severity": "medium",
+        "category": "commercial"
+      },
+      {
+        "risk": "SINGLE-THREADED: Charlotte/Faye are primary contacts. No EB access confirmed despite Commit forecast.",
+        "severity": "medium",
+        "category": "champion"
+      },
+      {
+        "risk": "TIMELINE UNCERTAINTY: No confirmed close date or board decision date. Commit forecast but no hard deadline.",
+        "severity": "medium",
+        "category": "timeline"
+      }
+    ],
+    "meddpiccUpdates": [],
+    "newMAPItems": [
+      {
+        "milestone": "Deliver reference customers (2-3 DTC beauty brands)",
+        "done": false,
+        "ownerShopify": "Maissa",
+        "ownerMerchant": "Charlotte/Faye",
+        "date": "2026-03-04",
+        "notes": "NEW: References requested — late-stage buying signal."
+      },
+      {
+        "milestone": "Complete technical validation",
+        "done": false,
+        "ownerShopify": "Stephen (SE)",
+        "ownerMerchant": "Charlotte/Faye + Tech",
+        "date": "2026-03-06",
+        "notes": "Referenced in next step. Stephen back from holiday."
+      },
+      {
+        "milestone": "Business case support materials delivered",
+        "done": false,
+        "ownerShopify": "Maissa",
+        "ownerMerchant": "Charlotte/Faye",
+        "date": "2026-03-06",
+        "notes": "Supporting their business case per next step."
+      },
+      {
+        "milestone": "Identify and access economic buyer",
+        "done": false,
+        "ownerShopify": "Maissa",
+        "ownerMerchant": "Charlotte/Faye",
+        "date": "2026-03-06",
+        "notes": "NEW: Commit forecast but no EB access confirmed."
+      }
+    ],
+    "completedMAPMilestones": [],
+    "mapGoLiveDate": null
+  }
+}
