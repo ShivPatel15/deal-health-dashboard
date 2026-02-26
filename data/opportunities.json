@@ -1361,37 +1361,47 @@
     ],
     "dealUndercurrent": {
       "lastUpdated": "2026-02-26",
-      "sourceCallCount": 3,
-      "sourceTranscriptLines": 1200,
-      "surfaceStory": "Moda in Pelle is a £75.9K MCV deal in Deal Craft at 80% probability with a close date of Feb 27 — literally tomorrow. Looks like a straightforward partner-led deal approaching signature.",
+      "sourceCallCount": 4,
+      "sourceTranscriptLines": 492,
+      "surfaceStory": "Moda in Pelle is a £75.9K MCV deal in Deal Craft at 80% probability. Close date is tomorrow (Feb 27). Partner-led with Visualsoft. Looks like it should be done.",
       "sections": [
         {
-          "title": "1. Shopify has never spoken to the person who signs the cheque",
+          "title": "1. Anil joined the Sep 19 call — then never came back",
           "severity": "high",
-          "content": "Anil Patel (Decision Maker) was invited to ALL 3 calls and attended NONE. 62 emails sent, 22 replies — he engages via email but won't get on a call. Chloe Sherwood (Finance Director) has ZERO engagement. CEO Simon Pickering has ZERO conversations. This deal is at 80% probability and Commit forecast with absolutely no direct live engagement with any economic buyer."
+          "content": "Anil Patel actually WAS on the very first call (Sep 19, 2025). He participated, said 'sounds perfect,' confirmed he'd sign the contract, even joked about David's gray hairs. Then he was invited to every subsequent call and attended NONE. Something between Sep 19 and Sep 23 changed. He went from active participant to email-only ghost. He told David he's 'ready to sign this week' (per Yasmine, Jan 21) but won't get on a call. The pattern suggests Anil made an internal decision to delegate this entirely to Matt — which means Matt is operating without real-time EB support."
         },
         {
-          "title": "2. David Duke is the real deal — but he's an outsider",
-          "severity": "medium",
-          "content": "The most active 'champion' is David Duke from Visualsoft — the implementation partner, not an internal employee. He's listed as Economic Buyer in Salesforce, which is unusual. He relays Anil's intent secondhand: 'Anil has told David that he's ready to sign this week.' The entire deal is being conducted through an intermediary who has his own commercial interest in the outcome."
-        },
-        {
-          "title": "3. This deal has been 'about to sign' for 18 months",
+          "title": "2. Matt is being radically honest — and no one is hearing the warning",
           "severity": "high",
-          "content": "Deal created July 2024. Matt said 'aim of signing next month' in December 2025 — slipped. Yasmine said 'ready to sign this week' on Jan 21 — slipped. Current target end of Feb. Close date is literally tomorrow. Matt himself warned: 'I don't want to sit here and say to you 100% we can get it done. We've kind of done that in the past. It hasn't worked out.' The pattern of optimistic timelines that slip is the most reliable signal in this deal."
+          "content": "Matt Holden said on the Dec 16 call: 'I don't want to sit here and say to you 100% we can get it done. We've kind of done that in the past. It hasn't worked out.' He also said: 'literally everything for like the last four months has just been an absolute nightmare.' And: 'the last 12 months have been tricky. I don't think we put our best foot forward. Probably damaged the brand more than we should have done.' Matt is telegraphing that this organization has a pattern of committing to things and not following through. He's warning Shopify, not promising them."
         },
         {
-          "title": "4. POS showstoppers are unresolved landmines",
-          "severity": "medium",
-          "content": "Matt identified 'four or five things which in our world will be showstoppers' for POS rollout across 27 stores. These haven't been scoped or addressed. If they surface post-signature, they could derail implementation satisfaction or create buyer's remorse."
+          "title": "3. The investment just closed and the board has bigger priorities",
+          "severity": "high",
+          "content": "Matt said on Dec 16: 'the investments have literally just happened announced about a week ago. So therefore we're still dotting the eyes and crossing the tees... presenting to the board what the P&L looks like, what the team structures look like, long-term three five year goals — therefore this is quite low on the agenda with them.' The new owners gave a 'green light to pretty much do what we want from an ecom perspective' — but a green light isn't a mandate. Board is focused on P&L, team structures, and strategy. Platform migration is not top of mind."
         },
         {
-          "title": "5. The SEO fear is real and under-addressed",
+          "title": "4. The domain litigation is consuming management attention",
           "severity": "medium",
-          "content": "Matt stated 'It's primarily the SEO stuff that we're worried about' — for a retailer whose online presence is their growth channel, SEO migration risk is existential. No migration plan or case studies have been shared to address this."
+          "content": "Across two calls (Dec 16 and Jan 21), significant time was spent discussing domain litigation with a US-based company, the Russell & Bromley bankruptcy precedent, and contingency rebranding plans. Matt described it as having 'kind of helping us with discussions on the domain' being an active workstream. This isn't just a legal footnote — it's consuming real management bandwidth from the same people who need to drive the Shopify migration forward."
+        },
+        {
+          "title": "5. Yasmine admitted she's losing internal credibility on this deal",
+          "severity": "high",
+          "content": "On the Jan 21 call, Yasmine said: 'I've been holding out on these lower rates that I'd offered to you guys before December. But really we're starting — we're verging on losing credibility internally on pushing that we maintain this discount saying that you guys would be able to move forwards and then obviously things have been delayed.' This is an AE openly telling the merchant that her own organization is questioning whether this deal is real. When the seller's side loses faith, the urgency to serve the buyer diminishes."
+        },
+        {
+          "title": "6. The POS showstoppers are real and specific",
+          "severity": "medium",
+          "content": "Matt said on Dec 16: 'I think there's four or five things which in our world will be showstoppers' regarding POS. But rather than being vague complaints, he described having had 'a brilliant demo from the VS guys last week for the point of sale' that showed 'the art of the possible.' The showstoppers are specific functional requirements that haven't been scoped. David Duke confirmed: 'We've not got that far yet. We've not scoped our material properly yet.' These will surface post-signature as implementation friction."
+        },
+        {
+          "title": "7. David Duke is running the deal from a pub",
+          "severity": "low",
+          "content": "Not a character judgment — but a signal about deal priority. On the Sep 23 payments call, David joined from 'a local pub' after a business lunch, described himself as 'a passenger anyway, so it's fine,' and was on his way to a cookery school that evening. On Dec 16, he was about to go skiing. The Visualsoft partner who is the deal's connective tissue treats these calls as casual check-ins between social engagements. The energy matches an advisory relationship, not someone driving urgency."
         }
       ],
-      "netAssessment": "This deal has been one conversation away from closing for 18 months. The biggest risk isn't that they choose someone else — it's that the decision-maker (Anil) continues to deprioritize signing because no one from Shopify has ever spoken to him directly. The deal is real, but the close date should be treated with extreme skepticism."
+      "netAssessment": "This deal's undercurrent is organizational inertia dressed up as progress. Matt is honest about the pattern — they commit and don't follow through. Anil attended one call, said yes, and disappeared. The investment just closed and the board has bigger priorities. Yasmine is losing internal credibility holding rates. The Russell & Bromley domain situation is eating management bandwidth. The deal is real in intent but the organization is structurally unable to prioritize it right now. Close date tomorrow is fiction."
     }
   },
   {
