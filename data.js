@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-26T16:52:27.398Z",
+  "generatedAt": "2026-02-26T16:59:14.945Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -2549,37 +2549,47 @@ const DEAL_DATA = {
       ],
       "dealUndercurrent": {
         "lastUpdated": "2026-02-26",
-        "sourceCallCount": 3,
-        "sourceTranscriptLines": 1800,
-        "surfaceStory": "Whittard of Chelsea is an £69K MCV deal at 80% probability migrating from Salesforce Commerce Cloud Site Genesis. CEO attended a call. Fiona (champion) emailed saying she's good to sign. Straightforward.",
+        "sourceCallCount": 2,
+        "sourceTranscriptLines": 565,
+        "surfaceStory": "Whittard of Chelsea is a £69K MCV deal at 80% in Deal Craft. Migrating from Salesforce Commerce Cloud Site Genesis. CEO attended a call. Fiona (champion) said she's good to sign. Partner selection underway. Straightforward.",
         "sections": [
           {
-            "title": "1. The deal economics are quietly deteriorating",
+            "title": "1. This deal started as a weird checkout hack — and the original idea was abandoned",
+            "severity": "medium",
+            "content": "The Jan 2025 call reveals the deal didn't start as a platform migration. Alice Bennett's original idea was to integrate Shopify checkout INTO their existing Salesforce stack — a Frankenstein hybrid nobody had done before. Sarah (SE) said 'I don\\'t think it would be possible to make it a direct payment gateway.' Alice admitted: 'I know it\\'s weird and I\\'m not sure it\\'s been done very much.' The deal only became a full migration when the checkout-first approach proved unfeasible. The current migration framing is the Plan B, not the original vision."
+          },
+          {
+            "title": "2. Fiona is brand new to the role and this is her first replatform",
             "severity": "high",
-            "content": "3yr total revenue dropped 5% (£714.9K → £676K) despite Payments GPV increasing 35%. PBR dropped 25% (£406K → £303K). Close date slipped a full month (Feb 27 → Mar 30). This pattern suggests rate review concessions compressed margin to win payments volume — the deal is getting cheaper while taking longer."
+            "content": "Fiona Scott said on the Dec 9 call: 'it\\'s my first replatform' and 'I\\'ve been doing that for about three months.' She's been at Whittard 14 years but in finance and planning — she took over as Head of eCommerce in September 2025. She explicitly positioned herself as the business person, not the technical one: 'I have the experts around me is how I like to say it who tell me whether we can or can\\'t do things.' She's driving a complex platform migration with three months of ecommerce experience."
           },
           {
-            "title": "2. Partner selection is the real blocker, not the contract",
+            "title": "3. Alice built the knowledge — then went on maternity leave",
             "severity": "high",
-            "content": "The next step reads: 'Adriana to set up meeting with Nathan and Fiona to discuss final steps + Partner choice.' Until the implementation partner is selected, the contract won't sign. This is a dependency Shopify doesn't control, and it's been the consistent bottleneck."
+            "content": "Alice Bennett has 10 years at Whittard, ran the original Salesforce replatform, and was the person who understood the technical stack deeply. On the Dec 9 call, Fiona mentioned: 'Alice goes on maternity next week.' Alice was the one who drove the original Shopify evaluation, understood the Salesforce integration complexities, and had the historical context. That institutional knowledge walked out the door. Fiona even said 'Alice knows me, so she wrote me' — suggesting Fiona leans on Alice's judgment."
           },
           {
-            "title": "3. Alice Bennett's maternity leave created a champion gap",
-            "severity": "medium",
-            "content": "Alice Bennett was the original champion and Digital Growth Manager who drove the evaluation. She's now on maternity leave. Fiona Scott (Head of eCommerce) stepped in as the primary contact. While Fiona is capable, the transition means the person who built the original business case internally is no longer available to push it across the line."
+            "title": "4. Nathan (CEO) and the CFO are the decision-makers — but we have zero transcript evidence",
+            "severity": "high",
+            "content": "Fiona stated clearly: 'between him and the CFO will sign off cost.' Nathan attended the Jan 28 call but there's no transcript. We don\\'t know what he said, what he asked, what concerns he raised, or what he committed to. The CFO\\'s name isn\\'t even known. The two people who control the budget are essentially invisible to us — everything we know about their priorities is filtered through Fiona's three-month-old perspective."
           },
           {
-            "title": "4. No transcript from the most important call",
+            "title": "5. The seasonality creates a hard wall that narrows the real decision window",
             "severity": "medium",
-            "content": "CEO Nathan Smith attended the Jan 28 call — the first direct EB engagement. But there's no transcript available. We don't know what he said, what concerns he raised, or what he committed to. The most important data point in this deal is a black box."
+            "content": "Fiona said: '40% of total year sales' happen in November-December, and 'August the problem is just there\\'s nobody here, everybody goes on holiday.' She set July 31 as the internal deadline because 'we\\'ve been here before where we\\'ve had to launch a loyalty program in August and it was painful.' This means the real go-live window is extremely narrow — miss July, and they can\\'t launch until January 2027. Every week of partner selection delay compresses the implementation timeline against a wall that won\\'t move."
           },
           {
-            "title": "5. Paper Process is nearly zero",
-            "severity": "medium",
-            "content": "Paper Process scores 1/7 (14%) — the lowest of any MEDDPICC section. No procurement process discussed, no redlines explored, no legal timeline mapped, no contract sent. For a deal at 80% probability, this is a massive gap between forecast confidence and execution readiness."
+            "title": "6. The payment rate comparison is a ticking time bomb",
+            "severity": "high",
+            "content": "Whittard is currently at ~0.55% payment fees. Shopify's rack rate is 1.3% domestic. Fiona said they're 'open to changing' from WorldPay but Alice immediately flagged 'it\\'s higher.' Shiv pitched Shop Pay's conversion uplift narrative, but Fiona's finance background means she counts basis points. The rate review was submitted Feb 19 — if the numbers come back unfavorably, the commercial case collapses for someone who spent 14 years in finance before moving to ecommerce."
+          },
+          {
+            "title": "7. Shopify's own team was scrambling and applying internal pressure",
+            "severity": "low",
+            "content": "Shiv said on the Dec 9 call: 'we have internal deadlines of December 16th of like being able to put forth any asks for concessions.' Adriana added: 'this is like normally I wouldn\\'t apply that pressure, but I\\'m really just trying to get that through for you as well.' The Shopify team was openly acknowledging they were pushing timeline pressure driven by their own internal calendar, not the merchant's readiness. Fiona handled it gracefully but the pressure was visible."
           }
         ],
-        "netAssessment": "This deal is real — Site Genesis EOL forces action and the CEO has engaged. But the economics are eroding with each iteration, and the deal can't close until a partner is selected. The risk is that partner selection drags through March, pushing the close date again, while Shopify continues making pricing concessions to maintain momentum."
+        "netAssessment": "This deal has real momentum — Site Genesis EOL forces action, Fiona is motivated, and the CEO has engaged. But the undercurrent is a knowledge vacuum: Alice (who understood everything) is gone, Fiona (who controls the process) has 3 months of ecommerce experience, and the CEO/CFO (who control the budget) are invisible to us. The payment rate gap is the commercial risk — Fiona's finance brain will do the math. The July go-live wall means every week of partner selection delay isn't just a delay, it's a compression of implementation risk. This deal needs Fiona to trust Shopify's team enough to fill the knowledge gap Alice left behind."
       },
       "mutualActionPlan": {
         "merchantName": "Whittard of Chelsea",
