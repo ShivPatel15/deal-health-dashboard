@@ -9558,37 +9558,47 @@
     ],
     "dealUndercurrent": {
       "lastUpdated": "2026-02-26",
-      "sourceCallCount": 7,
-      "sourceTranscriptLines": 2800,
-      "surfaceStory": "Essentiel Antwerp is an £82.8K Belgian fashion brand evaluating Shopify Plus for D2C + POS across 50 stores. RFP is live with 7 agencies. Build targeted for April.",
+      "sourceCallCount": 5,
+      "sourceTranscriptLines": 1055,
+      "surfaceStory": "Essentiel Antwerp is an £82.8K Belgian fashion brand evaluating Shopify Plus for D2C + POS across 50 stores. RFP is live with 7 agencies. Build targeted for April. Management received the presentation positively.",
       "sections": [
         {
-          "title": "1. The MCV dropped 38% and no one's talking about it",
-          "severity": "high",
-          "content": "MCV fell from £132,800 to £82,800 — a 38% value erosion. This could indicate scope reduction, pricing concession, or deal downsizing. The narrative hasn't acknowledged this drop, which means either the deal was re-scoped without updating the analysis, or a significant concession was made to keep the deal alive."
-        },
-        {
-          "title": "2. The ERP decision is the hidden dependency",
-          "severity": "high",
-          "content": "Filip noted the 'massive cost factor' of upgrading Business Central. The ERP modernization decision directly shapes Shopify integration architecture. If Essentiel decides to keep or change their ERP approach, it could fundamentally alter the Shopify implementation plan. This dependency is acknowledged but not controlled."
-        },
-        {
-          "title": "3. Close date is 18 days away but 7 agencies are still being evaluated",
-          "severity": "high",
-          "content": "March 16 close date with 7 agencies still in RFP evaluation and build not starting until April. The math doesn't work. This close date is either aspirational or the definition of 'close' means something different than contract signature."
-        },
-        {
-          "title": "4. The AE transition happened at a critical moment",
+          "title": "1. Filip is doing the evaluation himself because he doesn't trust anyone else to do it right",
           "severity": "medium",
-          "content": "Ben Rees replaced Yasmine Fazeli and hasn't yet built a direct CFO relationship with Koenraad. The CFO was actively engaged on financials. The new AE needs to establish trust with the economic buyer quickly or risk losing the commercial momentum Yasmine built."
+          "content": "Filip said on Oct 15: 'if we rely purely on other people's experiences, they will miss exactly the points that we will suffer from later.' He gave a concrete example: 'We scoped it one day and we found 10 things that are not working. Internationalization doesn't work. Integration with markets not supported. Selling with multiple currencies on different entities doesn't work. None of these customers have this in-depth knowledge and they're already working with the solution for more than two years.' Filip has been burned before and is doing exhaustive first-principles validation of every integration point himself. This is why timelines keep extending."
         },
         {
-          "title": "5. Centra is lurking as a fashion-native alternative",
+          "title": "2. The ERP decision is the true gating factor — and it just got more complex",
+          "severity": "high",
+          "content": "On Jan 8, Filip revealed the ERP situation has cascaded: 'we've had to postpone' the LS Retail go-live. The wholesale ERP migrated to ItsPerfect, but DTC and retail remain on Business Central with an outdated LS Retail extension that needs to be ripped out. Filip explained: 'the cost for that upgrade is a licensing cost that is really a high cost... it's something that we have to decide on if we can absorb that because it would also come in one year for us.' Management needs to approve the ERP upgrade cost BEFORE the Shopify build can start — because Shopify has to be built against the right ERP version. The ERP cost could blow the budget."
+        },
+        {
+          "title": "3. The CFO is new and the business won't count conversion uplift as ROI",
+          "severity": "high",
+          "content": "Filip said on Dec 9: 'we cannot compensate an increase in payments for example with potentially uplifts in revenue from a better experience because that's not a guarantee. That's the kind of feedback I receive.' He added: 'we also see that it's not like we're moving significant business. We're moving over 50 million worth of revenue to you guys... if we move with Shopify, it also means taking a leap of faith and putting all our eggs in one basket.' The CFO Koenraad is only a few months in and the organization has been burned by a failed ERP migration. They will only count hard cost savings, not projected uplift."
+        },
+        {
+          "title": "4. The Adyen vs Shopify Payments comparison was done backwards — and Filip called it out",
           "severity": "medium",
-          "content": "Centra is listed as the competitor and is positioned as strong in fashion/apparel with headless architecture. With 7 agencies evaluating, some may recommend non-Shopify platforms. The competitive landscape could shift based on agency recommendations."
+          "content": "On Dec 9, Filip confronted the Shopify team directly: 'Please explain your payment team that you're trying to convince customers to come to Shopify, not the one who is on Shopify currently working with Adyen and then considering moving to Shopify payments.' He said: 'I can tell you right now that that's going to be a really difficult decision and it might actually be the one that's going to make or break this adoption of the platform.' Shopify's payments team was comparing Adyen-on-Shopify vs Shopify Payments, while Filip needs current-Adyen-on-Magento vs Shopify Payments. Different baseline, different math, different conclusion."
+        },
+        {
+          "title": "5. The Shopify outage became an internal joke — and a weapon against Filip",
+          "severity": "medium",
+          "content": "Filip said on Dec 9: 'everybody came by my desk last week when Shopify decided to have a global outage because of the Cloudflare thing. I had about everybody that knew I was working on this come by my desk and said well there goes your project right?' And earlier: 'one of our creatives was showing our photography team how they liked the Acne Studios store... while he had it open they had a 500 error and that's when everybody started laughing oh this is Shopify and Philip is working on that.' In an organization already traumatized by failed tech migrations, a Shopify outage becomes internal ammunition against the project."
+        },
+        {
+          "title": "6. Filip has done more technical due diligence than most SEs would",
+          "severity": "low",
+          "content": "By Oct 15, Filip had already personally validated: headless vs liquid (chose liquid), SEO migration compatibility, back-in-stock notifications, Zendesk integration, digital/social integrations, RFID evaluation, Adyen POS incompatibility, gift card feasibility, and begun checkout and payment method evaluation. He built test environments, connected to the ERP, identified ItsPerfect connector limitations, and scoped out middleware requirements. This is a CTO-level evaluation being run by an ecommerce manager because 'we need to do our own homework and we need to do it properly this time.'"
+        },
+        {
+          "title": "7. The payment rate gap isn't the deal-breaker — Filip said so directly",
+          "severity": "low",
+          "content": "On Jan 8, Filip said about the increased payment costs: 'the upside we see for example just in reduction of some development costs would almost cover this in year one. So I don't think that's going to be a deal breaker.' He added: 'if we can get better rates in the future great... but that's not the deal-breaker for the business case at the moment, I think.' Unlike most deals where payments kill the commercial case, Filip has already absorbed the rate increase into his model. The actual deal-breaker is whether management approves the combined ERP + Shopify budget as a single package."
         }
       ],
-      "netAssessment": "A deal with genuine momentum (CFO engaged, RFP live, management positive) but the timeline is unrealistic and the MCV erosion signals commercial pressure. The ERP dependency creates implementation risk that could delay or reshape the project even after signing. Watch for the close date to slip to late March or April."
+      "netAssessment": "This is the most thoroughly evaluated deal on the board — Filip has done more first-principles validation than any merchant in the pipeline. The deal isn't at risk because of platform fit, payment rates, or competitive pressure. It's at risk because the ERP upgrade cost (LS Retail removal + BC upgrade) could blow the combined budget, and management won't approve Shopify without the ERP path being clear. Filip has told us directly that conversion uplift won't count in the business case — only hard cost savings. The 7-agency RFP and April build target are real, but they're downstream of a management decision on ERP budget that hasn't been made yet. The MCV drop from £132.8K to £82.8K likely reflects scope being rationalized to make the budget work."
     }
   },
   {
