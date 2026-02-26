@@ -8162,36 +8162,46 @@
     "dealUndercurrent": {
       "lastUpdated": "2026-02-26",
       "sourceCallCount": 3,
-      "sourceTranscriptLines": 1500,
-      "surfaceStory": "Sofa.com (owned by Frasers Group) wants to migrate from Hybris to Shopify Plus. VML built a strong business case. Close date March 26.",
+      "sourceTranscriptLines": 837,
+      "surfaceStory": "Sofa.com wants to migrate from Hybris to Shopify Plus. VML built a strong £600K TCO savings case. Close date March 26. Sounds like a well-supported deal with a clear financial case.",
       "sections": [
         {
-          "title": "1. The deal is stuck at a gate Shopify cannot open",
+          "title": "1. They've been waiting 2+ months just to get a meeting with Frasers Group IT",
           "severity": "high",
-          "content": "Tom and Blayne have been waiting over 2 months just to get an initial meeting with Frasers Group IT. Until Group IT confirms the current system's inadequacy, nothing can progress. Shopify has no access path to Group IT and no ability to influence this timeline."
+          "content": "On the Feb 11 call, Blayne said: 'this meeting we've been waiting for. Probably nearly about two months we've been waiting to have this meeting.' And: 'it's in the diary, but it's one of those where it's been in the diary for ages and they keep pushing it back and pushing it back.' Tom added: 'we're actually struggling to get the first meeting out the way because they're notoriously pretty slow.' The deal's entire critical path runs through a meeting that keeps getting rescheduled by people who don't care about sofa.com's timeline."
         },
         {
-          "title": "2. Sofa.com is a 'small cog in a big wheel'",
+          "title": "2. Tom described sofa.com as a 'small cog in a big wheel'",
           "severity": "high",
-          "content": "Sofa.com sits within Frasers Group's centralized, archaic tech infrastructure. They don't control their own IT decisions. The Group IT team manages hundreds of brands and sofa.com is not a priority. This structural dynamic means the deal's timeline is governed by an entity that has no relationship with Shopify."
+          "content": "Tom said on Feb 11: 'sofa.com is such a small cog in the big wheel that you know they've constantly got things prioritizing over us.' This isn't a complaint — it's a structural reality. Frasers Group manages hundreds of brands. Sofa.com's platform migration isn't on anyone's radar at the group level. The decision authority sits with people who don't think about sofa.com most days."
         },
         {
-          "title": "3. There is no compelling event",
+          "title": "3. The approval process is multi-layered and nobody controls all of it",
           "severity": "high",
-          "content": "No Hybris contract renewal date, no system end-of-life, no board mandate with a deadline. The H2 2026 go-live target is aspirational. Without a hard forcing function, this deal can drift indefinitely within Frasers Group's slow bureaucratic approval process."
+          "content": "Tom mapped the process on Feb 11: First, Group IT has to confirm they can't do it on Frasers infrastructure (a meeting they can't get). Then it goes to the 'digital IT manager' (name unknown). Then to the Director of sofa.com. Then legal review. Tom said: 'in order to get it signed off we have to go through different layers of approval.' And: 'the guy's role is like the head of luxury and commercial. Sofa.com is just one of his many portfolio of companies that he runs.' Every gate is owned by someone who has bigger priorities."
         },
         {
-          "title": "4. The AE just changed during the critical window",
+          "title": "4. Tom built his own ROI calculation — and doesn't fully trust the one Yasmine did",
           "severity": "medium",
-          "content": "Maissa Fatte replaced Yasmine Fazeli (maternity leave) as of the Feb 11 call. This is the third call in the entire deal. Maissa is inheriting a deal that's stuck, with relationships she didn't build, at the exact moment when momentum matters most."
+          "content": "Tom said on Feb 11: 'I put together this three-year ROI calculation on Shopify basically comparing our current Hybris website. If I'm honest, I didn't really do it as thoroughly as I feel comfortable presenting it to the director.' He asked Maissa to review it, then added: 'don't include Jasmine so it looked like I wasn't listening when we had that call and I was listening.' Tom trusts his own numbers more than Shopify's — he wants Maissa to validate his math without revealing he's rebuilding the business case from scratch."
         },
         {
-          "title": "5. Merchant Intent is 'Uncommitted'",
+          "title": "5. The Everlast USA precedent exists but hasn't been leveraged",
           "severity": "medium",
-          "content": "Despite being forecast as Commit at 60% probability, the merchant intent field says 'Uncommitted.' This is the most honest signal in the deal. The merchant hasn't committed because they can't — the decision isn't theirs to make until Group IT approves."
+          "content": "Blayne mentioned on Feb 11: 'we already have Everlast USA on Shopify, so there's already been a process where another fascia from Frasers group has moved on to Shopify.' This is the strongest internal argument — proof that Frasers Group IT has already approved a Shopify migration for another brand. But nobody has connected the dots: nobody has talked to whoever approved Everlast, nobody has used that as the precedent to shortcut the Group IT meeting, and nobody from Shopify has found internal connections to Frasers Group IT through the Everlast relationship."
+        },
+        {
+          "title": "6. The conversion rate is 0.3% and they know it's the platform's fault",
+          "severity": "medium",
+          "content": "Tom said on the Nov 17 TCO call: 'Our problem is not necessarily traffic onto the website, but it's the conversion side of it, which is why I think this is a really good idea.' Sam from VML described the checkout as 'clunky' and said: 'if you could reduce what I call a clunky checkout right now to be a little bit more streamlined.' A 0.3% conversion rate on a furniture site is abysmal — industry average is 1-2%. The business case writes itself, but the people who can approve it aren't looking at it."
+        },
+        {
+          "title": "7. Sam from VML is openly advocating — 'this is the right move'",
+          "severity": "low",
+          "content": "Sam El-Yafi from VML said on the Nov 17 call: 'I'm not saying this just because I'm an agency partner. I mean, for God's sake, I'm telling you that we're going to half our costs. It's more so that if we're not the one to tell you, someone else will. And that would not show us to be good partners.' VML is genuinely advocating for this migration, not just selling implementation hours. They built the TCO case showing £600K savings and proposed Patchworks as the integration solution. The partner is more motivated than the merchant's own organization."
         }
       ],
-      "netAssessment": "This deal is structurally blocked. The business case is strong (£600K savings, 12-month payback), the champions are genuine, but the decision authority sits with Frasers Group IT — an entity with zero Shopify engagement and no urgency to act. The Everlast USA precedent (another Frasers brand on Shopify) is the only lever, and it hasn't been pulled effectively yet."
+      "netAssessment": "This deal is structurally blocked by organizational bureaucracy, not by any commercial, technical, or competitive issue. The business case is strong (£600K savings, 12-month payback), VML is actively championing it, and sofa.com's own team wants it. But sofa.com doesn't control its own IT decisions. The deal can't progress until Frasers Group IT — an entity with zero Shopify engagement and no urgency — agrees to a meeting they've been rescheduling for 2+ months. The Everlast USA precedent is the one lever that could shortcut this process, and nobody has pulled it. Until someone connects Shopify's internal Everlast relationship to Frasers Group IT, this deal sits in purgatory."
     }
   },
   {
