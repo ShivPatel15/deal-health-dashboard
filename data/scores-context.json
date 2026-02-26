@@ -1,0 +1,4166 @@
+[
+  {
+    "id": "0068V0000113rSIQAY",
+    "name": "Moda in Pelle",
+    "totalScore": 31.5,
+    "sections": {
+      "metrics": [
+        {
+          "idx": 0,
+          "q": "Do we know the business reasons as to why they are migrating",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Do we have specific quantifiable goals aligned with the proj",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Do they need to make a platform change to achieve this goal?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we understand the impact if this goal isn't achieved?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Is there a compelling event in place driving action?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Have I validated the metrics with the customer?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Are the metrics compelling enough to justify change?",
+          "answer": "Yes",
+          "score": 1
+        }
+      ],
+      "economicBuyer": [
+        {
+          "idx": 0,
+          "q": "Have I identified the true economic buyer?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Do we know who's signing the contract?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Do we have access to this individual?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 3,
+          "q": "Can we get access?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we know what the economic buyer cares about most?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Do you know how they make decisions and allocate budget?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "decisionProcess": [
+        {
+          "idx": 0,
+          "q": "Do we know how they will be making the decision?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Do we know who's involved / buying committee?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Do we know when they want to make a decision by?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 3,
+          "q": "Do we know what is driving this timeline?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we know if they have tried to solve this problem before?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Do we know what will happen if they do nothing?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Have you validated this process with the buyer?",
+          "answer": "No",
+          "score": 0
+        }
+      ],
+      "decisionCriteria": [
+        {
+          "idx": 0,
+          "q": "Do we know what criteria the customer is using to evaluate v",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Have we surfaced technical complications (integrations)?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 3,
+          "q": "Do we know how payments play into their decision?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we have a mutual action plan in place?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 5,
+          "q": "Did we help shape those criteria in our favour?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Do we know who defined the decision criteria?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "paperProcess": [
+        {
+          "idx": 0,
+          "q": "Do we know what their procurement process is?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Are there likely to be redlines?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "If redlines, how long does review take?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 3,
+          "q": "Do we know how long it will take?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we have contract details?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Have we sent the contract?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Do we know target date for signature?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "identifyPain": [
+        {
+          "idx": 0,
+          "q": "Do we know their current issues and why they are reviewing t",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Have they tried to resolve this issue in the past?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "q": "Do we know how pains are affecting business operations?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know what teams are affected and to what extent?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we know how urgent it is to solve this pain?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Can they solve this pain using another option?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Do we know why this problem is important to solve now?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 7,
+          "q": "Is our solution uniquely positioned to solve this pain?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "champion": [
+        {
+          "idx": 0,
+          "q": "Have you identified a true champion (influence + motivation)",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Does your champion have political capital and credibility?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Have they given insights you wouldn't get otherwise?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Are they connected with the key decision makers?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Have you been introduced to the decision maker?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 5,
+          "q": "Are they willing to bring you into the board/buying group?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 6,
+          "q": "Why are they such a champion for you?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "competition": [
+        {
+          "idx": 0,
+          "q": "Do we know who else the customer is evaluating?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Have we asked if doing nothing is an option?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Are there internal alternatives to our solution?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 3,
+          "q": "Do we know why alternatives are being evaluated?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we know why we would win or lose?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ]
+    }
+  },
+  {
+    "id": "006OG00000EZIy6YAH",
+    "name": "Whittard of Chelsea",
+    "totalScore": 36.5,
+    "sections": {
+      "metrics": [
+        {
+          "idx": 0,
+          "q": "Do we know the business reasons as to why they are migrating",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Do we have specific quantifiable goals aligned with the proj",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "q": "Do they need to make a platform change to achieve this goal?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we understand the impact if this goal isn't achieved?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Is there a compelling event in place driving action?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Have I validated the metrics with the customer?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Are the metrics compelling enough to justify change?",
+          "answer": "Yes",
+          "score": 1
+        }
+      ],
+      "economicBuyer": [
+        {
+          "idx": 0,
+          "q": "Have I identified the true economic buyer?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Do we know who's signing the contract?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Do we have access to this individual?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 3,
+          "q": "Can we get access?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we know what the economic buyer cares about most?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Do you know how they make decisions and allocate budget?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "decisionProcess": [
+        {
+          "idx": 0,
+          "q": "Do we know how they will be making the decision?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Do we know who's involved / buying committee?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "q": "Do we know when they want to make a decision by?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know what is driving this timeline?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we know if they have tried to solve this problem before?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Do we know what will happen if they do nothing?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Have you validated this process with the buyer?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "decisionCriteria": [
+        {
+          "idx": 0,
+          "q": "Do we know what criteria the customer is using to evaluate v",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Have we surfaced technical complications (integrations)?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know how payments play into their decision?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we have a mutual action plan in place?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 5,
+          "q": "Did we help shape those criteria in our favour?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Do we know who defined the decision criteria?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "paperProcess": [
+        {
+          "idx": 0,
+          "q": "Do we know what their procurement process is?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 1,
+          "q": "Are there likely to be redlines?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 2,
+          "q": "If redlines, how long does review take?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 3,
+          "q": "Do we know how long it will take?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 4,
+          "q": "Do we have contract details?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Have we sent the contract?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 6,
+          "q": "Do we know target date for signature?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "identifyPain": [
+        {
+          "idx": 0,
+          "q": "Do we know their current issues and why they are reviewing t",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Have they tried to resolve this issue in the past?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "q": "Do we know how pains are affecting business operations?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know what teams are affected and to what extent?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we know how urgent it is to solve this pain?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Can they solve this pain using another option?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Do we know why this problem is important to solve now?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 7,
+          "q": "Is our solution uniquely positioned to solve this pain?",
+          "answer": "Yes",
+          "score": 1
+        }
+      ],
+      "champion": [
+        {
+          "idx": 0,
+          "q": "Have you identified a true champion (influence + motivation)",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Does your champion have political capital and credibility?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "q": "Have they given insights you wouldn't get otherwise?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Are they connected with the key decision makers?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Have you been introduced to the decision maker?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Are they willing to bring you into the board/buying group?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Why are they such a champion for you?",
+          "answer": "Yes",
+          "score": 1
+        }
+      ],
+      "competition": [
+        {
+          "idx": 0,
+          "q": "Do we know who else the customer is evaluating?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Have we asked if doing nothing is an option?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "q": "Are there internal alternatives to our solution?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 3,
+          "q": "Do we know why alternatives are being evaluated?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we know why we would win or lose?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ]
+    }
+  },
+  {
+    "id": "006OG00000GJ5IvYAL",
+    "name": "The Dune Group",
+    "totalScore": 37,
+    "sections": {
+      "metrics": [
+        {
+          "idx": 0,
+          "q": "Do we know the business reasons as to why they are migrating",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Do we have specific quantifiable goals aligned with the proj",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Do they need to make a platform change to achieve this goal?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we understand the impact if this goal isn't achieved?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Is there a compelling event in place driving action?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Have I validated the metrics with the customer?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Are the metrics compelling enough to justify change?",
+          "answer": "Yes",
+          "score": 1
+        }
+      ],
+      "economicBuyer": [
+        {
+          "idx": 0,
+          "q": "Have I identified the true economic buyer?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Do we know who's signing the contract?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "q": "Do we have access to this individual?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 3,
+          "q": "Can we get access?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we know what the economic buyer cares about most?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 5,
+          "q": "Do you know how they make decisions and allocate budget?",
+          "answer": "Yes",
+          "score": 1
+        }
+      ],
+      "decisionProcess": [
+        {
+          "idx": 0,
+          "q": "Do we know how they will be making the decision?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Do we know who's involved / buying committee?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Do we know when they want to make a decision by?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know what is driving this timeline?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we know if they have tried to solve this problem before?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 5,
+          "q": "Do we know what will happen if they do nothing?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 6,
+          "q": "Have you validated this process with the buyer?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "decisionCriteria": [
+        {
+          "idx": 0,
+          "q": "Do we know what criteria the customer is using to evaluate v",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "q": "Have we surfaced technical complications (integrations)?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 3,
+          "q": "Do we know how payments play into their decision?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we have a mutual action plan in place?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Did we help shape those criteria in our favour?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 6,
+          "q": "Do we know who defined the decision criteria?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "paperProcess": [
+        {
+          "idx": 0,
+          "q": "Do we know what their procurement process is?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Are there likely to be redlines?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "If redlines, how long does review take?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 3,
+          "q": "Do we know how long it will take?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we have contract details?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Have we sent the contract?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Do we know target date for signature?",
+          "answer": "Yes",
+          "score": 1
+        }
+      ],
+      "identifyPain": [
+        {
+          "idx": 0,
+          "q": "Do we know their current issues and why they are reviewing t",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Have they tried to resolve this issue in the past?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 2,
+          "q": "Do we know how pains are affecting business operations?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know what teams are affected and to what extent?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we know how urgent it is to solve this pain?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Can they solve this pain using another option?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Do we know why this problem is important to solve now?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 7,
+          "q": "Is our solution uniquely positioned to solve this pain?",
+          "answer": "Yes",
+          "score": 1
+        }
+      ],
+      "champion": [
+        {
+          "idx": 0,
+          "q": "Have you identified a true champion (influence + motivation)",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Does your champion have political capital and credibility?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "q": "Have they given insights you wouldn't get otherwise?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Are they connected with the key decision makers?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Have you been introduced to the decision maker?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 5,
+          "q": "Are they willing to bring you into the board/buying group?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Why are they such a champion for you?",
+          "answer": "Yes",
+          "score": 1
+        }
+      ],
+      "competition": [
+        {
+          "idx": 0,
+          "q": "Do we know who else the customer is evaluating?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Have we asked if doing nothing is an option?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "q": "Are there internal alternatives to our solution?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 3,
+          "q": "Do we know why alternatives are being evaluated?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we know why we would win or lose?",
+          "answer": "Yes",
+          "score": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "006OG00000HnVs8YAF",
+    "name": "Wacoal Europe",
+    "totalScore": 43,
+    "sections": {
+      "metrics": [
+        {
+          "idx": 0,
+          "q": "Do we know the business reasons as to why they are migrating",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Do we have specific quantifiable goals aligned with the proj",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "q": "Do they need to make a platform change to achieve this goal?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we understand the impact if this goal isn't achieved?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Is there a compelling event in place driving action?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Have I validated the metrics with the customer?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Are the metrics compelling enough to justify change?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "economicBuyer": [
+        {
+          "idx": 0,
+          "q": "Have I identified the true economic buyer?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Do we know who's signing the contract?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "q": "Do we have access to this individual?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 3,
+          "q": "Can we get access?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we know what the economic buyer cares about most?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Do you know how they make decisions and allocate budget?",
+          "answer": "Yes",
+          "score": 1
+        }
+      ],
+      "decisionProcess": [
+        {
+          "idx": 0,
+          "q": "Do we know how they will be making the decision?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Do we know who's involved / buying committee?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "q": "Do we know when they want to make a decision by?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know what is driving this timeline?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we know if they have tried to solve this problem before?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Do we know what will happen if they do nothing?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 6,
+          "q": "Have you validated this process with the buyer?",
+          "answer": "Yes",
+          "score": 1
+        }
+      ],
+      "decisionCriteria": [
+        {
+          "idx": 0,
+          "q": "Do we know what criteria the customer is using to evaluate v",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Have we surfaced technical complications (integrations)?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know how payments play into their decision?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we have a mutual action plan in place?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Did we help shape those criteria in our favour?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Do we know who defined the decision criteria?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "paperProcess": [
+        {
+          "idx": 0,
+          "q": "Do we know what their procurement process is?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Are there likely to be redlines?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "q": "If redlines, how long does review take?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 3,
+          "q": "Do we know how long it will take?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we have contract details?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Have we sent the contract?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 6,
+          "q": "Do we know target date for signature?",
+          "answer": "Yes",
+          "score": 1
+        }
+      ],
+      "identifyPain": [
+        {
+          "idx": 0,
+          "q": "Do we know their current issues and why they are reviewing t",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Have they tried to resolve this issue in the past?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "q": "Do we know how pains are affecting business operations?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know what teams are affected and to what extent?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we know how urgent it is to solve this pain?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Can they solve this pain using another option?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Do we know why this problem is important to solve now?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 7,
+          "q": "Is our solution uniquely positioned to solve this pain?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "champion": [
+        {
+          "idx": 0,
+          "q": "Have you identified a true champion (influence + motivation)",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Does your champion have political capital and credibility?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "q": "Have they given insights you wouldn't get otherwise?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Are they connected with the key decision makers?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Have you been introduced to the decision maker?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 5,
+          "q": "Are they willing to bring you into the board/buying group?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Why are they such a champion for you?",
+          "answer": "Yes",
+          "score": 1
+        }
+      ],
+      "competition": [
+        {
+          "idx": 0,
+          "q": "Do we know who else the customer is evaluating?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Have we asked if doing nothing is an option?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "q": "Are there internal alternatives to our solution?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 3,
+          "q": "Do we know why alternatives are being evaluated?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we know why we would win or lose?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ]
+    }
+  },
+  {
+    "id": "0068V0000113peWQAQ",
+    "name": "ESSENTIEL Antwerp",
+    "totalScore": 31,
+    "sections": {
+      "metrics": [
+        {
+          "idx": 0,
+          "q": "Do we know the business reasons as to why they are migrating",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Do we have specific quantifiable goals aligned with the proj",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Do they need to make a platform change to achieve this goal?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we understand the impact if this goal isn't achieved?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Is there a compelling event in place driving action?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Have I validated the metrics with the customer?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Are the metrics compelling enough to justify change?",
+          "answer": "Yes",
+          "score": 1
+        }
+      ],
+      "economicBuyer": [
+        {
+          "idx": 0,
+          "q": "Have I identified the true economic buyer?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Do we know who's signing the contract?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Do we have access to this individual?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Can we get access?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we know what the economic buyer cares about most?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Do you know how they make decisions and allocate budget?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "decisionProcess": [
+        {
+          "idx": 0,
+          "q": "Do we know how they will be making the decision?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Do we know who's involved / buying committee?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Do we know when they want to make a decision by?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know what is driving this timeline?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we know if they have tried to solve this problem before?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Do we know what will happen if they do nothing?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Have you validated this process with the buyer?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "decisionCriteria": [
+        {
+          "idx": 0,
+          "q": "Do we know what criteria the customer is using to evaluate v",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Have we surfaced technical complications (integrations)?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know how payments play into their decision?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we have a mutual action plan in place?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 5,
+          "q": "Did we help shape those criteria in our favour?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Do we know who defined the decision criteria?",
+          "answer": "No",
+          "score": 0
+        }
+      ],
+      "paperProcess": [
+        {
+          "idx": 0,
+          "q": "Do we know what their procurement process is?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 1,
+          "q": "Are there likely to be redlines?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 2,
+          "q": "If redlines, how long does review take?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 3,
+          "q": "Do we know how long it will take?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 4,
+          "q": "Do we have contract details?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 5,
+          "q": "Have we sent the contract?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 6,
+          "q": "Do we know target date for signature?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "identifyPain": [
+        {
+          "idx": 0,
+          "q": "Do we know their current issues and why they are reviewing t",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Have they tried to resolve this issue in the past?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Do we know how pains are affecting business operations?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know what teams are affected and to what extent?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we know how urgent it is to solve this pain?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Can they solve this pain using another option?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Do we know why this problem is important to solve now?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 7,
+          "q": "Is our solution uniquely positioned to solve this pain?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "champion": [
+        {
+          "idx": 0,
+          "q": "Have you identified a true champion (influence + motivation)",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Does your champion have political capital and credibility?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Have they given insights you wouldn't get otherwise?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Are they connected with the key decision makers?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Have you been introduced to the decision maker?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Are they willing to bring you into the board/buying group?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 6,
+          "q": "Why are they such a champion for you?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "competition": [
+        {
+          "idx": 0,
+          "q": "Do we know who else the customer is evaluating?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Have we asked if doing nothing is an option?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 2,
+          "q": "Are there internal alternatives to our solution?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 3,
+          "q": "Do we know why alternatives are being evaluated?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we know why we would win or lose?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ]
+    }
+  },
+  {
+    "id": "006OG00000FHHAHYA5",
+    "name": "OLIVER BONAS LIMITED",
+    "totalScore": 28.5,
+    "sections": {
+      "metrics": [
+        {
+          "idx": 0,
+          "q": "Do we know the business reasons as to why they are migrating",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Do we have specific quantifiable goals aligned with the proj",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Do they need to make a platform change to achieve this goal?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we understand the impact if this goal isn't achieved?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Is there a compelling event in place driving action?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Have I validated the metrics with the customer?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Are the metrics compelling enough to justify change?",
+          "answer": "Yes",
+          "score": 1
+        }
+      ],
+      "economicBuyer": [
+        {
+          "idx": 0,
+          "q": "Have I identified the true economic buyer?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Do we know who's signing the contract?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 2,
+          "q": "Do we have access to this individual?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Can we get access?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we know what the economic buyer cares about most?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Do you know how they make decisions and allocate budget?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "decisionProcess": [
+        {
+          "idx": 0,
+          "q": "Do we know how they will be making the decision?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Do we know who's involved / buying committee?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Do we know when they want to make a decision by?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 3,
+          "q": "Do we know what is driving this timeline?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we know if they have tried to solve this problem before?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Do we know what will happen if they do nothing?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Have you validated this process with the buyer?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "decisionCriteria": [
+        {
+          "idx": 0,
+          "q": "Do we know what criteria the customer is using to evaluate v",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Have we surfaced technical complications (integrations)?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know how payments play into their decision?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we have a mutual action plan in place?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 5,
+          "q": "Did we help shape those criteria in our favour?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Do we know who defined the decision criteria?",
+          "answer": "No",
+          "score": 0
+        }
+      ],
+      "paperProcess": [
+        {
+          "idx": 0,
+          "q": "Do we know what their procurement process is?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 1,
+          "q": "Are there likely to be redlines?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 2,
+          "q": "If redlines, how long does review take?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 3,
+          "q": "Do we know how long it will take?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 4,
+          "q": "Do we have contract details?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 5,
+          "q": "Have we sent the contract?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 6,
+          "q": "Do we know target date for signature?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "identifyPain": [
+        {
+          "idx": 0,
+          "q": "Do we know their current issues and why they are reviewing t",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Have they tried to resolve this issue in the past?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Do we know how pains are affecting business operations?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know what teams are affected and to what extent?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we know how urgent it is to solve this pain?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Can they solve this pain using another option?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Do we know why this problem is important to solve now?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 7,
+          "q": "Is our solution uniquely positioned to solve this pain?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "champion": [
+        {
+          "idx": 0,
+          "q": "Have you identified a true champion (influence + motivation)",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Does your champion have political capital and credibility?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "q": "Have they given insights you wouldn't get otherwise?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 3,
+          "q": "Are they connected with the key decision makers?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Have you been introduced to the decision maker?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Are they willing to bring you into the board/buying group?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 6,
+          "q": "Why are they such a champion for you?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "competition": [
+        {
+          "idx": 0,
+          "q": "Do we know who else the customer is evaluating?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Have we asked if doing nothing is an option?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Are there internal alternatives to our solution?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 3,
+          "q": "Do we know why alternatives are being evaluated?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we know why we would win or lose?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ]
+    }
+  },
+  {
+    "id": "006OG00000Fbj8nYAB",
+    "name": "Cycle King & Hawk",
+    "totalScore": 22,
+    "sections": {
+      "metrics": [
+        {
+          "idx": 0,
+          "q": "Do we know the business reasons as to why they are migrating",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Do we have specific quantifiable goals aligned with the proj",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Do they need to make a platform change to achieve this goal?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we understand the impact if this goal isn't achieved?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Is there a compelling event in place driving action?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Have I validated the metrics with the customer?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Are the metrics compelling enough to justify change?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "economicBuyer": [
+        {
+          "idx": 0,
+          "q": "Have I identified the true economic buyer?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Do we know who's signing the contract?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 2,
+          "q": "Do we have access to this individual?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 3,
+          "q": "Can we get access?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we know what the economic buyer cares about most?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Do you know how they make decisions and allocate budget?",
+          "answer": "No",
+          "score": 0
+        }
+      ],
+      "decisionProcess": [
+        {
+          "idx": 0,
+          "q": "Do we know how they will be making the decision?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Do we know who's involved / buying committee?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Do we know when they want to make a decision by?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know what is driving this timeline?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we know if they have tried to solve this problem before?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 5,
+          "q": "Do we know what will happen if they do nothing?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Have you validated this process with the buyer?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "decisionCriteria": [
+        {
+          "idx": 0,
+          "q": "Do we know what criteria the customer is using to evaluate v",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Have we surfaced technical complications (integrations)?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know how payments play into their decision?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 4,
+          "q": "Do we have a mutual action plan in place?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 5,
+          "q": "Did we help shape those criteria in our favour?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Do we know who defined the decision criteria?",
+          "answer": "No",
+          "score": 0
+        }
+      ],
+      "paperProcess": [
+        {
+          "idx": 0,
+          "q": "Do we know what their procurement process is?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 1,
+          "q": "Are there likely to be redlines?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 2,
+          "q": "If redlines, how long does review take?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 3,
+          "q": "Do we know how long it will take?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 4,
+          "q": "Do we have contract details?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 5,
+          "q": "Have we sent the contract?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 6,
+          "q": "Do we know target date for signature?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "identifyPain": [
+        {
+          "idx": 0,
+          "q": "Do we know their current issues and why they are reviewing t",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Have they tried to resolve this issue in the past?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 2,
+          "q": "Do we know how pains are affecting business operations?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know what teams are affected and to what extent?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we know how urgent it is to solve this pain?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Can they solve this pain using another option?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Do we know why this problem is important to solve now?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 7,
+          "q": "Is our solution uniquely positioned to solve this pain?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "champion": [
+        {
+          "idx": 0,
+          "q": "Have you identified a true champion (influence + motivation)",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Does your champion have political capital and credibility?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Have they given insights you wouldn't get otherwise?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Are they connected with the key decision makers?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Have you been introduced to the decision maker?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 5,
+          "q": "Are they willing to bring you into the board/buying group?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 6,
+          "q": "Why are they such a champion for you?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "competition": [
+        {
+          "idx": 0,
+          "q": "Do we know who else the customer is evaluating?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 1,
+          "q": "Have we asked if doing nothing is an option?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 2,
+          "q": "Are there internal alternatives to our solution?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 3,
+          "q": "Do we know why alternatives are being evaluated?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 4,
+          "q": "Do we know why we would win or lose?",
+          "answer": "No",
+          "score": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": "006OG00000G28JdYAJ",
+    "name": "Direct Wines Limited",
+    "totalScore": 36,
+    "sections": {
+      "metrics": [
+        {
+          "idx": 0,
+          "q": "Do we know the business reasons as to why they are migrating",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Do we have specific quantifiable goals aligned with the proj",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Do they need to make a platform change to achieve this goal?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we understand the impact if this goal isn't achieved?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Is there a compelling event in place driving action?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Have I validated the metrics with the customer?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Are the metrics compelling enough to justify change?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "economicBuyer": [
+        {
+          "idx": 0,
+          "q": "Have I identified the true economic buyer?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Do we know who's signing the contract?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Do we have access to this individual?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Can we get access?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we know what the economic buyer cares about most?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Do you know how they make decisions and allocate budget?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "decisionProcess": [
+        {
+          "idx": 0,
+          "q": "Do we know how they will be making the decision?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Do we know who's involved / buying committee?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "q": "Do we know when they want to make a decision by?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know what is driving this timeline?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we know if they have tried to solve this problem before?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Do we know what will happen if they do nothing?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Have you validated this process with the buyer?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "decisionCriteria": [
+        {
+          "idx": 0,
+          "q": "Do we know what criteria the customer is using to evaluate v",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Have we surfaced technical complications (integrations)?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know how payments play into their decision?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we have a mutual action plan in place?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 5,
+          "q": "Did we help shape those criteria in our favour?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 6,
+          "q": "Do we know who defined the decision criteria?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "paperProcess": [
+        {
+          "idx": 0,
+          "q": "Do we know what their procurement process is?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Are there likely to be redlines?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "If redlines, how long does review take?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 3,
+          "q": "Do we know how long it will take?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 4,
+          "q": "Do we have contract details?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Have we sent the contract?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 6,
+          "q": "Do we know target date for signature?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "identifyPain": [
+        {
+          "idx": 0,
+          "q": "Do we know their current issues and why they are reviewing t",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Have they tried to resolve this issue in the past?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "q": "Do we know how pains are affecting business operations?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know what teams are affected and to what extent?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we know how urgent it is to solve this pain?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Can they solve this pain using another option?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 6,
+          "q": "Do we know why this problem is important to solve now?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 7,
+          "q": "Is our solution uniquely positioned to solve this pain?",
+          "answer": "Yes",
+          "score": 1
+        }
+      ],
+      "champion": [
+        {
+          "idx": 0,
+          "q": "Have you identified a true champion (influence + motivation)",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Does your champion have political capital and credibility?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Have they given insights you wouldn't get otherwise?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Are they connected with the key decision makers?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Have you been introduced to the decision maker?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Are they willing to bring you into the board/buying group?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Why are they such a champion for you?",
+          "answer": "Yes",
+          "score": 1
+        }
+      ],
+      "competition": [
+        {
+          "idx": 0,
+          "q": "Do we know who else the customer is evaluating?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Have we asked if doing nothing is an option?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "q": "Are there internal alternatives to our solution?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know why alternatives are being evaluated?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we know why we would win or lose?",
+          "answer": "Yes",
+          "score": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "006OG00000FYX8zYAH",
+    "name": "Hawes & Curtis Limited",
+    "totalScore": 41.5,
+    "sections": {
+      "metrics": [
+        {
+          "idx": 0,
+          "q": "Do we know the business reasons as to why they are migrating",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Do we have specific quantifiable goals aligned with the proj",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Do they need to make a platform change to achieve this goal?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we understand the impact if this goal isn't achieved?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Is there a compelling event in place driving action?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Have I validated the metrics with the customer?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Are the metrics compelling enough to justify change?",
+          "answer": "Yes",
+          "score": 1
+        }
+      ],
+      "economicBuyer": [
+        {
+          "idx": 0,
+          "q": "Have I identified the true economic buyer?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Do we know who's signing the contract?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Do we have access to this individual?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Can we get access?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we know what the economic buyer cares about most?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Do you know how they make decisions and allocate budget?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "decisionProcess": [
+        {
+          "idx": 0,
+          "q": "Do we know how they will be making the decision?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Do we know who's involved / buying committee?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "q": "Do we know when they want to make a decision by?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know what is driving this timeline?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we know if they have tried to solve this problem before?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Do we know what will happen if they do nothing?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 6,
+          "q": "Have you validated this process with the buyer?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "decisionCriteria": [
+        {
+          "idx": 0,
+          "q": "Do we know what criteria the customer is using to evaluate v",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Have we surfaced technical complications (integrations)?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know how payments play into their decision?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we have a mutual action plan in place?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Did we help shape those criteria in our favour?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Do we know who defined the decision criteria?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "paperProcess": [
+        {
+          "idx": 0,
+          "q": "Do we know what their procurement process is?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Are there likely to be redlines?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "If redlines, how long does review take?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 3,
+          "q": "Do we know how long it will take?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we have contract details?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Have we sent the contract?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 6,
+          "q": "Do we know target date for signature?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "identifyPain": [
+        {
+          "idx": 0,
+          "q": "Do we know their current issues and why they are reviewing t",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Have they tried to resolve this issue in the past?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "q": "Do we know how pains are affecting business operations?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know what teams are affected and to what extent?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we know how urgent it is to solve this pain?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Can they solve this pain using another option?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Do we know why this problem is important to solve now?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 7,
+          "q": "Is our solution uniquely positioned to solve this pain?",
+          "answer": "Yes",
+          "score": 1
+        }
+      ],
+      "champion": [
+        {
+          "idx": 0,
+          "q": "Have you identified a true champion (influence + motivation)",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Does your champion have political capital and credibility?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "q": "Have they given insights you wouldn't get otherwise?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Are they connected with the key decision makers?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Have you been introduced to the decision maker?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Are they willing to bring you into the board/buying group?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Why are they such a champion for you?",
+          "answer": "Yes",
+          "score": 1
+        }
+      ],
+      "competition": [
+        {
+          "idx": 0,
+          "q": "Do we know who else the customer is evaluating?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Have we asked if doing nothing is an option?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Are there internal alternatives to our solution?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 3,
+          "q": "Do we know why alternatives are being evaluated?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we know why we would win or lose?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ]
+    }
+  },
+  {
+    "id": "006OG00000KW83lYAD",
+    "name": "C.P. Hart & Sons Limited",
+    "totalScore": "N/A",
+    "sections": {
+      "metrics": [
+        {
+          "idx": 0,
+          "q": "Do we know the business reasons as to why they are migrating",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Do we have specific quantifiable goals aligned with the proj",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Do they need to make a platform change to achieve this goal?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we understand the impact if this goal isn't achieved?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Is there a compelling event in place driving action?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Have I validated the metrics with the customer?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 6,
+          "q": "Are the metrics compelling enough to justify change?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "economicBuyer": [
+        {
+          "idx": 0,
+          "q": "Have I identified the true economic buyer?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Do we know who's signing the contract?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 2,
+          "q": "Do we have access to this individual?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 3,
+          "q": "Can we get access?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we know what the economic buyer cares about most?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Do you know how they make decisions and allocate budget?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "decisionProcess": [
+        {
+          "idx": 0,
+          "q": "Do we know how they will be making the decision?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Do we know who's involved / buying committee?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Do we know when they want to make a decision by?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know what is driving this timeline?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we know if they have tried to solve this problem before?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Do we know what will happen if they do nothing?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Have you validated this process with the buyer?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "decisionCriteria": [
+        {
+          "idx": 0,
+          "q": "Do we know what criteria the customer is using to evaluate v",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Have we surfaced technical complications (integrations)?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 3,
+          "q": "Do we know how payments play into their decision?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we have a mutual action plan in place?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 5,
+          "q": "Did we help shape those criteria in our favour?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Do we know who defined the decision criteria?",
+          "answer": "No",
+          "score": 0
+        }
+      ],
+      "paperProcess": [
+        {
+          "idx": 0,
+          "q": "Do we know what their procurement process is?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Are there likely to be redlines?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "If redlines, how long does review take?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 3,
+          "q": "Do we know how long it will take?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 4,
+          "q": "Do we have contract details?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Have we sent the contract?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 6,
+          "q": "Do we know target date for signature?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "identifyPain": [
+        {
+          "idx": 0,
+          "q": "Do we know their current issues and why they are reviewing t",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Have they tried to resolve this issue in the past?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Do we know how pains are affecting business operations?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know what teams are affected and to what extent?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we know how urgent it is to solve this pain?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Can they solve this pain using another option?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Do we know why this problem is important to solve now?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 7,
+          "q": "Is our solution uniquely positioned to solve this pain?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "champion": [
+        {
+          "idx": 0,
+          "q": "Have you identified a true champion (influence + motivation)",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Does your champion have political capital and credibility?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Have they given insights you wouldn't get otherwise?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Are they connected with the key decision makers?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Have you been introduced to the decision maker?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 5,
+          "q": "Are they willing to bring you into the board/buying group?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Why are they such a champion for you?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "competition": [
+        {
+          "idx": 0,
+          "q": "Do we know who else the customer is evaluating?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 1,
+          "q": "Have we asked if doing nothing is an option?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Are there internal alternatives to our solution?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 3,
+          "q": "Do we know why alternatives are being evaluated?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 4,
+          "q": "Do we know why we would win or lose?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ]
+    }
+  },
+  {
+    "id": "006OG00000JMQ91YAH",
+    "name": "TRINNY LONDON",
+    "totalScore": "N/A",
+    "sections": {
+      "metrics": [
+        {
+          "idx": 0,
+          "q": "Do we know the business reasons as to why they are migrating",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Do we have specific quantifiable goals aligned with the proj",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Do they need to make a platform change to achieve this goal?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we understand the impact if this goal isn't achieved?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Is there a compelling event in place driving action?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Have I validated the metrics with the customer?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 6,
+          "q": "Are the metrics compelling enough to justify change?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "economicBuyer": [
+        {
+          "idx": 0,
+          "q": "Have I identified the true economic buyer?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Do we know who's signing the contract?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 2,
+          "q": "Do we have access to this individual?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 3,
+          "q": "Can we get access?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we know what the economic buyer cares about most?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Do you know how they make decisions and allocate budget?",
+          "answer": "No",
+          "score": 0
+        }
+      ],
+      "decisionProcess": [
+        {
+          "idx": 0,
+          "q": "Do we know how they will be making the decision?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Do we know who's involved / buying committee?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Do we know when they want to make a decision by?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know what is driving this timeline?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we know if they have tried to solve this problem before?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Do we know what will happen if they do nothing?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Have you validated this process with the buyer?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "decisionCriteria": [
+        {
+          "idx": 0,
+          "q": "Do we know what criteria the customer is using to evaluate v",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Have we surfaced technical complications (integrations)?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know how payments play into their decision?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we have a mutual action plan in place?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 5,
+          "q": "Did we help shape those criteria in our favour?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Do we know who defined the decision criteria?",
+          "answer": "No",
+          "score": 0
+        }
+      ],
+      "paperProcess": [
+        {
+          "idx": 0,
+          "q": "Do we know what their procurement process is?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Are there likely to be redlines?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 2,
+          "q": "If redlines, how long does review take?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 3,
+          "q": "Do we know how long it will take?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 4,
+          "q": "Do we have contract details?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 5,
+          "q": "Have we sent the contract?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 6,
+          "q": "Do we know target date for signature?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "identifyPain": [
+        {
+          "idx": 0,
+          "q": "Do we know their current issues and why they are reviewing t",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Have they tried to resolve this issue in the past?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "q": "Do we know how pains are affecting business operations?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know what teams are affected and to what extent?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we know how urgent it is to solve this pain?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Can they solve this pain using another option?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Do we know why this problem is important to solve now?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 7,
+          "q": "Is our solution uniquely positioned to solve this pain?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "champion": [
+        {
+          "idx": 0,
+          "q": "Have you identified a true champion (influence + motivation)",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Does your champion have political capital and credibility?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Have they given insights you wouldn't get otherwise?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Are they connected with the key decision makers?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Have you been introduced to the decision maker?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 5,
+          "q": "Are they willing to bring you into the board/buying group?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 6,
+          "q": "Why are they such a champion for you?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "competition": [
+        {
+          "idx": 0,
+          "q": "Do we know who else the customer is evaluating?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Have we asked if doing nothing is an option?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Are there internal alternatives to our solution?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 3,
+          "q": "Do we know why alternatives are being evaluated?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we know why we would win or lose?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ]
+    }
+  },
+  {
+    "id": "006OG00000KOC4YYAX",
+    "name": "Moss Bros. Group Ltd",
+    "totalScore": "N/A",
+    "sections": {
+      "metrics": [
+        {
+          "idx": 0,
+          "q": "Do we know the business reasons as to why they are migrating",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Do we have specific quantifiable goals aligned with the proj",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Do they need to make a platform change to achieve this goal?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we understand the impact if this goal isn't achieved?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Is there a compelling event in place driving action?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Have I validated the metrics with the customer?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 6,
+          "q": "Are the metrics compelling enough to justify change?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "economicBuyer": [
+        {
+          "idx": 0,
+          "q": "Have I identified the true economic buyer?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Do we know who's signing the contract?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 2,
+          "q": "Do we have access to this individual?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 3,
+          "q": "Can we get access?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we know what the economic buyer cares about most?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Do you know how they make decisions and allocate budget?",
+          "answer": "No",
+          "score": 0
+        }
+      ],
+      "decisionProcess": [
+        {
+          "idx": 0,
+          "q": "Do we know how they will be making the decision?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Do we know who's involved / buying committee?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Do we know when they want to make a decision by?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 3,
+          "q": "Do we know what is driving this timeline?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we know if they have tried to solve this problem before?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "q": "Do we know what will happen if they do nothing?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Have you validated this process with the buyer?",
+          "answer": "No",
+          "score": 0
+        }
+      ],
+      "decisionCriteria": [
+        {
+          "idx": 0,
+          "q": "Do we know what criteria the customer is using to evaluate v",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 1,
+          "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Have we surfaced technical complications (integrations)?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know how payments play into their decision?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Do we have a mutual action plan in place?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Did we help shape those criteria in our favour?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Do we know who defined the decision criteria?",
+          "answer": "No",
+          "score": 0
+        }
+      ],
+      "paperProcess": [
+        {
+          "idx": 0,
+          "q": "Do we know what their procurement process is?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 1,
+          "q": "Are there likely to be redlines?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "If redlines, how long does review take?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 3,
+          "q": "Do we know how long it will take?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 4,
+          "q": "Do we have contract details?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 5,
+          "q": "Have we sent the contract?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 6,
+          "q": "Do we know target date for signature?",
+          "answer": "No",
+          "score": 0
+        }
+      ],
+      "identifyPain": [
+        {
+          "idx": 0,
+          "q": "Do we know their current issues and why they are reviewing t",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Have they tried to resolve this issue in the past?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "q": "Do we know how pains are affecting business operations?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Do we know what teams are affected and to what extent?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 4,
+          "q": "Do we know how urgent it is to solve this pain?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 5,
+          "q": "Can they solve this pain using another option?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 6,
+          "q": "Do we know why this problem is important to solve now?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 7,
+          "q": "Is our solution uniquely positioned to solve this pain?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "champion": [
+        {
+          "idx": 0,
+          "q": "Have you identified a true champion (influence + motivation)",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "q": "Does your champion have political capital and credibility?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 2,
+          "q": "Have they given insights you wouldn't get otherwise?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "q": "Are they connected with the key decision makers?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "q": "Have you been introduced to the decision maker?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 5,
+          "q": "Are they willing to bring you into the board/buying group?",
+          "answer": "Yes",
+          "score": 1
+        },
+        {
+          "idx": 6,
+          "q": "Why are they such a champion for you?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ],
+      "competition": [
+        {
+          "idx": 0,
+          "q": "Do we know who else the customer is evaluating?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 1,
+          "q": "Have we asked if doing nothing is an option?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 2,
+          "q": "Are there internal alternatives to our solution?",
+          "answer": "Partial",
+          "score": 0.5
+        },
+        {
+          "idx": 3,
+          "q": "Do we know why alternatives are being evaluated?",
+          "answer": "No",
+          "score": 0
+        },
+        {
+          "idx": 4,
+          "q": "Do we know why we would win or lose?",
+          "answer": "Partial",
+          "score": 0.5
+        }
+      ]
+    }
+  }
+]

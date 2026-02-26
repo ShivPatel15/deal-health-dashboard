@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-25T15:37:18.188Z",
+  "generatedAt": "2026-02-26T08:09:07.902Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -216,9 +216,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we know when they want to make a decision by?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "AE next step (02/18): 'on track to get it signed before end of Feb.' Close date 02/27/2026. Prior targets: end of 2025 (missed), January 2026 (missed).\n[Lite Refresh 2026-02-19] Launch date pushed back — decision timeline may have shifted.",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "[2026-02-26 daily refresh] New proposed launch date (2026-05-29) anchors concrete decision deadline. (was: Partial)",
               "solution": "N/A",
               "action": "N/A",
               "due": "",
@@ -406,9 +406,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we know target date for signature?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "Close date 02/27/2026. AE next step (02/18): 'on track to get it signed before end of Feb.' Multiple prior targets missed.\n[Lite Refresh 2026-02-19] Launch date pushed back — signature timeline is now uncertain.",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "[2026-02-26 daily refresh] New proposed launch date (2026-05-29) establishes concrete project timeline with clear visibility on signature timing. (was: Partial)",
               "solution": "N/A but monitor closely given pattern of slippage.",
               "action": "Daily check-ins with David Duke through end of February.",
               "due": "02/27/2026",
@@ -644,9 +644,9 @@ const DEAL_DATA = {
           "pct": 42
         },
         "Decision Process": {
-          "score": 3.5,
+          "score": 4,
           "max": 7,
-          "pct": 50
+          "pct": 57
         },
         "Decision Criteria": {
           "score": 3.5,
@@ -654,9 +654,9 @@ const DEAL_DATA = {
           "pct": 50
         },
         "Paper Process": {
-          "score": 3,
+          "score": 3.5,
           "max": 7,
-          "pct": 43
+          "pct": 50
         },
         "Identify Pain": {
           "score": 6.5,
@@ -674,9 +674,9 @@ const DEAL_DATA = {
           "pct": 70
         },
         "_total": {
-          "score": 31.5,
+          "score": 32.5,
           "max": 54,
-          "pct": 58,
+          "pct": 60,
           "status": "on-track"
         }
       },
@@ -865,83 +865,76 @@ const DEAL_DATA = {
         },
         {
           "p": 27,
-          "cat": "Paper Process",
-          "issue": "Close date 02/27/2026. AE next step (02/18): 'on track to get it signed before end of Feb.' Multiple prior targets missed.\n[Lite Refresh 2026-02-19] Launch date pushed back — signature timeline is now uncertain.",
-          "rec": "Daily check-ins with David Duke through end of February.",
-          "due": "02/27/2026"
-        },
-        {
-          "p": 28,
           "cat": "Identify Pain",
           "issue": "Ecommerce team (Matt, Anil) clearly affected. IT team involved given integration work. Marketing implied through SEO concerns. Retail/stores team affected by POS decisions (27 locations). Finance affected by P&L implications. Extent per team not quantified.",
           "rec": "Ask Matt to describe which teams are most affected by current platform limitations.",
           "due": "02/24/2026"
         },
         {
-          "p": 29,
+          "p": 28,
           "cat": "Identify Pain",
           "issue": "They've already invested in Shopify backend integrations and engaged Visualsoft as Shopify implementation partner. Switching would mean significant sunk cost. 'Doing nothing' described as untenable by Matt. However, POS showstoppers could lead to partial hybrid solutions.",
           "rec": "Reference backend integration work already completed as evidence of momentum.",
           "due": ""
         },
         {
-          "p": 30,
+          "p": 29,
           "cat": "Identify Pain",
           "issue": "Shopify Plus addresses core needs (modern ecommerce, payments, potential POS). Visualsoft's pivot validates Shopify. However, POS 'showstoppers' (4-5 items) and SEO migration concerns are unresolved areas where Shopify's positioning is not yet confirmed.",
           "rec": "Ben Homer to prepare a POS capability assessment against Matt's specific showstoppers and an SEO migration plan.",
           "due": "02/24/2026"
         },
         {
-          "p": 31,
+          "p": 30,
           "cat": "Champion",
           "issue": "Matt Holden is the most engaged contact — attended all 3 calls, primary spokesperson. Highly motivated but title is 'Head of Digital' which may limit influence on budget/contract decisions. May be more 'coach' than true champion. David Duke is an external advocate, not internal champion.",
           "rec": "Ask Matt: 'Do you have everything you need to get this across the line internally, or is there anything we can do to support you with the board/Anil?'",
           "due": "02/21/2026"
         },
         {
-          "p": 32,
+          "p": 31,
           "cat": "Champion",
           "issue": "Matt appears credible — given operational authority ('green light to do what we want from an ecom perspective'). Presenting to board on P&L. However, past failed platform change attempts ('hasn't worked out') may have eroded some credibility on execution timelines.",
           "rec": "Provide Matt with a polished business case summary (ROI, timeline, risk mitigation) for board presentation.",
           "due": "02/21/2026"
         },
         {
-          "p": 33,
+          "p": 32,
           "cat": "Champion",
           "issue": "Anil invited to all 3 calls, attended none. All communication has been indirect — through Matt or David Duke. Shopify has never had a direct conversation with the primary decision maker. SIGNIFICANT risk for a deal at 80% probability in 'Commit' forecast.",
           "rec": "Shiv to ask David Duke to arrange a 10-minute call with Anil, framing it as a 'welcome to Shopify' executive touch-point.",
           "due": "02/21/2026"
         },
         {
-          "p": 34,
+          "p": 33,
           "cat": "Champion",
           "issue": "No evidence of willingness or attempt to bring Shopify into board-level discussions. Matt is the buffer. Board, CEO (Simon Pickering), and Finance Director (Chloe Sherwood) have zero direct engagement.",
           "rec": "Ask Matt: 'Would it help if someone from Shopify leadership joined a brief call with your board?'",
           "due": "02/21/2026"
         },
         {
-          "p": 35,
+          "p": 34,
           "cat": "Champion",
           "issue": "Matt is championing because current platform is failing and new ownership has given him the mandate to modernize. He's invested significant personal effort (backend integration built). Motivation is professional mandate rather than deep product conviction.",
           "rec": "Proactively address SEO and POS concerns to turn Matt from pragmatic supporter into enthusiastic advocate.",
           "due": "02/24/2026"
         },
         {
-          "p": 36,
+          "p": 35,
           "cat": "Competition",
           "issue": "Not directly asked, but Matt's statements strongly imply doing nothing is not viable: 'otherwise we'll be sat with the same site for the next 10 years.' However, deal has been in SF since July 2024 with multiple missed deadlines — arguably they HAVE been 'doing nothing' for 18+ months.",
           "rec": "Shiv to frame: 'Given past slippage, what's different this time that gives you confidence February will stick?'",
           "due": "02/20/2026"
         },
         {
-          "p": 37,
+          "p": 36,
           "cat": "Competition",
           "issue": "Current Visualsoft platform is the status quo alternative. No custom/in-house build consideration. Backend Shopify integration already built. However, POS showstoppers could lead to maintaining existing retail systems rather than adopting Shopify POS.",
           "rec": "Clarify that POS can be phased — secure D2C commitment first, address POS requirements separately.",
           "due": "02/21/2026"
         },
         {
-          "p": 38,
+          "p": 37,
           "cat": "Competition",
           "issue": "Win: partner support, backend built, ownership mandate, competitive payments, Shop Pay uplift. Lose: POS showstoppers, SEO risk, deal fatigue (18 months), inability to engage DM, timeline slippage pattern, Finance Director/CEO zero engagement.",
           "rec": "Create a risk register addressing each potential lose factor with mitigation plan; prioritize POS assessment and Anil engagement.",
@@ -1130,6 +1123,27 @@ const DEAL_DATA = {
             "Competition": 3.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-26",
+          "totalScore": 32.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 4,
+            "Decision Criteria": 3.5,
+            "Paper Process": 3.5,
+            "Identify Pain": 6.5,
+            "Champion": 3.5,
+            "Competition": 3.5
+          },
+          "changes": [
+            "Score improved by 1 points",
+            "Decision Process: improved (3.5 → 4)",
+            "Paper Process: improved (3 → 3.5)"
+          ]
         }
       ],
       "dealRisks": [],
@@ -1340,7 +1354,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-25",
+          "date": "2026-02-26",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -1353,9 +1367,9 @@ const DEAL_DATA = {
               "pct": 42
             },
             "Decision Process": {
-              "score": 3.5,
+              "score": 4,
               "max": 7,
-              "pct": 50
+              "pct": 57
             },
             "Decision Criteria": {
               "score": 3.5,
@@ -1363,9 +1377,9 @@ const DEAL_DATA = {
               "pct": 50
             },
             "Paper Process": {
-              "score": 3,
+              "score": 3.5,
               "max": 7,
-              "pct": 43
+              "pct": 50
             },
             "Identify Pain": {
               "score": 6.5,
@@ -1592,9 +1606,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we know when they want to make a decision by?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Feb 2026 signature targeted. Fiona email: 'good to sign in Feb'. Close date Feb 27",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "[2026-02-26 daily refresh] CloseDate pushed 1 month, decision timeline has slipped and is now less certain. (was: Yes)",
               "solution": "",
               "action": "",
               "due": "",
@@ -2020,9 +2034,9 @@ const DEAL_DATA = {
           "pct": 67
         },
         "Decision Process": {
-          "score": 5,
+          "score": 4.5,
           "max": 7,
-          "pct": 71
+          "pct": 64
         },
         "Decision Criteria": {
           "score": 4,
@@ -2050,9 +2064,9 @@ const DEAL_DATA = {
           "pct": 60
         },
         "_total": {
-          "score": 36.5,
+          "score": 36,
           "max": 54,
-          "pct": 68,
+          "pct": 67,
           "status": "on-track"
         }
       },
@@ -2400,6 +2414,26 @@ const DEAL_DATA = {
             "Competition": 3
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-26",
+          "totalScore": 36,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 6,
+            "Economic Buyer": 4,
+            "Decision Process": 4.5,
+            "Decision Criteria": 4,
+            "Paper Process": 1,
+            "Identify Pain": 7,
+            "Champion": 6.5,
+            "Competition": 3
+          },
+          "changes": [
+            "Score declined by 0.5 points",
+            "Decision Process: declined (5 → 4.5)"
+          ]
         }
       ],
       "dealRisks": [],
@@ -2601,7 +2635,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-25",
+          "date": "2026-02-26",
           "sections": {
             "Metrics": {
               "score": 6,
@@ -2614,9 +2648,9 @@ const DEAL_DATA = {
               "pct": 67
             },
             "Decision Process": {
-              "score": 5,
+              "score": 4.5,
               "max": 7,
-              "pct": 71
+              "pct": 64
             },
             "Decision Criteria": {
               "score": 4,
@@ -3788,6 +3822,23 @@ const DEAL_DATA = {
             "Economic Buyer Q5: Partial → Yes (+0.5) — NextStep: Martin confirmed very close to getting budget signed off 'any day now'"
           ],
           "type": "incremental-meddpicc"
+        },
+        {
+          "date": "2026-02-26",
+          "totalScore": 37.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 4.5,
+            "Decision Criteria": 5,
+            "Paper Process": 4,
+            "Identify Pain": 6,
+            "Champion": 5.5,
+            "Competition": 4
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -4048,7 +4099,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-25",
+          "date": "2026-02-26",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -5285,6 +5336,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-26",
+          "totalScore": 34.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 4.5,
+            "Identify Pain": 6.5,
+            "Champion": 4,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -5486,7 +5554,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-25",
+          "date": "2026-02-26",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -6104,9 +6172,9 @@ const DEAL_DATA = {
           "questions": [
             {
               "q": "Do we know who else the customer is evaluating?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "Danny mentioned 'Scale' as potential retender competitor. Comptop is current payment provider (12p/transaction). SAP is incumbent. New Order for B2B. No formal competitive evaluation active.",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "[2026-02-26 daily refresh] SAP competitor cleared. Competitive landscape resolved with clear decision date and expiring offer. (was: Partial)",
               "solution": "Understand what Danny knows about Scale.",
               "action": "Maissa to ask Danny if Scale or any other vendor has been in contact or if hypothetical.",
               "due": "02/25/2026",
@@ -6134,9 +6202,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we know why alternatives are being evaluated?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "Scale mentioned only as hypothetical fallback in retender scenario. Not an active evaluation. Commercial-driven, not capability-driven.",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "[2026-02-26 daily refresh] SAP removed as competitor. Clear understanding of why alternatives were evaluated and competitive dynamic is resolved. (was: Partial)",
               "solution": "Ensure commercial offer is competitive enough that retendering isn't attractive given time/effort/risk.",
               "action": "Final offer should be positioned as best-and-final with clear value articulation.",
               "due": "02/25/2026",
@@ -6192,14 +6260,14 @@ const DEAL_DATA = {
           "pct": 79
         },
         "Competition": {
-          "score": 3,
+          "score": 4,
           "max": 5,
-          "pct": 60
+          "pct": 80
         },
         "_total": {
-          "score": 43,
+          "score": 44,
           "max": 54,
-          "pct": 80,
+          "pct": 81,
           "status": "good-health"
         }
       },
@@ -6311,20 +6379,6 @@ const DEAL_DATA = {
         },
         {
           "p": 16,
-          "cat": "Competition",
-          "issue": "Danny mentioned 'Scale' as potential retender competitor. Comptop is current payment provider (12p/transaction). SAP is incumbent. New Order for B2B. No formal competitive evaluation active.",
-          "rec": "Maissa to ask Danny if Scale or any other vendor has been in contact or if hypothetical.",
-          "due": "02/25/2026"
-        },
-        {
-          "p": 17,
-          "cat": "Competition",
-          "issue": "Scale mentioned only as hypothetical fallback in retender scenario. Not an active evaluation. Commercial-driven, not capability-driven.",
-          "rec": "Final offer should be positioned as best-and-final with clear value articulation.",
-          "due": "02/25/2026"
-        },
-        {
-          "p": 18,
           "cat": "Competition",
           "issue": "Shopify would win on capability and ecosystem. Could lose on payment fees. Commercial terms are the deciding factor. Retendering costs time and risks another Alkai-type failure.",
           "rec": "Maissa/Stephen to prepare 'why Shopify wins' talking points for Danny's internal presentation.",
@@ -6590,6 +6644,26 @@ const DEAL_DATA = {
             "Competition": 3
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-26",
+          "totalScore": 44,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 4,
+            "Decision Process": 7,
+            "Decision Criteria": 5,
+            "Paper Process": 6,
+            "Identify Pain": 7,
+            "Champion": 5.5,
+            "Competition": 4
+          },
+          "changes": [
+            "Score improved by 1 points",
+            "Competition: improved (3 → 4)"
+          ]
         }
       ],
       "dealRisks": [],
@@ -6800,7 +6874,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-25",
+          "date": "2026-02-26",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -6838,9 +6912,9 @@ const DEAL_DATA = {
               "pct": 79
             },
             "Competition": {
-              "score": 3,
+              "score": 4,
               "max": 5,
-              "pct": 60
+              "pct": 80
             }
           }
         }
@@ -7921,6 +7995,23 @@ const DEAL_DATA = {
             "Competition": 3.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-26",
+          "totalScore": 29,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 4.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 3.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 3,
+            "Identify Pain": 4,
+            "Champion": 4.5,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -8131,7 +8222,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-25",
+          "date": "2026-02-26",
           "sections": {
             "Metrics": {
               "score": 4.5,
@@ -9309,6 +9400,23 @@ const DEAL_DATA = {
             "Competition": 2
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-26",
+          "totalScore": 31,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 4.5,
+            "Decision Process": 4.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 6,
+            "Champion": 4.5,
+            "Competition": 2
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -9510,7 +9618,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-25",
+          "date": "2026-02-26",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -10677,6 +10785,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-26",
+          "totalScore": 32,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 3,
+            "Decision Process": 4,
+            "Decision Criteria": 4.5,
+            "Paper Process": 1,
+            "Identify Pain": 6.5,
+            "Champion": 5.5,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -10887,7 +11012,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-25",
+          "date": "2026-02-26",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -11547,9 +11672,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we know why we would win or lose?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "We could win because of unified commerce, lower TCO, native omnichannel. We could lose because of implementation cost perception (competitors offering free implementation), theme vs custom perception. Ben's 'black hole' comment is the clearest loss indicator.",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "[2026-02-26 daily refresh] Successful POS demo with good feedback + Adobe Commerce Magento cleared as competitor. Stronger evidence of why we would win. (was: Partial)",
               "solution": "Build win narrative around total value and neutralize implementation cost objection.",
               "action": "Adriana to prepare competitive battle card addressing: implementation cost, theme quality vs custom, unified platform vs multi-vendor risk.",
               "due": "03/05/2026",
@@ -11595,14 +11720,14 @@ const DEAL_DATA = {
           "pct": 57
         },
         "Competition": {
-          "score": 2.5,
+          "score": 3,
           "max": 5,
-          "pct": 50
+          "pct": 60
         },
         "_total": {
-          "score": 28.5,
+          "score": 29,
           "max": 54,
-          "pct": 53,
+          "pct": 54,
           "status": "on-track"
         }
       },
@@ -11886,13 +12011,6 @@ const DEAL_DATA = {
           "issue": "They are evaluating alternatives because of Adobe contract expiry, platform complexity, omnichannel limitations, and high dev costs. But we don't know why the specific final-round competitors were chosen.",
           "rec": "Adriana to probe: 'What specifically about those offerings is appealing to you?'",
           "due": "03/01/2026"
-        },
-        {
-          "p": 41,
-          "cat": "Competition",
-          "issue": "We could win because of unified commerce, lower TCO, native omnichannel. We could lose because of implementation cost perception (competitors offering free implementation), theme vs custom perception. Ben's 'black hole' comment is the clearest loss indicator.",
-          "rec": "Adriana to prepare competitive battle card addressing: implementation cost, theme quality vs custom, unified platform vs multi-vendor risk.",
-          "due": "03/05/2026"
         }
       ],
       "stakeholders": [
@@ -12128,6 +12246,26 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-26",
+          "totalScore": 29,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 4,
+            "Decision Criteria": 3.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 5.5,
+            "Champion": 4,
+            "Competition": 3
+          },
+          "changes": [
+            "Score improved by 0.5 points",
+            "Competition: improved (2.5 → 3)"
+          ]
         }
       ],
       "dealRisks": [],
@@ -12338,7 +12476,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-25",
+          "date": "2026-02-26",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -12376,9 +12514,9 @@ const DEAL_DATA = {
               "pct": 57
             },
             "Competition": {
-              "score": 2.5,
+              "score": 3,
               "max": 5,
-              "pct": 50
+              "pct": 60
             }
           }
         }
@@ -13513,6 +13651,23 @@ const DEAL_DATA = {
             "Competition": 0
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-26",
+          "totalScore": 22,
+          "totalMax": 54,
+          "status": "at-risk",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 2,
+            "Decision Process": 4,
+            "Decision Criteria": 2.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 5,
+            "Champion": 3,
+            "Competition": 0
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -13723,7 +13878,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-25",
+          "date": "2026-02-26",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -15006,6 +15161,23 @@ const DEAL_DATA = {
             "Paper Process Q0: No → Partial (+0.5) — Stage Demonstrate→Deal Craft, board sign-off meeting 24/03, Plus vs Ent pending"
           ],
           "type": "incremental-meddpicc"
+        },
+        {
+          "date": "2026-02-26",
+          "totalScore": 40.5,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 5,
+            "Decision Process": 5.5,
+            "Decision Criteria": 4.5,
+            "Paper Process": 2,
+            "Identify Pain": 7.5,
+            "Champion": 6,
+            "Competition": 5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -15273,7 +15445,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-25",
+          "date": "2026-02-26",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -15526,9 +15698,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we know when they want to make a decision by?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Touker stated 'sign the contract by next Friday' (Jan 30). Target close date March 26. AE notes indicate possible slip to Q2 due to agency selection.",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "[2026-02-26 daily refresh] NextStep explicitly states 'might not sign before Q2' — clear delay signal. (was: Yes)",
               "solution": "",
               "action": "",
               "due": "",
@@ -15954,9 +16126,9 @@ const DEAL_DATA = {
           "pct": 83
         },
         "Decision Process": {
-          "score": 6,
+          "score": 5.5,
           "max": 7,
-          "pct": 86
+          "pct": 79
         },
         "Decision Criteria": {
           "score": 4.5,
@@ -15984,9 +16156,9 @@ const DEAL_DATA = {
           "pct": 50
         },
         "_total": {
-          "score": 41.5,
+          "score": 41,
           "max": 54,
-          "pct": 77,
+          "pct": 76,
           "status": "good-health"
         }
       },
@@ -16354,6 +16526,26 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-26",
+          "totalScore": 41,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 5,
+            "Decision Process": 5.5,
+            "Decision Criteria": 4.5,
+            "Paper Process": 4,
+            "Identify Pain": 7.5,
+            "Champion": 6.5,
+            "Competition": 2.5
+          },
+          "changes": [
+            "Score declined by 0.5 points",
+            "Decision Process: declined (6 → 5.5)"
+          ]
         }
       ],
       "dealRisks": [],
@@ -16555,7 +16747,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-25",
+          "date": "2026-02-26",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -16568,9 +16760,9 @@ const DEAL_DATA = {
               "pct": 83
             },
             "Decision Process": {
-              "score": 6,
+              "score": 5.5,
               "max": 7,
-              "pct": 86
+              "pct": 79
             },
             "Decision Criteria": {
               "score": 4.5,
@@ -17705,6 +17897,23 @@ const DEAL_DATA = {
             "Decision Criteria Q3: No → Yes (+1) — NextStep: SP is biggest aspect, won't approve Adyen, SP call scheduled 11 March"
           ],
           "type": "incremental-meddpicc"
+        },
+        {
+          "date": "2026-02-26",
+          "totalScore": 28.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 3,
+            "Economic Buyer": 3.5,
+            "Decision Process": 4.5,
+            "Decision Criteria": 3,
+            "Paper Process": 1.5,
+            "Identify Pain": 5.5,
+            "Champion": 5,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -17773,7 +17982,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-02-25",
+          "date": "2026-02-26",
           "sections": {
             "Metrics": {
               "score": 3,
@@ -17916,9 +18125,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Have I validated the metrics with the customer?",
-              "answer": "No",
-              "score": 0,
-              "notes": "Specific quantifiable metrics have not been discussed or validated. Conversations have been directional but not tied to measurable targets.",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "[2026-02-26 daily refresh] Commercials presented to customer, Projected Billed Revenue now populated (758K). Metrics being discussed but not fully validated. (was: No)",
               "solution": "Present a proposed metrics framework and validate with Mo and Diamante.",
               "action": "Adriana to include proposed success metrics in follow-up after board meeting.",
               "due": "2026-03-06",
@@ -18196,9 +18405,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we have contract details?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "Commercials presented Feb 19. Product pricing structured. Full contract terms not discussed.",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "[2026-02-26 daily refresh] Commercials presented and NDA in works — direct evidence of contract details being discussed and legal process underway. (was: Partial)",
               "solution": "Prepare contract for review once board gives green light.",
               "action": "Adriana to have draft contract ready.",
               "due": "2026-04-30",
@@ -18444,9 +18653,9 @@ const DEAL_DATA = {
       },
       "scores": {
         "Metrics": {
-          "score": 4.5,
+          "score": 5,
           "max": 7,
-          "pct": 64
+          "pct": 71
         },
         "Economic Buyer": {
           "score": 2,
@@ -18464,9 +18673,9 @@ const DEAL_DATA = {
           "pct": 29
         },
         "Paper Process": {
-          "score": 2,
+          "score": 2.5,
           "max": 7,
-          "pct": 29
+          "pct": 36
         },
         "Identify Pain": {
           "score": 6,
@@ -18484,9 +18693,9 @@ const DEAL_DATA = {
           "pct": 30
         },
         "_total": {
-          "score": 27,
+          "score": 28,
           "max": 54,
-          "pct": 50,
+          "pct": 52,
           "status": "on-track"
         }
       },
@@ -18508,7 +18717,7 @@ const DEAL_DATA = {
         {
           "p": 3,
           "cat": "Metrics",
-          "issue": "Specific quantifiable metrics have not been discussed or validated. Conversations have been directional but not tied to measurable targets.",
+          "issue": "[2026-02-26 daily refresh] Commercials presented to customer, Projected Billed Revenue now populated (758K). Metrics being discussed but not fully validated. (was: No)",
           "rec": "Adriana to include proposed success metrics in follow-up after board meeting.",
           "due": "2026-03-06"
         },
@@ -18676,110 +18885,103 @@ const DEAL_DATA = {
         {
           "p": 27,
           "cat": "Paper Process",
-          "issue": "Commercials presented Feb 19. Product pricing structured. Full contract terms not discussed.",
-          "rec": "Adriana to have draft contract ready.",
-          "due": "2026-04-30"
-        },
-        {
-          "p": 28,
-          "cat": "Paper Process",
           "issue": "Commercials presented but contract not sent. NDA still in progress.",
           "rec": "Adriana to prepare contract.",
           "due": "2026-04-30"
         },
         {
-          "p": 29,
+          "p": 28,
           "cat": "Paper Process",
           "issue": "Budget sign-off by June, close date May 29 aligns. Not explicitly confirmed with customer.",
           "rec": "Adriana to confirm end-of-May target.",
           "due": "2026-03-13"
         },
         {
-          "p": 30,
+          "p": 29,
           "cat": "Identify Pain",
           "issue": "Diamante's frustration suggests incremental attempts within current platform. Full replatform not attempted. Not explicitly explored.",
           "rec": "Adriana to explore prior modernization efforts.",
           "due": "2026-03-13"
         },
         {
-          "p": 31,
+          "p": 30,
           "cat": "Identify Pain",
           "issue": "Marketing/Digital and E-Commerce clearly affected. Showroom/sales teams indirectly affected. Impact on trade/B2B side (50% of business) not explored.",
           "rec": "Adriana & Sarah to discuss B2B and showroom pain points.",
           "due": "2026-03-13"
         },
         {
-          "p": 32,
+          "p": 31,
           "cat": "Identify Pain",
           "issue": "No competitors mentioned. Doing nothing is the primary alternative. Staying with a new agency on same platform not discussed.",
           "rec": "Adriana to ask what other options the board is considering.",
           "due": "2026-03-06"
         },
         {
-          "p": 33,
+          "p": 32,
           "cat": "Identify Pain",
           "issue": "Shopify's templated best practices and speed align well. No explicit competitive comparison made. Unique positioning not fully articulated.",
           "rec": "Sarah to prepare competitive positioning brief.",
           "due": "2026-03-06"
         },
         {
-          "p": 34,
+          "p": 33,
           "cat": "Champion",
           "issue": "Mo is Director-level and presenting to the board. However, with MD leaving and new CEO, his political capital with new leadership is uncertain.",
           "rec": "Adriana to provide board-ready materials.",
           "due": "2026-02-28"
         },
         {
-          "p": 35,
+          "p": 34,
           "cat": "Champion",
           "issue": "No introduction to any board member or economic buyer above Mo.",
           "rec": "Adriana to ask Mo about meeting with a board member.",
           "due": "2026-03-13"
         },
         {
-          "p": 36,
+          "p": 35,
           "cat": "Champion",
           "issue": "Mo accepted help building the business case (indirectly brings Shopify into board discussion). Hasn't offered direct board access.",
           "rec": "Adriana to offer a Shopify executive sponsor.",
           "due": "2026-03-06"
         },
         {
-          "p": 37,
+          "p": 36,
           "cat": "Champion",
           "issue": "Mo motivated by need to modernize for long-term survival and his role as Director of Marketing & Digital. Personal stake inferred not confirmed.",
           "rec": "Adriana to explore what success looks like personally for Mo.",
           "due": "2026-03-06"
         },
         {
-          "p": 38,
+          "p": 37,
           "cat": "Competition",
           "issue": "No competitors mentioned in any call. Salesforce competitor field is null.",
           "rec": "Adriana to ask Mo if evaluating other platforms.",
           "due": "2026-03-06"
         },
         {
-          "p": 39,
+          "p": 38,
           "cat": "Competition",
           "issue": "Mo's comments suggest doing nothing is possible but not desirable. Not directly asked.",
           "rec": "Adriana to ask about fallback plan.",
           "due": "2026-03-06"
         },
         {
-          "p": 40,
+          "p": 39,
           "cat": "Competition",
           "issue": "Staying with current platform (with/without new agency) is implicit alternative. No internal build mentioned.",
           "rec": "Adriana to discuss current platform alternatives.",
           "due": "2026-03-06"
         },
         {
-          "p": 41,
+          "p": 40,
           "cat": "Competition",
           "issue": "Don't know if alternatives are being evaluated at all. Appears Shopify-focused but not confirmed.",
           "rec": "Adriana to ask if board expects multiple vendor options.",
           "due": "2026-03-06"
         },
         {
-          "p": 42,
+          "p": 41,
           "cat": "Competition",
           "issue": "Win factors: speed, templates, lower TCO, integrated platform. Lose factors: board deprioritization, payment lock-in, Diamante absence, new leadership priorities.",
           "rec": "Adriana & Sarah to build risk mitigation plan.",
@@ -18961,6 +19163,27 @@ const DEAL_DATA = {
             "Competition": 1.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-26",
+          "totalScore": 28,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 2,
+            "Decision Process": 4.5,
+            "Decision Criteria": 2,
+            "Paper Process": 2.5,
+            "Identify Pain": 6,
+            "Champion": 4.5,
+            "Competition": 1.5
+          },
+          "changes": [
+            "Score improved by 1 points",
+            "Metrics: improved (4.5 → 5)",
+            "Paper Process: improved (2 → 2.5)"
+          ]
         }
       ],
       "dealRisks": [],
@@ -19058,7 +19281,7 @@ const DEAL_DATA = {
           },
           {
             "date": "",
-            "done": false,
+            "done": true,
             "milestone": "Finalize commercial proposal",
             "ownerMerchant": "Mo Goodfellow",
             "ownerShopify": "Adriana",
@@ -19126,12 +19349,12 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-02-25",
+          "date": "2026-02-26",
           "sections": {
             "Metrics": {
-              "score": 4.5,
+              "score": 5,
               "max": 7,
-              "pct": 64
+              "pct": 71
             },
             "Economic Buyer": {
               "score": 2,
@@ -19149,9 +19372,9 @@ const DEAL_DATA = {
               "pct": 29
             },
             "Paper Process": {
-              "score": 2,
+              "score": 2.5,
               "max": 7,
-              "pct": 29
+              "pct": 36
             },
             "Identify Pain": {
               "score": 6,
@@ -20339,6 +20562,23 @@ const DEAL_DATA = {
             "Champion Q0: Partial → Yes (+0.5) — Pipeline→Commit, active business case collab + tech validation + references"
           ],
           "type": "incremental-meddpicc"
+        },
+        {
+          "date": "2026-02-26",
+          "totalScore": 30.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 6,
+            "Economic Buyer": 2,
+            "Decision Process": 5,
+            "Decision Criteria": 4,
+            "Paper Process": 1,
+            "Identify Pain": 6.5,
+            "Champion": 4,
+            "Competition": 2
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -20402,7 +20642,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-02-25",
+          "date": "2026-02-26",
           "sections": {
             "Metrics": {
               "score": 6,
@@ -21543,6 +21783,23 @@ const DEAL_DATA = {
             "Champion: improved (1 → 5)",
             "Competition: improved (0 → 1)"
           ]
+        },
+        {
+          "date": "2026-02-26",
+          "totalScore": 25,
+          "totalMax": 54,
+          "status": "at-risk",
+          "sectionScores": {
+            "Metrics": 4,
+            "Economic Buyer": 2,
+            "Decision Process": 3,
+            "Decision Criteria": 4,
+            "Paper Process": 0.5,
+            "Identify Pain": 5.5,
+            "Champion": 5,
+            "Competition": 1
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -21699,7 +21956,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-02-25",
+          "date": "2026-02-26",
           "sections": {
             "Metrics": {
               "score": 4,

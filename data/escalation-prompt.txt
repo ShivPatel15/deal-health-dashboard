@@ -18,90 +18,66 @@ For each recommendation, return JSON:
 
 ### Moda in Pelle (0068V0000113rSIQAY)
 Unmatched changes:
+- competitive.primary: "Visualsoft (status quo)" → "Other"
+- timeline.proposedLaunch: "null" → "2026-05-29"
 - nextStep: "02/18 - Spoke to David Duke and we are on track to get it signed before end of Feb" → "02/18 -Spoke to David Duke and we are on track to get it signed before end of Feb"
-- competitor: "Visualsoft (status quo)" → "Other"
 
 ### Whittard of Chelsea (006OG00000EZIy6YAH)
 Unmatched changes:
 - closeDate: "2026-02-27" → "2026-03-30"
-- nextStep: "19.02 resubmitted rate review, WorldPay is payment processor, Barclay, Merchant keen on signing this Q (received email from Fiona today mentioning good to sign in Feb!)" → "24.02 RR back, Adriana to set up meeting with Nathan and Fiona to discuss final steps + Partner choice"
-- projectedBilledRevenue: "406078.56" → "303277.58"
-- revenue.totalRev3yr: "714900" → "676036.88"
+- revenue.projectedBilled: "406078.56" → "303277.58"
 - revenue.paymentsGpv: "8125000" → "10985000"
+- revenue.totalRev3yr: "714900" → "676036.88"
+- timeline.proposedLaunch: "null" → "2026-07-01"
+- nextStep: "19.02 resubmitted rate review, WorldPay is payment processor, Barclay, Merchant keen on signing this Q (received email from Fiona today mentioning good to sign in Feb!)" → "24.02 RR back, Adriana to set up meeting with Nathan and Fiona to discuss final steps + Partner choice"
 
 ### The Dune Group (006OG00000GJ5IvYAL)
 Unmatched changes:
-- closeDate: "2026-02-27" → "2026-03-30"
-- nextStep: "19.02 onsite meeting cancelled as team members sick, had meeting with Dune and Tryzens to discuss launch steps, Martin confirmed They're very close to getting budget signed off 'any day now'" → "24.02  onsite meeting cancelled as team members sick, had meeting with Dune and Tryzens to discuss launch steps, Martin confirmed They're very close to getting budged signed off "any day now""
-- projectedBilledRevenue: "641868" → "641867.88"
-- revenue.totalRev3yr: "4269147" → "4269146.5"
-
-### Mulberry Company (Sales) Limited (006OG00000CRabaYAD)
-Unmatched changes:
-- nextStep: "18/02 BR. Legal are still working through the PLUS contract as we have pushed back 3X on their asks. Have just kicked off discovery with Arsenalia and some peripheral queries around China and Markets have arisen. Working through Async." → "18/02 BR. Legal Are still working through the PLUS contract as we have pushed back 3X on their asked. Have just kicked off discovery with Arsenalia and some peripheral queries around china and markets have arisen. Working through Async."
+- timeline.proposedLaunch: "null" → "2026-05-01"
+- nextStep: "24.02  onsite meeting cancelled as team members sick, had meeting with Dune and Tryzens to discuss launch steps, Martin confirmed They're very close to getting budged signed off "any day now"" → "24.02  onsite meeting cancelled as team members sick, had meeting with Dune and Tryzens to discuss launch steps, Martin confirmed They're very close to getting budged signed off "any day now""
 
 ### Wacoal Europe (006OG00000HnVs8YAF)
 Unmatched changes:
+- closeDate: "2026-02-28" → "2026-03-13"
+- competitive.primary: "SAP (incumbent) / Scale (potential retender)" → "null"
+- timeline.proposedLaunch: "null" → "2026-11-03"
 - nextStep: "13/02 MF: Will have a decision by 27/02. Contract reviewed and rates presented. Offer expires March 13th." → "20/02 MF: Will have a decision by 27/02. Contract reviewed and rates presented. Offer expires March 13th."
-- competitor: "SAP (incumbent) / Scale (potential retender)" → "null"
-
-### Sofa.Com Ltd (006OG00000HtxKFYAZ)
-Unmatched changes:
-- nextStep: "13/02 MF: Handover from Yas - merchant pushing to get meeting with IT at Frasers group to get approval. Reviewing the buss case numbers with them." → "20/02 MF: Handover from Yas - merchant pushing to get meeting with IT at Frasers group to get approval. Reviewing the buss case numbers with them next week."
-- projectedBilledRevenue: "483034" → "483034.36"
-- revenue.totalRev3yr: "1220972" → "1220972.06"
 
 ### ESSENTIEL Antwerp (0068V0000113peWQAQ)
 Unmatched changes:
-- nextStep: "18/2 BR RFP has landed and I am speaking to each agency (7) to get a sense check. Timelines on RFP indicate build to start in April." → "18/2 BR RFP has landed and I ma speaking to each agency (7) to get a sense check. Timelines on RFP indicate  build to start in April"
-- projectedBilledRevenue: "719855" → "719854.75"
 - revenue.mcv: "132800" → "82800"
-- revenue.totalRev3yr: "2333229" → "2333229.33"
-- revenue.paymentsGpv: "33144049" → "33144049.22"
-
-### Mint Velvet (006OG00000JUPVtYAP)
-Unmatched changes:
-- nextStep: "18/02 BR Board have pushback on costs (particularly rates). Call with commercial director on 20th to align on what rate we need to close this." → "18/02 BR Board have pushback on costs (particularly rates). Call with commercial director on 20th to align on what rate we need to close this"
-- projectedBilledRevenue: "574389" → "574389.18"
-- revenue.totalRev3yr: "1562351" → "1562351.44"
+- timeline.proposedLaunch: "null" → "2026-09-30"
+- nextStep: "18/2 BR RFP has landed and I am speaking to each agency (7) to get a sense check. Timelines on RFP indicate build to start in April." → "18/2 BR RFP has landed and I ma speaking to each agency (7) to get a sense check. Timelines on RFP indicate  build to start in April"
 
 ### OLIVER BONAS LIMITED (006OG00000FHHAHYA5)
 Unmatched changes:
+- competitive.primary: "Adobe Commerce (Magento)" → "null"
 - nextStep: "19.02 Awaiting statement for RR, collab on TCO, POS demo successful, received good feedback, awaiting final feedback for next round of RFP" → "24.02 Awaiting statement for RR, collab on TCO, POS demo successful, received good feedback, awaiting final feedback for next round of RFP"
-- competitor: "Adobe Commerce (Magento)" → "null"
 
 ### Cycle King & Hawk (006OG00000Fbj8nYAB)
 Unmatched changes:
-- nextStep: "11.02 Merchant awaiting feedback from board, however is now considering Advanced, I will now decrease involvement, it is not looking as likely anymore" → "11.02 Merchant awaiting feedback from board, however is now considering Advanced, I will no decrease involvement, it is not looking as likely anymore"
-- competitor: "Citrus Lime (incumbent)" → "null"
+- competitive.primary: "Citrus Lime (incumbent)" → "null"
 
 ### Direct Wines Limited (006OG00000G28JdYAJ)
 Unmatched changes:
-- stage: "Demonstrate" → "Deal Craft"
-- probability: "60" → "80"
-- nextStep: "18/02: Fusefabric review of proposed solution (Wed 18 Feb 3pm). Ordergroove POC follow-up Thu 19 Feb 2-2:30pm GMT. Board decision expected end Feb. Working on SP Q&A, multiple solution meets with Fuse and Recharge + Ordergroove for subs. Engaged PS for token migration." → "18/02 BR Discovery with Fuse ending next week. Board / sign off meeting for 24/03. Still awaiting feedback on Plus vs Ent before we can finalise commercials"
-- projectedBilledRevenue: "6660618.5" → "3813618.5"
-- revenue.mcv: "4582000" → "0"
-- revenue.totalRev3yr: "13756191" → "10909191"
+- timeline.proposedLaunch: "null" → "2026-06-30"
 
 ### Hawes & Curtis Limited (006OG00000FYX8zYAH)
 Unmatched changes:
+- timeline.proposedLaunch: "null" → "2026-08-02"
 - nextStep: "13/02 MF: Finalising agency selection before signing Shopify contract. Paul Rogers (Vervaunt) introduced more agencies with design focus, might not sign before Q2 now. Catch up with Paul next week (Alexandra supporting)." → "20/02 MF: Finalising agency selection before signing Shopify contract. Paul Rogers (Vervaunt) introduced more agencies with design focus, might not sign before Q2 now. Catch up with Paul next week (Alexandra supporting)."
-
-### Bugaboo International B.V (006OG00000Dh2YXYAZ)
-Unmatched changes:
-- nextStep: "null" → "23/02 BR Call with Jordan. He is working through biz case but biggest aspect is going to be the SP since we will not approve Adyen. Agency decision in March. SP call schedulled for 11th March"
-- competitor: "null" → "Salesforce Commerce Cloud"
-- projectedBilledRevenue: "null" → "276727.83"
 
 ### C.P. Hart & Sons Limited (006OG00000KW83lYAD)
 Unmatched changes:
 - nextStep: "null" → "24.02 presented commercials, board meeting this month, awaiting statements for RR, NDA in works, MO ooo"
-- projectedBilledRevenue: "null" → "758832.18"
+- revenue.projectedBilled: "null" → "758832.18"
 
 ### TRINNY LONDON (006OG00000JMQ91YAH)
 Unmatched changes:
-- stage: "Solution" → "Demonstrate"
-- probability: "40" → "60"
-- nextStep: "null" → "20/02 MF: Supporting them with the business case, technical validation and with merchant references. Started a rate review discussion. Catch up on 25/02"
+- revenue.projectedBilled: "948568.42" → "1220503.68"
+- revenue.totalRev3yr: "3311700" → "3773175"
+
+### Moss Bros. Group Ltd (006OG00000KOC4YYAX)
+Unmatched changes:
+- nextStep: "null" → "[AS] 16.01 Technical discovery scheduled for  26.01 + intro to deal champion, Chris Turberville-Tulley"
 

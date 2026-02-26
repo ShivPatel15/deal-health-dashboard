@@ -1,0 +1,112 @@
+{
+  "date": "2026-02-26",
+  "started": "2026-02-26T08:08:40.389Z",
+  "finished": "2026-02-26T08:08:52.404Z",
+  "totalOpportunities": 16,
+  "processed": 16,
+  "results": {
+    "0068V0000113rSIQAY": {
+      "accountName": "Moda in Pelle",
+      "status": "sf-only",
+      "details": "Competitor reclassified, new launch date, score +1 to 32.5",
+      "timestamp": "2026-02-26T08:08:40.389Z"
+    },
+    "006OG00000EZIy6YAH": {
+      "accountName": "Whittard of Chelsea",
+      "status": "sf-only",
+      "details": "Close date pushed 1mo, revenue adjustments, score -0.5 to 36",
+      "timestamp": "2026-02-26T08:08:40.437Z"
+    },
+    "006OG00000GJ5IvYAL": {
+      "accountName": "The Dune Group",
+      "status": "sf-only",
+      "details": "New launch date 2026-05-01, no score change 37.5",
+      "timestamp": "2026-02-26T08:08:40.484Z"
+    },
+    "006OG00000CRabaYAD": {
+      "accountName": "Mulberry Company (Sales) Limited",
+      "status": "no-change",
+      "details": "NextStep capitalization change only",
+      "timestamp": "2026-02-26T08:08:40.532Z"
+    },
+    "006OG00000HnVs8YAF": {
+      "accountName": "Wacoal Europe",
+      "status": "sf-only",
+      "details": "Close date pushed 2wk, competitor cleared, score +1 to 44",
+      "timestamp": "2026-02-26T08:08:40.575Z"
+    },
+    "006OG00000HtxKFYAZ": {
+      "accountName": "Sofa.Com Ltd",
+      "status": "no-change",
+      "details": "NextStep date prefix + revenue rounding only",
+      "timestamp": "2026-02-26T08:08:40.617Z"
+    },
+    "0068V0000113peWQAQ": {
+      "accountName": "ESSENTIEL Antwerp",
+      "status": "sf-only",
+      "details": "MCV dropped 38%, new launch date, no score change 31",
+      "timestamp": "2026-02-26T08:08:40.663Z"
+    },
+    "006OG00000JUPVtYAP": {
+      "accountName": "Mint Velvet",
+      "status": "no-change",
+      "details": "NextStep minor text + revenue rounding only",
+      "timestamp": "2026-02-26T08:08:40.708Z"
+    },
+    "006OG00000FHHAHYA5": {
+      "accountName": "OLIVER BONAS LIMITED",
+      "status": "sf-only",
+      "details": "Competitor cleared, NextStep updated, score +0.5 to 29",
+      "timestamp": "2026-02-26T08:08:40.753Z"
+    },
+    "006OG00000Fbj8nYAB": {
+      "accountName": "Cycle King & Hawk",
+      "status": "sf-only",
+      "details": "Competitor cleared, no score change 22",
+      "timestamp": "2026-02-26T08:08:40.799Z"
+    },
+    "006OG00000G28JdYAJ": {
+      "accountName": "Direct Wines Limited",
+      "status": "sf-only",
+      "details": "New launch date 2026-06-30, no score change 40.5",
+      "timestamp": "2026-02-26T08:08:40.860Z"
+    },
+    "006OG00000FYX8zYAH": {
+      "accountName": "Hawes & Curtis Limited",
+      "status": "sf-only",
+      "details": "New launch date, Q2 delay signal, score -0.5 to 41",
+      "timestamp": "2026-02-26T08:08:40.905Z"
+    },
+    "006OG00000Dh2YXYAZ": {
+      "accountName": "Bugaboo International B.V",
+      "status": "no-change",
+      "details": "NextStep minor text change only",
+      "timestamp": "2026-02-26T08:08:40.950Z"
+    },
+    "006OG00000KW83lYAD": {
+      "accountName": "C.P. Hart & Sons Limited",
+      "status": "sf-only",
+      "details": "New NextStep with commercials, new PBR 758K, score +1 to 28",
+      "timestamp": "2026-02-26T08:08:40.993Z"
+    },
+    "006OG00000JMQ91YAH": {
+      "accountName": "TRINNY LONDON",
+      "status": "sf-only",
+      "details": "PBR +29%, TotalRev +14%, no score change 30.5",
+      "timestamp": "2026-02-26T08:08:41.041Z"
+    },
+    "006OG00000KOC4YYAX": {
+      "accountName": "Moss Bros. Group Ltd",
+      "status": "sf-only",
+      "details": "New NextStep with discovery and champion intro, no score change 25",
+      "timestamp": "2026-02-26T08:08:41.088Z"
+    }
+  },
+  "summary": {
+    "noChange": 4,
+    "sfOnly": 12,
+    "newCalls": 0,
+    "errors": 0,
+    "skipped": 0
+  }
+}

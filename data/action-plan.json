@@ -1,0 +1,120 @@
+{
+  "material": [
+    [
+      "0068V0000113rSIQAY",
+      "Moda in Pelle",
+      [
+        "Competitor label: 'Visualsoft' \u2192 'Other'",
+        "New launch date: 2026-05-29"
+      ]
+    ],
+    [
+      "006OG00000EZIy6YAH",
+      "Whittard of Chelsea",
+      [
+        "CloseDate: 2026-02-27 \u2192 2026-03-30 (pushed 1 month)",
+        "Projected_Billed_Revenue: 406K \u2192 303K (-25%)",
+        "Payments_GPV: 8.1M \u2192 11M (+35%)",
+        "Total_Revenue: 715K \u2192 676K (-5.4%)",
+        "New launch date: 2026-07-01",
+        "NextStep updated (partner selection)"
+      ]
+    ],
+    [
+      "006OG00000GJ5IvYAL",
+      "The Dune Group",
+      [
+        "New launch date: 2026-05-01"
+      ]
+    ],
+    [
+      "006OG00000HnVs8YAF",
+      "Wacoal Europe",
+      [
+        "CloseDate: 2026-02-28 \u2192 2026-03-13 (pushed 2 weeks)",
+        "Competitor cleared (was SAP)",
+        "New launch date: 2026-11-03",
+        "NextStep updated (offer expires Mar 13)"
+      ]
+    ],
+    [
+      "0068V0000113peWQAQ",
+      "ESSENTIEL Antwerp",
+      [
+        "eComm_Amount: 132K \u2192 82.8K (-38%)",
+        "New launch date: 2026-09-30"
+      ]
+    ],
+    [
+      "006OG00000FHHAHYA5",
+      "OLIVER BONAS",
+      [
+        "NextStep updated (date 24.02, new RFP feedback)",
+        "Competitor cleared (was Adobe)"
+      ]
+    ],
+    [
+      "006OG00000Fbj8nYAB",
+      "Cycle King & Hawk",
+      [
+        "Competitor cleared (was Citrus Lime)"
+      ]
+    ],
+    [
+      "006OG00000G28JdYAJ",
+      "Direct Wines",
+      [
+        "New launch date: 2026-06-30"
+      ]
+    ],
+    [
+      "006OG00000FYX8zYAH",
+      "Hawes & Curtis",
+      [
+        "New launch date: 2026-08-02",
+        "NextStep updated (agency selection, Q2 risk)"
+      ]
+    ],
+    [
+      "006OG00000KW83lYAD",
+      "C.P. Hart",
+      [
+        "New NextStep (was null): commercials presented, board meeting",
+        "New Projected_Billed_Revenue: 758K (was null)"
+      ]
+    ],
+    [
+      "006OG00000JMQ91YAH",
+      "TRINNY LONDON",
+      [
+        "Projected_Billed_Revenue: 949K \u2192 1.22M (+29%)",
+        "Total_Revenue: 3.31M \u2192 3.77M (+14%)"
+      ]
+    ],
+    [
+      "006OG00000KOC4YYAX",
+      "Moss Bros.",
+      [
+        "New NextStep (was null): discovery scheduled 26.01, deal champion intro"
+      ]
+    ]
+  ],
+  "skip": [
+    [
+      "006OG00000CRabaYAD",
+      "Mulberry"
+    ],
+    [
+      "006OG00000HtxKFYAZ",
+      "Sofa.Com"
+    ],
+    [
+      "006OG00000JUPVtYAP",
+      "Mint Velvet"
+    ],
+    [
+      "006OG00000Dh2YXYAZ",
+      "Bugaboo"
+    ]
+  ]
+}
