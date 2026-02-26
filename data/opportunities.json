@@ -1358,7 +1358,41 @@
         "severity": "high",
         "category": "champion"
       }
-    ]
+    ],
+    "dealUndercurrent": {
+      "lastUpdated": "2026-02-26",
+      "sourceCallCount": 3,
+      "sourceTranscriptLines": 1200,
+      "surfaceStory": "Moda in Pelle is a £75.9K MCV deal in Deal Craft at 80% probability with a close date of Feb 27 — literally tomorrow. Looks like a straightforward partner-led deal approaching signature.",
+      "sections": [
+        {
+          "title": "1. Shopify has never spoken to the person who signs the cheque",
+          "severity": "high",
+          "content": "Anil Patel (Decision Maker) was invited to ALL 3 calls and attended NONE. 62 emails sent, 22 replies — he engages via email but won't get on a call. Chloe Sherwood (Finance Director) has ZERO engagement. CEO Simon Pickering has ZERO conversations. This deal is at 80% probability and Commit forecast with absolutely no direct live engagement with any economic buyer."
+        },
+        {
+          "title": "2. David Duke is the real deal — but he's an outsider",
+          "severity": "medium",
+          "content": "The most active 'champion' is David Duke from Visualsoft — the implementation partner, not an internal employee. He's listed as Economic Buyer in Salesforce, which is unusual. He relays Anil's intent secondhand: 'Anil has told David that he's ready to sign this week.' The entire deal is being conducted through an intermediary who has his own commercial interest in the outcome."
+        },
+        {
+          "title": "3. This deal has been 'about to sign' for 18 months",
+          "severity": "high",
+          "content": "Deal created July 2024. Matt said 'aim of signing next month' in December 2025 — slipped. Yasmine said 'ready to sign this week' on Jan 21 — slipped. Current target end of Feb. Close date is literally tomorrow. Matt himself warned: 'I don't want to sit here and say to you 100% we can get it done. We've kind of done that in the past. It hasn't worked out.' The pattern of optimistic timelines that slip is the most reliable signal in this deal."
+        },
+        {
+          "title": "4. POS showstoppers are unresolved landmines",
+          "severity": "medium",
+          "content": "Matt identified 'four or five things which in our world will be showstoppers' for POS rollout across 27 stores. These haven't been scoped or addressed. If they surface post-signature, they could derail implementation satisfaction or create buyer's remorse."
+        },
+        {
+          "title": "5. The SEO fear is real and under-addressed",
+          "severity": "medium",
+          "content": "Matt stated 'It's primarily the SEO stuff that we're worried about' — for a retailer whose online presence is their growth channel, SEO migration risk is existential. No migration plan or case studies have been shared to address this."
+        }
+      ],
+      "netAssessment": "This deal has been one conversation away from closing for 18 months. The biggest risk isn't that they choose someone else — it's that the decision-maker (Anil) continues to deprioritize signing because no one from Shopify has ever spoken to him directly. The deal is real, but the close date should be treated with extreme skepticism."
+    }
   },
   {
     "id": "006OG00000EZIy6YAH",
@@ -2613,7 +2647,41 @@
         "severity": "medium",
         "category": "execution"
       }
-    ]
+    ],
+    "dealUndercurrent": {
+      "lastUpdated": "2026-02-26",
+      "sourceCallCount": 3,
+      "sourceTranscriptLines": 1800,
+      "surfaceStory": "Whittard of Chelsea is an £69K MCV deal at 80% probability migrating from Salesforce Commerce Cloud Site Genesis. CEO attended a call. Fiona (champion) emailed saying she's good to sign. Straightforward.",
+      "sections": [
+        {
+          "title": "1. The deal economics are quietly deteriorating",
+          "severity": "high",
+          "content": "3yr total revenue dropped 5% (£714.9K → £676K) despite Payments GPV increasing 35%. PBR dropped 25% (£406K → £303K). Close date slipped a full month (Feb 27 → Mar 30). This pattern suggests rate review concessions compressed margin to win payments volume — the deal is getting cheaper while taking longer."
+        },
+        {
+          "title": "2. Partner selection is the real blocker, not the contract",
+          "severity": "high",
+          "content": "The next step reads: 'Adriana to set up meeting with Nathan and Fiona to discuss final steps + Partner choice.' Until the implementation partner is selected, the contract won't sign. This is a dependency Shopify doesn't control, and it's been the consistent bottleneck."
+        },
+        {
+          "title": "3. Alice Bennett's maternity leave created a champion gap",
+          "severity": "medium",
+          "content": "Alice Bennett was the original champion and Digital Growth Manager who drove the evaluation. She's now on maternity leave. Fiona Scott (Head of eCommerce) stepped in as the primary contact. While Fiona is capable, the transition means the person who built the original business case internally is no longer available to push it across the line."
+        },
+        {
+          "title": "4. No transcript from the most important call",
+          "severity": "medium",
+          "content": "CEO Nathan Smith attended the Jan 28 call — the first direct EB engagement. But there's no transcript available. We don't know what he said, what concerns he raised, or what he committed to. The most important data point in this deal is a black box."
+        },
+        {
+          "title": "5. Paper Process is nearly zero",
+          "severity": "medium",
+          "content": "Paper Process scores 1/7 (14%) — the lowest of any MEDDPICC section. No procurement process discussed, no redlines explored, no legal timeline mapped, no contract sent. For a deal at 80% probability, this is a massive gap between forecast confidence and execution readiness."
+        }
+      ],
+      "netAssessment": "This deal is real — Site Genesis EOL forces action and the CEO has engaged. But the economics are eroding with each iteration, and the deal can't close until a partner is selected. The risk is that partner selection drags through March, pushing the close date again, while Shopify continues making pricing concessions to maintain momentum."
+    }
   },
   {
     "id": "006OG00000GJ5IvYAL",
@@ -4006,7 +4074,41 @@
         "severity": "medium",
         "category": "commercial"
       }
-    ]
+    ],
+    "dealUndercurrent": {
+      "lastUpdated": "2026-02-26",
+      "sourceCallCount": 10,
+      "sourceTranscriptLines": 3500,
+      "surfaceStory": "The Dune Group is an £82.8K MCV deal for a 55-store UK fashion retailer migrating from SFCC + Anakta POS. Champion Martin Wareing says budget is 'any day now.' No competitors. Looks strong.",
+      "sections": [
+        {
+          "title": "1. 'Any day now' has persisted through a close date slip",
+          "severity": "high",
+          "content": "Martin said budget would be signed off 'any day now' as of Feb 19. The close date was then pushed from Feb 27 to Mar 30 — a full month. The language didn't change but the timeline did. This is the classic signal of internal budget friction being downplayed to maintain relationship momentum."
+        },
+        {
+          "title": "2. The CEO has zero Shopify contact",
+          "severity": "high",
+          "content": "Nigel Darwin (CEO) is the contract signatory. He has not appeared in any of the 10 recorded calls. All engagement flows through Martin (Head of IT). For a deal involving 55 stores, POS hardware, and retail payments, having the CEO as a complete stranger to Shopify at signature time is a significant risk."
+        },
+        {
+          "title": "3. The AE handover may have weakened continuity",
+          "severity": "medium",
+          "content": "The deal started with Max Djurberg as AE, then transitioned to Adriana Colacicco. Martin built his relationship with Max and Sarah (SE). The handover happened during the critical budget approval phase. Whether Martin's trust transferred is unclear."
+        },
+        {
+          "title": "4. The SFCC license already expired",
+          "severity": "high",
+          "content": "The compelling event was SFCC licensing expiring February 2026 — that's now. If they haven't given notice to SFCC, they've either already renewed or are in a month-to-month holding pattern. The hard deadline may have passed, which means the urgency driver has shifted from 'must decide' to 'should decide.' "
+        },
+        {
+          "title": "5. Budget cuts are Martin's stated 20% concern",
+          "severity": "medium",
+          "content": "Martin explicitly said his only concern is internal budget cuts. In a retail environment where Dune is managing costs, a 55-store POS migration is a significant capital commitment. If the budget gets trimmed, this deal's scope could shrink or stall entirely."
+        }
+      ],
+      "netAssessment": "This deal has strong fundamentals — no competition, excellent champion, Tryzens recommending Shopify. But the SFCC deadline may have already passed, the CEO is a stranger, and 'any day now' on budget has been the story for weeks. The risk is that budget approval becomes a slow drip rather than a decisive moment, and Mar 30 follows Feb 27 into the rearview mirror."
+    }
   },
   {
     "id": "006OG00000CRabaYAD",
@@ -5381,7 +5483,41 @@
           }
         }
       }
-    ]
+    ],
+    "dealUndercurrent": {
+      "lastUpdated": "2026-02-26",
+      "sourceCallCount": 8,
+      "sourceTranscriptLines": 500,
+      "surfaceStory": "Mulberry is an £82.8K luxury fashion deal replacing SAP Hybris (EOL Jan 2027) with Shopify Plus. Close date is Feb 28 — tomorrow. Seems like a strong deal with a hard deadline.",
+      "sections": [
+        {
+          "title": "1. Legal has pushed back 3 times and counting",
+          "severity": "high",
+          "content": "The AE explicitly states: 'Legal are still working through the PLUS contract as we have pushed back 3X on their asks.' This isn't a routine review — it's an active negotiation where Mulberry's legal team keeps making demands that Shopify is rejecting. For a close date of literally tomorrow, this is a deal that cannot close on time."
+        },
+        {
+          "title": "2. No call transcripts exist for this deal",
+          "severity": "high",
+          "content": "Despite 8 calls logged, there are ZERO transcripts. Every call summary is a brief description. This means the MEDDPICC analysis is built almost entirely from Salesforce metadata and email volume, not actual conversation evidence. The deal's health score may not reflect reality."
+        },
+        {
+          "title": "3. There are 3 active competitors",
+          "severity": "high",
+          "content": "Mulberry is evaluating Scayle, BigCommerce, and SFCC alongside Shopify. This is a genuine multi-vendor evaluation, not a Shopify-or-stay decision. The failed SFCC implementation in 2024 helps Shopify's positioning, but SFCC is still in the mix — meaning either Mulberry has short memory or different stakeholders are driving the SFCC re-evaluation."
+        },
+        {
+          "title": "4. China/Markets queries just surfaced at the 11th hour",
+          "severity": "medium",
+          "content": "New peripheral queries around China and Shopify Markets have arisen while legal is still fighting over the contract. Late-stage scope expansion is a classic deal-stalling pattern. Each new question extends the evaluation."
+        },
+        {
+          "title": "5. The CIO has barely engaged",
+          "severity": "medium",
+          "content": "Dharmini Chauhan (CIO, Decision Maker) has 11 emails sent with only 1 reply, and attended 1 exec call. For the CIO of a £161.5M luxury brand making a platform decision, this level of disengagement is concerning. The exec alignment call with Shopify's Field CTO was the right move but hasn't been followed up."
+        }
+      ],
+      "netAssessment": "This deal is competitive, contentious, and not closing tomorrow. The hard Hybris EOL deadline (Jan 2027) gives ~11 months of implementation runway, which actually reduces urgency to sign this week. The biggest risk is that legal impasse + China/Markets scope creep + active competition creates enough friction for Mulberry to slow-play the decision into Q2."
+    }
   },
   {
     "id": "006OG00000HnVs8YAF",
@@ -6692,7 +6828,41 @@
         "severity": "low",
         "category": "competitive"
       }
-    ]
+    ],
+    "dealUndercurrent": {
+      "lastUpdated": "2026-02-26",
+      "sourceCallCount": 10,
+      "sourceTranscriptLines": 4500,
+      "surfaceStory": "Wacoal Europe is a £285K MCV multi-brand deal migrating from SAP Commerce. Danny Dawes (CIO) is a transparent, engaged champion. Board approved budget. Decision expected Feb 27. This is the healthiest deal on the board.",
+      "sections": [
+        {
+          "title": "1. Danny has a nuclear option and he's told us about it",
+          "severity": "high",
+          "content": "Danny explicitly stated: 'worst case, we just won't be able to move forward' and 'I'll push it back for a year and renew with current provider.' He also mentioned retendering with 'Scale' as a fallback. Unlike most deals where the 'do nothing' risk is inferred, Danny has articulated it clearly. The deal hinges entirely on commercial terms, not platform fit."
+        },
+        {
+          "title": "2. The 25p vs 12p transaction fee gap is the single point of failure",
+          "severity": "high",
+          "content": "Shopify Payments charges 25p/transaction vs Comptop's 12p — more than double. Danny flagged this as THE sticking point. The ~£46K credit must be preserved — he said he's '90% sure we wouldn't sign' without it. This deal lives or dies on whether Shopify can make the payments math work."
+        },
+        {
+          "title": "3. The finance team is genuinely anxious",
+          "severity": "medium",
+          "content": "Samantha Hadland from finance said the settlement piece 'makes me feel sick.' Laura Simon called it 'enormous for us.' This isn't corporate hyperbole — the finance team has real operational fear about payment reconciliation changes. Even if Danny signs, finance team resistance could slow implementation."
+        },
+        {
+          "title": "4. The failed Alkai migration haunts every conversation",
+          "severity": "medium",
+          "content": "Wacoal previously attempted a migration with Alkai that failed and wasted ~£40K before being terminated over contractual disagreements around co-marketing discounts. Danny is wary of contractual terms because of this. Every commercial discussion carries the ghost of the Alkai experience."
+        },
+        {
+          "title": "5. Vaughn (CFO) and Jeff (CEO) are complete unknowns",
+          "severity": "medium",
+          "content": "Despite Danny's transparency, Shopify has had ZERO direct contact with either signatory. Early dialer attempts to Vaughn all returned 'No Answer.' The contract will be signed by people Shopify has never spoken to, based entirely on Danny's internal advocacy."
+        }
+      ],
+      "netAssessment": "The highest-scoring deal on the board (44/54) but paradoxically one of the most binary — it either closes on Danny's advocacy or it doesn't close at all. The payment fee gap is non-negotiable for Danny. If Shopify can't close the 25p vs 12p gap with a TCO narrative, this deal flips to a SAP renewal regardless of everything else."
+    }
   },
   {
     "id": "006OG00000HtxKFYAZ",
@@ -7943,7 +8113,41 @@
           }
         }
       }
-    ]
+    ],
+    "dealUndercurrent": {
+      "lastUpdated": "2026-02-26",
+      "sourceCallCount": 3,
+      "sourceTranscriptLines": 1500,
+      "surfaceStory": "Sofa.com (owned by Frasers Group) wants to migrate from Hybris to Shopify Plus. VML built a strong business case. Close date March 26.",
+      "sections": [
+        {
+          "title": "1. The deal is stuck at a gate Shopify cannot open",
+          "severity": "high",
+          "content": "Tom and Blayne have been waiting over 2 months just to get an initial meeting with Frasers Group IT. Until Group IT confirms the current system's inadequacy, nothing can progress. Shopify has no access path to Group IT and no ability to influence this timeline."
+        },
+        {
+          "title": "2. Sofa.com is a 'small cog in a big wheel'",
+          "severity": "high",
+          "content": "Sofa.com sits within Frasers Group's centralized, archaic tech infrastructure. They don't control their own IT decisions. The Group IT team manages hundreds of brands and sofa.com is not a priority. This structural dynamic means the deal's timeline is governed by an entity that has no relationship with Shopify."
+        },
+        {
+          "title": "3. There is no compelling event",
+          "severity": "high",
+          "content": "No Hybris contract renewal date, no system end-of-life, no board mandate with a deadline. The H2 2026 go-live target is aspirational. Without a hard forcing function, this deal can drift indefinitely within Frasers Group's slow bureaucratic approval process."
+        },
+        {
+          "title": "4. The AE just changed during the critical window",
+          "severity": "medium",
+          "content": "Maissa Fatte replaced Yasmine Fazeli (maternity leave) as of the Feb 11 call. This is the third call in the entire deal. Maissa is inheriting a deal that's stuck, with relationships she didn't build, at the exact moment when momentum matters most."
+        },
+        {
+          "title": "5. Merchant Intent is 'Uncommitted'",
+          "severity": "medium",
+          "content": "Despite being forecast as Commit at 60% probability, the merchant intent field says 'Uncommitted.' This is the most honest signal in the deal. The merchant hasn't committed because they can't — the decision isn't theirs to make until Group IT approves."
+        }
+      ],
+      "netAssessment": "This deal is structurally blocked. The business case is strong (£600K savings, 12-month payback), the champions are genuine, but the decision authority sits with Frasers Group IT — an entity with zero Shopify engagement and no urgency to act. The Everlast USA precedent (another Frasers brand on Shopify) is the only lever, and it hasn't been pulled effectively yet."
+    }
   },
   {
     "id": "0068V0000113peWQAQ",
@@ -9296,7 +9500,41 @@
         "severity": "medium",
         "category": "execution"
       }
-    ]
+    ],
+    "dealUndercurrent": {
+      "lastUpdated": "2026-02-26",
+      "sourceCallCount": 7,
+      "sourceTranscriptLines": 2800,
+      "surfaceStory": "Essentiel Antwerp is an £82.8K Belgian fashion brand evaluating Shopify Plus for D2C + POS across 50 stores. RFP is live with 7 agencies. Build targeted for April.",
+      "sections": [
+        {
+          "title": "1. The MCV dropped 38% and no one's talking about it",
+          "severity": "high",
+          "content": "MCV fell from £132,800 to £82,800 — a 38% value erosion. This could indicate scope reduction, pricing concession, or deal downsizing. The narrative hasn't acknowledged this drop, which means either the deal was re-scoped without updating the analysis, or a significant concession was made to keep the deal alive."
+        },
+        {
+          "title": "2. The ERP decision is the hidden dependency",
+          "severity": "high",
+          "content": "Filip noted the 'massive cost factor' of upgrading Business Central. The ERP modernization decision directly shapes Shopify integration architecture. If Essentiel decides to keep or change their ERP approach, it could fundamentally alter the Shopify implementation plan. This dependency is acknowledged but not controlled."
+        },
+        {
+          "title": "3. Close date is 18 days away but 7 agencies are still being evaluated",
+          "severity": "high",
+          "content": "March 16 close date with 7 agencies still in RFP evaluation and build not starting until April. The math doesn't work. This close date is either aspirational or the definition of 'close' means something different than contract signature."
+        },
+        {
+          "title": "4. The AE transition happened at a critical moment",
+          "severity": "medium",
+          "content": "Ben Rees replaced Yasmine Fazeli and hasn't yet built a direct CFO relationship with Koenraad. The CFO was actively engaged on financials. The new AE needs to establish trust with the economic buyer quickly or risk losing the commercial momentum Yasmine built."
+        },
+        {
+          "title": "5. Centra is lurking as a fashion-native alternative",
+          "severity": "medium",
+          "content": "Centra is listed as the competitor and is positioned as strong in fashion/apparel with headless architecture. With 7 agencies evaluating, some may recommend non-Shopify platforms. The competitive landscape could shift based on agency recommendations."
+        }
+      ],
+      "netAssessment": "A deal with genuine momentum (CFO engaged, RFP live, management positive) but the timeline is unrealistic and the MCV erosion signals commercial pressure. The ERP dependency creates implementation risk that could delay or reshape the project even after signing. Watch for the close date to slip to late March or April."
+    }
   },
   {
     "id": "006OG00000JUPVtYAP",
@@ -10590,7 +10828,41 @@
           }
         }
       }
-    ]
+    ],
+    "dealUndercurrent": {
+      "lastUpdated": "2026-02-26",
+      "sourceCallCount": 8,
+      "sourceTranscriptLines": 3000,
+      "surfaceStory": "Mint Velvet is an existing Shopify Plus D2C customer evaluating POS Pro for 110 stores to replace Sitoo. New CTO Tom is championing. Close date March 27.",
+      "sections": [
+        {
+          "title": "1. This deal has failed twice before",
+          "severity": "high",
+          "content": "POS was explored in 2024, paused, restarted in mid-2025 with 21+ sync calls, then paused again for a warehouse move. This is the third attempt. Each time, the deal reached a certain point and stalled. The pattern suggests a structural barrier — likely board-level cost sensitivity — that enthusiasm alone can't overcome."
+        },
+        {
+          "title": "2. The board is actively pushing back on rates",
+          "severity": "high",
+          "content": "The Feb 18 next step reads: 'Board have pushback on costs (particularly rates).' This isn't a discovery issue or a technical concern — the board has seen the numbers and rejected them. The Feb 20 commercial director call was described as 'make-or-break' for rate alignment."
+        },
+        {
+          "title": "3. Tom (CTO) is new and hasn't earned political capital yet",
+          "severity": "medium",
+          "content": "Tom joined with a mandate to modernize and is personally championing Shopify based on prior experience. But he's a new CTO and the board is pushing back on costs. His political capital to override board cost objections may be limited — the board trusted the previous setup enough to keep Sitoo for years."
+        },
+        {
+          "title": "4. Shopify POS is the ONLY option but they're negotiating like it's competitive",
+          "severity": "medium",
+          "content": "There's no competitor — Shopify POS is the only solution that natively unifies with their existing Shopify Plus D2C store. Any other POS perpetuates fragmentation. Yet the board is still pushing back on rates, which means the 'do nothing' option (staying on Sitoo) is genuinely viable in their minds."
+        },
+        {
+          "title": "5. Pipeline forecast at 20% says it all",
+          "severity": "medium",
+          "content": "Despite being labeled 'Committed - At Risk,' the deal is at Envision stage with 20% probability. Someone in the forecasting process recognizes this deal is more aspiration than commitment. The gap between merchant intent ('Committed - At Risk') and actual probability (20%) reveals internal Shopify skepticism."
+        }
+      ],
+      "netAssessment": "A deal where Shopify has a monopoly advantage (only native POS unification) but can't convert it because the board sees Sitoo as 'good enough.' The third attempt will succeed or fail based entirely on whether Shopify's pricing team can deliver rates that survive board scrutiny. If the Feb 20 commercial director call didn't land, this deal goes dormant again."
+    }
   },
   {
     "id": "006OG00000FHHAHYA5",
@@ -11978,7 +12250,41 @@
         "severity": "medium",
         "category": "execution"
       }
-    ]
+    ],
+    "dealUndercurrent": {
+      "lastUpdated": "2026-02-26",
+      "sourceCallCount": 6,
+      "sourceTranscriptLines": 3200,
+      "surfaceStory": "Oliver Bonas is an £82.8K deal with £1.48M PBR — the largest PBR on the board. 90+ stores, Adobe Commerce contract expiring Oct 2026. RFP narrowed from 6 to 2 vendors.",
+      "sections": [
+        {
+          "title": "1. Implementation cost is the 'black hole' that could kill this deal",
+          "severity": "high",
+          "content": "Ben Curtis explicitly called implementation costs their 'black hole' and noted competitors offer free or heavily discounted implementation. This is the #1 blocker. If Shopify can't provide implementation cost clarity through partner introductions, the competitors with bundled implementation win on perceived total cost."
+        },
+        {
+          "title": "2. The competitor field just cleared — but we don't know why",
+          "severity": "medium",
+          "content": "Adobe Commerce was removed from the competitor field as of Feb 26. But the deal is still in Demonstrate stage and RFP feedback is pending. This could mean Adobe dropped out, or it could be a data cleanup. Without verbal confirmation, we're flying blind on competitive dynamics."
+        },
+        {
+          "title": "3. Ben Curtis is an evaluator, not a champion",
+          "severity": "medium",
+          "content": "Ben is thorough, engaged, and 13 years at OB — but he hasn't explicitly stated he's championing Shopify. He's running a fair evaluation. Stacey Flannery has Shopify background providing implicit advocacy, but neither has said 'I want Shopify to win.' Converting evaluators to champions requires addressing the implementation cost gap."
+        },
+        {
+          "title": "4. No one above Ben has been engaged",
+          "severity": "medium",
+          "content": "We haven't been introduced to anyone above Ben Curtis. For a £1.48M PBR deal with 90+ stores, the CFO and CEO should be in the picture. Ben sits on the leadership team, but whether he has sole budget authority is unconfirmed."
+        },
+        {
+          "title": "5. The close date is 3 months out but Paper Process scores 0.5/7",
+          "severity": "medium",
+          "content": "May 30 close date with a Paper Process score of 7%. No procurement process discussed, no contract sent, no redlines explored. There's a 3-month gap that looks comfortable until you realize zero groundwork has been laid for the actual contracting."
+        }
+      ],
+      "netAssessment": "The largest PBR deal on the board with a genuine compelling event (Adobe expiry Oct 2026). But Shopify is losing the implementation cost narrative to competitors who bundle it. The deal will be won or lost on whether Shopify can get partner agencies to provide concrete, competitive implementation quotes before the final RFP round concludes."
+    }
   },
   {
     "id": "006OG00000Fbj8nYAB",
@@ -13266,7 +13572,36 @@
           }
         }
       }
-    ]
+    ],
+    "dealUndercurrent": {
+      "lastUpdated": "2026-02-26",
+      "sourceCallCount": 4,
+      "sourceTranscriptLines": 2200,
+      "surfaceStory": "Cycle King & Hawk is a UK cycling retailer with 23 stores evaluating Shopify Plus. Citrus Lime contract expires April 2026. Darren Hunt is keen.",
+      "sections": [
+        {
+          "title": "1. The AE has already written this deal off",
+          "severity": "high",
+          "content": "The next step from Feb 11 reads: 'merchant is now considering Advanced, I will now decrease involvement, it is not looking as likely anymore.' The AE is actively disengaging. If the merchant is considering Shopify Advanced instead of Plus, the deal value collapses and the AE's incentive to invest time disappears."
+        },
+        {
+          "title": "2. The competitive landscape is a complete blind spot",
+          "severity": "high",
+          "content": "Competition scores 0/5 — literally zero. We don't know if Darren is evaluating BigCommerce, Magento, Lightspeed, or any cycling-specific EPOS. We haven't asked if doing nothing (staying on Citrus Lime) is viable. For a deal 30 days from close, this is an extraordinary gap."
+        },
+        {
+          "title": "3. Only one stakeholder exists in this deal",
+          "severity": "high",
+          "content": "Darren Hunt is the only contact. No other stakeholders from a 23-store, multi-brand retail group have been engaged. No finance, no IT, no operations. Single-threaded deals with one contact are the most fragile in any pipeline."
+        },
+        {
+          "title": "4. The deal score is the lowest on the board",
+          "severity": "medium",
+          "content": "22/54 (41%) — the only deal rated 'at-risk' in the portfolio. Every MEDDPICC section has significant gaps. Economic Buyer at 33%, Decision Criteria at 36%, Paper Process at 7%, Champion at 43%, Competition at 0%. This deal needs more work than any other on the board."
+        }
+      ],
+      "netAssessment": "The AE's own next step says it all — this deal is fading. The merchant may downgrade to Advanced, which fundamentally changes the commercial equation. With the lowest MEDDPICC score on the board, zero competitive intelligence, and the AE decreasing involvement, this deal is the most likely to fall out of the pipeline entirely."
+    }
   },
   {
     "id": "006OG00000G28JdYAJ",
@@ -14780,7 +15115,41 @@
         "severity": "low",
         "category": "timeline"
       }
-    ]
+    ],
+    "dealUndercurrent": {
+      "lastUpdated": "2026-02-26",
+      "sourceCallCount": 15,
+      "sourceTranscriptLines": 6500,
+      "surfaceStory": "Direct Wines is the biggest deal on the board — £3.81M PBR, 15-17 brands globally, migrating from ATG/commercetools. Board sign-off meeting March 24. Fusefabric doing SI discovery.",
+      "sections": [
+        {
+          "title": "1. The deal just lost 43% of its value overnight",
+          "severity": "high",
+          "content": "PBR dropped from £6.66M to £3.81M. MCV zeroed from £4.58M to £0. This is either a catastrophic data error or the deal was fundamentally restructured — potentially moving from Enterprise to Plus pricing. Either way, no one has investigated or explained this. For the largest deal on the board, this should be an emergency."
+        },
+        {
+          "title": "2. Only 7 days between board meeting and close date",
+          "severity": "high",
+          "content": "Board sign-off meeting is March 24. Close date is March 31. That's 7 calendar days (5 business days) for a £3.81M global enterprise deal to go from board approval through legal, procurement, and contract execution. This is not realistic without significant pre-work that hasn't started."
+        },
+        {
+          "title": "3. The Plus vs Enterprise decision is still pending",
+          "severity": "high",
+          "content": "Neil Rhodes indicated Plus being cheaper might 'push them over the edge.' But the tier decision hasn't been made. This blocks commercial finalization, which blocks contract preparation, which blocks the March 31 close. The entire critical path runs through a decision that hasn't been made."
+        },
+        {
+          "title": "4. UK payment rates have a 'sizeable gap'",
+          "severity": "medium",
+          "content": "Tim Curtis (Global Treasurer) flagged a 'sizeable gap' between current UK rates and Shopify's proposed rates. Ben acknowledged the premium and argued conversion uplift justifies it. But Tim is a finance person — he counts basis points, not conversion narratives. This is an unresolved commercial friction point."
+        },
+        {
+          "title": "5. The CIO is 'managing to a budget' — potential blocker",
+          "severity": "medium",
+          "content": "Martyn Oakley (CIO) could block the deal. He's described as 'managing to a budget' and the tech team has historically resisted platform changes. While Andy Brooks is pro-Shopify, the philosophical debate between composable (commercetools) and unified platform (Shopify) hasn't been resolved at the CIO level."
+        }
+      ],
+      "netAssessment": "The crown jewel of the pipeline but also the most fragile at the top. The 43% PBR drop needs immediate investigation — it could be a data error or a fundamental restructuring. The March 31 close is unrealistic without pre-staging the contract for parallel review during Fusefabric discovery. If the Plus vs Enterprise decision isn't made by early March, the board meeting won't have final numbers to approve."
+    }
   },
   {
     "id": "006OG00000FYX8zYAH",
@@ -15998,7 +16367,36 @@
         "severity": "low",
         "category": "timeline"
       }
-    ]
+    ],
+    "dealUndercurrent": {
+      "lastUpdated": "2026-02-26",
+      "sourceCallCount": 4,
+      "sourceTranscriptLines": 3000,
+      "surfaceStory": "Hawes & Curtis is an £82.8K deal where CEO Touker Suleyman literally said 'Just sign it. We need to move.' Deal Craft at 80%. Agency selection is the last step.",
+      "sections": [
+        {
+          "title": "1. The CEO said sign — but agency selection is blocking it",
+          "severity": "high",
+          "content": "Touker Suleyman personally mandated: 'I want the whole project done in four months... four to five months.' But the Feb 13 next step says 'might not sign before Q2 now' because Paul Rogers (Vervaunt) introduced more agencies with design focus. The CEO's urgency is being undermined by the agency selection process he didn't control."
+        },
+        {
+          "title": "2. The gap between CEO urgency and organizational execution",
+          "severity": "medium",
+          "content": "Touker wants it done yesterday. Sam (CFO) is methodically reviewing commercials. The CTO's team raised technical questions that need follow-up. Paul Rogers is expanding the agency search. Each stakeholder is operating on a different clock. Touker's authority is clear, but his impatience may not translate to faster execution."
+        },
+        {
+          "title": "3. Other group brands on Shopify is both an advantage and a complacency risk",
+          "severity": "medium",
+          "content": "Multiple brands in the Hawes & Curtis group are already on Shopify. This creates organizational confidence but also reduces urgency — 'we know Shopify works, we'll get to it.' The platform decision is effectively made; the execution timeline is what's at risk."
+        },
+        {
+          "title": "4. The merchant intent is the strongest on the board — 'Committed' (not At Risk)",
+          "severity": "low",
+          "content": "This is the only deal with a clean 'Committed' merchant intent — no 'At Risk' qualifier. Combined with CEO attendance on a call and explicit signing directive, the commercial intent is genuine. The risk is purely execution/timing, not willingness."
+        }
+      ],
+      "netAssessment": "This is the most commercially certain deal on the board — CEO mandated, CFO reviewing, group precedent established. The only risk is agency selection timeline pushing signature to Q2. If Maissa can decouple the Shopify contract from agency finalization, this closes. If they're coupled, it waits for Vervaunt's process to conclude."
+    }
   },
   {
     "id": "006OG00000Dh2YXYAZ",
@@ -16770,6 +17168,35 @@
         }
       ],
       "goLiveDate": ""
+    },
+    "dealUndercurrent": {
+      "lastUpdated": "2026-02-26",
+      "sourceCallCount": 3,
+      "sourceTranscriptLines": 1500,
+      "surfaceStory": "Bugaboo is evaluating Shopify Plus for a multi-brand migration starting with Artipoppe. Jordan Sykes is the champion. Agency pitches wrapping up.",
+      "sections": [
+        {
+          "title": "1. Shopify Payments is make-or-break and they won't accept Adyen",
+          "severity": "high",
+          "content": "Jordan stated the 'biggest aspect is going to be the SP since we will not approve Adyen.' SP call is scheduled March 11. If Shopify Payments can't meet their requirements, the deal dies — not because of the platform, but because of the payment gateway. This is a binary outcome."
+        },
+        {
+          "title": "2. Jordan's role is uncertain",
+          "severity": "high",
+          "content": "Jordan described himself as 'still waiting to hear whether I even have an official position with Artipoppe.' The deal's champion may not have formal authority over the first brand to migrate. If Jordan's Artipoppe role doesn't materialize, the internal driver for the first migration evaporates."
+        },
+        {
+          "title": "3. Richard (co-CEO) is 'extremely impulsive' and Shopify hasn't met him",
+          "severity": "medium",
+          "content": "Jordan described co-CEO Richard as 'extremely impulsive' and confirmed he 'can sign this off.' But Richard hasn't appeared on any Shopify calls. An impulsive decision-maker who hasn't been directly engaged could be a strength (fast sign-off) or a risk (fast rejection)."
+        },
+        {
+          "title": "4. The deal is entirely single-threaded through Jordan",
+          "severity": "medium",
+          "content": "Jordan is the sole contact managing agency selection, contract structure, and internal advocacy. If Jordan's priorities shift, gets sick, or loses his role ambiguity, there's no backup thread into Bugaboo."
+        }
+      ],
+      "netAssessment": "A deal that's activating (first nextStep populated, competitor identified, PBR established) but faces a binary SP test on March 11. The champion's role uncertainty and complete single-threading create fragility. If SP clears and Jordan's role solidifies, this deal accelerates. If either fails, it stalls."
     }
   },
   {
@@ -17694,6 +18121,40 @@
         }
       ],
       "goLiveDate": "2026-05-29"
+    },
+    "dealUndercurrent": {
+      "lastUpdated": "2026-02-26",
+      "sourceCallCount": 3,
+      "sourceTranscriptLines": 1200,
+      "surfaceStory": "C.P. Hart is a 90-year-old luxury bathroom retailer evaluating Shopify Plus. Mo Goodfellow is driving a board presentation. Budget cycle ends June.",
+      "sections": [
+        {
+          "title": "1. Mo is OOO during the most critical window",
+          "severity": "high",
+          "content": "The next step from Feb 24 notes 'MO ooo' — Mo Goodfellow, the champion and only senior contact, is out of office. The board meeting was supposed to happen 'this month' (February) but only 2 days remain. If the board meeting hasn't happened, it slips to March and Mo isn't available to drive it."
+        },
+        {
+          "title": "2. The deal has zero MAP items",
+          "severity": "high",
+          "content": "No structured execution plan exists. For a £758K PBR deal closing May 29, there's no mutual action plan with milestones, owners, or dates. The engagement has been organic and reactive — discovery calls and commercial presentation, but no shared roadmap to close."
+        },
+        {
+          "title": "3. Only 2 stakeholders are mapped for a luxury retailer with £40M D2C GMV",
+          "severity": "medium",
+          "content": "Mo (Director, Marketing & Digital) and Diamante (Sr E-Commerce Manager, on personal leave). No economic buyer, no board sponsor, no IT lead, no finance contact. The organizational picture is paper-thin."
+        },
+        {
+          "title": "4. The existential framing could backfire",
+          "severity": "medium",
+          "content": "Mo stated: 'we're 90 years old next year. If we want to last for another 90 years we need to start at the beginning of the funnel again.' This is powerful narrative but also suggests the board might view this as a multi-year strategic initiative rather than an urgent Q1 decision — potentially stretching the timeline."
+        },
+        {
+          "title": "5. NDA still in progress — legal track hasn't started",
+          "severity": "medium",
+          "content": "The NDA is still being processed. For a May 29 close, the legal track needs to start immediately after NDA. If NDA takes another 2 weeks, then rate review, then contract drafting, then legal review — the timeline compresses dangerously."
+        }
+      ],
+      "netAssessment": "A deal with genuine strategic need but weak execution infrastructure. Mo's OOO status during the board meeting window is the immediate crisis. If the board presentation slips to March and Mo can't present until he returns, the budget cycle (June sign-off for August FY) still provides time, but the deal loses momentum at the worst possible moment."
     }
   },
   {
@@ -19345,7 +19806,41 @@
         ],
         "summary": "Demo prep session. Joe clarified Zitec/OneStock already handle unified data/inventory. Key interest: consolidating customer management and streamlining custom-made/outfit builder across channels. Challenges flagged: split payment logic, average inventory costing. Critical next step: realistic implementation timeline. Sarah to investigate 'Black Tux' custom solution."
       }
-    ]
+    ],
+    "dealUndercurrent": {
+      "lastUpdated": "2026-02-26",
+      "sourceCallCount": 6,
+      "sourceTranscriptLines": 2500,
+      "surfaceStory": "Moss Bros is a £160M UK retailer evaluating Shopify to replace aging e-commerce (Remarkable) and POS (Dolphin). Chris Turberville-Tully is championing to the CEO. Demo week of Feb 23, exec presentation early March.",
+      "sections": [
+        {
+          "title": "1. The champion is an external consultant, not permanent staff",
+          "severity": "high",
+          "content": "Chris Turberville-Tully appears to be brought in as a digital consultant to drive transformation. As an external consultant, his political capital may be limited vs. permanent staff. The Head of E-commerce is resistant to change — and as a permanent employee, may outlast and outmaneuver an external advocate."
+        },
+        {
+          "title": "2. The Head of E-commerce is actively resistant",
+          "severity": "high",
+          "content": "Chris explicitly flagged that the Head of E-commerce is resistant to the Shopify migration. In a deal where the champion is an external consultant, having the internal e-commerce lead opposed creates a significant internal political barrier. This person could influence criteria, timelines, or board sentiment against migration."
+        },
+        {
+          "title": "3. The deal is much more active than Salesforce suggests",
+          "severity": "low",
+          "content": "Salesforce shows Envision stage at 20% probability — but there have been 6 substantive calls since January, a tailored demo is being prepared, and a C-suite presentation is targeted for early March. The deal is significantly more progressed than the pipeline data indicates."
+        },
+        {
+          "title": "4. Complex business models may not fit Shopify natively",
+          "severity": "medium",
+          "content": "Moss Bros has a 'hire' business (suit rental with group bookings and deposits) and a 'custom-made' business (bespoke tailoring/outfit builder). These are complex, non-standard commerce flows. Whether Shopify can handle split payments, deposits, and custom order workflows across online and POS hasn't been proven."
+        },
+        {
+          "title": "5. The board is risk-averse due to past security incidents",
+          "severity": "medium",
+          "content": "Past security incidents have made the board acutely risk-averse. While this motivates platform change (security improvement), it also means the board will scrutinize any new vendor heavily. Shopify's security posture needs to be front and center in the exec presentation."
+        }
+      ],
+      "netAssessment": "A deal with strong momentum that's being undersold by Salesforce data. The executive presentation in early March is the inflection point. If Chris can overcome the Head of E-commerce's resistance and present a compelling case to a risk-averse board, this deal moves fast. If the internal resistance prevails, Chris's consultant mandate may not be enough."
+    }
   },
   {
     "id": "006OG00000J4JtxYAF",
@@ -20045,6 +20540,40 @@
         ],
         "summary": "This meeting centered on consolidating the buyers' four brands (Vita Yummy, New Pure, Alpha Foods, N2) into a single three-year multi-brand agreement. The seller offered a discounted monthly rate of $8,280, a $1,000 saving from the usual $9,200, contingent on contract signing by February 13th. Buyers accepted this timeline but require internal coordination to choose the main billing entity and clarify current fees versus the proposed consolidated structure. They expressed keen interest in exploring Shopify Payments to reduce transaction fees."
       }
-    ]
+    ],
+    "dealUndercurrent": {
+      "lastUpdated": "2026-02-26",
+      "sourceCallCount": 3,
+      "sourceTranscriptLines": 1800,
+      "surfaceStory": "Vision Healthcare is a buy-and-build portfolio company consolidating 16 brands onto Shopify Plus. Starting with N2 as a POC. Close date March 31.",
+      "sections": [
+        {
+          "title": "1. The Tummy Talks test failure is the elephant in the room",
+          "severity": "high",
+          "content": "Vision Healthcare previously tested Shopify with Tummy Talks and saw a 'meaningful AOV drop' due to an unoptimized checkout — particularly around Cash on Delivery. They reverted. This failed test is the primary evidence the COO will use to evaluate the N2 POC. If N2 doesn't match Magento checkout performance, the entire portfolio consolidation dies."
+        },
+        {
+          "title": "2. There's an existing Shopify license breach creating legal complexity",
+          "severity": "high",
+          "content": "Vision Healthcare is running multiple brands on a single Shopify Plus license — a contract breach. This creates immediate compliance risk and adds legal complexity to any new agreement. Shopify legal needs to handle this carefully — the new MSA needs to resolve the breach without alienating the merchant."
+        },
+        {
+          "title": "3. The original close date was set around an AE's maternity leave",
+          "severity": "medium",
+          "content": "The February 13 contract deadline was partly driven by Yasmine Fazeli going on maternity leave. That deadline passed. Now Maissa Fatte has inherited a deal where the timeline was artificial and the new AE is still establishing the relationship."
+        },
+        {
+          "title": "4. No revenue data exists in Salesforce",
+          "severity": "medium",
+          "content": "MCV is £0, 3yr total revenue is £0, D2C GMV is null, Payments GPV is £0. The only commercial detail is from call notes (£8,280/month for 4 brands). For a deal in the pipeline, the Salesforce data is essentially empty — making it invisible to any pipeline reporting or forecasting tools."
+        },
+        {
+          "title": "5. COD checkout for Southern/Eastern Europe is a non-negotiable",
+          "severity": "medium",
+          "content": "Cash on Delivery is critical for Spain, Italy, and Eastern European markets. The Magento checkout has heavily customized COD greylisting, conditional payment display, and address validation. These aren't nice-to-haves — they're revenue-critical for the N2 POC in Spain."
+        }
+      ],
+      "netAssessment": "A deal with massive expansion potential (16 brands, ~95% shared functionality) but gated by a single POC that must outperform the failed Tummy Talks test. The license breach adds legal complexity. If the N2 POC proves checkout parity with Magento on COD-heavy markets, this becomes a portfolio-wide migration. If it doesn't, it's another Tummy Talks."
+    }
   }
 ]
