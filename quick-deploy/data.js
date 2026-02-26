@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-26T16:08:50.090Z",
+  "generatedAt": "2026-02-26T16:16:32.178Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -20814,7 +20814,60 @@ const DEAL_DATA = {
           "category": "timeline"
         }
       ],
-      "dealUndercurrent": null,
+      "dealUndercurrent": {
+        "lastUpdated": "2026-02-26",
+        "sourceCallCount": 9,
+        "sourceTranscriptLines": 4200,
+        "surfaceStory": "Trinny London is evaluating a move from Commerce Tools to Shopify Plus. They're in Demonstrate stage, 60% probability, $82.8K deal with $3.7M 3-year revenue. Seems like a normal platform migration evaluation.",
+        "sections": [
+          {
+            "title": "1. Founder-driven but founder is absent from calls",
+            "severity": "high",
+            "content": "The entire evaluation was kicked off because Trinny Woodall herself asked 'Why can't we be on Shopify?' (Jay Jetley, Apr 2025). She saw other brands doing things in days that take them weeks. But Trinny hasn't been on a single call. The actual decision-making power sits with Faye Roth (interim CIO) and Mark Smith (MD), and neither is deeply technical. The champion is excited but removed, and the evaluators are pragmatic budget-watchers, not visionaries."
+          },
+          {
+            "title": "2. They've been here before — and it ended badly",
+            "severity": "high",
+            "content": "Trinny London was already on Shopify circa 2020-2022, running a headless setup before Shopify was ready for headless. Jay Jetley described it as 'clunky, slow, we had to do all sorts of hacks.' They left for Commerce Tools. The institutional memory of that failed experience is gone (entire current team is new), but the ghost of the first migration creates an unspoken risk: if anyone does diligence on the history, it could undermine confidence."
+          },
+          {
+            "title": "3. Faye Roth is the real power broker — and she's hedging",
+            "severity": "high",
+            "content": "Faye repeatedly says things like 'it could be we haven't got enough information... we stick with what we've got' and 'if we don't do it now, we won't do it at all.' She's simultaneously creating urgency AND giving herself an exit ramp. Her language patterns reveal someone who wants to move but is terrified of making a mistake on a budget. She said explicitly: 'We're going to have to do this on a budget' and 'we're a scaling business, you haven't got money swishing around.'"
+          },
+          {
+            "title": "4. HCL is both the enabler and the biggest risk",
+            "severity": "high",
+            "content": "Trinny London's SI partner HCL has no meaningful Shopify experience. Faye knows this and is worried — she literally said she's seeing 'nervousness and time being baked in because of the lack of knowledge' and 'I don't want us to over-complicate what we do because of a lack of knowledge around easier ways of doing things.' But HCL is commercially locked in (5-year contract, competitive rates). They need a Shopify-expert architect/tech lead but can't afford a premium agency."
+          },
+          {
+            "title": "5. Tax architecture question is a decision paralysis trap",
+            "severity": "medium",
+            "content": "The Feb 13 call was entirely consumed by tax architecture: single store + Avalara vs. single store + Shopify Tax vs. dual store with US automated filing. James from finance said it's 'not a red flag but it's edging that way' regarding manual US tax filing. This mid-level operational question is being elevated to a strategic blocker because no one has the authority to just make the call."
+          },
+          {
+            "title": "6. SE handoff during paternity leave is a critical vulnerability",
+            "severity": "high",
+            "content": "Stephen Brook (SE) is the most trusted Shopify voice in this deal. He goes on paternity leave starting ~Feb 18. Ben Homer is covering but was also on annual leave. There's a real risk of a trust vacuum during the exact window when Trinny needs to make their go/no-go decision. The merchant team's final words were essentially 'we're muddling our way through.'"
+          },
+          {
+            "title": "7. The go/no-go board meeting keeps slipping",
+            "severity": "high",
+            "content": "Jan 28: 'Decision steer critical by next Tuesday.' Feb 4: Board meeting pushed back — Faye says 'We haven't finished discovery yet.' Feb 13: 'Hoping for a final decision in the next one to two weeks.' Feb 26 (today): No closed decision visible, still at Demonstrate stage. Each time, goalposts move because they can't assemble a complete enough picture. Classic analysis paralysis in a budget-constrained org."
+          },
+          {
+            "title": "8. Shopify Payments is a sleeper complication",
+            "severity": "medium",
+            "content": "Charlotte mentioned they can't share Adyen invoices to do the payments comparison. The SP audit has been requested since Jan 28 and still hasn't been completed. A major piece of the business case (payment savings) remains a black box. Faye flagged the 'two payment providers' problem — if they keep Adyen for POS and use Shopify Payments online, 'finance teams hate it.'"
+          },
+          {
+            "title": "9. The conversion uplift argument may not land",
+            "severity": "medium",
+            "content": "Faye explicitly challenged the benchmark data: 'I know you say 15%... but that's commerce tools, which is custom, and we have a very capable setup.' Charlotte pushed back on the business case template too — noting CT comparisons are weaker than Magento/Salesforce comparisons. They're not buying the generic ROI story. They need Trinny-specific proof."
+          }
+        ],
+        "netAssessment": "This deal is real but fragile. The motivation is genuine (founder-driven, Commerce Tools renewal pressure, desire for operational efficiency), but the execution path is blocked by: decision paralysis on tax architecture, SE trust gap during paternity handoff, SI capability gap (HCL doesn't know Shopify), incomplete business case (no Adyen comparison, generic benchmarks), and budget anxiety permeating every conversation. The biggest risk isn't that they choose a competitor — there is no competitor in this eval. The biggest risk is that they do nothing and renew Commerce Tools by default, which is exactly what Faye has been hinting at as a possible outcome since Day 1."
+      },
       "mutualActionPlan": {
         "items": [
           {
