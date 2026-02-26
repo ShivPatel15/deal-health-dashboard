@@ -4097,37 +4097,47 @@
     ],
     "dealUndercurrent": {
       "lastUpdated": "2026-02-26",
-      "sourceCallCount": 10,
-      "sourceTranscriptLines": 3500,
-      "surfaceStory": "The Dune Group is an £82.8K MCV deal for a 55-store UK fashion retailer migrating from SFCC + Anakta POS. Champion Martin Wareing says budget is 'any day now.' No competitors. Looks strong.",
+      "sourceCallCount": 6,
+      "sourceTranscriptLines": 2046,
+      "surfaceStory": "The Dune Group is an £82.8K MCV deal for a 55-store UK fashion retailer. Champion Martin Wareing says budget is 'any day now.' No competitors. Tryzens recommended Shopify. Looks like a strong, clean deal.",
       "sections": [
         {
-          "title": "1. 'Any day now' has persisted through a close date slip",
+          "title": "1. Martin explicitly told us the 20% risk — and it's budget cuts, not platform fit",
           "severity": "high",
-          "content": "Martin said budget would be signed off 'any day now' as of Feb 19. The close date was then pushed from Feb 27 to Mar 30 — a full month. The language didn't change but the timeline did. This is the classic signal of internal budget friction being downplayed to maintain relationship momentum."
+          "content": "On the Jan 9 call, Adriana asked Martin directly about the 20% concern. Martin answered with remarkable transparency: 'trading I believe has been good over autumn winter but I've put into the budget... to run this project and I've talked to the CEO and everybody's really excited but there is the reality of the situation that if trading wasn't what I believe it was and our boards decide to cut budgets then there's going to be a decision point about what we do and what we don't do in the next year.' This isn't a platform objection — it's a macro business risk. If Dune's board cuts budgets for FY starting February, this project gets shelved regardless of how good Shopify is."
         },
         {
-          "title": "2. The CEO has zero Shopify contact",
-          "severity": "high",
-          "content": "Nigel Darwin (CEO) is the contract signatory. He has not appeared in any of the 10 recorded calls. All engagement flows through Martin (Head of IT). For a deal involving 55 stores, POS hardware, and retail payments, having the CEO as a complete stranger to Shopify at signature time is a significant risk."
-        },
-        {
-          "title": "3. The AE handover may have weakened continuity",
+          "title": "2. Tryzens told Salesforce about Shopify — and Dune used it as leverage",
           "severity": "medium",
-          "content": "The deal started with Max Djurberg as AE, then transitioned to Adriana Colacicco. Martin built his relationship with Max and Sarah (SE). The handover happened during the critical budget approval phase. Whether Martin's trust transferred is unclear."
+          "content": "Andy Grainger revealed on the Nov 13 call that when negotiating SFCC renewal, Salesforce found out Dune was talking to Shopify about POS: 'they don't know we're talking to you about your pause... when we were negotiating the deal... we were like hey your competition's got a pause and they went oh we've got one... so we've done the... oh we'll have a look at it then yeah so yeah it doesn't we still want to go with you guys right yeah but we have to play the game with them.' This reveals two things: (1) Tryzens may have leaked the Shopify conversation, and (2) Dune has already used Shopify as leverage to get a better SFCC renewal deal. The question is whether the Shopify evaluation is genuine or partly a negotiation tactic."
         },
         {
-          "title": "4. The SFCC license already expired",
-          "severity": "high",
-          "content": "The compelling event was SFCC licensing expiring February 2026 — that's now. If they haven't given notice to SFCC, they've either already renewed or are in a month-to-month holding pattern. The hard deadline may have passed, which means the urgency driver has shifted from 'must decide' to 'should decide.' "
-        },
-        {
-          "title": "5. Budget cuts are Martin's stated 20% concern",
+          "title": "3. Martin has no in-house development capability — by design",
           "severity": "medium",
-          "content": "Martin explicitly said his only concern is internal budget cuts. In a retail environment where Dune is managing costs, a 55-store POS migration is a significant capital commitment. If the budget gets trimmed, this deal's scope could shrink or stall entirely."
+          "content": "Martin described their operating model clearly on Aug 15: 'We are then very much passing our requirements into Tryzens and we're running agile sprint methodology with them. Monthly sprints, monthly releases... they do all of the architecture, all of the development, all of the testing aside from UAT. They pretty much give it to Tryzens and let them do the stuff.' This is someone who explicitly wants to outsource all technical execution. When Martin says he wants 'in-house control' on Shopify, he means control over content and merchandising, not development. The migration won't reduce Tryzens dependency — it'll just change what Tryzens does."
+        },
+        {
+          "title": "4. Andy (CIO) is cautious about the online migration — 'I can't afford risk'",
+          "severity": "high",
+          "content": "Andy Grainger said on Nov 13: 'The risk I've got with the web, it's growth. So its growth is 10 points this year year on year. I can't afford with which we all know you replatform there's risk.' He explicitly said web migration won't happen in 2026 unless Sarah and Nick from Tryzens 'can convince me that it'll be absolutely brilliant. It'll be a better than what we have today with no wrinkles in it.' Andy is risk-averse on the web migration and has set an impossibly high bar — 'no wrinkles' doesn't exist in any replatform. POS might go first, but the full deal depends on web following."
+        },
+        {
+          "title": "5. The Shopify Payments math doesn't work for them yet",
+          "severity": "medium",
+          "content": "Martin did the math live on the Nov 13 call: 'Shopify payment costs would be... you're probably looking at quarter of a mill so across a year 430,000 which isn't yeah isn't in line with what we were hoping for is honest truth.' He also noted he needs 'to understand the options around staying with WorldPay maybe and not going Shopify pay.' Sarah then had to point out that WorldPay isn't integrated with Shopify POS, meaning they'd need a separate terminal. Martin's reaction: 'I just want to avoid that. It's Shopify. It's Shopify. Let's keep it Shopify.' He wants simplicity but the cost delta is real."
+        },
+        {
+          "title": "6. Cheryl (Finance) is engaged but has never seen the current costs",
+          "severity": "medium",
+          "content": "On the Nov 13 commercial call, Cheryl Lee from Finance joined. When the costs were discussed, she said: 'I've never had any visibility of what an Anakta and all of the other bits cost us anyway.' And when working with USD figures: 'I don't work in dollars, do I?' Cheryl is the financial stakeholder but she doesn't know the current baseline costs and can't easily compare. Every number needs to be converted to GBP and contextualized for her — the business case isn't self-evident to the person who controls the finance lens."
+        },
+        {
+          "title": "7. The SFCC contract was a 4-year deal expiring February — that's now",
+          "severity": "high",
+          "content": "Martin confirmed on Aug 15: 'it was a four-year deal expiring February' and 'Salesforce contracts expires in February.' It's now February 2026. Either they've renewed, are month-to-month, or have given notice. If they quietly renewed (even short-term) to buy time for the Shopify migration, the 'hard compelling event' is no longer hard — it's been managed. The urgency narrative may have silently shifted from 'must decide' to 'already handled, now optimizing.'"
         }
       ],
-      "netAssessment": "This deal has strong fundamentals — no competition, excellent champion, Tryzens recommending Shopify. But the SFCC deadline may have already passed, the CEO is a stranger, and 'any day now' on budget has been the story for weeks. The risk is that budget approval becomes a slow drip rather than a decisive moment, and Mar 30 follows Feb 27 into the rearview mirror."
+      "netAssessment": "The strongest signal in this deal is Martin's transparency — he tells you exactly where the risks are, unlike most champions who hide bad news. The 20% risk is budget cuts from a board decision Martin doesn't control. The SFCC contract has likely already been managed (renewed or extended), removing the hard deadline. Andy (CIO) has set an impossibly high bar for the web migration ('no wrinkles'). And Dune literally used the Shopify evaluation as leverage in their SFCC renewal negotiation. The deal is real — Martin genuinely wants Shopify — but the organizational risk is that this becomes a POS-only migration while the web piece gets perpetually deferred because Andy won't accept replatform risk during growth."
     }
   },
   {
