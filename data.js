@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-26T15:53:46.437Z",
+  "generatedAt": "2026-02-26T16:08:50.090Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -1163,6 +1163,7 @@ const DEAL_DATA = {
           "category": "champion"
         }
       ],
+      "dealUndercurrent": null,
       "mutualActionPlan": {
         "merchantName": "Moda in Pelle",
         "kickoffDate": "",
@@ -2503,6 +2504,7 @@ const DEAL_DATA = {
           "category": "execution"
         }
       ],
+      "dealUndercurrent": null,
       "mutualActionPlan": {
         "merchantName": "Whittard of Chelsea",
         "kickoffDate": "",
@@ -3958,6 +3960,7 @@ const DEAL_DATA = {
           "category": "commercial"
         }
       ],
+      "dealUndercurrent": null,
       "mutualActionPlan": {
         "merchantName": "The Dune Group",
         "kickoffDate": "",
@@ -5446,6 +5449,7 @@ const DEAL_DATA = {
         }
       ],
       "dealRisks": [],
+      "dealUndercurrent": null,
       "mutualActionPlan": {
         "merchantName": "Mulberry Company (Sales) Limited",
         "kickoffDate": "",
@@ -6771,6 +6775,7 @@ const DEAL_DATA = {
           "category": "competitive"
         }
       ],
+      "dealUndercurrent": null,
       "mutualActionPlan": {
         "merchantName": "Wacoal Europe",
         "kickoffDate": "",
@@ -8143,6 +8148,7 @@ const DEAL_DATA = {
         }
       ],
       "dealRisks": [],
+      "dealUndercurrent": null,
       "mutualActionPlan": {
         "merchantName": "Sofa.Com Ltd",
         "kickoffDate": "",
@@ -9569,6 +9575,7 @@ const DEAL_DATA = {
           "category": "execution"
         }
       ],
+      "dealUndercurrent": null,
       "mutualActionPlan": {
         "merchantName": "ESSENTIEL Antwerp",
         "kickoffDate": "",
@@ -10986,6 +10993,7 @@ const DEAL_DATA = {
         }
       ],
       "dealRisks": [],
+      "dealUndercurrent": null,
       "mutualActionPlan": {
         "merchantName": "Mint Velvet",
         "kickoffDate": "",
@@ -12459,6 +12467,7 @@ const DEAL_DATA = {
           "category": "execution"
         }
       ],
+      "dealUndercurrent": null,
       "mutualActionPlan": {
         "merchantName": "OLIVER BONAS LIMITED",
         "kickoffDate": "",
@@ -13861,6 +13870,7 @@ const DEAL_DATA = {
         }
       ],
       "dealRisks": [],
+      "dealUndercurrent": null,
       "mutualActionPlan": {
         "merchantName": "Cycle King & Hawk",
         "kickoffDate": "",
@@ -15397,6 +15407,7 @@ const DEAL_DATA = {
           "category": "timeline"
         }
       ],
+      "dealUndercurrent": null,
       "mutualActionPlan": {
         "merchantName": "Direct Wines Limited",
         "kickoffDate": "",
@@ -16755,6 +16766,7 @@ const DEAL_DATA = {
           "category": "timeline"
         }
       ],
+      "dealUndercurrent": null,
       "mutualActionPlan": {
         "merchantName": "Hawes & Curtis Limited",
         "kickoffDate": "",
@@ -18165,6 +18177,7 @@ const DEAL_DATA = {
           "category": "execution"
         }
       ],
+      "dealUndercurrent": null,
       "mutualActionPlan": {
         "items": [
           {
@@ -19435,6 +19448,7 @@ const DEAL_DATA = {
           "category": "champion"
         }
       ],
+      "dealUndercurrent": null,
       "mutualActionPlan": {
         "items": [
           {
@@ -20800,6 +20814,7 @@ const DEAL_DATA = {
           "category": "timeline"
         }
       ],
+      "dealUndercurrent": null,
       "mutualActionPlan": {
         "items": [
           {
@@ -22000,6 +22015,7 @@ const DEAL_DATA = {
         }
       ],
       "dealRisks": [],
+      "dealUndercurrent": null,
       "mutualActionPlan": {
         "merchantName": "Moss Bros. Group Ltd",
         "kickoffDate": "",
@@ -23268,6 +23284,7 @@ const DEAL_DATA = {
         }
       ],
       "dealRisks": [],
+      "dealUndercurrent": null,
       "mutualActionPlan": {
         "merchantName": "Vision Healthcare",
         "kickoffDate": "",

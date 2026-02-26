@@ -348,6 +348,9 @@ const fullOpps = opps.map(o => {
     // Deal risks — pass through from incremental updates
     dealRisks: o.dealRisks || [],
 
+    // Deal Undercurrent — deep-read analysis from transcripts
+    dealUndercurrent: o.dealUndercurrent || null,
+
     mutualActionPlan: o.mutualActionPlan || buildDefaultMAP(o),
 
     // Coaching snapshots — append today's section scores for trend tracking
