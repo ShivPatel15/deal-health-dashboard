@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-26T08:09:07.902Z",
+  "generatedAt": "2026-02-26T08:32:42.157Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -40,7 +40,7 @@ const DEAL_DATA = {
         "D2C - Standard",
         "Shopify Payments - D2C Plus"
       ],
-      "competitor": "Visualsoft (status quo)",
+      "competitor": "Other",
       "compellingEvent": "Acquisition and change in leadership has prompted merchant via partner Visualsoft to review their tech structure. New ownership reviewing P&L and 3-5 year goals, giving green light for ecommerce modernization. Domain litigation resolution progressing (Russell & Bromley bankruptcy setting favorable precedent). Target go-live March/April 2026.",
       "nextStep": "02/18 - Spoke to David Duke and we are on track to get it signed before end of Feb",
       "narrative": {
@@ -136,7 +136,7 @@ const DEAL_DATA = {
               "notes": "Salesforce lists David Duke (Visualsoft partner) as Economic Buyer, which is unusual. Anil Patel is Decision Maker. Matt references presenting to 'the board.' The true economic buyer may be board/ownership, CEO Simon Pickering, or Anil — this is unclear.",
               "solution": "Clarify who actually signs and approves budget for this investment.",
               "action": "Ask Matt or David Duke directly: 'Who gives final budget approval for this platform investment?'",
-              "due": "02/20/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -146,7 +146,7 @@ const DEAL_DATA = {
               "notes": "Yasmine stated 'Anil has told David that he's ready to sign this week' (Jan 21 call), suggesting Anil may be signatory. However, board approval process described suggests additional authorization may be needed.",
               "solution": "Confirm signatory and whether board approval is a prerequisite.",
               "action": "Confirm with David Duke whether Anil has full signing authority or if board/finance sign-off is needed.",
-              "due": "02/20/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -156,7 +156,7 @@ const DEAL_DATA = {
               "notes": "Anil Patel invited to ALL 3 calls, attended NONE. 62 emails sent / 22 replies. Chloe Sherwood (Finance Director) has ZERO engagement. Simon Pickering (CEO) has ZERO conversations. No direct live engagement with any economic buyer or decision maker.",
               "solution": "Secure a direct conversation with Anil before contract signature.",
               "action": "Leverage David Duke's relationship to schedule a 15-min call with Anil to discuss final commercial terms.",
-              "due": "02/21/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -166,7 +166,7 @@ const DEAL_DATA = {
               "notes": "David Duke appears to be the conduit to Anil. Matt is engaged but may not facilitate EB access. Anil responds to emails (22 replies) suggesting reachable but deprioritizes live calls.",
               "solution": "Use David Duke as the access path to Anil.",
               "action": "Shiv to ask David Duke to arrange a brief call or have Anil join the next discussion.",
-              "due": "02/20/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -176,7 +176,7 @@ const DEAL_DATA = {
               "notes": "Board/ownership cares about long-term P&L, team structures, and 3-5 year ecommerce goals. Anil's specific priorities unknown since he hasn't participated in any calls.",
               "solution": "Discover Anil's personal priorities and success metrics.",
               "action": "In any interaction with Anil, ask what his top 3 priorities are for the new platform.",
-              "due": "02/24/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -186,7 +186,7 @@ const DEAL_DATA = {
               "notes": "Matt described a process involving board presentation of P&L, team structures, long-term goals. New investors gave 'green light.' But formal approval chain not documented.",
               "solution": "Map the formal budget approval process.",
               "action": "Ask Matt: 'Once Anil is ready to sign, does it need finance or board approval, or is he authorized to execute?'",
-              "due": "02/20/2026",
+              "due": "03/12/2026",
               "highlight": false
             }
           ]
@@ -201,7 +201,7 @@ const DEAL_DATA = {
               "notes": "Decision to migrate appears largely made — backend integration built, Visualsoft engaged. However, formal approval/signature process unclear. Matt referenced board presentations and investor approvals still in progress.",
               "solution": "Confirm if platform decision is fully approved or if commercial terms still need formal board sign-off.",
               "action": "Ask Matt or David: 'Is the platform decision approved and we're just finalizing commercial terms, or is there still a go/no-go decision pending?'",
-              "due": "02/20/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -211,7 +211,7 @@ const DEAL_DATA = {
               "notes": "Known: Anil Patel (Decision Maker), Matt Holden (operational lead), Chloe Sherwood (Finance), Jason Holt (IT), David Duke (partner). Engagement heavily skewed — only Matt and occasionally David participate. Board/investor individuals unknown.",
               "solution": "Map the full buying committee and their approval roles.",
               "action": "Ask Matt: 'Beyond yourself and Anil, who else needs to approve or be consulted before we can execute the contract?'",
-              "due": "02/20/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -276,7 +276,7 @@ const DEAL_DATA = {
               "notes": "Some criteria surfaced: SEO migration, POS bespoke functionality (4-5 'showstoppers'), payment rates, integration with existing systems, timeline. No formal evaluation criteria or scorecard shared. Decision appears Shopify-or-stay rather than multi-vendor.",
               "solution": "Confirm whether there's a formal evaluation framework.",
               "action": "Ask Matt: 'Beyond SEO, POS, and payments — what are the other key criteria your team is evaluating?'",
-              "due": "02/24/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -286,7 +286,7 @@ const DEAL_DATA = {
               "notes": "D2C thoroughly discussed. POS discussed at high level — 27 stores, bespoke functionality requirements identified but not fully scoped. B2B not discussed (null in Salesforce). Omnichannel integration not deeply explored.",
               "solution": "Complete POS requirements scoping and assess if B2B is relevant.",
               "action": "Schedule a POS deep-dive with Matt and Jason Holt to document the 4-5 showstopper requirements.",
-              "due": "02/24/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -296,7 +296,7 @@ const DEAL_DATA = {
               "notes": "Matt confirmed backend integration 'already built.' Visualsoft handling front-end. POS bespoke functionality flagged but not detailed. SEO migration risks flagged. No comprehensive technical discovery documented.",
               "solution": "Conduct a technical requirements review with Ben Homer.",
               "action": "Ben Homer to schedule technical discovery with Matt and Jason Holt to map all integrations, POS requirements, SEO plan.",
-              "due": "02/24/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -351,7 +351,7 @@ const DEAL_DATA = {
               "notes": "Matt described board presentations and investor sign-off. Anil apparently has authority to sign. But formal procurement steps — legal review, finance approval, PO requirements — not discussed.",
               "solution": "Map the full procurement workflow.",
               "action": "Ask Matt/David: 'Once Anil agrees to terms, what's the process? Does legal or finance need to review? Is a PO required?'",
-              "due": "02/20/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -361,7 +361,7 @@ const DEAL_DATA = {
               "notes": "Not explicitly discussed. Given Finance Director and Head of IT involvement plus new investor oversight, redlines are plausible. Deal in Salesforce since July 2024 with multiple slippages suggesting internal complexity.",
               "solution": "Proactively identify potential redline areas.",
               "action": "Share standard contract terms with Matt/Anil in advance and ask: 'Are there any terms your legal or finance team will want to modify?'",
-              "due": "02/21/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -371,7 +371,7 @@ const DEAL_DATA = {
               "notes": "Not discussed in any call. No information on legal review timelines or procurement cycle length.",
               "solution": "Get visibility into review timeline.",
               "action": "Ask Matt: 'If there are contract modifications needed, how long does your legal/finance review typically take?'",
-              "due": "02/20/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -381,7 +381,7 @@ const DEAL_DATA = {
               "notes": "Multiple timeline estimates given — all slipped. Matt said 'aim of signing next month' (Jan) in December call — slipped. Yasmine said 'ready to sign this week' on Jan 21 — slipped. Current target end of Feb. Pattern of optimistic timelines that slip.",
               "solution": "Set a firm, mutually committed deadline.",
               "action": "Shiv to confirm with David Duke: 'Is end of February a hard commitment or an aspiration? What could cause another slip?'",
-              "due": "02/20/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -391,7 +391,7 @@ const DEAL_DATA = {
               "notes": "Commercial terms discussed: Plus at $75,900 MCV, 1.1% domestic / 2.3% AMEX, retail rate 0.8%/0.9%, $7K credit. Merchant validation form mentioned. Full contract terms not discussed.",
               "solution": "Ensure contract is fully prepared and reviewed internally.",
               "action": "Confirm all commercial terms are finalized in the contract and ready for signature.",
-              "due": "02/20/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -401,7 +401,7 @@ const DEAL_DATA = {
               "notes": "Yasmine mentioned she would 'issue the contract' and 'resend it to Anil CC Matt' in Jan 21 call. AE next step (02/18) suggests ongoing conversations about signing, implying contract may be sent.",
               "solution": "Confirm contract has been sent and received.",
               "action": "Verify with David Duke that contract has been delivered to Anil and he's reviewed it.",
-              "due": "02/20/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -511,7 +511,7 @@ const DEAL_DATA = {
               "notes": "Matt Holden is the most engaged contact — attended all 3 calls, primary spokesperson. Highly motivated but title is 'Head of Digital' which may limit influence on budget/contract decisions. May be more 'coach' than true champion. David Duke is an external advocate, not internal champion.",
               "solution": "Assess whether Matt has the influence to drive contract signature or if a more senior internal champion is needed.",
               "action": "Ask Matt: 'Do you have everything you need to get this across the line internally, or is there anything we can do to support you with the board/Anil?'",
-              "due": "02/21/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -521,7 +521,7 @@ const DEAL_DATA = {
               "notes": "Matt appears credible — given operational authority ('green light to do what we want from an ecom perspective'). Presenting to board on P&L. However, past failed platform change attempts ('hasn't worked out') may have eroded some credibility on execution timelines.",
               "solution": "Help Matt build credibility by providing polished materials for board presentations.",
               "action": "Provide Matt with a polished business case summary (ROI, timeline, risk mitigation) for board presentation.",
-              "due": "02/21/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -551,7 +551,7 @@ const DEAL_DATA = {
               "notes": "Anil invited to all 3 calls, attended none. All communication has been indirect — through Matt or David Duke. Shopify has never had a direct conversation with the primary decision maker. SIGNIFICANT risk for a deal at 80% probability in 'Commit' forecast.",
               "solution": "Secure a direct introduction before contract signature.",
               "action": "Shiv to ask David Duke to arrange a 10-minute call with Anil, framing it as a 'welcome to Shopify' executive touch-point.",
-              "due": "02/21/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -561,7 +561,7 @@ const DEAL_DATA = {
               "notes": "No evidence of willingness or attempt to bring Shopify into board-level discussions. Matt is the buffer. Board, CEO (Simon Pickering), and Finance Director (Chloe Sherwood) have zero direct engagement.",
               "solution": "Assess whether board access is necessary.",
               "action": "Ask Matt: 'Would it help if someone from Shopify leadership joined a brief call with your board?'",
-              "due": "02/21/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -596,7 +596,7 @@ const DEAL_DATA = {
               "notes": "Not directly asked, but Matt's statements strongly imply doing nothing is not viable: 'otherwise we'll be sat with the same site for the next 10 years.' However, deal has been in SF since July 2024 with multiple missed deadlines — arguably they HAVE been 'doing nothing' for 18+ months.",
               "solution": "Address the pattern of delay directly.",
               "action": "Shiv to frame: 'Given past slippage, what's different this time that gives you confidence February will stick?'",
-              "due": "02/20/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -606,7 +606,7 @@ const DEAL_DATA = {
               "notes": "Current Visualsoft platform is the status quo alternative. No custom/in-house build consideration. Backend Shopify integration already built. However, POS showstoppers could lead to maintaining existing retail systems rather than adopting Shopify POS.",
               "solution": "Ensure POS isn't a deal-breaker that sends them looking for hybrid solutions.",
               "action": "Clarify that POS can be phased — secure D2C commitment first, address POS requirements separately.",
-              "due": "02/21/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -626,7 +626,7 @@ const DEAL_DATA = {
               "notes": "Win: partner support, backend built, ownership mandate, competitive payments, Shop Pay uplift. Lose: POS showstoppers, SEO risk, deal fatigue (18 months), inability to engage DM, timeline slippage pattern, Finance Director/CEO zero engagement.",
               "solution": "Address lose factors systematically.",
               "action": "Create a risk register addressing each potential lose factor with mitigation plan; prioritize POS assessment and Anil engagement.",
-              "due": "02/21/2026",
+              "due": "03/12/2026",
               "highlight": false
             }
           ]
@@ -707,56 +707,56 @@ const DEAL_DATA = {
           "cat": "Economic Buyer",
           "issue": "Salesforce lists David Duke (Visualsoft partner) as Economic Buyer, which is unusual. Anil Patel is Decision Maker. Matt references presenting to 'the board.' The true economic buyer may be board/ownership, CEO Simon Pickering, or Anil — this is unclear.",
           "rec": "Ask Matt or David Duke directly: 'Who gives final budget approval for this platform investment?'",
-          "due": "02/20/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 5,
           "cat": "Economic Buyer",
           "issue": "Yasmine stated 'Anil has told David that he's ready to sign this week' (Jan 21 call), suggesting Anil may be signatory. However, board approval process described suggests additional authorization may be needed.",
           "rec": "Confirm with David Duke whether Anil has full signing authority or if board/finance sign-off is needed.",
-          "due": "02/20/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 6,
           "cat": "Economic Buyer",
           "issue": "Anil Patel invited to ALL 3 calls, attended NONE. 62 emails sent / 22 replies. Chloe Sherwood (Finance Director) has ZERO engagement. Simon Pickering (CEO) has ZERO conversations. No direct live engagement with any economic buyer or decision maker.",
           "rec": "Leverage David Duke's relationship to schedule a 15-min call with Anil to discuss final commercial terms.",
-          "due": "02/21/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 7,
           "cat": "Economic Buyer",
           "issue": "David Duke appears to be the conduit to Anil. Matt is engaged but may not facilitate EB access. Anil responds to emails (22 replies) suggesting reachable but deprioritizes live calls.",
           "rec": "Shiv to ask David Duke to arrange a brief call or have Anil join the next discussion.",
-          "due": "02/20/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 8,
           "cat": "Economic Buyer",
           "issue": "Board/ownership cares about long-term P&L, team structures, and 3-5 year ecommerce goals. Anil's specific priorities unknown since he hasn't participated in any calls.",
           "rec": "In any interaction with Anil, ask what his top 3 priorities are for the new platform.",
-          "due": "02/24/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 9,
           "cat": "Economic Buyer",
           "issue": "Matt described a process involving board presentation of P&L, team structures, long-term goals. New investors gave 'green light.' But formal approval chain not documented.",
           "rec": "Ask Matt: 'Once Anil is ready to sign, does it need finance or board approval, or is he authorized to execute?'",
-          "due": "02/20/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 10,
           "cat": "Decision Process",
           "issue": "Decision to migrate appears largely made — backend integration built, Visualsoft engaged. However, formal approval/signature process unclear. Matt referenced board presentations and investor approvals still in progress.",
           "rec": "Ask Matt or David: 'Is the platform decision approved and we're just finalizing commercial terms, or is there still a go/no-go decision pending?'",
-          "due": "02/20/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 11,
           "cat": "Decision Process",
           "issue": "Known: Anil Patel (Decision Maker), Matt Holden (operational lead), Chloe Sherwood (Finance), Jason Holt (IT), David Duke (partner). Engagement heavily skewed — only Matt and occasionally David participate. Board/investor individuals unknown.",
           "rec": "Ask Matt: 'Beyond yourself and Anil, who else needs to approve or be consulted before we can execute the contract?'",
-          "due": "02/20/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 12,
@@ -784,21 +784,21 @@ const DEAL_DATA = {
           "cat": "Decision Criteria",
           "issue": "Some criteria surfaced: SEO migration, POS bespoke functionality (4-5 'showstoppers'), payment rates, integration with existing systems, timeline. No formal evaluation criteria or scorecard shared. Decision appears Shopify-or-stay rather than multi-vendor.",
           "rec": "Ask Matt: 'Beyond SEO, POS, and payments — what are the other key criteria your team is evaluating?'",
-          "due": "02/24/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 16,
           "cat": "Decision Criteria",
           "issue": "D2C thoroughly discussed. POS discussed at high level — 27 stores, bespoke functionality requirements identified but not fully scoped. B2B not discussed (null in Salesforce). Omnichannel integration not deeply explored.",
           "rec": "Schedule a POS deep-dive with Matt and Jason Holt to document the 4-5 showstopper requirements.",
-          "due": "02/24/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 17,
           "cat": "Decision Criteria",
           "issue": "Matt confirmed backend integration 'already built.' Visualsoft handling front-end. POS bespoke functionality flagged but not detailed. SEO migration risks flagged. No comprehensive technical discovery documented.",
           "rec": "Ben Homer to schedule technical discovery with Matt and Jason Holt to map all integrations, POS requirements, SEO plan.",
-          "due": "02/24/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 18,
@@ -826,42 +826,42 @@ const DEAL_DATA = {
           "cat": "Paper Process",
           "issue": "Matt described board presentations and investor sign-off. Anil apparently has authority to sign. But formal procurement steps — legal review, finance approval, PO requirements — not discussed.",
           "rec": "Ask Matt/David: 'Once Anil agrees to terms, what's the process? Does legal or finance need to review? Is a PO required?'",
-          "due": "02/20/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 22,
           "cat": "Paper Process",
           "issue": "Not explicitly discussed. Given Finance Director and Head of IT involvement plus new investor oversight, redlines are plausible. Deal in Salesforce since July 2024 with multiple slippages suggesting internal complexity.",
           "rec": "Share standard contract terms with Matt/Anil in advance and ask: 'Are there any terms your legal or finance team will want to modify?'",
-          "due": "02/21/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 23,
           "cat": "Paper Process",
           "issue": "Not discussed in any call. No information on legal review timelines or procurement cycle length.",
           "rec": "Ask Matt: 'If there are contract modifications needed, how long does your legal/finance review typically take?'",
-          "due": "02/20/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 24,
           "cat": "Paper Process",
           "issue": "Multiple timeline estimates given — all slipped. Matt said 'aim of signing next month' (Jan) in December call — slipped. Yasmine said 'ready to sign this week' on Jan 21 — slipped. Current target end of Feb. Pattern of optimistic timelines that slip.",
           "rec": "Shiv to confirm with David Duke: 'Is end of February a hard commitment or an aspiration? What could cause another slip?'",
-          "due": "02/20/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 25,
           "cat": "Paper Process",
           "issue": "Commercial terms discussed: Plus at $75,900 MCV, 1.1% domestic / 2.3% AMEX, retail rate 0.8%/0.9%, $7K credit. Merchant validation form mentioned. Full contract terms not discussed.",
           "rec": "Confirm all commercial terms are finalized in the contract and ready for signature.",
-          "due": "02/20/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 26,
           "cat": "Paper Process",
           "issue": "Yasmine mentioned she would 'issue the contract' and 'resend it to Anil CC Matt' in Jan 21 call. AE next step (02/18) suggests ongoing conversations about signing, implying contract may be sent.",
           "rec": "Verify with David Duke that contract has been delivered to Anil and he's reviewed it.",
-          "due": "02/20/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 27,
@@ -889,28 +889,28 @@ const DEAL_DATA = {
           "cat": "Champion",
           "issue": "Matt Holden is the most engaged contact — attended all 3 calls, primary spokesperson. Highly motivated but title is 'Head of Digital' which may limit influence on budget/contract decisions. May be more 'coach' than true champion. David Duke is an external advocate, not internal champion.",
           "rec": "Ask Matt: 'Do you have everything you need to get this across the line internally, or is there anything we can do to support you with the board/Anil?'",
-          "due": "02/21/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 31,
           "cat": "Champion",
           "issue": "Matt appears credible — given operational authority ('green light to do what we want from an ecom perspective'). Presenting to board on P&L. However, past failed platform change attempts ('hasn't worked out') may have eroded some credibility on execution timelines.",
           "rec": "Provide Matt with a polished business case summary (ROI, timeline, risk mitigation) for board presentation.",
-          "due": "02/21/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 32,
           "cat": "Champion",
           "issue": "Anil invited to all 3 calls, attended none. All communication has been indirect — through Matt or David Duke. Shopify has never had a direct conversation with the primary decision maker. SIGNIFICANT risk for a deal at 80% probability in 'Commit' forecast.",
           "rec": "Shiv to ask David Duke to arrange a 10-minute call with Anil, framing it as a 'welcome to Shopify' executive touch-point.",
-          "due": "02/21/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 33,
           "cat": "Champion",
           "issue": "No evidence of willingness or attempt to bring Shopify into board-level discussions. Matt is the buffer. Board, CEO (Simon Pickering), and Finance Director (Chloe Sherwood) have zero direct engagement.",
           "rec": "Ask Matt: 'Would it help if someone from Shopify leadership joined a brief call with your board?'",
-          "due": "02/21/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 34,
@@ -924,21 +924,21 @@ const DEAL_DATA = {
           "cat": "Competition",
           "issue": "Not directly asked, but Matt's statements strongly imply doing nothing is not viable: 'otherwise we'll be sat with the same site for the next 10 years.' However, deal has been in SF since July 2024 with multiple missed deadlines — arguably they HAVE been 'doing nothing' for 18+ months.",
           "rec": "Shiv to frame: 'Given past slippage, what's different this time that gives you confidence February will stick?'",
-          "due": "02/20/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 36,
           "cat": "Competition",
           "issue": "Current Visualsoft platform is the status quo alternative. No custom/in-house build consideration. Backend Shopify integration already built. However, POS showstoppers could lead to maintaining existing retail systems rather than adopting Shopify POS.",
           "rec": "Clarify that POS can be phased — secure D2C commitment first, address POS requirements separately.",
-          "due": "02/21/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 37,
           "cat": "Competition",
           "issue": "Win: partner support, backend built, ownership mandate, competitive payments, Shop Pay uplift. Lose: POS showstoppers, SEO risk, deal fatigue (18 months), inability to engage DM, timeline slippage pattern, Finance Director/CEO zero engagement.",
           "rec": "Create a risk register addressing each potential lose factor with mitigation plan; prioritize POS assessment and Anil engagement.",
-          "due": "02/21/2026"
+          "due": "03/12/2026"
         }
       ],
       "stakeholders": [
@@ -1146,11 +1146,27 @@ const DEAL_DATA = {
           ]
         }
       ],
-      "dealRisks": [],
+      "dealRisks": [
+        {
+          "risk": "Close date is TOMORROW (Feb 27) with 38+ action items and many overdue since Feb 20-24. Extremely high volume of unresolved discovery items heading into signature.",
+          "severity": "high",
+          "category": "execution"
+        },
+        {
+          "risk": "Competitor changed from specific (Visualsoft) to generic 'Other' — could indicate new unknown competitor entering, broadened evaluation, or data simplification. Ambiguity is a risk.",
+          "severity": "medium",
+          "category": "competitive"
+        },
+        {
+          "risk": "Economic buyer questions (Q0-Q5) all overdue — deal may close without proper EB validation, creating post-signature risk.",
+          "severity": "high",
+          "category": "champion"
+        }
+      ],
       "mutualActionPlan": {
         "merchantName": "Moda in Pelle",
         "kickoffDate": "",
-        "goLiveDate": "2026-02-27",
+        "goLiveDate": "2026-05-29",
         "contactName": "Adriana Colacicco",
         "contactEmail": "adriana.colacicco@shopify.com",
         "champion": "David Duke",
@@ -1282,6 +1298,30 @@ const DEAL_DATA = {
             "notes": ""
           },
           {
+            "date": "2026-02-27",
+            "done": false,
+            "milestone": "Contract signature",
+            "ownerMerchant": "David Duke",
+            "ownerShopify": "Adriana Colacicco",
+            "notes": "David Duke says 'on track to sign before end of Feb.' Close date is Feb 27."
+          },
+          {
+            "date": "2026-03-10",
+            "done": false,
+            "milestone": "Implementation kick-off & partner assignment",
+            "ownerMerchant": "Moda in Pelle team",
+            "ownerShopify": "Adriana Colacicco",
+            "notes": "Post-close onboarding — target 2 weeks after signature."
+          },
+          {
+            "date": "2026-05-29",
+            "done": false,
+            "milestone": "Go-live on Shopify",
+            "ownerMerchant": "Moda in Pelle team",
+            "ownerShopify": "Adriana Colacicco",
+            "notes": "Proposed launch date per SF update. ~3 month implementation window."
+          },
+          {
             "date": "",
             "done": false,
             "milestone": "Contract signed ✍️",
@@ -1408,7 +1448,7 @@ const DEAL_DATA = {
       "owner": "Adriana Colacicco",
       "ownerEmail": "adriana.colacicco@shopify.com",
       "stage": "Deal Craft",
-      "closeDate": "2026-02-27",
+      "closeDate": "2026-03-30",
       "forecastCategory": "Commit",
       "probability": 80,
       "merchantIntent": "Committed - At Risk",
@@ -1417,22 +1457,22 @@ const DEAL_DATA = {
       "lastAnalysisDate": "2026-02-19",
       "revenue": {
         "mcv": 69000,
-        "totalRev3yr": 714900,
+        "totalRev3yr": 676036.88,
         "d2cGmv": 16900000,
         "b2bGmv": null,
         "retailGmv": 43744512,
-        "paymentsGpv": 8125000,
+        "paymentsGpv": 10985000,
         "paymentsAttached": true,
         "ipp": 0
       },
-      "projectedBilledRevenue": 406078.56,
+      "projectedBilledRevenue": 303277.58,
       "products": [
         "D2C - Standard (Plus)",
         "Shopify Payments - D2C Plus"
       ],
       "competitor": "Adobe Commerce (Magento)",
       "compellingEvent": "Salesforce Commerce Cloud Site Genesis reaching end-of-life, non-mobile-native platform with 70% mobile traffic, inability to unlock digital wallets, and ambitious B2C growth targets requiring a modern platform. July 2026 launch target to avoid January 2027 crunch.",
-      "nextStep": "19.02 resubmitted rate review, WorldPay is payment processor, Barclay, Merchant keen on signing this Q (received email from Fiona today mentioning good to sign in Feb!)",
+      "nextStep": "24.02 RR back, Adriana to set up meeting with Nathan and Fiona to discuss final steps + Partner choice",
       "narrative": {
         "oppSummary": "Whittard of Chelsea is a UK-based Food & Beverage retailer evaluating a migration from Salesforce Commerce Cloud (Site Genesis) to Shopify Plus, with a projected deal value of ~$714,900 over 3 years ($69,000/yr MCV). The merchant targets a July 2026 launch to replatform their e-commerce site, with the ambition of growing online B2C penetration from 17-18% to 25% of total sales over 24 months. The deal is currently in Deal Craft stage at 80% probability with a Feb 27, 2026 close date, and the merchant has signaled readiness to sign in February — Fiona Scott (Head of eCommerce, now primary contact after Alice Bennett's maternity leave) sent a recent email indicating willingness to sign this quarter.",
         "whyChange": "Whittard is on Salesforce Commerce Cloud's Site Genesis, which Fiona stated 'won't be supported by Salesforce for much longer.' The platform is not mobile-native — a critical problem with 70% mobile traffic vs 25% desktop. They cannot unlock digital wallets (Apple Pay, Google Pay). B2C sales are 17-18% of total, targeting 25%. The original evaluation considered a phased approach but has since prioritized full migration by July 2026.",
@@ -1471,7 +1511,7 @@ const DEAL_DATA = {
               "notes": "Site Genesis being sunset by Salesforce — must change platforms. Current platform cannot support digital wallets or mobile-native experience",
               "solution": "",
               "action": "",
-              "due": "",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -1491,7 +1531,7 @@ const DEAL_DATA = {
               "notes": "Site Genesis end-of-life is compelling event. July 2026 launch target. Fiona: 'If we don't do it then it'll need to be Jan 27'",
               "solution": "",
               "action": "",
-              "due": "",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -1536,7 +1576,7 @@ const DEAL_DATA = {
               "notes": "Nathan and CFO sign off cost. CFO name unknown. Contract signer not confirmed",
               "solution": "Clarify who signs the contract",
               "action": "Adriana to ask Fiona to confirm signatory and procurement steps",
-              "due": "02/21/2026",
+              "due": "03/05/2026",
               "highlight": false
             },
             {
@@ -1546,7 +1586,7 @@ const DEAL_DATA = {
               "notes": "Nathan attended Call 3 (Jan 28) — strong signal, but no transcript. Couldn't join Call 2 initially",
               "solution": "Continue building direct relationship",
               "action": "Ensure Nathan included in final commercial review",
-              "due": "02/24/2026",
+              "due": "03/05/2026",
               "highlight": false
             },
             {
@@ -1566,7 +1606,7 @@ const DEAL_DATA = {
               "notes": "CEO priorities implied but not directly captured. No transcript from Call 3",
               "solution": "Understand Nathan's key concerns",
               "action": "Adriana to debrief with Fiona on Nathan's priorities from Jan 28",
-              "due": "02/21/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -1576,7 +1616,7 @@ const DEAL_DATA = {
               "notes": "Steering committee mentioned, internal review described, but detailed approval workflow not fully mapped",
               "solution": "Map approval chain",
               "action": "Ask Fiona to walk through remaining internal steps",
-              "due": "02/21/2026",
+              "due": "03/12/2026",
               "highlight": false
             }
           ]
@@ -1591,7 +1631,7 @@ const DEAL_DATA = {
               "notes": "General process described — Nathan and CFO sign off, steering committee, internal review. Exact steps not documented",
               "solution": "Get clear step-by-step from Fiona",
               "action": "Confirm remaining decision process steps",
-              "due": "02/21/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -1641,7 +1681,7 @@ const DEAL_DATA = {
               "notes": "Implied cost of staying on Site Genesis but no explicit 'do nothing' articulation in concrete terms",
               "solution": "Reinforce cost of inaction in final materials",
               "action": "Include cost-of-delay slide in steering committee materials",
-              "due": "02/24/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -1651,7 +1691,7 @@ const DEAL_DATA = {
               "notes": "Process discussed with Fiona but not explicitly validated with Nathan or CFO. No transcript from Call 3",
               "solution": "Reconfirm process",
               "action": "Reconfirm decision process and timeline with Fiona",
-              "due": "02/21/2026",
+              "due": "03/12/2026",
               "highlight": false
             }
           ]
@@ -1666,7 +1706,7 @@ const DEAL_DATA = {
               "notes": "Key criteria surfaced: mobile-native, digital wallets, subscriptions, conversion, cost, agency ecosystem. No formal written criteria or RFP scoring shared",
               "solution": "Ask for formal evaluation criteria document",
               "action": "Adriana to ask Fiona about steering committee evaluation framework",
-              "due": "02/24/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -1696,7 +1736,7 @@ const DEAL_DATA = {
               "notes": "Payments significant — currently 0.55% with WorldPay, open to change. Shopify Payments in deal. Rate review in progress. Digital wallets key driver",
               "solution": "",
               "action": "Ensure rate review returned quickly",
-              "due": "02/24/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -1706,7 +1746,7 @@ const DEAL_DATA = {
               "notes": "No mutual action plan referenced in any call or Salesforce. Timeline verbal only",
               "solution": "Create mutual action plan",
               "action": "Adriana to draft MAP: contract sign → agency kick-off → build → QA → launch",
-              "due": "02/24/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -1726,7 +1766,7 @@ const DEAL_DATA = {
               "notes": "Criteria driven by e-commerce team based on Site Genesis pain. No external analyst influence identified",
               "solution": "Check for external advisors",
               "action": "Ask Fiona if external consultants involved",
-              "due": "02/24/2026",
+              "due": "03/12/2026",
               "highlight": false
             }
           ]
@@ -1741,7 +1781,7 @@ const DEAL_DATA = {
               "notes": "No procurement process discussed. Nathan and CFO sign off cost but no details on legal/procurement workflow",
               "solution": "Map procurement/legal process before sending contract",
               "action": "Ask Fiona about internal process to get contract signed — legal or procurement review?",
-              "due": "02/21/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -1751,7 +1791,7 @@ const DEAL_DATA = {
               "notes": "No redline or legal concerns discussed",
               "solution": "Proactively ask about redline areas",
               "action": "Ask Fiona if legal typically redlines vendor contracts",
-              "due": "02/21/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -1761,7 +1801,7 @@ const DEAL_DATA = {
               "notes": "No legal review timeline information",
               "solution": "Get timeline estimate from Fiona",
               "action": "Included in Q1 action",
-              "due": "02/21/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -1771,7 +1811,7 @@ const DEAL_DATA = {
               "notes": "No procurement timeline discussed. Fiona suggested Feb signing but internal steps unmapped",
               "solution": "Confirm Feb 27 is realistic",
               "action": "Validate Feb signature achievability with Fiona",
-              "due": "02/21/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -1781,7 +1821,7 @@ const DEAL_DATA = {
               "notes": "Plus pricing walked through in Call 2. Rate review resubmitted Feb 19. Formal contract not confirmed as sent",
               "solution": "Prepare contract once rate review finalized",
               "action": "Finalize and send contract upon rate review approval",
-              "due": "02/25/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -1791,7 +1831,7 @@ const DEAL_DATA = {
               "notes": "No contract sent yet. Rate review still in progress",
               "solution": "Expedite rate review and contract generation",
               "action": "Follow up internally on rate review turnaround",
-              "due": "02/24/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -1801,7 +1841,7 @@ const DEAL_DATA = {
               "notes": "Fiona's email indicated Feb signing willingness. Not explicitly confirmed as mutual target date",
               "solution": "Confirm Feb 27 as mutual target",
               "action": "Adriana to confirm: 'Are we aligned on signing by end of Feb?'",
-              "due": "02/21/2026",
+              "due": "03/19/2026",
               "highlight": false
             }
           ]
@@ -1866,7 +1906,7 @@ const DEAL_DATA = {
               "notes": "Adobe Commerce listed in SF but never mentioned in calls. No active competitive evaluation evident. Doing nothing not viable due to EOL",
               "solution": "Confirm competitive landscape",
               "action": "Adriana to ask Fiona if evaluating other platforms or solely Shopify",
-              "due": "02/21/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -1951,7 +1991,7 @@ const DEAL_DATA = {
               "notes": "Steering committee exists. No explicit mention of bringing Shopify into a board presentation",
               "solution": "Offer to support internal business case presentation",
               "action": "Ask Fiona if anything needed for steering committee presentation",
-              "due": "02/24/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -1976,7 +2016,7 @@ const DEAL_DATA = {
               "notes": "Adobe Commerce listed in SF but never mentioned in calls. No evidence of active competitive evaluation",
               "solution": "Confirm if Adobe is real threat or stale entry",
               "action": "Adriana to ask Fiona directly about other platform evaluations",
-              "due": "02/21/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -2016,7 +2056,7 @@ const DEAL_DATA = {
               "notes": "Know why we should win (mobile-native, Shop Pay, digital wallets, champion). Risk: payment rate competitiveness (0.55% current), unknown CFO sensitivity, Adobe unknown",
               "solution": "Ensure rates competitive, address CFO concerns",
               "action": "Prioritize rate review and prepare TCO comparison if needed",
-              "due": "02/24/2026",
+              "due": "03/12/2026",
               "highlight": false
             }
           ]
@@ -2090,119 +2130,119 @@ const DEAL_DATA = {
           "cat": "Economic Buyer",
           "issue": "Nathan and CFO sign off cost. CFO name unknown. Contract signer not confirmed",
           "rec": "Adriana to ask Fiona to confirm signatory and procurement steps",
-          "due": "02/21/2026"
+          "due": "03/05/2026"
         },
         {
           "p": 4,
           "cat": "Economic Buyer",
           "issue": "Nathan attended Call 3 (Jan 28) — strong signal, but no transcript. Couldn't join Call 2 initially",
           "rec": "Ensure Nathan included in final commercial review",
-          "due": "02/24/2026"
+          "due": "03/05/2026"
         },
         {
           "p": 5,
           "cat": "Economic Buyer",
           "issue": "CEO priorities implied but not directly captured. No transcript from Call 3",
           "rec": "Adriana to debrief with Fiona on Nathan's priorities from Jan 28",
-          "due": "02/21/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 6,
           "cat": "Economic Buyer",
           "issue": "Steering committee mentioned, internal review described, but detailed approval workflow not fully mapped",
           "rec": "Ask Fiona to walk through remaining internal steps",
-          "due": "02/21/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 7,
           "cat": "Decision Process",
           "issue": "General process described — Nathan and CFO sign off, steering committee, internal review. Exact steps not documented",
           "rec": "Confirm remaining decision process steps",
-          "due": "02/21/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 8,
           "cat": "Decision Process",
           "issue": "Implied cost of staying on Site Genesis but no explicit 'do nothing' articulation in concrete terms",
           "rec": "Include cost-of-delay slide in steering committee materials",
-          "due": "02/24/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 9,
           "cat": "Decision Process",
           "issue": "Process discussed with Fiona but not explicitly validated with Nathan or CFO. No transcript from Call 3",
           "rec": "Reconfirm decision process and timeline with Fiona",
-          "due": "02/21/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 10,
           "cat": "Decision Criteria",
           "issue": "Key criteria surfaced: mobile-native, digital wallets, subscriptions, conversion, cost, agency ecosystem. No formal written criteria or RFP scoring shared",
           "rec": "Adriana to ask Fiona about steering committee evaluation framework",
-          "due": "02/24/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 11,
           "cat": "Decision Criteria",
           "issue": "No mutual action plan referenced in any call or Salesforce. Timeline verbal only",
           "rec": "Adriana to draft MAP: contract sign → agency kick-off → build → QA → launch",
-          "due": "02/24/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 12,
           "cat": "Decision Criteria",
           "issue": "Criteria driven by e-commerce team based on Site Genesis pain. No external analyst influence identified",
           "rec": "Ask Fiona if external consultants involved",
-          "due": "02/24/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 13,
           "cat": "Paper Process",
           "issue": "No procurement process discussed. Nathan and CFO sign off cost but no details on legal/procurement workflow",
           "rec": "Ask Fiona about internal process to get contract signed — legal or procurement review?",
-          "due": "02/21/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 14,
           "cat": "Paper Process",
           "issue": "No redline or legal concerns discussed",
           "rec": "Ask Fiona if legal typically redlines vendor contracts",
-          "due": "02/21/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 15,
           "cat": "Paper Process",
           "issue": "No legal review timeline information",
           "rec": "Included in Q1 action",
-          "due": "02/21/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 16,
           "cat": "Paper Process",
           "issue": "No procurement timeline discussed. Fiona suggested Feb signing but internal steps unmapped",
           "rec": "Validate Feb signature achievability with Fiona",
-          "due": "02/21/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 17,
           "cat": "Paper Process",
           "issue": "Plus pricing walked through in Call 2. Rate review resubmitted Feb 19. Formal contract not confirmed as sent",
           "rec": "Finalize and send contract upon rate review approval",
-          "due": "02/25/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 18,
           "cat": "Paper Process",
           "issue": "No contract sent yet. Rate review still in progress",
           "rec": "Follow up internally on rate review turnaround",
-          "due": "02/24/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 19,
           "cat": "Paper Process",
           "issue": "Fiona's email indicated Feb signing willingness. Not explicitly confirmed as mutual target date",
           "rec": "Adriana to confirm: 'Are we aligned on signing by end of Feb?'",
-          "due": "02/21/2026"
+          "due": "03/19/2026"
         },
         {
           "p": 20,
@@ -2216,21 +2256,21 @@ const DEAL_DATA = {
           "cat": "Identify Pain",
           "issue": "Adobe Commerce listed in SF but never mentioned in calls. No active competitive evaluation evident. Doing nothing not viable due to EOL",
           "rec": "Adriana to ask Fiona if evaluating other platforms or solely Shopify",
-          "due": "02/21/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 22,
           "cat": "Champion",
           "issue": "Steering committee exists. No explicit mention of bringing Shopify into a board presentation",
           "rec": "Ask Fiona if anything needed for steering committee presentation",
-          "due": "02/24/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 23,
           "cat": "Competition",
           "issue": "Adobe Commerce listed in SF but never mentioned in calls. No evidence of active competitive evaluation",
           "rec": "Adriana to ask Fiona directly about other platform evaluations",
-          "due": "02/21/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 24,
@@ -2244,7 +2284,7 @@ const DEAL_DATA = {
           "cat": "Competition",
           "issue": "Know why we should win (mobile-native, Shop Pay, digital wallets, champion). Risk: payment rate competitiveness (0.55% current), unknown CFO sensitivity, Adobe unknown",
           "rec": "Prioritize rate review and prepare TCO comparison if needed",
-          "due": "02/24/2026"
+          "due": "03/12/2026"
         }
       ],
       "stakeholders": [
@@ -2436,11 +2476,37 @@ const DEAL_DATA = {
           ]
         }
       ],
-      "dealRisks": [],
+      "dealRisks": [
+        {
+          "risk": "Close date slipped 1 full month (Feb 27 → Mar 30). Combined with PBR drop of 25% ($406K → $303K), deal economics are deteriorating. Rate review concessions may have compressed margin.",
+          "severity": "high",
+          "category": "commercial"
+        },
+        {
+          "risk": "3yr total revenue dropped 5% ($714.9K → $676K) despite Payments GPV increasing 35% — suggests subscription/platform revenue concessions were made during rate review to win payments volume.",
+          "severity": "medium",
+          "category": "commercial"
+        },
+        {
+          "risk": "Partner choice still pending — this is a blocking dependency for contract signature. If partner selection delays, close date could slip again beyond Mar 30.",
+          "severity": "medium",
+          "category": "execution"
+        },
+        {
+          "risk": "Meeting with Nathan (EB) and Fiona not yet scheduled — just identified as next step on 02/24. Must happen quickly to hold Mar 30 close date.",
+          "severity": "medium",
+          "category": "champion"
+        },
+        {
+          "risk": "25+ overdue action items across all MEDDPICC categories (due Feb 21-25). Systematic execution gap.",
+          "severity": "medium",
+          "category": "execution"
+        }
+      ],
       "mutualActionPlan": {
         "merchantName": "Whittard of Chelsea",
         "kickoffDate": "",
-        "goLiveDate": "2026-02-27",
+        "goLiveDate": "2026-03-30",
         "contactName": "Adriana Colacicco",
         "contactEmail": "adriana.colacicco@shopify.com",
         "champion": "Alice Bennett",
@@ -2535,6 +2601,30 @@ const DEAL_DATA = {
             "ownerMerchant": "",
             "ownerShopify": "Adriana",
             "notes": ""
+          },
+          {
+            "date": "2026-03-05",
+            "done": false,
+            "milestone": "Meeting with Nathan (EB) and Fiona — final steps + partner choice discussion",
+            "ownerMerchant": "Nathan / Fiona",
+            "ownerShopify": "Adriana Colacicco",
+            "notes": "Per NextStep 24.02 — rate review is back, Adriana to set up this meeting. Critical path item."
+          },
+          {
+            "date": "2026-03-12",
+            "done": false,
+            "milestone": "Partner selection finalized",
+            "ownerMerchant": "Nathan / Fiona",
+            "ownerShopify": "Adriana Colacicco",
+            "notes": "Partner choice is a blocking dependency for contract. Must be resolved before close."
+          },
+          {
+            "date": "2026-03-30",
+            "done": false,
+            "milestone": "Contract signature",
+            "ownerMerchant": "Nathan",
+            "ownerShopify": "Adriana Colacicco",
+            "notes": "New close date. Requires partner selection and EB sign-off."
           },
           {
             "date": "",
@@ -5608,7 +5698,7 @@ const DEAL_DATA = {
       "owner": "Maissa Fatte",
       "ownerEmail": "maissa.fatte@shopify.com",
       "stage": "Deal Craft",
-      "closeDate": "2026-02-28",
+      "closeDate": "2026-03-13",
       "forecastCategory": "Commit",
       "probability": 80,
       "merchantIntent": "Committed - At Risk",
@@ -5631,7 +5721,7 @@ const DEAL_DATA = {
         "D2C - Multi Brand",
         "Shopify Payments - D2C Plus"
       ],
-      "competitor": "SAP (incumbent) / Scale (potential retender)",
+      "competitor": "",
       "compellingEvent": "SAP Commerce contract expires January 2027. Must go-live by November 2026 to give notice. Board approved budget. Previous Alkai migration failed. Offer expires March 13, 2026. Decision expected by Feb 27.",
       "nextStep": "13/02 MF: Will have a decision by 27/02. Contract reviewed and rates presented. Offer expires March 13th.",
       "narrative": {
@@ -5672,7 +5762,7 @@ const DEAL_DATA = {
               "notes": "SAP contract expiring Jan 2027. Previous Alkai migration failed. Current platform not supporting D2C growth.",
               "solution": "",
               "action": "",
-              "due": "",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -5692,7 +5782,7 @@ const DEAL_DATA = {
               "notes": "SAP contract expiry Jan 2027 is hard compelling event. Nov 2026 go-live required. Budget approved. Offer expires March 13.",
               "solution": "",
               "action": "",
-              "due": "",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -5702,7 +5792,7 @@ const DEAL_DATA = {
               "notes": "Danny validated timeline and budget constraints. Quantifiable business outcome metrics beyond cost/timeline not explicitly validated with broader stakeholders.",
               "solution": "Validate metrics align with what Danny presented to board.",
               "action": "Maissa to confirm what success metrics Danny used in board presentation.",
-              "due": "02/25/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -5737,7 +5827,7 @@ const DEAL_DATA = {
               "notes": "Vaughn (CFO) and Jeff (CEO) explicitly named as contract signatories across multiple calls.",
               "solution": "",
               "action": "",
-              "due": "",
+              "due": "03/05/2026",
               "highlight": false
             },
             {
@@ -5747,7 +5837,7 @@ const DEAL_DATA = {
               "notes": "Shopify has had NO direct contact with Vaughn (CFO) or Jeff (CEO). All interactions through Danny. Early dialer attempts to Vaughan all 'No Answer.'",
               "solution": "Request Danny facilitate introduction to Vaughn/Jeff before contract signing.",
               "action": "Maissa to ask Danny if a brief call with Vaughn/Jeff is possible to address executive-level concerns before Feb 27 decision.",
-              "due": "02/22/2026",
+              "due": "03/05/2026",
               "highlight": false
             },
             {
@@ -5757,7 +5847,7 @@ const DEAL_DATA = {
               "notes": "Danny willing to serve as conduit but no direct introduction offered. Danny controls the relationship as sole point of contact.",
               "solution": "Frame executive conversation as standard practice to expedite signing.",
               "action": "Maissa to propose brief 'executive alignment' call with Vaughn or Jeff.",
-              "due": "02/22/2026",
+              "due": "03/05/2026",
               "highlight": false
             },
             {
@@ -5897,7 +5987,7 @@ const DEAL_DATA = {
               "notes": "Payments is THE central criterion. Danny's primary concern is SP fees (25p vs 12p). Financial settlement was called 'enormous.' Dedicated Payment Data Flow workshop held.",
               "solution": "",
               "action": "",
-              "due": "",
+              "due": "03/05/2026",
               "highlight": false
             },
             {
@@ -5907,7 +5997,7 @@ const DEAL_DATA = {
               "notes": "Informal mutual timeline exists (Feb 27 decision, March 13 expiry, Nov 2026 go-live) but no formal documented mutual action plan with milestones.",
               "solution": "Create formal mutual action plan from signing through Nov 2026 go-live.",
               "action": "Maissa to draft and share mutual action plan ahead of Feb 27 decision.",
-              "due": "02/22/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -5952,7 +6042,7 @@ const DEAL_DATA = {
               "notes": "Danny flagged Alkai contract was terminated over co-marketing clauses. Current contract: 'nothing materially concerned about' (Dec 15).",
               "solution": "",
               "action": "",
-              "due": "",
+              "due": "03/05/2026",
               "highlight": false
             },
             {
@@ -5962,7 +6052,7 @@ const DEAL_DATA = {
               "notes": "Danny indicated he'd do initial legal review himself. No mention of external legal or lengthy procurement. No specific timeline given.",
               "solution": "Confirm if internal legal review is complete and if redlines exist.",
               "action": "Maissa to ask Danny if legal review is finalized and if any outstanding contract concerns.",
-              "due": "02/22/2026",
+              "due": "03/05/2026",
               "highlight": false
             },
             {
@@ -6057,7 +6147,7 @@ const DEAL_DATA = {
               "notes": "SAP expiry Jan 2027 creates hard urgency. Danny: 'we need to give notice to SAP.' Willing to delay a year if needed — urgent but not existential.",
               "solution": "",
               "action": "",
-              "due": "",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -6077,7 +6167,7 @@ const DEAL_DATA = {
               "notes": "SAP expiry, Nov 2026 go-live needed, VML discovery invested in, budget allocated, board approved. All indicators confirm urgency.",
               "solution": "",
               "action": "",
-              "due": "",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -6132,7 +6222,7 @@ const DEAL_DATA = {
               "notes": "Danny has direct access to Vaughn (CFO) and Jeff (CEO). Presented to board himself. Coordinates with Laura Simon, finance team, broader stakeholders.",
               "solution": "",
               "action": "",
-              "due": "",
+              "due": "03/05/2026",
               "highlight": false
             },
             {
@@ -6142,7 +6232,7 @@ const DEAL_DATA = {
               "notes": "Despite Danny's strong champion behavior, Shopify has NOT been introduced to economic buyer (Vaughn/Jeff). All interactions flow through Danny only.",
               "solution": "Request brief touchpoint with Vaughn/Jeff before contract execution.",
               "action": "Maissa to ask Danny to facilitate brief intro with Vaughn/Jeff to confirm executive alignment.",
-              "due": "02/22/2026",
+              "due": "03/05/2026",
               "highlight": false
             },
             {
@@ -6174,10 +6264,10 @@ const DEAL_DATA = {
               "q": "Do we know who else the customer is evaluating?",
               "answer": "Yes",
               "score": 1,
-              "notes": "[2026-02-26 daily refresh] SAP competitor cleared. Competitive landscape resolved with clear decision date and expiring offer. (was: Partial)",
+              "notes": "Competitor field cleared in Salesforce (SAP/Scale removed). Competitive threat appears resolved as of 02/26.",
               "solution": "Understand what Danny knows about Scale.",
               "action": "Maissa to ask Danny if Scale or any other vendor has been in contact or if hypothetical.",
-              "due": "02/25/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -6187,7 +6277,7 @@ const DEAL_DATA = {
               "notes": "Danny explicitly stated doing nothing (SAP renewal) is an option: 'I'll push it back for a year.' This is the primary competitive threat — inaction.",
               "solution": "Reinforce cost of delay and risk of another year of SAP pain.",
               "action": "Include cost-of-delay analysis in final commercial presentation.",
-              "due": "02/25/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -6204,20 +6294,20 @@ const DEAL_DATA = {
               "q": "Do we know why alternatives are being evaluated?",
               "answer": "Yes",
               "score": 1,
-              "notes": "[2026-02-26 daily refresh] SAP removed as competitor. Clear understanding of why alternatives were evaluated and competitive dynamic is resolved. (was: Partial)",
+              "notes": "With SAP/Scale cleared from competitive field, best-and-final positioning may no longer be needed. Confirm with buyer.",
               "solution": "Ensure commercial offer is competitive enough that retendering isn't attractive given time/effort/risk.",
               "action": "Final offer should be positioned as best-and-final with clear value articulation.",
-              "due": "02/25/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
               "q": "Do we know why we would win or lose?",
-              "answer": "Partial",
+              "answer": "Yes",
               "score": 0.5,
-              "notes": "Shopify would win on capability and ecosystem. Could lose on payment fees. Commercial terms are the deciding factor. Retendering costs time and risks another Alkai-type failure.",
+              "notes": "Competitive field cleared — Shopify appears to be sole remaining option. Validate in next conversation.",
               "solution": "Frame win narrative around total value rather than per-transaction cost alone.",
               "action": "Maissa/Stephen to prepare 'why Shopify wins' talking points for Danny's internal presentation.",
-              "due": "02/25/2026",
+              "due": "03/12/2026",
               "highlight": false
             }
           ]
@@ -6284,7 +6374,7 @@ const DEAL_DATA = {
           "cat": "Metrics",
           "issue": "Danny validated timeline and budget constraints. Quantifiable business outcome metrics beyond cost/timeline not explicitly validated with broader stakeholders.",
           "rec": "Maissa to confirm what success metrics Danny used in board presentation.",
-          "due": "02/25/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 3,
@@ -6298,14 +6388,14 @@ const DEAL_DATA = {
           "cat": "Economic Buyer",
           "issue": "Shopify has had NO direct contact with Vaughn (CFO) or Jeff (CEO). All interactions through Danny. Early dialer attempts to Vaughan all 'No Answer.'",
           "rec": "Maissa to ask Danny if a brief call with Vaughn/Jeff is possible to address executive-level concerns before Feb 27 decision.",
-          "due": "02/22/2026"
+          "due": "03/05/2026"
         },
         {
           "p": 5,
           "cat": "Economic Buyer",
           "issue": "Danny willing to serve as conduit but no direct introduction offered. Danny controls the relationship as sole point of contact.",
           "rec": "Maissa to propose brief 'executive alignment' call with Vaughn or Jeff.",
-          "due": "02/22/2026"
+          "due": "03/05/2026"
         },
         {
           "p": 6,
@@ -6326,7 +6416,7 @@ const DEAL_DATA = {
           "cat": "Decision Criteria",
           "issue": "Informal mutual timeline exists (Feb 27 decision, March 13 expiry, Nov 2026 go-live) but no formal documented mutual action plan with milestones.",
           "rec": "Maissa to draft and share mutual action plan ahead of Feb 27 decision.",
-          "due": "02/22/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 9,
@@ -6340,7 +6430,7 @@ const DEAL_DATA = {
           "cat": "Paper Process",
           "issue": "Danny indicated he'd do initial legal review himself. No mention of external legal or lengthy procurement. No specific timeline given.",
           "rec": "Maissa to ask Danny if legal review is finalized and if any outstanding contract concerns.",
-          "due": "02/22/2026"
+          "due": "03/05/2026"
         },
         {
           "p": 11,
@@ -6368,7 +6458,7 @@ const DEAL_DATA = {
           "cat": "Champion",
           "issue": "Despite Danny's strong champion behavior, Shopify has NOT been introduced to economic buyer (Vaughn/Jeff). All interactions flow through Danny only.",
           "rec": "Maissa to ask Danny to facilitate brief intro with Vaughn/Jeff to confirm executive alignment.",
-          "due": "02/22/2026"
+          "due": "03/05/2026"
         },
         {
           "p": 15,
@@ -6376,13 +6466,6 @@ const DEAL_DATA = {
           "issue": "Danny has been the board interface. Hasn't explicitly offered to bring Shopify into a board/buying group meeting. Manages relationship as gatekeeper.",
           "rec": "Pursue executive alignment touchpoint.",
           "due": "02/22/2026"
-        },
-        {
-          "p": 16,
-          "cat": "Competition",
-          "issue": "Shopify would win on capability and ecosystem. Could lose on payment fees. Commercial terms are the deciding factor. Retendering costs time and risks another Alkai-type failure.",
-          "rec": "Maissa/Stephen to prepare 'why Shopify wins' talking points for Danny's internal presentation.",
-          "due": "02/25/2026"
         }
       ],
       "stakeholders": [
@@ -6666,11 +6749,32 @@ const DEAL_DATA = {
           ]
         }
       ],
-      "dealRisks": [],
+      "dealRisks": [
+        {
+          "risk": "Close date pushed 2 weeks (Feb 28 → Mar 13) — indicates decision slippage despite Feb 27 expected decision date. Offer expiry is now the backstop, not buyer urgency.",
+          "severity": "medium",
+          "category": "timeline"
+        },
+        {
+          "risk": "18 action items overdue (Feb 22-25) across all MEDDPICC categories — suggests stalled internal engagement or AE bandwidth constraints. Critical discovery gaps remain unaddressed.",
+          "severity": "high",
+          "category": "execution"
+        },
+        {
+          "risk": "Proposed launch Nov 3 2026 — 8-month implementation timeline from close creates long value-realization gap. Risk of buyer fatigue or priority shifts before go-live.",
+          "severity": "low",
+          "category": "timeline"
+        },
+        {
+          "risk": "Competitor field cleared (SAP/Scale removed) but no confirmation call evidence that competition is truly eliminated — could indicate data cleanup rather than competitive win.",
+          "severity": "low",
+          "category": "competitive"
+        }
+      ],
       "mutualActionPlan": {
         "merchantName": "Wacoal Europe",
         "kickoffDate": "",
-        "goLiveDate": "2026-02-28",
+        "goLiveDate": "2026-03-13",
         "contactName": "Maissa Fatte",
         "contactEmail": "maissa.fatte@shopify.com",
         "champion": "Danny Dawes",
@@ -6800,6 +6904,30 @@ const DEAL_DATA = {
             "ownerMerchant": "",
             "ownerShopify": "Maissa",
             "notes": ""
+          },
+          {
+            "date": "2026-02-27",
+            "done": false,
+            "milestone": "Final decision meeting (internal) — Feb 27 per NextStep",
+            "ownerMerchant": "Vaughn/Jeff",
+            "ownerShopify": "Maissa Fatte",
+            "notes": "NextStep indicates decision expected Feb 27. Confirm outcome."
+          },
+          {
+            "date": "2026-03-13",
+            "done": false,
+            "milestone": "Contract signature by offer expiry deadline",
+            "ownerMerchant": "Vaughn/Jeff",
+            "ownerShopify": "Maissa Fatte",
+            "notes": "Close date pushed to Mar 13 — aligns with offer expiry. Must close before this lapses."
+          },
+          {
+            "date": "2026-04-01",
+            "done": false,
+            "milestone": "Implementation kick-off & partner onboarding",
+            "ownerMerchant": "Wacoal EU team",
+            "ownerShopify": "Maissa Fatte",
+            "notes": "Target ~2 weeks post-close for launch team intro and implementation planning."
           },
           {
             "date": "",
@@ -8284,7 +8412,7 @@ const DEAL_DATA = {
       "created": "2024-07-16",
       "lastAnalysisDate": "2026-02-20",
       "revenue": {
-        "mcv": 132800,
+        "mcv": 82800,
         "totalRev3yr": 2333229,
         "d2cGmv": 25495422,
         "b2bGmv": null,
@@ -8340,10 +8468,10 @@ const DEAL_DATA = {
               "q": "Do they need to make a platform change to achieve this goal?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Magento reaching renewal, Business Central upgrades prohibitive, tech debt acknowledged. Change clearly necessary.",
+              "notes": "MCV dropped 38% — re-validate whether quantifiable goals and business case still hold at lower deal value. Confirm if scope changed or just pricing.",
               "solution": "",
               "action": "",
-              "due": "",
+              "due": "03/05/2026",
               "highlight": false
             },
             {
@@ -9419,7 +9547,28 @@ const DEAL_DATA = {
           "changes": []
         }
       ],
-      "dealRisks": [],
+      "dealRisks": [
+        {
+          "risk": "MCV dropped 38% ($132,800 → $82,800) — significant value erosion. Could indicate scope reduction, pricing concession, or deal downsizing.",
+          "severity": "high",
+          "category": "commercial"
+        },
+        {
+          "risk": "Close date Mar 16 is only 18 days away but deal is in Demonstrate stage with 7 agencies still being evaluated. Timeline appears very aggressive.",
+          "severity": "high",
+          "category": "timeline"
+        },
+        {
+          "risk": "Proposed launch Sep 30 — 6+ months after target close. Very long implementation timeline for a deal still in agency evaluation.",
+          "severity": "medium",
+          "category": "timeline"
+        },
+        {
+          "risk": "Build not starting until April per NextStep — gap between signing and build start. Buyer may want to delay signing until agency is selected.",
+          "severity": "medium",
+          "category": "execution"
+        }
+      ],
       "mutualActionPlan": {
         "merchantName": "ESSENTIEL Antwerp",
         "kickoffDate": "",
@@ -9544,6 +9693,38 @@ const DEAL_DATA = {
             "ownerMerchant": "",
             "ownerShopify": "Ben",
             "notes": ""
+          },
+          {
+            "date": "2026-03-06",
+            "done": false,
+            "milestone": "Agency/SI partner shortlist finalized (from 7 to 2-3)",
+            "ownerMerchant": "Essentiel Antwerp team",
+            "ownerShopify": "Ben Rees",
+            "notes": "7 agencies currently in evaluation. Need to narrow before close."
+          },
+          {
+            "date": "2026-03-13",
+            "done": false,
+            "milestone": "Agency/SI partner selected",
+            "ownerMerchant": "Essentiel Antwerp team",
+            "ownerShopify": "Ben Rees",
+            "notes": "Partner selection needed before or concurrent with contract signature."
+          },
+          {
+            "date": "2026-04-01",
+            "done": false,
+            "milestone": "Build phase begins",
+            "ownerMerchant": "Essentiel Antwerp / Agency",
+            "ownerShopify": "Ben Rees",
+            "notes": "Per NextStep — build to start in April."
+          },
+          {
+            "date": "2026-09-30",
+            "done": false,
+            "milestone": "Go-live on Shopify",
+            "ownerMerchant": "Essentiel Antwerp team",
+            "ownerShopify": "Ben Rees",
+            "notes": "Proposed launch date per SF update. ~6 month build window."
           },
           {
             "date": "",
@@ -11091,7 +11272,7 @@ const DEAL_DATA = {
         "Plus - POS Pro",
         "Retail Payments - Plus"
       ],
-      "competitor": "Adobe Commerce (Magento)",
+      "competitor": "",
       "compellingEvent": "Adobe Commerce contract expires October 2026. Simultaneous NetSuite ERP replacement. RFP narrowed from 6 vendors to ~2. Ben wants to avoid further investment in Adobe.",
       "nextStep": "19.02 Awaiting statement for RR, collab on TCO, POS demo successful, received good feedback, awaiting final feedback for next round of RFP",
       "narrative": {
@@ -11632,12 +11813,12 @@ const DEAL_DATA = {
           "questions": [
             {
               "q": "Do we know who else the customer is evaluating?",
-              "answer": "Partial",
+              "answer": "Yes",
               "score": 0.5,
-              "notes": "We know they started with 6 vendors and narrowed to ~2. Adobe Commerce is the incumbent. The specific competing vendors in the final ~2 have not been identified. SF Competitor field is blank.",
+              "notes": "Competitive field cleared in Salesforce — Adobe Commerce (Magento) removed as of 02/26. Validate in next call that Adobe is no longer under consideration.",
               "solution": "Identify the specific competing vendor(s) in the final round.",
               "action": "Adriana to ask Ben directly: 'Can you share who else is in the final round?'",
-              "due": "03/01/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -11674,10 +11855,10 @@ const DEAL_DATA = {
               "q": "Do we know why we would win or lose?",
               "answer": "Yes",
               "score": 1,
-              "notes": "[2026-02-26 daily refresh] Successful POS demo with good feedback + Adobe Commerce Magento cleared as competitor. Stronger evidence of why we would win. (was: Partial)",
+              "notes": "With Adobe cleared, update win/loss positioning. Confirm what drove Adobe out — was it TCO, capability gaps, or internal decision?",
               "solution": "Build win narrative around total value and neutralize implementation cost objection.",
               "action": "Adriana to prepare competitive battle card addressing: implementation cost, theme quality vs custom, unified platform vs multi-vendor risk.",
-              "due": "03/05/2026",
+              "due": "03/12/2026",
               "highlight": false
             }
           ]
@@ -11987,26 +12168,19 @@ const DEAL_DATA = {
         {
           "p": 37,
           "cat": "Competition",
-          "issue": "We know they started with 6 vendors and narrowed to ~2. Adobe Commerce is the incumbent. The specific competing vendors in the final ~2 have not been identified. SF Competitor field is blank.",
-          "rec": "Adriana to ask Ben directly: 'Can you share who else is in the final round?'",
-          "due": "03/01/2026"
-        },
-        {
-          "p": 38,
-          "cat": "Competition",
           "issue": "Ben's strong statements suggest staying on Adobe is not preferred, but it hasn't been explicitly ruled out. They could theoretically renew and delay migration.",
           "rec": "Adriana to ask: 'Is there a scenario where you would renew Adobe and delay the migration?'",
           "due": "03/05/2026"
         },
         {
-          "p": 39,
+          "p": 38,
           "cat": "Competition",
           "issue": "Staying on Adobe, building custom on Adobe's newer architecture, or the ERP replacement creating internal build vs buy considerations — not fully explored.",
           "rec": "Adriana to explore: 'Is there any consideration of building on Adobe's newer architecture rather than re-platforming?'",
           "due": "03/05/2026"
         },
         {
-          "p": 40,
+          "p": 39,
           "cat": "Competition",
           "issue": "They are evaluating alternatives because of Adobe contract expiry, platform complexity, omnichannel limitations, and high dev costs. But we don't know why the specific final-round competitors were chosen.",
           "rec": "Adriana to probe: 'What specifically about those offerings is appealing to you?'",
@@ -12268,7 +12442,23 @@ const DEAL_DATA = {
           ]
         }
       ],
-      "dealRisks": [],
+      "dealRisks": [
+        {
+          "risk": "Competitor field cleared (Adobe Commerce/Magento removed) but deal is still in Demonstrate stage — may indicate competitor dropped out OR data cleanup. Need verbal confirmation.",
+          "severity": "low",
+          "category": "competitive"
+        },
+        {
+          "risk": "Still awaiting final RFP feedback — RFP process introduces procurement-driven delays and competitive risk even if primary competitor is cleared.",
+          "severity": "medium",
+          "category": "timeline"
+        },
+        {
+          "risk": "Close date May 30 is 3 months out but deal is only in Demonstrate stage (score 29/54). Significant MEDDPICC gaps remain across EB, decision process, and paper process.",
+          "severity": "medium",
+          "category": "execution"
+        }
+      ],
       "mutualActionPlan": {
         "merchantName": "OLIVER BONAS LIMITED",
         "kickoffDate": "",
@@ -15628,7 +15818,7 @@ const DEAL_DATA = {
               "notes": "Touker directed Sam to sign, and Sam is CFO. It's likely Touker or Sam signs the contract, but exact signatory has not been explicitly confirmed.",
               "solution": "Confirm who specifically will be the contract signatory.",
               "action": "Maissa to confirm with Sam whether he or Touker will execute the agreement.",
-              "due": "02/27/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -15668,7 +15858,7 @@ const DEAL_DATA = {
               "notes": "Touker makes decisions quickly and authoritatively. Budget allocation process is less clear — Sam was checking commercials but no formal approval/procurement steps detailed.",
               "solution": "Understand if there's a formal board approval or procurement step beyond Touker's verbal commitment.",
               "action": "Maissa to confirm with Sam if any additional internal approvals are needed beyond Touker's direction.",
-              "due": "02/27/2026",
+              "due": "03/12/2026",
               "highlight": false
             }
           ]
@@ -15683,7 +15873,7 @@ const DEAL_DATA = {
               "notes": "Touker is the final decision-maker and has directed Sam to finalize. Full formal decision process (board approval, procurement steps) hasn't been explicitly mapped. Current blocker is agency selection.",
               "solution": "Map the full internal decision process — from Touker's approval to contract execution.",
               "action": "Maissa to ask Sam to walk through exact steps from 'decision made' to 'contract signed'.",
-              "due": "02/27/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -15818,7 +16008,7 @@ const DEAL_DATA = {
               "notes": "Criteria internally driven by CTO (technical), CFO (commercial), CEO (speed/growth). Paul Rogers (Vervaunt) involved in agency selection may influence platform expectations.",
               "solution": "Understand Vervaunt's role and influence on platform criteria.",
               "action": "Maissa/Alexandra to assess Vervaunt's influence during next catch-up with Paul Rogers.",
-              "due": "02/27/2026",
+              "due": "03/12/2026",
               "highlight": false
             }
           ]
@@ -15833,7 +16023,7 @@ const DEAL_DATA = {
               "notes": "Sam is reviewing commercials, Touker directed signing. Formal procurement steps (legal review, specific approval workflow) haven't been detailed.",
               "solution": "Map exact procurement steps from Sam's review to executed contract.",
               "action": "Maissa to ask Sam: 'After you review commercials, what are the exact steps to get this signed?'",
-              "due": "02/27/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -15843,7 +16033,7 @@ const DEAL_DATA = {
               "notes": "Sam wanted to reconfirm commercial terms and had concern about paying from day one before go-live. No legal team mentioned.",
               "solution": "Proactively identify potential redlines by asking Sam if legal review is required.",
               "action": "Maissa to ask Sam if their legal team will need to review the contract.",
-              "due": "02/27/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -15853,7 +16043,7 @@ const DEAL_DATA = {
               "notes": "No information on how long legal or procurement review takes at Hawes & Curtis.",
               "solution": "Understand typical contract review timelines.",
               "action": "Maissa to ask Sam about their standard contract review timeline.",
-              "due": "02/27/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -15863,7 +16053,7 @@ const DEAL_DATA = {
               "notes": "Touker said 'sign by next Friday' (Jan 30) but AE notes from Feb 13 indicate agency selection delays may push to Q2.",
               "solution": "Separate agency selection from Shopify contract signing if possible.",
               "action": "Maissa to explore whether Shopify contract can be signed independently of agency finalization.",
-              "due": "02/27/2026",
+              "due": "03/12/2026",
               "highlight": false
             },
             {
@@ -15893,7 +16083,7 @@ const DEAL_DATA = {
               "notes": "Original target was 'next Friday' after Jan 30. Salesforce close date March 26. Feb 13 AE notes suggest possible Q2 slip due to agency selection.",
               "solution": "Reconfirm signature target date and decouple from agency selection.",
               "action": "Maissa to get a firm updated signature date commitment from Sam.",
-              "due": "02/27/2026",
+              "due": "03/12/2026",
               "highlight": false
             }
           ]
@@ -16189,21 +16379,21 @@ const DEAL_DATA = {
           "cat": "Economic Buyer",
           "issue": "Touker directed Sam to sign, and Sam is CFO. It's likely Touker or Sam signs the contract, but exact signatory has not been explicitly confirmed.",
           "rec": "Maissa to confirm with Sam whether he or Touker will execute the agreement.",
-          "due": "02/27/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 5,
           "cat": "Economic Buyer",
           "issue": "Touker makes decisions quickly and authoritatively. Budget allocation process is less clear — Sam was checking commercials but no formal approval/procurement steps detailed.",
           "rec": "Maissa to confirm with Sam if any additional internal approvals are needed beyond Touker's direction.",
-          "due": "02/27/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 6,
           "cat": "Decision Process",
           "issue": "Touker is the final decision-maker and has directed Sam to finalize. Full formal decision process (board approval, procurement steps) hasn't been explicitly mapped. Current blocker is agency selection.",
           "rec": "Maissa to ask Sam to walk through exact steps from 'decision made' to 'contract signed'.",
-          "due": "02/27/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 7,
@@ -16245,42 +16435,42 @@ const DEAL_DATA = {
           "cat": "Decision Criteria",
           "issue": "Criteria internally driven by CTO (technical), CFO (commercial), CEO (speed/growth). Paul Rogers (Vervaunt) involved in agency selection may influence platform expectations.",
           "rec": "Maissa/Alexandra to assess Vervaunt's influence during next catch-up with Paul Rogers.",
-          "due": "02/27/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 13,
           "cat": "Paper Process",
           "issue": "Sam is reviewing commercials, Touker directed signing. Formal procurement steps (legal review, specific approval workflow) haven't been detailed.",
           "rec": "Maissa to ask Sam: 'After you review commercials, what are the exact steps to get this signed?'",
-          "due": "02/27/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 14,
           "cat": "Paper Process",
           "issue": "Sam wanted to reconfirm commercial terms and had concern about paying from day one before go-live. No legal team mentioned.",
           "rec": "Maissa to ask Sam if their legal team will need to review the contract.",
-          "due": "02/27/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 15,
           "cat": "Paper Process",
           "issue": "No information on how long legal or procurement review takes at Hawes & Curtis.",
           "rec": "Maissa to ask Sam about their standard contract review timeline.",
-          "due": "02/27/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 16,
           "cat": "Paper Process",
           "issue": "Touker said 'sign by next Friday' (Jan 30) but AE notes from Feb 13 indicate agency selection delays may push to Q2.",
           "rec": "Maissa to explore whether Shopify contract can be signed independently of agency finalization.",
-          "due": "02/27/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 17,
           "cat": "Paper Process",
           "issue": "Original target was 'next Friday' after Jan 30. Salesforce close date March 26. Feb 13 AE notes suggest possible Q2 slip due to agency selection.",
           "rec": "Maissa to get a firm updated signature date commitment from Sam.",
-          "due": "02/27/2026"
+          "due": "03/12/2026"
         },
         {
           "p": 18,
@@ -16548,7 +16738,23 @@ const DEAL_DATA = {
           ]
         }
       ],
-      "dealRisks": [],
+      "dealRisks": [
+        {
+          "risk": "Agency selection still blocking contract signing — this is the primary deal blocker. If agency decision drags, Mar 26 close date is at risk.",
+          "severity": "high",
+          "category": "execution"
+        },
+        {
+          "risk": "7 action items due TOMORROW (Feb 27) across EB, decision process, decision criteria, and paper process. These need immediate attention or rescheduling.",
+          "severity": "medium",
+          "category": "execution"
+        },
+        {
+          "risk": "Proposed launch Aug 2 — 4+ months post target close (Mar 26). Long implementation window creates risk of buyer disengagement.",
+          "severity": "low",
+          "category": "timeline"
+        }
+      ],
       "mutualActionPlan": {
         "merchantName": "Hawes & Curtis Limited",
         "kickoffDate": "",
@@ -16614,6 +16820,22 @@ const DEAL_DATA = {
             "ownerMerchant": "Sam Nesan",
             "ownerShopify": "Maissa",
             "notes": ""
+          },
+          {
+            "date": "2026-03-12",
+            "done": false,
+            "milestone": "Agency/implementation partner selection finalized",
+            "ownerMerchant": "Hawes & Curtis team",
+            "ownerShopify": "Maissa Fatte",
+            "notes": "Agency selection is the primary blocker for contract. Must be resolved to hold Mar 26 close."
+          },
+          {
+            "date": "2026-08-02",
+            "done": false,
+            "milestone": "Go-live on Shopify",
+            "ownerMerchant": "Hawes & Curtis team",
+            "ownerShopify": "Maissa Fatte",
+            "notes": "Proposed launch date per SF update."
           },
           {
             "date": "",
@@ -18053,7 +18275,7 @@ const DEAL_DATA = {
         "paymentsAttached": true,
         "ipp": 1112865.6
       },
-      "projectedBilledRevenue": null,
+      "projectedBilledRevenue": 758832.18,
       "products": [
         "Plus Product Suite",
         "D2C - Standard",
@@ -18152,20 +18374,20 @@ const DEAL_DATA = {
               "q": "Have I identified the true economic buyer?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Mo is the champion but budget sign-off is at the board level. True EB likely a board member or C-suite exec at parent company. No specific name identified.",
+              "notes": "Board meeting this month — EB likely a board member or C-suite. Adriana to confirm who is presenting to board and who holds budget authority.",
               "solution": "Ask Mo who at the board will approve the budget allocation.",
               "action": "Adriana to clarify the budget approval authority.",
-              "due": "2026-03-06",
+              "due": "03/06/2026",
               "highlight": false
             },
             {
               "q": "Do we know who's signing the contract?",
               "answer": "No",
               "score": 0,
-              "notes": "Not discussed. Likely Mo or someone above him.",
+              "notes": "Contract signer unknown. NDA in works but MSA signer not identified. Clarify during board meeting follow-up.",
               "solution": "Understand contract signing authority.",
               "action": "Adriana to ask Mo about contract signing process.",
-              "due": "2026-03-06",
+              "due": "03/13/2026",
               "highlight": false
             },
             {
@@ -18557,10 +18779,10 @@ const DEAL_DATA = {
               "q": "Are they connected with the key decision makers?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Mo is presenting directly to the board.",
+              "notes": "Mo is OOO — need to confirm when Mo returns and whether Diamante can maintain momentum during absence.",
               "solution": "",
               "action": "",
-              "due": "",
+              "due": "03/06/2026",
               "highlight": false
             },
             {
@@ -18731,16 +18953,16 @@ const DEAL_DATA = {
         {
           "p": 5,
           "cat": "Economic Buyer",
-          "issue": "Mo is the champion but budget sign-off is at the board level. True EB likely a board member or C-suite exec at parent company. No specific name identified.",
+          "issue": "Board meeting this month — EB likely a board member or C-suite. Adriana to confirm who is presenting to board and who holds budget authority.",
           "rec": "Adriana to clarify the budget approval authority.",
-          "due": "2026-03-06"
+          "due": "03/06/2026"
         },
         {
           "p": 6,
           "cat": "Economic Buyer",
-          "issue": "Not discussed. Likely Mo or someone above him.",
+          "issue": "Contract signer unknown. NDA in works but MSA signer not identified. Clarify during board meeting follow-up.",
           "rec": "Adriana to ask Mo about contract signing process.",
-          "due": "2026-03-06"
+          "due": "03/13/2026"
         },
         {
           "p": 7,
@@ -19186,166 +19408,141 @@ const DEAL_DATA = {
           ]
         }
       ],
-      "dealRisks": [],
+      "dealRisks": [
+        {
+          "risk": "Zero MAP items exist — deal has no structured execution plan. For a $758K PBR deal closing May 29, this is a significant governance gap.",
+          "severity": "high",
+          "category": "execution"
+        },
+        {
+          "risk": "Mo (champion/contact) is OOO — creates engagement gap during critical board meeting period. No backup contact identified beyond Diamante.",
+          "severity": "high",
+          "category": "champion"
+        },
+        {
+          "risk": "Board meeting 'this month' (Feb) but only 2 days left in February. If board meeting hasn't happened yet, it may slip to March.",
+          "severity": "medium",
+          "category": "timeline"
+        },
+        {
+          "risk": "NDA still 'in works' — legal hasn't started on MSA/contract yet. For a May 29 close, legal track needs to start immediately post-NDA.",
+          "severity": "medium",
+          "category": "execution"
+        },
+        {
+          "risk": "Only 2 stakeholders mapped (Mo, Diamante) for a luxury retailer with £40M D2C GMV. Economic buyer, board sponsors, IT/ops leads not yet identified.",
+          "severity": "medium",
+          "category": "champion"
+        }
+      ],
       "mutualActionPlan": {
-        "merchantName": "C.P. Hart & Sons Limited",
-        "kickoffDate": "",
-        "goLiveDate": "2026-05-29",
-        "contactName": "Adriana Colacicco",
-        "contactEmail": "adriana.colacicco@shopify.com",
-        "champion": "Mo Goodfellow",
         "items": [
           {
-            "date": "",
+            "date": "2026-02-10",
             "done": true,
-            "milestone": "Initial discovery & intro calls",
-            "ownerMerchant": "Mo Goodfellow",
-            "ownerShopify": "Adriana",
-            "notes": "6 calls completed"
+            "milestone": "Discovery & needs assessment completed",
+            "ownerMerchant": "Mo / Diamante",
+            "ownerShopify": "Adriana Colacicco",
+            "notes": "Initial discovery completed — deal is in Solution stage."
           },
           {
-            "date": "",
+            "date": "2026-02-24",
             "done": true,
-            "milestone": "Identify champion & project team",
-            "ownerMerchant": "Mo Goodfellow",
-            "ownerShopify": "Adriana",
-            "notes": "Champion: Mo Goodfellow"
+            "milestone": "Commercials presented to C.P. Hart",
+            "ownerMerchant": "Mo / Diamante",
+            "ownerShopify": "Adriana Colacicco",
+            "notes": "Per NextStep 24.02 — commercials have been presented."
           },
           {
-            "date": "",
+            "date": "2026-03-05",
             "done": false,
-            "milestone": "Adriana to propose specific success metrics framework in next call.",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Metrics · Due 2026-03-06",
-            "due": "2026-03-06"
+            "milestone": "NDA executed",
+            "ownerMerchant": "C.P. Hart Legal",
+            "ownerShopify": "Adriana Colacicco",
+            "notes": "NDA 'in works' per NextStep. Target completion within 1 week."
           },
           {
-            "date": "",
+            "date": "2026-03-06",
             "done": false,
-            "milestone": "Adriana & Sarah to build a 'cost of doing nothing' analysis.",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Metrics · Due 2026-03-06",
-            "due": "2026-03-06"
+            "milestone": "Board meeting — Shopify evaluation presented to board",
+            "ownerMerchant": "Mo / Board",
+            "ownerShopify": "Adriana Colacicco",
+            "notes": "Board meeting 'this month' per NextStep (Feb). If slips, target early March. Critical gate for budget approval."
           },
           {
-            "date": "",
+            "date": "2026-03-13",
             "done": false,
-            "milestone": "Validate business case with economic buyer",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": ""
+            "milestone": "Board approval / budget confirmation",
+            "ownerMerchant": "Board / Economic Buyer",
+            "ownerShopify": "Adriana Colacicco",
+            "notes": "Post-board meeting — need explicit budget sign-off to proceed to contract."
           },
           {
-            "date": "",
+            "date": "2026-03-13",
             "done": false,
-            "milestone": "Confirm economic buyer & signing authority",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": ""
+            "milestone": "Financial statements provided for rate review",
+            "ownerMerchant": "Mo / Finance",
+            "ownerShopify": "Adriana Colacicco",
+            "notes": "Awaiting statements for RR per NextStep. Mo OOO may delay."
           },
           {
-            "date": "",
+            "date": "2026-03-20",
             "done": false,
-            "milestone": "Adriana to ask Mo for introduction to the budget approver.",
+            "milestone": "Rate review submitted internally (Shopify)",
             "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Due 2026-03-13",
-            "due": "2026-03-13"
+            "ownerShopify": "Adriana Colacicco",
+            "notes": "Dependent on receiving financial statements. ~1 week turnaround."
           },
           {
-            "date": "",
+            "date": "2026-04-03",
             "done": false,
-            "milestone": "Map complete decision & approval process",
-            "ownerMerchant": "Mo Goodfellow",
-            "ownerShopify": "Adriana",
-            "notes": ""
+            "milestone": "Rate review approved & final pricing sent to merchant",
+            "ownerMerchant": "Mo / Diamante",
+            "ownerShopify": "Adriana Colacicco",
+            "notes": "Allow ~2 weeks for internal RR process."
           },
           {
-            "date": "",
+            "date": "2026-04-10",
             "done": false,
-            "milestone": "Adriana to establish a mutual action plan with Mo post-board meeting.",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Due 2026-03-13",
-            "due": "2026-03-13"
+            "milestone": "Implementation partner selected",
+            "ownerMerchant": "Mo",
+            "ownerShopify": "Adriana Colacicco",
+            "notes": "Partner selection needed for implementation planning."
           },
           {
-            "date": "",
-            "done": true,
-            "milestone": "Submit merchant intent",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Intent: Committed - At Risk"
-          },
-          {
-            "date": "",
-            "done": true,
-            "milestone": "Finalize commercial proposal",
-            "ownerMerchant": "Mo Goodfellow",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
+            "date": "2026-04-17",
             "done": false,
-            "milestone": "Confirm procurement process & legal steps",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": ""
+            "milestone": "Contract / MSA drafted and sent",
+            "ownerMerchant": "C.P. Hart Legal",
+            "ownerShopify": "Adriana Colacicco",
+            "notes": "Post rate review approval. NDA must be in place first."
           },
           {
-            "date": "",
+            "date": "2026-05-01",
             "done": false,
-            "milestone": "Adriana to ask Mo about procurement steps after budget approval.",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Paper Process · Due 2026-03-13",
-            "due": "2026-03-13"
+            "milestone": "Legal review & redlines",
+            "ownerMerchant": "C.P. Hart Legal",
+            "ownerShopify": "Adriana Colacicco",
+            "notes": "Allow 2 weeks for legal back-and-forth."
           },
           {
-            "date": "",
+            "date": "2026-05-29",
             "done": false,
-            "milestone": "Adriana to send NDA in Word format and ask about contract review.",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": "Paper Process · Due 2026-02-28",
-            "due": "2026-02-28"
+            "milestone": "Contract signed / deal closed",
+            "ownerMerchant": "Economic Buyer / Mo",
+            "ownerShopify": "Adriana Colacicco",
+            "notes": "Target close date. Working backward, all prior milestones must hold."
           },
           {
-            "date": "",
+            "date": "2026-06-12",
             "done": false,
-            "milestone": "Contract sent for signature",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Contract signed ✍️",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": "Target: 2026-05-29"
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Introduction to Shopify Launch team",
-            "ownerMerchant": "",
-            "ownerShopify": "Adriana",
-            "notes": ""
-          },
-          {
-            "date": "",
-            "done": false,
-            "milestone": "Go-Live 🚀",
-            "ownerMerchant": "",
-            "ownerShopify": "",
-            "notes": ""
+            "milestone": "Launch team introduction & implementation kick-off",
+            "ownerMerchant": "Mo / Diamante / Partner",
+            "ownerShopify": "Adriana Colacicco",
+            "notes": "~2 weeks post-close."
           }
-        ]
+        ],
+        "goLiveDate": "2026-05-29"
       },
       "coachingSnapshots": [
         {
