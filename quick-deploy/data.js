@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-26T17:04:40.582Z",
+  "generatedAt": "2026-02-26T17:10:29.083Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -6939,37 +6939,52 @@ const DEAL_DATA = {
       ],
       "dealUndercurrent": {
         "lastUpdated": "2026-02-26",
-        "sourceCallCount": 10,
-        "sourceTranscriptLines": 4500,
-        "surfaceStory": "Wacoal Europe is a £285K MCV multi-brand deal migrating from SAP Commerce. Danny Dawes (CIO) is a transparent, engaged champion. Board approved budget. Decision expected Feb 27. This is the healthiest deal on the board.",
+        "sourceCallCount": 6,
+        "sourceTranscriptLines": 1353,
+        "surfaceStory": "Wacoal Europe is a £285K MCV multi-brand deal. Danny Dawes (CIO) is the most transparent champion on the board. Board approved budget. Decision expected Feb 27. Highest MEDDPICC score at 44/54. Looks like a slam dunk.",
         "sections": [
           {
-            "title": "1. Danny has a nuclear option and he's told us about it",
+            "title": "1. Danny drew a bright red line on the 25p transaction fee — and he means it",
             "severity": "high",
-            "content": "Danny explicitly stated: 'worst case, we just won't be able to move forward' and 'I'll push it back for a year and renew with current provider.' He also mentioned retendering with 'Scale' as a fallback. Unlike most deals where the 'do nothing' risk is inferred, Danny has articulated it clearly. The deal hinges entirely on commercial terms, not platform fit."
+            "content": "On Dec 15, Danny said: 'the 25p per transaction charge is quite steep. We pay transparency like 12p or something at the minute.' He followed with: 'worst case, we just won't be able to move forward. That's the reality. At least not now. I'll push it back for a year and renew with SAP.' And: 'that 25p plus the rate is way too high above what we currently pay. There's no way that they'll sign that. I can guarantee that right now.' This isn't negotiation posturing — Danny has explicitly guaranteed the signatories will reject the current rates. The deal lives or dies on whether the payments team can close this gap."
           },
           {
-            "title": "2. The 25p vs 12p transaction fee gap is the single point of failure",
+            "title": "2. The credit is non-negotiable — Danny said '90% sure we wouldn't sign' without it",
             "severity": "high",
-            "content": "Shopify Payments charges 25p/transaction vs Comptop's 12p — more than double. Danny flagged this as THE sticking point. The ~£46K credit must be preserved — he said he's '90% sure we wouldn't sign' without it. This deal lives or dies on whether Shopify can make the payments math work."
+            "content": "On the Nov 27 call, Danny stated: 'if we can't preserve the credit, we probably won't be signing. I'm 90% sure we wouldn't sign.' The ~£46K credit was approved by Shopify's EMEA MD based on a December signature. Maissa then revealed: 'the answer was okay, we do that credit on the basis that we're not negotiating Shopify payments rate. So if I go back to the business now, it's going to be either or.' Danny needs BOTH the credit AND better rates. Shopify's business told Maissa it's one or the other. This is a structural impasse that hasn't been resolved."
           },
           {
-            "title": "3. The finance team is genuinely anxious",
+            "title": "3. The Alkai ghost haunts every contract conversation",
             "severity": "medium",
-            "content": "Samantha Hadland from finance said the settlement piece 'makes me feel sick.' Laura Simon called it 'enormous for us.' This isn't corporate hyperbole — the finance team has real operational fear about payment reconciliation changes. Even if Danny signs, finance team resistance could slow implementation."
+            "content": "Danny mentioned the failed Alkai migration multiple times: 'we've already wasted 40k on it' and 'the one we got stuck on with Alkai that ultimately terminated the contract was the co-marketing stuff. We just couldn't commit to it. Contractually we were obliged to have a good time and tell everyone about it otherwise we'd effectively be fined.' This past burn makes Danny scrutinize every contractual term. He said of Shopify's contract: 'nothing materially concerned about necessarily' but he'll still seek 'external validation' from third-party legal. Past trauma is extending timelines."
           },
           {
-            "title": "4. The failed Alkai migration haunts every conversation",
-            "severity": "medium",
-            "content": "Wacoal previously attempted a migration with Alkai that failed and wasted ~£40K before being terminated over contractual disagreements around co-marketing discounts. Danny is wary of contractual terms because of this. Every commercial discussion carries the ghost of the Alkai experience."
+            "title": "4. Samantha from finance said the settlement piece 'makes me feel sick'",
+            "severity": "high",
+            "content": "On the Dec 10 store architecture call with the full finance team, Samantha Hadland said literally: 'Makes me feel sick.' Laura Simon called it 'enormous for us.' Laura also said: 'the settlement piece is enormous... it's making everyone nervous.' And: 'I don't want to get into... I don't want to come out of the other end of discovery and go oh we forgot to look at this.' The finance team's anxiety is visceral and specific — they need the payment reconciliation flow to exactly replicate Comptop's settlement process, or they can't operationally switch. This isn't a preference, it's a hard dependency."
           },
           {
-            "title": "5. Vaughn (CFO) and Jeff (CEO) are complete unknowns",
+            "title": "5. The Japan escalation threshold is a hard ceiling Danny cannot breach",
+            "severity": "high",
+            "content": "Danny explained on Nov 7: 'anything over half a million basically if the total project cost is above that would need to go back to Japan for their board to approve. I don't want to go into that world.' He budgeted 100K opex + 500K capex: 'So whatever we do with VML with integration layer with yourselves for the 12 months needs to be coming in under all of that.' And: 'if it was something different than that, it wouldn't be this year. We'd push it back to next year.' The Japan board is the invisible ceiling — every dollar of Shopify cost competes with VML, middleware, and integration costs for the same fixed budget."
+          },
+          {
+            "title": "6. Danny keeps saying 'Spotify' and the board did too",
+            "severity": "low",
+            "content": "Danny laughed about it on Nov 7: 'I was always very good at saying Shopify until in the board meeting, the last board meeting, it came up and we said we should look at Shopify again and someone else said Spotify. And ever since then, it's now caught me.' Maissa catches him every time. It's a tiny signal but revealing — Shopify isn't deeply embedded in this organization's vocabulary. The platform is still somewhat abstract to the board rather than a lived reality."
+          },
+          {
+            "title": "7. Danny is borrowing Bravissimo engineers to build — a future deal lever",
             "severity": "medium",
-            "content": "Despite Danny's transparency, Shopify has had ZERO direct contact with either signatory. Early dialer attempts to Vaughn all returned 'No Answer.' The contract will be signed by people Shopify has never spoken to, based entirely on Danny's internal advocacy."
+            "content": "Danny revealed on Nov 27: 'I'm sort of borrowing a load of Bravissimo engineers to help do some of this build with the idea being if we eventually adopt it at Bravissimo as well. It's oh you already know it so go do it again.' This is strategically brilliant — Danny is pre-seeding Bravissimo's Shopify migration by using their engineers on the Wacoal build. If Wacoal succeeds, Bravissimo (60M+ net GMV) follows almost by inertia. But if Wacoal fails or stalls, those Bravissimo engineers become a sunk investment argument against future Shopify consideration."
+          },
+          {
+            "title": "8. VML discovery was paid, and Danny told them not to talk to Shopify",
+            "severity": "medium",
+            "content": "Danny said on Nov 27: 'I've told them not to talk to you. The reason being that we're still trying to negotiate and everything else so I want to...' He deliberately created an information wall between VML and Shopify during the commercial negotiation phase. This is a sophisticated buyer who controls the information flow. When Maissa tried to connect with VML for faster ballpark pricing, Danny had to explicitly grant permission. The deal's timeline is governed by Danny's negotiation strategy, not natural discovery speed."
           }
         ],
-        "netAssessment": "The highest-scoring deal on the board (44/54) but paradoxically one of the most binary — it either closes on Danny's advocacy or it doesn't close at all. The payment fee gap is non-negotiable for Danny. If Shopify can't close the 25p vs 12p gap with a TCO narrative, this deal flips to a SAP renewal regardless of everything else."
+        "netAssessment": "The highest-scoring deal on the board is paradoxically one of the most binary. Danny has been extraordinarily transparent — he's told us exactly what the red lines are (25p transaction fee, credit preservation, Japan budget ceiling), exactly what happens if they're not met (renew SAP for a year), and exactly who signs (Vaughn or Jeff, neither of whom Shopify has met). The finance team is viscerally anxious about settlement processes. The credit vs. rate negotiation is a structural impasse where Shopify's own business said it's either/or but Danny needs both. If the payments team can close the transaction fee gap with a TCO narrative that survives finance team scrutiny, this deal closes. If they can't, Danny will do exactly what he said — push back a year. He doesn't bluff."
       },
       "mutualActionPlan": {
         "merchantName": "Wacoal Europe",
