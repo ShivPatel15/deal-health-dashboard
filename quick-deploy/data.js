@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-26T09:13:39.012Z",
+  "generatedAt": "2026-02-26T08:32:42.157Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",

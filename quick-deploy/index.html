@@ -197,9 +197,11 @@ function getAvailableStages(){
   return[...s].sort((a,b)=>(order.indexOf(a)===-1?99:order.indexOf(a))-(order.indexOf(b)===-1?99:order.indexOf(b)));
 }
 
+// ============================================================
 // DAILY UPDATE — what changed in the most recent refresh
+// ============================================================
 function duClick(id){showDetail(id)}
-function duToggle(){var b=document.getElementById("daily-body");if(!b)return;b.classList.toggle("hidden");var ch=document.getElementById("du-chev");if(ch)ch.textContent=b.classList.contains("hidden")?"\u25B6":"\u25BC"}
+function duToggle(){var b=document.getElementById("daily-body");if(!b)return;b.classList.toggle("hidden");var ch=document.getElementById("du-chev");if(ch)ch.textContent=b.classList.contains("hidden")?"▶":"▼"}
 function buildDailyUpdate(){
   var rds=new Date(DEAL_DATA.generatedAt).toISOString().split("T")[0];
   var rdl=new Date(DEAL_DATA.generatedAt).toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
