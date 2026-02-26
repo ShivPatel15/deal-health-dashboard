@@ -198,6 +198,78 @@ function getAvailableStages(){
 }
 
 // ============================================================
+// DAILY UPDATE — what changed in the most recent refresh
+// ============================================================
+function duClick(id){showDetail(id)}
+function duToggle(){var b=document.getElementById("daily-body");if(!b)return;b.classList.toggle("hidden");var ch=document.getElementById("du-chev");if(ch)ch.textContent=b.classList.contains("hidden")?"▶":"▼"}
+function buildDailyUpdate(){
+  var rds=new Date(DEAL_DATA.generatedAt).toISOString().split("T")[0];
+  var rdl=new Date(DEAL_DATA.generatedAt).toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
+  var changed=[],today=[];
+  opps.forEach(function(o){var h=o.history||[];if(!h.length)return;var l=h[h.length-1];if(l.date===rds){today.push(o);if(l.changes&&l.changes.length>0)changed.push(o)}});
+  if(!today.length)return "";
+  var hrDeals=opps.filter(function(o){return(o.dealRisks||[]).some(function(r){return r.severity==="high"})});
+  var up=0,dn=0;
+  changed.forEach(function(o){var h=o.history,l=h[h.length-1],p=h.length>1?h[h.length-2]:null;if(p&&l.totalScore>p.totalScore)up++;if(p&&l.totalScore<p.totalScore)dn++});
+  var h="";
+  h+="<div style=\"background:var(--s1);border:1px solid var(--b1);border-radius:12px;margin-bottom:22px;overflow:hidden\">";
+  h+="<div style=\"padding:14px 18px;background:var(--s2);border-bottom:1px solid var(--b1);display:flex;align-items:center;justify-content:space-between;cursor:pointer\" onclick=\"duToggle()\">";
+  h+="<div style=\"display:flex;align-items:center;gap:10px\"><span style=\"font-size:18px\">\uD83D\uDCF0</span><div>";
+  h+="<div style=\"font-size:15px;font-weight:800\">Daily Update</div>";
+  h+="<div style=\"font-size:11px;color:var(--t3)\">"+rdl+"</div>";
+  h+="</div></div>";
+  h+="<div style=\"display:flex;align-items:center;gap:8px\">";
+  if(up)h+="<span style=\"font-size:10px;font-weight:700;color:var(--g);background:var(--g-bg);padding:2px 8px;border-radius:4px;border:1px solid var(--g-b)\">\u25B2 "+up+" improved</span>";
+  if(dn)h+="<span style=\"font-size:10px;font-weight:700;color:var(--r);background:var(--r-bg);padding:2px 8px;border-radius:4px;border:1px solid var(--r-b)\">\u25BC "+dn+" declined</span>";
+  if(hrDeals.length)h+="<span style=\"font-size:10px;font-weight:700;color:var(--r);background:var(--r-bg);padding:2px 8px;border-radius:4px;border:1px solid var(--r-b)\">\uD83D\uDEA8 "+hrDeals.length+" high-risk</span>";
+  h+="<span style=\"font-size:10px;color:var(--t3)\">"+today.length+"/"+opps.length+" refreshed</span>";
+  h+="<span style=\"font-size:10px;color:var(--t3)\" id=\"du-chev\">\u25BC</span>";
+  h+="</div></div>";
+  h+="<div id=\"daily-body\"><div style=\"padding:14px 18px\">";
+  if(changed.length){
+    h+="<div style=\"margin-bottom:16px\"><div style=\"font-size:12px;font-weight:700;color:var(--t2);margin-bottom:10px\">\uD83D\uDCCA Score Changes</div>";
+    h+="<div style=\"display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:8px\">";
+    changed.forEach(function(o){
+      var hi=o.history,la=hi[hi.length-1],pr=hi.length>1?hi[hi.length-2]:null;
+      var d=pr?(la.totalScore-pr.totalScore):0;var bc=d>0?"g":d<0?"r":"y";
+      var sd=[];
+      if(pr&&la.sectionScores&&pr.sectionScores){Object.keys(la.sectionScores).forEach(function(k){var nv=la.sectionScores[k],ov=pr.sectionScores[k];if(ov!=null&&nv!==ov)sd.push({s:k,d:nv-ov})})}
+      h+="<div style=\"background:var(--s1);border:1px solid var(--b1);border-left:3px solid var(--"+bc+");border-radius:8px;padding:10px 14px;cursor:pointer\" onclick=\"duClick(&quot;"+o.id+"&quot;)\">";
+      h+="<div style=\"display:flex;align-items:center;justify-content:space-between;margin-bottom:6px\">";
+      h+="<div style=\"display:flex;align-items:center;gap:6px\"><span style=\"font-size:13px;font-weight:700\">"+o.accountName+"</span><span class=\"badge b-stage\" style=\"font-size:8px\">"+o.stage+"</span></div>";
+      h+="<div style=\"display:flex;align-items:center;gap:6px\">";
+      if(pr)h+="<span style=\"font-size:12px;color:var(--t3)\">"+pr.totalScore+"</span><span style=\"font-size:10px;color:var(--t3)\">\u2192</span>";
+      h+="<span style=\"font-size:14px;font-weight:800;color:var(--"+bc+")\">"+la.totalScore+"/"+la.totalMax+"</span>";
+      if(d!==0)h+="<span style=\"font-size:11px;font-weight:700;color:var(--"+bc+");background:var(--"+bc+"-bg);padding:1px 5px;border-radius:3px\">"+(d>0?"+":"")+d+"</span>";
+      h+="</div></div>";
+      if(sd.length){h+="<div style=\"display:flex;gap:4px;flex-wrap:wrap;margin-bottom:4px\">";sd.forEach(function(x){var cl=x.d>0?"g":"r";h+="<span style=\"font-size:9px;padding:1px 5px;border-radius:3px;background:var(--"+cl+"-bg);color:var(--"+cl+");border:1px solid var(--"+cl+"-b)\">"+x.s+" "+(x.d>0?"+":"")+x.d+"</span>"});h+="</div>"}
+      if(la.changes&&la.changes.length){h+="<div style=\"font-size:10px;color:var(--t2);line-height:1.5\">";la.changes.slice(0,3).forEach(function(c){h+="\u2022 "+c+"<br>"});h+="</div>"}
+      h+="</div>";
+    });
+    h+="</div></div>";
+  }
+  if(hrDeals.length){
+    h+="<div style=\"margin-bottom:16px\"><div style=\"font-size:12px;font-weight:700;color:var(--t2);margin-bottom:10px\">\uD83D\uDEA8 High-Priority Risks</div>";
+    h+="<div style=\"display:flex;flex-direction:column;gap:6px\">";
+    hrDeals.forEach(function(o){(o.dealRisks||[]).filter(function(r){return r.severity==="high"}).forEach(function(r){
+      h+="<div style=\"background:var(--r-bg);border:1px solid var(--r-b);border-radius:6px;padding:8px 12px;font-size:11px;line-height:1.5;display:flex;align-items:flex-start;gap:8px;cursor:pointer\" onclick=\"duClick(&quot;"+o.id+"&quot;)\">";
+      h+="<span style=\"font-size:8px;font-weight:700;color:var(--r);background:var(--s1);padding:1px 5px;border-radius:3px;flex-shrink:0;margin-top:2px\">HIGH</span>";
+      h+="<div><span style=\"font-weight:700;color:var(--acc-t)\">"+o.accountName+"</span> <span style=\"color:var(--t2)\">"+r.risk+"</span></div></div>";
+    })});
+    h+="</div></div>";
+  }
+  var nc=today.filter(function(o){var hi=o.history||[];var l=hi[hi.length-1];return!l.changes||l.changes.length===0});
+  if(nc.length){
+    h+="<div style=\"padding:8px 12px;background:var(--s2);border-radius:6px;font-size:11px;color:var(--t3)\">";
+    h+="<span style=\"font-weight:700\">"+nc.length+" deal"+(nc.length>1?"s":"")+" unchanged:</span> ";
+    h+=nc.map(function(o){return "<span style=\"cursor:pointer;color:var(--t2)\" onclick=\"duClick(&quot;"+o.id+"&quot;)\">"+o.accountName+"</span>"}).join(", ");
+    h+="</div>";
+  }
+  h+="</div></div></div>";
+  return h;
+}
+
+// ============================================================
 // PORTFOLIO VIEW
 // ============================================================
 function renderList(){
@@ -272,8 +344,11 @@ function renderList(){
       return(so[a.stage]||9)-(so[b.stage]||9)||new Date(a.closeDate)-new Date(b.closeDate)});
   });
 
+  const dailyUpdateHtml=buildDailyUpdate();
+
   let html=`<h2 style="font-size:20px;font-weight:800;margin-bottom:3px">Pipeline Overview</h2>
   <p style="color:var(--t3);font-size:12px;margin-bottom:14px">Data as of ${new Date(DEAL_DATA.generatedAt).toLocaleDateString()} · ${filtered.length} opportunities</p>
+  ${dailyUpdateHtml}
   ${filterHtml}
   <div class="sum-row">
     <div class="sum-card"><div class="lbl">Opportunities</div><div class="val">${filtered.length}</div></div>

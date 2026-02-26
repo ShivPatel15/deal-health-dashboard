@@ -1,45 +1,57 @@
 {
   "salesforce": {
-    "opportunity_id": "006OG00000KOC4YYAX",
-    "account_name": "Moss Bros. Group Ltd",
-    "account_id": "001OG00000kHK7sYAG",
-    "stage": "Envision",
-    "close_date": "2026-09-30",
-    "probability": 20,
+    "opportunity_id": "006OG00000J4JtxYAF",
+    "account_name": "Vision Healthcare",
+    "account_id": "0018V00002qytjyQAA",
+    "stage": "Solution",
+    "close_date": "2026-03-31",
+    "probability": 40,
     "forecast_category": "Pipeline",
     "type": "New Business",
     "merchant_intent": "Uncommitted",
-    "created_date": "2026-01-16",
+    "created_date": "2025-11-27",
     "owner": "Maissa Fatte",
     "owner_email": "maissa.fatte@shopify.com",
-    "revenue": {
-      "amount": 82800,
-      "total_revenue_3yr": 2129400,
-      "projected_billed_revenue": 745569.83,
-      "d2c_gmv": 39000000,
-      "b2b_gmv": null,
-      "retail_gmv": null,
-      "payments_gpv": 25350000,
-      "payments_attached": true,
-      "ipp": 1085043.96
-    },
+    "amount": 82800,
+    "total_revenue_3yr": 97557.94,
+    "projected_billed_revenue": 93976.05,
+    "d2c_gmv": 2459656.5,
+    "b2b_gmv": null,
+    "retail_gmv": null,
+    "payments_gpv": 0,
+    "payments_attached": false,
+    "ipp": 80997.94,
     "products": [
-      {"name": "Plus Product Suite", "code": "PSUITE-PLUS", "amount": 0},
-      {"name": "D2C - Standard", "code": "PLAN-PLUS-STD", "amount": 82800},
-      {"name": "Shopify Payments - D2C Plus, Shopify for ent, CCS", "code": "MSERV-FIN-SP-D2C-P", "amount": 0}
+      {
+        "name": "D2C - Standard",
+        "code": "PLAN-PLUS-STD",
+        "amount": 82800
+      }
     ],
     "stakeholders": [
-      {"name": "Brett Grobler", "title": null, "role": null, "email": "breett@mossbros.co.uk"}
+      {
+        "name": "Joost Hunfeld",
+        "title": "COO",
+        "role": null,
+        "email": "joost.hunfeld@visionhealthcare.eu"
+      },
+      {
+        "name": "Iztok Hvala",
+        "title": "COO",
+        "role": "Launch Contact",
+        "email": "iztok.hvala@visionhealthcare.eu"
+      }
     ],
     "shopify_team": [
-      {"name": "Dave Warrington", "role": "Demo Engineering", "email": "david.warrington@shopify.com"},
-      {"name": "Christian Mackie", "role": "Solutions Architect", "email": "christian.mackie@shopify.com"},
-      {"name": "Paul Cochrane", "role": "Demo Engineering", "email": "paul.cochrane@shopify.com"},
-      {"name": "Sarah Berelowitz", "role": "Solutions Engineer", "email": "sarah.berelowitz@shopify.com"}
+      {
+        "name": "Ben Homer",
+        "role": "Solutions Engineer",
+        "email": "ben.homer@shopify.com"
+      }
     ],
     "compelling_event": null,
-    "ae_next_steps": "[AS] 16.01 Technical discovery scheduled for 26.01 + intro to deal champion, Chris Turberville-Tulley",
-    "se_next_steps": "Demo booked for 25th Feb",
+    "ae_next_steps": "20/02 MF: Merchant sent Adyen invoices for rate comparison. Needs confirmation on payment method support & fee comparison (on it) + scheduling intro to merchant next week.",
+    "se_next_steps": null,
     "competitor": null,
     "position_vs_competitor": null,
     "other_competitor": null,
@@ -50,173 +62,143 @@
   },
   "meddpicc_analysis": {
     "narratives": {
-      "opp_summary": "Moss Bros. Group Ltd is a £160M UK retailer evaluating Shopify Plus ($82,800 deal, $2.1M 3-year revenue impact) to replace their aging e-commerce platform (Remarkable) and legacy POS system (Dolphin). The evaluation is board-driven, with strategic directives to simplify a complex composable architecture, enable international expansion, and leverage AI — with a champion (Chris Turberville-Tully) actively building the case for a C-suite presentation targeted for early March 2026. This is a significantly more active deal than Salesforce data alone suggests, with 5 substantive discovery and technical calls completed since January 2026 and a tailored demo scheduled for the week of February 23rd.",
-      "why_change": "Moss Bros. is running on two aging core systems — Remarkable for e-commerce and Dolphin for POS — both of which are failing to keep pace with the business. Remarkable is described as 'slow to adapt,' and the Dolphin POS system is aging to the point that replacing it is a top CEO/CFO priority. The company has invested heavily in a composable architecture (Zitec as middleware/CDP, OneStock for inventory), which has created significant complexity they want to simplify — they explicitly stated a need to 'uncomplicate their world.' Past security incidents have made the board acutely risk-averse and are now actively motivating a platform change. Operationally, their 'hire' business (suit rental with group bookings and deposits) and 'custom-made' business (bespoke tailoring/outfit builder) are fragmented across online and POS channels, creating inefficiency. The board and main shareholder are strategically questioning the current tech stack and have directed this evaluation.",
-      "why_shopify": "Moss Bros. is drawn to Shopify for its unified commerce capabilities — the ability to consolidate e-commerce and POS onto a single platform, which directly addresses their core pain of managing disparate, aging systems. Chris Turberville-Tully is a self-described 'Shopify advocate' and is championing the platform to the CEO based on its simplicity, native integrations, and ability to reduce architectural complexity. The team expressed strong interest in Shopify's AI capabilities as a differentiator. They see Shopify as a way to consolidate disparate customer management systems and streamline their complex custom-made/outfit builder process across channels. International expansion support is also part of the strategic rationale, and Shopify Payments is being evaluated to replace Adyen as part of a broader simplification effort.",
-      "why_now": "The evaluation is being driven by strategic board directives — the CEO and main shareholder are actively questioning the current technology stack and have mandated this review. The aging POS system (Dolphin) is a particularly urgent concern for the CEO and CFO, compounded by past security incidents that have heightened the board's appetite for change despite their risk-averse nature. There is a clear timeline forming: a technical demo review is scheduled for the week of February 23rd, with a C-suite presentation (CEO/CFO) targeted for early March 2026. While no hard contractual deadline has been mentioned, the board-level mandate and executive engagement suggest organizational momentum that could stall if not maintained.",
-      "support_needed": "Handle complex 'hire' and 'custom-made' business model requirements — these are deal-critical (The Black Tux referenced as comparable). Address payment complexity and Adyen-to-Shopify Payments transition (split payments, deposits). Resolve average/weighted inventory costing question (raised multiple times). Provide implementation partner introductions (Chris requested 2-3 partners). Deliver case studies of similar UK retail migrations. Support Chris in overcoming Head of E-commerce resistance with an airtight business case. Provide realistic implementation timeline (flagged as critical by Joe). Clarify Zitec/OneStock integration approach — position around their existing investment, not against it."
+      "opp_summary": "Vision Healthcare is a buy-and-build portfolio company operating ~16 brands across fragmented tech stacks (Magento, CommerceTools, WordPress, and some Shopify). This $82,800 deal involves consolidating 4 brands (Vita Yummy, New Pure, N2, Alpha Foods) onto Shopify Plus under a 3-year multi-brand agreement at $8,280/month. The broader strategic play is to prove out Shopify with the N2 brand as a proof-of-concept, and if successful, migrate the remaining portfolio — covering ~95% of shared functionality — creating significant expansion potential well beyond the initial deal size.",
+      "why_change": "Vision Healthcare's current tech stack is highly fragmented across Magento, CommerceTools, WordPress, and existing (improperly licensed) Shopify stores, creating operational inefficiency and technical debt. They have 4 full-time developers dedicated to Magento maintenance for 5+ years, representing a significant ongoing cost. Their earlier Shopify test with Tummy Talks resulted in a meaningful AOV drop due to an unoptimized checkout — particularly around Cash on Delivery features — which demonstrated the gap between their heavily customized Magento checkout and a vanilla Shopify experience. They are also dealing with an existing Shopify Plus contract breach (multiple brands on one license), which creates compliance risk. The COO (Iztok Hvala) has signaled that if the N2 proof-of-concept can match Magento's performance, it opens the door for full portfolio consolidation — suggesting the current multi-platform approach is unsustainable.",
+      "why_shopify": "Vision Healthcare sees Shopify Plus as the consolidation platform for their multi-brand portfolio, attracted by the MSA/multi-brand agreement structure that provides preferential group pricing and simplified licensing. During the technical deep-dive, Ben Homer demonstrated that Shopify's Checkout Blocks, Flow, Search & Discovery, payment customization functions, and checkout UI extensions could replicate most of their critical Magento checkout features (subscription popups, cross-sells, COD greylisting, address validation). Iztok explicitly stated they don't need a 'copy paste' — they 'just want to have the same result' — indicating openness to Shopify's approach as long as business outcomes are preserved. They also have a recently acquired brand (Vayami) already on Shopify, giving them some platform familiarity. The potential to move to Shopify Payments and reduce the 0.2% external gateway fee (currently on Adyen at ~$180K/month group processing volume) is an additional financial incentive.",
+      "why_now": "The most concrete timeline driver is the proposed contract signature deadline of February 13th, which was set partly because AE Yasmine Fazeli is going on maternity leave. Iztok accepted mid-February as feasible. The N2 brand POC is targeting a Q2 (April) launch in Spain, which creates a natural implementation timeline. However, there is no documented compelling event such as a Magento contract expiration, and the Salesforce 'Compelling Event' field is null. The urgency appears driven more by commercial offer timing and internal portfolio rationalization than by an external forcing function.",
+      "support_needed": "Payment method feasibility and rate comparison (merchant sent Adyen invoices, needs confirmation on Shopify Payments support and fee comparison). COD checkout replication confidence for Spain, Italy, and Eastern Europe. Address validation solution for Italian and Spanish markets. Entity and billing structure clarification for multi-brand agreement. Technical architecture follow-up and POC support (COD payment customization and checkout subscription toggle feasibility). Smooth AE transition from Yasmine Fazeli to Maissa Fatte."
     },
     "sections": {
       "metrics": {
         "questions": [
-          {"id": "M1", "text": "Do we know the business reasons driving the migration?", "score": "Yes", "notes": "Multiple calls confirm: aging e-commerce (Remarkable) and POS (Dolphin) systems, need to simplify composable architecture, board directive, security concerns from past incidents, international expansion goals, desire to leverage AI. Call 2: 'uncomplicate their world.' Call 3: Chris confirms board-driven mandate.", "solution": "N/A — well documented.", "action": "N/A", "due_date": null},
-          {"id": "M2", "text": "Do we have specific quantifiable goals?", "score": "Partial", "notes": "£160M revenue company. D2C GMV of $39M and Payments GPV of $25.35M in Salesforce. No specific KPIs (conversion targets, TCO savings, cost reduction) articulated by the merchant.", "solution": "Work with Chris to extract specific financial metrics from CFO — TCO savings, revenue uplift targets, operational cost reduction.", "action": "Maissa to ask Chris for CFO's key financial metrics and success criteria during pre-exec prep.", "due_date": "2026-03-01"},
-          {"id": "M3", "text": "Has merchant confirmed current solution cannot achieve goals?", "score": "Yes", "notes": "Current platforms (Remarkable, Dolphin) are aging and unable to support strategic goals. Remarkable is 'slow to adapt.' Dolphin POS replacement is a top CEO priority. Board has explicitly directed evaluation of alternatives.", "solution": "N/A — confirmed.", "action": "N/A", "due_date": null},
-          {"id": "M4", "text": "Do we understand the impact if goals aren't achieved?", "score": "Partial", "notes": "Security risk from past incidents understood. Fragmented customer experience across hire/custom-made/POS implied. No explicit quantification of cost of inaction.", "solution": "Help Chris articulate the cost of inaction for the board presentation.", "action": "Maissa to work with Chris to build a 'cost of doing nothing' slide for C-suite presentation.", "due_date": "2026-03-05"},
-          {"id": "M5", "text": "Is there a compelling event driving action?", "score": "Partial", "notes": "Board directive driving evaluation. CEO/CFO engagement planned for early March. No hard contractual deadline (renewal, end-of-life). Urgency is strategic/political rather than contractual.", "solution": "Probe whether Remarkable or Dolphin have contract renewal dates or end-of-support timelines.", "action": "Maissa to ask Chris/Joe about Remarkable and Dolphin contract terms and hard deadlines.", "due_date": "2026-02-28"},
-          {"id": "M6", "text": "Have metrics been validated by the customer?", "score": "No", "notes": "Specific quantifiable metrics not yet established. CFO not yet engaged directly. Chris mentioned gathering financial drivers from CFO but not confirmed completed.", "solution": "Validate metrics with CFO during or before C-suite presentation.", "action": "Maissa to confirm with Chris what financial data he's gathered from CFO and align on metrics.", "due_date": "2026-03-03"},
-          {"id": "M7", "text": "Are metrics compelling enough to justify change?", "score": "Partial", "notes": "Qualitative case is strong — aging systems, security risk, board frustration, strategic expansion blocked. Without quantified metrics, unclear if business case survives CFO scrutiny with risk-averse board.", "solution": "Build quantified ROI model showing TCO comparison, operational savings, and revenue upside.", "action": "Maissa/Sarah to prepare preliminary ROI framework for Chris to validate with CFO data.", "due_date": "2026-03-03"}
+          {"id": "Q1", "text": "Do they have business reasons to change?", "score": "Yes", "notes": "Multiple calls confirm business reasons: fragmented tech stack across Magento/CommerceTools/WordPress, high maintenance cost (4 FT devs on Magento for 5 years), AOV drop in prior Shopify test, contract breach risk, desire to consolidate portfolio onto one platform.", "solution": null, "action": null, "due_date": null},
+          {"id": "Q2", "text": "Do they have a defined goal/metric they aim to achieve?", "score": "Partial", "notes": "Iztok stated success = matching Magento checkout performance on AOV and conversion for N2 POC. However, no specific quantified targets documented. Processing volume of ~$180K/month on Adyen is known.", "solution": "Nail down specific AOV and conversion benchmarks for N2 that define POC success.", "action": "During next call, ask Iztok to share current N2 Magento AOV and conversion rate as the baseline POC success metrics.", "due_date": "2026-03-05"},
+          {"id": "Q3", "text": "Have they clearly articulated the problem?", "score": "Yes", "notes": "Iztok explicitly stated they've reached 'practically same solutions across all the tech stack' and if N2 works, it covers 95% of functionality for all brands. The fragmented multi-platform setup is clearly not sustainable.", "solution": null, "action": null, "due_date": null},
+          {"id": "Q4", "text": "Have they quantified the impact of the problem?", "score": "Partial", "notes": "Implied consequences include continued high dev costs, compliance risk from Shopify contract breach, and inability to scale acquisitions efficiently. However, no one explicitly stated 'if we don't consolidate, X bad thing happens by Y date.'", "solution": "Quantify the cost of inaction — ongoing Magento dev spend, risk exposure from license breach, opportunity cost of slow brand launches.", "action": "Ask Iztok what maintaining the current multi-platform setup costs annually.", "due_date": "2026-03-05"},
+          {"id": "Q5", "text": "Is there a compelling event driving urgency?", "score": "No", "notes": "Salesforce Compelling Event field is null. The February 13th contract deadline was artificially set around AE maternity leave. No external event identified.", "solution": "Discover if there is a Magento license renewal, upcoming acquisition, or board-level mandate creating a natural deadline.", "action": "Ask Iztok directly: 'Is there a Magento contract renewal or any board-level timeline we should be aware of?'", "due_date": "2026-03-05"},
+          {"id": "Q6", "text": "Have both parties agreed on what success looks like?", "score": "Partial", "notes": "Metrics around checkout performance (AOV, conversion) discussed extensively. No formal mutual agreement on specific KPIs.", "solution": "Create a simple success criteria document listing agreed-upon metrics for the N2 POC.", "action": "Draft a 1-page POC success criteria doc and share with Iztok for validation.", "due_date": "2026-03-10"},
+          {"id": "Q7", "text": "Is the 'justify the change' narrative complete?", "score": "Partial", "notes": "The checkout performance concern is clearly compelling enough. But without quantified goals and cost-of-inaction, the full 'justify change' narrative isn't locked in.", "solution": "Build an ROI narrative: dev cost savings + payment fee savings + faster brand launch velocity vs. current state.", "action": "Prepare a lightweight business case comparing current multi-platform TCO vs. consolidated Shopify Plus costs.", "due_date": "2026-03-12"}
         ]
       },
       "economic_buyer": {
         "questions": [
-          {"id": "EB1", "text": "Have you identified who can spend unbudgeted funds?", "score": "Partial", "notes": "Chris identified CEO and main shareholder as key decision-makers. CFO involvement confirmed for C-suite presentation. Unclear whether CEO, CFO, or shareholder holds final budget authority.", "solution": "Clarify with Chris who specifically signs off on a platform investment of this size.", "action": "Maissa to ask Chris: 'Who has final sign-off authority — CEO, CFO, or shareholder?'", "due_date": "2026-02-28"},
-          {"id": "EB2", "text": "Do you know who will sign the contract?", "score": "No", "notes": "Not discussed in any calls. Procurement process not explored.", "solution": "Need to understand contract signing authority and process.", "action": "Maissa to ask Chris about procurement/contract signing authority.", "due_date": "2026-03-05"},
-          {"id": "EB3", "text": "Have you engaged directly with the EB?", "score": "No", "notes": "No direct access to CEO, CFO, or shareholder yet. All engagement through Chris, Joe, and Brett. C-suite presentation in early March would be first direct access.", "solution": "C-suite presentation is the vehicle — ensure it happens.", "action": "Maissa to confirm C-suite presentation date with Chris. Push for pre-meeting if possible.", "due_date": "2026-03-01"},
-          {"id": "EB4", "text": "Has champion provided a path to the EB?", "score": "Yes", "notes": "Chris is actively arranging the C-suite presentation and committed to securing dates with CEO/CFO. He is positioned as champion with direct access to decision-makers.", "solution": "N/A — path is clear.", "action": "Follow up with Chris to confirm exec presentation is confirmed and not slipping.", "due_date": "2026-02-28"},
-          {"id": "EB5", "text": "Do you know what the EB cares about?", "score": "Partial", "notes": "Chris outlined CEO/CFO priorities: replacing aging POS, enhancing security, AI capabilities. These are Chris's interpretation — not validated directly with execs. Financial concerns (TCO, ROI, risk) likely important given 'risk-averse board.'", "solution": "Validate these priorities directly with CEO/CFO during executive presentation.", "action": "Maissa to prepare targeted discovery questions for CEO/CFO at exec meeting.", "due_date": "2026-03-05"},
-          {"id": "EB6", "text": "Do you understand their budget process?", "score": "No", "notes": "Decision-making process and budget allocation not discussed. Board is involved and risk-averse, but formal approval process unknown.", "solution": "Map the decision process through Chris before the exec presentation.", "action": "Maissa to ask Chris: 'Walk me through how a tech investment of this size gets approved.'", "due_date": "2026-03-01"}
+          {"id": "Q1", "text": "Have we identified the Economic Buyer?", "score": "Partial", "notes": "Iztok Hvala (COO) is the primary contact with significant decision authority. However, Vision Healthcare is a buy-and-build portfolio company, suggesting there may be a CEO, CFO, or PE/board-level approver above Iztok. Joost Hunfeld (also COO) has not appeared on any calls.", "solution": "Clarify whether Iztok can sign independently or if there's a higher-level approval needed.", "action": "Ask Iztok: 'Beyond yourself, who else needs to approve this agreement?' and clarify Joost Hunfeld's role.", "due_date": "2026-03-05"},
+          {"id": "Q2", "text": "Do we understand the signing authority and entity?", "score": "No", "notes": "The billing entity question is still unresolved (New Pure vs. German entity). No clarity on who specifically signs the contract.", "solution": "Determine the signing entity and authorized signatory.", "action": "Follow up with Iztok on entity determination and ask who will be the contract signatory.", "due_date": "2026-03-05"},
+          {"id": "Q3", "text": "Do we have direct access to the EB?", "score": "Yes", "notes": "Iztok has been on all 3 calls and is highly engaged. Direct access is clearly established.", "solution": null, "action": null, "due_date": null},
+          {"id": "Q4", "text": "Have we mapped the full buying committee?", "score": "Partial", "notes": "We have access to Iztok (COO) and Boštjan (Head of IT), but not to Joost Hunfeld (other COO) or any higher-level decision-maker.", "solution": "Map the full buying committee and request introductions.", "action": "Ask Iztok to introduce Maissa to Joost Hunfeld and any other stakeholders.", "due_date": "2026-03-08"},
+          {"id": "Q5", "text": "Do we understand EB's personal priorities?", "score": "Partial", "notes": "Iztok cares about: checkout performance matching Magento, payment cost optimization, multi-brand operational efficiency, risk-free migration via POC approach. But we don't know what the ultimate economic buyer (if above Iztok) cares about.", "solution": "Validate EB priorities at the holding company / PE level.", "action": "Ask Iztok what metrics or outcomes his leadership/board would need to see to approve a full portfolio migration.", "due_date": "2026-03-08"},
+          {"id": "Q6", "text": "Do we understand the budget and procurement process?", "score": "No", "notes": "No information on formal budget allocation process, fiscal year timing, or how Vision Healthcare makes technology investment decisions at the portfolio level.", "solution": "Understand their budgeting and procurement process for cross-brand technology decisions.", "action": "Ask Iztok about budget cycles and how cross-brand technology investments are typically approved.", "due_date": "2026-03-08"}
         ]
       },
       "decision_process": {
         "questions": [
-          {"id": "DP1", "text": "Do we know how they will be making the decision?", "score": "Partial", "notes": "Board is involved, C-suite presentation is a key milestone. Chris is building business case for CEO/CFO. Formal decision process (evaluation committee? board vote? RFP?) not clearly mapped.", "solution": "Map the full decision process with Chris.", "action": "Maissa to map end-to-end decision process with Chris: 'After the exec presentation, what happens next?'", "due_date": "2026-03-01"},
-          {"id": "DP2", "text": "Do we know who's involved / buying committee?", "score": "Partial", "notes": "Known: Chris (champion), Joe Castro (IT), Brett Grobler (IT), CEO, CFO, main shareholder. Head of E-commerce is resistant (potential blocker). No complete org chart or confirmed buying committee.", "solution": "Build complete stakeholder map.", "action": "Maissa to ask Chris for full list of people who will influence or approve this decision.", "due_date": "2026-02-28"},
-          {"id": "DP3", "text": "Do we know when they want to decide?", "score": "No", "notes": "No target decision date discussed. Salesforce close date 2026-09-30 appears to be a placeholder. Most concrete timeline is early March exec presentation.", "solution": "Establish a target decision date with Chris.", "action": "Maissa to ask Chris: 'What's the ideal timeline for making a platform decision?'", "due_date": "2026-03-01"},
-          {"id": "DP4", "text": "Do we know what's driving the timeline?", "score": "Partial", "notes": "Board directive driving urgency. No hard contractual or business deadline. Aging POS and security concerns create soft urgency. International expansion plans may have a timeline.", "solution": "Probe for hard deadlines — contract renewals, fiscal year budgets, expansion launch dates.", "action": "Maissa to ask about fiscal year timing, budget cycles, and hard deadlines.", "due_date": "2026-03-01"},
-          {"id": "DP5", "text": "Have they tried to solve this before?", "score": "Yes", "notes": "Previously evaluated Shopify but cost concerns were a barrier. Invested in Zitec as middleware to address data silos. Strategic board directives are now overriding past cost objections.", "solution": "N/A — understood. Explore what changed since last Shopify evaluation.", "action": "Maissa to explore: 'What's different this time vs. when Shopify was previously considered?'", "due_date": "2026-03-01"},
-          {"id": "DP6", "text": "What happens if they maintain status quo?", "score": "Partial", "notes": "Continued security risk, inability to expand internationally, fragmented customer experience, operational inefficiency. No explicit 'if we don't move, X happens by Y date.'", "solution": "Help Chris articulate cost of inaction for business case.", "action": "Include cost-of-inaction analysis in executive presentation business case.", "due_date": "2026-03-05"},
-          {"id": "DP7", "text": "Has the decision process been validated?", "score": "No", "notes": "Decision process not fully mapped, so not validated with economic buyer. Chris has described it directionally but CEO/CFO haven't confirmed.", "solution": "Validate process during or before C-suite meeting.", "action": "Maissa to confirm decision process with Chris and ask him to validate with CEO.", "due_date": "2026-03-05"}
+          {"id": "Q1", "text": "Do we know the decision process?", "score": "Partial", "notes": "Implicit process: technical validation via N2 POC → commercial agreement → contract signing. No formal process documented.", "solution": "Formalize the decision process steps with the buyer.", "action": "Propose a mutual action plan outlining: technical validation → commercial alignment → legal/entity setup → signature.", "due_date": "2026-03-05"},
+          {"id": "Q2", "text": "Have we identified all decision participants?", "score": "Partial", "notes": "Known: Iztok Hvala (COO), Boštjan Knez (Head of IT). Joost Hunfeld not on calls. No visibility into legal, finance, or PE-level involvement.", "solution": "Map the full buying committee including legal, finance, and any board/PE oversight.", "action": "Ask Iztok to confirm all stakeholders involved in contract review and approval.", "due_date": "2026-03-05"},
+          {"id": "Q3", "text": "Is there an agreed decision timeline?", "score": "Partial", "notes": "Original Feb 13 deadline passed. Current Salesforce close date is March 31. No updated timeline from buyer.", "solution": "Re-establish a clear decision date with the buyer.", "action": "Confirm with Iztok: 'Are you still targeting a decision this quarter? What needs to happen before you can sign?'", "due_date": "2026-03-05"},
+          {"id": "Q4", "text": "Is the timeline backed by an event or consequence?", "score": "Partial", "notes": "N2 Q2 (April) launch target creates natural implementation timeline, but no hard external deadline identified.", "solution": "Connect the decision timeline to the N2 Q2 launch.", "action": "Calculate backwards from Q2 N2 launch to determine latest viable contract signature date.", "due_date": "2026-03-05"},
+          {"id": "Q5", "text": "Have they evaluated Shopify before?", "score": "Yes", "notes": "Tested Shopify previously with Tummy Talks — AOV drops due to unoptimized checkout. Also have Vayami on Shopify.", "solution": null, "action": null, "due_date": null},
+          {"id": "Q6", "text": "Do we understand the consequence of no decision?", "score": "Partial", "notes": "Implied: continued fragmented stack, ongoing Magento dev costs, unresolved Shopify license breach. Not explicitly stated.", "solution": "Surface the cost of inaction.", "action": "Ask Iztok: 'What happens if this decision gets pushed to Q3 or later?'", "due_date": "2026-03-05"},
+          {"id": "Q7", "text": "Has the decision process been validated with the buyer?", "score": "No", "notes": "Decision process has been implied through conversation flow but never formally confirmed.", "solution": "Get explicit buyer agreement on the path to close.", "action": "Share a written mutual action plan and ask Iztok to confirm or modify.", "due_date": "2026-03-08"}
         ]
       },
       "decision_criteria": {
         "questions": [
-          {"id": "DC1", "text": "Do we know their evaluation criteria?", "score": "Partial", "notes": "Key criteria from calls: POS replacement, security, AI, hire/custom-made handling, payment complexity, inventory costing, implementation timeline, Zitec/OneStock integration. No formal evaluation criteria or RFP shared.", "solution": "Ask Chris if there's formal criteria or help define one.", "action": "Maissa to ask Chris: 'Has the board defined formal evaluation criteria? Can we help structure that?'", "due_date": "2026-03-01"},
-          {"id": "DC2", "text": "Have we discussed all capabilities?", "score": "Partial", "notes": "D2C e-commerce discussed. POS discussed extensively. Omnichannel discussed. B2B not discussed — unclear if relevant.", "solution": "Confirm B2B relevance; ensure demo covers full omnichannel vision.", "action": "Sarah to confirm B2B relevance with Joe/Chris and ensure demo covers omnichannel.", "due_date": "2026-02-25"},
-          {"id": "DC3", "text": "Have we surfaced technical complications?", "score": "Yes", "notes": "Extensively discussed: Zitec/OneStock integration, Adyen-to-Shopify Payments transition, average inventory costing, complex hire business logic, custom-made/outfit builder workflow, split payment logic.", "solution": "N/A — well-surfaced. Now need to address them.", "action": "Sarah to ensure all technical complications have clear answers for the demo.", "due_date": "2026-02-25"},
-          {"id": "DC4", "text": "Do we know how payments play into decision?", "score": "Yes", "notes": "Currently on Adyen with complex split payment logic and deposits. Shopify Payments is part of evaluation. Joe raised split payment concerns. $25.35M GPV.", "solution": "Ensure payments transition story is clear and compelling.", "action": "Sarah to prepare Adyen vs. Shopify Payments comparison addressing split payments and deposits.", "due_date": "2026-02-25"},
-          {"id": "DC5", "text": "Is there a mutual action plan?", "score": "Partial", "notes": "Informal plan: demo review week of Feb 23 → exec presentation early March. Chris coordinating dates. No formal MAP with milestones beyond March.", "solution": "Formalize a MAP with Chris.", "action": "Maissa to draft mutual action plan and review with Chris after demo review.", "due_date": "2026-03-03"},
-          {"id": "DC6", "text": "Have we shaped the decision criteria?", "score": "Partial", "notes": "Actively shaping conversation around unified commerce, AI, POS modernization, simplification. Demo being tailored. Head of E-commerce (resistant) may define criteria favoring status quo.", "solution": "Help Chris define criteria that favor Shopify's strengths.", "action": "Maissa to provide Chris a suggested evaluation framework highlighting Shopify advantages.", "due_date": "2026-03-01"},
-          {"id": "DC7", "text": "Do we know who defined the criteria?", "score": "No", "notes": "No formal criteria shared. Unclear whether board, CEO, Head of E-commerce, or Chris is defining 'success.' Head of E-commerce resistance creates risk of unfavorable criteria.", "solution": "Understand who's setting criteria and ensure alignment.", "action": "Maissa to ask Chris: 'Who will define the evaluation criteria? Can we get ahead of that?'", "due_date": "2026-03-01"}
+          {"id": "Q1", "text": "Do we know the decision criteria?", "score": "Partial", "notes": "Key criteria surfaced: checkout performance matching Magento AOV/conversion, COD support, payment cost competitiveness vs Adyen, multi-brand pricing, address validation. No formal list from buyer.", "solution": "Ask the buyer to share or confirm their formal evaluation criteria.", "action": "Ask Iztok: 'Beyond checkout performance and payment costs, what other factors will drive your final decision?'", "due_date": "2026-03-08"},
+          {"id": "Q2", "text": "Are the product requirements well-understood?", "score": "Partial", "notes": "D2C capabilities discussed extensively. B2B and retail not discussed — Salesforce shows null B2B/Retail GMV.", "solution": "Confirm whether B2B or retail/POS are relevant for any brands.", "action": "Ask Iztok if any brands have B2B or retail needs beyond D2C.", "due_date": "2026-03-08"},
+          {"id": "Q3", "text": "Are the technical complications known?", "score": "Yes", "notes": "Extensive discussion: COD payment customization, greylisting logic, address validation for Italian/Spanish postal systems, checkout subscription toggle, multi-market conditional payment display, Adyen integration.", "solution": null, "action": null, "due_date": null},
+          {"id": "Q4", "text": "Have payment implications been discussed?", "score": "Yes", "notes": "Payments discussed in all three calls. Current Adyen processing at ~$180K/month, 0.2% external gateway fee, interest in Shopify Payments rate comparison. Merchant sent Adyen invoices.", "solution": null, "action": "Complete Shopify Payments vs. Adyen rate comparison and present to merchant.", "due_date": "2026-03-05"},
+          {"id": "Q5", "text": "Is there a mutual action plan?", "score": "No", "notes": "No mutual action plan formally created or shared. Process has been ad-hoc.", "solution": "Create and share a MAP with clear milestones, owners, and dates.", "action": "Draft a MAP covering: payment comparison → technical validation → entity determination → contract review → signature.", "due_date": "2026-03-08"},
+          {"id": "Q6", "text": "Are we shaping the criteria in our favor?", "score": "Partial", "notes": "Ben demonstrated Shopify's native capabilities. MSA structure was Shopify's proposal. No evidence of proactively shaping criteria vs. a competitor.", "solution": "Frame the evaluation around Shopify's unique strengths (multi-brand MSA, checkout extensibility, ecosystem).", "action": "Prepare a 'Why Shopify for multi-brand portfolios' positioning document.", "due_date": "2026-03-12"},
+          {"id": "Q7", "text": "Do we know who created the criteria?", "score": "No", "notes": "Unclear whether the criteria came from Iztok, Boštjan, a consultant, or a formal RFP process.", "solution": "Understand the origin of their evaluation framework.", "action": "Ask Iztok: 'Did you develop these requirements internally, or is there a broader evaluation framework involved?'", "due_date": "2026-03-08"}
         ]
       },
       "paper_process": {
         "questions": [
-          {"id": "PP1", "text": "Do we know their procurement process?", "score": "No", "notes": "Not discussed in any calls. No information on procurement, legal review, or contract processes.", "solution": "Start mapping procurement process early.", "action": "Maissa to ask Chris about procurement/contracting process.", "due_date": "2026-03-10"},
-          {"id": "PP2", "text": "Are there likely to be redlines?", "score": "Partial", "notes": "Risk-averse board and past security incidents suggest legal/security redlines are likely. £160M company will have procurement and legal processes.", "solution": "Anticipate security/data protection clauses early.", "action": "Maissa to flag to Shopify legal that security will be scrutinized. Pre-prepare documentation.", "due_date": "2026-03-15"},
-          {"id": "PP3", "text": "How long does legal review take?", "score": "No", "notes": "Not discussed.", "solution": "Map when procurement process is explored.", "action": "Include in procurement discovery conversation with Chris.", "due_date": "2026-03-10"},
-          {"id": "PP4", "text": "What is the overall procurement timeline?", "score": "No", "notes": "No procurement timeline discussed. Close date of 2026-09-30 may account for this.", "solution": "Establish realistic procurement timeline.", "action": "Maissa to include paper process timeline in mutual action plan.", "due_date": "2026-03-10"},
-          {"id": "PP5", "text": "Have contract details been discussed?", "score": "No", "notes": "No contract discussed. Deal is in Envision stage.", "solution": "Premature — focus on business case first.", "action": "Prepare contract framework once executive buy-in is secured.", "due_date": "2026-04-01"},
-          {"id": "PP6", "text": "Has a contract been sent?", "score": "No", "notes": "Too early in the process.", "solution": "N/A at this stage.", "action": "N/A", "due_date": null},
-          {"id": "PP7", "text": "Is there a target signature date?", "score": "No", "notes": "Not discussed. Salesforce close date 2026-09-30 not validated.", "solution": "Work backwards from desired go-live.", "action": "Maissa to ask Chris about desired go-live date.", "due_date": "2026-03-10"}
+          {"id": "Q1", "text": "Do we understand the procurement process?", "score": "No", "notes": "No discussion of procurement process, legal review, or how contracts flow through Vision Healthcare. Entity question unresolved.", "solution": "Map the full procurement/legal process.", "action": "Ask Iztok about internal contract approval process, reviewers, and typical timelines.", "due_date": "2026-03-05"},
+          {"id": "Q2", "text": "Are there likely redlines or legal concerns?", "score": "Partial", "notes": "Multi-entity portfolio company likely with PE backing — redlines on 3-year commitment probable. Existing contract breach introduces legal complexity.", "solution": "Proactively prepare by involving Shopify legal early.", "action": "Flag to Shopify legal that this is a multi-entity deal with existing contract breach requiring resolution.", "due_date": "2026-03-05"},
+          {"id": "Q3", "text": "Do we know the legal review timeline?", "score": "No", "notes": "No information on legal review timelines.", "solution": "Get an estimate from the buyer.", "action": "Ask Iztok how long legal/contract reviews typically take at Vision Healthcare.", "due_date": "2026-03-08"},
+          {"id": "Q4", "text": "Is the paper process on track?", "score": "No", "notes": "Original Feb 13 deadline passed. No updated timeline for contract completion.", "solution": "Re-establish paper process timeline.", "action": "Align on a new target signature date working back from Q2 N2 launch.", "due_date": "2026-03-05"},
+          {"id": "Q5", "text": "Are commercial terms agreed?", "score": "Partial", "notes": "Commercial terms discussed in Call 3: 3-year term, $8,280/month for 4 brands, consolidated MSA. But contract hasn't been drafted or shared.", "solution": "Move from verbal commercial terms to actual contract.", "action": "Generate the contract based on agreed terms and send for review.", "due_date": "2026-03-08"},
+          {"id": "Q6", "text": "Has the contract been sent?", "score": "No", "notes": "Contract has not been sent. Commercial terms discussed verbally only.", "solution": "Send contract promptly.", "action": "Prepare and send the MSA/contract to Iztok once entity determination is confirmed.", "due_date": "2026-03-10"},
+          {"id": "Q7", "text": "Is there a target signature date?", "score": "No", "notes": "Original Feb 13 target passed. No new target date established. Salesforce close date March 31 appears to be internal target only.", "solution": "Get buyer commitment to a new signature date.", "action": "Propose a signature target date tied to N2 Q2 launch requirements.", "due_date": "2026-03-05"}
         ]
       },
       "identify_pain": {
         "questions": [
-          {"id": "IP1", "text": "What are their current pain points?", "score": "Yes", "notes": "Extensively documented: aging Remarkable ('slow to adapt') and Dolphin POS. Complex composable architecture creating operational burden. Security vulnerabilities. Fragmented hire/custom-made experience. Board directive to evaluate alternatives.", "solution": "N/A — well-understood.", "action": "N/A", "due_date": null},
-          {"id": "IP2", "text": "Have they tried to resolve before?", "score": "Yes", "notes": "Invested in Zitec (middleware) and OneStock (inventory) to address data silos. Previously evaluated Shopify but passed due to cost. Board directives now overriding cost objections.", "solution": "N/A — understood. Position Shopify as next logical step.", "action": "N/A", "due_date": null},
-          {"id": "IP3", "text": "How do pains affect business operations?", "score": "Yes", "notes": "Fragmented hire/custom-made experience across online and POS. Disparate customer management systems. Slow dev velocity on Remarkable. Security risk exposure. Operational complexity. International expansion blocked.", "solution": "N/A — well-documented.", "action": "Quantify operational impact for business case where possible.", "due_date": "2026-03-03"},
-          {"id": "IP4", "text": "Which teams are affected?", "score": "Partial", "notes": "IT/Engineering (Joe, Brett), E-commerce team (Head resistant to change), Retail/POS teams (aging Dolphin), Board/C-suite (strategic concern). No visibility into marketing, merchandising, or store operations impact.", "solution": "Broaden stakeholder understanding.", "action": "Maissa to ask Chris which teams beyond IT and e-commerce are most impacted.", "due_date": "2026-03-01"},
-          {"id": "IP5", "text": "How urgent is it to solve?", "score": "Partial", "notes": "Board has directed evaluation — meaningful urgency. POS replacement is CEO priority. Security adds urgency. But no 'burning platform' deadline. Merchant Intent still 'Uncommitted.'", "solution": "Help create urgency by quantifying risk of inaction.", "action": "Include cost-of-delay analysis in executive presentation.", "due_date": "2026-03-05"},
-          {"id": "IP6", "text": "Can they solve with another option?", "score": "Partial", "notes": "Could extend composable architecture. Other platforms could theoretically address needs. No other vendors currently being evaluated as far as we know.", "solution": "Understand if other platforms are being considered.", "action": "Maissa to ask Chris: 'Are you evaluating other platforms or is this Shopify vs. status quo?'", "due_date": "2026-02-28"},
-          {"id": "IP7", "text": "Why is solving this important now?", "score": "Partial", "notes": "Board directive and CEO/shareholder pressure driving timing. Security incidents raised urgency. International expansion needs better platform. No specific trigger event identified.", "solution": "Identify harder deadline behind board directive.", "action": "Probe for contract terms, budget cycles, expansion deadlines.", "due_date": "2026-03-01"},
-          {"id": "IP8", "text": "Is Shopify uniquely positioned to solve?", "score": "Partial", "notes": "Unified commerce (e-commerce + POS on one platform) is a strong differentiator. AI resonates. However, hire/custom-made and inventory costing are unproven on Shopify. Existing Zitec/OneStock investment narrows the value prop somewhat.", "solution": "Demonstrate capability for hire, custom-made, and inventory costing.", "action": "Sarah to ensure demo addresses hire, custom-made, and inventory costing with concrete solutions.", "due_date": "2026-02-25"}
+          {"id": "Q1", "text": "Is the pain clearly identified?", "score": "Yes", "notes": "Extensively documented: fragmented multi-platform tech stack, 4 FT Magento developers for 5 years, AOV drop in prior Shopify checkout test, complex COD requirements, Shopify license breach, ISP-level traffic blocking in Italy, high payment processing costs.", "solution": null, "action": null, "due_date": null},
+          {"id": "Q2", "text": "Have they tried to solve this before?", "score": "Yes", "notes": "They tested Shopify with Tummy Talks — checkout was unoptimized and caused significant AOV drop. They reverted/didn't proceed.", "solution": null, "action": null, "due_date": null},
+          {"id": "Q3", "text": "Does the pain affect the broader business?", "score": "Yes", "notes": "Pain affects operations through: high developer costs, slow time-to-market for new brands, inconsistent customer experiences, suboptimal checkout conversion, payment processing inefficiency.", "solution": null, "action": null, "due_date": null},
+          {"id": "Q4", "text": "Do we know who is affected?", "score": "Partial", "notes": "IT team (Boštjan, 4 Magento devs) and COO (Iztok) are clearly affected. Marketing, finance, and other team impacts not discussed.", "solution": "Understand broader organizational impact.", "action": "Ask about how the fragmented stack affects marketing, finance, and operations teams.", "due_date": "2026-03-12"},
+          {"id": "Q5", "text": "Is there urgency around the pain?", "score": "Partial", "notes": "Urgency around N2 Q2 launch target, but broader consolidation doesn't have a hard deadline. Iztok is motivated but not under visible external pressure.", "solution": "Connect the consolidation to a business urgency.", "action": "Ask Iztok if there's a board-level timeline or cost reduction target driving the consolidation.", "due_date": "2026-03-08"},
+          {"id": "Q6", "text": "Have alternatives been explored?", "score": "Partial", "notes": "Could stay on Magento (status quo). CommerceTools is in their stack but not discussed as a consolidation option. No other platforms mentioned.", "solution": "Understand if CommerceTools or any other platform is being considered.", "action": "Ask directly: 'Are you evaluating any other platform besides Shopify for this consolidation?'", "due_date": "2026-03-05"},
+          {"id": "Q7", "text": "Is the pain acute enough to drive action now?", "score": "Partial", "notes": "The 'now' is driven by N2 needing a platform and the consolidation opportunity. Not a hard external event.", "solution": "Strengthen the 'why now' with quantified cost of delay.", "action": "Help Iztok calculate: 'Every month you delay saves/costs $X in dev costs, payment fees, and launch velocity.'", "due_date": "2026-03-12"},
+          {"id": "Q8", "text": "Is Shopify uniquely positioned to solve the pain?", "score": "Partial", "notes": "Shopify's multi-brand MSA, checkout extensibility, and platform breadth position it well. But Tummy Talks AOV drop and COD complexity show this is conditional on proving the checkout can perform.", "solution": "Ensure the N2 POC addresses all critical checkout features.", "action": "Create a POC requirements checklist mapping each Magento feature to its Shopify solution.", "due_date": "2026-03-10"}
         ]
       },
       "champion": {
         "questions": [
-          {"id": "CH1", "text": "Have you identified a true champion?", "score": "Yes", "notes": "Chris Turberville-Tully is clearly the champion. Self-described 'Shopify advocate,' actively building business case for CEO, coordinating C-suite presentation, driving internal momentum. Has both motivation and influence.", "solution": "N/A — champion identified and active.", "action": "N/A", "due_date": null},
-          {"id": "CH2", "text": "Does champion have political capital?", "score": "Partial", "notes": "Chris appears brought in as digital consultant to drive transformation — has a mandate. Direct CEO/CFO access. But Head of E-commerce is resistant. As external consultant, political capital may be limited vs. permanent staff.", "solution": "Understand power dynamic between Chris and Head of E-commerce.", "action": "Maissa to ask Chris about Head of E-commerce's role in the decision and their relationship with CEO.", "due_date": "2026-02-28"},
-          {"id": "CH3", "text": "Has champion shared insider insights?", "score": "Yes", "notes": "Chris provided: company revenue (£160M), internal political dynamics (Head of E-commerce resistance), board risk-aversion, CEO/CFO priorities, implementation partner needs, and willingness to build business case jointly.", "solution": "N/A — Chris is sharing valuable insider information.", "action": "Continue nurturing this relationship.", "due_date": null},
-          {"id": "CH4", "text": "Is champion connected to decision-makers?", "score": "Yes", "notes": "Chris has direct access to CEO, CFO, and main shareholder. Actively coordinating C-suite presentation and securing dates.", "solution": "N/A — strong connection confirmed.", "action": "N/A", "due_date": null},
-          {"id": "CH5", "text": "Have you been introduced to decision-maker?", "score": "No", "notes": "No direct introduction to CEO, CFO, or shareholder yet. C-suite presentation (early March) will be first direct contact.", "solution": "Exec presentation is the introduction vehicle.", "action": "Maissa to prep strong executive presentation tailored to CEO/CFO priorities.", "due_date": "2026-03-05"},
-          {"id": "CH6", "text": "Will champion bring you into buying group?", "score": "Yes", "notes": "Chris is actively arranging C-suite presentation and committed to securing dates. Planning 1-1.5 hour executive session. Clearly willing to bring Shopify in front of the board.", "solution": "N/A — confirmed.", "action": "Ensure presentation is ready and Chris confirms the date.", "due_date": "2026-03-01"},
-          {"id": "CH7", "text": "What motivates the champion?", "score": "Partial", "notes": "Chris is a 'Shopify advocate' but specific personal motivation not fully clear. Likely: hired as digital consultant to modernize, successful migration enhances his credibility. May have prior Shopify experience.", "solution": "Understand Chris's personal stakes.", "action": "Maissa to explore (informally): what does a successful outcome look like for Chris personally?", "due_date": "2026-03-01"}
+          {"id": "Q1", "text": "Have we identified a Champion?", "score": "Partial", "notes": "Iztok Hvala (COO) shows strong champion characteristics — driving evaluation, deeply engaged, accepted timelines, articulated 'if N2 works, we migrate everything' vision. But ability to push internally is unvalidated.", "solution": "Test Iztok's champion qualities by asking him to take internal action.", "action": "Ask Iztok to share the mutual action plan with his leadership and confirm alignment.", "due_date": "2026-03-08"},
+          {"id": "Q2", "text": "Does the Champion have credibility and influence?", "score": "Partial", "notes": "As COO, Iztok presumably has significant credibility. He appears to make technology and vendor decisions. But we don't know his standing with the board or PE firm.", "solution": "Understand Iztok's internal political position.", "action": "Observe whether Iztok can deliver on commitments as a proxy for his organizational influence.", "due_date": "2026-03-15"},
+          {"id": "Q3", "text": "Has the Champion shared insider information?", "score": "Yes", "notes": "Iztok provided extensive insider knowledge: Tummy Talks test failure details, internal tech stack decisions, Adyen payment structure, brand standardization status, new Vayami acquisition, and the contract breach.", "solution": null, "action": null, "due_date": null},
+          {"id": "Q4", "text": "Is the Champion connected to the EB?", "score": "Partial", "notes": "Iztok is a COO and appears to be a key decision-maker himself. Joost Hunfeld (other COO) listed but hasn't been on calls. Authority structure above Iztok unclear.", "solution": "Determine the full authority structure.", "action": "Ask Iztok: 'Who else needs to say yes for this to move forward?'", "due_date": "2026-03-05"},
+          {"id": "Q5", "text": "Has the Champion introduced us to decision-makers?", "score": "No", "notes": "We have not been introduced to any decision-maker beyond Iztok and Boštjan. Joost Hunfeld has not been on calls.", "solution": "Request introduction to Joost and other decision-makers.", "action": "Ask Iztok: 'Should we include Joost Hunfeld or anyone else in our next discussion?'", "due_date": "2026-03-05"},
+          {"id": "Q6", "text": "Is the Champion selling internally on our behalf?", "score": "No", "notes": "No evidence of Iztok offering to bring Shopify into a board meeting or internal stakeholder discussion.", "solution": "Ask if there's a formal internal review where Shopify's involvement would help.", "action": "Offer to prepare materials Iztok could present internally, or join an internal stakeholder meeting.", "due_date": "2026-03-10"},
+          {"id": "Q7", "text": "Do we understand the Champion's personal motivation?", "score": "Partial", "notes": "Iztok appears motivated by: reducing tech stack complexity, proving a scalable platform for future acquisitions, optimizing payment costs, enabling faster brand launches. Personal career incentive likely aligns.", "solution": "Validate Iztok's personal motivation.", "action": "In a 1:1 moment, ask Iztok: 'What does a successful outcome here look like for you personally?'", "due_date": "2026-03-08"}
         ]
       },
       "competition": {
         "questions": [
-          {"id": "CO1", "text": "Have you identified all competitors?", "score": "No", "notes": "Salesforce Competitor field is null. No other vendors mentioned in any calls. Unclear if single-vendor evaluation or others are in parallel.", "solution": "Directly ask about competitive landscape.", "action": "Maissa to ask Chris: 'Is Shopify the only platform you're evaluating, or are there others?'", "due_date": "2026-02-28"},
-          {"id": "CO2", "text": "Is 'do nothing' a viable competitor?", "score": "No", "notes": "Not explicitly asked. Board directive suggests 'do nothing' is less likely, but Head of E-commerce resistance could result in status quo if business case isn't compelling enough.", "solution": "Explicitly explore this.", "action": "Maissa to ask Chris: 'What happens if the board decides not to move forward?'", "due_date": "2026-03-01"},
-          {"id": "CO3", "text": "Are there internal alternatives?", "score": "Partial", "notes": "Existing composable architecture could be extended/patched. Head of E-commerce may advocate for this. No explicit mention of building internal solution.", "solution": "Position Shopify as simplification play vs. continued composable complexity.", "action": "Ensure business case contrasts TCO of composable vs. consolidating on Shopify.", "due_date": "2026-03-05"},
-          {"id": "CO4", "text": "Why are alternatives being evaluated?", "score": "No", "notes": "Don't know if alternatives are being evaluated. Competitor landscape completely unclear.", "solution": "Probe the competitive landscape.", "action": "Same as CO1 — need to understand who else is in the picture.", "due_date": "2026-02-28"},
-          {"id": "CO5", "text": "Do we know why we would win or lose?", "score": "Partial", "notes": "Win: strong champion, unified commerce vision, AI, POS modernization, board mandate. Lose: complex hire/custom-made requirements, inventory costing gap, Head of E-commerce resistance, risk-averse board, Adyen transition risk, implementation timeline concerns, cost was previously a barrier.", "solution": "Address lose factors systematically before exec presentation.", "action": "Create internal deal risk register mapping each lose factor to mitigation plan.", "due_date": "2026-03-03"}
+          {"id": "Q1", "text": "Have we identified the competition?", "score": "No", "notes": "Salesforce Competitor field is null. No competitors mentioned in any calls. Evaluation appears to be Shopify vs. status quo (Magento).", "solution": "Directly ask if other platforms are being evaluated.", "action": "Ask Iztok: 'Beyond Shopify and staying on Magento, are you evaluating any other platforms?'", "due_date": "2026-03-05"},
+          {"id": "Q2", "text": "Is 'do nothing' a real option?", "score": "Partial", "notes": "Staying on Magento is implicitly an option — they have 4 developers and it works. The POC approach formalizes 'prove it before we commit.'", "solution": "Quantify the cost of status quo to make 'do nothing' less attractive.", "action": "Build a TCO comparison: current Magento multi-platform costs vs. consolidated Shopify costs over 3 years.", "due_date": "2026-03-12"},
+          {"id": "Q3", "text": "Have alternatives been ruled out?", "score": "Partial", "notes": "CommerceTools is already in their tech stack but was never discussed as a consolidation option.", "solution": "Understand if CommerceTools was considered and ruled out.", "action": "Ask: 'You have some brands on CommerceTools — was that considered as a consolidation platform?'", "due_date": "2026-03-05"},
+          {"id": "Q4", "text": "Do we understand the competitive landscape?", "score": "No", "notes": "No discussion of why specific alternatives are or aren't being evaluated.", "solution": "Understand the competitive landscape.", "action": "Ask Iztok what led them to focus on Shopify specifically for consolidation vs. other options.", "due_date": "2026-03-05"},
+          {"id": "Q5", "text": "Do we have a competitive advantage?", "score": "No", "notes": "Without knowing who the competition is, cannot assess win/loss drivers beyond Shopify vs. status quo. Key risk is checkout performance gap from Tummy Talks test.", "solution": "Identify competitive threats and differentiation. Focus on beating 'do nothing' by proving checkout parity.", "action": "Prepare competitive positioning for N2 POC.", "due_date": "2026-03-12"}
         ]
       }
     }
   },
   "calls": [
     {
-      "event_id": "0ud3f5jf07856e57b4rglvs8rj",
-      "title": "Brett / Alex",
-      "date": "2025-11-20",
-      "duration_minutes": 15,
+      "event_id": "40sir94athth8tpnr11f8gba0q",
+      "call_title": "Vision Healthcare - Shopify",
+      "date": "2025-12-11",
+      "duration_minutes": 45,
       "platform": "google_meet",
-      "shopify_attendees": ["alexandros.panagiotou@shopify.com"],
-      "merchant_attendees": ["brett@mossbros.co.uk"],
-      "ai_summary": null,
+      "shopify_attendees": ["Yasmine Fazeli", "Ben Homer"],
+      "merchant_attendees": ["Iztok Hvala", "Joost Hunfeld"],
+      "ai_summary": "This sales meeting focused on a potential multi-brand migration to Shopify. Shopify proposed a phased approach using a Master Service Agreement (MSA) for incremental licensing and preferential group pricing across Vision Healthcare's 16+ brands. Vision Healthcare expressed strong interest, targeting a Q2 launch for brand N2 as a proof-of-concept. They highlighted a previous test with Tummy Talks where an unoptimized Shopify checkout led to a significant AOV drop compared to their current Magento setup, particularly regarding custom Cash on Delivery features.",
       "has_transcript": true,
-      "transcript_lines": 2
+      "disposition": "Connected",
+      "sentiment": null,
+      "opportunity_id": "006OG00000J4JtxYAF"
     },
     {
-      "event_id": "51n5pvteuuho6uvvdqvq3lmr6t",
-      "title": "Moss Bros x Shopify",
-      "date": "2026-01-16",
-      "duration_minutes": 15,
+      "event_id": "3qpv2p1kiil4outmttmsv18j71",
+      "call_title": "Solutions on Shopify: Vision HealthCare",
+      "date": "2025-12-18",
+      "duration_minutes": 60,
       "platform": "google_meet",
-      "shopify_attendees": ["alexandros.panagiotou@shopify.com", "alex.stewart@shopify.com"],
-      "merchant_attendees": ["brett@mossbros.co.uk", "joe@mossbros.co.uk"],
-      "ai_summary": "Discovery call. Moss explained need to 'uncomplicate their world' and leverage AI within composable architecture (Zitec). Strategic board directives driving evaluation. Past Shopify cost concerns acknowledged. Key questions on weighted inventory costing and POS replacement. Follow-up with Chris Turberville-Tully and SE scheduled.",
+      "shopify_attendees": ["Yasmine Fazeli", "Ben Homer"],
+      "merchant_attendees": ["Iztok Hvala", "Boštjan Knez"],
+      "ai_summary": "This meeting focused on migrating and replicating the buyer's existing Magento checkout functionality onto Shopify Plus. The seller highlighted Shopify's native tools like Checkout Blocks, Flow, and Search & Discovery. The buyer presented critical Magento checkout features including subscription pop-ups, product bundles, conditional grey-listing for payment methods, additional services, and robust address validation. Key concerns included implementing conditional payment fees and complex address validation.",
       "has_transcript": true,
-      "transcript_lines": 521
+      "disposition": "Connected",
+      "sentiment": null,
+      "opportunity_id": "006OG00000J4JtxYAF"
     },
     {
-      "event_id": "4bgmtavbda0i8rr7eqkjuhlue1",
-      "title": "Shopify X Moss - Intro",
-      "date": "2026-01-28",
-      "duration_minutes": 40,
-      "platform": "google_meet",
-      "shopify_attendees": ["maissa.fatte@shopify.com"],
-      "merchant_attendees": ["christu@mossbros.co.uk"],
-      "ai_summary": "Intro call. Chris revealed Moss is £160M UK retailer needing to migrate from Remarkable to Shopify (e-commerce + POS) for international expansion and AI. Head of E-commerce is resistant. Chris is Shopify advocate championing to CEO and risk-averse board. Next: technical discovery with IT team, Chris to gather financial drivers from CFO for joint business case.",
-      "has_transcript": true,
-      "transcript_lines": 320
-    },
-    {
-      "event_id": "5sbmieit0v4oaq5siiqv1u6bpq",
-      "title": "Shopify X Moss - Technical Discovery",
-      "date": "2026-02-03",
-      "duration_minutes": 40,
-      "platform": "google_meet",
-      "shopify_attendees": ["maissa.fatte@shopify.com", "sarah.berelowitz@shopify.com"],
-      "merchant_attendees": ["christu@mossbros.co.uk", "brett@mossbros.co.uk", "joe@mossbros.co.uk"],
-      "ai_summary": "Technical discovery evaluating Shopify to replace Remarkable (e-commerce) and Dolphin (POS). Moss has composable architecture with ZITC addressing data silos. Primary concerns: handling 'hire' business (group bookings, deposits) and 'custom-made' models, plus Adyen payment transition. Next: assess complex requirements, address payment logistics, plan tailored demo.",
-      "has_transcript": true,
-      "transcript_lines": 561
-    },
-    {
-      "event_id": "763k6ipa8t8j3m248m9172pmjk",
-      "title": "Shopify X Moss (Follow-up)",
-      "date": "2026-02-05",
-      "duration_minutes": 20,
-      "platform": "google_meet",
-      "shopify_attendees": ["maissa.fatte@shopify.com"],
-      "merchant_attendees": ["christu@mossbros.co.uk"],
-      "ai_summary": "Follow-up on next steps. Chris satisfied with tech session. CEO/CFO priorities: replacing aging POS, security (past incidents), AI. Chris requested case studies and 2-3 implementation partners. Plan: 2-hour demo review with tech team week of Feb 23, then 1-1.5 hour exec presentation early March.",
-      "has_transcript": true,
-      "transcript_lines": 331
-    },
-    {
-      "event_id": "1t9na9d8e3fda0vh1r84roq2t1",
-      "title": "Shopify X Moss - Demo Prep",
-      "date": "2026-02-18",
+      "event_id": "4ogd7du5589j22ouqk2hekcscg",
+      "call_title": "Shopify Commercials - Call",
+      "date": "2026-01-19",
       "duration_minutes": 30,
       "platform": "google_meet",
-      "shopify_attendees": ["sarah.berelowitz@shopify.com", "maissa.fatte@shopify.com"],
-      "merchant_attendees": ["brett@mossbros.co.uk", "christu@mossbros.co.uk", "joe@mossbros.co.uk"],
-      "ai_summary": "Demo prep session. Joe clarified Zitec/OneStock already handle unified data/inventory. Key interest: consolidating customer management and streamlining custom-made/outfit builder across channels. Challenges flagged: split payment logic, average inventory costing. Critical next step: realistic implementation timeline. Sarah to investigate 'Black Tux' custom solution.",
+      "shopify_attendees": ["Yasmine Fazeli"],
+      "merchant_attendees": ["Iztok Hvala", "Boštjan Knez"],
+      "ai_summary": "This meeting centered on consolidating the buyers' four brands (Vita Yummy, New Pure, Alpha Foods, N2) into a single three-year multi-brand agreement. The seller offered a discounted monthly rate of $8,280, a $1,000 saving from the usual $9,200, contingent on contract signing by February 13th. Buyers accepted this timeline but require internal coordination to choose the main billing entity and clarify current fees versus the proposed consolidated structure. They expressed keen interest in exploring Shopify Payments to reduce transaction fees.",
       "has_transcript": true,
-      "transcript_lines": 315
+      "disposition": "Connected",
+      "sentiment": null,
+      "opportunity_id": "006OG00000J4JtxYAF"
     }
   ]
 }
