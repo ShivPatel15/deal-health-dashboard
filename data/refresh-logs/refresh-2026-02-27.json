@@ -1,0 +1,118 @@
+{
+  "date": "2026-02-27",
+  "started": "2026-02-27T08:05:23.226Z",
+  "finished": "2026-02-27T08:15:36.012Z",
+  "totalOpportunities": 17,
+  "processed": 17,
+  "results": {
+    "006OG00000EZIy6YAH": {
+      "accountName": "Whittard of Chelsea",
+      "status": "no-change",
+      "details": "No SF diffs, no new calls",
+      "timestamp": "2026-02-27T08:05:23.226Z"
+    },
+    "006OG00000JUPVtYAP": {
+      "accountName": "Mint Velvet",
+      "status": "no-change",
+      "details": "No SF diffs, no new calls",
+      "timestamp": "2026-02-27T08:05:30.212Z"
+    },
+    "006OG00000Dh2YXYAZ": {
+      "accountName": "Bugaboo International B.V",
+      "status": "no-change",
+      "details": "No SF diffs, no new calls",
+      "timestamp": "2026-02-27T08:05:30.265Z"
+    },
+    "006OG00000KW83lYAD": {
+      "accountName": "C.P. Hart & Sons Limited",
+      "status": "no-change",
+      "details": "No SF diffs, no new calls",
+      "timestamp": "2026-02-27T08:05:30.316Z"
+    },
+    "006OG00000JMQ91YAH": {
+      "accountName": "TRINNY LONDON",
+      "status": "no-change",
+      "details": "No SF diffs, no new calls",
+      "timestamp": "2026-02-27T08:05:30.366Z"
+    },
+    "006OG00000CRabaYAD": {
+      "accountName": "Mulberry Company (Sales) Limited",
+      "status": "sf-only",
+      "details": "CLOSED WON! Stage: Demonstrate→Closed Won, Prob: 60→100, Close: 2026-02-27",
+      "timestamp": "2026-02-27T08:06:27.470Z"
+    },
+    "0068V0000113rSIQAY": {
+      "accountName": "Moda in Pelle",
+      "status": "sf-only",
+      "details": "Minor nextStep formatting diff",
+      "timestamp": "2026-02-27T08:06:27.523Z"
+    },
+    "006OG00000GJ5IvYAL": {
+      "accountName": "The Dune Group",
+      "status": "sf-only",
+      "details": "Minor nextStep formatting diff",
+      "timestamp": "2026-02-27T08:06:27.572Z"
+    },
+    "006OG00000HnVs8YAF": {
+      "accountName": "Wacoal Europe",
+      "status": "sf-only",
+      "details": "NextStep date prefix updated 13/02→20/02",
+      "timestamp": "2026-02-27T08:06:27.620Z"
+    },
+    "006OG00000HtxKFYAZ": {
+      "accountName": "Sofa.Com Ltd",
+      "status": "sf-only",
+      "details": "NextStep date prefix updated 13/02→20/02",
+      "timestamp": "2026-02-27T08:06:27.666Z"
+    },
+    "0068V0000113peWQAQ": {
+      "accountName": "ESSENTIEL Antwerp",
+      "status": "sf-only",
+      "details": "Minor nextStep typo diff",
+      "timestamp": "2026-02-27T08:06:27.715Z"
+    },
+    "006OG00000FHHAHYA5": {
+      "accountName": "OLIVER BONAS LIMITED",
+      "status": "sf-only",
+      "details": "NextStep date prefix updated 19.02→24.02",
+      "timestamp": "2026-02-27T08:06:27.763Z"
+    },
+    "006OG00000Fbj8nYAB": {
+      "accountName": "Cycle King & Hawk",
+      "status": "sf-only",
+      "details": "Competitor cleared: Citrus Lime→null",
+      "timestamp": "2026-02-27T08:06:27.810Z"
+    },
+    "006OG00000FYX8zYAH": {
+      "accountName": "Hawes & Curtis Limited",
+      "status": "sf-only",
+      "details": "NextStep date prefix updated 13/02→20/02",
+      "timestamp": "2026-02-27T08:06:27.858Z"
+    },
+    "006OG00000KOC4YYAX": {
+      "accountName": "Moss Bros. Group Ltd",
+      "status": "sf-only",
+      "details": "NextStep populated: technical discovery + deal champion intro",
+      "timestamp": "2026-02-27T08:06:27.904Z"
+    },
+    "006OG00000J4JtxYAF": {
+      "accountName": "Vision Healthcare",
+      "status": "sf-only",
+      "details": "NextStep populated: Adyen rate comparison + intro scheduling",
+      "timestamp": "2026-02-27T08:06:27.952Z"
+    },
+    "006OG00000G28JdYAJ": {
+      "accountName": "Direct Wines Limited",
+      "status": "new-calls",
+      "details": "2 new calls (2/24). Score: 36→43.5/54 (+7.5). Business case review with Octavia (Finance). 8 new actions, 6 deal risks, 8 MAP items added.",
+      "timestamp": "2026-02-27T08:15:20.660Z"
+    }
+  },
+  "summary": {
+    "noChange": 5,
+    "sfOnly": 11,
+    "newCalls": 1,
+    "errors": 0,
+    "skipped": 0
+  }
+}

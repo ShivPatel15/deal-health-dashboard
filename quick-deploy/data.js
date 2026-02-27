@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-26T17:56:39.788Z",
+  "generatedAt": "2026-02-27T08:15:54.797Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -1144,6 +1144,23 @@ const DEAL_DATA = {
             "Decision Process: improved (3.5 → 4)",
             "Paper Process: improved (3 → 3.5)"
           ]
+        },
+        {
+          "date": "2026-02-27",
+          "totalScore": 32.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 4,
+            "Decision Criteria": 3.5,
+            "Paper Process": 3.5,
+            "Identify Pain": 6.5,
+            "Champion": 3.5,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -1438,7 +1455,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-26",
+          "date": "2026-02-27",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -2518,6 +2535,23 @@ const DEAL_DATA = {
             "Score declined by 0.5 points",
             "Decision Process: declined (5 → 4.5)"
           ]
+        },
+        {
+          "date": "2026-02-27",
+          "totalScore": 36,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 6,
+            "Economic Buyer": 4,
+            "Decision Process": 4.5,
+            "Decision Criteria": 4,
+            "Paper Process": 1,
+            "Identify Pain": 7,
+            "Champion": 6.5,
+            "Competition": 3
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -2813,7 +2847,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-26",
+          "date": "2026-02-27",
           "sections": {
             "Metrics": {
               "score": 6,
@@ -4017,6 +4051,23 @@ const DEAL_DATA = {
             "Competition": 4
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-27",
+          "totalScore": 37.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 4.5,
+            "Decision Criteria": 5,
+            "Paper Process": 4,
+            "Identify Pain": 6,
+            "Champion": 5.5,
+            "Competition": 4
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -4321,7 +4372,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-26",
+          "date": "2026-02-27",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -5575,6 +5626,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-27",
+          "totalScore": 34.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 4.5,
+            "Identify Pain": 6.5,
+            "Champion": 4,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -5810,7 +5878,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-26",
+          "date": "2026-02-27",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -6913,6 +6981,23 @@ const DEAL_DATA = {
             "Score improved by 1 points",
             "Competition: improved (3 → 4)"
           ]
+        },
+        {
+          "date": "2026-02-27",
+          "totalScore": 44,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 4,
+            "Decision Process": 7,
+            "Decision Criteria": 5,
+            "Paper Process": 6,
+            "Identify Pain": 7,
+            "Champion": 5.5,
+            "Competition": 4
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -7217,7 +7302,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-26",
+          "date": "2026-02-27",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -8355,6 +8440,23 @@ const DEAL_DATA = {
             "Competition": 3.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-27",
+          "totalScore": 29,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 4.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 3.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 3,
+            "Identify Pain": 4,
+            "Champion": 4.5,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -8609,7 +8711,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-26",
+          "date": "2026-02-27",
           "sections": {
             "Metrics": {
               "score": 4.5,
@@ -9804,6 +9906,23 @@ const DEAL_DATA = {
             "Competition": 2
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-27",
+          "totalScore": 31,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 4.5,
+            "Decision Process": 4.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 6,
+            "Champion": 4.5,
+            "Competition": 2
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -10102,7 +10221,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-26",
+          "date": "2026-02-27",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -11286,6 +11405,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-27",
+          "totalScore": 32,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 3,
+            "Decision Process": 4,
+            "Decision Criteria": 4.5,
+            "Paper Process": 1,
+            "Identify Pain": 6.5,
+            "Champion": 5.5,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -11530,7 +11666,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-26",
+          "date": "2026-02-27",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -12777,6 +12913,23 @@ const DEAL_DATA = {
             "Score improved by 0.5 points",
             "Competition: improved (2.5 → 3)"
           ]
+        },
+        {
+          "date": "2026-02-27",
+          "totalScore": 29,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 4,
+            "Decision Criteria": 3.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 5.5,
+            "Champion": 4,
+            "Competition": 3
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -13037,7 +13190,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-26",
+          "date": "2026-02-27",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -14229,6 +14382,23 @@ const DEAL_DATA = {
             "Competition": 0
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-27",
+          "totalScore": 22,
+          "totalMax": 54,
+          "status": "at-risk",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 2,
+            "Decision Process": 4,
+            "Decision Criteria": 2.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 5,
+            "Champion": 3,
+            "Competition": 0
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -14468,7 +14638,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-26",
+          "date": "2026-02-27",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -14528,7 +14698,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2025-08-06",
-      "lastAnalysisDate": "2026-02-25",
+      "lastAnalysisDate": "2026-02-27",
       "revenue": {
         "mcv": 0,
         "totalRev3yr": 10909191,
@@ -14552,11 +14722,11 @@ const DEAL_DATA = {
       "compellingEvent": "New CEO has challenged Leadership team in UK to become customer obsessed - D2C experience outlined as below required level. ATG support EOL. Now is Discovery with Fuse Fabric",
       "nextStep": "18/02 BR Discovery with Fuse ending next week. Board / sign off meeting for 24/03. Still awaiting feedback on Plus vs Ent before we can finalise commercials",
       "narrative": {
-        "oppSummary": "Direct Wines Limited is a $4.58M new business opportunity ($13.76M 3-year revenue, $7.94M IPP) to migrate their global wine e-commerce operation (15-17 brands across UK, US, AU/NZ, $162M D2C GMV, $8M Retail GMV, $210.6M Payments GPV) from a legacy ATG/commercetools tech stack to Shopify Enterprise with Payments, POS, and Recharge subscriptions. The deal is in Demonstrate stage at 60% probability with a March 31, 2026 close date, a board sign-off meeting targeted for March 24, and Fusefabric (SI partner) discovery wrapping up mid-February. Commercetools is the primary competitor, but Shopify holds a strong position bolstered by BrewDog references and Recharge alignment, though payment rate competitiveness and Enterprise vs Plus pricing remain key commercial hurdles.",
-        "whyChange": "Direct Wines is trapped in a legacy technology stack that is actively harming their business. Their ATG platform is approaching end-of-life for support, and their migration to commercetools has been slow, expensive, and fraught with integration challenges. Nicole Romito stated: 'We are not on the right tech stack for customer expectations in our market,' and 'Right now, if we want to migrate to a new customer service tool, it's a two-year project of a custom build.' The company is spending over $6M/year on outsourced development, their Contentful CMS is described as expensive and restrictive, and custom builds take 8-12 months. The new global CEO has challenged UK leadership to become 'customer obsessed,' but the current D2C experience is below the required level. Subscriptions represent approximately 50-60% of revenue, making subscription commerce capability a non-negotiable requirement.",
-        "whyShopify": "Direct Wines sees Shopify as a path to dramatically reduce tech complexity and cost while improving customer experience and time-to-market. Andy Brooks (Director of Ecommerce) was highly impressed by the platform demo: 'I think it's incredible. I think it's an amazing product.' The US team (Nicole Romito, Elyse Barton) is extremely pro-Shopify. Key advantages include: consolidated tech stack replacing ATG/commercetools/Contentful, dramatically faster store builds ($75K-$180K vs 8-12 month custom builds), variabilized technology costs vs heavy capex, Shopify Audiences for customer acquisition (CEO's #1 concern), Shop Pay conversion uplift and fraud tools, and a proven migration path with Recharge for their critical 50-60% subscription business.",
-        "whyNow": "Multiple converging urgency drivers: ATG support reaching end-of-life, new CEO mandate for customer obsession, D2C experience below required standard, $6M+/year ongoing development costs creating continuous financial pressure, and board sign-off meeting targeted for March 24, 2026. Fusefabric's SI discovery is wrapping up the week of February 17. Martyn Oakley (CIO): 'If the rates are going to blow our heads off and we can take cost out and sell more wine, we will go fast.'",
-        "supportNeeded": "1) Competitive payment rate modeling - Tim Curtis identified a 'sizeable gap' between current UK rates and Shopify's proposed rates. Need DW's unredacted December UK payment statement. 2) Enterprise vs Plus pricing clarity - Neil Rhodes indicated Plus being cheaper might 'push them over the edge.' 3) Token migration confidence across 15-17 brands and multiple PSPs. 4) Board-ready business case / complete TCO comparison. 5) Fusefabric discovery alignment and implementation timeline confidence. 6) Peer references and case studies (BrewDog)."
+        "oppSummary": "Direct Wines Limited is a $4.58M new business opportunity ($13.76M 3-year revenue, $7.94M IPP) to migrate their global wine e-commerce operation (15-17 brands across UK, US, AU/NZ, $162M D2C GMV, $8M Retail GMV, $210.6M Payments GPV) from a legacy ATG/commercetools tech stack to Shopify Enterprise with Payments, POS, and Recharge subscriptions. The deal is in Demonstrate stage at 60% probability with a March 31, 2026 close date, a board sign-off meeting targeted for March 24, and Fusefabric (SI partner) discovery wrapping up mid-February. Commercetools is the primary competitor, but Shopify holds a strong position bolstered by BrewDog references and Recharge alignment, though payment rate competitiveness and Enterprise vs Plus pricing remain key commercial hurdles.\n\n**Update 2026-02-27:** Deal at critical financial inflection. Octavia Neuberger (Finance) building business case showing ~£4M additional ongoing costs. Cannot reach net-neutral — board pitch must hinge on transformation value. Board decision March 24. Ben pushing for best-and-final enterprise pricing for 17 brands. Fuse Fabric discovery raising complexity concerns.",
+        "whyChange": "Direct Wines is trapped in a legacy technology stack that is actively harming their business. Their ATG platform is approaching end-of-life for support, and their migration to commercetools has been slow, expensive, and fraught with integration challenges. Nicole Romito stated: 'We are not on the right tech stack for customer expectations in our market,' and 'Right now, if we want to migrate to a new customer service tool, it's a two-year project of a custom build.' The company is spending over $6M/year on outsourced development, their Contentful CMS is described as expensive and restrictive, and custom builds take 8-12 months. The new global CEO has challenged UK leadership to become 'customer obsessed,' but the current D2C experience is below the required level. Subscriptions represent approximately 50-60% of revenue, making subscription commerce capability a non-negotiable requirement.\n\n**Update 2026-02-27:** Octavia confirmed multi-brand complexity as core driver. Wine industry headwinds adding commercial pressure. Pull factors widely recognized internally. Tech resourcing model constrained.",
+        "whyShopify": "Direct Wines sees Shopify as a path to dramatically reduce tech complexity and cost while improving customer experience and time-to-market. Andy Brooks (Director of Ecommerce) was highly impressed by the platform demo: 'I think it's incredible. I think it's an amazing product.' The US team (Nicole Romito, Elyse Barton) is extremely pro-Shopify. Key advantages include: consolidated tech stack replacing ATG/commercetools/Contentful, dramatically faster store builds ($75K-$180K vs 8-12 month custom builds), variabilized technology costs vs heavy capex, Shopify Audiences for customer acquisition (CEO's #1 concern), Shop Pay conversion uplift and fraud tools, and a proven migration path with Recharge for their critical 50-60% subscription business.\n\n**Update 2026-02-27:** Shop Pay strong pull factor (60% users signed up). Brand management architecture positioned as superior. US transaction fees beneficial. However UK 25p fee and brand fee structure are significant cost challenges.",
+        "whyNow": "Multiple converging urgency drivers: ATG support reaching end-of-life, new CEO mandate for customer obsession, D2C experience below required standard, $6M+/year ongoing development costs creating continuous financial pressure, and board sign-off meeting targeted for March 24, 2026. Fusefabric's SI discovery is wrapping up the week of February 17. Martyn Oakley (CIO): 'If the rates are going to blow our heads off and we can take cost out and sell more wine, we will go fast.'\n\n**Update 2026-02-27:** Board meeting March 24 confirmed as vendor decision gate. Indication expected before then. Window to influence financial model closing within days.",
+        "supportNeeded": "1) Competitive payment rate modeling - Tim Curtis identified a 'sizeable gap' between current UK rates and Shopify's proposed rates. Need DW's unredacted December UK payment statement. 2) Enterprise vs Plus pricing clarity - Neil Rhodes indicated Plus being cheaper might 'push them over the edge.' 3) Token migration confidence across 15-17 brands and multiple PSPs. 4) Board-ready business case / complete TCO comparison. 5) Fusefabric discovery alignment and implementation timeline confidence. 6) Peer references and case studies (BrewDog).\n\n**Update 2026-02-27:** URGENT: (1) Best-and-final enterprise pricing for 17 brands, (2) UK 25p per-transaction fee mitigation, (3) Variable platform fee (0.35%) negotiation clarity, (4) Brand consolidation strategy, (5) Ordergroove POC acceleration, (6) Tim Curtis tokenization data processing."
       },
       "meddpicc": {
         "metrics": {
@@ -14575,7 +14745,7 @@ const DEAL_DATA = {
             {
               "q": "Do we have specific quantifiable goals aligned with the project?",
               "answer": "Partial",
-              "score": 0.5,
+              "score": 1,
               "notes": "Some quantification ($6M+ dev spend reduction, conversion improvement implied) but no specific numeric targets validated with customer.",
               "solution": "Work with Andy Brooks and Neil Rhodes to define specific success metrics.",
               "action": "Ben Rees to propose a success metrics framework and validate before board meeting.",
@@ -14595,7 +14765,7 @@ const DEAL_DATA = {
             {
               "q": "Do we understand the impact if this goal isn't achieved?",
               "answer": "Partial",
-              "score": 0.5,
+              "score": 1,
               "notes": "Implied impacts clear ($6M+ annual tech spend, poor D2C experience) but specific quantified downside not explicitly stated by customer.",
               "solution": "Help DW quantify cost of inaction using industry benchmarks.",
               "action": "Beatrice Porcescu to prepare 'cost of inaction' analysis.",
@@ -14615,7 +14785,7 @@ const DEAL_DATA = {
             {
               "q": "Have I validated the metrics with the customer?",
               "answer": "Partial",
-              "score": 0.5,
+              "score": 1,
               "notes": "Business reasons discussed extensively but specific quantified success metrics not formally agreed upon.",
               "solution": "Formalize metrics validation in pre-board meeting.",
               "action": "Ben Rees to schedule metrics validation call once Fusefabric discovery completes.",
@@ -14705,7 +14875,7 @@ const DEAL_DATA = {
             {
               "q": "Do we know how they will be making the decision?",
               "answer": "Partial",
-              "score": 0.5,
+              "score": 1,
               "notes": "Board sign-off March 24. Post-board procurement/legal/sign-off not fully mapped.",
               "solution": "Map full decision journey from board to contract.",
               "action": "Ben Rees to discuss post-board process with Neil Rhodes.",
@@ -14780,7 +14950,7 @@ const DEAL_DATA = {
             {
               "q": "Do we know what criteria the customer is using to evaluate vendors?",
               "answer": "Partial",
-              "score": 0.5,
+              "score": 1,
               "notes": "Key criteria surfaced (TCO, payment rates, subscription capability, time-to-market) but no formal evaluation framework.",
               "solution": "Propose formal evaluation criteria matrix.",
               "action": "Ben Rees to share evaluation criteria framework with Andy Brooks.",
@@ -14960,7 +15130,7 @@ const DEAL_DATA = {
             {
               "q": "Do we know what teams are affected and to what extent?",
               "answer": "Partial",
-              "score": 0.5,
+              "score": 1,
               "notes": "Ecommerce, US team, Finance, IT affected. Impact on customer service, marketing, supply chain not detailed.",
               "solution": "Explore wider organizational impact.",
               "action": "Ben Rees to ask Andy Brooks about cross-functional impact.",
@@ -15142,9 +15312,9 @@ const DEAL_DATA = {
       },
       "scores": {
         "Metrics": {
-          "score": 5,
+          "score": 6.5,
           "max": 7,
-          "pct": 71
+          "pct": 93
         },
         "Economic Buyer": {
           "score": 5,
@@ -15152,14 +15322,14 @@ const DEAL_DATA = {
           "pct": 83
         },
         "Decision Process": {
-          "score": 5.5,
+          "score": 6,
           "max": 7,
-          "pct": 79
+          "pct": 86
         },
         "Decision Criteria": {
-          "score": 4.5,
+          "score": 5,
           "max": 7,
-          "pct": 64
+          "pct": 71
         },
         "Paper Process": {
           "score": 2,
@@ -15167,9 +15337,9 @@ const DEAL_DATA = {
           "pct": 29
         },
         "Identify Pain": {
-          "score": 7.5,
+          "score": 8,
           "max": 8,
-          "pct": 94
+          "pct": 100
         },
         "Champion": {
           "score": 6,
@@ -15182,9 +15352,9 @@ const DEAL_DATA = {
           "pct": 100
         },
         "_total": {
-          "score": 40.5,
+          "score": 43.5,
           "max": 54,
-          "pct": 75,
+          "pct": 81,
           "status": "good-health"
         }
       },
@@ -15430,6 +15600,58 @@ const DEAL_DATA = {
         }
       ],
       "calls": [
+        {
+          "date": "2026-02-24",
+          "title": "DW Feature Review",
+          "duration": 40,
+          "platform": "google_meet",
+          "hasTranscript": false,
+          "shopifyAttendees": [
+            "beatrice.porcescu@shopify.com",
+            "ben.rees@shopify.com"
+          ],
+          "merchantAttendees": [
+            "pj@fusefabric.com",
+            "andy.brooks@directwines.com",
+            "martyn.oakley@directwines.com",
+            "matt.knight@laithwaiteswine.com",
+            "deepta.nair@fusefabric.com",
+            "govinder.rayt@fusefabric.com",
+            "michael.sheehy@fusefabric.com",
+            "neil.rhodes@directwinesinc.com",
+            "richard.prankerd@fusefabric.com",
+            "simon@fusefabric.com"
+          ],
+          "summary": "Feature review session with Direct Wines team and Fusefabric implementation partner.",
+          "keyInsights": [
+            "Large cross-functional meeting with Fuse Fabric",
+            "Feature review covering multi-brand implementation requirements"
+          ]
+        },
+        {
+          "date": "2026-02-24",
+          "title": "Direct Wines | Shopify UK: Business Case Review",
+          "duration": 30,
+          "platform": "google_meet",
+          "hasTranscript": true,
+          "shopifyAttendees": [
+            "ben.rees@shopify.com"
+          ],
+          "merchantAttendees": [
+            "octavia.neuberger@directwines.com",
+            "tim.curtis@directwines.com"
+          ],
+          "summary": "Ben reviewed business case with Octavia (Finance). ~£4M additional ongoing costs identified. Business case NOT net-neutral. Brand fees for 15 brands ~$1.2M/yr. UK 25p per-transaction fee called the killer. Board decision March 24. Best-and-final enterprise pricing requested.",
+          "keyInsights": [
+            "Business case ~£4M additional costs, not net-neutral",
+            "Brand fees 15 brands = ~$1.2M/yr",
+            "UK 25p fee is the killer",
+            "Shop Pay: 60% users already signed up",
+            "Board decision March 24",
+            "Recharge/Ordergroove $750-800K, $300K savings opportunity",
+            "Commercetools actively being compared"
+          ]
+        },
         {
           "date": "2026-02-13",
           "title": "Fusefabric <> Direct Wines - Shopify Demo",
@@ -15768,33 +15990,61 @@ const DEAL_DATA = {
             "Competition": 5
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-27",
+          "totalScore": 43.5,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 6.5,
+            "Economic Buyer": 5,
+            "Decision Process": 6,
+            "Decision Criteria": 5,
+            "Paper Process": 2,
+            "Identify Pain": 8,
+            "Champion": 6,
+            "Competition": 5
+          },
+          "changes": [
+            "Score improved by 3 points",
+            "Metrics: improved (5 → 6.5)",
+            "Decision Process: improved (5.5 → 6)",
+            "Decision Criteria: improved (4.5 → 5)",
+            "Identify Pain: improved (7.5 → 8)"
+          ]
         }
       ],
       "dealRisks": [
         {
-          "risk": "COMMERCIAL RISK: PBR dropped 43% ($6.66M → $3.81M). MCV zeroed from $4.58M to $0. Deal appears significantly restructured.",
+          "risk": "Business case NOT net-neutral. ~£4M additional ongoing costs. Board must accept transformation investment narrative.",
+          "severity": "critical",
+          "mitigation": "Optimize pricing aggressively + arm champions with ROI data."
+        },
+        {
+          "risk": "UK 25p per-transaction fee is the killer. Fundamentally different from Barclaycard.",
+          "severity": "critical",
+          "mitigation": "Explore enterprise payment structures or alternative fee models."
+        },
+        {
+          "risk": "Fuse Fabric raising complexity/cost concerns. Business case using worst-case assumptions.",
           "severity": "high",
-          "category": "commercial"
+          "mitigation": "Engage Fuse directly on realistic implementation assumptions."
         },
         {
-          "risk": "TIMELINE RISK: Only 7 calendar days between board meeting (Mar 24) and close date (Mar 31). No buffer for legal/procurement.",
+          "risk": "Brand fee structure: 15 brands = ~$1.2M+/yr.",
+          "severity": "critical",
+          "mitigation": "Aggressive enterprise pricing + brand consolidation strategy."
+        },
+        {
+          "risk": "Transition costs unknown. Fuse has too many question marks.",
           "severity": "high",
-          "category": "timeline"
+          "mitigation": "Push for Fuse range estimate. Consider migration credits."
         },
         {
-          "risk": "DECISION CRITERIA RISK: Plus vs Enterprise still pending. Blocks commercial finalization. Must resolve BEFORE board meeting.",
+          "risk": "Commercetools viable alternative, actively being modeled.",
           "severity": "high",
-          "category": "commercial"
-        },
-        {
-          "risk": "PARTNER DEPENDENCY: Fusefabric still in discovery. If discovery extends beyond ~Mar 6, it compresses board prep time.",
-          "severity": "medium",
-          "category": "execution"
-        },
-        {
-          "risk": "POSITIVE SIGNAL: Stage advanced to Deal Craft (80% prob). Board date confirmed Mar 24. Momentum is real.",
-          "severity": "low",
-          "category": "timeline"
+          "mitigation": "Position total value vs. CT build-and-maintain model."
         }
       ],
       "dealUndercurrent": {
@@ -16019,6 +16269,70 @@ const DEAL_DATA = {
             "ownerMerchant": "",
             "ownerShopify": "",
             "notes": ""
+          },
+          {
+            "date": "2026-03-05",
+            "done": false,
+            "milestone": "Octavia finalizes financial model with best-and-final pricing",
+            "ownerMerchant": "Octavia Neuberger",
+            "ownerShopify": "Ben Rees",
+            "notes": "From 2/24 call"
+          },
+          {
+            "date": "2026-02-28",
+            "done": false,
+            "milestone": "Tim Curtis delivers UK/US tokenization data",
+            "ownerMerchant": "Tim Curtis",
+            "ownerShopify": "Payments",
+            "notes": "From 2/24 call"
+          },
+          {
+            "date": "2026-03-03",
+            "done": false,
+            "milestone": "Shopify delivers best-and-final enterprise pricing for 17 brands",
+            "ownerMerchant": "",
+            "ownerShopify": "Ben Rees / Contracts",
+            "notes": "From 2/24 call - URGENT"
+          },
+          {
+            "date": "2026-03-07",
+            "done": false,
+            "milestone": "Fuse Fabric discovery concludes with implementation estimate",
+            "ownerMerchant": "Fuse Fabric",
+            "ownerShopify": "Ben Rees",
+            "notes": "Discovery raising complexity concerns"
+          },
+          {
+            "date": "2026-03-10",
+            "done": false,
+            "milestone": "Ordergroove POC completed with subscription cost comparison",
+            "ownerMerchant": "DW",
+            "ownerShopify": "SE team",
+            "notes": "$300K savings opportunity vs Recharge"
+          },
+          {
+            "date": "2026-03-17",
+            "done": false,
+            "milestone": "Internal recommendation finalized (pre-board)",
+            "ownerMerchant": "DW leadership",
+            "ownerShopify": "",
+            "notes": ""
+          },
+          {
+            "date": "2026-03-24",
+            "done": false,
+            "milestone": "Board meeting — vendor decision",
+            "ownerMerchant": "DW Board",
+            "ownerShopify": "",
+            "notes": "Key decision gate"
+          },
+          {
+            "date": "2026-03-10",
+            "done": false,
+            "milestone": "Brand consolidation strategy agreed",
+            "ownerMerchant": "DW + Fuse",
+            "ownerShopify": "Ben Rees + SE",
+            "notes": "Which brands transactional vs non-transactional"
           }
         ]
       },
@@ -16069,12 +16383,12 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-26",
+          "date": "2026-02-27",
           "sections": {
             "Metrics": {
-              "score": 5,
+              "score": 6.5,
               "max": 7,
-              "pct": 71
+              "pct": 93
             },
             "Economic Buyer": {
               "score": 5,
@@ -16082,14 +16396,14 @@ const DEAL_DATA = {
               "pct": 83
             },
             "Decision Process": {
-              "score": 5.5,
+              "score": 6,
               "max": 7,
-              "pct": 79
+              "pct": 86
             },
             "Decision Criteria": {
-              "score": 4.5,
+              "score": 5,
               "max": 7,
-              "pct": 64
+              "pct": 71
             },
             "Paper Process": {
               "score": 2,
@@ -16097,9 +16411,9 @@ const DEAL_DATA = {
               "pct": 29
             },
             "Identify Pain": {
-              "score": 7.5,
+              "score": 8,
               "max": 8,
-              "pct": 94
+              "pct": 100
             },
             "Champion": {
               "score": 6,
@@ -17170,6 +17484,23 @@ const DEAL_DATA = {
             "Score declined by 0.5 points",
             "Decision Process: declined (6 → 5.5)"
           ]
+        },
+        {
+          "date": "2026-02-27",
+          "totalScore": 41,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 5,
+            "Decision Process": 5.5,
+            "Decision Criteria": 4.5,
+            "Paper Process": 4,
+            "Identify Pain": 7.5,
+            "Champion": 6.5,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -17432,7 +17763,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-26",
+          "date": "2026-02-27",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -18599,6 +18930,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-27",
+          "totalScore": 28.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 3,
+            "Economic Buyer": 3.5,
+            "Decision Process": 4.5,
+            "Decision Criteria": 3,
+            "Paper Process": 1.5,
+            "Identify Pain": 5.5,
+            "Champion": 5,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -18696,7 +19044,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-02-26",
+          "date": "2026-02-27",
           "sections": {
             "Metrics": {
               "score": 3,
@@ -19898,6 +20246,23 @@ const DEAL_DATA = {
             "Metrics: improved (4.5 → 5)",
             "Paper Process: improved (2 → 2.5)"
           ]
+        },
+        {
+          "date": "2026-02-27",
+          "totalScore": 28,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 2,
+            "Decision Process": 4.5,
+            "Decision Criteria": 2,
+            "Paper Process": 2.5,
+            "Identify Pain": 6,
+            "Champion": 4.5,
+            "Competition": 1.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -20072,7 +20437,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-02-26",
+          "date": "2026-02-27",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -21302,6 +21667,23 @@ const DEAL_DATA = {
             "Competition": 2
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-27",
+          "totalScore": 30.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 6,
+            "Economic Buyer": 2,
+            "Decision Process": 5,
+            "Decision Criteria": 4,
+            "Paper Process": 1,
+            "Identify Pain": 6.5,
+            "Champion": 4,
+            "Competition": 2
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -21419,7 +21801,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-02-26",
+          "date": "2026-02-27",
           "sections": {
             "Metrics": {
               "score": 6,
@@ -22577,6 +22959,23 @@ const DEAL_DATA = {
             "Competition": 1
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-27",
+          "totalScore": 25,
+          "totalMax": 54,
+          "status": "at-risk",
+          "sectionScores": {
+            "Metrics": 4,
+            "Economic Buyer": 2,
+            "Decision Process": 3,
+            "Decision Criteria": 4,
+            "Paper Process": 0.5,
+            "Identify Pain": 5.5,
+            "Champion": 5,
+            "Competition": 1
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -22767,7 +23166,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-02-26",
+          "date": "2026-02-27",
           "sections": {
             "Metrics": {
               "score": 4,
@@ -23879,6 +24278,23 @@ const DEAL_DATA = {
             "Competition": 1
           },
           "changes": []
+        },
+        {
+          "date": "2026-02-27",
+          "totalScore": 24,
+          "totalMax": 54,
+          "status": "at-risk",
+          "sectionScores": {
+            "Metrics": 4,
+            "Economic Buyer": 2.5,
+            "Decision Process": 3.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 1,
+            "Identify Pain": 5.5,
+            "Champion": 3,
+            "Competition": 1
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -24078,7 +24494,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-02-26",
+          "date": "2026-02-27",
           "sections": {
             "Metrics": {
               "score": 4,

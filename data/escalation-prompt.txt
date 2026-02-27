@@ -16,68 +16,51 @@ For each recommendation, return JSON:
 
 ---
 
+### Mulberry Company (Sales) Limited (006OG00000CRabaYAD)
+Unmatched changes:
+- closeDate: "2026-02-28" → "2026-02-27"
+- probability: "60" → "100"
+- forecastCategory: "Commit" → "Closed"
+- nextStep: "18/02 BR. Legal are still working through the PLUS contract as we have pushed back 3X on their asked. Have just kicked off discovery with Arsenalia and some peripheral queries around china and markets have arisen. Working through Async." → "18/02 BR. Legal Are still working through the PLUS contract as we have pushed back 3X on their asked. Have just kicked off discovery with Arsenalia and some peripheral queries around china and markets have arisen. Working through Async."
+- positionAgainstCompetitor: "null" → "Scayle, Big commerce, Salesforce"
+
 ### Moda in Pelle (0068V0000113rSIQAY)
 Unmatched changes:
-- competitive.primary: "Visualsoft (status quo)" → "Other"
-- timeline.proposedLaunch: "null" → "2026-05-29"
 - nextStep: "02/18 - Spoke to David Duke and we are on track to get it signed before end of Feb" → "02/18 -Spoke to David Duke and we are on track to get it signed before end of Feb"
-
-### Whittard of Chelsea (006OG00000EZIy6YAH)
-Unmatched changes:
-- closeDate: "2026-02-27" → "2026-03-30"
-- revenue.projectedBilled: "406078.56" → "303277.58"
-- revenue.paymentsGpv: "8125000" → "10985000"
-- revenue.totalRev3yr: "714900" → "676036.88"
-- timeline.proposedLaunch: "null" → "2026-07-01"
-- nextStep: "19.02 resubmitted rate review, WorldPay is payment processor, Barclay, Merchant keen on signing this Q (received email from Fiona today mentioning good to sign in Feb!)" → "24.02 RR back, Adriana to set up meeting with Nathan and Fiona to discuss final steps + Partner choice"
 
 ### The Dune Group (006OG00000GJ5IvYAL)
 Unmatched changes:
-- timeline.proposedLaunch: "null" → "2026-05-01"
-- nextStep: "24.02  onsite meeting cancelled as team members sick, had meeting with Dune and Tryzens to discuss launch steps, Martin confirmed They're very close to getting budged signed off "any day now"" → "24.02  onsite meeting cancelled as team members sick, had meeting with Dune and Tryzens to discuss launch steps, Martin confirmed They're very close to getting budged signed off "any day now""
+- nextStep: "24.02  onsite meeting cancelled as team members sick, had meeting with Dune and Tryzens to discuss launch steps, Martin confirmed They're very close to getting budged signed off "any day now"" → "24.02 onsite meeting cancelled as team members sick, had meeting with Dune and Tryzens to discuss launch steps, Martin confirmed They're very close to getting budged signed off any day now"
 
 ### Wacoal Europe (006OG00000HnVs8YAF)
 Unmatched changes:
-- closeDate: "2026-02-28" → "2026-03-13"
-- competitive.primary: "SAP (incumbent) / Scale (potential retender)" → "null"
-- timeline.proposedLaunch: "null" → "2026-11-03"
 - nextStep: "13/02 MF: Will have a decision by 27/02. Contract reviewed and rates presented. Offer expires March 13th." → "20/02 MF: Will have a decision by 27/02. Contract reviewed and rates presented. Offer expires March 13th."
+
+### Sofa.Com Ltd (006OG00000HtxKFYAZ)
+Unmatched changes:
+- nextStep: "13/02 MF: Handover from Yas - merchant pushing to get meeting with IT at Frasers group to get approval. Reviewing the buss case numbers with them next week." → "20/02 MF: Handover from Yas - merchant pushing to get meeting with IT at Frasers group to get approval. Reviewing the buss case numbers with them next week."
 
 ### ESSENTIEL Antwerp (0068V0000113peWQAQ)
 Unmatched changes:
-- revenue.mcv: "132800" → "82800"
-- timeline.proposedLaunch: "null" → "2026-09-30"
-- nextStep: "18/2 BR RFP has landed and I am speaking to each agency (7) to get a sense check. Timelines on RFP indicate build to start in April." → "18/2 BR RFP has landed and I ma speaking to each agency (7) to get a sense check. Timelines on RFP indicate  build to start in April"
+- nextStep: "18/2 BR RFP has landed and I am speaking to each agency (7) to get a sense check. Timelines on RFP indicate build to start in April" → "18/2 BR RFP has landed and I ma speaking to each agency (7) to get a sense check. Timelines on RFP indicate build to start in April"
 
 ### OLIVER BONAS LIMITED (006OG00000FHHAHYA5)
 Unmatched changes:
-- competitive.primary: "Adobe Commerce (Magento)" → "null"
 - nextStep: "19.02 Awaiting statement for RR, collab on TCO, POS demo successful, received good feedback, awaiting final feedback for next round of RFP" → "24.02 Awaiting statement for RR, collab on TCO, POS demo successful, received good feedback, awaiting final feedback for next round of RFP"
 
 ### Cycle King & Hawk (006OG00000Fbj8nYAB)
 Unmatched changes:
-- competitive.primary: "Citrus Lime (incumbent)" → "null"
-
-### Direct Wines Limited (006OG00000G28JdYAJ)
-Unmatched changes:
-- timeline.proposedLaunch: "null" → "2026-06-30"
+- competitor: "Citrus Lime (incumbent)" → "null"
 
 ### Hawes & Curtis Limited (006OG00000FYX8zYAH)
 Unmatched changes:
-- timeline.proposedLaunch: "null" → "2026-08-02"
 - nextStep: "13/02 MF: Finalising agency selection before signing Shopify contract. Paul Rogers (Vervaunt) introduced more agencies with design focus, might not sign before Q2 now. Catch up with Paul next week (Alexandra supporting)." → "20/02 MF: Finalising agency selection before signing Shopify contract. Paul Rogers (Vervaunt) introduced more agencies with design focus, might not sign before Q2 now. Catch up with Paul next week (Alexandra supporting)."
-
-### C.P. Hart & Sons Limited (006OG00000KW83lYAD)
-Unmatched changes:
-- nextStep: "null" → "24.02 presented commercials, board meeting this month, awaiting statements for RR, NDA in works, MO ooo"
-- revenue.projectedBilled: "null" → "758832.18"
-
-### TRINNY LONDON (006OG00000JMQ91YAH)
-Unmatched changes:
-- revenue.projectedBilled: "948568.42" → "1220503.68"
-- revenue.totalRev3yr: "3311700" → "3773175"
 
 ### Moss Bros. Group Ltd (006OG00000KOC4YYAX)
 Unmatched changes:
-- nextStep: "null" → "[AS] 16.01 Technical discovery scheduled for  26.01 + intro to deal champion, Chris Turberville-Tulley"
+- nextStep: "" → "[AS] 16.01 Technical discovery scheduled for 26.01 + intro to deal champion, Chris Turberville-Tulley"
+
+### Vision Healthcare (006OG00000J4JtxYAF)
+Unmatched changes:
+- nextStep: "" → "20/02 MF: Merchant sent Adyen invoices for rate comparison. Needs confirmation on payment method support & fee comparison (on it) + scheduling intro to merchant next week."
 

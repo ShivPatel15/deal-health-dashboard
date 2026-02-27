@@ -1,0 +1,84 @@
+[
+  {
+    "opportunityId": "006OG00000CRabaYAD",
+    "accountName": "Mulberry Company (Sales) Limited",
+    "changes": [
+      { "field": "stage", "oldValue": "Demonstrate", "newValue": "Closed Won" },
+      { "field": "closeDate", "oldValue": "2026-02-28", "newValue": "2026-02-27" },
+      { "field": "probability", "oldValue": 60, "newValue": 100 },
+      { "field": "forecastCategory", "oldValue": "Commit", "newValue": "Closed" },
+      { "field": "nextStep", "oldValue": "18/02 BR. Legal are still working through the PLUS contract as we have pushed back 3X on their asked. Have just kicked off discovery with Arsenalia and some peripheral queries around china and markets have arisen. Working through Async.", "newValue": "18/02 BR. Legal Are still working through the PLUS contract as we have pushed back 3X on their asked. Have just kicked off discovery with Arsenalia and some peripheral queries around china and markets have arisen. Working through Async." },
+      { "field": "positionAgainstCompetitor", "oldValue": null, "newValue": "Scayle, Big commerce, Salesforce" }
+    ]
+  },
+  {
+    "opportunityId": "0068V0000113rSIQAY",
+    "accountName": "Moda in Pelle",
+    "changes": [
+      { "field": "nextStep", "oldValue": "02/18 - Spoke to David Duke and we are on track to get it signed before end of Feb", "newValue": "02/18 -Spoke to David Duke and we are on track to get it signed before end of Feb" }
+    ]
+  },
+  {
+    "opportunityId": "006OG00000GJ5IvYAL",
+    "accountName": "The Dune Group",
+    "changes": [
+      { "field": "nextStep", "oldValue": "24.02  onsite meeting cancelled as team members sick, had meeting with Dune and Tryzens to discuss launch steps, Martin confirmed They're very close to getting budged signed off \"any day now\"", "newValue": "24.02 onsite meeting cancelled as team members sick, had meeting with Dune and Tryzens to discuss launch steps, Martin confirmed They're very close to getting budged signed off any day now" }
+    ]
+  },
+  {
+    "opportunityId": "006OG00000HnVs8YAF",
+    "accountName": "Wacoal Europe",
+    "changes": [
+      { "field": "nextStep", "oldValue": "13/02 MF: Will have a decision by 27/02. Contract reviewed and rates presented. Offer expires March 13th.", "newValue": "20/02 MF: Will have a decision by 27/02. Contract reviewed and rates presented. Offer expires March 13th." }
+    ]
+  },
+  {
+    "opportunityId": "006OG00000HtxKFYAZ",
+    "accountName": "Sofa.Com Ltd",
+    "changes": [
+      { "field": "nextStep", "oldValue": "13/02 MF: Handover from Yas - merchant pushing to get meeting with IT at Frasers group to get approval. Reviewing the buss case numbers with them next week.", "newValue": "20/02 MF: Handover from Yas - merchant pushing to get meeting with IT at Frasers group to get approval. Reviewing the buss case numbers with them next week." }
+    ]
+  },
+  {
+    "opportunityId": "0068V0000113peWQAQ",
+    "accountName": "ESSENTIEL Antwerp",
+    "changes": [
+      { "field": "nextStep", "oldValue": "18/2 BR RFP has landed and I am speaking to each agency (7) to get a sense check. Timelines on RFP indicate build to start in April", "newValue": "18/2 BR RFP has landed and I ma speaking to each agency (7) to get a sense check. Timelines on RFP indicate build to start in April" }
+    ]
+  },
+  {
+    "opportunityId": "006OG00000FHHAHYA5",
+    "accountName": "OLIVER BONAS LIMITED",
+    "changes": [
+      { "field": "nextStep", "oldValue": "19.02 Awaiting statement for RR, collab on TCO, POS demo successful, received good feedback, awaiting final feedback for next round of RFP", "newValue": "24.02 Awaiting statement for RR, collab on TCO, POS demo successful, received good feedback, awaiting final feedback for next round of RFP" }
+    ]
+  },
+  {
+    "opportunityId": "006OG00000Fbj8nYAB",
+    "accountName": "Cycle King & Hawk",
+    "changes": [
+      { "field": "competitor", "oldValue": "Citrus Lime (incumbent)", "newValue": null }
+    ]
+  },
+  {
+    "opportunityId": "006OG00000FYX8zYAH",
+    "accountName": "Hawes & Curtis Limited",
+    "changes": [
+      { "field": "nextStep", "oldValue": "13/02 MF: Finalising agency selection before signing Shopify contract. Paul Rogers (Vervaunt) introduced more agencies with design focus, might not sign before Q2 now. Catch up with Paul next week (Alexandra supporting).", "newValue": "20/02 MF: Finalising agency selection before signing Shopify contract. Paul Rogers (Vervaunt) introduced more agencies with design focus, might not sign before Q2 now. Catch up with Paul next week (Alexandra supporting)." }
+    ]
+  },
+  {
+    "opportunityId": "006OG00000KOC4YYAX",
+    "accountName": "Moss Bros. Group Ltd",
+    "changes": [
+      { "field": "nextStep", "oldValue": "", "newValue": "[AS] 16.01 Technical discovery scheduled for 26.01 + intro to deal champion, Chris Turberville-Tulley" }
+    ]
+  },
+  {
+    "opportunityId": "006OG00000J4JtxYAF",
+    "accountName": "Vision Healthcare",
+    "changes": [
+      { "field": "nextStep", "oldValue": "", "newValue": "20/02 MF: Merchant sent Adyen invoices for rate comparison. Needs confirmation on payment method support & fee comparison (on it) + scheduling intro to merchant next week." }
+    ]
+  }
+]
