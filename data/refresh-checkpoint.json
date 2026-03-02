@@ -1,0 +1,108 @@
+{
+  "date": "2026-03-02",
+  "started": "2026-03-02T08:12:27.621Z",
+  "results": {
+    "006OG00000CRabaYAD": {
+      "accountName": "Mulberry Company (Sales) Limited",
+      "status": "sf-only",
+      "details": "Closed Won! Stage Demonstrate→Closed Won, Prob 60→100",
+      "timestamp": "2026-03-02T08:12:27.621Z"
+    },
+    "006OG00000J4JtxYAF": {
+      "accountName": "Vision Healthcare",
+      "status": "new-calls",
+      "details": "1 new call (2/27 Shopify X Vision Healthcare 25min with transcript). MEDDPICC updated: 14 questions improved, score N/A→31/54. 5 deal risks. 6 new action items.",
+      "timestamp": "2026-03-02T08:12:27.677Z"
+    },
+    "006OG00000JMQ91YAH": {
+      "accountName": "TRINNY LONDON",
+      "status": "new-calls",
+      "details": "1 new call (2/25 Trinny London Regroup 30min no transcript). NextStep updated.",
+      "timestamp": "2026-03-02T08:12:27.727Z"
+    },
+    "006OG00000GJ5IvYAL": {
+      "accountName": "The Dune Group",
+      "status": "sf-only",
+      "details": "NextStep updated",
+      "timestamp": "2026-03-02T08:12:27.781Z"
+    },
+    "006OG00000HnVs8YAF": {
+      "accountName": "Wacoal Europe",
+      "status": "sf-only",
+      "details": "NextStep updated",
+      "timestamp": "2026-03-02T08:12:27.829Z"
+    },
+    "006OG00000HtxKFYAZ": {
+      "accountName": "Sofa.Com Ltd",
+      "status": "sf-only",
+      "details": "NextStep updated",
+      "timestamp": "2026-03-02T08:12:27.880Z"
+    },
+    "0068V0000113peWQAQ": {
+      "accountName": "ESSENTIEL Antwerp",
+      "status": "sf-only",
+      "details": "NextStep updated",
+      "timestamp": "2026-03-02T08:12:27.933Z"
+    },
+    "006OG00000JUPVtYAP": {
+      "accountName": "Mint Velvet",
+      "status": "sf-only",
+      "details": "NextStep updated",
+      "timestamp": "2026-03-02T08:12:27.987Z"
+    },
+    "006OG00000FHHAHYA5": {
+      "accountName": "OLIVER BONAS LIMITED",
+      "status": "sf-only",
+      "details": "NextStep updated",
+      "timestamp": "2026-03-02T08:12:28.039Z"
+    },
+    "006OG00000Fbj8nYAB": {
+      "accountName": "Cycle King & Hawk",
+      "status": "sf-only",
+      "details": "NextStep updated",
+      "timestamp": "2026-03-02T08:12:28.090Z"
+    },
+    "006OG00000G28JdYAJ": {
+      "accountName": "Direct Wines Limited",
+      "status": "sf-only",
+      "details": "NextStep updated",
+      "timestamp": "2026-03-02T08:12:28.147Z"
+    },
+    "006OG00000FYX8zYAH": {
+      "accountName": "Hawes & Curtis Limited",
+      "status": "sf-only",
+      "details": "NextStep updated",
+      "timestamp": "2026-03-02T08:12:28.199Z"
+    },
+    "006OG00000Dh2YXYAZ": {
+      "accountName": "Bugaboo International B.V",
+      "status": "sf-only",
+      "details": "NextStep updated",
+      "timestamp": "2026-03-02T08:12:28.253Z"
+    },
+    "006OG00000KW83lYAD": {
+      "accountName": "C.P. Hart & Sons Limited",
+      "status": "sf-only",
+      "details": "NextStep updated",
+      "timestamp": "2026-03-02T08:12:28.304Z"
+    },
+    "006OG00000KOC4YYAX": {
+      "accountName": "Moss Bros. Group Ltd",
+      "status": "sf-only",
+      "details": "NextStep updated",
+      "timestamp": "2026-03-02T08:12:28.356Z"
+    },
+    "0068V0000113rSIQAY": {
+      "accountName": "Moda in Pelle",
+      "status": "sf-only",
+      "details": "NextStep updated",
+      "timestamp": "2026-03-02T08:12:28.406Z"
+    },
+    "006OG00000EZIy6YAH": {
+      "accountName": "Whittard of Chelsea",
+      "status": "sf-only",
+      "details": "NextStep updated",
+      "timestamp": "2026-03-02T08:12:28.459Z"
+    }
+  }
+}

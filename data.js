@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-02-27T08:15:54.797Z",
+  "generatedAt": "2026-03-02T08:12:45.092Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -23,7 +23,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2024-07-19",
-      "lastAnalysisDate": "2026-02-18",
+      "lastAnalysisDate": "2026-03-02",
       "revenue": {
         "mcv": 75900,
         "totalRev3yr": 1039799,
@@ -1161,6 +1161,23 @@ const DEAL_DATA = {
             "Competition": 3.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-02",
+          "totalScore": 32.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 4,
+            "Decision Criteria": 3.5,
+            "Paper Process": 3.5,
+            "Identify Pain": 6.5,
+            "Champion": 3.5,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -1455,7 +1472,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-27",
+          "date": "2026-03-02",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -2552,6 +2569,23 @@ const DEAL_DATA = {
             "Competition": 3
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-02",
+          "totalScore": 36,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 6,
+            "Economic Buyer": 4,
+            "Decision Process": 4.5,
+            "Decision Criteria": 4,
+            "Paper Process": 1,
+            "Identify Pain": 7,
+            "Champion": 6.5,
+            "Competition": 3
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -2847,7 +2881,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-27",
+          "date": "2026-03-02",
           "sections": {
             "Metrics": {
               "score": 6,
@@ -2907,7 +2941,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2025-08-19",
-      "lastAnalysisDate": "2026-02-25",
+      "lastAnalysisDate": "2026-03-02",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 4269146.5,
@@ -2929,7 +2963,7 @@ const DEAL_DATA = {
       ],
       "competitor": "None",
       "compellingEvent": "SFCC licensing expires February 2026 — hard contractual deadline, verified across multiple calls. Not a soft preference. Combined with high TCO and operational frustration, doing nothing means renewing a platform they're actively trying to leave.",
-      "nextStep": "24.02  onsite meeting cancelled as team members sick, had meeting with Dune and Tryzens to discuss launch steps, Martin confirmed They're very close to getting budged signed off \"any day now\"",
+      "nextStep": "24.02 onsite meeting cancelled as team members sick, had meeting with Dune and Tryzens to discuss launch steps, Martin confirmed They are very close to getting budget signed off any day now",
       "narrative": {
         "oppSummary": "The Dune Group is a UK fashion footwear retailer with 55+ stores evaluating a full-platform migration from Salesforce Commerce Cloud + Anakta POS to Shopify Plus with POS Pro and Retail Payments. The deal is valued at $82,800 MCV with $4.27M in 3-year total revenue and is in Deal Craft stage at 80% probability. Martin Wareing (Head of IT) confirmed budget sign-off is imminent. The SFCC license expiring in February 2026 creates a hard compelling event, and SI partner Tryzens actively recommended Shopify.",
         "whyChange": "Dune is on Salesforce Commerce Cloud for eCommerce and Anakta for in-store POS, creating significant operational friction. All changes must go through Tryzens in monthly sprints — no in-house control. Martin described having to 'mold ways of working to the platform.' Anakta POS adds complexity around payment gateway management and reconciliation. TCO is high across both stacks, and with SFCC licensing expiring Feb 2026, they face an inflection point: renew an expensive, inflexible stack or migrate.",
@@ -4068,6 +4102,23 @@ const DEAL_DATA = {
             "Competition": 4
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-02",
+          "totalScore": 37.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 4.5,
+            "Decision Criteria": 5,
+            "Paper Process": 4,
+            "Identify Pain": 6,
+            "Champion": 5.5,
+            "Competition": 4
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -4372,7 +4423,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-27",
+          "date": "2026-03-02",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -4425,14 +4476,14 @@ const DEAL_DATA = {
       "accountId": "0018V00002epVEaQAM",
       "owner": "Ben Rees",
       "ownerEmail": "ben.rees@shopify.com",
-      "stage": "Demonstrate",
-      "closeDate": "2026-02-28",
-      "forecastCategory": "Commit",
-      "probability": 60,
+      "stage": "Closed Won",
+      "closeDate": "2026-02-27",
+      "forecastCategory": "Closed",
+      "probability": 100,
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2025-02-07",
-      "lastAnalysisDate": "2026-02-18",
+      "lastAnalysisDate": "2026-03-02",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 841500,
@@ -4450,7 +4501,7 @@ const DEAL_DATA = {
       ],
       "competitor": "Salesforce Commerce Cloud",
       "compellingEvent": "SAP Hybris out of Support Jan 2027 and failed Salesforce Commerce Cloud implementation from 2024. Legacy tech identified as a growth inhibitor — identified new segment and cannot scale business for this on current stack.",
-      "nextStep": "18/02 BR. Legal are still working through the PLUS contract as we have pushed back 3X on their asks. Have just kicked off discovery with Arsenalia and some peripheral queries around China and Markets have arisen. Working through Async.",
+      "nextStep": "18/02 BR. Legal Are still working through the PLUS contract as we have pushed back 3X on their asked. Have just kicked off discovery with Arsenalia and some peripheral queries around china and markets have arisen. Working through Async.",
       "narrative": {
         "oppSummary": "Mulberry Company (Sales) Limited is a UK-based luxury fashion brand (~£161.5M revenue, ~1,000 employees) evaluating Shopify Plus as a replacement for their current custom-built SAP Hybris e-commerce platform, which goes end-of-support in January 2027. This is an $82,800 MCV new business deal with $841,500 in projected 3-year total revenue and $51M in D2C GMV. The deal is currently in the Demonstrate stage at 60% probability, forecasted as Commit but flagged as 'Committed - At Risk,' with a close date of February 28, 2026. Legal negotiations are active but contentious — Shopify has pushed back 3x on Mulberry's contract asks — and new peripheral queries around China and Markets have emerged, adding complexity. A second SI partner (Arsenalia) has just been engaged alongside Impact Commerce, suggesting implementation scoping is underway but potentially not yet settled.",
         "whyChange": "Mulberry's current e-commerce platform is built on SAP Hybris, which is going end-of-support in January 2027 — creating a hard deadline to migrate. They previously attempted to solve this by implementing Salesforce Commerce Cloud in 2024, but that project failed, meaning they've already burned time and budget on one migration attempt. Beyond the platform sunset, Mulberry's leadership has identified their legacy tech stack as a growth inhibitor — specifically, they have identified a new customer segment they want to pursue but cannot scale their business to address it on their current architecture. The business problem is therefore both defensive (platform going dark) and offensive (new growth opportunity blocked by tech limitations). The combination of a failed prior migration, an immovable platform sunset, and unmet growth ambitions creates significant organizational urgency and pain.",
@@ -5643,6 +5694,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-02",
+          "totalScore": 34.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 4.5,
+            "Identify Pain": 6.5,
+            "Champion": 4,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -5878,7 +5946,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-27",
+          "date": "2026-03-02",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -5938,7 +6006,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2025-10-16",
-      "lastAnalysisDate": "2026-02-20",
+      "lastAnalysisDate": "2026-03-02",
       "revenue": {
         "mcv": 285200,
         "totalRev3yr": 1244375,
@@ -5957,7 +6025,7 @@ const DEAL_DATA = {
       ],
       "competitor": "",
       "compellingEvent": "SAP Commerce contract expires January 2027. Must go-live by November 2026 to give notice. Board approved budget. Previous Alkai migration failed. Offer expires March 13, 2026. Decision expected by Feb 27.",
-      "nextStep": "13/02 MF: Will have a decision by 27/02. Contract reviewed and rates presented. Offer expires March 13th.",
+      "nextStep": "27/02 MF: Will have a decision next week. Contract reviewed and rates presented. Offer expires March 13th.",
       "narrative": {
         "oppSummary": "Wacoal Europe is a $285,200 MCV Plus deal ($1.24M 3yr total revenue) to migrate 4 lingerie brands (Wacoal, Fantasy, Freya, Elomi) from SAP Commerce to Shopify Plus with multi-brand, multi-market D2C storefronts and Shopify Payments. The deal is in Deal Craft at 80% probability with a Feb 28, 2026 close date, driven by CIO Danny Dawes, with VML as the implementation partner. The primary negotiation sticking points have been Shopify Payments transaction fees versus their current provider Comptop, preservation of a ~$46K credit, and financial settlement/reconciliation concerns — with Danny explicitly stating he would delay a year and renew with SAP if commercials can't be resolved.",
         "whyChange": "Wacoal Europe's current SAP Commerce platform contract expires in January 2027, creating a hard deadline for a platform decision. The organization has accumulated significant technical debt and operational friction with their existing stack — Danny's team previously attempted a migration with Alkai that failed and wasted ~$40K before being terminated over contractual disagreements around co-marketing discounts. The Black Friday 2025 results underscored challenges with their D2C/ecom channel — Danny noted that 'D2C/ecom was challenging' while brick-and-mortar performed well, suggesting their current platform isn't supporting digital commerce growth. The financial reconciliation and settlement processes on their current stack are causing acute anxiety — Samantha Hadland from the finance team said the settlement piece 'makes me feel sick', and Laura Simon called it 'enormous for us.'",
@@ -6998,6 +7066,23 @@ const DEAL_DATA = {
             "Competition": 4
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-02",
+          "totalScore": 44,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 4,
+            "Decision Process": 7,
+            "Decision Criteria": 5,
+            "Paper Process": 6,
+            "Identify Pain": 7,
+            "Champion": 5.5,
+            "Competition": 4
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -7302,7 +7387,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-27",
+          "date": "2026-03-02",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -7362,7 +7447,7 @@ const DEAL_DATA = {
       "merchantIntent": "Uncommitted",
       "type": "New Business",
       "created": "2025-10-20",
-      "lastAnalysisDate": "2026-02-19",
+      "lastAnalysisDate": "2026-03-02",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 1220972,
@@ -7381,7 +7466,7 @@ const DEAL_DATA = {
       ],
       "competitor": "SAP Commerce Cloud (Hybris)",
       "compellingEvent": "None identified. This is a critical deal risk. The closest driver is aspirational H2 2026 go-live target. Shopify should explore Hybris licensing renewal timelines or peak trading deadlines (pre-Christmas 2026) to create urgency.",
-      "nextStep": "13/02 MF: Handover from Yas - merchant pushing to get meeting with IT at Frasers group to get approval. Reviewing the buss case numbers with them.",
+      "nextStep": "27/02 MF: Handover from Yas - merchant pushing to get meeting with IT at Frasers group to get approval. Reviewing the buss case numbers with them next week.",
       "narrative": {
         "oppSummary": "Sofa.com (owned by Frasers Group) is evaluating a migration from SAP Commerce Cloud (Hybris) to Shopify Plus, representing $82,800 MCV and $1.22M in 3-year total revenue. The deal is currently stuck in the Demonstrate stage at 60% probability, with the primary blocker being Frasers Group's internal IT approval process — Tom Humphrey and Blayne Griffin-Reader have been waiting over two months just to secure an initial meeting with Group IT. VML (agency partner) has built a TCO/business case showing ~£600K savings over 3 years with a 12-month payback period, and a 3-year ROI comparison of Hybris vs Shopify is under review, but no decision can progress until Group IT confirms the current system's inadequacy.",
         "whyChange": "Sofa.com is running on SAP Commerce Cloud (Hybris), which sits within Frasers Group's archaic, centralized tech infrastructure. The platform creates significant operational pain: manual processes dominate day-to-day work, the team has limited internal tech/dev resources, and peak trading periods expose the system's inability to scale efficiently. The complex SKU structure (large volumes of product variations) is poorly served by the current setup. Payment processing through Elevon is causing unnecessary costs. Sofa.com is a 'small cog in a big wheel' at Frasers Group, and the centralized IT approach is holding back a brand that needs agility and modern commerce capabilities.",
@@ -8457,6 +8542,23 @@ const DEAL_DATA = {
             "Competition": 3.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-02",
+          "totalScore": 29,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 4.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 3.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 3,
+            "Identify Pain": 4,
+            "Champion": 4.5,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -8711,7 +8813,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-27",
+          "date": "2026-03-02",
           "sections": {
             "Metrics": {
               "score": 4.5,
@@ -8771,7 +8873,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2024-07-16",
-      "lastAnalysisDate": "2026-02-20",
+      "lastAnalysisDate": "2026-03-02",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 2333229,
@@ -8793,7 +8895,7 @@ const DEAL_DATA = {
       ],
       "competitor": "Centra",
       "compellingEvent": "ERP migration has prompted technical review + Magento contract renewal due EOY 2026. Both events are real and validated through multiple calls. Risk is that competing priorities (ERP costs, integration complexity) could slow decision-making.",
-      "nextStep": "18/2 BR RFP has landed and I am speaking to each agency (7) to get a sense check. Timelines on RFP indicate build to start in April.",
+      "nextStep": "18/2 BR RFP has landed and I am speaking to each agency (7) to get a sense check. Timelines on RFP indicate build to start in April",
       "narrative": {
         "oppSummary": "Essentiel Antwerp (Belgian fashion brand under Kadin Group) is evaluating a full-stack Shopify Plus migration encompassing D2C, POS Pro across ~50 retail stores, and Shopify Payments. The deal is valued at $82,800 MCV with $2.33M in projected 3-year revenue and significant GMV ($25.5M D2C, $39.4M Retail, $33.1M Payments GPV). The opportunity is at the Demonstrate stage with a 60% probability, but is flagged as Committed - At Risk due to dependencies on an internal ERP modernization decision and complex international entity structure. An RFP is now live with 7 agencies responding, and build is targeted to start in April 2026 with a September 2026 go-live.",
         "whyChange": "Essentiel Antwerp is carrying significant tech debt across their commerce stack. Their current Magento platform is approaching contract renewal at EOY 2026. Their ERP landscape is fragmented — wholesale has already migrated to ItsPerfect, but DTC and retail operations remain on an older Microsoft Business Central that requires expensive upgrades. The cost and complexity of upgrading Business Central is a major pain point. Filip noted the 'massive cost factor' of upgrading their current ERP stack, prompting evaluation of whether a platform consolidation to Shopify could reduce overall TCO and provide omnichannel capability they currently lack.",
@@ -9923,6 +10025,23 @@ const DEAL_DATA = {
             "Competition": 2
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-02",
+          "totalScore": 31,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 4.5,
+            "Decision Process": 4.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 6,
+            "Champion": 4.5,
+            "Competition": 2
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -10221,7 +10340,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-27",
+          "date": "2026-03-02",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -10281,7 +10400,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "Existing Business",
       "created": "2025-12-12",
-      "lastAnalysisDate": "2026-02-24",
+      "lastAnalysisDate": "2026-03-02",
       "revenue": {
         "mcv": 0,
         "totalRev3yr": 1562351,
@@ -10300,7 +10419,7 @@ const DEAL_DATA = {
       ],
       "competitor": "Sitoo",
       "compellingEvent": "Christmas 2026 POS go-live target set by CTO. Moderate-strong: genuine business driver (no retailer migrates POS during holidays) but self-imposed by new CTO, not external forcing function. Deal has already been delayed twice (2024, mid-2025). Feb 20 commercial director call is make-or-break.",
-      "nextStep": "18/02 BR Board have pushback on costs (particularly rates). Call with commercial director on 20th to align on what rate we need to close this.",
+      "nextStep": "18/02 BR Board have pushback on costs (particularly rates). Call with commercial director on 20th to align on what rate we need to close this",
       "narrative": {
         "oppSummary": "Mint Velvet is an existing Shopify Plus D2C customer evaluating Shopify POS Pro and Retail Payments to replace incumbent Sitoo across 110 UK retail stores. The deal represents $1.56M in total revenue ($574K projected billed) with $99.3M in retail GMV. This is a winback — POS was explored in 2024 and paused. Now restarted by new CTO (Tom) targeting Christmas 2026 go-live. Current blocker is board-level pushback on payment processing rates, with a critical Feb 20 commercial director call to align on rates.",
         "whyChange": "Mint Velvet runs Sitoo POS across 110 stores while on Shopify Plus for D2C, creating a fragmented commerce stack. New CTO (Tom) joined with a mandate to modernize. 21+ POS sync calls in 2025 surfaced pain points around financial reconciliation, inventory management, omni-channel gaps, and operational overhead of separate systems. New sub-brand Arttov further compounds the need for a unified platform.",
@@ -11422,6 +11541,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-02",
+          "totalScore": 32,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 3,
+            "Decision Process": 4,
+            "Decision Criteria": 4.5,
+            "Paper Process": 1,
+            "Identify Pain": 6.5,
+            "Champion": 5.5,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -11666,7 +11802,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-27",
+          "date": "2026-03-02",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -11726,7 +11862,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2025-06-30",
-      "lastAnalysisDate": "2026-02-19",
+      "lastAnalysisDate": "2026-03-02",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 5809546.88,
@@ -11747,7 +11883,7 @@ const DEAL_DATA = {
       ],
       "competitor": "",
       "compellingEvent": "Adobe Commerce contract expires October 2026. Simultaneous NetSuite ERP replacement. RFP narrowed from 6 vendors to ~2. Ben wants to avoid further investment in Adobe.",
-      "nextStep": "19.02 Awaiting statement for RR, collab on TCO, POS demo successful, received good feedback, awaiting final feedback for next round of RFP",
+      "nextStep": "24.02 Awaiting statement for RR, collab on TCO, POS demo successful, received good feedback, awaiting final feedback for next round of RFP",
       "narrative": {
         "oppSummary": "Oliver Bonas Limited is an £87M D2C / £25M Retail GMV UK fashion and lifestyle retailer with 90+ stores, evaluating Shopify Plus as a replacement for their current Adobe Commerce (Magento) platform, whose contract expires October 2026. The deal is valued at $82,800 MCV with $1.48M in projected billed revenue and $5.8M total 3-year revenue including payments ($113.1M GPV). The opportunity is in the Demonstrate stage of a competitive RFP process — originally 6 vendors narrowed to approximately 2 — with implementation cost clarity being the primary blocker to advancing the deal.",
         "whyChange": "Oliver Bonas is running on Adobe Commerce (Magento) with a NetSuite ERP that is also being replaced. Ben Curtis, Director of Ecommerce, has explicitly stated they want to avoid 'putting lots of additional investment into Adobe especially with the new ERP system... only to then rip it all out again later,' indicating significant concern about throwing good money after bad. The current tech stack creates complexity around omnichannel capabilities like click & collect, endless aisle, and save-the-sale — features Ben noted 'can be mitigated without additional development if we were to go down a single vendor solution.' The simultaneous ERP replacement and Adobe contract expiry create a natural inflection point where re-platforming makes strategic sense.",
@@ -12930,6 +13066,23 @@ const DEAL_DATA = {
             "Competition": 3
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-02",
+          "totalScore": 29,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 4,
+            "Decision Criteria": 3.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 5.5,
+            "Champion": 4,
+            "Competition": 3
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -13190,7 +13343,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-27",
+          "date": "2026-03-02",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -13250,7 +13403,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2025-07-16",
-      "lastAnalysisDate": "2026-02-20",
+      "lastAnalysisDate": "2026-03-02",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 874667.61,
@@ -14399,6 +14552,23 @@ const DEAL_DATA = {
             "Competition": 0
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-02",
+          "totalScore": 22,
+          "totalMax": 54,
+          "status": "at-risk",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 2,
+            "Decision Process": 4,
+            "Decision Criteria": 2.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 5,
+            "Champion": 3,
+            "Competition": 0
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -14638,7 +14808,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-27",
+          "date": "2026-03-02",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -14698,7 +14868,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2025-08-06",
-      "lastAnalysisDate": "2026-02-27",
+      "lastAnalysisDate": "2026-03-02",
       "revenue": {
         "mcv": 0,
         "totalRev3yr": 10909191,
@@ -16013,6 +16183,23 @@ const DEAL_DATA = {
             "Decision Criteria: improved (4.5 → 5)",
             "Identify Pain: improved (7.5 → 8)"
           ]
+        },
+        {
+          "date": "2026-03-02",
+          "totalScore": 43.5,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 6.5,
+            "Economic Buyer": 5,
+            "Decision Process": 6,
+            "Decision Criteria": 5,
+            "Paper Process": 2,
+            "Identify Pain": 8,
+            "Champion": 6,
+            "Competition": 5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -16383,7 +16570,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-27",
+          "date": "2026-03-02",
           "sections": {
             "Metrics": {
               "score": 6.5,
@@ -16443,7 +16630,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed",
       "type": "New Business",
       "created": "2025-07-14",
-      "lastAnalysisDate": "2026-02-20",
+      "lastAnalysisDate": "2026-03-02",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 2040937.5,
@@ -16462,7 +16649,7 @@ const DEAL_DATA = {
       ],
       "competitor": "Custom Build",
       "compellingEvent": "Must be live by August 2026 ahead of peak trading season. CEO Touker Suleyman personally mandating 4-5 month completion timeline. Aggressive growth targets require platform migration.",
-      "nextStep": "13/02 MF: Finalising agency selection before signing Shopify contract. Paul Rogers (Vervaunt) introduced more agencies with design focus, might not sign before Q2 now. Catch up with Paul next week (Alexandra supporting).",
+      "nextStep": "27/02 MF: Finalising agency selection before signing Shopify contract. Paul Rogers (Vervaunt) introduced more agencies with design focus, might not sign before Q2 now. Will have an update next week.",
       "narrative": {
         "oppSummary": "Hawes & Curtis is an $82,800 MCV Plus deal (projected $2.04M total 3-year revenue) to migrate the UK-based fashion retailer off a legacy custom-built platform onto Shopify Plus, including Shopify Payments ($32.5M GPV). The deal is at 80% probability in Deal Craft stage, with CEO Touker Suleyman pushing aggressively to sign and go live by August 2026 ahead of peak trading season. Agency selection (implementation partner) is the final gating item before contract signature.",
         "whyChange": "Hawes & Curtis is running on a legacy custom-built platform that is actively preventing the business from growing and innovating. Their current tech stack cannot deliver the customer experiences they need to drive online growth, with technical limitations surfacing around inventory management, order statuses, and the inability to unify D2C and POS without heavy integration work. The CTO's team raised multiple concerns about their current platform's rigidity during the technical workshop. The business has aggressive growth targets and the CEO is personally driving urgency, demanding project completion in four to five months with no delays.",
@@ -17501,6 +17688,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-02",
+          "totalScore": 41,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 5,
+            "Decision Process": 5.5,
+            "Decision Criteria": 4.5,
+            "Paper Process": 4,
+            "Identify Pain": 7.5,
+            "Champion": 6.5,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -17763,7 +17967,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-02-27",
+          "date": "2026-03-02",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -17823,7 +18027,7 @@ const DEAL_DATA = {
       "merchantIntent": "Uncommitted",
       "type": "New Business",
       "created": "2025-04-15",
-      "lastAnalysisDate": "2026-02-25",
+      "lastAnalysisDate": "2026-03-02",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 841500,
@@ -18947,6 +19151,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-02",
+          "totalScore": 28.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 3,
+            "Economic Buyer": 3.5,
+            "Decision Process": 4.5,
+            "Decision Criteria": 3,
+            "Paper Process": 1.5,
+            "Identify Pain": 5.5,
+            "Champion": 5,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -19044,7 +19265,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-02-27",
+          "date": "2026-03-02",
           "sections": {
             "Metrics": {
               "score": 3,
@@ -19104,7 +19325,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2026-01-21",
-      "lastAnalysisDate": "2026-02-20",
+      "lastAnalysisDate": "2026-03-02",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 2184000,
@@ -20263,6 +20484,23 @@ const DEAL_DATA = {
             "Competition": 1.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-02",
+          "totalScore": 28,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 2,
+            "Decision Process": 4.5,
+            "Decision Criteria": 2,
+            "Paper Process": 2.5,
+            "Identify Pain": 6,
+            "Champion": 4.5,
+            "Competition": 1.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -20437,7 +20675,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-02-27",
+          "date": "2026-03-02",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -20497,7 +20735,7 @@ const DEAL_DATA = {
       "merchantIntent": "Uncommitted",
       "type": "New Business",
       "created": "2026-02-24",
-      "lastAnalysisDate": "2026-02-25",
+      "lastAnalysisDate": "2026-03-02",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 3311700,
@@ -20516,7 +20754,7 @@ const DEAL_DATA = {
       ],
       "competitor": "",
       "compellingEvent": "",
-      "nextStep": "20/02 MF: Supporting them with the business case, technical validation and with references. Stephen back from hols so picking up where left off.",
+      "nextStep": "27/02 MF: Feedback on draft contract + rates + LOI signature",
       "narrative": {
         "oppSummary": "Trinny London is an $82,800 Plus deal (D2C Standard) with $76M projected D2C GMV, $49.4M Payments GPV, and a 3-year total revenue of $3.31M. The London-based beauty brand is evaluating a migration from Commerce Tools (their current headless commerce platform) to Shopify Plus, driven by contract renewal timing, operational inefficiencies, tech debt, and a desire for faster development and reduced total cost of ownership. The deal is currently in Solution stage at 40% probability with a June 30, 2026 close target, and the merchant is actively deep in technical validation — having conducted 14 calls including detailed architecture demos, tax/store structure discussions, and business case presentations.",
         "whyChange": "Trinny London's current Commerce Tools headless architecture is creating significant operational friction and cost burden. The team explicitly stated they are exploring alternatives due to their Commerce Tools renewal, citing the need for increased efficiencies, enhanced internationalization (Germany), and better tech support. Their headless setup has created challenges with bundling and customization — core to their 'match to me' personalized product experience. They've been considering moving back to Shopify for nearly a year (since April 2025), with concerns about headless limitations around app compatibility, tax handling, discount codes, and gift cards. Faye Roth stressed the importance of swift decision to avoid stagnation, suggesting internal frustration with the pace of progress on their current stack.",
@@ -21421,6 +21659,22 @@ const DEAL_DATA = {
       ],
       "calls": [
         {
+          "id": "2iurrnpasvoffcsjme454hpqai",
+          "title": "Shopify x Trinny London Regroup",
+          "date": "2026-02-25",
+          "duration": 30,
+          "platform": "google_meet",
+          "hasTranscript": false,
+          "shopifyAttendees": [
+            "Maissa Fatte"
+          ],
+          "merchantAttendees": [
+            "charlotte.lecuyer@trinnylondon.com",
+            "faye@trinnylondon.com"
+          ],
+          "summary": "Regroup call - no transcript available"
+        },
+        {
           "date": "2026-02-13",
           "title": "Trinny London / Shopify",
           "duration": "30 min",
@@ -21684,6 +21938,23 @@ const DEAL_DATA = {
             "Competition": 2
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-02",
+          "totalScore": 30.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 6,
+            "Economic Buyer": 2,
+            "Decision Process": 5,
+            "Decision Criteria": 4,
+            "Paper Process": 1,
+            "Identify Pain": 6.5,
+            "Champion": 4,
+            "Competition": 2
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -21801,7 +22072,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-02-27",
+          "date": "2026-03-02",
           "sections": {
             "Metrics": {
               "score": 6,
@@ -21861,7 +22132,7 @@ const DEAL_DATA = {
       "merchantIntent": "Uncommitted",
       "type": "New Business",
       "created": "2026-01-16",
-      "lastAnalysisDate": "2026-02-25",
+      "lastAnalysisDate": "2026-03-02",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 2129400,
@@ -22976,6 +23247,23 @@ const DEAL_DATA = {
             "Competition": 1
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-02",
+          "totalScore": 25,
+          "totalMax": 54,
+          "status": "at-risk",
+          "sectionScores": {
+            "Metrics": 4,
+            "Economic Buyer": 2,
+            "Decision Process": 3,
+            "Decision Criteria": 4,
+            "Paper Process": 0.5,
+            "Identify Pain": 5.5,
+            "Champion": 5,
+            "Competition": 1
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -23166,7 +23454,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-02-27",
+          "date": "2026-03-02",
           "sections": {
             "Metrics": {
               "score": 4,
@@ -23226,7 +23514,7 @@ const DEAL_DATA = {
       "merchantIntent": "Uncommitted",
       "type": "New Business",
       "created": "2025-11-27",
-      "lastAnalysisDate": "2026-02-26",
+      "lastAnalysisDate": "2026-03-02",
       "revenue": {
         "mcv": 0,
         "totalRev3yr": 0,
@@ -23245,11 +23533,11 @@ const DEAL_DATA = {
       "compellingEvent": "",
       "nextStep": "20/02 MF: Merchant sent Adyen invoices for rate comparison. Needs confirmation on payment method support & fee comparison (on it) + scheduling intro to merchant next week.",
       "narrative": {
-        "oppSummary": "Vision Healthcare is a buy-and-build portfolio company operating ~16 brands across fragmented tech stacks (Magento, CommerceTools, WordPress, and some Shopify). This $82,800 deal involves consolidating 4 brands (Vita Yummy, New Pure, N2, Alpha Foods) onto Shopify Plus under a 3-year multi-brand agreement at $8,280/month. The broader strategic play is to prove out Shopify with the N2 brand as a proof-of-concept, and if successful, migrate the remaining portfolio — covering ~95% of shared functionality — creating significant expansion potential well beyond the initial deal size.",
+        "oppSummary": "Vision Healthcare is a buy-and-build portfolio company operating ~16 brands across fragmented tech stacks (Magento, CommerceTools, WordPress, and some Shopify). This $82,800 deal involves consolidating 4 brands (Vita Yummy, New Pure, N2, Alpha Foods) onto Shopify Plus under a 3-year multi-brand agreement at $8,280/month. The broader strategic play is to prove out Shopify with the N2 brand as a proof-of-concept, and if successful, migrate the remaining portfolio — covering ~95% of shared functionality — creating significant expansion potential well beyond the initial deal size. [2/27 Update] AE transition complete (Maissa Fatte). N2 GMV confirmed €1.5M. Portfolio is ~20 brands with ongoing M&A. Alpha Foods entity liquidation complication surfaced.",
         "whyChange": "Vision Healthcare's current tech stack is highly fragmented across Magento, CommerceTools, WordPress, and existing (improperly licensed) Shopify stores, creating operational inefficiency and technical debt. They have 4 full-time developers dedicated to Magento maintenance for 5+ years, representing a significant ongoing cost. Their earlier Shopify test with Tummy Talks resulted in a meaningful AOV drop due to an unoptimized checkout — particularly around Cash on Delivery features — which demonstrated the gap between their heavily customized Magento checkout and a vanilla Shopify experience. They are also dealing with an existing Shopify Plus contract breach (multiple brands on one license), which creates compliance risk. The COO (Iztok Hvala) has signaled that if the N2 proof-of-concept can match Magento's performance, it opens the door for full portfolio consolidation — suggesting the current multi-platform approach is unsustainable.",
         "whyShopify": "Vision Healthcare sees Shopify Plus as the consolidation platform for their multi-brand portfolio, attracted by the MSA/multi-brand agreement structure that provides preferential group pricing and simplified licensing. During the technical deep-dive, Ben Homer demonstrated that Shopify's Checkout Blocks, Flow, Search & Discovery, payment customization functions, and checkout UI extensions could replicate most of their critical Magento checkout features (subscription popups, cross-sells, COD greylisting, address validation). Iztok explicitly stated they don't need a 'copy paste' — they 'just want to have the same result' — indicating openness to Shopify's approach as long as business outcomes are preserved. They also have a recently acquired brand (Vayami) already on Shopify, giving them some platform familiarity. The potential to move to Shopify Payments and reduce the 0.2% external gateway fee (currently on Adyen at ~$180K/month group processing volume) is an additional financial incentive.",
-        "whyNow": "The most concrete timeline driver is the proposed contract signature deadline of February 13th, which was set partly because AE Yasmine Fazeli is going on maternity leave. Iztok accepted mid-February as feasible. The N2 brand POC is targeting a Q2 (April) launch in Spain, which creates a natural implementation timeline. However, there is no documented compelling event such as a Magento contract expiration, and the Salesforce 'Compelling Event' field is null. The urgency appears driven more by commercial offer timing and internal portfolio rationalization than by an external forcing function.",
-        "supportNeeded": "Payment method feasibility and rate comparison (merchant sent Adyen invoices, needs confirmation on Shopify Payments support and fee comparison). COD checkout replication confidence for Spain, Italy, and Eastern Europe. Address validation solution for Italian and Spanish markets. Entity and billing structure clarification for multi-brand agreement. Technical architecture follow-up and POC support (COD payment customization and checkout subscription toggle feasibility). Smooth AE transition from Yasmine Fazeli to Maissa Fatte."
+        "whyNow": "The most concrete timeline driver is the proposed contract signature deadline of February 13th, which was set partly because AE Yasmine Fazeli is going on maternity leave. Iztok accepted mid-February as feasible. The N2 brand POC is targeting a Q2 (April) launch in Spain, which creates a natural implementation timeline. However, there is no documented compelling event such as a Magento contract expiration, and the Salesforce 'Compelling Event' field is null. The urgency appears driven more by commercial offer timing and internal portfolio rationalization than by an external forcing function. [2/27 Update] Development is actively in progress but blocked by lack of MSA. Boštjan explicitly stated they will NOT go live without proper contracts. \"We need to settle things for N2 right now.\" April 2026 launch target is real — dev is ahead of commercials.",
+        "supportNeeded": "Payment method feasibility and rate comparison (merchant sent Adyen invoices, needs confirmation on Shopify Payments support and fee comparison). COD checkout replication confidence for Spain, Italy, and Eastern Europe. Address validation solution for Italian and Spanish markets. Entity and billing structure clarification for multi-brand agreement. Technical architecture follow-up and POC support (COD payment customization and checkout subscription toggle feasibility). Smooth AE transition from Yasmine Fazeli to Maissa Fatte. [2/27 Update — CRITICAL] Clarify Adyen viability for sub-50M GMV portfolio. Prepare MSA for NewPure + Alpha Foods + N2. Resolve Alpha Foods entity liquidation/transfer. Complete rate review vs Adyen. Respond to Mario Castillo Navaro email."
       },
       "meddpicc": {
         "metrics": {
@@ -23297,9 +23585,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Is there a compelling event in place driving action?",
-              "answer": "No",
-              "score": 0,
-              "notes": "Salesforce Compelling Event field is null. The February 13th contract deadline was artificially set around AE maternity leave. No external event identified.",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Salesforce Compelling Event field is null. The February 13th contract deadline was artificially set around AE maternity leave. No external event identified. [2/27 UPDATE] N2 development actively in progress, team explicitly stated they will NOT go live without proper contracts. April 2026 hard launch target. Dev ahead of commercials — urgency is real.",
               "solution": "Discover if there is a Magento license renewal, upcoming acquisition, or board-level mandate creating a natural deadline.",
               "action": "Ask Iztok directly: 'Is there a Magento contract renewal or any board-level timeline we should be aware of?'",
               "due": "2026-03-05",
@@ -23332,9 +23620,9 @@ const DEAL_DATA = {
           "questions": [
             {
               "q": "Have I identified the true economic buyer?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "Iztok Hvala (COO) is the primary contact with significant decision authority. However, Vision Healthcare is a buy-and-build portfolio company, suggesting there may be a CEO, CFO, or PE/board-level approver above Iztok. Joost Hunfeld (also COO) has not appeared on any calls.",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Iztok Hvala (COO) is the primary contact with significant decision authority. However, Vision Healthcare is a buy-and-build portfolio company, suggesting there may be a CEO, CFO, or PE/board-level approver above Iztok. Joost Hunfeld (also COO) has not appeared on any calls. [2/27 UPDATE] Iztok confirmed as decision router: \"send me the info and I'll handle it with the C.\" He controls the commercial process.",
               "solution": "Clarify whether Iztok can sign independently or if there's a higher-level approval needed.",
               "action": "Ask Iztok: 'Beyond yourself, who else needs to approve this agreement?' and clarify Joost Hunfeld's role.",
               "due": "2026-03-05",
@@ -23342,12 +23630,12 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we know who's signing the contract?",
-              "answer": "No",
-              "score": 0,
-              "notes": "The billing entity question is still unresolved (New Pure vs. German entity). No clarity on who specifically signs the contract.",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "The billing entity question is still unresolved (New Pure vs. German entity). No clarity on who specifically signs the contract. [2/27 UPDATE] Iztok handles but routes to C-suite. Signatory not yet confirmed explicitly.",
               "solution": "Determine the signing entity and authorized signatory.",
-              "action": "Follow up with Iztok on entity determination and ask who will be the contract signatory.",
-              "due": "2026-03-05",
+              "action": "Confirm exact signatory and C-suite approval requirements when sending MSA.",
+              "due": "2026-03-10",
               "highlight": false
             },
             {
@@ -23382,12 +23670,12 @@ const DEAL_DATA = {
             },
             {
               "q": "Do you know how they make decisions and allocate budget?",
-              "answer": "No",
-              "score": 0,
-              "notes": "No information on formal budget allocation process, fiscal year timing, or how Vision Healthcare makes technology investment decisions at the portfolio level.",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "No information on formal budget allocation process, fiscal year timing, or how Vision Healthcare makes technology investment decisions at the portfolio level. [2/27 UPDATE] Lightweight process — Iztok routes to C-suite. Existing Shopify contracts reduce friction. No formal procurement.",
               "solution": "Understand their budgeting and procurement process for cross-brand technology decisions.",
-              "action": "Ask Iztok about budget cycles and how cross-brand technology investments are typically approved.",
-              "due": "2026-03-08",
+              "action": "Validate whether MSA needs board approval or just C-level sign-off.",
+              "due": "2026-03-10",
               "highlight": false
             }
           ]
@@ -23399,7 +23687,7 @@ const DEAL_DATA = {
               "q": "Do we know how they will be making the decision?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Implicit process: technical validation via N2 POC → commercial agreement → contract signing. No formal process documented.",
+              "notes": "Implicit process: technical validation via N2 POC → commercial agreement → contract signing. No formal process documented. [2/27 UPDATE] Platform decision already made. This is about commercial terms for consolidation.",
               "solution": "Formalize the decision process steps with the buyer.",
               "action": "Propose a mutual action plan outlining: technical validation → commercial alignment → legal/entity setup → signature.",
               "due": "2026-03-05",
@@ -23417,19 +23705,19 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we know when they want to make a decision by?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "Original Feb 13 deadline passed. Current Salesforce close date is March 31. No updated timeline from buyer.",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Original Feb 13 deadline passed. Current Salesforce close date is March 31. No updated timeline from buyer. [2/27 UPDATE] \"We basically need to settle things for N2 right now\" — before April go-live.",
               "solution": "Re-establish a clear decision date with the buyer.",
-              "action": "Confirm with Iztok: 'Are you still targeting a decision this quarter? What needs to happen before you can sign?'",
-              "due": "2026-03-05",
+              "action": "Target MSA proposal within 1-2 weeks.",
+              "due": "2026-03-10",
               "highlight": false
             },
             {
               "q": "Do we know what is driving this timeline?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "N2 Q2 (April) launch target creates natural implementation timeline, but no hard external deadline identified.",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "N2 Q2 (April) launch target creates natural implementation timeline, but no hard external deadline identified. [2/27 UPDATE] April 2026 N2 launch, dev ahead of commercials. Contractual gap is the only blocker.",
               "solution": "Connect the decision timeline to the N2 Q2 launch.",
               "action": "Calculate backwards from Q2 N2 launch to determine latest viable contract signature date.",
               "due": "2026-03-05",
@@ -23457,9 +23745,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Have you validated this process with the buyer?",
-              "answer": "No",
-              "score": 0,
-              "notes": "Decision process has been implied through conversation flow but never formally confirmed.",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Decision process has been implied through conversation flow but never formally confirmed. [2/27 UPDATE] Maissa asked directly about signing process. Iztok confirmed he routes to C-suite.",
               "solution": "Get explicit buyer agreement on the path to close.",
               "action": "Share a written mutual action plan and ask Iztok to confirm or modify.",
               "due": "2026-03-08",
@@ -23494,17 +23782,17 @@ const DEAL_DATA = {
               "q": "Have we surfaced technical complications (integrations)?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Extensive discussion: COD payment customization, greylisting logic, address validation for Italian/Spanish postal systems, checkout subscription toggle, multi-market conditional payment display, Adyen integration.",
+              "notes": "Extensive discussion: COD payment customization, greylisting logic, address validation for Italian/Spanish postal systems, checkout subscription toggle, multi-market conditional payment display, Adyen integration. [2/27 UPDATE] Adyen 50M GMV threshold is critical blocker. Subscription migration, entity transfer, multi-account architecture all surfaced.",
               "solution": "",
-              "action": "",
-              "due": "",
+              "action": "Escalate Adyen question internally ASAP.",
+              "due": "2026-03-07",
               "highlight": false
             },
             {
               "q": "Do we know how payments play into their decision?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Payments discussed in all three calls. Current Adyen processing at ~$180K/month, 0.2% external gateway fee, interest in Shopify Payments rate comparison. Merchant sent Adyen invoices.",
+              "notes": "Payments discussed in all three calls. Current Adyen processing at ~$180K/month, 0.2% external gateway fee, interest in Shopify Payments rate comparison. Merchant sent Adyen invoices. [2/27 UPDATE] Adyen is CENTRAL — longstanding partnership, subscription businesses rely on it. If can't use on Shopify, potential dealbreaker.",
               "solution": "",
               "action": "Complete Shopify Payments vs. Adyen rate comparison and present to merchant.",
               "due": "2026-03-05",
@@ -23512,12 +23800,12 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we have a mutual action plan in place?",
-              "answer": "No",
-              "score": 0,
-              "notes": "No mutual action plan formally created or shared. Process has been ad-hoc.",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "No mutual action plan formally created or shared. Process has been ad-hoc. [2/27 UPDATE] Implicit MAP established: Adyen validation → MSA prep → GMV data → entity resolution → signature. Not formalized.",
               "solution": "Create and share a MAP with clear milestones, owners, and dates.",
-              "action": "Draft a MAP covering: payment comparison → technical validation → entity determination → contract review → signature.",
-              "due": "2026-03-08",
+              "action": "Formalize MAP and share with Iztok/Boštjan.",
+              "due": "2026-03-10",
               "highlight": false
             },
             {
@@ -23634,7 +23922,7 @@ const DEAL_DATA = {
               "q": "Have they tried to resolve this issue in the past?",
               "answer": "Yes",
               "score": 1,
-              "notes": "They tested Shopify with Tummy Talks — checkout was unoptimized and caused significant AOV drop. They reverted/didn't proceed.",
+              "notes": "They tested Shopify with Tummy Talks — checkout was unoptimized and caused significant AOV drop. They reverted/didn't proceed. [2/27 UPDATE] Boštjan confirmed Tammy Talks test on NewPure account: \"quickly tested... but just a short test then pulled back.\"",
               "solution": "",
               "action": "",
               "due": "",
@@ -23707,9 +23995,9 @@ const DEAL_DATA = {
           "questions": [
             {
               "q": "Have you identified a true champion (influence + motivation)?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "Iztok Hvala (COO) shows strong champion characteristics — driving evaluation, deeply engaged, accepted timelines, articulated 'if N2 works, we migrate everything' vision. But ability to push internally is unvalidated.",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Iztok Hvala (COO) shows strong champion characteristics — driving evaluation, deeply engaged, accepted timelines, articulated 'if N2 works, we migrate everything' vision. But ability to push internally is unvalidated. [2/27 UPDATE] Boštjan is operational champion (7yr tenure, \"main man for everything Shopify related\"). Iztok is executive champion (former CEO, COO-level, routes contracts to C-suite).",
               "solution": "Test Iztok's champion qualities by asking him to take internal action.",
               "action": "Ask Iztok to share the mutual action plan with his leadership and confirm alignment.",
               "due": "2026-03-08",
@@ -23717,9 +24005,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Does your champion have political capital and credibility?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "As COO, Iztok presumably has significant credibility. He appears to make technology and vendor decisions. But we don't know his standing with the board or PE firm.",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "As COO, Iztok presumably has significant credibility. He appears to make technology and vendor decisions. But we don't know his standing with the board or PE firm. [2/27 UPDATE] Iztok was CEO of Sensilap pre-acquisition. Boštjan has 7 years tenure, entrusted with group-wide Shopify migration.",
               "solution": "Understand Iztok's internal political position.",
               "action": "Observe whether Iztok can deliver on commitments as a proxy for his organizational influence.",
               "due": "2026-03-15",
@@ -23737,9 +24025,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Are they connected with the key decision makers?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "Iztok is a COO and appears to be a key decision-maker himself. Joost Hunfeld (other COO) listed but hasn't been on calls. Authority structure above Iztok unclear.",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Iztok is a COO and appears to be a key decision-maker himself. Joost Hunfeld (other COO) listed but hasn't been on calls. Authority structure above Iztok unclear. [2/27 UPDATE] Iztok IS a key decision maker and routes to C-suite directly.",
               "solution": "Determine the full authority structure.",
               "action": "Ask Iztok: 'Who else needs to say yes for this to move forward?'",
               "due": "2026-03-05",
@@ -23822,9 +24110,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we know why we would win or lose?",
-              "answer": "No",
-              "score": 0,
-              "notes": "Without knowing who the competition is, cannot assess win/loss drivers beyond Shopify vs. status quo. Key risk is checkout performance gap from Tummy Talks test.",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Without knowing who the competition is, cannot assess win/loss drivers beyond Shopify vs. status quo. Key risk is checkout performance gap from Tummy Talks test. [2/27 UPDATE] Win: platform decision made, 2 brands on Plus, internal team building, strong champions. Lose: Adyen blocker, MSA delays, entity complications.",
               "solution": "Identify competitive threats and differentiation. Focus on beating 'do nothing' by proving checkout parity.",
               "action": "Prepare competitive positioning for N2 POC.",
               "due": "2026-03-12",
@@ -23835,24 +24123,24 @@ const DEAL_DATA = {
       },
       "scores": {
         "Metrics": {
+          "score": 5,
+          "max": 7,
+          "pct": 71
+        },
+        "Economic Buyer": {
+          "score": 4,
+          "max": 6,
+          "pct": 67
+        },
+        "Decision Process": {
+          "score": 5,
+          "max": 7,
+          "pct": 71
+        },
+        "Decision Criteria": {
           "score": 4,
           "max": 7,
           "pct": 57
-        },
-        "Economic Buyer": {
-          "score": 2.5,
-          "max": 6,
-          "pct": 42
-        },
-        "Decision Process": {
-          "score": 3.5,
-          "max": 7,
-          "pct": 50
-        },
-        "Decision Criteria": {
-          "score": 3.5,
-          "max": 7,
-          "pct": 50
         },
         "Paper Process": {
           "score": 1,
@@ -23865,20 +24153,20 @@ const DEAL_DATA = {
           "pct": 69
         },
         "Champion": {
-          "score": 3,
+          "score": 4.5,
           "max": 7,
-          "pct": 43
+          "pct": 64
         },
         "Competition": {
-          "score": 1,
+          "score": 2,
           "max": 5,
-          "pct": 20
+          "pct": 40
         },
         "_total": {
-          "score": 24,
+          "score": 31,
           "max": 54,
-          "pct": 44,
-          "status": "at-risk"
+          "pct": 57,
+          "status": "on-track"
         }
       },
       "nextSteps": [
@@ -23899,296 +24187,240 @@ const DEAL_DATA = {
         {
           "p": 3,
           "cat": "Metrics",
-          "issue": "Salesforce Compelling Event field is null. The February 13th contract deadline was artificially set around AE maternity leave. No external event identified.",
-          "rec": "Ask Iztok directly: 'Is there a Magento contract renewal or any board-level timeline we should be aware of?'",
-          "due": "2026-03-05"
-        },
-        {
-          "p": 4,
-          "cat": "Metrics",
           "issue": "Metrics around checkout performance (AOV, conversion) discussed extensively. No formal mutual agreement on specific KPIs.",
           "rec": "Draft a 1-page POC success criteria doc and share with Iztok for validation.",
           "due": "2026-03-10"
         },
         {
-          "p": 5,
+          "p": 4,
           "cat": "Metrics",
           "issue": "The checkout performance concern is clearly compelling enough. But without quantified goals and cost-of-inaction, the full 'justify change' narrative isn't locked in.",
           "rec": "Prepare a lightweight business case comparing current multi-platform TCO vs. consolidated Shopify Plus costs.",
           "due": "2026-03-12"
         },
         {
+          "p": 5,
+          "cat": "Economic Buyer",
+          "issue": "The billing entity question is still unresolved (New Pure vs. German entity). No clarity on who specifically signs the contract. [2/27 UPDATE] Iztok handles but routes to C-suite. Signatory not yet confirmed explicitly.",
+          "rec": "Confirm exact signatory and C-suite approval requirements when sending MSA.",
+          "due": "2026-03-10"
+        },
+        {
           "p": 6,
-          "cat": "Economic Buyer",
-          "issue": "Iztok Hvala (COO) is the primary contact with significant decision authority. However, Vision Healthcare is a buy-and-build portfolio company, suggesting there may be a CEO, CFO, or PE/board-level approver above Iztok. Joost Hunfeld (also COO) has not appeared on any calls.",
-          "rec": "Ask Iztok: 'Beyond yourself, who else needs to approve this agreement?' and clarify Joost Hunfeld's role.",
-          "due": "2026-03-05"
-        },
-        {
-          "p": 7,
-          "cat": "Economic Buyer",
-          "issue": "The billing entity question is still unresolved (New Pure vs. German entity). No clarity on who specifically signs the contract.",
-          "rec": "Follow up with Iztok on entity determination and ask who will be the contract signatory.",
-          "due": "2026-03-05"
-        },
-        {
-          "p": 8,
           "cat": "Economic Buyer",
           "issue": "We have access to Iztok (COO) and Boštjan (Head of IT), but not to Joost Hunfeld (other COO) or any higher-level decision-maker.",
           "rec": "Ask Iztok to introduce Maissa to Joost Hunfeld and any other stakeholders.",
           "due": "2026-03-08"
         },
         {
-          "p": 9,
+          "p": 7,
           "cat": "Economic Buyer",
           "issue": "Iztok cares about: checkout performance matching Magento, payment cost optimization, multi-brand operational efficiency, risk-free migration via POC approach. But we don't know what the ultimate economic buyer (if above Iztok) cares about.",
           "rec": "Ask Iztok what metrics or outcomes his leadership/board would need to see to approve a full portfolio migration.",
           "due": "2026-03-08"
         },
         {
-          "p": 10,
+          "p": 8,
           "cat": "Economic Buyer",
-          "issue": "No information on formal budget allocation process, fiscal year timing, or how Vision Healthcare makes technology investment decisions at the portfolio level.",
-          "rec": "Ask Iztok about budget cycles and how cross-brand technology investments are typically approved.",
-          "due": "2026-03-08"
+          "issue": "No information on formal budget allocation process, fiscal year timing, or how Vision Healthcare makes technology investment decisions at the portfolio level. [2/27 UPDATE] Lightweight process — Iztok routes to C-suite. Existing Shopify contracts reduce friction. No formal procurement.",
+          "rec": "Validate whether MSA needs board approval or just C-level sign-off.",
+          "due": "2026-03-10"
         },
         {
-          "p": 11,
+          "p": 9,
           "cat": "Decision Process",
-          "issue": "Implicit process: technical validation via N2 POC → commercial agreement → contract signing. No formal process documented.",
+          "issue": "Implicit process: technical validation via N2 POC → commercial agreement → contract signing. No formal process documented. [2/27 UPDATE] Platform decision already made. This is about commercial terms for consolidation.",
           "rec": "Propose a mutual action plan outlining: technical validation → commercial alignment → legal/entity setup → signature.",
           "due": "2026-03-05"
         },
         {
-          "p": 12,
+          "p": 10,
           "cat": "Decision Process",
           "issue": "Known: Iztok Hvala (COO), Boštjan Knez (Head of IT). Joost Hunfeld not on calls. No visibility into legal, finance, or PE-level involvement.",
           "rec": "Ask Iztok to confirm all stakeholders involved in contract review and approval.",
           "due": "2026-03-05"
         },
         {
-          "p": 13,
-          "cat": "Decision Process",
-          "issue": "Original Feb 13 deadline passed. Current Salesforce close date is March 31. No updated timeline from buyer.",
-          "rec": "Confirm with Iztok: 'Are you still targeting a decision this quarter? What needs to happen before you can sign?'",
-          "due": "2026-03-05"
-        },
-        {
-          "p": 14,
-          "cat": "Decision Process",
-          "issue": "N2 Q2 (April) launch target creates natural implementation timeline, but no hard external deadline identified.",
-          "rec": "Calculate backwards from Q2 N2 launch to determine latest viable contract signature date.",
-          "due": "2026-03-05"
-        },
-        {
-          "p": 15,
+          "p": 11,
           "cat": "Decision Process",
           "issue": "Implied: continued fragmented stack, ongoing Magento dev costs, unresolved Shopify license breach. Not explicitly stated.",
           "rec": "Ask Iztok: 'What happens if this decision gets pushed to Q3 or later?'",
           "due": "2026-03-05"
         },
         {
-          "p": 16,
+          "p": 12,
           "cat": "Decision Process",
-          "issue": "Decision process has been implied through conversation flow but never formally confirmed.",
+          "issue": "Decision process has been implied through conversation flow but never formally confirmed. [2/27 UPDATE] Maissa asked directly about signing process. Iztok confirmed he routes to C-suite.",
           "rec": "Share a written mutual action plan and ask Iztok to confirm or modify.",
           "due": "2026-03-08"
         },
         {
-          "p": 17,
+          "p": 13,
           "cat": "Decision Criteria",
           "issue": "Key criteria surfaced: checkout performance matching Magento AOV/conversion, COD support, payment cost competitiveness vs Adyen, multi-brand pricing, address validation. No formal list from buyer.",
           "rec": "Ask Iztok: 'Beyond checkout performance and payment costs, what other factors will drive your final decision?'",
           "due": "2026-03-08"
         },
         {
-          "p": 18,
+          "p": 14,
           "cat": "Decision Criteria",
           "issue": "D2C capabilities discussed extensively. B2B and retail not discussed — Salesforce shows null B2B/Retail GMV.",
           "rec": "Ask Iztok if any brands have B2B or retail needs beyond D2C.",
           "due": "2026-03-08"
         },
         {
-          "p": 19,
+          "p": 15,
           "cat": "Decision Criteria",
-          "issue": "No mutual action plan formally created or shared. Process has been ad-hoc.",
-          "rec": "Draft a MAP covering: payment comparison → technical validation → entity determination → contract review → signature.",
-          "due": "2026-03-08"
+          "issue": "No mutual action plan formally created or shared. Process has been ad-hoc. [2/27 UPDATE] Implicit MAP established: Adyen validation → MSA prep → GMV data → entity resolution → signature. Not formalized.",
+          "rec": "Formalize MAP and share with Iztok/Boštjan.",
+          "due": "2026-03-10"
         },
         {
-          "p": 20,
+          "p": 16,
           "cat": "Decision Criteria",
           "issue": "Ben demonstrated Shopify's native capabilities. MSA structure was Shopify's proposal. No evidence of proactively shaping criteria vs. a competitor.",
           "rec": "Prepare a 'Why Shopify for multi-brand portfolios' positioning document.",
           "due": "2026-03-12"
         },
         {
-          "p": 21,
+          "p": 17,
           "cat": "Decision Criteria",
           "issue": "Unclear whether the criteria came from Iztok, Boštjan, a consultant, or a formal RFP process.",
           "rec": "Ask Iztok: 'Did you develop these requirements internally, or is there a broader evaluation framework involved?'",
           "due": "2026-03-08"
         },
         {
-          "p": 22,
+          "p": 18,
           "cat": "Paper Process",
           "issue": "No discussion of procurement process, legal review, or how contracts flow through Vision Healthcare. Entity question unresolved.",
           "rec": "Ask Iztok about internal contract approval process, reviewers, and typical timelines.",
           "due": "2026-03-05"
         },
         {
-          "p": 23,
+          "p": 19,
           "cat": "Paper Process",
           "issue": "Multi-entity portfolio company likely with PE backing — redlines on 3-year commitment probable. Existing contract breach introduces legal complexity.",
           "rec": "Flag to Shopify legal that this is a multi-entity deal with existing contract breach requiring resolution.",
           "due": "2026-03-05"
         },
         {
-          "p": 24,
+          "p": 20,
           "cat": "Paper Process",
           "issue": "No information on legal review timelines.",
           "rec": "Ask Iztok how long legal/contract reviews typically take at Vision Healthcare.",
           "due": "2026-03-08"
         },
         {
-          "p": 25,
+          "p": 21,
           "cat": "Paper Process",
           "issue": "Original Feb 13 deadline passed. No updated timeline for contract completion.",
           "rec": "Align on a new target signature date working back from Q2 N2 launch.",
           "due": "2026-03-05"
         },
         {
-          "p": 26,
+          "p": 22,
           "cat": "Paper Process",
           "issue": "Commercial terms discussed in Call 3: 3-year term, $8,280/month for 4 brands, consolidated MSA. But contract hasn't been drafted or shared.",
           "rec": "Generate the contract based on agreed terms and send for review.",
           "due": "2026-03-08"
         },
         {
-          "p": 27,
+          "p": 23,
           "cat": "Paper Process",
           "issue": "Contract has not been sent. Commercial terms discussed verbally only.",
           "rec": "Prepare and send the MSA/contract to Iztok once entity determination is confirmed.",
           "due": "2026-03-10"
         },
         {
-          "p": 28,
+          "p": 24,
           "cat": "Paper Process",
           "issue": "Original Feb 13 target passed. No new target date established. Salesforce close date March 31 appears to be internal target only.",
           "rec": "Propose a signature target date tied to N2 Q2 launch requirements.",
           "due": "2026-03-05"
         },
         {
-          "p": 29,
+          "p": 25,
           "cat": "Identify Pain",
           "issue": "IT team (Boštjan, 4 Magento devs) and COO (Iztok) are clearly affected. Marketing, finance, and other team impacts not discussed.",
           "rec": "Ask about how the fragmented stack affects marketing, finance, and operations teams.",
           "due": "2026-03-12"
         },
         {
-          "p": 30,
+          "p": 26,
           "cat": "Identify Pain",
           "issue": "Urgency around N2 Q2 launch target, but broader consolidation doesn't have a hard deadline. Iztok is motivated but not under visible external pressure.",
           "rec": "Ask Iztok if there's a board-level timeline or cost reduction target driving the consolidation.",
           "due": "2026-03-08"
         },
         {
-          "p": 31,
+          "p": 27,
           "cat": "Identify Pain",
           "issue": "Could stay on Magento (status quo). CommerceTools is in their stack but not discussed as a consolidation option. No other platforms mentioned.",
           "rec": "Ask directly: 'Are you evaluating any other platform besides Shopify for this consolidation?'",
           "due": "2026-03-05"
         },
         {
-          "p": 32,
+          "p": 28,
           "cat": "Identify Pain",
           "issue": "The 'now' is driven by N2 needing a platform and the consolidation opportunity. Not a hard external event.",
           "rec": "Help Iztok calculate: 'Every month you delay saves/costs $X in dev costs, payment fees, and launch velocity.'",
           "due": "2026-03-12"
         },
         {
-          "p": 33,
+          "p": 29,
           "cat": "Identify Pain",
           "issue": "Shopify's multi-brand MSA, checkout extensibility, and platform breadth position it well. But Tummy Talks AOV drop and COD complexity show this is conditional on proving the checkout can perform.",
           "rec": "Create a POC requirements checklist mapping each Magento feature to its Shopify solution.",
           "due": "2026-03-10"
         },
         {
-          "p": 34,
-          "cat": "Champion",
-          "issue": "Iztok Hvala (COO) shows strong champion characteristics — driving evaluation, deeply engaged, accepted timelines, articulated 'if N2 works, we migrate everything' vision. But ability to push internally is unvalidated.",
-          "rec": "Ask Iztok to share the mutual action plan with his leadership and confirm alignment.",
-          "due": "2026-03-08"
-        },
-        {
-          "p": 35,
-          "cat": "Champion",
-          "issue": "As COO, Iztok presumably has significant credibility. He appears to make technology and vendor decisions. But we don't know his standing with the board or PE firm.",
-          "rec": "Observe whether Iztok can deliver on commitments as a proxy for his organizational influence.",
-          "due": "2026-03-15"
-        },
-        {
-          "p": 36,
-          "cat": "Champion",
-          "issue": "Iztok is a COO and appears to be a key decision-maker himself. Joost Hunfeld (other COO) listed but hasn't been on calls. Authority structure above Iztok unclear.",
-          "rec": "Ask Iztok: 'Who else needs to say yes for this to move forward?'",
-          "due": "2026-03-05"
-        },
-        {
-          "p": 37,
+          "p": 30,
           "cat": "Champion",
           "issue": "We have not been introduced to any decision-maker beyond Iztok and Boštjan. Joost Hunfeld has not been on calls.",
           "rec": "Ask Iztok: 'Should we include Joost Hunfeld or anyone else in our next discussion?'",
           "due": "2026-03-05"
         },
         {
-          "p": 38,
+          "p": 31,
           "cat": "Champion",
           "issue": "No evidence of Iztok offering to bring Shopify into a board meeting or internal stakeholder discussion.",
           "rec": "Offer to prepare materials Iztok could present internally, or join an internal stakeholder meeting.",
           "due": "2026-03-10"
         },
         {
-          "p": 39,
+          "p": 32,
           "cat": "Champion",
           "issue": "Iztok appears motivated by: reducing tech stack complexity, proving a scalable platform for future acquisitions, optimizing payment costs, enabling faster brand launches. Personal career incentive likely aligns.",
           "rec": "In a 1:1 moment, ask Iztok: 'What does a successful outcome here look like for you personally?'",
           "due": "2026-03-08"
         },
         {
-          "p": 40,
+          "p": 33,
           "cat": "Competition",
           "issue": "Salesforce Competitor field is null. No competitors mentioned in any calls. Evaluation appears to be Shopify vs. status quo (Magento).",
           "rec": "Ask Iztok: 'Beyond Shopify and staying on Magento, are you evaluating any other platforms?'",
           "due": "2026-03-05"
         },
         {
-          "p": 41,
+          "p": 34,
           "cat": "Competition",
           "issue": "Staying on Magento is implicitly an option — they have 4 developers and it works. The POC approach formalizes 'prove it before we commit.'",
           "rec": "Build a TCO comparison: current Magento multi-platform costs vs. consolidated Shopify costs over 3 years.",
           "due": "2026-03-12"
         },
         {
-          "p": 42,
+          "p": 35,
           "cat": "Competition",
           "issue": "CommerceTools is already in their tech stack but was never discussed as a consolidation option.",
           "rec": "Ask: 'You have some brands on CommerceTools — was that considered as a consolidation platform?'",
           "due": "2026-03-05"
         },
         {
-          "p": 43,
+          "p": 36,
           "cat": "Competition",
           "issue": "No discussion of why specific alternatives are or aren't being evaluated.",
           "rec": "Ask Iztok what led them to focus on Shopify specifically for consolidation vs. other options.",
           "due": "2026-03-05"
-        },
-        {
-          "p": 44,
-          "cat": "Competition",
-          "issue": "Without knowing who the competition is, cannot assess win/loss drivers beyond Shopify vs. status quo. Key risk is checkout performance gap from Tummy Talks test.",
-          "rec": "Prepare competitive positioning for N2 POC.",
-          "due": "2026-03-12"
         }
       ],
       "stakeholders": [
@@ -24219,6 +24451,22 @@ const DEAL_DATA = {
         }
       ],
       "calls": [
+        {
+          "id": "6jfqifadb8gda118ffj2d2lulh",
+          "title": "Shopify X Vision Healthcare",
+          "date": "2026-02-27",
+          "duration": 25,
+          "platform": "google_meet",
+          "hasTranscript": true,
+          "shopifyAttendees": [
+            "Maissa Fatte"
+          ],
+          "merchantAttendees": [
+            "Bostjan Knez",
+            "Iztok Hvala"
+          ],
+          "summary": "AE transition call - Maissa Fatte first call with merchant. Reviewed N2 Natural Nutrition as POC brand with April 2026 launch target. Clarified MSA structure (NewPure + Alpha Foods + N2). Surfaced Adyen 50M GMV threshold as potential blocker. Alpha Foods entity liquidation issue discussed. Iztok confirmed he handles contract routing to C-suite. N2 GMV updated to €1.5M for 2025."
+        },
         {
           "date": "2025-12-11",
           "title": "",
@@ -24295,9 +24543,65 @@ const DEAL_DATA = {
             "Competition": 1
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-02",
+          "totalScore": 31,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 4,
+            "Decision Process": 5,
+            "Decision Criteria": 4,
+            "Paper Process": 1,
+            "Identify Pain": 5.5,
+            "Champion": 4.5,
+            "Competition": 2
+          },
+          "changes": [
+            "Score improved by 7 points",
+            "Metrics: improved (4 → 5)",
+            "Economic Buyer: improved (2.5 → 4)",
+            "Decision Process: improved (3.5 → 5)",
+            "Decision Criteria: improved (3.5 → 4)",
+            "Champion: improved (3 → 4.5)",
+            "Competition: improved (1 → 2)"
+          ]
         }
       ],
-      "dealRisks": [],
+      "dealRisks": [
+        {
+          "severity": "high",
+          "title": "Adyen 50M GMV Threshold",
+          "detail": "N2 is €1.5M GMV. Even full portfolio may not reach 50M. Iztok believes Yasmine promised an exception. If Shopify cannot deliver, subscription-heavy brands may not migrate.",
+          "source": "call-2026-02-27"
+        },
+        {
+          "severity": "medium",
+          "title": "Expectation Gap (Yasmine Promises)",
+          "detail": "Iztok referenced commitments from Yasmine (Adyen exception, rate review) that Maissa has not validated. Trust erosion risk.",
+          "source": "call-2026-02-27"
+        },
+        {
+          "severity": "medium",
+          "title": "MSA Blocking Go-Live",
+          "detail": "Development is ahead of commercials. If MSA not in place by late March, April N2 launch at risk. Merchant explicitly will NOT go live without contracts.",
+          "source": "call-2026-02-27"
+        },
+        {
+          "severity": "low",
+          "title": "Alpha Foods Entity Liquidation",
+          "detail": "Existing Plus account may need entity transfer. Unclear Shopify process.",
+          "source": "call-2026-02-27"
+        },
+        {
+          "severity": "low",
+          "title": "AE Transition Knowledge Gap",
+          "detail": "Maissa ramping up, needs to validate prior commitments before responding.",
+          "source": "call-2026-02-27"
+        }
+      ],
       "dealUndercurrent": {
         "lastUpdated": "2026-02-26",
         "sourceCallCount": 3,
@@ -24346,7 +24650,7 @@ const DEAL_DATA = {
             "milestone": "Initial discovery & intro calls",
             "ownerMerchant": "Iztok Hvala",
             "ownerShopify": "Maissa",
-            "notes": "3 calls completed"
+            "notes": "4 calls completed"
           },
           {
             "date": "",
@@ -24384,7 +24688,7 @@ const DEAL_DATA = {
           },
           {
             "date": "",
-            "done": false,
+            "done": true,
             "milestone": "Confirm economic buyer & signing authority",
             "ownerMerchant": "",
             "ownerShopify": "Maissa",
@@ -24494,27 +24798,27 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-02-27",
+          "date": "2026-03-02",
           "sections": {
             "Metrics": {
+              "score": 5,
+              "max": 7,
+              "pct": 71
+            },
+            "Economic Buyer": {
+              "score": 4,
+              "max": 6,
+              "pct": 67
+            },
+            "Decision Process": {
+              "score": 5,
+              "max": 7,
+              "pct": 71
+            },
+            "Decision Criteria": {
               "score": 4,
               "max": 7,
               "pct": 57
-            },
-            "Economic Buyer": {
-              "score": 2.5,
-              "max": 6,
-              "pct": 42
-            },
-            "Decision Process": {
-              "score": 3.5,
-              "max": 7,
-              "pct": 50
-            },
-            "Decision Criteria": {
-              "score": 3.5,
-              "max": 7,
-              "pct": 50
             },
             "Paper Process": {
               "score": 1,
@@ -24527,14 +24831,14 @@ const DEAL_DATA = {
               "pct": 69
             },
             "Champion": {
-              "score": 3,
+              "score": 4.5,
               "max": 7,
-              "pct": 43
+              "pct": 64
             },
             "Competition": {
-              "score": 1,
+              "score": 2,
               "max": 5,
-              "pct": 20
+              "pct": 40
             }
           }
         }
