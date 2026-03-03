@@ -157,6 +157,28 @@
         "Competition": 5
       },
       "changes": []
+    },
+    {
+      "date": "2026-03-03",
+      "totalScore": 41,
+      "totalMax": 54,
+      "status": "good-health",
+      "sectionScores": {
+        "Metrics": 5,
+        "Economic Buyer": 5,
+        "Decision Process": 5.5,
+        "Decision Criteria": 5,
+        "Paper Process": 2,
+        "Identify Pain": 7.5,
+        "Champion": 6,
+        "Competition": 5
+      },
+      "changes": [
+        "Score declined by 2.5 points",
+        "Metrics: declined (6.5 → 5)",
+        "Decision Process: declined (6 → 5.5)",
+        "Identify Pain: declined (8 → 7.5)"
+      ]
     }
   ],
   "0068V0000113rSIQAY": [
@@ -282,6 +304,27 @@
         "Competition": 3.5
       },
       "changes": []
+    },
+    {
+      "date": "2026-03-03",
+      "totalScore": 30,
+      "totalMax": 54,
+      "status": "on-track",
+      "sectionScores": {
+        "Metrics": 5.5,
+        "Economic Buyer": 2.5,
+        "Decision Process": 3,
+        "Decision Criteria": 3.5,
+        "Paper Process": 2,
+        "Identify Pain": 6.5,
+        "Champion": 3.5,
+        "Competition": 3.5
+      },
+      "changes": [
+        "Score declined by 2.5 points",
+        "Decision Process: declined (4 → 3)",
+        "Paper Process: declined (3.5 → 2)"
+      ]
     }
   ],
   "006OG00000EZIy6YAH": [
@@ -392,6 +435,23 @@
     },
     {
       "date": "2026-03-02",
+      "totalScore": 36,
+      "totalMax": 54,
+      "status": "on-track",
+      "sectionScores": {
+        "Metrics": 6,
+        "Economic Buyer": 4,
+        "Decision Process": 4.5,
+        "Decision Criteria": 4,
+        "Paper Process": 1,
+        "Identify Pain": 7,
+        "Champion": 6.5,
+        "Competition": 3
+      },
+      "changes": []
+    },
+    {
+      "date": "2026-03-03",
       "totalScore": 36,
       "totalMax": 54,
       "status": "on-track",
@@ -532,6 +592,27 @@
         "Competition": 4
       },
       "changes": []
+    },
+    {
+      "date": "2026-03-03",
+      "totalScore": 38.5,
+      "totalMax": 54,
+      "status": "on-track",
+      "sectionScores": {
+        "Metrics": 5.5,
+        "Economic Buyer": 3.5,
+        "Decision Process": 4.5,
+        "Decision Criteria": 5.5,
+        "Paper Process": 4,
+        "Identify Pain": 6,
+        "Champion": 5.5,
+        "Competition": 4
+      },
+      "changes": [
+        "Score improved by 1 points",
+        "Economic Buyer: improved (3 → 3.5)",
+        "Decision Criteria: improved (5 → 5.5)"
+      ]
     }
   ],
   "006OG00000CRabaYAD": [
@@ -639,6 +720,23 @@
     },
     {
       "date": "2026-03-02",
+      "totalScore": 34.5,
+      "totalMax": 54,
+      "status": "on-track",
+      "sectionScores": {
+        "Metrics": 5.5,
+        "Economic Buyer": 3,
+        "Decision Process": 5,
+        "Decision Criteria": 3.5,
+        "Paper Process": 4.5,
+        "Identify Pain": 6.5,
+        "Champion": 4,
+        "Competition": 2.5
+      },
+      "changes": []
+    },
+    {
+      "date": "2026-03-03",
       "totalScore": 34.5,
       "totalMax": 54,
       "status": "on-track",
@@ -777,6 +875,26 @@
         "Competition": 4
       },
       "changes": []
+    },
+    {
+      "date": "2026-03-03",
+      "totalScore": 44.5,
+      "totalMax": 54,
+      "status": "good-health",
+      "sectionScores": {
+        "Metrics": 5.5,
+        "Economic Buyer": 4,
+        "Decision Process": 7,
+        "Decision Criteria": 5,
+        "Paper Process": 6,
+        "Identify Pain": 7,
+        "Champion": 5.5,
+        "Competition": 4.5
+      },
+      "changes": [
+        "Score improved by 0.5 points",
+        "Competition: improved (4 → 4.5)"
+      ]
     }
   ],
   "006OG00000HtxKFYAZ": [
@@ -898,6 +1016,23 @@
         "Competition": 3.5
       },
       "changes": []
+    },
+    {
+      "date": "2026-03-03",
+      "totalScore": 29,
+      "totalMax": 54,
+      "status": "on-track",
+      "sectionScores": {
+        "Metrics": 4.5,
+        "Economic Buyer": 2.5,
+        "Decision Process": 3.5,
+        "Decision Criteria": 3.5,
+        "Paper Process": 3,
+        "Identify Pain": 4,
+        "Champion": 4.5,
+        "Competition": 3.5
+      },
+      "changes": []
     }
   ],
   "0068V0000113peWQAQ": [
@@ -1005,6 +1140,23 @@
     },
     {
       "date": "2026-03-02",
+      "totalScore": 31,
+      "totalMax": 54,
+      "status": "on-track",
+      "sectionScores": {
+        "Metrics": 5.5,
+        "Economic Buyer": 4.5,
+        "Decision Process": 4.5,
+        "Decision Criteria": 3.5,
+        "Paper Process": 0.5,
+        "Identify Pain": 6,
+        "Champion": 4.5,
+        "Competition": 2
+      },
+      "changes": []
+    },
+    {
+      "date": "2026-03-03",
       "totalScore": 31,
       "totalMax": 54,
       "status": "on-track",
@@ -1143,6 +1295,23 @@
         "Competition": 2.5
       },
       "changes": []
+    },
+    {
+      "date": "2026-03-03",
+      "totalScore": 32,
+      "totalMax": 54,
+      "status": "on-track",
+      "sectionScores": {
+        "Metrics": 5,
+        "Economic Buyer": 3,
+        "Decision Process": 4,
+        "Decision Criteria": 4.5,
+        "Paper Process": 1,
+        "Identify Pain": 6.5,
+        "Champion": 5.5,
+        "Competition": 2.5
+      },
+      "changes": []
     }
   ],
   "006OG00000FHHAHYA5": [
@@ -1267,6 +1436,26 @@
         "Competition": 3
       },
       "changes": []
+    },
+    {
+      "date": "2026-03-03",
+      "totalScore": 29.5,
+      "totalMax": 54,
+      "status": "on-track",
+      "sectionScores": {
+        "Metrics": 5.5,
+        "Economic Buyer": 3,
+        "Decision Process": 4,
+        "Decision Criteria": 3.5,
+        "Paper Process": 0.5,
+        "Identify Pain": 5.5,
+        "Champion": 4,
+        "Competition": 3.5
+      },
+      "changes": [
+        "Score improved by 0.5 points",
+        "Competition: improved (3 → 3.5)"
+      ]
     }
   ],
   "006OG00000Fbj8nYAB": [
@@ -1388,6 +1577,26 @@
         "Competition": 0
       },
       "changes": []
+    },
+    {
+      "date": "2026-03-03",
+      "totalScore": 22.5,
+      "totalMax": 54,
+      "status": "at-risk",
+      "sectionScores": {
+        "Metrics": 5,
+        "Economic Buyer": 2,
+        "Decision Process": 4,
+        "Decision Criteria": 2.5,
+        "Paper Process": 0.5,
+        "Identify Pain": 5,
+        "Champion": 3,
+        "Competition": 0.5
+      },
+      "changes": [
+        "Score improved by 0.5 points",
+        "Competition: improved (0 → 0.5)"
+      ]
     }
   ],
   "006OG00000FYX8zYAH": [
@@ -1498,6 +1707,23 @@
     },
     {
       "date": "2026-03-02",
+      "totalScore": 41,
+      "totalMax": 54,
+      "status": "good-health",
+      "sectionScores": {
+        "Metrics": 5.5,
+        "Economic Buyer": 5,
+        "Decision Process": 5.5,
+        "Decision Criteria": 4.5,
+        "Paper Process": 4,
+        "Identify Pain": 7.5,
+        "Champion": 6.5,
+        "Competition": 2.5
+      },
+      "changes": []
+    },
+    {
+      "date": "2026-03-03",
       "totalScore": 41,
       "totalMax": 54,
       "status": "good-health",
@@ -1668,6 +1894,23 @@
         "Competition": 2.5
       },
       "changes": []
+    },
+    {
+      "date": "2026-03-03",
+      "totalScore": 28.5,
+      "totalMax": 54,
+      "status": "on-track",
+      "sectionScores": {
+        "Metrics": 3,
+        "Economic Buyer": 3.5,
+        "Decision Process": 4.5,
+        "Decision Criteria": 3,
+        "Paper Process": 1.5,
+        "Identify Pain": 5.5,
+        "Champion": 5,
+        "Competition": 2.5
+      },
+      "changes": []
     }
   ],
   "006OG00000KW83lYAD": [
@@ -1779,6 +2022,23 @@
     },
     {
       "date": "2026-03-02",
+      "totalScore": 28,
+      "totalMax": 54,
+      "status": "on-track",
+      "sectionScores": {
+        "Metrics": 5,
+        "Economic Buyer": 2,
+        "Decision Process": 4.5,
+        "Decision Criteria": 2,
+        "Paper Process": 2.5,
+        "Identify Pain": 6,
+        "Champion": 4.5,
+        "Competition": 1.5
+      },
+      "changes": []
+    },
+    {
+      "date": "2026-03-03",
       "totalScore": 28,
       "totalMax": 54,
       "status": "on-track",
@@ -1937,6 +2197,23 @@
         "Competition": 2
       },
       "changes": []
+    },
+    {
+      "date": "2026-03-03",
+      "totalScore": 30.5,
+      "totalMax": 54,
+      "status": "on-track",
+      "sectionScores": {
+        "Metrics": 6,
+        "Economic Buyer": 2,
+        "Decision Process": 5,
+        "Decision Criteria": 4,
+        "Paper Process": 1,
+        "Identify Pain": 6.5,
+        "Champion": 4,
+        "Competition": 2
+      },
+      "changes": []
     }
   ],
   "006OG00000KOC4YYAX": [
@@ -2017,6 +2294,23 @@
         "Competition": 1
       },
       "changes": []
+    },
+    {
+      "date": "2026-03-03",
+      "totalScore": 25,
+      "totalMax": 54,
+      "status": "at-risk",
+      "sectionScores": {
+        "Metrics": 4,
+        "Economic Buyer": 2,
+        "Decision Process": 3,
+        "Decision Criteria": 4,
+        "Paper Process": 0.5,
+        "Identify Pain": 5.5,
+        "Champion": 5,
+        "Competition": 1
+      },
+      "changes": []
     }
   ],
   "006OG00000J4JtxYAF": [
@@ -2078,6 +2372,23 @@
         "Champion: improved (3 → 4.5)",
         "Competition: improved (1 → 2)"
       ]
+    },
+    {
+      "date": "2026-03-03",
+      "totalScore": 31,
+      "totalMax": 54,
+      "status": "on-track",
+      "sectionScores": {
+        "Metrics": 5,
+        "Economic Buyer": 4,
+        "Decision Process": 5,
+        "Decision Criteria": 4,
+        "Paper Process": 1,
+        "Identify Pain": 5.5,
+        "Champion": 4.5,
+        "Competition": 2
+      },
+      "changes": []
     }
   ]
 }

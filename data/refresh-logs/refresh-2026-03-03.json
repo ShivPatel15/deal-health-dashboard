@@ -1,0 +1,118 @@
+{
+  "date": "2026-03-03",
+  "started": "2026-03-03T08:05:18.263Z",
+  "finished": "2026-03-03T08:12:10.778Z",
+  "totalOpportunities": 17,
+  "processed": 17,
+  "results": {
+    "006OG00000CRabaYAD": {
+      "accountName": "Mulberry Company (Sales) Limited",
+      "status": "no-change",
+      "details": "No SF changes, no new calls",
+      "timestamp": "2026-03-03T08:05:18.263Z"
+    },
+    "006OG00000HnVs8YAF": {
+      "accountName": "Wacoal Europe",
+      "status": "no-change",
+      "details": "No SF changes, no new calls",
+      "timestamp": "2026-03-03T08:05:18.317Z"
+    },
+    "006OG00000FHHAHYA5": {
+      "accountName": "OLIVER BONAS LIMITED",
+      "status": "no-change",
+      "details": "No SF changes, no new calls",
+      "timestamp": "2026-03-03T08:05:18.365Z"
+    },
+    "006OG00000FYX8zYAH": {
+      "accountName": "Hawes & Curtis Limited",
+      "status": "no-change",
+      "details": "No SF changes, no new calls",
+      "timestamp": "2026-03-03T08:05:18.413Z"
+    },
+    "006OG00000KW83lYAD": {
+      "accountName": "C.P. Hart & Sons Limited",
+      "status": "no-change",
+      "details": "No SF changes, no new calls",
+      "timestamp": "2026-03-03T08:05:18.460Z"
+    },
+    "006OG00000HtxKFYAZ": {
+      "accountName": "Sofa.Com Ltd",
+      "status": "no-change",
+      "details": "Minor revenue rounding only (<)",
+      "timestamp": "2026-03-03T08:06:19.945Z"
+    },
+    "006OG00000JUPVtYAP": {
+      "accountName": "Mint Velvet",
+      "status": "no-change",
+      "details": "Minor revenue rounding only (<)",
+      "timestamp": "2026-03-03T08:06:20.001Z"
+    },
+    "006OG00000Dh2YXYAZ": {
+      "accountName": "Bugaboo International B.V",
+      "status": "no-change",
+      "details": "Minor NextStep whitespace diff only",
+      "timestamp": "2026-03-03T08:06:20.068Z"
+    },
+    "006OG00000KOC4YYAX": {
+      "accountName": "Moss Bros. Group Ltd",
+      "status": "no-change",
+      "details": "Minor NextStep whitespace diff only",
+      "timestamp": "2026-03-03T08:06:20.120Z"
+    },
+    "0068V0000113rSIQAY": {
+      "accountName": "Moda in Pelle",
+      "status": "sf-only",
+      "details": "NextStep changed: rates being revoked, deadline Friday. Score 32.5→30 (PP-3, DP-2 downgrades)",
+      "timestamp": "2026-03-03T08:11:59.526Z"
+    },
+    "006OG00000EZIy6YAH": {
+      "accountName": "Whittard of Chelsea",
+      "status": "sf-only",
+      "details": "MerchantIntent→Committed, revenue up. No score change (already at max for affected questions)",
+      "timestamp": "2026-03-03T08:11:59.578Z"
+    },
+    "006OG00000GJ5IvYAL": {
+      "accountName": "The Dune Group",
+      "status": "sf-only",
+      "details": "MerchantIntent→Committed, NextStep: POS demo Mar 9, budget imminent. Score 37.5→38.5 (+EB, +DC)",
+      "timestamp": "2026-03-03T08:11:59.628Z"
+    },
+    "0068V0000113peWQAQ": {
+      "accountName": "ESSENTIEL Antwerp",
+      "status": "sf-only",
+      "details": "NextStep minor typo. No score change",
+      "timestamp": "2026-03-03T08:11:59.678Z"
+    },
+    "006OG00000Fbj8nYAB": {
+      "accountName": "Cycle King & Hawk",
+      "status": "sf-only",
+      "details": "Competitor removed (Citrus Lime→null). Score 22→22.5 (competition visibility adjusted)",
+      "timestamp": "2026-03-03T08:11:59.727Z"
+    },
+    "006OG00000G28JdYAJ": {
+      "accountName": "Direct Wines Limited",
+      "status": "sf-only",
+      "details": "Revenue +59% (PBR 3.8M→6.1M). Score 43.5→41 (DC Q1 upgraded, other score/answer mismatches fixed)",
+      "timestamp": "2026-03-03T08:11:59.773Z"
+    },
+    "006OG00000JMQ91YAH": {
+      "accountName": "TRINNY LONDON",
+      "status": "sf-only",
+      "details": "Revenue +29% (PBR 949K→1.2M). No score change",
+      "timestamp": "2026-03-03T08:11:59.820Z"
+    },
+    "006OG00000J4JtxYAF": {
+      "accountName": "Vision Healthcare",
+      "status": "sf-only",
+      "details": "Revenue populated (was 0). No score change (already at Partial)",
+      "timestamp": "2026-03-03T08:11:59.868Z"
+    }
+  },
+  "summary": {
+    "noChange": 9,
+    "sfOnly": 8,
+    "newCalls": 0,
+    "errors": 0,
+    "skipped": 0
+  }
+}

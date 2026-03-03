@@ -1,0 +1,61 @@
+[
+  {
+    "opportunityId": "0068V0000113rSIQAY",
+    "adjustments": [
+      {"section": "paperProcess", "questionIndex": 6, "currentAnswer": "Partial", "recommendedAnswer": "No", "reason": "Deal missed close date of 2026-02-27. Rates being revoked with Friday deadline — original timeline failed."},
+      {"section": "paperProcess", "questionIndex": 3, "currentAnswer": "Partial", "recommendedAnswer": "No", "reason": "Previous next step said 'on track to sign before end of Feb' but that didn't happen. Timeline understanding was incorrect."},
+      {"section": "decisionProcess", "questionIndex": 2, "currentAnswer": "Partial", "recommendedAnswer": "No", "reason": "Merchant did not decide by previously indicated timeline. Decision timeline understanding was incorrect."}
+    ]
+  },
+  {
+    "opportunityId": "006OG00000EZIy6YAH",
+    "adjustments": [
+      {"section": "metrics", "questionIndex": 1, "currentAnswer": "Partial", "recommendedAnswer": "Yes", "reason": "Revenue solidified (MCV 69K→75.9K) + intent moved to Committed. Quantifiable goals are aligned."},
+      {"section": "champion", "questionIndex": 0, "currentAnswer": "Partial", "recommendedAnswer": "Yes", "reason": "Intent upgraded to fully Committed — champion has successfully advocated and secured organizational commitment."},
+      {"section": "metrics", "questionIndex": 6, "currentAnswer": "Partial", "recommendedAnswer": "Yes", "reason": "Committed status + revenue increase validates the business case is compelling enough."}
+    ]
+  },
+  {
+    "opportunityId": "006OG00000GJ5IvYAL",
+    "adjustments": [
+      {"section": "economicBuyer", "questionIndex": 0, "currentAnswer": "Partial", "recommendedAnswer": "Yes", "reason": "Martin confirmed budget sign-off 'any day now' — EB identified and actively engaged."},
+      {"section": "decisionCriteria", "questionIndex": 1, "currentAnswer": "Partial", "recommendedAnswer": "Yes", "reason": "POS demo Mar 9, Andy asking about payments/integration — capabilities actively evaluated."},
+      {"section": "decisionCriteria", "questionIndex": 2, "currentAnswer": "Partial", "recommendedAnswer": "Yes", "reason": "Andy asking about payments and integration explicitly — technical integrations surfaced."},
+      {"section": "decisionCriteria", "questionIndex": 3, "currentAnswer": "Partial", "recommendedAnswer": "Yes", "reason": "Andy specifically asking about payments — confirms payments in decision criteria."},
+      {"section": "decisionProcess", "questionIndex": 2, "currentAnswer": "Partial", "recommendedAnswer": "Yes", "reason": "Budget 'any day now' + POS demo Mar 9 — clear near-term timeline with milestones."},
+      {"section": "champion", "questionIndex": 0, "currentAnswer": "Partial", "recommendedAnswer": "Yes", "reason": "Intent upgraded to Committed, champion providing insider budget timing details."},
+      {"section": "champion", "questionIndex": 2, "currentAnswer": "Partial", "recommendedAnswer": "Yes", "reason": "Martin sharing insider info on budget process — only a champion would provide this."},
+      {"section": "metrics", "questionIndex": 4, "currentAnswer": "Partial", "recommendedAnswer": "Yes", "reason": "Budget being signed off imminently is a compelling event. POS demo adds timeline pressure."}
+    ]
+  },
+  {
+    "opportunityId": "0068V0000113peWQAQ",
+    "adjustments": []
+  },
+  {
+    "opportunityId": "006OG00000Fbj8nYAB",
+    "adjustments": [
+      {"section": "competition", "questionIndex": 0, "currentAnswer": "Yes", "recommendedAnswer": "Partial", "reason": "Competitor field (Citrus Lime) removed. Ambiguous — may mean competitor eliminated or data error. Lost visibility."},
+      {"section": "competition", "questionIndex": 3, "currentAnswer": "Partial", "recommendedAnswer": "No", "reason": "With competitor nulled, lost visibility into why alternatives were evaluated. Need confirmation."}
+    ]
+  },
+  {
+    "opportunityId": "006OG00000G28JdYAJ",
+    "adjustments": [
+      {"section": "decisionCriteria", "questionIndex": 1, "currentAnswer": "Partial", "recommendedAnswer": "Yes", "reason": "59% revenue increase suggests expanded scope — additional capabilities discussed and priced in."}
+    ]
+  },
+  {
+    "opportunityId": "006OG00000JMQ91YAH",
+    "adjustments": []
+  },
+  {
+    "opportunityId": "006OG00000J4JtxYAF",
+    "adjustments": [
+      {"section": "metrics", "questionIndex": 1, "currentAnswer": "No", "recommendedAnswer": "Partial", "reason": "Revenue went from $0 to populated (MCV $82.8K). Quantifiable goals beginning to take shape."},
+      {"section": "metrics", "questionIndex": 5, "currentAnswer": "No", "recommendedAnswer": "Partial", "reason": "Revenue figures populated — some discussion occurred to arrive at these numbers."},
+      {"section": "decisionCriteria", "questionIndex": 4, "currentAnswer": "No", "recommendedAnswer": "Partial", "reason": "Revenue populated implies pricing/proposal discussion — progress toward deal definition."},
+      {"section": "paperProcess", "questionIndex": 4, "currentAnswer": "No", "recommendedAnswer": "Partial", "reason": "With MCV now $82.8K, basis for contract exists — pricing established."}
+    ]
+  }
+]
