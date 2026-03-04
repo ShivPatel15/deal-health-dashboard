@@ -21050,5 +21050,695 @@
         "source": "daily-refresh"
       }
     ]
+  },
+  {
+    "id": "006OG00000KqnifYAB",
+    "name": "axminstertools.com",
+    "accountName": "axminstertools.com",
+    "accountId": "0018V00002d0FNWQA2",
+    "stage": "Solution",
+    "closeDate": "2026-03-31",
+    "forecastCategory": "Pipeline",
+    "probability": 40,
+    "type": "New Business",
+    "merchantIntent": "Uncommitted",
+    "owner": "Maissa Fatte",
+    "ownerEmail": "maissa.fatte@shopify.com",
+    "revenue": {
+      "mcv": 82800,
+      "totalRev3yr": 1544484.38,
+      "d2cGmv": 18000000,
+      "b2bGmv": null,
+      "retailGmv": null,
+      "paymentsGpv": 11700000,
+      "paymentsAttached": true,
+      "ipp": 748155.32
+    },
+    "products": [
+      "Plus Product Suite",
+      "D2C - Standard",
+      "Shopify Payments - D2C Plus"
+    ],
+    "stakeholders": [
+      {
+        "name": "Simon Dunne",
+        "title": "Technology & Data Manager",
+        "role": "",
+        "email": "simon.dunne@axminstertools.com",
+        "engagement": "high",
+        "callsAttended": 3,
+        "callsInvited": 3
+      }
+    ],
+    "shopifyTeam": [
+      {
+        "name": "Ben Homer",
+        "role": "",
+        "email": "ben.homer@shopify.com"
+      }
+    ],
+    "competitive": {
+      "primary": "Adobe Commerce (Magento)",
+      "position": "",
+      "partner": ""
+    },
+    "timeline": {
+      "created": "2026-02-02",
+      "proposedLaunch": "",
+      "region": "EMEA"
+    },
+    "projectedBilledRevenue": 642264.67,
+    "compellingEvent": "",
+    "aeNextStep": "27/02 MF: Wants to make a decision in March. Going to see Swanky in the next 2 weeks.",
+    "narrative": {
+      "oppSummary": "Axminster Tools & Machinery is a UK-based woodworking tools retailer evaluating a migration from Adobe Commerce (Magento) to Shopify Plus. The deal is valued at $82,800 MCV with $1.54M in projected 3-year revenue and $11.7M in attached Payments GPV. The company has undergone significant restructuring — splitting from its manufacturing arm, shrinking from ~£55M to ~£20M turnover — and is looking to reduce tech overhead by moving off Magento to a self-service platform, with a target summer 2026 go-live.",
+      "whyChange": "Axminster experienced a major COVID-era expansion (peaking at £55-56M turnover) followed by a sharp retraction, leading to a corporate restructuring at the end of 2025 that split the business into manufacturing/development and retail/distribution entities. The retail side now operates with ~90 employees, one physical store (down from multiple), and a significantly reduced tech team — from four Magento developers down to two. Their current Adobe Commerce (Magento Premium) platform is expensive and resource-intensive; the remaining developers are actively working on downgrading to Magento open source as a cost-saving measure, which itself signals the unsustainability of the current stack. Simon Dunne explicitly stated the goal is to become 'self-sufficient' and stop paying for dedicated developers, which their current Magento setup requires. The board unanimously agreed at a January 2026 meeting that pursuing a platform change is 'a no-brainer.'",
+      "whyShopify": "Simon has been independently evaluating Shopify for 3-4 months via a demo store and has already paid for his first month, demonstrating strong personal conviction. The primary appeal is self-sufficiency: Shopify Plus would eliminate the need for dedicated developers and expensive agency retainers, aligning with their post-restructuring cost discipline. Shopify Payments offers a consolidated, simplified payment stack versus their current Cyber Source + Barclays setup. Simon sees the ROI as 'obvious' and the platform's ease of use means internal marketing and tech staff can manage the site post-launch. There is also future interest in Shopify POS for their remaining physical retail store, providing a unified omnichannel path.",
+      "whyNow": "Three converging timeline drivers create urgency: (1) their current hosting expires at the end of May 2026, creating a hard infrastructure deadline; (2) summer is their quietest trading period, making it the optimal window for migration before the Black Friday/Christmas peak; and (3) the board has already approved the commercial case and internal teams are 'chomping at the bit' to start. Simon explicitly stated he wants to begin building in March 2026 and go live by summer. Delay would mean either renewing/extending Magento hosting or missing the quiet-season migration window and risking disruption during peak trading.",
+      "supportNeeded": "Key support needed: (1) Shopify Payments technical deep-dive — Simon specifically requested a technical session covering how Shopify Payments replaces their Cyber Source + Barclays/Verafone setup. (2) Contract review support — draft sent, solicitor will review, prepare for UK-specific redlines. (3) Partner/agency guidance for Swanky evaluation — help scope the project for confidence on timeline and cost. (4) Phased rollout consultation — leadership needs to decide whether to build everything at once or do like-for-like first. (5) Marketing resource bottleneck mitigation — clarify what marketing involvement is actually needed during migration."
+    },
+    "meddpicc": {
+      "metrics": {
+        "label": "Metrics",
+        "questions": [
+          {
+            "q": "Do we know the business reasons as to why they are migrating?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Simon clearly articulated business reasons: post-restructuring cost reduction, need for self-sufficiency, elimination of developer dependency, platform too expensive/resource-intensive for reduced organization.",
+            "solution": "",
+            "action": "",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do we have specific quantifiable goals aligned with the project?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Qualitative goals are clear (self-sufficiency, reduced overhead, summer go-live) but specific quantifiable KPIs (e.g., target cost savings, conversion rate improvement) have not been articulated. Current online revenue ~£13M, AOV ~£126, 8,000 SKUs.",
+            "solution": "Work with Simon to quantify expected savings vs. Shopify Plus cost to build a concrete ROI model.",
+            "action": "Maissa/Ben Homer to prepare a TCO comparison and ROI framework for Simon to present to leadership.",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do they need to make a platform change to achieve this goal?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Already actively downgrading Magento from Premium to open source because they can't sustain it. A platform change is clearly necessary to achieve self-sufficiency goal.",
+            "solution": "",
+            "action": "",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do we understand the impact if this goal isn't achieved?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Impact of NOT changing is implied but hasn't been explicitly quantified as a dollar figure for leadership.",
+            "solution": "Help Simon articulate the cost of inaction.",
+            "action": "Maissa to ask Simon for current annual Magento total cost of ownership during next call.",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Is there a compelling event in place driving action?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Hosting expires end of May 2026 — hard infrastructure deadline. Summer quiet period before Black Friday/Christmas peak creates natural migration window. Board already approved in January 2026.",
+            "solution": "",
+            "action": "",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Have I validated the metrics with the customer?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Simon has self-validated but Shopify hasn't formally validated metrics WITH the customer in a structured way.",
+            "solution": "Co-create a simple ROI/business case document with Simon.",
+            "action": "Ben Homer to build a lightweight business case template with Simon covering TCO, timeline, and operational benefits.",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Are the metrics compelling enough to justify change?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Board unanimously approved, Simon says 'the will to change is there' and people are 'chomping at the bit.' Cost pressure, hosting expiry, and seasonal timing create strong justification.",
+            "solution": "",
+            "action": "",
+            "due": "",
+            "highlight": false
+          }
+        ]
+      },
+      "economicBuyer": {
+        "label": "Economic Buyer",
+        "questions": [
+          {
+            "q": "Have I identified the true economic buyer?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Simon references 'the leadership team' and 'MD' as decision-makers. The MD is expected to sign off. However, the specific MD/CEO has not been named.",
+            "solution": "Identify the MD by name and understand their specific concerns/priorities.",
+            "action": "Maissa to ask Simon directly for the MD's name and whether a brief intro call would be appropriate.",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do we know who's signing the contract?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Simon said 'approvals at this end is not going to be an issue' and the MD is expected to sign off. But we don't have explicit confirmation of who physically signs.",
+            "solution": "Confirm the signatory during contract review process.",
+            "action": "Maissa to clarify with Simon: 'When we finalize the contract, who will be the signatory?'",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do we have access to this individual?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No direct access to the MD or any leadership team member beyond Simon. All three calls have been with Simon only.",
+            "solution": "Request an introduction to the MD, framed as executive alignment.",
+            "action": "Maissa to ask Simon if there's an opportunity to briefly meet the MD.",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Can we get access?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Simon is highly engaged and seems willing to facilitate internal approvals. Access is likely achievable through Simon.",
+            "solution": "Frame any request for MD access as supporting Simon's internal process.",
+            "action": "Position as 'helping you make the strongest case to leadership.'",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do we know what the economic buyer cares about most?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Board cares about cost reduction and operational simplification. Simon mentioned he 'may have to bid for the cash against some other projects' — suggesting budget competition. But MD's specific personal priorities are unknown.",
+            "solution": "Ask Simon what the MD's top priorities are.",
+            "action": "Maissa to probe: 'What are the MD's biggest priorities right now, and how does this project rank?'",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do you know how they make decisions and allocate budget?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Board approved direction but formal budget allocation process unknown. Agency cost approval may be separate from Shopify license.",
+            "solution": "Understand the full budget picture including agency spend approval.",
+            "action": "Maissa to clarify: 'Is the agency implementation cost approved from the same budget, or does that need separate approval?'",
+            "due": "",
+            "highlight": false
+          }
+        ]
+      },
+      "decisionProcess": {
+        "label": "Decision Process",
+        "questions": [
+          {
+            "q": "Do we know how they will be making the decision?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Simon described a relatively informal process but a formal decision process with defined stages hasn't been mapped.",
+            "solution": "Map the decision process explicitly with Simon.",
+            "action": "Maissa to walk through a 'what needs to happen between now and signature' exercise with Simon.",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do we know who's involved / buying committee?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Simon (tech lead), marketing manager (mentioned), and MD/leadership team involved. But haven't confirmed full buying committee or whether finance/procurement is involved.",
+            "solution": "Confirm if anyone else needs to approve.",
+            "action": "Maissa to ask: 'Besides yourself and the MD, is there anyone else who needs to review or approve?'",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do we know when they want to make a decision by?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Simon wants to make a decision in March and start building. Clear timeline articulated.",
+            "solution": "",
+            "action": "",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do we know what is driving this timeline?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Hosting expires end of May, summer is quietest period, peak season Black Friday/Christmas must be on new platform.",
+            "solution": "",
+            "action": "",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do we know if they have tried to solve this problem before?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Previously had four Magento developers and are now downgrading to open source — they've tried to optimize the current platform before considering full migration.",
+            "solution": "",
+            "action": "",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do we know what will happen if they do nothing?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "If they do nothing, they'd need to continue with Magento open source, maintain developer staff, and renew hosting. The cost hasn't been explicitly framed.",
+            "solution": "Quantify the cost of inaction alongside the Shopify business case.",
+            "action": "Ben Homer to include a 'cost of status quo' analysis in the TCO comparison.",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Have you validated this process with the buyer?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Simon has described the process verbally but Maissa hasn't formally validated it back.",
+            "solution": "Create a mutual timeline/action plan and validate with Simon.",
+            "action": "Maissa to send a written summary of the decision process and timeline for confirmation.",
+            "due": "",
+            "highlight": false
+          }
+        ]
+      },
+      "decisionCriteria": {
+        "label": "Decision Criteria",
+        "questions": [
+          {
+            "q": "Do we know what criteria the customer is using to evaluate vendors?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Key criteria emerged organically: self-sufficiency, cost reduction, ease of use, in-house management post-launch, agency cost/value. But no formal list documented.",
+            "solution": "Ask Simon to articulate his top evaluation criteria.",
+            "action": "Maissa to ask: 'What are the top 3-4 things that matter most to you and the leadership team?'",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "D2C is primary focus. POS/physical retail mentioned as future interest. B2B has not been discussed.",
+            "solution": "Confirm whether B2B is relevant.",
+            "action": "Maissa or Ben Homer to ask Simon if they have trade/wholesale business that could benefit from Shopify B2B.",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Have we surfaced technical complications (integrations)?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Payment gateway (Cyber Source), acquiring bank (Barclays), Verafone for physical POS. 8,000 SKUs. ERP and other backend integrations not discussed in detail.",
+            "solution": "Conduct technical discovery to map all current integrations.",
+            "action": "Ben Homer to schedule a technical deep-dive covering ERP, OMS, shipping, inventory, and critical integrations.",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do we know how payments play into their decision?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Payments discussed in multiple calls. Simon interested in Shopify Payments for both online and physical. Dedicated technical session requested and planned.",
+            "solution": "",
+            "action": "Maissa to confirm the Shopify Payments technical session is booked.",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do we have a mutual action plan in place?",
+            "answer": "No",
+            "score": 0,
+            "notes": "No formal MAP has been created or shared. Timeline exists informally but isn't documented as a shared plan.",
+            "solution": "Create a formal MAP with key milestones, owners, and dates.",
+            "action": "Maissa to draft a mutual action plan and share with Simon.",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Did we help shape those criteria in our favour?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Maissa has influenced Simon toward Swanky and Shopify Payments. 'Self-sufficiency' narrative reinforced. But formal criteria shaping hasn't occurred.",
+            "solution": "Continue to reinforce criteria where Shopify excels.",
+            "action": "Maissa/Ben Homer to share case studies of similar Magento → Shopify Plus migrations.",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do we know who defined the decision criteria?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Simon appears to be the primary criteria definer with board strategic input. Unknown if any external advisor or agency is influencing criteria.",
+            "solution": "Understand if any third party is influencing the evaluation.",
+            "action": "Maissa to ask: 'Is anyone else helping define what the new platform needs to do?'",
+            "due": "",
+            "highlight": false
+          }
+        ]
+      },
+      "paperProcess": {
+        "label": "Paper Process",
+        "questions": [
+          {
+            "q": "Do we know what their procurement process is?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Solicitor on retainer will review. MD expected to sign off. Full procurement process not mapped.",
+            "solution": "Map the full paper process with Simon.",
+            "action": "Maissa to ask: 'Walk me through the steps — solicitor, then MD, then finance? How long does each step take?'",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Are there likely to be redlines?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Maissa preemptively noted contract is 'largely inflexible.' Solicitor hasn't reviewed yet — redlines possible.",
+            "solution": "Prepare for likely redline areas.",
+            "action": "Maissa to flag internally with legal that a UK merchant solicitor will be reviewing.",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "If redlines, how long does review take?",
+            "answer": "No",
+            "score": 0,
+            "notes": "Solicitor hasn't reviewed yet, so review timeline is unknown.",
+            "solution": "Ask Simon how long his solicitor typically takes.",
+            "action": "Maissa to ask: 'How quickly does your solicitor typically turn around contract reviews?'",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do we know how long it will take?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Simon wants to decide in March and start building. But an explicit signature date hasn't been agreed.",
+            "solution": "Agree on a target signature date.",
+            "action": "Maissa to propose: 'Can we target having the contract signed by March 14-21?'",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do we have contract details?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Draft contract sent as of Feb 25 call. Key details: $2,300/month min, 3-year term, 0.35% variable. Not yet reviewed by solicitor.",
+            "solution": "",
+            "action": "Follow up on whether Simon has shared the draft with his solicitor.",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Have we sent the contract?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Maissa confirmed she sent the draft contract during/after the Feb 25 call.",
+            "solution": "",
+            "action": "",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do we know target date for signature?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Simon wants to decide in March and start building immediately. Implies mid-to-late March signature. But no explicit date agreed.",
+            "solution": "Agree on a specific signature target.",
+            "action": "Maissa to propose a specific signature target date aligned with March build start.",
+            "due": "",
+            "highlight": false
+          }
+        ]
+      },
+      "identifyPain": {
+        "label": "Identify Pain",
+        "questions": [
+          {
+            "q": "Do we know their current issues and why they are reviewing their tech stack?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Thoroughly discussed: Magento too expensive/resource-intensive, requires dedicated developers, hosting costs, operational overhead. Post-restructuring needs leaner tech.",
+            "solution": "",
+            "action": "",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Have they tried to resolve this issue in the past?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Actively downgrading from Magento Premium to open source to reduce costs. This is a stopgap, not a solution.",
+            "solution": "",
+            "action": "",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do we know how pains are affecting business operations?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Revenue dropped £55M → £20M, headcount reduced to ~90, stores closed (multiple → one), dev team halved (4 → 2). Platform consumes disproportionate resources.",
+            "solution": "",
+            "action": "",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do we know what teams are affected and to what extent?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Tech team and marketing clearly affected. Broader view of affected teams (operations, customer service, warehouse) not mapped.",
+            "solution": "Understand broader team impact during technical discovery.",
+            "action": "Ben Homer to explore: 'Beyond tech and marketing, which other teams interact with the platform daily?'",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do we know how urgent it is to solve this pain?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "High urgency: hosting expires end of May, board approved, team 'chomping at the bit,' wants to start building in March.",
+            "solution": "",
+            "action": "",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Can they solve this pain using another option?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Main alternative is continuing on Magento open source. One agency (Pixie Commerce) recommended improving Magento rather than migrating. This is a real alternative path.",
+            "solution": "Ensure Simon understands long-term cost and limitations of staying on Magento open source.",
+            "action": "Ben Homer to prepare a Magento open source vs. Shopify Plus comparison.",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do we know why this problem is important to solve now?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Hosting expiry (May), summer migration window, Black Friday deadline, board approval momentum, internal team readiness.",
+            "solution": "",
+            "action": "",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Is our solution uniquely positioned to solve this pain?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Shopify uniquely positioned for self-sufficiency — no other major commerce platform offers same ease-of-use with enterprise features. Simon's 3-4 months personal testing validates. Shopify Payments simplifies stack. Partner ecosystem provides implementation without long-term dependency.",
+            "solution": "",
+            "action": "",
+            "due": "",
+            "highlight": false
+          }
+        ]
+      },
+      "champion": {
+        "label": "Champion",
+        "questions": [
+          {
+            "q": "Have you identified a true champion (influence + motivation)?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Simon Dunne is clearly the champion. Heads technology and web, led board presentation, driving the project, personally tested Shopify for 3-4 months, paid for a trial.",
+            "solution": "",
+            "action": "",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Does your champion have political capital and credibility?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Simon presented to the board and received unanimous approval. Entrusted with evaluating agencies and making recommendation. Strong political capital.",
+            "solution": "",
+            "action": "",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Have they given insights you wouldn't get otherwise?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Revenue figures, restructuring details, developer reduction, board dynamics, budget competition, hosting expiry dates, agency evaluation details. Demonstrates trust and transparency.",
+            "solution": "",
+            "action": "",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Are they connected with the key decision makers?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Simon has direct access to MD and board. Presented to the board himself and received approval. MD expected to sign off.",
+            "solution": "",
+            "action": "",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Have you been introduced to the decision maker?",
+            "answer": "No",
+            "score": 0,
+            "notes": "Shopify has not been introduced to the MD or any other decision-maker. All interactions exclusively with Simon.",
+            "solution": "Request introduction framed as supporting Simon's credibility.",
+            "action": "Maissa to ask: 'Would it be helpful for me to join a brief call with your MD to reinforce the business case?'",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Are they willing to bring you into the board/buying group?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Simon appears willing — said people are 'waiting for me to tell them what to do.' But hasn't explicitly offered to bring Shopify into a board or leadership meeting.",
+            "solution": "Offer to support Simon in any internal presentation.",
+            "action": "Maissa to offer: 'I can prepare materials or join a brief leadership session to support your recommendation.'",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Why are they such a champion for you?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Shopify directly solves his operational pain: responsible for a tech stack he can't sustain with current resources. Enables him to deliver on his mandate. Deeply personal and professional.",
+            "solution": "",
+            "action": "",
+            "due": "",
+            "highlight": false
+          }
+        ]
+      },
+      "competition": {
+        "label": "Competition",
+        "questions": [
+          {
+            "q": "Do we know who else the customer is evaluating?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Salesforce lists Adobe Commerce (Magento) as incumbent competitor. One agency leaned toward improving Magento. No other platform vendors mentioned as being evaluated.",
+            "solution": "Confirm there is no other platform evaluation in parallel.",
+            "action": "Maissa to confirm: 'Are you evaluating any other platforms besides Shopify?'",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Have we asked if doing nothing is an option?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Staying on Magento open source is implicitly an option — actively downgrading to it. But Simon's tone suggests strong intent to migrate. Board approved the change.",
+            "solution": "Ensure 'do nothing' option is definitively ruled out.",
+            "action": "Make the cost comparison explicit in the Magento vs. Shopify analysis.",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Are there internal alternatives to our solution?",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "Primary internal alternative is continuing on Magento open source with in-house developers. Currently executing the downgrade as backup.",
+            "solution": "",
+            "action": "",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do we know why alternatives are being evaluated?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Magento open source is cheaper than Premium and they already have developers. But it doesn't solve self-sufficiency or reduce developer dependency.",
+            "solution": "Reinforce that Magento open source still requires developer resources.",
+            "action": "Covered in the Magento vs. Shopify comparison action.",
+            "due": "",
+            "highlight": false
+          },
+          {
+            "q": "Do we know why we would win or lose?",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "Win factors: Simon's conviction, board approval, self-service model, Shopify Payments, Swanky partnership. Lose factors: agency cost sticker shock, budget competition, Pixie Commerce's 'stay on Magento' recommendation, contract inflexibility, marketing bottleneck.",
+            "solution": "Proactively address potential lose factors.",
+            "action": "Maissa to help Simon frame agency cost as investment with clear ROI, and understand competing budget projects.",
+            "due": "",
+            "highlight": false
+          }
+        ]
+      }
+    },
+    "lastAnalysisDate": "2026-03-04",
+    "calls": [
+      {
+        "date": "2026-02-25",
+        "title": "Shopify X Axminster - project sync",
+        "duration": "25 min",
+        "shopifyAttendees": [
+          "maissa.fatte@shopify.com"
+        ],
+        "merchantAttendees": [
+          "simon.dunne@axminstertools.com"
+        ],
+        "summary": "This sales follow-up between Shopify seller Maissa Fatte and buyer Simon Dunne, evaluating a platform migration, focused on supporting Simon's decision-making process. Maissa offered Shopify Plus, emphasizing partner agency Swanky's ability to facilitate implementation while respecting Simon's desire for post-launch self-sufficiency and not wanting a long-term retainer. Simon is actively evaluating partners for his Magento migration, planning an internal team meeting with Swanky to assess project scope and 'worry points,' aiming for a March kick-off and summer go-live. While the commercial case is approved, leadership needs to decide on a phased rollout, with internal marketing resources being a potential bottleneck. Simon requested more detailed technical and operational information on Shopify Payments and clarity on the standard, largely inflexible Shopify Plus contract terms, which feature a minimum $2,300 USD/month for a three-year agreement. Key next steps involve Maissa sending a draft contract and organizing a Shopify Payments technical session, for which Simon will provide his current payment system details."
+      },
+      {
+        "date": "2026-02-09",
+        "title": "Shopify/ Axminster - Introduction",
+        "duration": "30 min",
+        "shopifyAttendees": [
+          "maissa.fatte@shopify.com",
+          "ben.mcnicoll@shopify.com"
+        ],
+        "merchantAttendees": [
+          "simon.dunne@axminstertools.com"
+        ],
+        "summary": "This sales meeting involved Maissa Fatte (Shopify) and Simon Dunne (buyer, Technology Manager) to discuss migrating Simon's retail business to Shopify Plus. Maissa presented Shopify Plus as a solution for Simon's company, which, despite a post-COVID sales retraction (now ~£13M online), seeks to streamline its old, complex Magento tech stack with a SaaS market leader. She detailed commercial terms: a $2.5k (or $2.3k for 3-year term) monthly minimum with 0.4% (or 0.35%) variable fee, and introduced Shopify Payments with 25M+ UK users as a consolidation opportunity. Simon, who has been independently exploring Shopify for months, aims to start building in March and go live by summer before Black Friday peak, with board approval already secured."
+      },
+      {
+        "date": "2026-02-02",
+        "title": "simon.dunne@axminstertools.com and Ben: 15-minute Meeting",
+        "duration": "15 min",
+        "shopifyAttendees": [
+          "ben.mcnicoll@shopify.com"
+        ],
+        "merchantAttendees": [
+          "simon.dunne@axminstertools.com"
+        ],
+        "summary": "Initial discovery call between Ben McN (Shopify) and Simon Dunne (Technology & Data Manager, Axminster Tools). Simon shared the company's background: woodworking tools retailer that went through major restructuring post-COVID, splitting from manufacturing arm, shrinking from £55M to ~£20M turnover, closing all but one retail store. Currently on Adobe Commerce (Magento Premium) with 2 developers, ~8,000 SKUs, £13M online revenue, £126 AOV. Simon has been independently evaluating Shopify for 3-4 months via demo store. Board approved pursuit as 'a no-brainer.' Uses Cyber Source + Barclays for payments. Interested in Shopify POS for remaining store and mobile selling. Wants to start building ASAP and go live by summer."
+      }
+    ],
+    "dealUndercurrent": null
   }
 ]

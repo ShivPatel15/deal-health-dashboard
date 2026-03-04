@@ -2679,5 +2679,24 @@
       },
       "changes": []
     }
+  ],
+  "006OG00000KqnifYAB": [
+    {
+      "date": "2026-03-04",
+      "totalScore": 35.5,
+      "totalMax": 54,
+      "status": "on-track",
+      "sectionScores": {
+        "Metrics": 5.5,
+        "Economic Buyer": 2.5,
+        "Decision Process": 5,
+        "Decision Criteria": 3.5,
+        "Paper Process": 3.5,
+        "Identify Pain": 7,
+        "Champion": 5.5,
+        "Competition": 3
+      },
+      "changes": []
+    }
   ]
 }
