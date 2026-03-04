@@ -18,21 +18,33 @@ For each recommendation, return JSON:
 
 ### Moda in Pelle (0068V0000113rSIQAY)
 Unmatched changes:
+- closeDate: "2026-02-27" → "2026-03-13"
+- proposedLaunchDate: "null" → "2026-05-29"
 - nextStep: "02/18 - Spoke to David Duke and we are on track to get it signed before end of Feb" → "02.03 AC sent email to inform about rates being revoked, deadline friday this week"
 
 ### Whittard of Chelsea (006OG00000EZIy6YAH)
 Unmatched changes:
-- revenue.mcv: "69000" → "75900"
-- projectedBilledRevenue: "303277.58" → "310177.58"
+- proposedLaunchDate: "null" → "2026-07-01"
 - revenue.totalRev3yr: "676036.88" → "682936.88"
+- projectedBilledRevenue: "303277.58" → "310177.58"
 
 ### The Dune Group (006OG00000GJ5IvYAL)
 Unmatched changes:
-- nextStep: "24.02 onsite meeting cancelled as team members sick, had meeting with Dune and Tryzens to discuss launch steps, Martin confirmed They are very close to getting budget signed off any day now" → "02.03, POS demo 09.03 , Andy asked payments, and integration points in detail. Martin confirmed They're very close to getting budged signed off "any day now""
+- proposedLaunchDate: "null" → "2026-05-01"
+- nextStep: "24.02 onsite meeting cancelled as team members sick, had meeting with Dune and Tryzens to discuss launch steps, Martin confirmed They are very close to getting budget signed off any day now" → "02.03, POS demo 09.03, Andy asked payments, and integration points in detail. Martin confirmed They're very close to getting budget signed off "any day now""
+
+### Mulberry Company (Sales) Limited (006OG00000CRabaYAD)
+Unmatched changes:
+- proposedLaunchDate: "null" → "2026-06-30"
+
+### Wacoal Europe (006OG00000HnVs8YAF)
+Unmatched changes:
+- proposedLaunchDate: "null" → "2026-11-03"
 
 ### ESSENTIEL Antwerp (0068V0000113peWQAQ)
 Unmatched changes:
-- nextStep: "18/2 BR RFP has landed and I am speaking to each agency (7) to get a sense check. Timelines on RFP indicate build to start in April" → "18/2 BR RFP has landed and I ma speaking to each agency (7) to get a sense check. Timelines on RFP indicate  build to start in April"
+- proposedLaunchDate: "null" → "2026-09-30"
+- nextStep: "18/2 BR RFP has landed and I am speaking to each agency (7) to get a sense check. Timelines on RFP indicate build to start in April" → "18/2 BR RFP has landed and I ma speaking to each agency (7) to get a sense check. Timelines on RFP indicate build to start in April"
 
 ### Cycle King & Hawk (006OG00000Fbj8nYAB)
 Unmatched changes:
@@ -40,16 +52,24 @@ Unmatched changes:
 
 ### Direct Wines Limited (006OG00000G28JdYAJ)
 Unmatched changes:
-- projectedBilledRevenue: "3813618.5" → "6065019"
+- proposedLaunchDate: "null" → "2026-06-30"
 - revenue.totalRev3yr: "10909191" → "14206191"
+- projectedBilledRevenue: "3813618.5" → "6065019"
+
+### Hawes & Curtis Limited (006OG00000FYX8zYAH)
+Unmatched changes:
+- proposedLaunchDate: "null" → "2026-08-02"
+
+### Bugaboo International B.V (006OG00000Dh2YXYAZ)
+Unmatched changes:
+- nextStep: "23/02 BR Call with Jordan. He is working through biz case but biggest aspect is going to be the SP since we will not approve Adyen. Agency decision in March. SP call scheduled for 11th March" → "23/02 BR Call with Jordan. He is working through biz case but biggest aspect is going to be the SP since we will not approve Adyen. Agency decision in March. SP call scheduled for 11th March"
 
 ### TRINNY LONDON (006OG00000JMQ91YAH)
 Unmatched changes:
-- projectedBilledRevenue: "948568.42" → "1220503.68"
 - revenue.totalRev3yr: "3311700" → "3773175"
+- projectedBilledRevenue: "948568.42" → "1220503.68"
 
 ### Vision Healthcare (006OG00000J4JtxYAF)
 Unmatched changes:
-- revenue.mcv: "0" → "82800"
 - revenue.totalRev3yr: "0" → "97557.94"
 

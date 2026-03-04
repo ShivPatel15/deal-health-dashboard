@@ -1,125 +1,170 @@
-[
-  {
-    "opportunityId": "0068V0000113rSIQAY",
-    "accountName": "Moda in Pelle",
-    "changes": [
-      {
-        "field": "nextStep",
-        "oldValue": "02/18 - Spoke to David Duke and we are on track to get it signed before end of Feb",
-        "newValue": "02.03 AC sent email to inform about rates being revoked, deadline friday this week"
-      }
-    ]
-  },
-  {
-    "opportunityId": "006OG00000EZIy6YAH",
-    "accountName": "Whittard of Chelsea",
-    "changes": [
-      {
-        "field": "merchantIntent",
-        "oldValue": "Committed - At Risk",
-        "newValue": "Committed"
-      },
-      {
-        "field": "revenue.mcv",
-        "oldValue": 69000,
-        "newValue": 75900.0
-      },
-      {
-        "field": "projectedBilledRevenue",
-        "oldValue": 303277.58,
-        "newValue": 310177.58
-      },
-      {
-        "field": "revenue.totalRev3yr",
-        "oldValue": 676036.88,
-        "newValue": 682936.88
-      }
-    ]
-  },
-  {
-    "opportunityId": "006OG00000GJ5IvYAL",
-    "accountName": "The Dune Group",
-    "changes": [
-      {
-        "field": "merchantIntent",
-        "oldValue": "Committed - At Risk",
-        "newValue": "Committed"
-      },
-      {
-        "field": "nextStep",
-        "oldValue": "24.02 onsite meeting cancelled as team members sick, had meeting with Dune and Tryzens to discuss launch steps, Martin confirmed They are very close to getting budget signed off any day now",
-        "newValue": "02.03, POS demo 09.03 , Andy asked payments, and integration points in detail. Martin confirmed They're very close to getting budged signed off \"any day now\""
-      }
-    ]
-  },
-  {
-    "opportunityId": "0068V0000113peWQAQ",
-    "accountName": "ESSENTIEL Antwerp",
-    "changes": [
-      {
-        "field": "nextStep",
-        "oldValue": "18/2 BR RFP has landed and I am speaking to each agency (7) to get a sense check. Timelines on RFP indicate build to start in April",
-        "newValue": "18/2 BR RFP has landed and I ma speaking to each agency (7) to get a sense check. Timelines on RFP indicate  build to start in April"
-      }
-    ]
-  },
-  {
-    "opportunityId": "006OG00000Fbj8nYAB",
-    "accountName": "Cycle King & Hawk",
-    "changes": [
-      {
-        "field": "competitor",
-        "oldValue": "Citrus Lime (incumbent)",
-        "newValue": null
-      }
-    ]
-  },
-  {
-    "opportunityId": "006OG00000G28JdYAJ",
-    "accountName": "Direct Wines Limited",
-    "changes": [
-      {
-        "field": "projectedBilledRevenue",
-        "oldValue": 3813618.5,
-        "newValue": 6065019.0
-      },
-      {
-        "field": "revenue.totalRev3yr",
-        "oldValue": 10909191,
-        "newValue": 14206191.0
-      }
-    ]
-  },
-  {
-    "opportunityId": "006OG00000JMQ91YAH",
-    "accountName": "TRINNY LONDON",
-    "changes": [
-      {
-        "field": "projectedBilledRevenue",
-        "oldValue": 948568.42,
-        "newValue": 1220503.68
-      },
-      {
-        "field": "revenue.totalRev3yr",
-        "oldValue": 3311700,
-        "newValue": 3773175.0
-      }
-    ]
-  },
-  {
-    "opportunityId": "006OG00000J4JtxYAF",
-    "accountName": "Vision Healthcare",
-    "changes": [
-      {
-        "field": "revenue.mcv",
-        "oldValue": 0,
-        "newValue": 82800.0
-      },
-      {
-        "field": "revenue.totalRev3yr",
-        "oldValue": 0,
-        "newValue": 97557.94
-      }
+{
+  "changed": [
+    {
+      "id": "0068V0000113rSIQAY",
+      "name": "Moda in Pelle",
+      "diffs": [
+        "closeDate: \"2026-02-27\" \u2192 \"2026-03-13\"",
+        "proposedLaunchDate: None \u2192 2026-05-29",
+        "nextStep: UPDATED"
+      ]
+    },
+    {
+      "id": "006OG00000EZIy6YAH",
+      "name": "Whittard of Chelsea",
+      "diffs": [
+        "merchantIntent: \"Committed - At Risk\" \u2192 \"Committed\"",
+        "proposedLaunchDate: None \u2192 2026-07-01",
+        "totalRevenue: 676,037 \u2192 682,937",
+        "projectedBilledRevenue: 303,278 \u2192 310,178"
+      ]
+    },
+    {
+      "id": "006OG00000GJ5IvYAL",
+      "name": "The Dune Group",
+      "diffs": [
+        "merchantIntent: \"Committed - At Risk\" \u2192 \"Committed\"",
+        "proposedLaunchDate: None \u2192 2026-05-01",
+        "nextStep: UPDATED"
+      ]
+    },
+    {
+      "id": "006OG00000CRabaYAD",
+      "name": "Mulberry Company (Sales) Limited",
+      "diffs": [
+        "proposedLaunchDate: None \u2192 2026-06-30"
+      ]
+    },
+    {
+      "id": "006OG00000HnVs8YAF",
+      "name": "Wacoal Europe",
+      "diffs": [
+        "proposedLaunchDate: None \u2192 2026-11-03"
+      ]
+    },
+    {
+      "id": "0068V0000113peWQAQ",
+      "name": "ESSENTIEL Antwerp",
+      "diffs": [
+        "proposedLaunchDate: None \u2192 2026-09-30",
+        "nextStep: UPDATED"
+      ]
+    },
+    {
+      "id": "006OG00000Fbj8nYAB",
+      "name": "Cycle King & Hawk",
+      "diffs": [
+        "competitor: \"Citrus Lime (incumbent)\" \u2192 \"None\""
+      ]
+    },
+    {
+      "id": "006OG00000G28JdYAJ",
+      "name": "Direct Wines Limited",
+      "diffs": [
+        "proposedLaunchDate: None \u2192 2026-06-30",
+        "totalRevenue: 10,909,191 \u2192 14,206,191",
+        "projectedBilledRevenue: 3,813,618 \u2192 6,065,019"
+      ]
+    },
+    {
+      "id": "006OG00000FYX8zYAH",
+      "name": "Hawes & Curtis Limited",
+      "diffs": [
+        "proposedLaunchDate: None \u2192 2026-08-02"
+      ]
+    },
+    {
+      "id": "006OG00000Dh2YXYAZ",
+      "name": "Bugaboo International B.V",
+      "diffs": [
+        "nextStep: UPDATED"
+      ]
+    },
+    {
+      "id": "006OG00000JMQ91YAH",
+      "name": "TRINNY LONDON",
+      "diffs": [
+        "totalRevenue: 3,311,700 \u2192 3,773,175",
+        "projectedBilledRevenue: 948,568 \u2192 1,220,504"
+      ]
+    },
+    {
+      "id": "006OG00000J4JtxYAF",
+      "name": "Vision Healthcare",
+      "diffs": [
+        "totalRevenue: 0 \u2192 97,558"
+      ]
+    }
+  ],
+  "unchanged": [
+    {
+      "id": "006OG00000HtxKFYAZ",
+      "name": "Sofa.Com Ltd"
+    },
+    {
+      "id": "006OG00000JUPVtYAP",
+      "name": "Mint Velvet"
+    },
+    {
+      "id": "006OG00000FHHAHYA5",
+      "name": "OLIVER BONAS LIMITED"
+    },
+    {
+      "id": "006OG00000KW83lYAD",
+      "name": "C.P. Hart & Sons Limited"
+    },
+    {
+      "id": "006OG00000KOC4YYAX",
+      "name": "Moss Bros. Group Ltd"
+    }
+  ],
+  "all_diffs": {
+    "0068V0000113rSIQAY": [
+      "closeDate: \"2026-02-27\" \u2192 \"2026-03-13\"",
+      "proposedLaunchDate: None \u2192 2026-05-29",
+      "nextStep: UPDATED"
+    ],
+    "006OG00000EZIy6YAH": [
+      "merchantIntent: \"Committed - At Risk\" \u2192 \"Committed\"",
+      "proposedLaunchDate: None \u2192 2026-07-01",
+      "totalRevenue: 676,037 \u2192 682,937",
+      "projectedBilledRevenue: 303,278 \u2192 310,178"
+    ],
+    "006OG00000GJ5IvYAL": [
+      "merchantIntent: \"Committed - At Risk\" \u2192 \"Committed\"",
+      "proposedLaunchDate: None \u2192 2026-05-01",
+      "nextStep: UPDATED"
+    ],
+    "006OG00000CRabaYAD": [
+      "proposedLaunchDate: None \u2192 2026-06-30"
+    ],
+    "006OG00000HnVs8YAF": [
+      "proposedLaunchDate: None \u2192 2026-11-03"
+    ],
+    "0068V0000113peWQAQ": [
+      "proposedLaunchDate: None \u2192 2026-09-30",
+      "nextStep: UPDATED"
+    ],
+    "006OG00000Fbj8nYAB": [
+      "competitor: \"Citrus Lime (incumbent)\" \u2192 \"None\""
+    ],
+    "006OG00000G28JdYAJ": [
+      "proposedLaunchDate: None \u2192 2026-06-30",
+      "totalRevenue: 10,909,191 \u2192 14,206,191",
+      "projectedBilledRevenue: 3,813,618 \u2192 6,065,019"
+    ],
+    "006OG00000FYX8zYAH": [
+      "proposedLaunchDate: None \u2192 2026-08-02"
+    ],
+    "006OG00000Dh2YXYAZ": [
+      "nextStep: UPDATED"
+    ],
+    "006OG00000JMQ91YAH": [
+      "totalRevenue: 3,311,700 \u2192 3,773,175",
+      "projectedBilledRevenue: 948,568 \u2192 1,220,504"
+    ],
+    "006OG00000J4JtxYAF": [
+      "totalRevenue: 0 \u2192 97,558"
     ]
   }
-]
+}

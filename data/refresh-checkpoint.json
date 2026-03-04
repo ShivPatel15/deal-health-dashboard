@@ -1,0 +1,108 @@
+{
+  "date": "2026-03-04",
+  "started": "2026-03-04T08:06:05.134Z",
+  "results": {
+    "006OG00000FHHAHYA5": {
+      "accountName": "OLIVER BONAS LIMITED",
+      "status": "no-change",
+      "details": "No SF field changes, no new calls",
+      "timestamp": "2026-03-04T08:06:05.134Z"
+    },
+    "006OG00000HtxKFYAZ": {
+      "accountName": "Sofa.Com Ltd",
+      "status": "no-change",
+      "details": "No SF field changes, no new calls",
+      "timestamp": "2026-03-04T08:06:05.296Z"
+    },
+    "006OG00000KW83lYAD": {
+      "accountName": "C.P. Hart & Sons Limited",
+      "status": "no-change",
+      "details": "No SF field changes, no new calls",
+      "timestamp": "2026-03-04T08:06:05.561Z"
+    },
+    "006OG00000JUPVtYAP": {
+      "accountName": "Mint Velvet",
+      "status": "no-change",
+      "details": "No SF field changes, no new calls",
+      "timestamp": "2026-03-04T08:06:26.362Z"
+    },
+    "006OG00000KOC4YYAX": {
+      "accountName": "Moss Bros. Group Ltd",
+      "status": "no-change",
+      "details": "No SF field changes, no new calls",
+      "timestamp": "2026-03-04T08:06:30.042Z"
+    },
+    "0068V0000113rSIQAY": {
+      "accountName": "Moda in Pelle",
+      "status": "sf-only",
+      "details": "SF fields updated via lite-refresh, no score delta, no new calls",
+      "timestamp": "2026-03-04T08:07:41.231Z"
+    },
+    "006OG00000EZIy6YAH": {
+      "accountName": "Whittard of Chelsea",
+      "status": "sf-only",
+      "details": "SF fields updated via lite-refresh, no score delta, no new calls",
+      "timestamp": "2026-03-04T08:07:41.283Z"
+    },
+    "006OG00000GJ5IvYAL": {
+      "accountName": "The Dune Group",
+      "status": "sf-only",
+      "details": "SF fields updated via lite-refresh, no score delta, no new calls",
+      "timestamp": "2026-03-04T08:07:41.332Z"
+    },
+    "006OG00000CRabaYAD": {
+      "accountName": "Mulberry Company (Sales) Limited",
+      "status": "sf-only",
+      "details": "SF fields updated via lite-refresh, no score delta, no new calls",
+      "timestamp": "2026-03-04T08:07:41.381Z"
+    },
+    "006OG00000HnVs8YAF": {
+      "accountName": "Wacoal Europe",
+      "status": "sf-only",
+      "details": "SF fields updated via lite-refresh, no score delta, no new calls",
+      "timestamp": "2026-03-04T08:07:41.428Z"
+    },
+    "0068V0000113peWQAQ": {
+      "accountName": "ESSENTIEL Antwerp",
+      "status": "sf-only",
+      "details": "SF fields updated via lite-refresh, no score delta, no new calls",
+      "timestamp": "2026-03-04T08:07:41.476Z"
+    },
+    "006OG00000Fbj8nYAB": {
+      "accountName": "Cycle King & Hawk",
+      "status": "sf-only",
+      "details": "SF fields updated via lite-refresh, no score delta, no new calls",
+      "timestamp": "2026-03-04T08:07:41.523Z"
+    },
+    "006OG00000G28JdYAJ": {
+      "accountName": "Direct Wines Limited",
+      "status": "sf-only",
+      "details": "SF fields updated via lite-refresh, no score delta, no new calls",
+      "timestamp": "2026-03-04T08:07:41.570Z"
+    },
+    "006OG00000FYX8zYAH": {
+      "accountName": "Hawes & Curtis Limited",
+      "status": "sf-only",
+      "details": "SF fields updated via lite-refresh, no score delta, no new calls",
+      "timestamp": "2026-03-04T08:07:41.619Z"
+    },
+    "006OG00000Dh2YXYAZ": {
+      "accountName": "Bugaboo International B.V",
+      "status": "sf-only",
+      "details": "SF fields updated via lite-refresh, no score delta, no new calls",
+      "timestamp": "2026-03-04T08:07:41.666Z"
+    },
+    "006OG00000JMQ91YAH": {
+      "accountName": "TRINNY LONDON",
+      "status": "sf-only",
+      "details": "SF fields updated via lite-refresh, no score delta, no new calls",
+      "timestamp": "2026-03-04T08:07:41.714Z"
+    },
+    "006OG00000J4JtxYAF": {
+      "accountName": "Vision Healthcare",
+      "status": "sf-only",
+      "details": "SF fields updated via lite-refresh, no score delta, no new calls",
+      "timestamp": "2026-03-04T08:07:41.763Z"
+    }
+  }
+}

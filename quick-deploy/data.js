@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-03-03T08:12:29.775Z",
+  "generatedAt": "2026-03-04T08:07:53.206Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -1206,6 +1206,23 @@ const DEAL_DATA = {
             "Decision Process: declined (4 → 3)",
             "Paper Process: declined (3.5 → 2)"
           ]
+        },
+        {
+          "date": "2026-03-04",
+          "totalScore": 30,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 3,
+            "Decision Criteria": 3.5,
+            "Paper Process": 2,
+            "Identify Pain": 6.5,
+            "Champion": 3.5,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -1500,7 +1517,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-03-03",
+          "date": "2026-03-04",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -2631,6 +2648,23 @@ const DEAL_DATA = {
             "Competition": 3
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-04",
+          "totalScore": 36,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 6,
+            "Economic Buyer": 4,
+            "Decision Process": 4.5,
+            "Decision Criteria": 4,
+            "Paper Process": 1,
+            "Identify Pain": 7,
+            "Champion": 6.5,
+            "Competition": 3
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -2926,7 +2960,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-03-03",
+          "date": "2026-03-04",
           "sections": {
             "Metrics": {
               "score": 6,
@@ -4171,6 +4205,23 @@ const DEAL_DATA = {
             "Economic Buyer: improved (3 → 3.5)",
             "Decision Criteria: improved (5 → 5.5)"
           ]
+        },
+        {
+          "date": "2026-03-04",
+          "totalScore": 38.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3.5,
+            "Decision Process": 4.5,
+            "Decision Criteria": 5.5,
+            "Paper Process": 4,
+            "Identify Pain": 6,
+            "Champion": 5.5,
+            "Competition": 4
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -4475,7 +4526,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-03-03",
+          "date": "2026-03-04",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -5780,6 +5831,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-04",
+          "totalScore": 34.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 4.5,
+            "Identify Pain": 6.5,
+            "Champion": 4,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -6015,7 +6083,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-03-03",
+          "date": "2026-03-04",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -7172,6 +7240,23 @@ const DEAL_DATA = {
             "Score improved by 0.5 points",
             "Competition: improved (4 → 4.5)"
           ]
+        },
+        {
+          "date": "2026-03-04",
+          "totalScore": 44.5,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 4,
+            "Decision Process": 7,
+            "Decision Criteria": 5,
+            "Paper Process": 6,
+            "Identify Pain": 7,
+            "Champion": 5.5,
+            "Competition": 4.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -7476,7 +7561,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-03-03",
+          "date": "2026-03-04",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -8665,6 +8750,23 @@ const DEAL_DATA = {
             "Competition": 3.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-04",
+          "totalScore": 29,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 4.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 3.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 3,
+            "Identify Pain": 4,
+            "Champion": 4.5,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -8919,7 +9021,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-03-03",
+          "date": "2026-03-04",
           "sections": {
             "Metrics": {
               "score": 4.5,
@@ -10165,6 +10267,23 @@ const DEAL_DATA = {
             "Competition": 2
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-04",
+          "totalScore": 31,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 4.5,
+            "Decision Process": 4.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 6,
+            "Champion": 4.5,
+            "Competition": 2
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -10463,7 +10582,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-03-03",
+          "date": "2026-03-04",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -11698,6 +11817,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-04",
+          "totalScore": 32,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 3,
+            "Decision Process": 4,
+            "Decision Criteria": 4.5,
+            "Paper Process": 1,
+            "Identify Pain": 6.5,
+            "Champion": 5.5,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -11942,7 +12078,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-03-03",
+          "date": "2026-03-04",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -13243,6 +13379,23 @@ const DEAL_DATA = {
             "Score improved by 0.5 points",
             "Competition: improved (3 → 3.5)"
           ]
+        },
+        {
+          "date": "2026-03-04",
+          "totalScore": 29.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 4,
+            "Decision Criteria": 3.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 5.5,
+            "Champion": 4,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -13503,7 +13656,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-03-03",
+          "date": "2026-03-04",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -14749,6 +14902,23 @@ const DEAL_DATA = {
             "Score improved by 0.5 points",
             "Competition: improved (0 → 0.5)"
           ]
+        },
+        {
+          "date": "2026-03-04",
+          "totalScore": 22.5,
+          "totalMax": 54,
+          "status": "at-risk",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 2,
+            "Decision Process": 4,
+            "Decision Criteria": 2.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 5,
+            "Champion": 3,
+            "Competition": 0.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -14988,7 +15158,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-03-03",
+          "date": "2026-03-04",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -16395,6 +16565,23 @@ const DEAL_DATA = {
             "Decision Process: declined (6 → 5.5)",
             "Identify Pain: declined (8 → 7.5)"
           ]
+        },
+        {
+          "date": "2026-03-04",
+          "totalScore": 41,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 5,
+            "Decision Process": 5.5,
+            "Decision Criteria": 5,
+            "Paper Process": 2,
+            "Identify Pain": 7.5,
+            "Champion": 6,
+            "Competition": 5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -16765,7 +16952,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-03-03",
+          "date": "2026-03-04",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -17917,6 +18104,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-04",
+          "totalScore": 41,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 5,
+            "Decision Process": 5.5,
+            "Decision Criteria": 4.5,
+            "Paper Process": 4,
+            "Identify Pain": 7.5,
+            "Champion": 6.5,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -18179,7 +18383,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-03-03",
+          "date": "2026-03-04",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -19397,6 +19601,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-04",
+          "totalScore": 28.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 3,
+            "Economic Buyer": 3.5,
+            "Decision Process": 4.5,
+            "Decision Criteria": 3,
+            "Paper Process": 1.5,
+            "Identify Pain": 5.5,
+            "Champion": 5,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -19494,7 +19715,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-03-03",
+          "date": "2026-03-04",
           "sections": {
             "Metrics": {
               "score": 3,
@@ -20747,6 +20968,23 @@ const DEAL_DATA = {
             "Competition": 1.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-04",
+          "totalScore": 28,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 2,
+            "Decision Process": 4.5,
+            "Decision Criteria": 2,
+            "Paper Process": 2.5,
+            "Identify Pain": 6,
+            "Champion": 4.5,
+            "Competition": 1.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -20921,7 +21159,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-03-03",
+          "date": "2026-03-04",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -22218,6 +22456,23 @@ const DEAL_DATA = {
             "Competition": 2
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-04",
+          "totalScore": 30.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 6,
+            "Economic Buyer": 2,
+            "Decision Process": 5,
+            "Decision Criteria": 4,
+            "Paper Process": 1,
+            "Identify Pain": 6.5,
+            "Champion": 4,
+            "Competition": 2
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -22335,7 +22590,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-03-03",
+          "date": "2026-03-04",
           "sections": {
             "Metrics": {
               "score": 6,
@@ -23544,6 +23799,23 @@ const DEAL_DATA = {
             "Competition": 1
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-04",
+          "totalScore": 25,
+          "totalMax": 54,
+          "status": "at-risk",
+          "sectionScores": {
+            "Metrics": 4,
+            "Economic Buyer": 2,
+            "Decision Process": 3,
+            "Decision Criteria": 4,
+            "Paper Process": 0.5,
+            "Identify Pain": 5.5,
+            "Champion": 5,
+            "Competition": 1
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -23734,7 +24006,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-03-03",
+          "date": "2026-03-04",
           "sections": {
             "Metrics": {
               "score": 4,
@@ -24865,6 +25137,23 @@ const DEAL_DATA = {
             "Competition": 2
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-04",
+          "totalScore": 31,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 4,
+            "Decision Process": 5,
+            "Decision Criteria": 4,
+            "Paper Process": 1,
+            "Identify Pain": 5.5,
+            "Champion": 4.5,
+            "Competition": 2
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -25095,7 +25384,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-03-03",
+          "date": "2026-03-04",
           "sections": {
             "Metrics": {
               "score": 5,

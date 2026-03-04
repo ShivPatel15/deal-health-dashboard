@@ -4,19 +4,19 @@
     "accountName": "Moda in Pelle",
     "changes": [
       {
-        "field": "competitive.primary",
-        "oldValue": "Visualsoft (status quo)",
-        "newValue": "Other"
+        "field": "closeDate",
+        "oldValue": "2026-02-27",
+        "newValue": "2026-03-13"
       },
       {
-        "field": "timeline.proposedLaunch",
+        "field": "proposedLaunchDate",
         "oldValue": null,
         "newValue": "2026-05-29"
       },
       {
         "field": "nextStep",
         "oldValue": "02/18 - Spoke to David Duke and we are on track to get it signed before end of Feb",
-        "newValue": "02/18 -Spoke to David Duke and we are on track to get it signed before end of Feb"
+        "newValue": "02.03 AC sent email to inform about rates being revoked, deadline friday this week"
       }
     ]
   },
@@ -25,34 +25,24 @@
     "accountName": "Whittard of Chelsea",
     "changes": [
       {
-        "field": "closeDate",
-        "oldValue": "2026-02-27",
-        "newValue": "2026-03-30"
+        "field": "merchantIntent",
+        "oldValue": "Committed - At Risk",
+        "newValue": "Committed"
       },
       {
-        "field": "revenue.projectedBilled",
-        "oldValue": 406078.56,
-        "newValue": 303277.58
-      },
-      {
-        "field": "revenue.paymentsGpv",
-        "oldValue": 8125000.0,
-        "newValue": 10985000.0
-      },
-      {
-        "field": "revenue.totalRev3yr",
-        "oldValue": 714900.0,
-        "newValue": 676036.88
-      },
-      {
-        "field": "timeline.proposedLaunch",
+        "field": "proposedLaunchDate",
         "oldValue": null,
         "newValue": "2026-07-01"
       },
       {
-        "field": "nextStep",
-        "oldValue": "19.02 resubmitted rate review, WorldPay is payment processor, Barclay, Merchant keen on signing this Q (received email from Fiona today mentioning good to sign in Feb!)",
-        "newValue": "24.02 RR back, Adriana to set up meeting with Nathan and Fiona to discuss final steps + Partner choice"
+        "field": "revenue.totalRev3yr",
+        "oldValue": 676036.88,
+        "newValue": 682936.88
+      },
+      {
+        "field": "projectedBilledRevenue",
+        "oldValue": 303277.58,
+        "newValue": 310177.58
       }
     ]
   },
@@ -61,14 +51,30 @@
     "accountName": "The Dune Group",
     "changes": [
       {
-        "field": "timeline.proposedLaunch",
+        "field": "merchantIntent",
+        "oldValue": "Committed - At Risk",
+        "newValue": "Committed"
+      },
+      {
+        "field": "proposedLaunchDate",
         "oldValue": null,
         "newValue": "2026-05-01"
       },
       {
         "field": "nextStep",
-        "oldValue": "24.02  onsite meeting cancelled as team members sick, had meeting with Dune and Tryzens to discuss launch steps, Martin confirmed They're very close to getting budged signed off \"any day now\"",
-        "newValue": "24.02  onsite meeting cancelled as team members sick, had meeting with Dune and Tryzens to discuss launch steps, Martin confirmed They're very close to getting budged signed off \"any day now\""
+        "oldValue": "24.02 onsite meeting cancelled as team members sick, had meeting with Dune and Tryzens to discuss launch steps, Martin confirmed They are very close to getting budget signed off any day now",
+        "newValue": "02.03, POS demo 09.03, Andy asked payments, and integration points in detail. Martin confirmed They're very close to getting budget signed off \"any day now\""
+      }
+    ]
+  },
+  {
+    "opportunityId": "006OG00000CRabaYAD",
+    "accountName": "Mulberry Company (Sales) Limited",
+    "changes": [
+      {
+        "field": "proposedLaunchDate",
+        "oldValue": null,
+        "newValue": "2026-06-30"
       }
     ]
   },
@@ -77,24 +83,9 @@
     "accountName": "Wacoal Europe",
     "changes": [
       {
-        "field": "closeDate",
-        "oldValue": "2026-02-28",
-        "newValue": "2026-03-13"
-      },
-      {
-        "field": "competitive.primary",
-        "oldValue": "SAP (incumbent) / Scale (potential retender)",
-        "newValue": null
-      },
-      {
-        "field": "timeline.proposedLaunch",
+        "field": "proposedLaunchDate",
         "oldValue": null,
         "newValue": "2026-11-03"
-      },
-      {
-        "field": "nextStep",
-        "oldValue": "13/02 MF: Will have a decision by 27/02. Contract reviewed and rates presented. Offer expires March 13th.",
-        "newValue": "20/02 MF: Will have a decision by 27/02. Contract reviewed and rates presented. Offer expires March 13th."
       }
     ]
   },
@@ -103,35 +94,14 @@
     "accountName": "ESSENTIEL Antwerp",
     "changes": [
       {
-        "field": "revenue.mcv",
-        "oldValue": 132800.0,
-        "newValue": 82800.0
-      },
-      {
-        "field": "timeline.proposedLaunch",
+        "field": "proposedLaunchDate",
         "oldValue": null,
         "newValue": "2026-09-30"
       },
       {
         "field": "nextStep",
-        "oldValue": "18/2 BR RFP has landed and I am speaking to each agency (7) to get a sense check. Timelines on RFP indicate build to start in April.",
-        "newValue": "18/2 BR RFP has landed and I ma speaking to each agency (7) to get a sense check. Timelines on RFP indicate  build to start in April"
-      }
-    ]
-  },
-  {
-    "opportunityId": "006OG00000FHHAHYA5",
-    "accountName": "OLIVER BONAS LIMITED",
-    "changes": [
-      {
-        "field": "competitive.primary",
-        "oldValue": "Adobe Commerce (Magento)",
-        "newValue": null
-      },
-      {
-        "field": "nextStep",
-        "oldValue": "19.02 Awaiting statement for RR, collab on TCO, POS demo successful, received good feedback, awaiting final feedback for next round of RFP",
-        "newValue": "24.02 Awaiting statement for RR, collab on TCO, POS demo successful, received good feedback, awaiting final feedback for next round of RFP"
+        "oldValue": "18/2 BR RFP has landed and I am speaking to each agency (7) to get a sense check. Timelines on RFP indicate build to start in April",
+        "newValue": "18/2 BR RFP has landed and I ma speaking to each agency (7) to get a sense check. Timelines on RFP indicate build to start in April"
       }
     ]
   },
@@ -140,7 +110,7 @@
     "accountName": "Cycle King & Hawk",
     "changes": [
       {
-        "field": "competitive.primary",
+        "field": "competitor",
         "oldValue": "Citrus Lime (incumbent)",
         "newValue": null
       }
@@ -151,9 +121,19 @@
     "accountName": "Direct Wines Limited",
     "changes": [
       {
-        "field": "timeline.proposedLaunch",
+        "field": "proposedLaunchDate",
         "oldValue": null,
         "newValue": "2026-06-30"
+      },
+      {
+        "field": "revenue.totalRev3yr",
+        "oldValue": 10909191,
+        "newValue": 14206191.0
+      },
+      {
+        "field": "projectedBilledRevenue",
+        "oldValue": 3813618.5,
+        "newValue": 6065019.0
       }
     ]
   },
@@ -162,30 +142,20 @@
     "accountName": "Hawes & Curtis Limited",
     "changes": [
       {
-        "field": "timeline.proposedLaunch",
+        "field": "proposedLaunchDate",
         "oldValue": null,
         "newValue": "2026-08-02"
-      },
-      {
-        "field": "nextStep",
-        "oldValue": "13/02 MF: Finalising agency selection before signing Shopify contract. Paul Rogers (Vervaunt) introduced more agencies with design focus, might not sign before Q2 now. Catch up with Paul next week (Alexandra supporting).",
-        "newValue": "20/02 MF: Finalising agency selection before signing Shopify contract. Paul Rogers (Vervaunt) introduced more agencies with design focus, might not sign before Q2 now. Catch up with Paul next week (Alexandra supporting)."
       }
     ]
   },
   {
-    "opportunityId": "006OG00000KW83lYAD",
-    "accountName": "C.P. Hart & Sons Limited",
+    "opportunityId": "006OG00000Dh2YXYAZ",
+    "accountName": "Bugaboo International B.V",
     "changes": [
       {
         "field": "nextStep",
-        "oldValue": null,
-        "newValue": "24.02 presented commercials, board meeting this month, awaiting statements for RR, NDA in works, MO ooo"
-      },
-      {
-        "field": "revenue.projectedBilled",
-        "oldValue": null,
-        "newValue": 758832.18
+        "oldValue": "23/02 BR Call with Jordan. He is working through biz case but biggest aspect is going to be the SP since we will not approve Adyen. Agency decision in March. SP call scheduled for 11th March",
+        "newValue": "23/02 BR Call with Jordan. He is working through biz case but biggest aspect is going to be the SP since we will not approve Adyen. Agency decision in March. SP call scheduled for 11th March"
       }
     ]
   },
@@ -194,25 +164,25 @@
     "accountName": "TRINNY LONDON",
     "changes": [
       {
-        "field": "revenue.projectedBilled",
-        "oldValue": 948568.42,
-        "newValue": 1220503.68
+        "field": "revenue.totalRev3yr",
+        "oldValue": 3311700,
+        "newValue": 3773175.0
       },
       {
-        "field": "revenue.totalRev3yr",
-        "oldValue": 3311700.0,
-        "newValue": 3773175.0
+        "field": "projectedBilledRevenue",
+        "oldValue": 948568.42,
+        "newValue": 1220503.68
       }
     ]
   },
   {
-    "opportunityId": "006OG00000KOC4YYAX",
-    "accountName": "Moss Bros. Group Ltd",
+    "opportunityId": "006OG00000J4JtxYAF",
+    "accountName": "Vision Healthcare",
     "changes": [
       {
-        "field": "nextStep",
-        "oldValue": null,
-        "newValue": "[AS] 16.01 Technical discovery scheduled for  26.01 + intro to deal champion, Chris Turberville-Tulley"
+        "field": "revenue.totalRev3yr",
+        "oldValue": 0,
+        "newValue": 97557.94
       }
     ]
   }
