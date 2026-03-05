@@ -9,40 +9,9 @@
         "newValue": "2026-03-13"
       },
       {
-        "field": "proposedLaunchDate",
-        "oldValue": null,
-        "newValue": "2026-05-29"
-      },
-      {
         "field": "nextStep",
-        "oldValue": "02/18 - Spoke to David Duke and we are on track to get it signed before end of Feb",
+        "oldValue": "02/18 - Spoke to David Duke...",
         "newValue": "02.03 AC sent email to inform about rates being revoked, deadline friday this week"
-      }
-    ]
-  },
-  {
-    "opportunityId": "006OG00000EZIy6YAH",
-    "accountName": "Whittard of Chelsea",
-    "changes": [
-      {
-        "field": "merchantIntent",
-        "oldValue": "Committed - At Risk",
-        "newValue": "Committed"
-      },
-      {
-        "field": "proposedLaunchDate",
-        "oldValue": null,
-        "newValue": "2026-07-01"
-      },
-      {
-        "field": "revenue.totalRev3yr",
-        "oldValue": 676036.88,
-        "newValue": 682936.88
-      },
-      {
-        "field": "projectedBilledRevenue",
-        "oldValue": 303277.58,
-        "newValue": 310177.58
       }
     ]
   },
@@ -56,25 +25,9 @@
         "newValue": "Committed"
       },
       {
-        "field": "proposedLaunchDate",
-        "oldValue": null,
-        "newValue": "2026-05-01"
-      },
-      {
         "field": "nextStep",
-        "oldValue": "24.02 onsite meeting cancelled as team members sick, had meeting with Dune and Tryzens to discuss launch steps, Martin confirmed They are very close to getting budget signed off any day now",
-        "newValue": "02.03, POS demo 09.03, Andy asked payments, and integration points in detail. Martin confirmed They're very close to getting budget signed off \"any day now\""
-      }
-    ]
-  },
-  {
-    "opportunityId": "006OG00000CRabaYAD",
-    "accountName": "Mulberry Company (Sales) Limited",
-    "changes": [
-      {
-        "field": "proposedLaunchDate",
-        "oldValue": null,
-        "newValue": "2026-06-30"
+        "oldValue": "24.02 onsite meeting cancelled...",
+        "newValue": "02.03, POS demo 09.03 , Andy asked payments, and integration points in detail. Martin confirmed They're very close to getting budged signed off \"any day now\""
       }
     ]
   },
@@ -83,9 +36,14 @@
     "accountName": "Wacoal Europe",
     "changes": [
       {
-        "field": "proposedLaunchDate",
-        "oldValue": null,
-        "newValue": "2026-11-03"
+        "field": "merchantIntent",
+        "oldValue": "Committed - At Risk",
+        "newValue": "Committed"
+      },
+      {
+        "field": "nextStep",
+        "oldValue": "27/02 MF: Will have a decision next week...",
+        "newValue": "04/03: Got the GO, finalising contract - should sign by March 11."
       }
     ]
   },
@@ -94,14 +52,20 @@
     "accountName": "ESSENTIEL Antwerp",
     "changes": [
       {
-        "field": "proposedLaunchDate",
-        "oldValue": null,
-        "newValue": "2026-09-30"
-      },
+        "field": "nextStep",
+        "oldValue": "18/2 BR RFP has landed...",
+        "newValue": "4/03 BR RFP has landed and Im speaking to each agency (7) to get a sense check. Timelines on RFP indicate build to start in April"
+      }
+    ]
+  },
+  {
+    "opportunityId": "006OG00000JUPVtYAP",
+    "accountName": "Mint Velvet",
+    "changes": [
       {
         "field": "nextStep",
-        "oldValue": "18/2 BR RFP has landed and I am speaking to each agency (7) to get a sense check. Timelines on RFP indicate build to start in April",
-        "newValue": "18/2 BR RFP has landed and I ma speaking to each agency (7) to get a sense check. Timelines on RFP indicate build to start in April"
+        "oldValue": "18/02 BR Board have pushback on costs...",
+        "newValue": "4/03 BR BAFO sent and awaiting feedback to close win. Next Board meeting 11/03"
       }
     ]
   },
@@ -121,14 +85,9 @@
     "accountName": "Direct Wines Limited",
     "changes": [
       {
-        "field": "proposedLaunchDate",
-        "oldValue": null,
-        "newValue": "2026-06-30"
-      },
-      {
-        "field": "revenue.totalRev3yr",
-        "oldValue": 10909191,
-        "newValue": 14206191.0
+        "field": "nextStep",
+        "oldValue": "18/02 BR Discovery with Fuse ending...",
+        "newValue": "4/03 BR Board meeting on 26th was really positive. Clear appetite to consolidate their architecture even further. Fuse are presenting a revised brand consolidation proposal on 6th to be reviewed by merchant on 12th SLT meeting"
       },
       {
         "field": "projectedBilledRevenue",
@@ -142,20 +101,9 @@
     "accountName": "Hawes & Curtis Limited",
     "changes": [
       {
-        "field": "proposedLaunchDate",
-        "oldValue": null,
-        "newValue": "2026-08-02"
-      }
-    ]
-  },
-  {
-    "opportunityId": "006OG00000Dh2YXYAZ",
-    "accountName": "Bugaboo International B.V",
-    "changes": [
-      {
-        "field": "nextStep",
-        "oldValue": "23/02 BR Call with Jordan. He is working through biz case but biggest aspect is going to be the SP since we will not approve Adyen. Agency decision in March. SP call scheduled for 11th March",
-        "newValue": "23/02 BR Call with Jordan. He is working through biz case but biggest aspect is going to be the SP since we will not approve Adyen. Agency decision in March. SP call scheduled for 11th March"
+        "field": "merchantIntent",
+        "oldValue": "Committed",
+        "newValue": "Committed - At Risk"
       }
     ]
   },
@@ -164,25 +112,40 @@
     "accountName": "TRINNY LONDON",
     "changes": [
       {
-        "field": "revenue.totalRev3yr",
-        "oldValue": 3311700,
-        "newValue": 3773175.0
+        "field": "closeDate",
+        "oldValue": "2026-06-30",
+        "newValue": "2026-03-31"
+      },
+      {
+        "field": "merchantIntent",
+        "oldValue": "Uncommitted",
+        "newValue": "Committed - At Risk"
+      },
+      {
+        "field": "nextStep",
+        "oldValue": "27/02 MF: Feedback on draft contract...",
+        "newValue": "04/03 MF: Awaiting legal response and rate review response. those are the 2 blockers for getting the deal done. It seems that it will either happen in the next few days or not at all."
       },
       {
         "field": "projectedBilledRevenue",
         "oldValue": 948568.42,
-        "newValue": 1220503.68
+        "newValue": 1184353.82
       }
     ]
   },
   {
-    "opportunityId": "006OG00000J4JtxYAF",
-    "accountName": "Vision Healthcare",
+    "opportunityId": "006OG00000KqnifYAB",
+    "accountName": "axminstertools.com",
     "changes": [
       {
-        "field": "revenue.totalRev3yr",
-        "oldValue": 0,
-        "newValue": 97557.94
+        "field": "nextStep",
+        "oldValue": "",
+        "newValue": "27/02 MF: Wants to make a decision in March. Going to see Swanky in the next 2 weeks."
+      },
+      {
+        "field": "competitor",
+        "oldValue": null,
+        "newValue": "Adobe Commerce (Magento)"
       }
     ]
   }

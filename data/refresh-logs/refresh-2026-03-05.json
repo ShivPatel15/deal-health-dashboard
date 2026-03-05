@@ -1,0 +1,124 @@
+{
+  "date": "2026-03-05",
+  "started": "2026-03-05T08:13:14.031Z",
+  "finished": "2026-03-05T08:13:25.779Z",
+  "totalOpportunities": 18,
+  "processed": 18,
+  "results": {
+    "006OG00000EZIy6YAH": {
+      "accountName": "Whittard of Chelsea",
+      "status": "new-calls",
+      "details": "New call: Rate Review 2026-03-02. MEDDPICC incremental update applied. merchantIntent upgraded to Committed. 5 new MAP items, 3 deal risks added.",
+      "timestamp": "2026-03-05T08:13:14.031Z"
+    },
+    "0068V0000113rSIQAY": {
+      "accountName": "Moda in Pelle",
+      "status": "sf-only",
+      "details": "CloseDate extended to 2026-03-13. NextStep updated.",
+      "timestamp": "2026-03-05T08:13:14.077Z"
+    },
+    "006OG00000GJ5IvYAL": {
+      "accountName": "The Dune Group",
+      "status": "sf-only",
+      "details": "MerchantIntent upgraded to Committed. NextStep: POS demo 09.03.",
+      "timestamp": "2026-03-05T08:13:14.122Z"
+    },
+    "006OG00000HnVs8YAF": {
+      "accountName": "Wacoal Europe",
+      "status": "sf-only",
+      "details": "MerchantIntent upgraded to Committed. Got the GO, signing by March 11. Score +0.5 to 45/54.",
+      "timestamp": "2026-03-05T08:13:14.167Z"
+    },
+    "0068V0000113peWQAQ": {
+      "accountName": "ESSENTIEL Antwerp",
+      "status": "sf-only",
+      "details": "NextStep updated: RFP agency sense check.",
+      "timestamp": "2026-03-05T08:13:14.211Z"
+    },
+    "006OG00000JUPVtYAP": {
+      "accountName": "Mint Velvet",
+      "status": "sf-only",
+      "details": "NextStep: BAFO sent, board meeting 11/03.",
+      "timestamp": "2026-03-05T08:13:14.256Z"
+    },
+    "006OG00000Fbj8nYAB": {
+      "accountName": "Cycle King & Hawk",
+      "status": "sf-only",
+      "details": "Competitor cleared (was Citrus Lime).",
+      "timestamp": "2026-03-05T08:13:14.303Z"
+    },
+    "006OG00000G28JdYAJ": {
+      "accountName": "Direct Wines Limited",
+      "status": "sf-only",
+      "details": "Board positive. PBR up to 6M. NextStep: brand consolidation proposal.",
+      "timestamp": "2026-03-05T08:13:14.349Z"
+    },
+    "006OG00000FYX8zYAH": {
+      "accountName": "Hawes & Curtis Limited",
+      "status": "sf-only",
+      "details": "MerchantIntent downgraded to Committed - At Risk.",
+      "timestamp": "2026-03-05T08:13:14.395Z"
+    },
+    "006OG00000JMQ91YAH": {
+      "accountName": "TRINNY LONDON",
+      "status": "sf-only",
+      "details": "CloseDate pulled in to 2026-03-31. MerchantIntent to Committed - At Risk. PBR up. Legal/RR blockers.",
+      "timestamp": "2026-03-05T08:13:14.440Z"
+    },
+    "006OG00000KqnifYAB": {
+      "accountName": "axminstertools.com",
+      "status": "sf-only",
+      "details": "NextStep populated. Competitor: Adobe Commerce.",
+      "timestamp": "2026-03-05T08:13:14.485Z"
+    },
+    "006OG00000CRabaYAD": {
+      "accountName": "Mulberry Company (Sales) Limited",
+      "status": "no-change",
+      "details": "Closed Won - no changes.",
+      "timestamp": "2026-03-05T08:13:14.533Z"
+    },
+    "006OG00000HtxKFYAZ": {
+      "accountName": "Sofa.Com Ltd",
+      "status": "no-change",
+      "details": "",
+      "timestamp": "2026-03-05T08:13:14.577Z"
+    },
+    "006OG00000FHHAHYA5": {
+      "accountName": "OLIVER BONAS LIMITED",
+      "status": "no-change",
+      "details": "",
+      "timestamp": "2026-03-05T08:13:14.621Z"
+    },
+    "006OG00000Dh2YXYAZ": {
+      "accountName": "Bugaboo International B.V",
+      "status": "no-change",
+      "details": "",
+      "timestamp": "2026-03-05T08:13:14.666Z"
+    },
+    "006OG00000KW83lYAD": {
+      "accountName": "C.P. Hart & Sons Limited",
+      "status": "no-change",
+      "details": "",
+      "timestamp": "2026-03-05T08:13:14.711Z"
+    },
+    "006OG00000KOC4YYAX": {
+      "accountName": "Moss Bros. Group Ltd",
+      "status": "no-change",
+      "details": "",
+      "timestamp": "2026-03-05T08:13:14.756Z"
+    },
+    "006OG00000J4JtxYAF": {
+      "accountName": "Vision Healthcare",
+      "status": "no-change",
+      "details": "",
+      "timestamp": "2026-03-05T08:13:14.802Z"
+    }
+  },
+  "summary": {
+    "noChange": 7,
+    "sfOnly": 10,
+    "newCalls": 1,
+    "errors": 0,
+    "skipped": 0
+  }
+}

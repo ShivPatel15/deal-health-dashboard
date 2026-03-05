@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-03-04T14:58:18.652Z",
+  "generatedAt": "2026-03-05T08:13:45.168Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -1223,6 +1223,23 @@ const DEAL_DATA = {
             "Competition": 3.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-05",
+          "totalScore": 30,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 3,
+            "Decision Criteria": 3.5,
+            "Paper Process": 2,
+            "Identify Pain": 6.5,
+            "Champion": 3.5,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -1517,7 +1534,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-03-04",
+          "date": "2026-03-05",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -1574,10 +1591,10 @@ const DEAL_DATA = {
       "closeDate": "2026-03-30",
       "forecastCategory": "Commit",
       "probability": 80,
-      "merchantIntent": "Committed - At Risk",
+      "merchantIntent": "Committed",
       "type": "New Business",
       "created": "2025-05-29",
-      "lastAnalysisDate": "2026-02-19",
+      "lastAnalysisDate": "2026-03-05",
       "revenue": {
         "mcv": 69000,
         "totalRev3yr": 676036.88,
@@ -1588,7 +1605,7 @@ const DEAL_DATA = {
         "paymentsAttached": true,
         "ipp": 0
       },
-      "projectedBilledRevenue": 303277.58,
+      "projectedBilledRevenue": 310177.58,
       "products": [
         "D2C - Standard (Plus)",
         "Shopify Payments - D2C Plus"
@@ -1597,11 +1614,11 @@ const DEAL_DATA = {
       "compellingEvent": "Salesforce Commerce Cloud Site Genesis reaching end-of-life, non-mobile-native platform with 70% mobile traffic, inability to unlock digital wallets, and ambitious B2C growth targets requiring a modern platform. July 2026 launch target to avoid January 2027 crunch.",
       "nextStep": "24.02 RR back, Adriana to set up meeting with Nathan and Fiona to discuss final steps + Partner choice",
       "narrative": {
-        "oppSummary": "Whittard of Chelsea is a UK-based Food & Beverage retailer evaluating a migration from Salesforce Commerce Cloud (Site Genesis) to Shopify Plus, with a projected deal value of ~$714,900 over 3 years ($69,000/yr MCV). The merchant targets a July 2026 launch to replatform their e-commerce site, with the ambition of growing online B2C penetration from 17-18% to 25% of total sales over 24 months. The deal is currently in Deal Craft stage at 80% probability with a Feb 27, 2026 close date, and the merchant has signaled readiness to sign in February — Fiona Scott (Head of eCommerce, now primary contact after Alice Bennett's maternity leave) sent a recent email indicating willingness to sign this quarter.",
+        "oppSummary": "Whittard of Chelsea is a UK-based Food & Beverage retailer migrating from SFCC Site Genesis to Shopify Plus, ~$310K projected billed revenue ($714,900 over 3yr). Merchant intent upgraded to 'Committed'. Target September 2026 launch with contract signing by March 20, 2026. Agency (Lime Sharp) selected, payment rates agreed at 0.8% domestic, Global-e confirmed for international. Deal Craft at 80% probability.",
         "whyChange": "Whittard is on Salesforce Commerce Cloud's Site Genesis, which Fiona stated 'won't be supported by Salesforce for much longer.' The platform is not mobile-native — a critical problem with 70% mobile traffic vs 25% desktop. They cannot unlock digital wallets (Apple Pay, Google Pay). B2C sales are 17-18% of total, targeting 25%. The original evaluation considered a phased approach but has since prioritized full migration by July 2026.",
-        "whyShopify": "Mobile-native architecture directly addresses core pain. Shop Pay — 'a third of UK's population is on Shop Pay' (Shiv Patel) — aligns with conversion goals. Unified Plus offering with future POS potential. Merchant actively asked for Shopify's input on their agency partner shortlist, indicating trust. Digital wallets, subscriptions, and modern checkout on a supported, future-proof platform.",
-        "whyNow": "Site Genesis end-of-life forces migration. Fiona: 'The ideal timing is July 26 launch. If we don't do it then it'll need to be Jan 27 which we'd like to avoid.' Salesforce contract runs to 2027, so decision needed now. Fiona emailed team indicating readiness to sign in February. CEO Nathan Smith attended Jan 28 call — executive alignment signal.",
-        "supportNeeded": "1) Payment rate finalization — rate review resubmitted Feb 19, merchant currently at ~0.55% and open to switching from WorldPay. 2) Partner/agency guidance — Fiona asked for Shopify's view on partner shortlist. 3) POS roadmap discussion for future phases. 4) Subscription (Order Groove) and loyalty (Antavo) migration clarity. 5) Continuity management — Alice Bennett on maternity leave, need to engage Liam East."
+        "whyShopify": "Mobile-native architecture directly addresses core pain. Shop Pay — projected 5% revenue uplift presented and well-received by Fiona. Unified Plus offering with future POS potential. Competitive 0.8% domestic payment rate secured via rate review. Global-e confirmed compatible as secondary checkout for international/importer-of-record needs. Fiona emphasized this is 'not just about replatforming' but a full brand and digital strategy transformation — retail managers are excited about the omnichannel implications.",
+        "whyNow": "Site Genesis EOL. Fiona has set a hard personal deadline of March 20, 2026 for signing both Shopify and Lime Sharp contracts. New agency (Lime Sharp) needs Shopify access by April to hit September 2026 launch. Salesforce contract runs until Feb 2027, creating dual-cost pressure during build period (April-September). Shopify Q1 end-of-quarter (March 31) adds mutual urgency. Fiona confirmed on call: 'We've got to get these things done.'",
+        "supportNeeded": "1) Platform credit/concession exploration — Fiona raised concern about paying $2,300/mo Shopify flat fee alongside Salesforce contract through Feb 2027; Adriana committed to seeking concessions from leadership. 2) Contract delivery — Adriana to send rate review document, letter of intent, and contract drafts to Nathan (signing authority) ASAP. 3) Lime Sharp coordination — Adriana to connect with Lime Sharp to ensure aligned on timeline and Shopify access from April. 4) POS roadmap discussion (still outstanding). 5) Subscription/loyalty migration planning (still outstanding)."
       },
       "meddpicc": {
         "metrics": {
@@ -1686,7 +1703,7 @@ const DEAL_DATA = {
               "q": "Have I identified the true economic buyer?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Fiona: 'Nathan and the CFO will sign off cost.' Nathan Smith (CEO) identified as economic buyer",
+              "notes": "Nathan Smith confirmed as signing authority (CEO). CFO unavailable so Nathan signs.",
               "solution": "",
               "action": "",
               "due": "",
@@ -1694,9 +1711,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we know who's signing the contract?",
-              "answer": "Partial",
+              "answer": "Yes",
               "score": 0.5,
-              "notes": "Nathan and CFO sign off cost. CFO name unknown. Contract signer not confirmed",
+              "notes": "Fiona: 'Nathan will probably do the signing.' Contract signer identified.",
               "solution": "Clarify who signs the contract",
               "action": "Adriana to ask Fiona to confirm signatory and procurement steps",
               "due": "03/05/2026",
@@ -1761,7 +1778,7 @@ const DEAL_DATA = {
               "q": "Do we know who's involved / buying committee?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Committee identified — CEO, CFO, Head of eCommerce, Digital Growth Manager, Ecommerce Manager, Head of IT",
+              "notes": "Buying committee: Fiona (driver), Nathan (signer/CEO), external lawyers, Lime Sharp (agency).",
               "solution": "",
               "action": "",
               "due": "",
@@ -1769,9 +1786,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we know when they want to make a decision by?",
-              "answer": "Partial",
+              "answer": "Yes",
               "score": 0.5,
-              "notes": "[2026-02-26 daily refresh] CloseDate pushed 1 month, decision timeline has slipped and is now less certain. (was: Yes)",
+              "notes": "Fiona: March 20 deadline. Lime Sharp needs access April. September launch target.",
               "solution": "",
               "action": "",
               "due": "",
@@ -1899,9 +1916,9 @@ const DEAL_DATA = {
           "questions": [
             {
               "q": "Do we know what their procurement process is?",
-              "answer": "No",
+              "answer": "Yes",
               "score": 0,
-              "notes": "No procurement process discussed. Nathan and CFO sign off cost but no details on legal/procurement workflow",
+              "notes": "Nathan Smith confirmed as signing authority. External lawyers pre-engaged and 'warmed up'. Fiona outlined clear procurement process.",
               "solution": "Map procurement/legal process before sending contract",
               "action": "Ask Fiona about internal process to get contract signed — legal or procurement review?",
               "due": "03/12/2026",
@@ -1909,9 +1926,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Are there likely to be redlines?",
-              "answer": "No",
+              "answer": "Partial",
               "score": 0,
-              "notes": "No redline or legal concerns discussed",
+              "notes": "Fiona indicated no problems expected, Shopify contracts 'fairly standard'. External lawyers engaged but actual redline risk is low.",
               "solution": "Proactively ask about redline areas",
               "action": "Ask Fiona if legal typically redlines vendor contracts",
               "due": "03/12/2026",
@@ -1929,9 +1946,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we know how long it will take?",
-              "answer": "No",
+              "answer": "Yes",
               "score": 0,
-              "notes": "No procurement timeline discussed. Fiona suggested Feb signing but internal steps unmapped",
+              "notes": "March 20, 2026 target for signature. Fiona: 'I've set myself the 20th of March is my deadline.'",
               "solution": "Confirm Feb 27 is realistic",
               "action": "Validate Feb signature achievability with Fiona",
               "due": "03/12/2026",
@@ -1941,7 +1958,7 @@ const DEAL_DATA = {
               "q": "Do we have contract details?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Plus pricing walked through in Call 2. Rate review resubmitted Feb 19. Formal contract not confirmed as sent",
+              "notes": "Rate review completed. Contract drafts not yet sent but ready. Letter of intent to follow.",
               "solution": "Prepare contract once rate review finalized",
               "action": "Finalize and send contract upon rate review approval",
               "due": "03/12/2026",
@@ -1959,9 +1976,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we know target date for signature?",
-              "answer": "Partial",
+              "answer": "Yes",
               "score": 0.5,
-              "notes": "Fiona's email indicated Feb signing willingness. Not explicitly confirmed as mutual target date",
+              "notes": "March 20, 2026 target for signature explicitly stated by Fiona.",
               "solution": "Confirm Feb 27 as mutual target",
               "action": "Adriana to confirm: 'Are we aligned on signing by end of Feb?'",
               "due": "03/19/2026",
@@ -2061,7 +2078,7 @@ const DEAL_DATA = {
               "q": "Have you identified a true champion (influence + motivation)?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Fiona Scott (Head of eCommerce) — driving evaluation, articulated business case, provided metrics, facilitated CEO access, sent 'good to sign in Feb' email",
+              "notes": "Fiona Scott: driving timeline, managing stakeholders, presenting internally with excitement, proactively removing blockers.",
               "solution": "",
               "action": "",
               "due": "",
@@ -2251,159 +2268,131 @@ const DEAL_DATA = {
         {
           "p": 3,
           "cat": "Economic Buyer",
-          "issue": "Nathan and CFO sign off cost. CFO name unknown. Contract signer not confirmed",
-          "rec": "Adriana to ask Fiona to confirm signatory and procurement steps",
-          "due": "03/05/2026"
-        },
-        {
-          "p": 4,
-          "cat": "Economic Buyer",
           "issue": "Nathan attended Call 3 (Jan 28) — strong signal, but no transcript. Couldn't join Call 2 initially",
           "rec": "Ensure Nathan included in final commercial review",
           "due": "03/05/2026"
         },
         {
-          "p": 5,
+          "p": 4,
           "cat": "Economic Buyer",
           "issue": "CEO priorities implied but not directly captured. No transcript from Call 3",
           "rec": "Adriana to debrief with Fiona on Nathan's priorities from Jan 28",
           "due": "03/12/2026"
         },
         {
-          "p": 6,
+          "p": 5,
           "cat": "Economic Buyer",
           "issue": "Steering committee mentioned, internal review described, but detailed approval workflow not fully mapped",
           "rec": "Ask Fiona to walk through remaining internal steps",
           "due": "03/12/2026"
         },
         {
-          "p": 7,
+          "p": 6,
           "cat": "Decision Process",
           "issue": "General process described — Nathan and CFO sign off, steering committee, internal review. Exact steps not documented",
           "rec": "Confirm remaining decision process steps",
           "due": "03/12/2026"
         },
         {
-          "p": 8,
+          "p": 7,
           "cat": "Decision Process",
           "issue": "Implied cost of staying on Site Genesis but no explicit 'do nothing' articulation in concrete terms",
           "rec": "Include cost-of-delay slide in steering committee materials",
           "due": "03/12/2026"
         },
         {
-          "p": 9,
+          "p": 8,
           "cat": "Decision Process",
           "issue": "Process discussed with Fiona but not explicitly validated with Nathan or CFO. No transcript from Call 3",
           "rec": "Reconfirm decision process and timeline with Fiona",
           "due": "03/12/2026"
         },
         {
-          "p": 10,
+          "p": 9,
           "cat": "Decision Criteria",
           "issue": "Key criteria surfaced: mobile-native, digital wallets, subscriptions, conversion, cost, agency ecosystem. No formal written criteria or RFP scoring shared",
           "rec": "Adriana to ask Fiona about steering committee evaluation framework",
           "due": "03/12/2026"
         },
         {
-          "p": 11,
+          "p": 10,
           "cat": "Decision Criteria",
           "issue": "No mutual action plan referenced in any call or Salesforce. Timeline verbal only",
           "rec": "Adriana to draft MAP: contract sign → agency kick-off → build → QA → launch",
           "due": "03/12/2026"
         },
         {
-          "p": 12,
+          "p": 11,
           "cat": "Decision Criteria",
           "issue": "Criteria driven by e-commerce team based on Site Genesis pain. No external analyst influence identified",
           "rec": "Ask Fiona if external consultants involved",
           "due": "03/12/2026"
         },
         {
-          "p": 13,
+          "p": 12,
           "cat": "Paper Process",
-          "issue": "No procurement process discussed. Nathan and CFO sign off cost but no details on legal/procurement workflow",
-          "rec": "Ask Fiona about internal process to get contract signed — legal or procurement review?",
-          "due": "03/12/2026"
-        },
-        {
-          "p": 14,
-          "cat": "Paper Process",
-          "issue": "No redline or legal concerns discussed",
+          "issue": "Fiona indicated no problems expected, Shopify contracts 'fairly standard'. External lawyers engaged but actual redline risk is low.",
           "rec": "Ask Fiona if legal typically redlines vendor contracts",
           "due": "03/12/2026"
         },
         {
-          "p": 15,
+          "p": 13,
           "cat": "Paper Process",
           "issue": "No legal review timeline information",
           "rec": "Included in Q1 action",
           "due": "03/12/2026"
         },
         {
-          "p": 16,
+          "p": 14,
           "cat": "Paper Process",
-          "issue": "No procurement timeline discussed. Fiona suggested Feb signing but internal steps unmapped",
-          "rec": "Validate Feb signature achievability with Fiona",
-          "due": "03/12/2026"
-        },
-        {
-          "p": 17,
-          "cat": "Paper Process",
-          "issue": "Plus pricing walked through in Call 2. Rate review resubmitted Feb 19. Formal contract not confirmed as sent",
+          "issue": "Rate review completed. Contract drafts not yet sent but ready. Letter of intent to follow.",
           "rec": "Finalize and send contract upon rate review approval",
           "due": "03/12/2026"
         },
         {
-          "p": 18,
+          "p": 15,
           "cat": "Paper Process",
           "issue": "No contract sent yet. Rate review still in progress",
           "rec": "Follow up internally on rate review turnaround",
           "due": "03/12/2026"
         },
         {
-          "p": 19,
-          "cat": "Paper Process",
-          "issue": "Fiona's email indicated Feb signing willingness. Not explicitly confirmed as mutual target date",
-          "rec": "Adriana to confirm: 'Are we aligned on signing by end of Feb?'",
-          "due": "03/19/2026"
-        },
-        {
-          "p": 20,
+          "p": 16,
           "cat": "Identify Pain",
           "issue": "E-commerce team clearly affected. IT team involved. Steering committee engaged. Impact on other teams not explicitly discussed",
           "rec": "Low priority — e-commerce team is primary buyer",
           "due": ""
         },
         {
-          "p": 21,
+          "p": 17,
           "cat": "Identify Pain",
           "issue": "Adobe Commerce listed in SF but never mentioned in calls. No active competitive evaluation evident. Doing nothing not viable due to EOL",
           "rec": "Adriana to ask Fiona if evaluating other platforms or solely Shopify",
           "due": "03/12/2026"
         },
         {
-          "p": 22,
+          "p": 18,
           "cat": "Champion",
           "issue": "Steering committee exists. No explicit mention of bringing Shopify into a board presentation",
           "rec": "Ask Fiona if anything needed for steering committee presentation",
           "due": "03/12/2026"
         },
         {
-          "p": 23,
+          "p": 19,
           "cat": "Competition",
           "issue": "Adobe Commerce listed in SF but never mentioned in calls. No evidence of active competitive evaluation",
           "rec": "Adriana to ask Fiona directly about other platform evaluations",
           "due": "03/12/2026"
         },
         {
-          "p": 24,
+          "p": 20,
           "cat": "Competition",
           "issue": "If Adobe being evaluated, no rationale discussed. Shopify reasons well-documented",
           "rec": "Covered in Q1 action",
           "due": ""
         },
         {
-          "p": 25,
+          "p": 21,
           "cat": "Competition",
           "issue": "Know why we should win (mobile-native, Shop Pay, digital wallets, champion). Risk: payment rate competitiveness (0.55% current), unknown CFO sensitivity, Adobe unknown",
           "rec": "Prioritize rate review and prepare TCO comparison if needed",
@@ -2507,6 +2496,19 @@ const DEAL_DATA = {
             "Nathan Smith (CEO)"
           ],
           "summary": "Follow-up sync — notably the CEO (Nathan Smith) attended this call, signaling executive engagement. No transcript available. Key significance: first direct engagement with the economic buyer in a Shopify call."
+        },
+        {
+          "date": "2026-03-02",
+          "title": "Rate Review Results & next Steps - Whittard <> Shopify",
+          "duration": "30 min",
+          "platform": "google_meet",
+          "shopifyAttendees": [
+            "Adriana Colacicco"
+          ],
+          "merchantAttendees": [
+            "Fiona Scott"
+          ],
+          "summary": "Critical commercial call: Shopify rate review presented and accepted (0.8% domestic, 5% Shop Pay uplift projected). Fiona set March 20 contract signing deadline. Agency decision finalized (Lime Sharp). Nathan Smith confirmed as contract signer. Global-e compatibility confirmed. Open item: platform credits for dual-cost build period."
         }
       ],
       "history": [
@@ -2665,33 +2667,40 @@ const DEAL_DATA = {
             "Competition": 3
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-05",
+          "totalScore": 36,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 6,
+            "Economic Buyer": 4,
+            "Decision Process": 4.5,
+            "Decision Criteria": 4,
+            "Paper Process": 1,
+            "Identify Pain": 7,
+            "Champion": 6.5,
+            "Competition": 3
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
         {
-          "risk": "Close date slipped 1 full month (Feb 27 → Mar 30). Combined with PBR drop of 25% ($406K → $303K), deal economics are deteriorating. Rate review concessions may have compressed margin.",
-          "severity": "high",
+          "risk": "Contract delivery delay — contracts not yet sent as of March 2, need to reach Nathan before March 20 deadline",
+          "severity": "medium",
+          "category": "timeline"
+        },
+        {
+          "risk": "Dual-cost period concern — $2,300/mo Shopify platform fee alongside Salesforce contract through Feb 2027; concessions being sought but not confirmed",
+          "severity": "low",
           "category": "commercial"
         },
         {
-          "risk": "3yr total revenue dropped 5% ($714.9K → $676K) despite Payments GPV increasing 35% — suggests subscription/platform revenue concessions were made during rate review to win payments volume.",
-          "severity": "medium",
-          "category": "commercial"
-        },
-        {
-          "risk": "Partner choice still pending — this is a blocking dependency for contract signature. If partner selection delays, close date could slip again beyond Mar 30.",
-          "severity": "medium",
-          "category": "execution"
-        },
-        {
-          "risk": "Meeting with Nathan (EB) and Fiona not yet scheduled — just identified as next step on 02/24. Must happen quickly to hold Mar 30 close date.",
-          "severity": "medium",
-          "category": "champion"
-        },
-        {
-          "risk": "25+ overdue action items across all MEDDPICC categories (due Feb 21-25). Systematic execution gap.",
-          "severity": "medium",
-          "category": "execution"
+          "risk": "Nathan engagement gap — signer identified but indirect access only (via Fiona); no direct Shopify-Nathan relationship established",
+          "severity": "low",
+          "category": "stakeholder"
         }
       ],
       "dealUndercurrent": {
@@ -2862,6 +2871,46 @@ const DEAL_DATA = {
             "notes": "New close date. Requires partner selection and EB sign-off."
           },
           {
+            "date": "2026-03-02",
+            "done": true,
+            "milestone": "Rate review accepted by Fiona",
+            "ownerMerchant": "Fiona Scott",
+            "ownerShopify": "Adriana Colacicco",
+            "notes": ""
+          },
+          {
+            "date": "2026-03-05",
+            "done": false,
+            "milestone": "Contract drafts + LOI sent to Nathan",
+            "ownerMerchant": "Nathan Smith",
+            "ownerShopify": "Adriana Colacicco",
+            "notes": ""
+          },
+          {
+            "date": "2026-03-07",
+            "done": false,
+            "milestone": "Platform credit concession decision",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana Colacicco",
+            "notes": ""
+          },
+          {
+            "date": "2026-03-20",
+            "done": false,
+            "milestone": "Contract signed (target March 20)",
+            "ownerMerchant": "Nathan Smith",
+            "ownerShopify": "Adriana Colacicco",
+            "notes": ""
+          },
+          {
+            "date": "2026-04-01",
+            "done": false,
+            "milestone": "Lime Sharp Shopify access enabled",
+            "ownerMerchant": "Lime Sharp",
+            "ownerShopify": "Adriana Colacicco",
+            "notes": ""
+          },
+          {
             "date": "",
             "done": false,
             "milestone": "Ask Fiona about internal process to get contract signed — legal or procurement review?",
@@ -2960,7 +3009,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-03-04",
+          "date": "2026-03-05",
           "sections": {
             "Metrics": {
               "score": 6,
@@ -4222,6 +4271,23 @@ const DEAL_DATA = {
             "Competition": 4
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-05",
+          "totalScore": 38.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3.5,
+            "Decision Process": 4.5,
+            "Decision Criteria": 5.5,
+            "Paper Process": 4,
+            "Identify Pain": 6,
+            "Champion": 5.5,
+            "Competition": 4
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -4526,7 +4592,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-03-04",
+          "date": "2026-03-05",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -5848,6 +5914,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-05",
+          "totalScore": 34.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 4.5,
+            "Identify Pain": 6.5,
+            "Champion": 4,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -6083,7 +6166,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-03-04",
+          "date": "2026-03-05",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -6236,12 +6319,12 @@ const DEAL_DATA = {
             },
             {
               "q": "Are the metrics compelling enough to justify change?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "SAP expiry and budget are compelling, but Danny explicitly said he could delay a year if commercials don't work. Deal hinges on commercial terms.",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "SAP expiry and budget are compelling, but Danny explicitly said he could delay a year if commercials don't work. Deal hinges on commercial terms.\n[Lite Refresh 2026-03-05] Merchant commitment implies metrics are compelling enough.\n[Resolved 2026-03-05] Maissa to present cost-of-delay analysis alongside final commercial offer.",
               "solution": "Quantify what another year on SAP costs (renewal fees, continued tech debt, delayed Bravissimo opportunity).",
-              "action": "Maissa to present cost-of-delay analysis alongside final commercial offer.",
-              "due": "02/25/2026",
+              "action": "",
+              "due": "",
               "highlight": false
             }
           ]
@@ -6754,9 +6837,9 @@ const DEAL_DATA = {
       },
       "scores": {
         "Metrics": {
-          "score": 5.5,
+          "score": 6,
           "max": 7,
-          "pct": 79
+          "pct": 86
         },
         "Economic Buyer": {
           "score": 4,
@@ -6794,9 +6877,9 @@ const DEAL_DATA = {
           "pct": 90
         },
         "_total": {
-          "score": 44.5,
+          "score": 45,
           "max": 54,
-          "pct": 82,
+          "pct": 83,
           "status": "good-health"
         }
       },
@@ -6817,90 +6900,83 @@ const DEAL_DATA = {
         },
         {
           "p": 3,
-          "cat": "Metrics",
-          "issue": "SAP expiry and budget are compelling, but Danny explicitly said he could delay a year if commercials don't work. Deal hinges on commercial terms.",
-          "rec": "Maissa to present cost-of-delay analysis alongside final commercial offer.",
-          "due": "02/25/2026"
-        },
-        {
-          "p": 4,
           "cat": "Economic Buyer",
           "issue": "Shopify has had NO direct contact with Vaughn (CFO) or Jeff (CEO). All interactions through Danny. Early dialer attempts to Vaughan all 'No Answer.'",
           "rec": "Maissa to ask Danny if a brief call with Vaughn/Jeff is possible to address executive-level concerns before Feb 27 decision.",
           "due": "03/05/2026"
         },
         {
-          "p": 5,
+          "p": 4,
           "cat": "Economic Buyer",
           "issue": "Danny willing to serve as conduit but no direct introduction offered. Danny controls the relationship as sole point of contact.",
           "rec": "Maissa to propose brief 'executive alignment' call with Vaughn or Jeff.",
           "due": "03/05/2026"
         },
         {
-          "p": 6,
+          "p": 5,
           "cat": "Economic Buyer",
           "issue": "Board approval obtained. Budget parameters known. But don't know what Vaughn/Jeff specifically care about beyond budget.",
           "rec": "Maissa to ask: 'When Vaughn reviews the contract, what will he focus on? What would make him hesitate?'",
           "due": "02/22/2026"
         },
         {
-          "p": 7,
+          "p": 6,
           "cat": "Decision Criteria",
           "issue": "D2C multi-brand thoroughly discussed. B2B leaning toward New Order. POS/Retail not discussed. Omnichannel not explored.",
           "rec": "Stephen to briefly explore whether Shopify POS is relevant for Bravissimo future state.",
           "due": "03/01/2026"
         },
         {
-          "p": 8,
+          "p": 7,
           "cat": "Decision Criteria",
           "issue": "Informal mutual timeline exists (Feb 27 decision, March 13 expiry, Nov 2026 go-live) but no formal documented mutual action plan with milestones.",
           "rec": "Maissa to draft and share mutual action plan ahead of Feb 27 decision.",
           "due": "03/12/2026"
         },
         {
-          "p": 9,
+          "p": 8,
           "cat": "Decision Criteria",
           "issue": "Shopify influenced criteria through workshops and references, but payments fee comparison was set by Danny against Comptop — a criterion where Shopify is at a disadvantage.",
           "rec": "Stephen/Maissa to present TCO comparison beyond per-transaction fees.",
           "due": "02/25/2026"
         },
         {
-          "p": 10,
+          "p": 9,
           "cat": "Paper Process",
           "issue": "Danny indicated he'd do initial legal review himself. No mention of external legal or lengthy procurement. No specific timeline given.",
           "rec": "Maissa to ask Danny if legal review is finalized and if any outstanding contract concerns.",
           "due": "03/05/2026"
         },
         {
-          "p": 11,
+          "p": 10,
           "cat": "Paper Process",
           "issue": "Overall timeline known (Feb 27 decision, March 13 expiry). But exact time from decision to executed signature unclear.",
           "rec": "Maissa to confirm: once decision is made Feb 27, how quickly can Vaughn/Jeff sign?",
           "due": "02/22/2026"
         },
         {
-          "p": 12,
+          "p": 11,
           "cat": "Identify Pain",
           "issue": "Danny mentioned retendering with Scale if Shopify commercials don't work. Staying on SAP viable. New Order for B2B. Alternatives exist but all involve significant effort/delay.",
           "rec": "Maissa to remind Danny of retendering risk and Alkai precedent when presenting final offer.",
           "due": "02/25/2026"
         },
         {
-          "p": 13,
+          "p": 12,
           "cat": "Identify Pain",
           "issue": "Shopify well-positioned for multi-brand D2C. But NOT uniquely positioned on payments (Comptop cheaper) and NOT chosen for B2B (New Order). Unique positioning is platform consolidation + Wacoal US precedent.",
           "rec": "Stephen to prepare brief on unique Shopify advantages competitors cannot match.",
           "due": "02/25/2026"
         },
         {
-          "p": 14,
+          "p": 13,
           "cat": "Champion",
           "issue": "Despite Danny's strong champion behavior, Shopify has NOT been introduced to economic buyer (Vaughn/Jeff). All interactions flow through Danny only.",
           "rec": "Maissa to ask Danny to facilitate brief intro with Vaughn/Jeff to confirm executive alignment.",
           "due": "03/05/2026"
         },
         {
-          "p": 15,
+          "p": 14,
           "cat": "Champion",
           "issue": "Danny has been the board interface. Hasn't explicitly offered to bring Shopify into a board/buying group meeting. Manages relationship as gatekeeper.",
           "rec": "Pursue executive alignment touchpoint.",
@@ -7257,6 +7333,28 @@ const DEAL_DATA = {
             "Competition": 4.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-05",
+          "totalScore": 45,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 6,
+            "Economic Buyer": 4,
+            "Decision Process": 7,
+            "Decision Criteria": 5,
+            "Paper Process": 6,
+            "Identify Pain": 7,
+            "Champion": 5.5,
+            "Competition": 4.5
+          },
+          "changes": [
+            "Score improved by 0.5 points (44.5 → 45) — lite refresh",
+            "Metrics Q6: Partial → Yes (+0.5) — Merchant commitment implies metrics are compelling enough.",
+            "SF trigger: merchantIntent \"Committed - At Risk\" → \"Committed\""
+          ],
+          "type": "lite-refresh"
         }
       ],
       "dealRisks": [
@@ -7561,12 +7659,12 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-03-04",
+          "date": "2026-03-05",
           "sections": {
             "Metrics": {
-              "score": 5.5,
+              "score": 6,
               "max": 7,
-              "pct": 79
+              "pct": 86
             },
             "Economic Buyer": {
               "score": 4,
@@ -8767,6 +8865,23 @@ const DEAL_DATA = {
             "Competition": 3.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-05",
+          "totalScore": 29,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 4.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 3.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 3,
+            "Identify Pain": 4,
+            "Champion": 4.5,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -9021,7 +9136,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-03-04",
+          "date": "2026-03-05",
           "sections": {
             "Metrics": {
               "score": 4.5,
@@ -10284,6 +10399,23 @@ const DEAL_DATA = {
             "Competition": 2
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-05",
+          "totalScore": 31,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 4.5,
+            "Decision Process": 4.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 6,
+            "Champion": 4.5,
+            "Competition": 2
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -10582,7 +10714,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-03-04",
+          "date": "2026-03-05",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -11834,6 +11966,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-05",
+          "totalScore": 32,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 3,
+            "Decision Process": 4,
+            "Decision Criteria": 4.5,
+            "Paper Process": 1,
+            "Identify Pain": 6.5,
+            "Champion": 5.5,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -12078,7 +12227,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-03-04",
+          "date": "2026-03-05",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -13396,6 +13545,23 @@ const DEAL_DATA = {
             "Competition": 3.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-05",
+          "totalScore": 29.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 4,
+            "Decision Criteria": 3.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 5.5,
+            "Champion": 4,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -13656,7 +13822,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-03-04",
+          "date": "2026-03-05",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -14919,6 +15085,23 @@ const DEAL_DATA = {
             "Competition": 0.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-05",
+          "totalScore": 22.5,
+          "totalMax": 54,
+          "status": "at-risk",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 2,
+            "Decision Process": 4,
+            "Decision Criteria": 2.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 5,
+            "Champion": 3,
+            "Competition": 0.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -15158,7 +15341,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-03-04",
+          "date": "2026-03-05",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -16582,6 +16765,23 @@ const DEAL_DATA = {
             "Competition": 5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-05",
+          "totalScore": 41,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 5,
+            "Decision Process": 5.5,
+            "Decision Criteria": 5,
+            "Paper Process": 2,
+            "Identify Pain": 7.5,
+            "Champion": 6,
+            "Competition": 5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -16952,7 +17152,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-03-04",
+          "date": "2026-03-05",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -18121,6 +18321,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-05",
+          "totalScore": 41,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 5,
+            "Decision Process": 5.5,
+            "Decision Criteria": 4.5,
+            "Paper Process": 4,
+            "Identify Pain": 7.5,
+            "Champion": 6.5,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -18383,7 +18600,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-03-04",
+          "date": "2026-03-05",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -19618,6 +19835,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-05",
+          "totalScore": 28.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 3,
+            "Economic Buyer": 3.5,
+            "Decision Process": 4.5,
+            "Decision Criteria": 3,
+            "Paper Process": 1.5,
+            "Identify Pain": 5.5,
+            "Champion": 5,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -19715,7 +19949,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-03-04",
+          "date": "2026-03-05",
           "sections": {
             "Metrics": {
               "score": 3,
@@ -20985,6 +21219,23 @@ const DEAL_DATA = {
             "Competition": 1.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-05",
+          "totalScore": 28,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 2,
+            "Decision Process": 4.5,
+            "Decision Criteria": 2,
+            "Paper Process": 2.5,
+            "Identify Pain": 6,
+            "Champion": 4.5,
+            "Competition": 1.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -21159,7 +21410,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-03-04",
+          "date": "2026-03-05",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -22473,6 +22724,23 @@ const DEAL_DATA = {
             "Competition": 2
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-05",
+          "totalScore": 30.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 6,
+            "Economic Buyer": 2,
+            "Decision Process": 5,
+            "Decision Criteria": 4,
+            "Paper Process": 1,
+            "Identify Pain": 6.5,
+            "Champion": 4,
+            "Competition": 2
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -22590,7 +22858,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-03-04",
+          "date": "2026-03-05",
           "sections": {
             "Metrics": {
               "score": 6,
@@ -23816,6 +24084,23 @@ const DEAL_DATA = {
             "Competition": 1
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-05",
+          "totalScore": 25,
+          "totalMax": 54,
+          "status": "at-risk",
+          "sectionScores": {
+            "Metrics": 4,
+            "Economic Buyer": 2,
+            "Decision Process": 3,
+            "Decision Criteria": 4,
+            "Paper Process": 0.5,
+            "Identify Pain": 5.5,
+            "Champion": 5,
+            "Competition": 1
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -24006,7 +24291,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-03-04",
+          "date": "2026-03-05",
           "sections": {
             "Metrics": {
               "score": 4,
@@ -25154,6 +25439,23 @@ const DEAL_DATA = {
             "Competition": 2
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-05",
+          "totalScore": 31,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 4,
+            "Decision Process": 5,
+            "Decision Criteria": 4,
+            "Paper Process": 1,
+            "Identify Pain": 5.5,
+            "Champion": 4.5,
+            "Competition": 2
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -25384,7 +25686,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-03-04",
+          "date": "2026-03-05",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -26408,6 +26710,23 @@ const DEAL_DATA = {
             "Competition": 3
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-05",
+          "totalScore": 35.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 3.5,
+            "Identify Pain": 7,
+            "Champion": 5.5,
+            "Competition": 3
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -26574,7 +26893,7 @@ const DEAL_DATA = {
       },
       "coachingSnapshots": [
         {
-          "date": "2026-03-04",
+          "date": "2026-03-05",
           "sections": {
             "Metrics": {
               "score": 5.5,

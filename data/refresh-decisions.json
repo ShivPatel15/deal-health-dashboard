@@ -1,0 +1,186 @@
+{
+  "new_calls": [
+    {
+      "opp_id": "006OG00000EZIy6YAH",
+      "account": "Whittard of Chelsea",
+      "sf_diffs": {
+        "merchantIntent": {
+          "old": "Committed - At Risk",
+          "new": "Committed"
+        },
+        "projectedBilledRevenue": {
+          "old": 303277.58,
+          "new": 310177.58
+        }
+      }
+    }
+  ],
+  "sf_changed": [
+    {
+      "opp_id": "0068V0000113rSIQAY",
+      "account": "Moda in Pelle",
+      "sf_diffs": {
+        "closeDate": {
+          "old": "2026-02-27",
+          "new": "2026-03-13"
+        },
+        "nextStep": {
+          "old": "02/18 - Spoke to David Duke an",
+          "new": "02.03 AC sent email to inform "
+        }
+      }
+    },
+    {
+      "opp_id": "006OG00000GJ5IvYAL",
+      "account": "The Dune Group",
+      "sf_diffs": {
+        "merchantIntent": {
+          "old": "Committed - At Risk",
+          "new": "Committed"
+        },
+        "nextStep": {
+          "old": "24.02 onsite meeting cancelled",
+          "new": "02.03, POS demo 09.03 , Andy a"
+        },
+        "competitor": {
+          "old": "None",
+          "new": null
+        }
+      }
+    },
+    {
+      "opp_id": "006OG00000HnVs8YAF",
+      "account": "Wacoal Europe",
+      "sf_diffs": {
+        "merchantIntent": {
+          "old": "Committed - At Risk",
+          "new": "Committed"
+        },
+        "nextStep": {
+          "old": "27/02 MF: Will have a decision",
+          "new": "04/03: Got the GO, finalising "
+        }
+      }
+    },
+    {
+      "opp_id": "0068V0000113peWQAQ",
+      "account": "ESSENTIEL Antwerp",
+      "sf_diffs": {
+        "nextStep": {
+          "old": "18/2 BR RFP has landed and I a",
+          "new": "4/03 BR RFP has landed and Im "
+        }
+      }
+    },
+    {
+      "opp_id": "006OG00000JUPVtYAP",
+      "account": "Mint Velvet",
+      "sf_diffs": {
+        "nextStep": {
+          "old": "18/02 BR Board have pushback o",
+          "new": "4/03 BR BAFO sent and awaiting"
+        }
+      }
+    },
+    {
+      "opp_id": "006OG00000Fbj8nYAB",
+      "account": "Cycle King & Hawk",
+      "sf_diffs": {
+        "competitor": {
+          "old": "Citrus Lime (incumbent)",
+          "new": null
+        }
+      }
+    },
+    {
+      "opp_id": "006OG00000G28JdYAJ",
+      "account": "Direct Wines Limited",
+      "sf_diffs": {
+        "nextStep": {
+          "old": "18/02 BR Discovery with Fuse e",
+          "new": "4/03 BR Board meeting on 26th "
+        },
+        "projectedBilledRevenue": {
+          "old": 3813618.5,
+          "new": 6065019.0
+        }
+      }
+    },
+    {
+      "opp_id": "006OG00000FYX8zYAH",
+      "account": "Hawes & Curtis Limited",
+      "sf_diffs": {
+        "merchantIntent": {
+          "old": "Committed",
+          "new": "Committed - At Risk"
+        }
+      }
+    },
+    {
+      "opp_id": "006OG00000JMQ91YAH",
+      "account": "TRINNY LONDON",
+      "sf_diffs": {
+        "closeDate": {
+          "old": "2026-06-30",
+          "new": "2026-03-31"
+        },
+        "merchantIntent": {
+          "old": "Uncommitted",
+          "new": "Committed - At Risk"
+        },
+        "nextStep": {
+          "old": "27/02 MF: Feedback on draft co",
+          "new": "04/03 MF: Awaiting legal respo"
+        },
+        "projectedBilledRevenue": {
+          "old": 948568.42,
+          "new": 1184353.82
+        }
+      }
+    },
+    {
+      "opp_id": "006OG00000KqnifYAB",
+      "account": "axminstertools.com",
+      "sf_diffs": {
+        "nextStep": {
+          "old": "",
+          "new": "27/02 MF: Wants to make a deci"
+        },
+        "competitor": {
+          "old": null,
+          "new": "Adobe Commerce (Magento)"
+        }
+      }
+    }
+  ],
+  "no_change": [
+    {
+      "opp_id": "006OG00000CRabaYAD",
+      "account": "Mulberry Company (Sales) Limited"
+    },
+    {
+      "opp_id": "006OG00000HtxKFYAZ",
+      "account": "Sofa.Com Ltd"
+    },
+    {
+      "opp_id": "006OG00000FHHAHYA5",
+      "account": "OLIVER BONAS LIMITED"
+    },
+    {
+      "opp_id": "006OG00000Dh2YXYAZ",
+      "account": "Bugaboo International B.V"
+    },
+    {
+      "opp_id": "006OG00000KW83lYAD",
+      "account": "C.P. Hart & Sons Limited"
+    },
+    {
+      "opp_id": "006OG00000KOC4YYAX",
+      "account": "Moss Bros. Group Ltd"
+    },
+    {
+      "opp_id": "006OG00000J4JtxYAF",
+      "account": "Vision Healthcare"
+    }
+  ]
+}

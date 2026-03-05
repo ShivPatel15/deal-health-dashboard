@@ -1,542 +1,176 @@
 {
-  "006OG00000HnVs8YAF": {
-    "sfDiffs": [
-      { "field": "closeDate", "newValue": "2026-03-13" },
-      { "field": "competitor", "newValue": null },
-      { "field": "timeline.proposedLaunch", "newValue": "2026-11-03" }
-    ],
-    "dealRisks": [
-      {
-        "risk": "Close date pushed 2 weeks (Feb 28 → Mar 13) — indicates decision slippage despite Feb 27 expected decision date. Offer expiry is now the backstop, not buyer urgency.",
-        "severity": "medium",
-        "category": "timeline"
-      },
-      {
-        "risk": "18 action items overdue (Feb 22-25) across all MEDDPICC categories — suggests stalled internal engagement or AE bandwidth constraints. Critical discovery gaps remain unaddressed.",
-        "severity": "high",
-        "category": "execution"
-      },
-      {
-        "risk": "Proposed launch Nov 3 2026 — 8-month implementation timeline from close creates long value-realization gap. Risk of buyer fatigue or priority shifts before go-live.",
-        "severity": "low",
-        "category": "timeline"
-      },
-      {
-        "risk": "Competitor field cleared (SAP/Scale removed) but no confirmation call evidence that competition is truly eliminated — could indicate data cleanup rather than competitive win.",
-        "severity": "low",
-        "category": "competitive"
-      }
-    ],
-    "newMAPItems": [
-      {
-        "milestone": "Final decision meeting (internal) — Feb 27 per NextStep",
-        "done": false,
-        "ownerShopify": "Maissa Fatte",
-        "ownerMerchant": "Vaughn/Jeff",
-        "date": "2026-02-27",
-        "notes": "NextStep indicates decision expected Feb 27. Confirm outcome."
-      },
-      {
-        "milestone": "Contract signature by offer expiry deadline",
-        "done": false,
-        "ownerShopify": "Maissa Fatte",
-        "ownerMerchant": "Vaughn/Jeff",
-        "date": "2026-03-13",
-        "notes": "Close date pushed to Mar 13 — aligns with offer expiry. Must close before this lapses."
-      },
-      {
-        "milestone": "Implementation kick-off & partner onboarding",
-        "done": false,
-        "ownerShopify": "Maissa Fatte",
-        "ownerMerchant": "Wacoal EU team",
-        "date": "2026-04-01",
-        "notes": "Target ~2 weeks post-close for launch team intro and implementation planning."
-      }
-    ],
-    "completedMAPMilestones": [],
-    "mapGoLiveDate": "2026-03-13",
-    "meddpiccUpdates": [
-      { "section": "metrics", "questionIndex": 2, "updates": { "due": "03/12/2026" } },
-      { "section": "metrics", "questionIndex": 4, "updates": { "due": "03/12/2026" } },
-      { "section": "metrics", "questionIndex": 5, "updates": { "due": "03/12/2026" } },
-      { "section": "economicBuyer", "questionIndex": 1, "updates": { "due": "03/05/2026" } },
-      { "section": "economicBuyer", "questionIndex": 2, "updates": { "due": "03/05/2026" } },
-      { "section": "economicBuyer", "questionIndex": 3, "updates": { "due": "03/05/2026" } },
-      { "section": "decisionCriteria", "questionIndex": 3, "updates": { "due": "03/05/2026" } },
-      { "section": "decisionCriteria", "questionIndex": 4, "updates": { "due": "03/12/2026" } },
-      { "section": "paperProcess", "questionIndex": 1, "updates": { "due": "03/05/2026" } },
-      { "section": "paperProcess", "questionIndex": 2, "updates": { "due": "03/05/2026" } },
-      { "section": "identifyPain", "questionIndex": 4, "updates": { "due": "03/12/2026" } },
-      { "section": "identifyPain", "questionIndex": 6, "updates": { "due": "03/12/2026" } },
-      { "section": "champion", "questionIndex": 3, "updates": { "due": "03/05/2026" } },
-      { "section": "champion", "questionIndex": 4, "updates": { "due": "03/05/2026" } },
-      { "section": "competition", "questionIndex": 0, "updates": { "answer": "Yes", "notes": "Competitor field cleared in Salesforce (SAP/Scale removed). Competitive threat appears resolved as of 02/26.", "due": "03/12/2026" } },
-      { "section": "competition", "questionIndex": 1, "updates": { "due": "03/12/2026" } },
-      { "section": "competition", "questionIndex": 3, "updates": { "answer": "Yes", "notes": "With SAP/Scale cleared from competitive field, best-and-final positioning may no longer be needed. Confirm with buyer.", "due": "03/12/2026" } },
-      { "section": "competition", "questionIndex": 4, "updates": { "answer": "Yes", "notes": "Competitive field cleared — Shopify appears to be sole remaining option. Validate in next conversation.", "due": "03/12/2026" } }
-    ]
-  },
-  "0068V0000113rSIQAY": {
-    "sfDiffs": [
-      { "field": "competitor", "newValue": "Other" },
-      { "field": "timeline.proposedLaunch", "newValue": "2026-05-29" }
-    ],
-    "dealRisks": [
-      {
-        "risk": "Close date is TOMORROW (Feb 27) with 38+ action items and many overdue since Feb 20-24. Extremely high volume of unresolved discovery items heading into signature.",
-        "severity": "high",
-        "category": "execution"
-      },
-      {
-        "risk": "Competitor changed from specific (Visualsoft) to generic 'Other' — could indicate new unknown competitor entering, broadened evaluation, or data simplification. Ambiguity is a risk.",
-        "severity": "medium",
-        "category": "competitive"
-      },
-      {
-        "risk": "Economic buyer questions (Q0-Q5) all overdue — deal may close without proper EB validation, creating post-signature risk.",
-        "severity": "high",
-        "category": "champion"
-      }
-    ],
-    "newMAPItems": [
-      {
-        "milestone": "Contract signature",
-        "done": false,
-        "ownerShopify": "Adriana Colacicco",
-        "ownerMerchant": "David Duke",
-        "date": "2026-02-27",
-        "notes": "David Duke says 'on track to sign before end of Feb.' Close date is Feb 27."
-      },
-      {
-        "milestone": "Implementation kick-off & partner assignment",
-        "done": false,
-        "ownerShopify": "Adriana Colacicco",
-        "ownerMerchant": "Moda in Pelle team",
-        "date": "2026-03-10",
-        "notes": "Post-close onboarding — target 2 weeks after signature."
-      },
-      {
-        "milestone": "Go-live on Shopify",
-        "done": false,
-        "ownerShopify": "Adriana Colacicco",
-        "ownerMerchant": "Moda in Pelle team",
-        "date": "2026-05-29",
-        "notes": "Proposed launch date per SF update. ~3 month implementation window."
-      }
-    ],
-    "completedMAPMilestones": [],
-    "mapGoLiveDate": "2026-05-29",
-    "meddpiccUpdates": [
-      { "section": "economicBuyer", "questionIndex": 0, "updates": { "due": "03/12/2026" } },
-      { "section": "economicBuyer", "questionIndex": 1, "updates": { "due": "03/12/2026" } },
-      { "section": "economicBuyer", "questionIndex": 2, "updates": { "due": "03/12/2026" } },
-      { "section": "economicBuyer", "questionIndex": 3, "updates": { "due": "03/12/2026" } },
-      { "section": "economicBuyer", "questionIndex": 4, "updates": { "due": "03/12/2026" } },
-      { "section": "economicBuyer", "questionIndex": 5, "updates": { "due": "03/12/2026" } },
-      { "section": "decisionProcess", "questionIndex": 0, "updates": { "due": "03/12/2026" } },
-      { "section": "decisionProcess", "questionIndex": 1, "updates": { "due": "03/12/2026" } },
-      { "section": "decisionCriteria", "questionIndex": 0, "updates": { "due": "03/12/2026" } },
-      { "section": "decisionCriteria", "questionIndex": 1, "updates": { "due": "03/12/2026" } },
-      { "section": "decisionCriteria", "questionIndex": 2, "updates": { "due": "03/12/2026" } },
-      { "section": "paperProcess", "questionIndex": 0, "updates": { "due": "03/12/2026" } },
-      { "section": "paperProcess", "questionIndex": 1, "updates": { "due": "03/12/2026" } },
-      { "section": "paperProcess", "questionIndex": 2, "updates": { "due": "03/12/2026" } },
-      { "section": "paperProcess", "questionIndex": 3, "updates": { "due": "03/12/2026" } },
-      { "section": "paperProcess", "questionIndex": 4, "updates": { "due": "03/12/2026" } },
-      { "section": "paperProcess", "questionIndex": 5, "updates": { "due": "03/12/2026" } },
-      { "section": "champion", "questionIndex": 0, "updates": { "due": "03/12/2026" } },
-      { "section": "champion", "questionIndex": 1, "updates": { "due": "03/12/2026" } },
-      { "section": "champion", "questionIndex": 4, "updates": { "due": "03/12/2026" } },
-      { "section": "champion", "questionIndex": 5, "updates": { "due": "03/12/2026" } },
-      { "section": "competition", "questionIndex": 1, "updates": { "due": "03/12/2026" } },
-      { "section": "competition", "questionIndex": 2, "updates": { "due": "03/12/2026" } },
-      { "section": "competition", "questionIndex": 4, "updates": { "due": "03/12/2026" } }
-    ]
-  },
   "006OG00000EZIy6YAH": {
     "sfDiffs": [
-      { "field": "closeDate", "newValue": "2026-03-30" },
-      { "field": "projectedBilledRevenue", "newValue": 303277.58 },
-      { "field": "revenue.paymentsGpv", "newValue": 10985000 },
-      { "field": "revenue.totalRev3yr", "newValue": 676036.88 },
-      { "field": "timeline.proposedLaunch", "newValue": "2026-07-01" },
-      { "field": "nextStep", "newValue": "24.02 RR back, Adriana to set up meeting with Nathan and Fiona to discuss final steps + Partner choice" }
-    ],
-    "dealRisks": [
       {
-        "risk": "Close date slipped 1 full month (Feb 27 → Mar 30). Combined with PBR drop of 25% ($406K → $303K), deal economics are deteriorating. Rate review concessions may have compressed margin.",
-        "severity": "high",
-        "category": "commercial"
+        "field": "merchantIntent",
+        "newValue": "Committed"
       },
       {
-        "risk": "3yr total revenue dropped 5% ($714.9K → $676K) despite Payments GPV increasing 35% — suggests subscription/platform revenue concessions were made during rate review to win payments volume.",
-        "severity": "medium",
-        "category": "commercial"
+        "field": "projectedBilledRevenue",
+        "newValue": 310177.58
       },
       {
-        "risk": "Partner choice still pending — this is a blocking dependency for contract signature. If partner selection delays, close date could slip again beyond Mar 30.",
-        "severity": "medium",
-        "category": "execution"
-      },
-      {
-        "risk": "Meeting with Nathan (EB) and Fiona not yet scheduled — just identified as next step on 02/24. Must happen quickly to hold Mar 30 close date.",
-        "severity": "medium",
-        "category": "champion"
-      },
-      {
-        "risk": "25+ overdue action items across all MEDDPICC categories (due Feb 21-25). Systematic execution gap.",
-        "severity": "medium",
-        "category": "execution"
+        "field": "nextStep",
+        "newValue": "24.02 RR back, Adriana to set up meeting with Nathan and Fiona to discuss final steps + Partner choice"
       }
     ],
-    "newMAPItems": [
-      {
-        "milestone": "Meeting with Nathan (EB) and Fiona — final steps + partner choice discussion",
-        "done": false,
-        "ownerShopify": "Adriana Colacicco",
-        "ownerMerchant": "Nathan / Fiona",
-        "date": "2026-03-05",
-        "notes": "Per NextStep 24.02 — rate review is back, Adriana to set up this meeting. Critical path item."
-      },
-      {
-        "milestone": "Partner selection finalized",
-        "done": false,
-        "ownerShopify": "Adriana Colacicco",
-        "ownerMerchant": "Nathan / Fiona",
-        "date": "2026-03-12",
-        "notes": "Partner choice is a blocking dependency for contract. Must be resolved before close."
-      },
-      {
-        "milestone": "Contract signature",
-        "done": false,
-        "ownerShopify": "Adriana Colacicco",
-        "ownerMerchant": "Nathan",
-        "date": "2026-03-30",
-        "notes": "New close date. Requires partner selection and EB sign-off."
-      }
-    ],
-    "completedMAPMilestones": [],
-    "mapGoLiveDate": "2026-03-30",
+    "narrativeUpdates": {
+      "oppSummary": "Whittard of Chelsea is a UK-based Food & Beverage retailer migrating from SFCC Site Genesis to Shopify Plus, ~$310K projected billed revenue ($714,900 over 3yr). Merchant intent upgraded to 'Committed'. Target September 2026 launch with contract signing by March 20, 2026. Agency (Lime Sharp) selected, payment rates agreed at 0.8% domestic, Global-e confirmed for international. Deal Craft at 80% probability.",
+      "whyShopify": "Mobile-native architecture directly addresses core pain. Shop Pay \u2014 projected 5% revenue uplift presented and well-received by Fiona. Unified Plus offering with future POS potential. Competitive 0.8% domestic payment rate secured via rate review. Global-e confirmed compatible as secondary checkout for international/importer-of-record needs. Fiona emphasized this is 'not just about replatforming' but a full brand and digital strategy transformation \u2014 retail managers are excited about the omnichannel implications.",
+      "whyNow": "Site Genesis EOL. Fiona has set a hard personal deadline of March 20, 2026 for signing both Shopify and Lime Sharp contracts. New agency (Lime Sharp) needs Shopify access by April to hit September 2026 launch. Salesforce contract runs until Feb 2027, creating dual-cost pressure during build period (April-September). Shopify Q1 end-of-quarter (March 31) adds mutual urgency. Fiona confirmed on call: 'We've got to get these things done.'",
+      "supportNeeded": "1) Platform credit/concession exploration \u2014 Fiona raised concern about paying $2,300/mo Shopify flat fee alongside Salesforce contract through Feb 2027; Adriana committed to seeking concessions from leadership. 2) Contract delivery \u2014 Adriana to send rate review document, letter of intent, and contract drafts to Nathan (signing authority) ASAP. 3) Lime Sharp coordination \u2014 Adriana to connect with Lime Sharp to ensure aligned on timeline and Shopify access from April. 4) POS roadmap discussion (still outstanding). 5) Subscription/loyalty migration planning (still outstanding)."
+    },
+    "newCallData": {
+      "date": "2026-03-02",
+      "title": "Rate Review Results & next Steps - Whittard <> Shopify",
+      "duration": "30 min",
+      "platform": "google_meet",
+      "shopifyAttendees": [
+        "Adriana Colacicco"
+      ],
+      "merchantAttendees": [
+        "Fiona Scott"
+      ],
+      "summary": "Critical commercial call: Shopify rate review presented and accepted (0.8% domestic, 5% Shop Pay uplift projected). Fiona set March 20 contract signing deadline. Agency decision finalized (Lime Sharp). Nathan Smith confirmed as contract signer. Global-e compatibility confirmed. One open item: Adriana pursuing platform credits to offset $2,300/mo during build period while Salesforce contract runs through Feb 2027."
+    },
     "meddpiccUpdates": [
-      { "section": "metrics", "questionIndex": 2, "updates": { "due": "03/12/2026" } },
-      { "section": "metrics", "questionIndex": 4, "updates": { "due": "03/12/2026" } },
-      { "section": "economicBuyer", "questionIndex": 1, "updates": { "due": "03/05/2026" } },
-      { "section": "economicBuyer", "questionIndex": 2, "updates": { "due": "03/05/2026" } },
-      { "section": "economicBuyer", "questionIndex": 4, "updates": { "due": "03/12/2026" } },
-      { "section": "economicBuyer", "questionIndex": 5, "updates": { "due": "03/12/2026" } },
-      { "section": "decisionProcess", "questionIndex": 0, "updates": { "due": "03/12/2026" } },
-      { "section": "decisionProcess", "questionIndex": 5, "updates": { "due": "03/12/2026" } },
-      { "section": "decisionProcess", "questionIndex": 6, "updates": { "due": "03/12/2026" } },
-      { "section": "decisionCriteria", "questionIndex": 0, "updates": { "due": "03/12/2026" } },
-      { "section": "decisionCriteria", "questionIndex": 3, "updates": { "due": "03/12/2026" } },
-      { "section": "decisionCriteria", "questionIndex": 4, "updates": { "due": "03/12/2026" } },
-      { "section": "decisionCriteria", "questionIndex": 6, "updates": { "due": "03/12/2026" } },
-      { "section": "paperProcess", "questionIndex": 0, "updates": { "due": "03/12/2026" } },
-      { "section": "paperProcess", "questionIndex": 1, "updates": { "due": "03/12/2026" } },
-      { "section": "paperProcess", "questionIndex": 2, "updates": { "due": "03/12/2026" } },
-      { "section": "paperProcess", "questionIndex": 3, "updates": { "due": "03/12/2026" } },
-      { "section": "paperProcess", "questionIndex": 4, "updates": { "due": "03/12/2026" } },
-      { "section": "paperProcess", "questionIndex": 5, "updates": { "due": "03/12/2026" } },
-      { "section": "paperProcess", "questionIndex": 6, "updates": { "due": "03/19/2026" } },
-      { "section": "identifyPain", "questionIndex": 5, "updates": { "due": "03/12/2026" } },
-      { "section": "champion", "questionIndex": 5, "updates": { "due": "03/12/2026" } },
-      { "section": "competition", "questionIndex": 0, "updates": { "due": "03/12/2026" } },
-      { "section": "competition", "questionIndex": 4, "updates": { "due": "03/12/2026" } }
-    ]
-  },
-  "006OG00000KW83lYAD": {
-    "sfDiffs": [
-      { "field": "nextStep", "newValue": "24.02 presented commercials, board meeting this month, awaiting statements for RR, NDA in works, MO ooo" },
-      { "field": "projectedBilledRevenue", "newValue": 758832.18 }
+      {
+        "section": "paperProcess",
+        "questionIndex": 0,
+        "updates": {
+          "answer": "Yes",
+          "notes": "Nathan Smith confirmed as signing authority. External lawyers pre-engaged and 'warmed up'. Fiona outlined clear procurement process."
+        }
+      },
+      {
+        "section": "paperProcess",
+        "questionIndex": 1,
+        "updates": {
+          "answer": "Partial",
+          "notes": "Fiona indicated no problems expected, Shopify contracts 'fairly standard'. External lawyers engaged but actual redline risk is low."
+        }
+      },
+      {
+        "section": "paperProcess",
+        "questionIndex": 3,
+        "updates": {
+          "answer": "Yes",
+          "notes": "March 20, 2026 target for signature. Fiona: 'I've set myself the 20th of March is my deadline.'"
+        }
+      },
+      {
+        "section": "paperProcess",
+        "questionIndex": 4,
+        "updates": {
+          "answer": "Partial",
+          "notes": "Rate review completed. Contract drafts not yet sent but ready. Letter of intent to follow."
+        }
+      },
+      {
+        "section": "paperProcess",
+        "questionIndex": 6,
+        "updates": {
+          "answer": "Yes",
+          "notes": "March 20, 2026 target for signature explicitly stated by Fiona."
+        }
+      },
+      {
+        "section": "economicBuyer",
+        "questionIndex": 0,
+        "updates": {
+          "answer": "Yes",
+          "notes": "Nathan Smith confirmed as signing authority (CEO). CFO unavailable so Nathan signs."
+        }
+      },
+      {
+        "section": "economicBuyer",
+        "questionIndex": 1,
+        "updates": {
+          "answer": "Yes",
+          "notes": "Fiona: 'Nathan will probably do the signing.' Contract signer identified."
+        }
+      },
+      {
+        "section": "decisionProcess",
+        "questionIndex": 1,
+        "updates": {
+          "answer": "Yes",
+          "notes": "Buying committee: Fiona (driver), Nathan (signer/CEO), external lawyers, Lime Sharp (agency)."
+        }
+      },
+      {
+        "section": "decisionProcess",
+        "questionIndex": 2,
+        "updates": {
+          "answer": "Yes",
+          "notes": "Fiona: March 20 deadline. Lime Sharp needs access April. September launch target."
+        }
+      },
+      {
+        "section": "champion",
+        "questionIndex": 0,
+        "updates": {
+          "answer": "Yes",
+          "notes": "Fiona Scott: driving timeline, managing stakeholders, presenting internally with excitement, proactively removing blockers."
+        }
+      }
     ],
     "dealRisks": [
       {
-        "risk": "Zero MAP items exist — deal has no structured execution plan. For a $758K PBR deal closing May 29, this is a significant governance gap.",
-        "severity": "high",
-        "category": "execution"
-      },
-      {
-        "risk": "Mo (champion/contact) is OOO — creates engagement gap during critical board meeting period. No backup contact identified beyond Diamante.",
-        "severity": "high",
-        "category": "champion"
-      },
-      {
-        "risk": "Board meeting 'this month' (Feb) but only 2 days left in February. If board meeting hasn't happened yet, it may slip to March.",
+        "risk": "Contract delivery delay \u2014 contracts not yet sent as of March 2, need to reach Nathan before March 20 deadline",
         "severity": "medium",
         "category": "timeline"
       },
       {
-        "risk": "NDA still 'in works' — legal hasn't started on MSA/contract yet. For a May 29 close, legal track needs to start immediately post-NDA.",
-        "severity": "medium",
-        "category": "execution"
+        "risk": "Dual-cost period concern \u2014 $2,300/mo Shopify platform fee alongside Salesforce contract through Feb 2027; concessions being sought but not confirmed",
+        "severity": "low",
+        "category": "commercial"
       },
       {
-        "risk": "Only 2 stakeholders mapped (Mo, Diamante) for a luxury retailer with £40M D2C GMV. Economic buyer, board sponsors, IT/ops leads not yet identified.",
-        "severity": "medium",
-        "category": "champion"
+        "risk": "Nathan engagement gap \u2014 signer identified but indirect access only (via Fiona); no direct Shopify-Nathan relationship established",
+        "severity": "low",
+        "category": "stakeholder"
       }
     ],
     "newMAPItems": [
       {
-        "milestone": "Discovery & needs assessment completed",
+        "milestone": "Rate review accepted by Fiona",
         "done": true,
         "ownerShopify": "Adriana Colacicco",
-        "ownerMerchant": "Mo / Diamante",
-        "date": "2026-02-10",
-        "notes": "Initial discovery completed — deal is in Solution stage."
+        "ownerMerchant": "Fiona Scott",
+        "date": "2026-03-02"
       },
       {
-        "milestone": "Commercials presented to C.P. Hart",
-        "done": true,
-        "ownerShopify": "Adriana Colacicco",
-        "ownerMerchant": "Mo / Diamante",
-        "date": "2026-02-24",
-        "notes": "Per NextStep 24.02 — commercials have been presented."
-      },
-      {
-        "milestone": "NDA executed",
+        "milestone": "Contract drafts + LOI sent to Nathan",
         "done": false,
         "ownerShopify": "Adriana Colacicco",
-        "ownerMerchant": "C.P. Hart Legal",
-        "date": "2026-03-05",
-        "notes": "NDA 'in works' per NextStep. Target completion within 1 week."
+        "ownerMerchant": "Nathan Smith",
+        "date": "2026-03-05"
       },
       {
-        "milestone": "Board meeting — Shopify evaluation presented to board",
+        "milestone": "Platform credit concession decision",
         "done": false,
         "ownerShopify": "Adriana Colacicco",
-        "ownerMerchant": "Mo / Board",
-        "date": "2026-03-06",
-        "notes": "Board meeting 'this month' per NextStep (Feb). If slips, target early March. Critical gate for budget approval."
+        "date": "2026-03-07"
       },
       {
-        "milestone": "Board approval / budget confirmation",
+        "milestone": "Contract signed (target March 20)",
         "done": false,
         "ownerShopify": "Adriana Colacicco",
-        "ownerMerchant": "Board / Economic Buyer",
-        "date": "2026-03-13",
-        "notes": "Post-board meeting — need explicit budget sign-off to proceed to contract."
+        "ownerMerchant": "Nathan Smith",
+        "date": "2026-03-20"
       },
       {
-        "milestone": "Financial statements provided for rate review",
+        "milestone": "Lime Sharp Shopify access enabled",
         "done": false,
         "ownerShopify": "Adriana Colacicco",
-        "ownerMerchant": "Mo / Finance",
-        "date": "2026-03-13",
-        "notes": "Awaiting statements for RR per NextStep. Mo OOO may delay."
-      },
-      {
-        "milestone": "Rate review submitted internally (Shopify)",
-        "done": false,
-        "ownerShopify": "Adriana Colacicco",
-        "ownerMerchant": "",
-        "date": "2026-03-20",
-        "notes": "Dependent on receiving financial statements. ~1 week turnaround."
-      },
-      {
-        "milestone": "Rate review approved & final pricing sent to merchant",
-        "done": false,
-        "ownerShopify": "Adriana Colacicco",
-        "ownerMerchant": "Mo / Diamante",
-        "date": "2026-04-03",
-        "notes": "Allow ~2 weeks for internal RR process."
-      },
-      {
-        "milestone": "Implementation partner selected",
-        "done": false,
-        "ownerShopify": "Adriana Colacicco",
-        "ownerMerchant": "Mo",
-        "date": "2026-04-10",
-        "notes": "Partner selection needed for implementation planning."
-      },
-      {
-        "milestone": "Contract / MSA drafted and sent",
-        "done": false,
-        "ownerShopify": "Adriana Colacicco",
-        "ownerMerchant": "C.P. Hart Legal",
-        "date": "2026-04-17",
-        "notes": "Post rate review approval. NDA must be in place first."
-      },
-      {
-        "milestone": "Legal review & redlines",
-        "done": false,
-        "ownerShopify": "Adriana Colacicco",
-        "ownerMerchant": "C.P. Hart Legal",
-        "date": "2026-05-01",
-        "notes": "Allow 2 weeks for legal back-and-forth."
-      },
-      {
-        "milestone": "Contract signed / deal closed",
-        "done": false,
-        "ownerShopify": "Adriana Colacicco",
-        "ownerMerchant": "Economic Buyer / Mo",
-        "date": "2026-05-29",
-        "notes": "Target close date. Working backward, all prior milestones must hold."
-      },
-      {
-        "milestone": "Launch team introduction & implementation kick-off",
-        "done": false,
-        "ownerShopify": "Adriana Colacicco",
-        "ownerMerchant": "Mo / Diamante / Partner",
-        "date": "2026-06-12",
-        "notes": "~2 weeks post-close."
+        "ownerMerchant": "Lime Sharp",
+        "date": "2026-04-01"
       }
     ],
-    "completedMAPMilestones": [],
-    "mapGoLiveDate": "2026-05-29",
-    "meddpiccUpdates": [
-      { "section": "economicBuyer", "questionIndex": 0, "updates": { "notes": "Board meeting this month — EB likely a board member or C-suite. Adriana to confirm who is presenting to board and who holds budget authority.", "due": "03/06/2026" } },
-      { "section": "economicBuyer", "questionIndex": 1, "updates": { "notes": "Contract signer unknown. NDA in works but MSA signer not identified. Clarify during board meeting follow-up.", "due": "03/13/2026" } },
-      { "section": "champion", "questionIndex": 3, "updates": { "notes": "Mo is OOO — need to confirm when Mo returns and whether Diamante can maintain momentum during absence.", "due": "03/06/2026" } }
-    ]
-  },
-  "006OG00000FHHAHYA5": {
-    "sfDiffs": [
-      { "field": "competitor", "newValue": null }
-    ],
-    "dealRisks": [
-      {
-        "risk": "Competitor field cleared (Adobe Commerce/Magento removed) but deal is still in Demonstrate stage — may indicate competitor dropped out OR data cleanup. Need verbal confirmation.",
-        "severity": "low",
-        "category": "competitive"
-      },
-      {
-        "risk": "Still awaiting final RFP feedback — RFP process introduces procurement-driven delays and competitive risk even if primary competitor is cleared.",
-        "severity": "medium",
-        "category": "timeline"
-      },
-      {
-        "risk": "Close date May 30 is 3 months out but deal is only in Demonstrate stage (score 29/54). Significant MEDDPICC gaps remain across EB, decision process, and paper process.",
-        "severity": "medium",
-        "category": "execution"
-      }
-    ],
-    "newMAPItems": [],
-    "completedMAPMilestones": [],
-    "mapGoLiveDate": "2026-05-30",
-    "meddpiccUpdates": [
-      { "section": "competition", "questionIndex": 0, "updates": { "answer": "Yes", "notes": "Competitive field cleared in Salesforce — Adobe Commerce (Magento) removed as of 02/26. Validate in next call that Adobe is no longer under consideration.", "due": "03/12/2026" } },
-      { "section": "competition", "questionIndex": 4, "updates": { "notes": "With Adobe cleared, update win/loss positioning. Confirm what drove Adobe out — was it TCO, capability gaps, or internal decision?", "due": "03/12/2026" } }
-    ]
-  },
-  "006OG00000FYX8zYAH": {
-    "sfDiffs": [
-      { "field": "timeline.proposedLaunch", "newValue": "2026-08-02" }
-    ],
-    "dealRisks": [
-      {
-        "risk": "Agency selection still blocking contract signing — this is the primary deal blocker. If agency decision drags, Mar 26 close date is at risk.",
-        "severity": "high",
-        "category": "execution"
-      },
-      {
-        "risk": "7 action items due TOMORROW (Feb 27) across EB, decision process, decision criteria, and paper process. These need immediate attention or rescheduling.",
-        "severity": "medium",
-        "category": "execution"
-      },
-      {
-        "risk": "Proposed launch Aug 2 — 4+ months post target close (Mar 26). Long implementation window creates risk of buyer disengagement.",
-        "severity": "low",
-        "category": "timeline"
-      }
-    ],
-    "newMAPItems": [
-      {
-        "milestone": "Agency/implementation partner selection finalized",
-        "done": false,
-        "ownerShopify": "Maissa Fatte",
-        "ownerMerchant": "Hawes & Curtis team",
-        "date": "2026-03-12",
-        "notes": "Agency selection is the primary blocker for contract. Must be resolved to hold Mar 26 close."
-      },
-      {
-        "milestone": "Go-live on Shopify",
-        "done": false,
-        "ownerShopify": "Maissa Fatte",
-        "ownerMerchant": "Hawes & Curtis team",
-        "date": "2026-08-02",
-        "notes": "Proposed launch date per SF update."
-      }
-    ],
-    "completedMAPMilestones": [],
-    "mapGoLiveDate": "2026-03-26",
-    "meddpiccUpdates": [
-      { "section": "economicBuyer", "questionIndex": 1, "updates": { "due": "03/12/2026" } },
-      { "section": "economicBuyer", "questionIndex": 5, "updates": { "due": "03/12/2026" } },
-      { "section": "decisionProcess", "questionIndex": 0, "updates": { "due": "03/12/2026" } },
-      { "section": "decisionCriteria", "questionIndex": 6, "updates": { "due": "03/12/2026" } },
-      { "section": "paperProcess", "questionIndex": 0, "updates": { "due": "03/12/2026" } },
-      { "section": "paperProcess", "questionIndex": 1, "updates": { "due": "03/12/2026" } },
-      { "section": "paperProcess", "questionIndex": 2, "updates": { "due": "03/12/2026" } },
-      { "section": "paperProcess", "questionIndex": 3, "updates": { "due": "03/12/2026" } },
-      { "section": "paperProcess", "questionIndex": 6, "updates": { "due": "03/12/2026" } }
-    ]
-  },
-  "0068V0000113peWQAQ": {
-    "sfDiffs": [
-      { "field": "revenue.mcv", "newValue": 82800 },
-      { "field": "timeline.proposedLaunch", "newValue": "2026-09-30" }
-    ],
-    "dealRisks": [
-      {
-        "risk": "MCV dropped 38% ($132,800 → $82,800) — significant value erosion. Could indicate scope reduction, pricing concession, or deal downsizing.",
-        "severity": "high",
-        "category": "commercial"
-      },
-      {
-        "risk": "Close date Mar 16 is only 18 days away but deal is in Demonstrate stage with 7 agencies still being evaluated. Timeline appears very aggressive.",
-        "severity": "high",
-        "category": "timeline"
-      },
-      {
-        "risk": "Proposed launch Sep 30 — 6+ months after target close. Very long implementation timeline for a deal still in agency evaluation.",
-        "severity": "medium",
-        "category": "timeline"
-      },
-      {
-        "risk": "Build not starting until April per NextStep — gap between signing and build start. Buyer may want to delay signing until agency is selected.",
-        "severity": "medium",
-        "category": "execution"
-      }
-    ],
-    "newMAPItems": [
-      {
-        "milestone": "Agency/SI partner shortlist finalized (from 7 to 2-3)",
-        "done": false,
-        "ownerShopify": "Ben Rees",
-        "ownerMerchant": "Essentiel Antwerp team",
-        "date": "2026-03-06",
-        "notes": "7 agencies currently in evaluation. Need to narrow before close."
-      },
-      {
-        "milestone": "Agency/SI partner selected",
-        "done": false,
-        "ownerShopify": "Ben Rees",
-        "ownerMerchant": "Essentiel Antwerp team",
-        "date": "2026-03-13",
-        "notes": "Partner selection needed before or concurrent with contract signature."
-      },
-      {
-        "milestone": "Build phase begins",
-        "done": false,
-        "ownerShopify": "Ben Rees",
-        "ownerMerchant": "Essentiel Antwerp / Agency",
-        "date": "2026-04-01",
-        "notes": "Per NextStep — build to start in April."
-      },
-      {
-        "milestone": "Go-live on Shopify",
-        "done": false,
-        "ownerShopify": "Ben Rees",
-        "ownerMerchant": "Essentiel Antwerp team",
-        "date": "2026-09-30",
-        "notes": "Proposed launch date per SF update. ~6 month build window."
-      }
-    ],
-    "completedMAPMilestones": [],
-    "mapGoLiveDate": "2026-03-16",
-    "meddpiccUpdates": [
-      { "section": "metrics", "questionIndex": 2, "updates": { "notes": "MCV dropped 38% — re-validate whether quantifiable goals and business case still hold at lower deal value. Confirm if scope changed or just pricing.", "due": "03/05/2026" } }
+    "completedMAPMilestones": [
+      "Payment rate review submission",
+      "Agency/partner selection"
     ]
   }
 }
