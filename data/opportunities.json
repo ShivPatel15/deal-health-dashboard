@@ -7,16 +7,16 @@
     "owner": "Adriana Colacicco",
     "ownerEmail": "adriana.colacicco@shopify.com",
     "stage": "Deal Craft",
-    "closeDate": "2026-02-27",
+    "closeDate": "2026-03-13",
     "forecastCategory": "Commit",
     "probability": 80,
     "merchantIntent": "Committed - At Risk",
     "type": "New Business",
     "created": "2024-07-19",
-    "lastAnalysisDate": "2026-03-02",
+    "lastAnalysisDate": "2026-03-06",
     "revenue": {
       "mcv": 75900,
-      "totalRev3yr": 1039799,
+      "totalRev3yr": 1039799.0,
       "d2cGmv": 21323127,
       "b2bGmv": null,
       "retailGmv": null,
@@ -1128,6 +1128,17 @@
         "newScore": 30,
         "delta": -7.5,
         "summary": "Daily refresh: SF field changes triggered 3 MEDDPICC adjustments via LLM analysis"
+      },
+      {
+        "date": "2026-03-06",
+        "type": "sf-refresh",
+        "summary": "Daily refresh: Close date pushed 2026-02-27\u21922026-03-13",
+        "scoreChange": {
+          "before": 30,
+          "after": 30,
+          "delta": 0
+        },
+        "sfChanges": "Close date pushed 2026-02-27\u21922026-03-13"
       }
     ],
     "mutualActionPlan": {
@@ -1359,6 +1370,14 @@
             "pct": 70
           }
         }
+      },
+      {
+        "date": "2026-03-06",
+        "score": 30,
+        "max": 54,
+        "status": "on-track",
+        "openActions": 0,
+        "mapProgress": "0/21"
       }
     ],
     "dealRisks": [
@@ -1437,14 +1456,14 @@
     "merchantIntent": "Committed",
     "type": "New Business",
     "created": "2025-05-29",
-    "lastAnalysisDate": "2026-03-05",
+    "lastAnalysisDate": "2026-03-06",
     "revenue": {
-      "mcv": 69000,
-      "totalRev3yr": 676036.88,
+      "mcv": 75900,
+      "totalRev3yr": 682936.88,
       "d2cGmv": 16900000,
       "b2bGmv": null,
       "retailGmv": 43744512,
-      "paymentsGpv": 10985000,
+      "paymentsGpv": 10985000.0,
       "paymentsAttached": true,
       "ipp": 0
     },
@@ -2402,6 +2421,17 @@
           "Competition": 3
         },
         "changes": []
+      },
+      {
+        "date": "2026-03-06",
+        "type": "sf-refresh",
+        "summary": "Daily refresh: Revenue updated: eComm $69K\u2192$75.9K, Total Rev $676K\u2192$683K",
+        "scoreChange": {
+          "before": 108,
+          "after": 108,
+          "delta": 0
+        },
+        "sfChanges": "Revenue updated: eComm $69K\u2192$75.9K, Total Rev $676K\u2192$683K"
       }
     ],
     "mutualActionPlan": {
@@ -2664,6 +2694,14 @@
             "pct": 60
           }
         }
+      },
+      {
+        "date": "2026-03-06",
+        "score": 108,
+        "max": 54,
+        "status": "unknown",
+        "openActions": 0,
+        "mapProgress": "0/25"
       }
     ],
     "dealRisks": [
@@ -2739,10 +2777,10 @@
     "closeDate": "2026-03-30",
     "forecastCategory": "Commit",
     "probability": 80,
-    "merchantIntent": "Committed - At Risk",
+    "merchantIntent": "Committed",
     "type": "New Business",
     "created": "2025-08-19",
-    "lastAnalysisDate": "2026-03-02",
+    "lastAnalysisDate": "2026-03-06",
     "revenue": {
       "mcv": 82800,
       "totalRev3yr": 4269146.5,
@@ -3879,6 +3917,17 @@
         "newScore": 38.5,
         "delta": 3,
         "summary": "Daily refresh: SF field changes triggered 8 MEDDPICC adjustments via LLM analysis"
+      },
+      {
+        "date": "2026-03-06",
+        "type": "sf-refresh",
+        "summary": "Daily refresh: Merchant Intent: Committed - At Risk \u2192 Committed",
+        "scoreChange": {
+          "before": 38.5,
+          "after": 38.5,
+          "delta": 0
+        },
+        "sfChanges": "Merchant Intent: Committed - At Risk \u2192 Committed"
       }
     ],
     "mutualActionPlan": {
@@ -4110,6 +4159,14 @@
             "pct": 80
           }
         }
+      },
+      {
+        "date": "2026-03-06",
+        "score": 38.5,
+        "max": 54,
+        "status": "on-track",
+        "openActions": 0,
+        "mapProgress": "0/21"
       }
     ],
     "dealRisks": [
@@ -4198,7 +4255,7 @@
     "merchantIntent": "Committed - At Risk",
     "type": "New Business",
     "created": "2025-02-07",
-    "lastAnalysisDate": "2026-03-02",
+    "lastAnalysisDate": "2026-03-06",
     "revenue": {
       "mcv": 82800,
       "totalRev3yr": 841500,
@@ -4222,7 +4279,7 @@
       "whyChange": "Mulberry's current e-commerce platform is built on SAP Hybris, which is going end-of-support in January 2027 \u2014 creating a hard deadline to migrate. They previously attempted to solve this by implementing Salesforce Commerce Cloud in 2024, but that project failed, meaning they've already burned time and budget on one migration attempt. Beyond the platform sunset, Mulberry's leadership has identified their legacy tech stack as a growth inhibitor \u2014 specifically, they have identified a new customer segment they want to pursue but cannot scale their business to address it on their current architecture. The business problem is therefore both defensive (platform going dark) and offensive (new growth opportunity blocked by tech limitations). The combination of a failed prior migration, an immovable platform sunset, and unmet growth ambitions creates significant organizational urgency and pain.",
       "whyShopify": "Shopify is being evaluated as a proven, lower-risk alternative after the failed Salesforce Commerce Cloud implementation. Mulberry is comparing Shopify Plus against Scayle and BigCommerce, with SFCC as the primary named competitor. The engagement of Shopify's Field CTO (Peyman Naeini) in an executive alignment call with Mulberry's CIO and CMO suggests Shopify is positioning on strategic credibility and enterprise readiness. The Adyen/Shopify meeting indicates payments integration is a key workstream. Shopify's D2C strength aligns well with Mulberry's $51M D2C GMV, and the Plus Product Suite positions Shopify as a comprehensive platform rather than a point solution.",
       "whyNow": "The primary timeline driver is the SAP Hybris end-of-support in January 2027, which gives Mulberry approximately 11 months from today to complete a full platform migration \u2014 an aggressive but achievable timeline if a decision is made in Q1 2026. The failed SFCC implementation in 2024 has already cost them at least a year, amplifying the urgency. If Mulberry doesn't commit soon, they risk running out of implementation runway before the Hybris sunset, potentially forcing a costly extended support arrangement or a rushed migration.",
-      "supportNeeded": "1) Legal/Contract resolution \u2014 Mulberry's legal team has pushed back 3x on the Plus contract. Must resolve outstanding redlines quickly or escalate.\n2) China and Markets clarification \u2014 New queries around Shopify's capabilities for China and Shopify Markets need thorough, timely async responses.\n3) Arsenalia SI engagement \u2014 Discovery with second implementation partner just kicked off. Ensure clarity on SI strategy.\n4) CIO engagement deepening \u2014 Dharmini Chauhan has very limited engagement (11 emails, 1 reply). Need strategy to deepen access.\n5) Competitive differentiation vs. Scayle and BigCommerce \u2014 Ensure clear positioning, especially on enterprise/luxury brand fit.\n6) Final technical validation and RFP follow-ups \u2014 Close out promptly to maintain momentum."
+      "supportNeeded": "1) Legal/Contract resolution \u2014 Mulberry's legal team has pushed back 3x on the Plus contract. Must resolve outstanding redlines quickly or escalate.\n2) China and Markets clarification \u2014 New queries around Shopify's capabilities for China and Shopify Markets need thorough, timely async responses.\n3) Arsenalia SI engagement \u2014 Discovery with second implementation partner just kicked off. Ensure clarity on SI strategy.\n4) CIO engagement deepening \u2014 Dharmini Chauhan has very limited engagement (11 emails, 1 reply). Need strategy to deepen access.\n5) Competitive differentiation vs. Scayle and BigCommerce \u2014 Ensure clear positioning, especially on enterprise/luxury brand fit.\n6) Final technical validation and RFP follow-ups \u2014 Close out promptly to maintain momentum.\n\n**Post-Close Implementation Support (Updated 2026-03-03):**\n- **Adyen APAC Activation:** Ben Homer (Shopify) to follow up on Adyen activation for Globe Pay Wallet and I-wallet in APAC markets.\n- **GiveX Integration Guidance:** Gift card redemption integration uncertain \u2014 existing app has 1 review. Closed-beta redeemable payment extension available as fallback.\n- **Returns Architecture:** Shopify self-serve returns is global toggle only, conflicting with Mulberry's mixed UK/ROW model. Investigating Zigzag global capabilities.\n- **Transactional Email Mapping:** Bloomreach confirmed as ESP. Mapping exercise needed to confirm coverage.\n- **China Market:** Cross-border approach unchanged. Internal discussion ongoing re dedicated website value."
     },
     "meddpicc": {
       "metrics": {
@@ -5092,6 +5149,48 @@
         "issue": "Win: post-SFCC risk aversion, D2C strength, brand credibility, SI partners. Lose: China/Markets gaps, legal impasse, pricing pressure from Scayle/BigCommerce, luxury bespoke UX requirements. Inferred, not confirmed.",
         "rec": "Ask Simon directly: 'What would make you choose Shopify? What would make you choose someone else?'",
         "due": "02/21/2026"
+      },
+      {
+        "action": "Map all transactional email types to confirm Bloomreach vs. Shopify coverage",
+        "owner": "Mulberry (Samantha Mohammed)",
+        "dueDate": "2026-03-14",
+        "status": "open"
+      },
+      {
+        "action": "Investigate whether Zigzag can handle global returns with market-specific flows",
+        "owner": "Mulberry (Ben Fysh)",
+        "dueDate": "2026-03-14",
+        "status": "open"
+      },
+      {
+        "action": "Contact GiveX for bespoke Shopify integration for gift card redemption",
+        "owner": "Mulberry (Christopher Wilkinson)",
+        "dueDate": "2026-03-17",
+        "status": "open"
+      },
+      {
+        "action": "Investigate closed-beta redeemable payment extension as fallback for GiveX",
+        "owner": "Ben Homer (Shopify)",
+        "dueDate": "2026-03-10",
+        "status": "open"
+      },
+      {
+        "action": "Follow up on Adyen activation for APAC payments (Globe Pay Wallet / I-wallet)",
+        "owner": "Ben Homer (Shopify)",
+        "dueDate": "2026-03-10",
+        "status": "open"
+      },
+      {
+        "action": "Finance team alignment on APAC payment provider decisions",
+        "owner": "Mulberry Finance",
+        "dueDate": "2026-03-14",
+        "status": "open"
+      },
+      {
+        "action": "Internal discussion on China dedicated website need vs cross-border approach",
+        "owner": "Mulberry leadership",
+        "dueDate": "2026-03-21",
+        "status": "open"
       }
     ],
     "stakeholders": [
@@ -5305,6 +5404,28 @@
           "Simon Oates"
         ],
         "summary": "General project sync with key Mulberry stakeholders."
+      },
+      {
+        "title": "Mulberry | Arsenalia | Shopify - Markets Configuration",
+        "date": "2026-03-03",
+        "duration": 50,
+        "platform": "google_meet",
+        "shopifyAttendees": [
+          "Ben Homer"
+        ],
+        "merchantAttendees": [
+          "Ben Fysh",
+          "Simon O",
+          "Diego Donaggio",
+          "Christopher Wilkinson",
+          "Samantha Mohammed",
+          "Simon Dent",
+          "Alessia Mai",
+          "Carmen Deteran"
+        ],
+        "summary": "Post-close implementation discovery call with Arsenalia. Key topics: transactional emails (Bloomreach confirmed, Shopify emails to be disabled), returns architecture (global toggle vs mixed model - investigating Zigzag global capabilities), GiveX gift card integration (HIGH risk - no proven Shopify path, closed-beta fallback available), China cross-border approach unchanged, APAC payments need Adyen activation. Multiple action items assigned with mid-March targets.",
+        "event_id": "10mkrlh68mckpnteiuv80ge8fm",
+        "has_transcript": true
       }
     ],
     "history": [
@@ -5364,6 +5485,22 @@
         "type": "stage-change",
         "description": "Stage: Demonstrate \u2192 Closed Won. Probability: 60% \u2192 100%. Close Date: 2026-02-28 \u2192 2026-02-27. Deal WON! \ud83c\udf89",
         "source": "sf-daily-refresh"
+      },
+      {
+        "date": "2026-03-06",
+        "type": "incremental-refresh",
+        "summary": "Daily refresh: 1 new implementation call (2026-03-03: Markets Configuration with Arsenalia). GiveX integration flagged as HIGH risk. 7 new action items added. 4 implementation risks documented. SF fields unchanged (deal already Closed Won).",
+        "callSummary": "2026-03-03: Post-close implementation discovery with Arsenalia. Key topics: transactional emails (Bloomreach), returns architecture (Zigzag/global toggle), GiveX gift cards (HIGH risk), China cross-border, APAC payments (Adyen).",
+        "scoreChange": {
+          "before": 34.5,
+          "after": 34.5,
+          "delta": 0
+        },
+        "actionItemChanges": {
+          "added": 7,
+          "resolved": 0
+        },
+        "newRisks": 4
       }
     ],
     "mutualActionPlan": {
@@ -5597,7 +5734,33 @@
         }
       ],
       "netAssessment": "This deal is competitive, contentious, and not closing tomorrow. The hard Hybris EOL deadline (Jan 2027) gives ~11 months of implementation runway, which actually reduces urgency to sign this week. The biggest risk is that legal impasse + China/Markets scope creep + active competition creates enough friction for Mulberry to slow-play the decision into Q2."
-    }
+    },
+    "dealRisks": [
+      {
+        "risk": "GiveX Gift Card Redemption \u2014 No Proven Shopify Integration Path",
+        "severity": "high",
+        "category": "implementation",
+        "source": "2026-03-03 call"
+      },
+      {
+        "risk": "Returns Architecture Mismatch \u2014 Global Toggle vs Mixed Model",
+        "severity": "medium",
+        "category": "implementation",
+        "source": "2026-03-03 call"
+      },
+      {
+        "risk": "APAC Payment Provider Activation \u2014 Adyen/Finance Alignment Pending",
+        "severity": "medium",
+        "category": "implementation",
+        "source": "2026-03-03 call"
+      },
+      {
+        "risk": "Multiple Open Integrations with ~4 Months to Launch",
+        "severity": "medium",
+        "category": "timeline",
+        "source": "2026-03-03 call"
+      }
+    ]
   },
   {
     "id": "006OG00000HnVs8YAF",
@@ -5610,17 +5773,17 @@
     "closeDate": "2026-03-13",
     "forecastCategory": "Commit",
     "probability": 80,
-    "merchantIntent": "Committed - At Risk",
+    "merchantIntent": "Committed",
     "type": "New Business",
     "created": "2025-10-16",
-    "lastAnalysisDate": "2026-03-02",
+    "lastAnalysisDate": "2026-03-06",
     "revenue": {
       "mcv": 285200,
-      "totalRev3yr": 1244375,
+      "totalRev3yr": 1244375.0,
       "d2cGmv": 29000000,
       "b2bGmv": null,
       "retailGmv": null,
-      "paymentsGpv": 18850000,
+      "paymentsGpv": 18850000.0,
       "paymentsAttached": true,
       "ipp": 0
     },
@@ -6660,6 +6823,17 @@
         "type": "sf-field-update",
         "description": "NextStep field updated from Salesforce.",
         "source": "sf-daily-refresh"
+      },
+      {
+        "date": "2026-03-06",
+        "type": "sf-refresh",
+        "summary": "Daily refresh: Merchant Intent: Committed - At Risk \u2192 Committed",
+        "scoreChange": {
+          "before": 44,
+          "after": 44,
+          "delta": 0
+        },
+        "sfChanges": "Merchant Intent: Committed - At Risk \u2192 Committed"
       }
     ],
     "mutualActionPlan": {
@@ -6891,6 +7065,14 @@
             "pct": 60
           }
         }
+      },
+      {
+        "date": "2026-03-06",
+        "score": 44,
+        "max": 54,
+        "status": "good-health",
+        "openActions": 0,
+        "mapProgress": "0/21"
       }
     ],
     "dealRisks": [
@@ -6979,18 +7161,18 @@
     "merchantIntent": "Uncommitted",
     "type": "New Business",
     "created": "2025-10-20",
-    "lastAnalysisDate": "2026-03-02",
+    "lastAnalysisDate": "2026-03-06",
     "revenue": {
       "mcv": 82800,
-      "totalRev3yr": 1220972,
+      "totalRev3yr": 1220972.06,
       "d2cGmv": 26353100,
       "b2bGmv": null,
       "retailGmv": null,
-      "paymentsGpv": 17129515,
+      "paymentsGpv": 17129515.0,
       "paymentsAttached": true,
       "ipp": 0
     },
-    "projectedBilledRevenue": 483034,
+    "projectedBilledRevenue": 483034.36,
     "products": [
       "Plus Product Suite",
       "D2C - Standard",
@@ -8219,6 +8401,14 @@
             "pct": 70
           }
         }
+      },
+      {
+        "date": "2026-03-06",
+        "score": 29,
+        "max": 54,
+        "status": "on-track",
+        "openActions": 0,
+        "mapProgress": "0/18"
       }
     ],
     "dealUndercurrent": {
@@ -8280,18 +8470,18 @@
     "merchantIntent": "Committed - At Risk",
     "type": "New Business",
     "created": "2024-07-16",
-    "lastAnalysisDate": "2026-03-02",
+    "lastAnalysisDate": "2026-03-06",
     "revenue": {
       "mcv": 82800,
-      "totalRev3yr": 2333229,
+      "totalRev3yr": 2333229.33,
       "d2cGmv": 25495422,
       "b2bGmv": null,
       "retailGmv": 39402017,
-      "paymentsGpv": 33144049,
+      "paymentsGpv": 33144049.22,
       "paymentsAttached": true,
       "ipp": 0
     },
-    "projectedBilledRevenue": 719855,
+    "projectedBilledRevenue": 719854.75,
     "products": [
       "Plus Product Suite",
       "D2C - Standard",
@@ -9600,6 +9790,14 @@
             "pct": 40
           }
         }
+      },
+      {
+        "date": "2026-03-06",
+        "score": 31,
+        "max": 54,
+        "status": "on-track",
+        "openActions": 0,
+        "mapProgress": "0/21"
       }
     ],
     "dealRisks": [
@@ -9683,10 +9881,10 @@
     "merchantIntent": "Committed - At Risk",
     "type": "Existing Business",
     "created": "2025-12-12",
-    "lastAnalysisDate": "2026-03-02",
+    "lastAnalysisDate": "2026-03-06",
     "revenue": {
       "mcv": 0,
-      "totalRev3yr": 1562351,
+      "totalRev3yr": 1562351.44,
       "d2cGmv": null,
       "b2bGmv": null,
       "retailGmv": 99315424,
@@ -9694,7 +9892,7 @@
       "paymentsAttached": true,
       "ipp": 0
     },
-    "projectedBilledRevenue": 574389,
+    "projectedBilledRevenue": 574389.18,
     "products": [
       "Plus Product Suite",
       "Plus - POS Pro",
@@ -10966,6 +11164,14 @@
             "pct": 50
           }
         }
+      },
+      {
+        "date": "2026-03-06",
+        "score": 32,
+        "max": 54,
+        "status": "on-track",
+        "openActions": 0,
+        "mapProgress": "0/18"
       }
     ],
     "dealUndercurrent": {
@@ -11017,14 +11223,14 @@
     "merchantIntent": "Committed - At Risk",
     "type": "New Business",
     "created": "2025-06-30",
-    "lastAnalysisDate": "2026-03-02",
+    "lastAnalysisDate": "2026-03-06",
     "revenue": {
       "mcv": 82800,
       "totalRev3yr": 5809546.88,
       "d2cGmv": 87000000,
       "b2bGmv": null,
       "retailGmv": 25000000,
-      "paymentsGpv": 113100000,
+      "paymentsGpv": 113100000.0,
       "paymentsAttached": true,
       "ipp": 2936658.37
     },
@@ -12377,6 +12583,14 @@
             "pct": 50
           }
         }
+      },
+      {
+        "date": "2026-03-06",
+        "score": 29,
+        "max": 54,
+        "status": "on-track",
+        "openActions": 0,
+        "mapProgress": "0/18"
       }
     ],
     "dealRisks": [
@@ -12438,21 +12652,21 @@
     "accountId": "0018V00002igC8fQAE",
     "owner": "Adriana Colacicco",
     "ownerEmail": "adriana.colacicco@shopify.com",
-    "stage": "Demonstrate",
-    "closeDate": "2026-03-27",
-    "forecastCategory": "Commit",
-    "probability": 60,
+    "stage": "Closed Lost",
+    "closeDate": "2026-03-05",
+    "forecastCategory": "Omitted",
+    "probability": 0,
     "merchantIntent": "Committed - At Risk",
     "type": "New Business",
     "created": "2025-07-16",
-    "lastAnalysisDate": "2026-03-02",
+    "lastAnalysisDate": "2026-03-06",
     "revenue": {
       "mcv": 82800,
       "totalRev3yr": 874667.61,
       "d2cGmv": 2006280,
       "b2bGmv": null,
       "retailGmv": 18056520,
-      "paymentsGpv": 2608164,
+      "paymentsGpv": 2608164.0,
       "paymentsAttached": true,
       "ipp": null
     },
@@ -12463,7 +12677,7 @@
       "Shopify Payments - D2C Plus, Shopify for ent, CCS",
       "Retail Payments - Plus"
     ],
-    "competitor": "Citrus Lime (incumbent)",
+    "competitor": "Other",
     "compellingEvent": "Citrus Lime e-commerce contract expiration in April 2026 \u2014 hard deadline requiring platform decision and migration before expiry.",
     "nextStep": "11.02 Merchant awaiting feedback from board, however is now considering Advanced, I will now decrease involvement, it is not looking as likely anymore",
     "narrative": {
@@ -13528,6 +13742,17 @@
         "newScore": 22.5,
         "delta": 1.5,
         "summary": "Daily refresh: SF field changes triggered 2 MEDDPICC adjustments via LLM analysis"
+      },
+      {
+        "date": "2026-03-06",
+        "type": "sf-refresh",
+        "summary": "Daily refresh: CLOSED LOST \u2014 Stage: Demonstrate \u2192 Closed Lost, Prob 60\u21920%",
+        "scoreChange": {
+          "before": 22.5,
+          "after": 22.5,
+          "delta": 0
+        },
+        "sfChanges": "CLOSED LOST \u2014 Stage: Demonstrate \u2192 Closed Lost, Prob 60\u21920%"
       }
     ],
     "mutualActionPlan": {
@@ -13735,6 +13960,14 @@
             "pct": 0
           }
         }
+      },
+      {
+        "date": "2026-03-06",
+        "score": 22.5,
+        "max": 54,
+        "status": "at-risk",
+        "openActions": 0,
+        "mapProgress": "0/18"
       }
     ],
     "dealUndercurrent": {
@@ -13781,18 +14014,18 @@
     "merchantIntent": "Committed - At Risk",
     "type": "New Business",
     "created": "2025-08-06",
-    "lastAnalysisDate": "2026-03-02",
+    "lastAnalysisDate": "2026-03-06",
     "revenue": {
       "mcv": 0,
-      "totalRev3yr": 10909191,
+      "totalRev3yr": 14206191.0,
       "d2cGmv": 162000000,
       "b2bGmv": null,
       "retailGmv": 8000000,
-      "paymentsGpv": 210600000,
+      "paymentsGpv": 210600000.0,
       "paymentsAttached": true,
       "ipp": 7943380.68
     },
-    "projectedBilledRevenue": 3813618.5,
+    "projectedBilledRevenue": 6065019.0,
     "products": [
       "CCS for Enterprise Product Suite",
       "CCS for enterprise - D2C",
@@ -15137,6 +15370,17 @@
         "newScore": 41,
         "delta": 1.5,
         "summary": "Daily refresh: SF field changes triggered 1 MEDDPICC adjustments via LLM analysis"
+      },
+      {
+        "date": "2026-03-06",
+        "type": "sf-refresh",
+        "summary": "Daily refresh: Revenue up: PBR $3.8M\u2192$6.1M (+59%), Total Rev $10.9M\u2192$14.2M",
+        "scoreChange": {
+          "before": 41,
+          "after": 41,
+          "delta": 0
+        },
+        "sfChanges": "Revenue up: PBR $3.8M\u2192$6.1M (+59%), Total Rev $10.9M\u2192$14.2M"
       }
     ],
     "mutualActionPlan": {
@@ -15439,6 +15683,14 @@
             "pct": 60
           }
         }
+      },
+      {
+        "date": "2026-03-06",
+        "score": 41,
+        "max": 54,
+        "status": "on-track",
+        "openActions": 8,
+        "mapProgress": "0/30"
       }
     ],
     "competitive": {
@@ -15530,17 +15782,17 @@
     "closeDate": "2026-03-26",
     "forecastCategory": "Commit",
     "probability": 80,
-    "merchantIntent": "Committed",
+    "merchantIntent": "Committed - At Risk",
     "type": "New Business",
     "created": "2025-07-14",
-    "lastAnalysisDate": "2026-03-02",
+    "lastAnalysisDate": "2026-03-06",
     "revenue": {
       "mcv": 82800,
       "totalRev3yr": 2040937.5,
       "d2cGmv": 50000000,
       "b2bGmv": null,
       "retailGmv": null,
-      "paymentsGpv": 32500000,
+      "paymentsGpv": 32500000.0,
       "paymentsAttached": true,
       "ipp": 1087618.88
     },
@@ -16509,6 +16761,17 @@
         "type": "sf-field-update",
         "description": "NextStep field updated from Salesforce.",
         "source": "sf-daily-refresh"
+      },
+      {
+        "date": "2026-03-06",
+        "type": "sf-refresh",
+        "summary": "Daily refresh: Merchant Intent: Committed \u2192 Committed - At Risk",
+        "scoreChange": {
+          "before": 41,
+          "after": 41,
+          "delta": 0
+        },
+        "sfChanges": "Merchant Intent: Committed \u2192 Committed - At Risk"
       }
     ],
     "mutualActionPlan": {
@@ -16723,6 +16986,14 @@
             "pct": 50
           }
         }
+      },
+      {
+        "date": "2026-03-06",
+        "score": 41,
+        "max": 54,
+        "status": "good-health",
+        "openActions": 0,
+        "mapProgress": "0/19"
       }
     ],
     "dealRisks": [
@@ -16787,7 +17058,7 @@
     "ownerEmail": "ben.rees@shopify.com",
     "revenue": {
       "mcv": 82800,
-      "totalRev3yr": 841500,
+      "totalRev3yr": 841500.0,
       "d2cGmv": 51000000,
       "b2bGmv": null,
       "retailGmv": null,
@@ -17436,7 +17707,7 @@
         ]
       }
     },
-    "lastAnalysisDate": "2026-03-02",
+    "lastAnalysisDate": "2026-03-06",
     "calls": [
       {
         "date": "2026-01-07",
@@ -17579,6 +17850,16 @@
         "description": "NextStep field updated from Salesforce.",
         "source": "sf-daily-refresh"
       }
+    ],
+    "coachingSnapshots": [
+      {
+        "date": "2026-03-06",
+        "score": 0,
+        "max": 54,
+        "status": "unknown",
+        "openActions": 0,
+        "mapProgress": "0/4"
+      }
     ]
   },
   {
@@ -17596,11 +17877,11 @@
     "ownerEmail": "adriana.colacicco@shopify.com",
     "revenue": {
       "mcv": 82800,
-      "totalRev3yr": 2184000,
+      "totalRev3yr": 2184000.0,
       "d2cGmv": 40000000,
       "b2bGmv": null,
       "retailGmv": null,
-      "paymentsGpv": 26000000,
+      "paymentsGpv": 26000000.0,
       "paymentsAttached": true,
       "ipp": 1112865.6
     },
@@ -18248,7 +18529,7 @@
         ]
       }
     },
-    "lastAnalysisDate": "2026-03-02",
+    "lastAnalysisDate": "2026-03-06",
     "calls": [
       {
         "date": "2026-02-06",
@@ -18545,6 +18826,17 @@
         "description": "NextStep field updated from Salesforce.",
         "source": "sf-daily-refresh"
       }
+    ],
+    "competitor": null,
+    "coachingSnapshots": [
+      {
+        "date": "2026-03-06",
+        "score": 28,
+        "max": 54,
+        "status": "on-track",
+        "openActions": 0,
+        "mapProgress": "0/13"
+      }
     ]
   },
   {
@@ -18552,21 +18844,21 @@
     "name": "TRINNY LONDON",
     "accountName": "TRINNY LONDON",
     "accountId": "0018V00002czmgWQAQ",
-    "stage": "Demonstrate",
-    "closeDate": "2026-06-30",
+    "stage": "Deal Craft",
+    "closeDate": "2026-03-31",
     "forecastCategory": "Commit",
-    "probability": 60,
+    "probability": 80,
     "type": "New Business",
-    "merchantIntent": "Uncommitted",
+    "merchantIntent": "Committed - At Risk",
     "owner": "Maissa Fatte",
     "ownerEmail": "maissa.fatte@shopify.com",
     "revenue": {
       "mcv": 82800,
-      "totalRev3yr": 3311700,
+      "totalRev3yr": 4495312.5,
       "d2cGmv": 76000000,
       "b2bGmv": null,
       "retailGmv": null,
-      "paymentsGpv": 49400000,
+      "paymentsGpv": 65000000.0,
       "paymentsAttached": true,
       "ipp": 1745433.48
     },
@@ -18603,7 +18895,7 @@
       "proposedLaunch": "",
       "region": "EMEA"
     },
-    "projectedBilledRevenue": 948568.42,
+    "projectedBilledRevenue": 1184353.82,
     "compellingEvent": "",
     "aeNextStep": "",
     "narrative": {
@@ -19195,7 +19487,7 @@
         ]
       }
     },
-    "lastAnalysisDate": "2026-03-02",
+    "lastAnalysisDate": "2026-03-06",
     "calls": [
       {
         "id": "2iurrnpasvoffcsjme454hpqai",
@@ -19472,6 +19764,28 @@
         "type": "new-call-detected",
         "description": "New call detected: Shopify x Trinny London Regroup (2/25, 30 min). No transcript available. SF NextStep updated.",
         "source": "daily-refresh"
+      },
+      {
+        "date": "2026-03-06",
+        "type": "sf-refresh",
+        "summary": "Daily refresh: Stage Demonstrate\u2192Deal Craft, Close 06/30\u219203/31, Prob 60\u219280, commercetools, PBR up",
+        "scoreChange": {
+          "before": 0,
+          "after": 0,
+          "delta": 0
+        },
+        "sfChanges": "Stage Demonstrate\u2192Deal Craft, Close 06/30\u219203/31, Prob 60\u219280, commercetools, PBR up"
+      }
+    ],
+    "competitor": "commercetools",
+    "coachingSnapshots": [
+      {
+        "date": "2026-03-06",
+        "score": 0,
+        "max": 54,
+        "status": "unknown",
+        "openActions": 0,
+        "mapProgress": "0/4"
       }
     ]
   },
@@ -19490,11 +19804,11 @@
     "ownerEmail": "maissa.fatte@shopify.com",
     "revenue": {
       "mcv": 82800,
-      "totalRev3yr": 2129400,
+      "totalRev3yr": 2129400.0,
       "d2cGmv": 39000000,
       "b2bGmv": null,
       "retailGmv": null,
-      "paymentsGpv": 25350000,
+      "paymentsGpv": 25350000.0,
       "paymentsAttached": true,
       "ipp": 1085043.96
     },
@@ -20138,7 +20452,7 @@
         ]
       }
     },
-    "lastAnalysisDate": "2026-03-02",
+    "lastAnalysisDate": "2026-03-06",
     "calls": [
       {
         "date": "2025-11-20",
@@ -20263,6 +20577,17 @@
         "description": "NextStep field updated from Salesforce.",
         "source": "sf-daily-refresh"
       }
+    ],
+    "competitor": null,
+    "coachingSnapshots": [
+      {
+        "date": "2026-03-06",
+        "score": 0,
+        "max": 54,
+        "status": "unknown",
+        "openActions": 0,
+        "mapProgress": "0/0"
+      }
     ]
   },
   {
@@ -20279,8 +20604,8 @@
     "owner": "Maissa Fatte",
     "ownerEmail": "maissa.fatte@shopify.com",
     "revenue": {
-      "mcv": 0,
-      "totalRev3yr": 0,
+      "mcv": 82800,
+      "totalRev3yr": 97557.94,
       "d2cGmv": null,
       "b2bGmv": null,
       "retailGmv": null,
@@ -20920,7 +21245,7 @@
         ]
       }
     },
-    "lastAnalysisDate": "2026-03-02",
+    "lastAnalysisDate": "2026-03-06",
     "calls": [
       {
         "id": "6jfqifadb8gda118ffj2d2lulh",
@@ -21091,6 +21416,28 @@
         "type": "incremental-meddpicc",
         "description": "Incremental MEDDPICC update from 2/27 call with Iztok Hvala and Bo\u0161tjan Knez. 14 questions improved. Score: N/A \u2192 31/54. Key risks: Adyen 50M threshold, MSA blocking go-live.",
         "source": "daily-refresh"
+      },
+      {
+        "date": "2026-03-06",
+        "type": "sf-refresh",
+        "summary": "Daily refresh: Revenue populated: eComm $82.8K, Total Rev $97.6K",
+        "scoreChange": {
+          "before": 0,
+          "after": 0,
+          "delta": 0
+        },
+        "sfChanges": "Revenue populated: eComm $82.8K, Total Rev $97.6K"
+      }
+    ],
+    "competitor": null,
+    "coachingSnapshots": [
+      {
+        "date": "2026-03-06",
+        "score": 0,
+        "max": 54,
+        "status": "unknown",
+        "openActions": 6,
+        "mapProgress": "0/0"
       }
     ]
   },
@@ -21113,7 +21460,7 @@
       "d2cGmv": 18000000,
       "b2bGmv": null,
       "retailGmv": null,
-      "paymentsGpv": 11700000,
+      "paymentsGpv": 11700000.0,
       "paymentsAttached": true,
       "ipp": 748155.32
     },
@@ -21742,7 +22089,7 @@
         ]
       }
     },
-    "lastAnalysisDate": "2026-03-04",
+    "lastAnalysisDate": "2026-03-06",
     "calls": [
       {
         "date": "2026-02-25",
@@ -21782,6 +22129,30 @@
         "summary": "Initial discovery call between Ben McN (Shopify) and Simon Dunne (Technology & Data Manager, Axminster Tools). Simon shared the company's background: woodworking tools retailer that went through major restructuring post-COVID, splitting from manufacturing arm, shrinking from \u00a355M to ~\u00a320M turnover, closing all but one retail store. Currently on Adobe Commerce (Magento Premium) with 2 developers, ~8,000 SKUs, \u00a313M online revenue, \u00a3126 AOV. Simon has been independently evaluating Shopify for 3-4 months via demo store. Board approved pursuit as 'a no-brainer.' Uses Cyber Source + Barclays for payments. Interested in Shopify POS for remaining store and mobile selling. Wants to start building ASAP and go live by summer."
       }
     ],
-    "dealUndercurrent": null
+    "dealUndercurrent": null,
+    "competitor": "Adobe Commerce (Magento)",
+    "history": [
+      {
+        "date": "2026-03-06",
+        "type": "sf-refresh",
+        "summary": "Daily refresh: New competitor: Adobe Commerce (Magento)",
+        "scoreChange": {
+          "before": 0,
+          "after": 0,
+          "delta": 0
+        },
+        "sfChanges": "New competitor: Adobe Commerce (Magento)"
+      }
+    ],
+    "coachingSnapshots": [
+      {
+        "date": "2026-03-06",
+        "score": 0,
+        "max": 54,
+        "status": "unknown",
+        "openActions": 0,
+        "mapProgress": "0/0"
+      }
+    ]
   }
 ]

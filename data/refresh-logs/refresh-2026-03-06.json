@@ -1,0 +1,124 @@
+{
+  "date": "2026-03-06",
+  "started": "2026-03-06T08:12:58.360Z",
+  "finished": "2026-03-06T08:13:04.702Z",
+  "totalOpportunities": 18,
+  "processed": 18,
+  "results": {
+    "006OG00000CRabaYAD": {
+      "accountName": "Mulberry Company (Sales) Limited",
+      "status": "new-calls",
+      "details": "1 new implementation call (2026-03-03), 7 action items added, 4 impl risks",
+      "timestamp": "2026-03-06T08:12:58.360Z"
+    },
+    "0068V0000113rSIQAY": {
+      "accountName": "Moda in Pelle",
+      "status": "sf-only",
+      "details": "Close date pushed to 2026-03-13",
+      "timestamp": "2026-03-06T08:12:58.412Z"
+    },
+    "006OG00000EZIy6YAH": {
+      "accountName": "Whittard of Chelsea",
+      "status": "sf-only",
+      "details": "Revenue updated eComm+totalRev",
+      "timestamp": "2026-03-06T08:12:58.457Z"
+    },
+    "006OG00000GJ5IvYAL": {
+      "accountName": "The Dune Group",
+      "status": "sf-only",
+      "details": "Merchant Intent upgraded to Committed",
+      "timestamp": "2026-03-06T08:12:58.505Z"
+    },
+    "006OG00000HnVs8YAF": {
+      "accountName": "Wacoal Europe",
+      "status": "sf-only",
+      "details": "Merchant Intent upgraded to Committed",
+      "timestamp": "2026-03-06T08:12:58.550Z"
+    },
+    "006OG00000HtxKFYAZ": {
+      "accountName": "Sofa.Com Ltd",
+      "status": "no-change",
+      "details": "SF fields match, no new calls",
+      "timestamp": "2026-03-06T08:12:58.596Z"
+    },
+    "0068V0000113peWQAQ": {
+      "accountName": "ESSENTIEL Antwerp",
+      "status": "no-change",
+      "details": "SF fields match, no new calls",
+      "timestamp": "2026-03-06T08:12:58.641Z"
+    },
+    "006OG00000JUPVtYAP": {
+      "accountName": "Mint Velvet",
+      "status": "no-change",
+      "details": "SF fields match, no new calls",
+      "timestamp": "2026-03-06T08:12:58.686Z"
+    },
+    "006OG00000FHHAHYA5": {
+      "accountName": "OLIVER BONAS LIMITED",
+      "status": "no-change",
+      "details": "SF fields match, no new calls",
+      "timestamp": "2026-03-06T08:12:58.730Z"
+    },
+    "006OG00000Fbj8nYAB": {
+      "accountName": "Cycle King & Hawk",
+      "status": "sf-only",
+      "details": "CLOSED LOST - Stage changed, prob 0%",
+      "timestamp": "2026-03-06T08:12:58.776Z"
+    },
+    "006OG00000G28JdYAJ": {
+      "accountName": "Direct Wines Limited",
+      "status": "sf-only",
+      "details": "Revenue up PBR +59%, Total Rev +30%",
+      "timestamp": "2026-03-06T08:12:58.821Z"
+    },
+    "006OG00000FYX8zYAH": {
+      "accountName": "Hawes & Curtis Limited",
+      "status": "sf-only",
+      "details": "Merchant Intent downgraded to At Risk",
+      "timestamp": "2026-03-06T08:12:58.866Z"
+    },
+    "006OG00000Dh2YXYAZ": {
+      "accountName": "Bugaboo International B.V",
+      "status": "no-change",
+      "details": "SF fields match, no new calls",
+      "timestamp": "2026-03-06T08:12:58.910Z"
+    },
+    "006OG00000KW83lYAD": {
+      "accountName": "C.P. Hart & Sons Limited",
+      "status": "no-change",
+      "details": "SF fields match, no new calls",
+      "timestamp": "2026-03-06T08:12:58.957Z"
+    },
+    "006OG00000JMQ91YAH": {
+      "accountName": "TRINNY LONDON",
+      "status": "sf-only",
+      "details": "Major: Stage→Deal Craft, Close→03/31, Prob→80, commercetools",
+      "timestamp": "2026-03-06T08:12:59.002Z"
+    },
+    "006OG00000KOC4YYAX": {
+      "accountName": "Moss Bros. Group Ltd",
+      "status": "no-change",
+      "details": "SF fields match, no new calls",
+      "timestamp": "2026-03-06T08:12:59.046Z"
+    },
+    "006OG00000J4JtxYAF": {
+      "accountName": "Vision Healthcare",
+      "status": "sf-only",
+      "details": "Revenue populated",
+      "timestamp": "2026-03-06T08:12:59.091Z"
+    },
+    "006OG00000KqnifYAB": {
+      "accountName": "axminstertools.com",
+      "status": "sf-only",
+      "details": "New competitor: Adobe Commerce",
+      "timestamp": "2026-03-06T08:12:59.139Z"
+    }
+  },
+  "summary": {
+    "noChange": 7,
+    "sfOnly": 10,
+    "newCalls": 1,
+    "errors": 0,
+    "skipped": 0
+  }
+}
