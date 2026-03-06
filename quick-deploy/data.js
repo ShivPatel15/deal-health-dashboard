@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-03-06T08:13:20.604Z",
+  "generatedAt": "2026-03-06T08:53:43.069Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -15606,7 +15606,7 @@ const DEAL_DATA = {
     },
     {
       "id": "006OG00000G28JdYAJ",
-      "name": "Direct Wines Limited",
+      "name": "Direct Wines Limited - D2C + Payments",
       "accountName": "Direct Wines Limited",
       "accountId": "0018V00002a7BPLQA2",
       "owner": "Ben Rees",
@@ -15620,33 +15620,33 @@ const DEAL_DATA = {
       "created": "2025-08-06",
       "lastAnalysisDate": "2026-03-06",
       "revenue": {
-        "mcv": 0,
+        "mcv": 1735000,
         "totalRev3yr": 14206191,
-        "d2cGmv": 162000000,
+        "d2cGmv": 476000000,
         "b2bGmv": null,
         "retailGmv": 8000000,
         "paymentsGpv": 210600000,
         "paymentsAttached": true,
-        "ipp": 7943380.68
+        "ipp": 8234380.68
       },
       "projectedBilledRevenue": 6065019,
       "products": [
         "CCS for Enterprise Product Suite",
         "CCS for enterprise - D2C",
-        "Shopify Payments - D2C Plus, Shopify for ent, CCS",
+        "Shopify Payments - D2C Plus",
         "CCS for enterprise - POS Pro",
         "Retail Payments - Plus",
         "Retail Hardware"
       ],
       "competitor": "commercetools",
       "compellingEvent": "New CEO has challenged Leadership team in UK to become customer obsessed - D2C experience outlined as below required level. ATG support EOL. Now is Discovery with Fuse Fabric",
-      "nextStep": "18/02 BR Discovery with Fuse ending next week. Board / sign off meeting for 24/03. Still awaiting feedback on Plus vs Ent before we can finalise commercials",
+      "nextStep": "4/03 BR Board meeting on 26th was really positive. Clear appetite to consolidate their architecture even further. Fuse are presenting a revised brand consolidation proposal on 6th to be reviewed by merchant on 12th SLT meeting",
       "narrative": {
-        "oppSummary": "Direct Wines Limited is a $4.58M new business opportunity ($13.76M 3-year revenue, $7.94M IPP) to migrate their global wine e-commerce operation (15-17 brands across UK, US, AU/NZ, $162M D2C GMV, $8M Retail GMV, $210.6M Payments GPV) from a legacy ATG/commercetools tech stack to Shopify Enterprise with Payments, POS, and Recharge subscriptions. The deal is in Demonstrate stage at 60% probability with a March 31, 2026 close date, a board sign-off meeting targeted for March 24, and Fusefabric (SI partner) discovery wrapping up mid-February. Commercetools is the primary competitor, but Shopify holds a strong position bolstered by BrewDog references and Recharge alignment, though payment rate competitiveness and Enterprise vs Plus pricing remain key commercial hurdles.\n\n**Update 2026-02-27:** Deal at critical financial inflection. Octavia Neuberger (Finance) building business case showing ~£4M additional ongoing costs. Cannot reach net-neutral — board pitch must hinge on transformation value. Board decision March 24. Ben pushing for best-and-final enterprise pricing for 17 brands. Fuse Fabric discovery raising complexity concerns.",
-        "whyChange": "Direct Wines is trapped in a legacy technology stack that is actively harming their business. Their ATG platform is approaching end-of-life for support, and their migration to commercetools has been slow, expensive, and fraught with integration challenges. Nicole Romito stated: 'We are not on the right tech stack for customer expectations in our market,' and 'Right now, if we want to migrate to a new customer service tool, it's a two-year project of a custom build.' The company is spending over $6M/year on outsourced development, their Contentful CMS is described as expensive and restrictive, and custom builds take 8-12 months. The new global CEO has challenged UK leadership to become 'customer obsessed,' but the current D2C experience is below the required level. Subscriptions represent approximately 50-60% of revenue, making subscription commerce capability a non-negotiable requirement.\n\n**Update 2026-02-27:** Octavia confirmed multi-brand complexity as core driver. Wine industry headwinds adding commercial pressure. Pull factors widely recognized internally. Tech resourcing model constrained.",
-        "whyShopify": "Direct Wines sees Shopify as a path to dramatically reduce tech complexity and cost while improving customer experience and time-to-market. Andy Brooks (Director of Ecommerce) was highly impressed by the platform demo: 'I think it's incredible. I think it's an amazing product.' The US team (Nicole Romito, Elyse Barton) is extremely pro-Shopify. Key advantages include: consolidated tech stack replacing ATG/commercetools/Contentful, dramatically faster store builds ($75K-$180K vs 8-12 month custom builds), variabilized technology costs vs heavy capex, Shopify Audiences for customer acquisition (CEO's #1 concern), Shop Pay conversion uplift and fraud tools, and a proven migration path with Recharge for their critical 50-60% subscription business.\n\n**Update 2026-02-27:** Shop Pay strong pull factor (60% users signed up). Brand management architecture positioned as superior. US transaction fees beneficial. However UK 25p fee and brand fee structure are significant cost challenges.",
-        "whyNow": "Multiple converging urgency drivers: ATG support reaching end-of-life, new CEO mandate for customer obsession, D2C experience below required standard, $6M+/year ongoing development costs creating continuous financial pressure, and board sign-off meeting targeted for March 24, 2026. Fusefabric's SI discovery is wrapping up the week of February 17. Martyn Oakley (CIO): 'If the rates are going to blow our heads off and we can take cost out and sell more wine, we will go fast.'\n\n**Update 2026-02-27:** Board meeting March 24 confirmed as vendor decision gate. Indication expected before then. Window to influence financial model closing within days.",
-        "supportNeeded": "1) Competitive payment rate modeling - Tim Curtis identified a 'sizeable gap' between current UK rates and Shopify's proposed rates. Need DW's unredacted December UK payment statement. 2) Enterprise vs Plus pricing clarity - Neil Rhodes indicated Plus being cheaper might 'push them over the edge.' 3) Token migration confidence across 15-17 brands and multiple PSPs. 4) Board-ready business case / complete TCO comparison. 5) Fusefabric discovery alignment and implementation timeline confidence. 6) Peer references and case studies (BrewDog).\n\n**Update 2026-02-27:** URGENT: (1) Best-and-final enterprise pricing for 17 brands, (2) UK 25p per-transaction fee mitigation, (3) Variable platform fee (0.35%) negotiation clarity, (4) Brand consolidation strategy, (5) Ordergroove POC acceleration, (6) Tim Curtis tokenization data processing."
+        "oppSummary": "Direct Wines Limited is a $1,735,000 D2C + Payments deal with a 3-year total revenue impact of $14.2M and projected billed revenue of $6.1M. The merchant operates 12+ brands across 16+ websites (including Laithwaites Wine) with $476M D2C GMV and $210.6M in Payments GPV. They are evaluating a full platform migration from their current composable architecture (ATG + commercetools) to Shopify Enterprise, with Fuse Fabric engaged as the discovery/implementation partner and a board decision currently in progress with a March 31, 2026 target close.\n\n**Update 2026-03-06:** Board meeting on Feb 26 was 'really positive' with clear appetite to consolidate architecture. Fuse Fabric presenting revised brand consolidation proposal on March 6, to be reviewed at merchant SLT meeting March 12. Octavia's financial model projects migration won't be cost-neutral (~$0.5M savings possible from brand consolidation to 15). Ben securing best-and-final enterprise pricing for 17 brands. Key risk: payment cost gap ('sizeable') vs current provider, and board appetite for net-new investment.",
+        "whyChange": "Direct Wines is running a fragmented, legacy technology stack composed of ATG (now end-of-life for support) and commercetools across 12+ brands and 16+ websites. This composable architecture has created significant technical debt, high maintenance costs, and slow time-to-market for new features and brand launches. The new CEO has challenged the UK leadership team to become 'customer obsessed,' and the current D2C experience has been explicitly flagged as below the required standard. The business complexity — multi-brand, multi-region (UK, US, Australia, New Zealand), subscription/wine club models — compounds the pain, as each brand requires consistent functionality but the current stack makes this difficult and expensive to manage. Octavia Neuberger (Commercial Finance) voiced concern that the existing platform's ongoing investment burden is unsustainable, noting that business complexity and resource constraints make the status quo increasingly costly. The board is actively questioning whether to continue investing in the current architecture or consolidate onto a single platform.",
+        "whyShopify": "Shopify is being evaluated as a unified commerce solution that can consolidate Direct Wines' fragmented multi-brand, multi-region tech stack onto a single platform — reducing development costs, maintenance overhead, and time-to-market. In early scoping sessions (Sept 2025), Marc Katz highlighted cost benefits vs. the current composable architecture with commercetools and ATG, and the team demonstrated Shopify's ease of use, no-code customization, AI-powered content generation, and customizable checkout. The enterprise tier offers dedicated success management, enhanced 24/7 support, comprehensive SLAs, and vaulted card functionality — critical for a merchant with 2.6M+ active cards across multiple PSPs. Shopify Payments was positioned to simplify multi-currency payouts and potentially reduce FX fees (e.g., setting up Shopify Payments for New Zealand). The competitive position is noted as 'Strong' vs. commercetools, bolstered by reference cases like BrewDog and Recharge's proven subscription integration. Fuse Fabric, engaged as the SI partner, has been presenting brand consolidation proposals that further reinforce the Shopify architecture.",
+        "whyNow": "ATG support is end-of-life, creating an urgent platform risk that forces a migration decision. The new CEO's mandate for customer obsession has elevated the D2C experience as a strategic priority, and the board has been actively evaluating this since late 2025 — with a board meeting on February 26, 2026 described as 'really positive' with 'clear appetite to consolidate architecture even further.' Fuse Fabric is presenting a revised brand consolidation proposal on March 6, to be reviewed at the merchant's Senior Leadership Team meeting on March 12. The opportunity close date is March 31, 2026, with planned launch dates of June 30, 2026 (Plus and Retail) and August 28, 2026 (Enterprise), creating a tight timeline that requires near-term commitment to meet go-live targets.",
+        "supportNeeded": "1) Best-and-final enterprise pricing for 17 brands: Octavia is building an internal financial model and identified a potential $0.5M saving by consolidating to 15 brands; Ben committed to securing best-and-final pricing — critical deliverable before the board recommendation. 2) Payment cost gap resolution: Direct Wines expressed 'significant concern' over a 'sizeable gap' in Shopify Payments costs vs. their current provider. Competitive payment rates or value justification needed. 3) Token migration confidence: 2.6M+ active cards across multiple brands/regions; 4-5 month timeline — merchant needs reassurance on scope, risk, and execution. 4) Cost-neutrality or clear ROI narrative for board: Octavia stated migration 'won't be cost-neutral' — compelling TCO comparison showing long-term savings is essential. 5) Subscription/wine club solution validation: Recharge and Ordergroove evaluated; final clarity needed on best option for wine club model. 6) Fuse Fabric alignment on brand consolidation approach."
       },
       "meddpicc": {
         "metrics": {
@@ -15656,7 +15656,7 @@ const DEAL_DATA = {
               "q": "Do we know the business reasons as to why they are migrating?",
               "answer": "Yes",
               "score": 1,
-              "notes": "ATG EOL, commercetools integration challenges, $6M+/year outsourced dev costs, poor D2C customer experience, new CEO mandate for customer obsession, slow time-to-market (8-12 month custom builds).",
+              "notes": "ATG EOL, commercetools integration challenges, high outsourced dev costs, poor D2C customer experience, new CEO mandate for customer obsession, slow time-to-market across 12+ brands.",
               "solution": "",
               "action": "",
               "due": "",
@@ -15666,17 +15666,17 @@ const DEAL_DATA = {
               "q": "Do we have specific quantifiable goals aligned with the project?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Some quantification ($6M+ dev spend reduction, conversion improvement implied) but no specific numeric targets validated with customer.",
-              "solution": "Work with Andy Brooks and Neil Rhodes to define specific success metrics.",
-              "action": "Ben Rees to propose a success metrics framework and validate before board meeting.",
-              "due": "2026-03-07",
+              "notes": "Octavia building financial model with projected $0.5M savings from brand consolidation. GMV ($476M D2C, $8M Retail) and Payments GPV ($210.6M) documented. No specific KPIs (conversion targets, dev cost reduction %) explicitly validated.",
+              "solution": "Work with Andy Brooks and Octavia to quantify expected outcomes: dev cost savings, conversion improvements, operational efficiency gains.",
+              "action": "Ben to prepare a quantified value framework tied to Direct Wines' specific metrics before the March 12 SLT meeting.",
+              "due": "2026-03-10",
               "highlight": false
             },
             {
               "q": "Do they need to make a platform change to achieve this goal?",
               "answer": "Yes",
               "score": 1,
-              "notes": "ATG approaching EOL. Commercetools migration slow/problematic. Current stack cannot deliver customer obsession mandate.",
+              "notes": "ATG is end-of-life. Commercetools composable architecture creating unsustainable costs and complexity. Board actively evaluating consolidation. Feb 26 board meeting showed 'clear appetite to consolidate architecture.'",
               "solution": "",
               "action": "",
               "due": "",
@@ -15686,17 +15686,17 @@ const DEAL_DATA = {
               "q": "Do we understand the impact if this goal isn't achieved?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Implied impacts clear ($6M+ annual tech spend, poor D2C experience) but specific quantified downside not explicitly stated by customer.",
-              "solution": "Help DW quantify cost of inaction using industry benchmarks.",
-              "action": "Beatrice Porcescu to prepare 'cost of inaction' analysis.",
-              "due": "2026-03-07",
+              "notes": "Implied impact includes continued high costs, inability to deliver CEO's customer obsession mandate, and ongoing platform risk from ATG EOL. Specific quantified downside not explicitly discussed in calls.",
+              "solution": "Surface the cost of inaction — what does another year on ATG + commercetools cost them?",
+              "action": "Ben/Beatrice to prepare a 'cost of doing nothing' analysis for the champion (Andy Brooks) to use internally.",
+              "due": "2026-03-10",
               "highlight": false
             },
             {
               "q": "Is there a compelling event in place driving action?",
               "answer": "Yes",
               "score": 1,
-              "notes": "ATG support EOL, new CEO mandate, board sign-off March 24, Fusefabric discovery completing mid-Feb.",
+              "notes": "ATG support EOL is the hard technical driver. New CEO mandate is the strategic driver. Board meetings in Feb/March 2026 are decision milestones.",
               "solution": "",
               "action": "",
               "due": "",
@@ -15706,20 +15706,20 @@ const DEAL_DATA = {
               "q": "Have I validated the metrics with the customer?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Business reasons discussed extensively but specific quantified success metrics not formally agreed upon.",
-              "solution": "Formalize metrics validation in pre-board meeting.",
-              "action": "Ben Rees to schedule metrics validation call once Fusefabric discovery completes.",
-              "due": "2026-03-10",
+              "notes": "Octavia independently building financial model and shared assumptions (15 brands = $0.5M savings). Ben engaged on pricing specifics. No jointly validated business case or mutual agreement on success metrics.",
+              "solution": "Co-build or validate Octavia's financial model jointly.",
+              "action": "Ben to request working session with Octavia to align financial model assumptions and ensure Shopify's value narrative matches.",
+              "due": "2026-03-09",
               "highlight": false
             },
             {
               "q": "Are the metrics compelling enough to justify change?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Qualitative case very strong but payment rate gap and Enterprise vs Plus cost question create commercial uncertainty.",
-              "solution": "Finalize payment rate comparison with actual DW data.",
-              "action": "Ben Rees to complete rate modeling once December payment statement received.",
-              "due": "2026-02-28",
+              "notes": "Octavia explicitly stated migration 'won't be cost-neutral' and 'board appetite is crucial.' Payment cost gap is a concern. Platform consolidation savings significant long-term, but short-term investment case still being built.",
+              "solution": "Strengthen ROI case with TCO comparison, emphasize risk reduction (ATG EOL), highlight revenue uplift potential (Shop Pay, better D2C experience).",
+              "action": "Ben to deliver comprehensive TCO comparison and ROI narrative ahead of March 12 SLT meeting.",
+              "due": "2026-03-10",
               "highlight": false
             }
           ]
@@ -15731,7 +15731,7 @@ const DEAL_DATA = {
               "q": "Have I identified the true economic buyer?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Neil Rhodes (COO) identified as Economic Buyer. Martyn Oakley (CIO) is Decision Maker. Global CEO Filipa has final authority.",
+              "notes": "Neil Rhodes (COO) identified as Economic Buyer. Attended Platform Fee Sync call on Jan 28, 2026 and engaged in pricing discussions.",
               "solution": "",
               "action": "",
               "due": "",
@@ -15741,17 +15741,17 @@ const DEAL_DATA = {
               "q": "Do we know who's signing the contract?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Neil Rhodes listed as Economic Buyer but unclear if sole signing authority or CEO co-sign needed given $4.58M deal size.",
-              "solution": "Confirm contract signing authority.",
-              "action": "Ben Rees to clarify signing authority and whether board approval is formal or advisory.",
-              "due": "2026-03-01",
+              "notes": "Neil Rhodes listed as Economic Buyer, but Martyn Oakley (Group CIO) listed as Decision Maker. Unclear who literally signs — could require both. No explicit discussion of signatory.",
+              "solution": "Clarify contract signatory with champion.",
+              "action": "Ben to confirm with Andy Brooks who the actual contract signatory is (Neil vs. Martyn vs. other).",
+              "due": "2026-03-10",
               "highlight": false
             },
             {
               "q": "Do we have access to this individual?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Direct access to Neil Rhodes (multiple calls) and Martyn Oakley (Jan 8 call).",
+              "notes": "Neil Rhodes attended Jan 28 platform fee sync directly with Ben Rees and Marc Katz. Accessible and engaged.",
               "solution": "",
               "action": "",
               "due": "",
@@ -15761,30 +15761,30 @@ const DEAL_DATA = {
               "q": "Can we get access?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Already have access to EB and DM. Access to global CEO less clear.",
-              "solution": "Consider exec-to-exec session (Shiv Patel to Filipa).",
-              "action": "Ben Rees and Shiv Patel to discuss CEO-to-CEO touchpoint pre-board.",
-              "due": "2026-03-07",
+              "notes": "Already have direct access to Neil. Martyn Oakley (Decision Maker) access less clear from transcripts.",
+              "solution": "Ensure access to Martyn Oakley as well.",
+              "action": "Ben to request introduction to Martyn Oakley through Andy Brooks or Neil Rhodes if not already established.",
+              "due": "2026-03-12",
               "highlight": false
             },
             {
               "q": "Do we know what the economic buyer cares about most?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Neil Rhodes: cost optimization. Martyn Oakley: budget management. CEO Filipa: customer acquisition (#1 priority).",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Neil participated in pricing discussions, suggesting cost and value are key. CEO's customer obsession mandate filters through Neil as COO. No direct quotes about his personal priorities beyond pricing attendance.",
+              "solution": "Have direct conversation with Neil about his success criteria.",
+              "action": "Ben to schedule targeted conversation with Neil Rhodes to understand his personal priorities and what success looks like for him.",
+              "due": "2026-03-12",
               "highlight": false
             },
             {
               "q": "Do you know how they make decisions and allocate budget?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Board meeting March 24 known. Formal budget allocation process not documented.",
-              "solution": "Clarify formal approval process.",
-              "action": "Ben Rees to confirm budget approval process with Neil Rhodes.",
-              "due": "2026-03-01",
+              "notes": "Board decision process known (Feb 26 positive), SLT meeting (March 12), Fuse presenting proposals. Octavia building financial model. Exact budget allocation process, approval thresholds, and sign-off chain not explicitly documented.",
+              "solution": "Map the full approval chain.",
+              "action": "Ben to ask Andy Brooks or Octavia to walk through internal approval process: Who recommends → Who approves → What thresholds require board vs. SLT approval.",
+              "due": "2026-03-10",
               "highlight": false
             }
           ]
@@ -15796,17 +15796,17 @@ const DEAL_DATA = {
               "q": "Do we know how they will be making the decision?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Board sign-off March 24. Post-board procurement/legal/sign-off not fully mapped.",
-              "solution": "Map full decision journey from board to contract.",
-              "action": "Ben Rees to discuss post-board process with Neil Rhodes.",
-              "due": "2026-03-01",
+              "notes": "Board process known (Feb 26 positive), Fuse presenting March 6, SLT review March 12, Octavia building financial model. Formal decision process (RFP scoring, vendor framework) not explicitly documented.",
+              "solution": "Validate decision process end-to-end.",
+              "action": "Ben to confirm with Andy Brooks the exact steps between March 12 SLT meeting and contract signature.",
+              "due": "2026-03-10",
               "highlight": false
             },
             {
               "q": "Do we know who's involved / buying committee?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Well-mapped: Neil Rhodes (COO/EB), Martyn Oakley (CIO/DM), Andy Brooks (Dir Ecommerce), Tim Curtis (Treasurer), Octavia Neuberger (Finance), CEO Filipa.",
+              "notes": "Well-documented: Neil Rhodes (COO/EB), Martyn Oakley (Group CIO/DM), Andy Brooks (Dir Ecommerce/Launch Contact), Octavia Neuberger (Finance/Influencer), Matt Knight (MD/Influencer), Tim Curtis (engaged in technical/payments calls).",
               "solution": "",
               "action": "",
               "due": "",
@@ -15816,7 +15816,7 @@ const DEAL_DATA = {
               "q": "Do we know when they want to make a decision by?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Board sign-off March 24. Close date March 31. Neil: need costs 'way before end of February.'",
+              "notes": "Close date March 31, 2026. Board met Feb 26 (positive). SLT meeting March 12. Launch dates June 30. Clear near-term decision timeline.",
               "solution": "",
               "action": "",
               "due": "",
@@ -15826,7 +15826,7 @@ const DEAL_DATA = {
               "q": "Do we know what is driving this timeline?",
               "answer": "Yes",
               "score": 1,
-              "notes": "ATG EOL, CEO mandate, Fusefabric discovery mid-Feb, proposed D2C/Retail launch June 30.",
+              "notes": "ATG EOL, CEO mandate, June 2026 target launch dates, and Fuse Fabric discovery engagement ending all drive timeline.",
               "solution": "",
               "action": "",
               "due": "",
@@ -15834,32 +15834,32 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we know if they have tried to solve this problem before?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Migrated to commercetools - slow, expensive, incomplete. Contentful CMS also adopted but problematic.",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Previously adopted commercetools as composable approach, suggesting earlier modernization attempt from ATG. Didn't fully solve problem — now consolidating further. Limited explicit discussion of this history.",
+              "solution": "Understand the commercetools journey to avoid repeating mistakes.",
+              "action": "Ben/Beatrice to explore in next call: What was original commercetools vision, and what fell short?",
+              "due": "2026-03-12",
               "highlight": false
             },
             {
               "q": "Do we know what will happen if they do nothing?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "ATG EOL creates hard deadline. Specific delay costs not quantified.",
-              "solution": "Quantify cost of delay.",
-              "action": "Include 'cost of delay' data in board presentation materials.",
-              "due": "2026-03-14",
+              "notes": "ATG EOL means doing nothing isn't viable long-term. But 'doing nothing' could mean expanding commercetools rather than migrating to Shopify. Board's appetite to 'consolidate further' suggests doing nothing is not preferred.",
+              "solution": "Clarify what 'do nothing' or alternative path looks like and its costs.",
+              "action": "Ben to discuss with Andy/Neil: 'If you don't move to Shopify, what's the alternative plan and cost?'",
+              "due": "2026-03-10",
               "highlight": false
             },
             {
               "q": "Have you validated this process with the buyer?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "March 24 board timeline discussed. Full post-board process not validated.",
-              "solution": "Validate complete decision-to-signature timeline.",
-              "action": "Ben Rees to walk through post-board steps with Neil Rhodes.",
-              "due": "2026-03-01",
+              "notes": "Ben in regular contact and timeline milestones known. No documented instance of Ben walking through full decision process with economic buyer or decision maker and getting confirmation.",
+              "solution": "Formally validate decision process with senior stakeholder.",
+              "action": "Ben to confirm decision process and timeline directly with Neil Rhodes or Martyn Oakley.",
+              "due": "2026-03-10",
               "highlight": false
             }
           ]
@@ -15871,19 +15871,19 @@ const DEAL_DATA = {
               "q": "Do we know what criteria the customer is using to evaluate vendors?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Key criteria surfaced (TCO, payment rates, subscription capability, time-to-market) but no formal evaluation framework.",
-              "solution": "Propose formal evaluation criteria matrix.",
-              "action": "Ben Rees to share evaluation criteria framework with Andy Brooks.",
-              "due": "2026-03-01",
+              "notes": "Key criteria surfaced: TCO, payment processing costs, multi-brand management, subscription support, token migration, platform consolidation, time-to-market. No formal evaluation scorecard from merchant.",
+              "solution": "Ask champion for formal evaluation criteria.",
+              "action": "Ben to ask Andy Brooks: 'What criteria is the SLT using? Is there a formal scorecard?'",
+              "due": "2026-03-09",
               "highlight": false
             },
             {
               "q": "Have we discussed all D2C/B2B/POS Omnichannel capabilities?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "D2C extensively demo'd. POS/Retail included but less attention. B2B not discussed. | [2026-03-03 auto] 59% revenue increase suggests expanded scope — additional capabilities discussed and priced in.",
-              "solution": "Ensure POS/Retail value proposition for board case.",
-              "action": "Beatrice Porcescu to confirm retail use case requirements.",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "D2C extensively discussed. POS included (Retail GMV $8M, POS Pro, Hardware $10K) but POS depth in calls not evident. B2B not relevant.",
+              "solution": "Ensure POS/Retail capabilities properly scoped.",
+              "action": "Beatrice to confirm POS requirements addressed in Fuse Fabric architecture proposal.",
               "due": "2026-03-10",
               "highlight": false
             },
@@ -15891,7 +15891,7 @@ const DEAL_DATA = {
               "q": "Have we surfaced technical complications (integrations)?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Extensive: token migration across 15-17 brands/multiple PSPs, Apple Pay/Google Pay, MOTO handling, PayPal, Recharge, multi-currency.",
+              "notes": "Significant technical complexity surfaced: 2.6M+ active cards requiring token migration (4-5 month timeline), multi-brand/multi-region architecture, subscription platform selection, international payment architecture. Fuse Fabric engaged to identify complexity.",
               "solution": "",
               "action": "",
               "due": "",
@@ -15901,27 +15901,27 @@ const DEAL_DATA = {
               "q": "Do we know how payments play into their decision?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Payments critical/contentious. Tim Curtis: 'sizeable gap' in UK rates. Ben acknowledged premium, argued conversion uplift justifies it.",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "notes": "Payments major decision factor. 'Sizeable gap' in costs vs current provider (Jan 29 call). Multi-currency payouts, FX fees, interchange refund policies, blended rates discussed. GPV $210.6M.",
+              "solution": "Continue working on closing payment cost gap.",
+              "action": "Marc Katz/Ben to finalize competitive payment rate proposal before March 12.",
+              "due": "2026-03-10",
               "highlight": false
             },
             {
               "q": "Do we have a mutual action plan in place?",
-              "answer": "No",
-              "score": 0,
-              "notes": "Key milestones loosely defined but no formal documented MAP with shared ownership and dates.",
-              "solution": "Create formal MAP.",
-              "action": "Ben Rees to draft and share MAP with Andy Brooks and Neil Rhodes.",
-              "due": "2026-02-28",
-              "highlight": true
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Implied sequence (Fuse March 6 → SLT March 12 → close March 31 → launch June 30) but no formally documented mutual action plan with shared milestones.",
+              "solution": "Create a formal MAP.",
+              "action": "Ben to propose formal mutual action plan to Andy Brooks covering: pricing finalization, contract review, token migration kickoff, launch milestones.",
+              "due": "2026-03-10",
+              "highlight": false
             },
             {
               "q": "Did we help shape those criteria in our favour?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Active criteria shaping: 'stop being tech company' narrative, Shop Pay conversion framing, Audiences for customer acquisition.",
+              "notes": "Shopify deeply involved from start — demos, scoping, subscription evaluations, payments deep dives, Fuse Fabric introduction. Evaluation framework heavily shaped around Shopify strengths.",
               "solution": "",
               "action": "",
               "due": "",
@@ -15931,10 +15931,10 @@ const DEAL_DATA = {
               "q": "Do we know who defined the decision criteria?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Criteria emerging organically. Unclear if formal RFP/evaluation matrix exists.",
-              "solution": "Check if formal evaluation matrix exists.",
-              "action": "Ben Rees to ask Andy Brooks about formal vendor evaluation framework.",
-              "due": "2026-03-01",
+              "notes": "Criteria appear mix of internal priorities (CEO mandate, finance cost requirements) and Shopify-influenced evaluation. Fuse Fabric also shaping technical criteria. No clear single owner of evaluation framework.",
+              "solution": "Identify who owns evaluation criteria.",
+              "action": "Ben to clarify with Andy Brooks whether SLT or specific individual defined formal criteria.",
+              "due": "2026-03-09",
               "highlight": false
             }
           ]
@@ -15944,72 +15944,72 @@ const DEAL_DATA = {
           "questions": [
             {
               "q": "Do we know what their procurement process is?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "[2026-02-25 SF refresh] Deal advanced to Deal Craft stage. Awaiting feedback on Plus vs Enterprise before finalising commercials. Board sign-off meeting scheduled for 24/03.",
-              "solution": "",
-              "action": "Clarify Plus vs Enterprise product tier decision to unblock commercial finalisation before 24/03 board meeting.",
-              "due": "2026-03-14",
-              "highlight": true
+              "answer": "No",
+              "score": 0,
+              "notes": "No discussion of procurement process in available calls. Unknown if formal procurement team, legal review, or vendor onboarding process exists.",
+              "solution": "Proactively ask about procurement.",
+              "action": "Ben to ask Andy Brooks or Octavia: 'Once SLT approves, what does your procurement/contracting process look like?'",
+              "due": "2026-03-10",
+              "highlight": false
             },
             {
               "q": "Are there likely to be redlines?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "For $4.58M deal with global enterprise, legal redlines highly likely. Ben advised DW to review Plus agreement.",
-              "solution": "Proactively identify likely redline areas.",
-              "action": "Ben Rees to engage Shopify legal to prepare for enterprise contract redlines.",
-              "due": "2026-03-07",
+              "notes": "Given deal size ($1.7M+ annual), multi-region scope, and involvement of Commercial Finance and Group CIO, redlines highly likely. No explicit legal review discussion.",
+              "solution": "Prepare for redlines proactively.",
+              "action": "Ben to alert Shopify legal/deal desk. Pre-share standard enterprise agreement for early review.",
+              "due": "2026-03-12",
               "highlight": false
             },
             {
               "q": "If redlines, how long does review take?",
               "answer": "No",
               "score": 0,
-              "notes": "Not discussed.",
-              "solution": "Establish expected legal review timeline.",
-              "action": "Ben Rees to ask about typical legal review cycles.",
-              "due": "2026-03-07",
-              "highlight": true
+              "notes": "Not discussed in available calls.",
+              "solution": "Determine legal review timeline.",
+              "action": "Ben to ask champion about typical contract review timelines at Direct Wines.",
+              "due": "2026-03-10",
+              "highlight": false
             },
             {
               "q": "Do we know how long it will take?",
               "answer": "No",
               "score": 0,
-              "notes": "Only 7 days between March 24 board and March 31 close date - unrealistic without pre-work.",
-              "solution": "Start contract/legal process in parallel with board approval.",
-              "action": "Ben Rees to propose sending draft contract terms for pre-review before board.",
-              "due": "2026-03-07",
-              "highlight": true
+              "notes": "No explicit contracting timeline discussion. With March 31 close and SLT March 12, only ~19 days for full paper process — high risk.",
+              "solution": "Validate whether March 31 is realistic.",
+              "action": "Ben to map paper process timeline immediately after March 12 SLT to confirm or adjust close date.",
+              "due": "2026-03-12",
+              "highlight": false
             },
             {
               "q": "Do we have contract details?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Pricing discussed in detail. Enterprise vs Plus decision pending. Contract terms not finalized.",
-              "solution": "Finalize Enterprise vs Plus recommendation.",
-              "action": "Ben Rees to get final DW feedback and prepare contract package.",
-              "due": "2026-03-07",
+              "notes": "Products, pricing structure, payment terms discussed across multiple calls. Enterprise pricing and brand fees being modeled. No formal contract or order form discussed.",
+              "solution": "Prepare the order form.",
+              "action": "Ben/Deal Desk to prepare draft order form based on 17-brand pricing model, ready to share after SLT approval.",
+              "due": "2026-03-11",
               "highlight": false
             },
             {
               "q": "Have we sent the contract?",
               "answer": "No",
               "score": 0,
-              "notes": "Contract not sent. Enterprise vs Plus decision pending.",
-              "solution": "Prepare draft contracts for both scenarios.",
-              "action": "Ben Rees to prepare draft contract terms for review.",
-              "due": "2026-03-14",
-              "highlight": true
+              "notes": "No contract sent. Still in pre-approval/business case phase.",
+              "solution": "Have contract ready to send immediately after SLT approval.",
+              "action": "Ben to have contract package (order form + MSA) pre-approved internally and ready by March 13.",
+              "due": "2026-03-11",
+              "highlight": false
             },
             {
               "q": "Do we know target date for signature?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Close date March 31. Board meeting March 24. June 30 launch creates working-backward deadline.",
-              "solution": "Validate March 31 realism.",
-              "action": "Ben Rees to confirm target signature date with Neil Rhodes.",
-              "due": "2026-03-01",
+              "notes": "Close date March 31 in Salesforce. Unclear if merchant committed to this date. Paper process untested, date at risk.",
+              "solution": "Get merchant commitment to signature date.",
+              "action": "Ben to align with Andy/Neil on target signature date during or after March 12 SLT meeting.",
+              "due": "2026-03-12",
               "highlight": false
             }
           ]
@@ -16021,7 +16021,7 @@ const DEAL_DATA = {
               "q": "Do we know their current issues and why they are reviewing their tech stack?",
               "answer": "Yes",
               "score": 1,
-              "notes": "ATG EOL, commercetools challenges, $6M+/year dev spend, Contentful expensive/restrictive, 8-12 month builds, poor D2C experience, CEO mandate.",
+              "notes": "ATG support EOL, fragmented multi-brand architecture (ATG + commercetools across 16+ websites), high maintenance and development costs, slow time-to-market, D2C experience below required standard per CEO mandate.",
               "solution": "",
               "action": "",
               "due": "",
@@ -16029,19 +16029,19 @@ const DEAL_DATA = {
             },
             {
               "q": "Have they tried to resolve this issue in the past?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Migrated to commercetools - slow, expensive, incomplete. Contentful adopted but problematic.",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Commercetools adoption suggests prior modernization attempt with composable approach. Partially successful but created new complexity. Limited explicit discussion of this history.",
+              "solution": "Understand commercetools journey to avoid repeating mistakes.",
+              "action": "Beatrice to explore with Fuse Fabric: What was original commercetools implementation scope and what didn't work as expected?",
+              "due": "2026-03-12",
               "highlight": false
             },
             {
               "q": "Do we know how pains are affecting business operations?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Slow time-to-market, $6M+/year dev spend, D2C below expectations, two-year projects for basic tools.",
+              "notes": "High ongoing investment costs (Octavia's concern about cost-neutrality), slow development cycles across 12+ brands, inability to deliver CEO's customer-obsessed D2C experience, resource constraints.",
               "solution": "",
               "action": "",
               "due": "",
@@ -16051,17 +16051,17 @@ const DEAL_DATA = {
               "q": "Do we know what teams are affected and to what extent?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Ecommerce, US team, Finance, IT affected. Impact on customer service, marketing, supply chain not detailed.",
-              "solution": "Explore wider organizational impact.",
-              "action": "Ben Rees to ask Andy Brooks about cross-functional impact.",
-              "due": "2026-03-07",
+              "notes": "Ecommerce (Andy), Finance (Octavia), Technology/CIO (Martyn), Operations (Neil/COO) all engaged — pain felt broadly. Specific team-level impact (dev headcount in maintenance vs. new capabilities) not quantified.",
+              "solution": "Quantify team-level impact for business case.",
+              "action": "Ben to ask Andy: 'How many developers/resources currently dedicated to maintaining existing platform vs. building new capabilities?'",
+              "due": "2026-03-10",
               "highlight": false
             },
             {
               "q": "Do we know how urgent it is to solve this pain?",
               "answer": "Yes",
               "score": 1,
-              "notes": "ATG EOL hard deadline. CEO mandate. Board meeting March 24 forcing function.",
+              "notes": "High urgency — ATG EOL hard deadline, CEO mandate executive pressure, board engaged and showed 'clear appetite' to consolidate. Launch dates June-August 2026.",
               "solution": "",
               "action": "",
               "due": "",
@@ -16071,9 +16071,9 @@ const DEAL_DATA = {
               "q": "Can they solve this pain using another option?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Commercetools is identified competitor. Could continue that migration.",
-              "solution": "Strengthen competitive differentiation vs commercetools.",
-              "action": "Beatrice to prepare commercetools comparison for board materials.",
+              "notes": "Commercetools is named competitor and could theoretically be expanded. However, Shopify's position 'Strong' and board appetite to 'consolidate further' suggests preference for unified approach.",
+              "solution": "Continue differentiating against composable approach.",
+              "action": "Beatrice to prepare comparison of Shopify unified platform vs. expanded commercetools composable, focusing on TCO and operational simplicity.",
               "due": "2026-03-10",
               "highlight": false
             },
@@ -16081,7 +16081,7 @@ const DEAL_DATA = {
               "q": "Do we know why this problem is important to solve now?",
               "answer": "Yes",
               "score": 1,
-              "notes": "CEO mandate, ATG EOL, $6M+/year costs, customer acquisition priority, board approval needed for June 30 launch.",
+              "notes": "ATG EOL + CEO mandate + board engagement + Fuse Fabric discovery ending = converging forces. Delay means continued D2C deterioration and rising costs.",
               "solution": "",
               "action": "",
               "due": "",
@@ -16091,7 +16091,7 @@ const DEAL_DATA = {
               "q": "Is our solution uniquely positioned to solve this pain?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Uniquely consolidated platform + payments + subscriptions + POS. Andy Brooks: 'I think it's incredible.' Recharge addresses 50-60% subscription revenue.",
+              "notes": "Shopify unified platform directly addresses fragmentation. 12+ brands/16+ websites consolidation, enterprise-tier support, Shopify Payments multi-currency, proven SI partner. BrewDog reference. Commercetools perpetuates composable complexity.",
               "solution": "",
               "action": "",
               "due": "",
@@ -16106,7 +16106,7 @@ const DEAL_DATA = {
               "q": "Have you identified a true champion (influence + motivation)?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Andy Brooks (Dir of Ecommerce) primary UK champion. US: Nicole Romito and Elyse Barton are strong champions.",
+              "notes": "Andy Brooks (Director of Ecommerce) is Launch Contact and primary operational champion — present across calls, coordinating internally, facilitating stakeholder access. Owns D2C experience problem and has Director-level influence.",
               "solution": "",
               "action": "",
               "due": "",
@@ -16116,17 +16116,17 @@ const DEAL_DATA = {
               "q": "Does your champion have political capital and credibility?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Andy has operational credibility. But CIO Martyn Oakley could block - 'managing to a budget.'",
-              "solution": "Strengthen champion with board-ready materials.",
-              "action": "Ben Rees to arm Andy Brooks with executive summary for influencing CIO.",
-              "due": "2026-03-10",
+              "notes": "Andy is Director of Ecommerce with functional authority. True power center includes Neil Rhodes (COO) and Martyn Oakley (Group CIO). Andy's political capital relative to these seniors implied but not validated.",
+              "solution": "Test Andy's internal credibility.",
+              "action": "Ben to assess: 'How is the leadership team receiving your recommendations? Is there alignment at SLT level?'",
+              "due": "2026-03-09",
               "highlight": false
             },
             {
               "q": "Have they given insights you wouldn't get otherwise?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Elyse: internal dynamics intel on CIO. Nicole: CEO priorities. Neil: cautioned about data accuracy. Tim: payment infrastructure.",
+              "notes": "Detailed insights provided into tech stack complexity, brand architecture, subscription requirements, payment infrastructure (2.6M+ cards), internal decision milestones. Octavia provided financial modeling details.",
               "solution": "",
               "action": "",
               "due": "",
@@ -16136,7 +16136,7 @@ const DEAL_DATA = {
               "q": "Are they connected with the key decision makers?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Andy reports to Matt Knight (MD), works with Martyn Oakley (CIO). Nicole presents to CEO.",
+              "notes": "Andy facilitated access to Neil Rhodes (COO/EB), Octavia Neuberger (Finance), Tim Curtis (technical). SLT meetings include Martyn Oakley (CIO/DM).",
               "solution": "",
               "action": "",
               "due": "",
@@ -16144,32 +16144,32 @@ const DEAL_DATA = {
             },
             {
               "q": "Have you been introduced to the decision maker?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Direct calls with Martyn Oakley (CIO) and Neil Rhodes (COO). Presentations prepared for CEO.",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Direct access to Neil Rhodes on Jan 28 call. No confirmed engagement with Martyn Oakley (Group CIO/Decision Maker) in transcripts.",
+              "solution": "Get introduced to Martyn Oakley.",
+              "action": "Ben to request Andy Brooks facilitate introduction to Martyn Oakley before or during March 12 SLT meeting.",
+              "due": "2026-03-10",
               "highlight": false
             },
             {
               "q": "Are they willing to bring you into the board/buying group?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Board meeting March 24 scheduled. Unclear if Shopify presents directly or DW presents on their behalf.",
-              "solution": "Clarify Shopify's role in board meeting.",
-              "action": "Ben Rees to confirm with Neil Rhodes whether Shopify can attend/present.",
-              "due": "2026-03-01",
+              "notes": "Champion facilitated multiple stakeholder engagements. Shopify not directly present at Feb 26 board meeting — insights came through champion. Unclear if Shopify could present directly to SLT.",
+              "solution": "Explore direct SLT access.",
+              "action": "Ben to ask Andy: 'Would it help for Shopify to present directly to SLT on March 12, or do you prefer presenting internally?'",
+              "due": "2026-03-09",
               "highlight": false
             },
             {
               "q": "Why are they such a champion for you?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Andy: product quality and simplicity. Nicole/US: liberation from legacy stack. Personal success tied to CEO mandate.",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Andy owns the D2C experience problem the CEO flagged. Successful Shopify migration would directly solve his biggest professional challenge. Personal win implied but not explicitly tested.",
+              "solution": "Connect Shopify success to Andy's personal/professional win.",
+              "action": "Ben to reinforce how this migration positions Andy as the leader who delivered the CEO's vision.",
+              "due": "2026-03-09",
               "highlight": false
             }
           ]
@@ -16181,7 +16181,7 @@ const DEAL_DATA = {
               "q": "Do we know who else the customer is evaluating?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Commercetools is primary competitor, already partially deployed. Position: Strong with Brewdog + Recharge.",
+              "notes": "Commercetools is named competitor — already part of existing stack, both incumbent and potential expansion option. No other external vendors mentioned.",
               "solution": "",
               "action": "",
               "due": "",
@@ -16189,29 +16189,29 @@ const DEAL_DATA = {
             },
             {
               "q": "Have we asked if doing nothing is an option?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "ATG EOL means doing nothing long-term not viable. Continuing commercetools is the implicit alternative.",
-              "solution": "",
-              "action": "",
-              "due": "",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "ATG EOL means literal 'doing nothing' not viable. But 'doing nothing' could mean expanding commercetools and decommissioning ATG. Board's 'consolidate further' appetite suggests this isn't preferred.",
+              "solution": "Confirm staying with commercetools alone is not preferred.",
+              "action": "Ben to confirm: 'Is expanding commercetools to replace ATG still on the table, or has the board moved past that?'",
+              "due": "2026-03-10",
               "highlight": false
             },
             {
               "q": "Are there internal alternatives to our solution?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Completing commercetools migration is internal alternative. Sunk cost consideration for CEO as former CFO.",
-              "solution": "Frame as avoiding further investment in failing approach.",
-              "action": "Include commercetools total cost to complete vs Shopify in board materials.",
-              "due": "2026-03-14",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Commercetools already deployed — could be expanded. Fuse Fabric discovery should have evaluated this. No other internal builds mentioned.",
+              "solution": "Understand Fuse's assessment of commercetools-only path.",
+              "action": "Beatrice to confirm with Fuse Fabric: 'Did your discovery evaluate commercetools-only expansion? What was the finding?'",
+              "due": "2026-03-09",
               "highlight": false
             },
             {
               "q": "Do we know why alternatives are being evaluated?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Commercetools migration slow/expensive/incomplete. CEO mandate prompted full tech strategy re-evaluation.",
+              "notes": "Evaluation driven by ATG EOL, desire to consolidate/simplify, CEO mandate, and cost/complexity concerns with composable approach. Drivers favor unified platform (Shopify) over composable expansion.",
               "solution": "",
               "action": "",
               "due": "",
@@ -16219,11 +16219,11 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we know why we would win or lose?",
-              "answer": "Yes",
-              "score": 1,
-              "notes": "Win: consolidated platform, faster TTM, lower TCO, Shop Pay, Audiences, BrewDog. Lose: UK payment rate gap, Enterprise pricing, CIO budget sensitivity, complex migration.",
-              "solution": "Close payment rate narrative; resolve Ent vs Plus.",
-              "action": "Ben Rees to prepare 'why we win' narrative addressing each lose factor.",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "Win: unified platform, BrewDog reference, Recharge, Fuse alignment, board appetite. Lose: payment cost gap ('sizeable'), migration not cost-neutral, 2.6M+ token complexity, 17 brands across regions.",
+              "solution": "Address the two biggest loss risks.",
+              "action": "Ben/Marc to finalize competitive payment pricing and TCO comparison demonstrating long-term value.",
               "due": "2026-03-10",
               "highlight": false
             }
@@ -16237,14 +16237,14 @@ const DEAL_DATA = {
           "pct": 71
         },
         "Economic Buyer": {
-          "score": 5,
+          "score": 4.5,
           "max": 6,
-          "pct": 83
+          "pct": 75
         },
         "Decision Process": {
-          "score": 5.5,
+          "score": 5,
           "max": 7,
-          "pct": 79
+          "pct": 71
         },
         "Decision Criteria": {
           "score": 5,
@@ -16252,186 +16252,249 @@ const DEAL_DATA = {
           "pct": 71
         },
         "Paper Process": {
-          "score": 2,
+          "score": 1.5,
           "max": 7,
-          "pct": 29
+          "pct": 21
         },
         "Identify Pain": {
-          "score": 7.5,
+          "score": 7,
           "max": 8,
-          "pct": 94
+          "pct": 88
         },
         "Champion": {
-          "score": 6,
+          "score": 5,
           "max": 7,
-          "pct": 86
+          "pct": 71
         },
         "Competition": {
-          "score": 5,
+          "score": 3.5,
           "max": 5,
-          "pct": 100
+          "pct": 70
         },
         "_total": {
-          "score": 41,
+          "score": 36.5,
           "max": 54,
-          "pct": 76,
-          "status": "good-health"
+          "pct": 68,
+          "status": "on-track"
         }
       },
       "nextSteps": [
         {
           "p": 1,
           "cat": "Metrics",
-          "issue": "Some quantification ($6M+ dev spend reduction, conversion improvement implied) but no specific numeric targets validated with customer.",
-          "rec": "Ben Rees to propose a success metrics framework and validate before board meeting.",
-          "due": "2026-03-07"
+          "issue": "Octavia building financial model with projected $0.5M savings from brand consolidation. GMV ($476M D2C, $8M Retail) and Payments GPV ($210.6M) documented. No specific KPIs (conversion targets, dev cost reduction %) explicitly validated.",
+          "rec": "Ben to prepare a quantified value framework tied to Direct Wines' specific metrics before the March 12 SLT meeting.",
+          "due": "2026-03-10"
         },
         {
           "p": 2,
           "cat": "Metrics",
-          "issue": "Implied impacts clear ($6M+ annual tech spend, poor D2C experience) but specific quantified downside not explicitly stated by customer.",
-          "rec": "Beatrice Porcescu to prepare 'cost of inaction' analysis.",
-          "due": "2026-03-07"
+          "issue": "Implied impact includes continued high costs, inability to deliver CEO's customer obsession mandate, and ongoing platform risk from ATG EOL. Specific quantified downside not explicitly discussed in calls.",
+          "rec": "Ben/Beatrice to prepare a 'cost of doing nothing' analysis for the champion (Andy Brooks) to use internally.",
+          "due": "2026-03-10"
         },
         {
           "p": 3,
           "cat": "Metrics",
-          "issue": "Business reasons discussed extensively but specific quantified success metrics not formally agreed upon.",
-          "rec": "Ben Rees to schedule metrics validation call once Fusefabric discovery completes.",
-          "due": "2026-03-10"
+          "issue": "Octavia independently building financial model and shared assumptions (15 brands = $0.5M savings). Ben engaged on pricing specifics. No jointly validated business case or mutual agreement on success metrics.",
+          "rec": "Ben to request working session with Octavia to align financial model assumptions and ensure Shopify's value narrative matches.",
+          "due": "2026-03-09"
         },
         {
           "p": 4,
           "cat": "Metrics",
-          "issue": "Qualitative case very strong but payment rate gap and Enterprise vs Plus cost question create commercial uncertainty.",
-          "rec": "Ben Rees to complete rate modeling once December payment statement received.",
-          "due": "2026-02-28"
+          "issue": "Octavia explicitly stated migration 'won't be cost-neutral' and 'board appetite is crucial.' Payment cost gap is a concern. Platform consolidation savings significant long-term, but short-term investment case still being built.",
+          "rec": "Ben to deliver comprehensive TCO comparison and ROI narrative ahead of March 12 SLT meeting.",
+          "due": "2026-03-10"
         },
         {
           "p": 5,
           "cat": "Economic Buyer",
-          "issue": "Neil Rhodes listed as Economic Buyer but unclear if sole signing authority or CEO co-sign needed given $4.58M deal size.",
-          "rec": "Ben Rees to clarify signing authority and whether board approval is formal or advisory.",
-          "due": "2026-03-01"
+          "issue": "Neil Rhodes listed as Economic Buyer, but Martyn Oakley (Group CIO) listed as Decision Maker. Unclear who literally signs — could require both. No explicit discussion of signatory.",
+          "rec": "Ben to confirm with Andy Brooks who the actual contract signatory is (Neil vs. Martyn vs. other).",
+          "due": "2026-03-10"
         },
         {
           "p": 6,
           "cat": "Economic Buyer",
-          "issue": "Board meeting March 24 known. Formal budget allocation process not documented.",
-          "rec": "Ben Rees to confirm budget approval process with Neil Rhodes.",
-          "due": "2026-03-01"
+          "issue": "Neil participated in pricing discussions, suggesting cost and value are key. CEO's customer obsession mandate filters through Neil as COO. No direct quotes about his personal priorities beyond pricing attendance.",
+          "rec": "Ben to schedule targeted conversation with Neil Rhodes to understand his personal priorities and what success looks like for him.",
+          "due": "2026-03-12"
         },
         {
           "p": 7,
-          "cat": "Decision Process",
-          "issue": "Board sign-off March 24. Post-board procurement/legal/sign-off not fully mapped.",
-          "rec": "Ben Rees to discuss post-board process with Neil Rhodes.",
-          "due": "2026-03-01"
+          "cat": "Economic Buyer",
+          "issue": "Board decision process known (Feb 26 positive), SLT meeting (March 12), Fuse presenting proposals. Octavia building financial model. Exact budget allocation process, approval thresholds, and sign-off chain not explicitly documented.",
+          "rec": "Ben to ask Andy Brooks or Octavia to walk through internal approval process: Who recommends → Who approves → What thresholds require board vs. SLT approval.",
+          "due": "2026-03-10"
         },
         {
           "p": 8,
           "cat": "Decision Process",
-          "issue": "ATG EOL creates hard deadline. Specific delay costs not quantified.",
-          "rec": "Include 'cost of delay' data in board presentation materials.",
-          "due": "2026-03-14"
+          "issue": "Board process known (Feb 26 positive), Fuse presenting March 6, SLT review March 12, Octavia building financial model. Formal decision process (RFP scoring, vendor framework) not explicitly documented.",
+          "rec": "Ben to confirm with Andy Brooks the exact steps between March 12 SLT meeting and contract signature.",
+          "due": "2026-03-10"
         },
         {
           "p": 9,
           "cat": "Decision Process",
-          "issue": "March 24 board timeline discussed. Full post-board process not validated.",
-          "rec": "Ben Rees to walk through post-board steps with Neil Rhodes.",
-          "due": "2026-03-01"
+          "issue": "Previously adopted commercetools as composable approach, suggesting earlier modernization attempt from ATG. Didn't fully solve problem — now consolidating further. Limited explicit discussion of this history.",
+          "rec": "Ben/Beatrice to explore in next call: What was original commercetools vision, and what fell short?",
+          "due": "2026-03-12"
         },
         {
           "p": 10,
-          "cat": "Decision Criteria",
-          "issue": "Key criteria surfaced (TCO, payment rates, subscription capability, time-to-market) but no formal evaluation framework.",
-          "rec": "Ben Rees to share evaluation criteria framework with Andy Brooks.",
-          "due": "2026-03-01"
+          "cat": "Decision Process",
+          "issue": "ATG EOL means doing nothing isn't viable long-term. But 'doing nothing' could mean expanding commercetools rather than migrating to Shopify. Board's appetite to 'consolidate further' suggests doing nothing is not preferred.",
+          "rec": "Ben to discuss with Andy/Neil: 'If you don't move to Shopify, what's the alternative plan and cost?'",
+          "due": "2026-03-10"
         },
         {
           "p": 11,
-          "cat": "Decision Criteria",
-          "issue": "Key milestones loosely defined but no formal documented MAP with shared ownership and dates.",
-          "rec": "Ben Rees to draft and share MAP with Andy Brooks and Neil Rhodes.",
-          "due": "2026-02-28"
+          "cat": "Decision Process",
+          "issue": "Ben in regular contact and timeline milestones known. No documented instance of Ben walking through full decision process with economic buyer or decision maker and getting confirmation.",
+          "rec": "Ben to confirm decision process and timeline directly with Neil Rhodes or Martyn Oakley.",
+          "due": "2026-03-10"
         },
         {
           "p": 12,
           "cat": "Decision Criteria",
-          "issue": "Criteria emerging organically. Unclear if formal RFP/evaluation matrix exists.",
-          "rec": "Ben Rees to ask Andy Brooks about formal vendor evaluation framework.",
-          "due": "2026-03-01"
+          "issue": "Key criteria surfaced: TCO, payment processing costs, multi-brand management, subscription support, token migration, platform consolidation, time-to-market. No formal evaluation scorecard from merchant.",
+          "rec": "Ben to ask Andy Brooks: 'What criteria is the SLT using? Is there a formal scorecard?'",
+          "due": "2026-03-09"
         },
         {
           "p": 13,
-          "cat": "Paper Process",
-          "issue": "[2026-02-25 SF refresh] Deal advanced to Deal Craft stage. Awaiting feedback on Plus vs Enterprise before finalising commercials. Board sign-off meeting scheduled for 24/03.",
-          "rec": "Clarify Plus vs Enterprise product tier decision to unblock commercial finalisation before 24/03 board meeting.",
-          "due": "2026-03-14"
+          "cat": "Decision Criteria",
+          "issue": "D2C extensively discussed. POS included (Retail GMV $8M, POS Pro, Hardware $10K) but POS depth in calls not evident. B2B not relevant.",
+          "rec": "Beatrice to confirm POS requirements addressed in Fuse Fabric architecture proposal.",
+          "due": "2026-03-10"
         },
         {
           "p": 14,
-          "cat": "Paper Process",
-          "issue": "For $4.58M deal with global enterprise, legal redlines highly likely. Ben advised DW to review Plus agreement.",
-          "rec": "Ben Rees to engage Shopify legal to prepare for enterprise contract redlines.",
-          "due": "2026-03-07"
+          "cat": "Decision Criteria",
+          "issue": "Implied sequence (Fuse March 6 → SLT March 12 → close March 31 → launch June 30) but no formally documented mutual action plan with shared milestones.",
+          "rec": "Ben to propose formal mutual action plan to Andy Brooks covering: pricing finalization, contract review, token migration kickoff, launch milestones.",
+          "due": "2026-03-10"
         },
         {
           "p": 15,
-          "cat": "Paper Process",
-          "issue": "Not discussed.",
-          "rec": "Ben Rees to ask about typical legal review cycles.",
-          "due": "2026-03-07"
+          "cat": "Decision Criteria",
+          "issue": "Criteria appear mix of internal priorities (CEO mandate, finance cost requirements) and Shopify-influenced evaluation. Fuse Fabric also shaping technical criteria. No clear single owner of evaluation framework.",
+          "rec": "Ben to clarify with Andy Brooks whether SLT or specific individual defined formal criteria.",
+          "due": "2026-03-09"
         },
         {
           "p": 16,
           "cat": "Paper Process",
-          "issue": "Only 7 days between March 24 board and March 31 close date - unrealistic without pre-work.",
-          "rec": "Ben Rees to propose sending draft contract terms for pre-review before board.",
-          "due": "2026-03-07"
+          "issue": "No discussion of procurement process in available calls. Unknown if formal procurement team, legal review, or vendor onboarding process exists.",
+          "rec": "Ben to ask Andy Brooks or Octavia: 'Once SLT approves, what does your procurement/contracting process look like?'",
+          "due": "2026-03-10"
         },
         {
           "p": 17,
           "cat": "Paper Process",
-          "issue": "Pricing discussed in detail. Enterprise vs Plus decision pending. Contract terms not finalized.",
-          "rec": "Ben Rees to get final DW feedback and prepare contract package.",
-          "due": "2026-03-07"
+          "issue": "Given deal size ($1.7M+ annual), multi-region scope, and involvement of Commercial Finance and Group CIO, redlines highly likely. No explicit legal review discussion.",
+          "rec": "Ben to alert Shopify legal/deal desk. Pre-share standard enterprise agreement for early review.",
+          "due": "2026-03-12"
         },
         {
           "p": 18,
           "cat": "Paper Process",
-          "issue": "Contract not sent. Enterprise vs Plus decision pending.",
-          "rec": "Ben Rees to prepare draft contract terms for review.",
-          "due": "2026-03-14"
+          "issue": "Not discussed in available calls.",
+          "rec": "Ben to ask champion about typical contract review timelines at Direct Wines.",
+          "due": "2026-03-10"
         },
         {
           "p": 19,
           "cat": "Paper Process",
-          "issue": "Close date March 31. Board meeting March 24. June 30 launch creates working-backward deadline.",
-          "rec": "Ben Rees to confirm target signature date with Neil Rhodes.",
-          "due": "2026-03-01"
+          "issue": "No explicit contracting timeline discussion. With March 31 close and SLT March 12, only ~19 days for full paper process — high risk.",
+          "rec": "Ben to map paper process timeline immediately after March 12 SLT to confirm or adjust close date.",
+          "due": "2026-03-12"
         },
         {
           "p": 20,
-          "cat": "Identify Pain",
-          "issue": "Ecommerce, US team, Finance, IT affected. Impact on customer service, marketing, supply chain not detailed.",
-          "rec": "Ben Rees to ask Andy Brooks about cross-functional impact.",
-          "due": "2026-03-07"
+          "cat": "Paper Process",
+          "issue": "Products, pricing structure, payment terms discussed across multiple calls. Enterprise pricing and brand fees being modeled. No formal contract or order form discussed.",
+          "rec": "Ben/Deal Desk to prepare draft order form based on 17-brand pricing model, ready to share after SLT approval.",
+          "due": "2026-03-11"
         },
         {
           "p": 21,
-          "cat": "Champion",
-          "issue": "Andy has operational credibility. But CIO Martyn Oakley could block - 'managing to a budget.'",
-          "rec": "Ben Rees to arm Andy Brooks with executive summary for influencing CIO.",
-          "due": "2026-03-10"
+          "cat": "Paper Process",
+          "issue": "No contract sent. Still in pre-approval/business case phase.",
+          "rec": "Ben to have contract package (order form + MSA) pre-approved internally and ready by March 13.",
+          "due": "2026-03-11"
         },
         {
           "p": 22,
+          "cat": "Paper Process",
+          "issue": "Close date March 31 in Salesforce. Unclear if merchant committed to this date. Paper process untested, date at risk.",
+          "rec": "Ben to align with Andy/Neil on target signature date during or after March 12 SLT meeting.",
+          "due": "2026-03-12"
+        },
+        {
+          "p": 23,
+          "cat": "Identify Pain",
+          "issue": "Commercetools adoption suggests prior modernization attempt with composable approach. Partially successful but created new complexity. Limited explicit discussion of this history.",
+          "rec": "Beatrice to explore with Fuse Fabric: What was original commercetools implementation scope and what didn't work as expected?",
+          "due": "2026-03-12"
+        },
+        {
+          "p": 24,
+          "cat": "Identify Pain",
+          "issue": "Ecommerce (Andy), Finance (Octavia), Technology/CIO (Martyn), Operations (Neil/COO) all engaged — pain felt broadly. Specific team-level impact (dev headcount in maintenance vs. new capabilities) not quantified.",
+          "rec": "Ben to ask Andy: 'How many developers/resources currently dedicated to maintaining existing platform vs. building new capabilities?'",
+          "due": "2026-03-10"
+        },
+        {
+          "p": 25,
           "cat": "Champion",
-          "issue": "Board meeting March 24 scheduled. Unclear if Shopify presents directly or DW presents on their behalf.",
-          "rec": "Ben Rees to confirm with Neil Rhodes whether Shopify can attend/present.",
-          "due": "2026-03-01"
+          "issue": "Andy is Director of Ecommerce with functional authority. True power center includes Neil Rhodes (COO) and Martyn Oakley (Group CIO). Andy's political capital relative to these seniors implied but not validated.",
+          "rec": "Ben to assess: 'How is the leadership team receiving your recommendations? Is there alignment at SLT level?'",
+          "due": "2026-03-09"
+        },
+        {
+          "p": 26,
+          "cat": "Champion",
+          "issue": "Direct access to Neil Rhodes on Jan 28 call. No confirmed engagement with Martyn Oakley (Group CIO/Decision Maker) in transcripts.",
+          "rec": "Ben to request Andy Brooks facilitate introduction to Martyn Oakley before or during March 12 SLT meeting.",
+          "due": "2026-03-10"
+        },
+        {
+          "p": 27,
+          "cat": "Champion",
+          "issue": "Champion facilitated multiple stakeholder engagements. Shopify not directly present at Feb 26 board meeting — insights came through champion. Unclear if Shopify could present directly to SLT.",
+          "rec": "Ben to ask Andy: 'Would it help for Shopify to present directly to SLT on March 12, or do you prefer presenting internally?'",
+          "due": "2026-03-09"
+        },
+        {
+          "p": 28,
+          "cat": "Champion",
+          "issue": "Andy owns the D2C experience problem the CEO flagged. Successful Shopify migration would directly solve his biggest professional challenge. Personal win implied but not explicitly tested.",
+          "rec": "Ben to reinforce how this migration positions Andy as the leader who delivered the CEO's vision.",
+          "due": "2026-03-09"
+        },
+        {
+          "p": 29,
+          "cat": "Competition",
+          "issue": "ATG EOL means literal 'doing nothing' not viable. But 'doing nothing' could mean expanding commercetools and decommissioning ATG. Board's 'consolidate further' appetite suggests this isn't preferred.",
+          "rec": "Ben to confirm: 'Is expanding commercetools to replace ATG still on the table, or has the board moved past that?'",
+          "due": "2026-03-10"
+        },
+        {
+          "p": 30,
+          "cat": "Competition",
+          "issue": "Commercetools already deployed — could be expanded. Fuse Fabric discovery should have evaluated this. No other internal builds mentioned.",
+          "rec": "Beatrice to confirm with Fuse Fabric: 'Did your discovery evaluate commercetools-only expansion? What was the finding?'",
+          "due": "2026-03-09"
+        },
+        {
+          "p": 31,
+          "cat": "Competition",
+          "issue": "Win: unified platform, BrewDog reference, Recharge, Fuse alignment, board appetite. Lose: payment cost gap ('sizeable'), migration not cost-neutral, 2.6M+ token complexity, 17 brands across regions.",
+          "rec": "Ben/Marc to finalize competitive payment pricing and TCO comparison demonstrating long-term value.",
+          "due": "2026-03-10"
         }
       ],
       "stakeholders": [
@@ -16440,54 +16503,54 @@ const DEAL_DATA = {
           "title": "COO",
           "role": "Economic Buyer",
           "email": "neil.rhodes@directwinesinc.com",
-          "engagement": "high",
-          "callsAttended": 6,
-          "callsInvited": 6
+          "engagement": "low",
+          "callsAttended": 0,
+          "callsInvited": 5
         },
         {
           "name": "Matt Knight",
           "title": "MD",
           "role": "Influencer",
           "email": "matt.knight@laithwaiteswine.com",
-          "engagement": "medium",
-          "callsAttended": 2,
-          "callsInvited": 2
+          "engagement": "low",
+          "callsAttended": 0,
+          "callsInvited": 1
         },
         {
           "name": "Andy Brooks",
           "title": "Director of Ecommerce",
           "role": "Launch Contact",
           "email": "andy.brooks@directwines.com",
-          "engagement": "high",
-          "callsAttended": 9,
-          "callsInvited": 9
+          "engagement": "low",
+          "callsAttended": 0,
+          "callsInvited": 4
         },
         {
           "name": "Martyn Oakley",
           "title": "Group CIO",
           "role": "Decision Maker",
           "email": "martyn.oakley@directwines.com",
-          "engagement": "high",
-          "callsAttended": 4,
-          "callsInvited": 4
+          "engagement": "low",
+          "callsAttended": 0,
+          "callsInvited": 1
         },
         {
           "name": "Octavia Neuberger",
           "title": "Commercial Finance",
           "role": "Influencer",
           "email": "octavia.neuberger@directwines.com",
-          "engagement": "high",
-          "callsAttended": 4,
-          "callsInvited": 4
+          "engagement": "low",
+          "callsAttended": 0,
+          "callsInvited": 3
         },
         {
           "name": "Tim Curtis",
           "title": "Global Treasurer",
-          "role": "Payments Decision Maker",
+          "role": "Influencer",
           "email": "tim.curtis@directwines.com",
-          "engagement": "medium",
-          "callsAttended": 3,
-          "callsInvited": 3
+          "engagement": "low",
+          "callsAttended": 0,
+          "callsInvited": 4
         }
       ],
       "shopifyTeam": [
@@ -16500,16 +16563,6 @@ const DEAL_DATA = {
           "name": "Ben Rees",
           "role": "Account Executive",
           "email": "ben.rees@shopify.com"
-        },
-        {
-          "name": "Shiv Patel",
-          "role": "Executive Sponsor",
-          "email": "shiv.patel@shopify.com"
-        },
-        {
-          "name": "Fraser Trivett",
-          "role": "Northern Media Team Lead",
-          "email": "fraser.trivett@shopify.com"
         }
       ],
       "calls": [
@@ -16517,8 +16570,6 @@ const DEAL_DATA = {
           "date": "2026-02-24",
           "title": "DW Feature Review",
           "duration": 40,
-          "platform": "google_meet",
-          "hasTranscript": false,
           "shopifyAttendees": [
             "beatrice.porcescu@shopify.com",
             "ben.rees@shopify.com"
@@ -16535,18 +16586,12 @@ const DEAL_DATA = {
             "richard.prankerd@fusefabric.com",
             "simon@fusefabric.com"
           ],
-          "summary": "Feature review session with Direct Wines team and Fusefabric implementation partner.",
-          "keyInsights": [
-            "Large cross-functional meeting with Fuse Fabric",
-            "Feature review covering multi-brand implementation requirements"
-          ]
+          "summary": "Feature review session with Direct Wines team and Fusefabric implementation partner covering multi-brand implementation requirements."
         },
         {
           "date": "2026-02-24",
-          "title": "Direct Wines | Shopify UK: Business Case Review",
+          "title": "Direct Wines | Shopify UK",
           "duration": 30,
-          "platform": "google_meet",
-          "hasTranscript": true,
           "shopifyAttendees": [
             "ben.rees@shopify.com"
           ],
@@ -16554,254 +16599,172 @@ const DEAL_DATA = {
             "octavia.neuberger@directwines.com",
             "tim.curtis@directwines.com"
           ],
-          "summary": "Ben reviewed business case with Octavia (Finance). ~£4M additional ongoing costs identified. Business case NOT net-neutral. Brand fees for 15 brands ~$1.2M/yr. UK 25p per-transaction fee called the killer. Board decision March 24. Best-and-final enterprise pricing requested.",
-          "keyInsights": [
-            "Business case ~£4M additional costs, not net-neutral",
-            "Brand fees 15 brands = ~$1.2M/yr",
-            "UK 25p fee is the killer",
-            "Shop Pay: 60% users already signed up",
-            "Board decision March 24",
-            "Recharge/Ordergroove $750-800K, $300K savings opportunity",
-            "Commercetools actively being compared"
-          ]
-        },
-        {
-          "date": "2026-02-13",
-          "title": "Fusefabric <> Direct Wines - Shopify Demo",
-          "duration": 115,
-          "shopifyAttendees": [
-            "Beatrice Porcescu (SE)",
-            "Ben Rees (AE)"
-          ],
-          "merchantAttendees": [
-            "Andy Brooks",
-            "Andrew Harris",
-            "Andy Hawker",
-            "Camilla Premachandra",
-            "Dave Wood",
-            "Matt Knight",
-            "Martyn Oakley",
-            "Michelle Lewis",
-            "Neil Rhodes"
-          ],
-          "summary": "Fusefabric-led Shopify demo with 20+ attendees from Direct Wines, Fusefabric, and Archway PI."
+          "summary": "Ben Rees and Octavia Neuberger reviewed the business case for platform migration. Ben clarified pricing for transaction, brand, and variable platform fees, explaining refund policies and emphasizing Shop Pay's value, while committing to secure best-and-final enterprise pricing for 17 brands. Octavia projected potential $0.5M saving by assuming 15 brands, voiced concern migration won't be cost-neutral. GE meeting Thursday to prepare board recommendation."
         },
         {
           "date": "2026-02-12",
           "title": "Direct Wines x Shopify - Migration of Tokens",
           "duration": 45,
           "shopifyAttendees": [
-            "Beatrice Porcescu (SE)",
-            "Ben Rees (AE)",
-            "Chelsea Tabert",
-            "Marc Katz"
+            "ben.rees@shopify.com",
+            "chelsea.tabert@shopify.com",
+            "marc.katz@shopify.com",
+            "beatrice.porcescu@shopify.com"
           ],
           "merchantAttendees": [
-            "Andy Brooks",
-            "Octavia Neuberger",
-            "Tim Curtis"
+            "tim.curtis@directwines.com"
           ],
-          "summary": "Detailed PCI-compliant token migration walkthrough. 3-step process. Discussed multi-brand migration across Barclays, Worldline, CyberSource. Tim Curtis deeply engaged."
+          "summary": "Focused on PCI-compliant credit card tokenization migration. Three-step migration: import customers, securely migrate raw PAN data from existing PSPs, subscription app re-tokenizes. Scope: 2.6M+ active cards across multiple brands/regions. Timeline: 4-5 months."
         },
         {
           "date": "2026-01-29",
           "title": "Direct Wines | Shopify - Shopify Payments",
           "duration": 45,
           "shopifyAttendees": [
-            "Beatrice Porcescu (SE)",
-            "Ben Rees (AE)",
-            "Marc Katz"
+            "ben.rees@shopify.com",
+            "marc.katz@shopify.com",
+            "beatrice.porcescu@shopify.com"
           ],
           "merchantAttendees": [
-            "Andy Brooks",
-            "Octavia Neuberger",
-            "Tim Curtis"
+            "tim.curtis@directwines.com",
+            "octavia.neuberger@directwines.com"
           ],
-          "summary": "Payment processing deep-dive. Tim Curtis flagged 'sizeable gap' in UK rates. Multi-currency payouts discussed. Shopify to model competitive rates after receiving DW payment statements."
+          "summary": "Detailed payment processing and rates discussion. Clarified blended rates, multi-currency payouts, potential Shopify Payments for NZ to reduce FX fees. Direct Wines expressed 'sizeable gap' concern in payment costs vs current provider."
         },
         {
           "date": "2026-01-28",
           "title": "Direct Wines x Shopify (Platform Fee Sync)",
           "duration": 30,
           "shopifyAttendees": [
-            "Ben Rees (AE)",
-            "Marc Katz"
+            "ben.rees@shopify.com",
+            "marc.katz@shopify.com"
           ],
           "merchantAttendees": [
-            "Andy Brooks",
-            "Martyn Oakley",
-            "Neil Rhodes"
+            "andy.brooks@directwines.com",
+            "neil.rhodes@directwinesinc.com"
           ],
-          "summary": "Enterprise vs Plus pricing comparison. Enterprise: dedicated CSM, enhanced support, SLAs, TAM. Plus: ~$127K/month for 17 brands + rev share. Neil Rhodes open to exploring Plus."
+          "summary": "Delineated Enterprise vs Plus pricing models. Enterprise positioned as premium with dedicated success managers, enhanced 24/7 support, comprehensive SLAs, vaulted card functionality. Economic Buyer (Neil Rhodes) present and engaged."
         },
         {
           "date": "2026-01-19",
           "title": "Ben, Tim & Octavia - Data",
           "duration": 30,
           "shopifyAttendees": [
-            "Ben Rees (AE)"
+            "ben.rees@shopify.com"
           ],
           "merchantAttendees": [
-            "Octavia Neuberger",
-            "Tim Curtis"
+            "tim.curtis@directwines.com",
+            "octavia.neuberger@directwines.com"
           ],
-          "summary": "Financial data alignment. Working off shared Google Sheet for pricing comparison. Awaiting UK payment statement data for apples-to-apples comparison."
-        },
-        {
-          "date": "2026-01-27",
-          "title": "Fusefabric <> Direct Wines - Workshop 5",
-          "duration": 120,
-          "shopifyAttendees": [
-            "Beatrice Porcescu (SE)"
-          ],
-          "merchantAttendees": [
-            "Andy Brooks",
-            "Martyn Oakley"
-          ],
-          "summary": "Business architecture workshop - business process walkthrough with Fusefabric."
-        },
-        {
-          "date": "2026-01-13",
-          "title": "Fusefabric Discovery Kick Off",
-          "duration": 45,
-          "shopifyAttendees": [
-            "Beatrice Porcescu (SE)",
-            "Ben Rees (AE)"
-          ],
-          "merchantAttendees": [
-            "Andy Brooks"
-          ],
-          "summary": "Fusefabric SI discovery phase kickoff."
+          "summary": "Finance and data focused discussion with Tim Curtis and Octavia Neuberger."
         },
         {
           "date": "2026-01-08",
           "title": "Direct Wines | Shopify UK",
           "duration": 30,
           "shopifyAttendees": [
-            "Ben Rees (AE)",
-            "Fraser Trivett",
-            "Matthew Duff",
-            "Shiv Patel"
+            "ben.rees@shopify.com"
           ],
-          "merchantAttendees": [
-            "Andy Brooks",
-            "Martyn Oakley",
-            "Matt Knight",
-            "Michelle Lewis",
-            "Neil Rhodes",
-            "Octavia Neuberger"
-          ],
-          "summary": "Handover to new team: Ben Rees as AE, Shiv Patel as exec sponsor. Martyn Oakley: 'if rates blow our heads off and we can take cost out, we will go fast.'"
+          "merchantAttendees": [],
+          "summary": "UK-focused sync covering ongoing evaluation progress and next steps."
         },
         {
           "date": "2025-10-08",
           "title": "Direct Wines x Shopify (Commercials)",
           "duration": 60,
           "shopifyAttendees": [
-            "Marc Katz (AE)",
-            "Joey O'Kane",
-            "Diana Gates"
+            "marc.katz@shopify.com",
+            "joey.okane@shopify.com"
           ],
           "merchantAttendees": [
-            "Nicole Romito",
-            "Neil Rhodes",
-            "Elyse Barton",
-            "Lauren Dubinsky"
+            "nicole.romito@directwines.com",
+            "neil.sumner@directwines.com"
           ],
-          "summary": "Enterprise pricing: $217K/month. Payment rates by market. Recharge: $450K license. Neil Sumner: board meeting about 'the why.' Nicole strongly pro-Shopify."
+          "summary": "Presented enterprise pricing plan and Recharge subscription services for 12 brands and 16 websites. Monthly platform fee $217,000 USD / £161,000 GBP including expansion stores and Recharge integration."
         },
         {
           "date": "2025-09-30",
           "title": "Direct Wines x Shopify (Demo)",
           "duration": 60,
           "shopifyAttendees": [
-            "Marc Katz (AE)",
-            "Julia Cardenas (SE)",
-            "Joey O'Kane"
+            "marc.katz@shopify.com",
+            "julia.cardenas@shopify.com"
           ],
           "merchantAttendees": [
-            "Andy Brooks",
-            "Nicole Romito",
-            "Elyse Barton",
-            "Lauren Dubinsky"
+            "andy.brooks@directwines.com",
+            "lauren.dubinsky@directwines.com"
           ],
-          "summary": "Full platform demo. Andy Brooks: 'I think it's incredible. I think it's an amazing product.' Key concern: commercials and integration detail."
+          "summary": "High-level Shopify platform overview: customer journey, admin panel, theme management. Highlighted Shop App, customizable checkout, AI-powered content generation. Emphasized ease of use and no-code customization."
         },
         {
           "date": "2025-09-25",
           "title": "Direct Wines x Shopify (Overview)",
           "duration": 45,
           "shopifyAttendees": [
-            "Marc Katz (AE)",
-            "Julia Cardenas (SE)",
-            "Joey O'Kane"
+            "marc.katz@shopify.com",
+            "julia.cardenas@shopify.com",
+            "joey.okane@shopify.com"
           ],
           "merchantAttendees": [
-            "Andy Brooks",
-            "Nicole Romito",
-            "Elyse Barton",
-            "Lauren Dubinsky"
+            "lauren.dubinsky@directwines.com",
+            "andy.brooks@directwines.com",
+            "elise.barton@directwines.com"
           ],
-          "summary": "Platform overview: $1.7B R&D, 4000 devs, Shopify Audiences, Shop Pay with 250M buyers. DW dev spend ~$8M+/year."
+          "summary": "Reintroduced Shopify platform highlighting evolution into unified commerce solution, ability to accelerate innovation, reduce development costs."
         },
         {
           "date": "2025-09-23",
           "title": "Direct Wines x Shopify (Tech Solutioning)",
           "duration": 30,
           "shopifyAttendees": [
-            "Marc Katz (AE)",
-            "Julia Cardenas (SE)"
+            "marc.katz@shopify.com",
+            "julia.cardenas@shopify.com"
           ],
           "merchantAttendees": [
-            "Nicole Romito",
-            "Elyse Barton",
-            "Lauren Dubinsky"
+            "lauren.dubinsky@directwines.com",
+            "elise.barton@directwines.com",
+            "nicole.romito@directwines.com"
           ],
-          "summary": "Nicole outlined 3 needs: mock store, business case, rollout plan. Elyse: 'if we get Andy on board, no one stopping us besides the CIO.'"
+          "summary": "Discussed Direct Wines' potential migration to Shopify. Nicole and Elyse expressed need for platform supporting multi-brand management with consistent functionality across brands."
         },
         {
           "date": "2025-09-16",
           "title": "Direct Wines x Shopify (Finalize Deck)",
           "duration": 45,
           "shopifyAttendees": [
-            "Marc Katz (AE)",
-            "Julia Cardenas (SE)"
+            "marc.katz@shopify.com"
           ],
           "merchantAttendees": [
-            "Nicole Romito",
-            "Neil Rhodes",
-            "Elyse Barton",
-            "Lauren Dubinsky"
+            "neil.rhodes@directwinesinc.com",
+            "nicole.romito@directwines.com"
           ],
-          "summary": "Preparing CEO presentation. CEO's #1 concern: customer acquisition. Discussed dual running costs and legacy capex write-offs."
+          "summary": "Scoped potential migration. Marc outlined pricing based on GMV, highlighting cost benefits in maintenance and development vs current composable architecture with commercetools and ATG."
         },
         {
           "date": "2025-09-12",
           "title": "Direct Wines x Shopify x Recharge (Deck Sync)",
           "duration": 30,
           "shopifyAttendees": [
-            "Marc Katz (AE)",
-            "Julia Cardenas (SE)"
+            "marc.katz@shopify.com"
           ],
           "merchantAttendees": [
-            "Nicole Romito",
-            "Neil Rhodes",
-            "Elyse Barton",
-            "Lauren Dubinsky"
+            "neil.rhodes@directwinesinc.com",
+            "elise.barton@directwines.com",
+            "nicole.romito@directwines.com"
           ],
-          "summary": "Current vs future state: DW spending $6M+/year outsourced dev. Shopify store build $75K-$180K. Pilot approach discussed."
+          "summary": "Presented Shopify migration plan focusing on Laithwaites initially. Showcased how Shopify could consolidate tech stack, improve time-to-market, reduce development costs."
         },
         {
           "date": "2025-08-13",
           "title": "Direct Wines x Shopify (Sync)",
           "duration": 30,
           "shopifyAttendees": [
-            "Marc Katz (AE)"
+            "marc.katz@shopify.com"
           ],
           "merchantAttendees": [
-            "Lauren Dubinsky"
+            "lauren.dubinsky@directwines.com"
           ],
-          "summary": "Early exploratory call. DW 'should be in business of selling wine, not being a tech company.' Subscriptions ~50-60% of revenue."
+          "summary": "Marc Katz consulted with Lauren Dubinsky regarding e-commerce platform options. Proposed exploring Shopify Commerce Components for quicker integration alongside full platform migration."
         }
       ],
       "history": [
@@ -17002,20 +16965,28 @@ const DEAL_DATA = {
         },
         {
           "date": "2026-03-06",
-          "totalScore": 41,
+          "totalScore": 36.5,
           "totalMax": 54,
-          "status": "good-health",
+          "status": "on-track",
           "sectionScores": {
             "Metrics": 5,
-            "Economic Buyer": 5,
-            "Decision Process": 5.5,
+            "Economic Buyer": 4.5,
+            "Decision Process": 5,
             "Decision Criteria": 5,
-            "Paper Process": 2,
-            "Identify Pain": 7.5,
-            "Champion": 6,
-            "Competition": 5
+            "Paper Process": 1.5,
+            "Identify Pain": 7,
+            "Champion": 5,
+            "Competition": 3.5
           },
-          "changes": []
+          "changes": [
+            "Score declined by 4.5 points",
+            "Economic Buyer: declined (5 → 4.5)",
+            "Decision Process: declined (5.5 → 5)",
+            "Paper Process: declined (2 → 1.5)",
+            "Identify Pain: declined (7.5 → 7)",
+            "Champion: declined (6 → 5)",
+            "Competition: declined (5 → 3.5)"
+          ]
         }
       ],
       "dealRisks": [
@@ -17050,40 +17021,7 @@ const DEAL_DATA = {
           "mitigation": "Position total value vs. CT build-and-maintain model."
         }
       ],
-      "dealUndercurrent": {
-        "lastUpdated": "2026-02-26",
-        "sourceCallCount": 15,
-        "sourceTranscriptLines": 6500,
-        "surfaceStory": "Direct Wines is the biggest deal on the board — £3.81M PBR, 15-17 brands globally, migrating from ATG/commercetools. Board sign-off meeting March 24. Fusefabric doing SI discovery.",
-        "sections": [
-          {
-            "title": "1. The deal just lost 43% of its value overnight",
-            "severity": "high",
-            "content": "PBR dropped from £6.66M to £3.81M. MCV zeroed from £4.58M to £0. This is either a catastrophic data error or the deal was fundamentally restructured — potentially moving from Enterprise to Plus pricing. Either way, no one has investigated or explained this. For the largest deal on the board, this should be an emergency."
-          },
-          {
-            "title": "2. Only 7 days between board meeting and close date",
-            "severity": "high",
-            "content": "Board sign-off meeting is March 24. Close date is March 31. That's 7 calendar days (5 business days) for a £3.81M global enterprise deal to go from board approval through legal, procurement, and contract execution. This is not realistic without significant pre-work that hasn't started."
-          },
-          {
-            "title": "3. The Plus vs Enterprise decision is still pending",
-            "severity": "high",
-            "content": "Neil Rhodes indicated Plus being cheaper might 'push them over the edge.' But the tier decision hasn't been made. This blocks commercial finalization, which blocks contract preparation, which blocks the March 31 close. The entire critical path runs through a decision that hasn't been made."
-          },
-          {
-            "title": "4. UK payment rates have a 'sizeable gap'",
-            "severity": "medium",
-            "content": "Tim Curtis (Global Treasurer) flagged a 'sizeable gap' between current UK rates and Shopify's proposed rates. Ben acknowledged the premium and argued conversion uplift justifies it. But Tim is a finance person — he counts basis points, not conversion narratives. This is an unresolved commercial friction point."
-          },
-          {
-            "title": "5. The CIO is 'managing to a budget' — potential blocker",
-            "severity": "medium",
-            "content": "Martyn Oakley (CIO) could block the deal. He's described as 'managing to a budget' and the tech team has historically resisted platform changes. While Andy Brooks is pro-Shopify, the philosophical debate between composable (commercetools) and unified platform (Shopify) hasn't been resolved at the CIO level."
-          }
-        ],
-        "netAssessment": "The crown jewel of the pipeline but also the most fragile at the top. The 43% PBR drop needs immediate investigation — it could be a data error or a fundamental restructuring. The March 31 close is unrealistic without pre-staging the contract for parallel review during Fusefabric discovery. If the Plus vs Enterprise decision isn't made by early March, the board meeting won't have final numbers to approve."
-      },
+      "dealUndercurrent": null,
       "mutualActionPlan": {
         "merchantName": "Direct Wines Limited",
         "kickoffDate": "",
@@ -17394,14 +17332,14 @@ const DEAL_DATA = {
               "pct": 71
             },
             "Economic Buyer": {
-              "score": 5,
+              "score": 4.5,
               "max": 6,
-              "pct": 83
+              "pct": 75
             },
             "Decision Process": {
-              "score": 5.5,
+              "score": 5,
               "max": 7,
-              "pct": 79
+              "pct": 71
             },
             "Decision Criteria": {
               "score": 5,
@@ -17409,24 +17347,24 @@ const DEAL_DATA = {
               "pct": 71
             },
             "Paper Process": {
-              "score": 2,
+              "score": 1.5,
               "max": 7,
-              "pct": 29
+              "pct": 21
             },
             "Identify Pain": {
-              "score": 7.5,
+              "score": 7,
               "max": 8,
-              "pct": 94
+              "pct": 88
             },
             "Champion": {
-              "score": 6,
+              "score": 5,
               "max": 7,
-              "pct": 86
+              "pct": 71
             },
             "Competition": {
-              "score": 5,
+              "score": 3.5,
               "max": 5,
-              "pct": 100
+              "pct": 70
             }
           }
         }

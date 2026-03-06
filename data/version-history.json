@@ -216,20 +216,28 @@
     },
     {
       "date": "2026-03-06",
-      "totalScore": 41,
+      "totalScore": 36.5,
       "totalMax": 54,
-      "status": "good-health",
+      "status": "on-track",
       "sectionScores": {
         "Metrics": 5,
-        "Economic Buyer": 5,
-        "Decision Process": 5.5,
+        "Economic Buyer": 4.5,
+        "Decision Process": 5,
         "Decision Criteria": 5,
-        "Paper Process": 2,
-        "Identify Pain": 7.5,
-        "Champion": 6,
-        "Competition": 5
+        "Paper Process": 1.5,
+        "Identify Pain": 7,
+        "Champion": 5,
+        "Competition": 3.5
       },
-      "changes": []
+      "changes": [
+        "Score declined by 4.5 points",
+        "Economic Buyer: declined (5 → 4.5)",
+        "Decision Process: declined (5.5 → 5)",
+        "Paper Process: declined (2 → 1.5)",
+        "Identify Pain: declined (7.5 → 7)",
+        "Champion: declined (6 → 5)",
+        "Competition: declined (5 → 3.5)"
+      ]
     }
   ],
   "0068V0000113rSIQAY": [
