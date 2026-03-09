@@ -1,0 +1,124 @@
+{
+  "date": "2026-03-09",
+  "started": "2026-03-09T08:16:09.674Z",
+  "finished": "2026-03-09T08:16:19.056Z",
+  "totalOpportunities": 18,
+  "processed": 18,
+  "results": {
+    "006OG00000FYX8zYAH": {
+      "accountName": "Hawes & Curtis Limited",
+      "status": "new-calls",
+      "details": "New call Mar 6: agencies checkin. Score 41→41.5. 4 risks, 5 next steps added.",
+      "timestamp": "2026-03-09T08:16:09.674Z"
+    },
+    "006OG00000JMQ91YAH": {
+      "accountName": "TRINNY LONDON",
+      "status": "new-calls",
+      "details": "New call Mar 6: commercials. First MEDDPICC scoring: 40.5/54. 5 risks, 6 next steps.",
+      "timestamp": "2026-03-09T08:16:09.724Z"
+    },
+    "0068V0000113rSIQAY": {
+      "accountName": "Moda in Pelle",
+      "status": "sf-only",
+      "details": "NextStep updated: merchant MIA, rates being revoked",
+      "timestamp": "2026-03-09T08:16:09.772Z"
+    },
+    "006OG00000EZIy6YAH": {
+      "accountName": "Whittard of Chelsea",
+      "status": "sf-only",
+      "details": "NextStep updated: limesharp chosen, contract out for review",
+      "timestamp": "2026-03-09T08:16:09.814Z"
+    },
+    "006OG00000GJ5IvYAL": {
+      "accountName": "The Dune Group",
+      "status": "sf-only",
+      "details": "NextStep updated: POS demo 09.03, budget sign-off imminent",
+      "timestamp": "2026-03-09T08:16:09.856Z"
+    },
+    "006OG00000HnVs8YAF": {
+      "accountName": "Wacoal Europe",
+      "status": "sf-only",
+      "details": "NextStep updated: Got the GO, signing by March 11",
+      "timestamp": "2026-03-09T08:16:09.899Z"
+    },
+    "006OG00000HtxKFYAZ": {
+      "accountName": "Sofa.Com Ltd",
+      "status": "sf-only",
+      "details": "NextStep updated: Chase merchant + review business case",
+      "timestamp": "2026-03-09T08:16:09.943Z"
+    },
+    "0068V0000113peWQAQ": {
+      "accountName": "ESSENTIEL Antwerp",
+      "status": "sf-only",
+      "details": "NextStep updated: RFP landed, speaking to agencies",
+      "timestamp": "2026-03-09T08:16:09.988Z"
+    },
+    "006OG00000JUPVtYAP": {
+      "accountName": "Mint Velvet",
+      "status": "sf-only",
+      "details": "NextStep updated: BAFO sent, board meeting 11/03",
+      "timestamp": "2026-03-09T08:16:10.035Z"
+    },
+    "006OG00000FHHAHYA5": {
+      "accountName": "OLIVER BONAS LIMITED",
+      "status": "sf-only",
+      "details": "NextStep updated: Awaiting statement, POS commercials confirmed",
+      "timestamp": "2026-03-09T08:16:10.080Z"
+    },
+    "006OG00000Fbj8nYAB": {
+      "accountName": "Cycle King & Hawk",
+      "status": "sf-only",
+      "details": "NextStep updated: project postponed until further notice",
+      "timestamp": "2026-03-09T08:16:10.124Z"
+    },
+    "006OG00000G28JdYAJ": {
+      "accountName": "Direct Wines Limited",
+      "status": "sf-only",
+      "details": "NextStep updated: Board positive, Fuse presenting consolidation",
+      "timestamp": "2026-03-09T08:16:10.167Z"
+    },
+    "006OG00000KOC4YYAX": {
+      "accountName": "Moss Bros. Group Ltd",
+      "status": "sf-only",
+      "details": "NextStep unchanged (minor formatting)",
+      "timestamp": "2026-03-09T08:16:10.212Z"
+    },
+    "006OG00000J4JtxYAF": {
+      "accountName": "Vision Healthcare",
+      "status": "sf-only",
+      "details": "NextStep updated: Hear back on scope and timelines",
+      "timestamp": "2026-03-09T08:16:10.256Z"
+    },
+    "006OG00000KqnifYAB": {
+      "accountName": "axminstertools.com",
+      "status": "sf-only",
+      "details": "NextStep updated: Decision in March, seeing Swanky",
+      "timestamp": "2026-03-09T08:16:10.303Z"
+    },
+    "006OG00000CRabaYAD": {
+      "accountName": "Mulberry Company (Sales) Limited",
+      "status": "no-change",
+      "details": "Already Closed Won, no changes",
+      "timestamp": "2026-03-09T08:16:10.345Z"
+    },
+    "006OG00000Dh2YXYAZ": {
+      "accountName": "Bugaboo International B.V",
+      "status": "no-change",
+      "details": "No SF changes, no new calls",
+      "timestamp": "2026-03-09T08:16:10.388Z"
+    },
+    "006OG00000KW83lYAD": {
+      "accountName": "C.P. Hart & Sons Limited",
+      "status": "no-change",
+      "details": "No SF changes, no new calls",
+      "timestamp": "2026-03-09T08:16:10.430Z"
+    }
+  },
+  "summary": {
+    "noChange": 3,
+    "sfOnly": 13,
+    "newCalls": 2,
+    "errors": 0,
+    "skipped": 0
+  }
+}

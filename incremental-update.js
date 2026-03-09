@@ -268,7 +268,7 @@ function main() {
     }
     // Only check MAP integrity for opps that HAD a MAP before the update
     const mapItems = opp.mutualActionPlan?.items?.length || 0;
-    if (opp._hadMAP && mapItems < 5) {
+    if (opp._hadMAP && mapItems < opp._hadMAP) {
       console.error(`\n❌ FATAL: ${opp.accountName} lost MAP data (was ${opp._hadMAP}, now ${mapItems}). Aborting.`);
       process.exit(1);
     }
