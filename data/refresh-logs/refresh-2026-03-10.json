@@ -1,0 +1,124 @@
+{
+  "date": "2026-03-10",
+  "started": "2026-03-10T08:07:04.194Z",
+  "finished": "2026-03-10T08:07:21.354Z",
+  "totalOpportunities": 18,
+  "processed": 18,
+  "results": {
+    "006OG00000G28JdYAJ": {
+      "accountName": "Direct Wines Limited",
+      "status": "sf-only",
+      "details": "Already processed",
+      "timestamp": "2026-03-10T08:07:04.863Z"
+    },
+    "006OG00000JMQ91YAH": {
+      "accountName": "TRINNY LONDON",
+      "status": "sf-only",
+      "details": "totalRevenue: 4495312.5 → 4345312.5, projectedBilledRevenue: 1184353.82 → 1146238.5",
+      "timestamp": "2026-03-10T08:07:04.242Z"
+    },
+    "006OG00000EZIy6YAH": {
+      "accountName": "Whittard of Chelsea",
+      "status": "sf-only",
+      "details": "nextStep text updated",
+      "timestamp": "2026-03-10T08:07:04.291Z"
+    },
+    "006OG00000GJ5IvYAL": {
+      "accountName": "The Dune Group",
+      "status": "sf-only",
+      "details": "nextStep text updated",
+      "timestamp": "2026-03-10T08:07:04.337Z"
+    },
+    "006OG00000FHHAHYA5": {
+      "accountName": "OLIVER BONAS LIMITED",
+      "status": "sf-only",
+      "details": "nextStep text updated",
+      "timestamp": "2026-03-10T08:07:04.382Z"
+    },
+    "006OG00000Dh2YXYAZ": {
+      "accountName": "Bugaboo International B.V",
+      "status": "sf-only",
+      "details": "nextStep text updated",
+      "timestamp": "2026-03-10T08:07:04.427Z"
+    },
+    "006OG00000KOC4YYAX": {
+      "accountName": "Moss Bros. Group Ltd",
+      "status": "sf-only",
+      "details": "nextStep text updated",
+      "timestamp": "2026-03-10T08:07:04.472Z"
+    },
+    "0068V0000113rSIQAY": {
+      "accountName": "Moda in Pelle",
+      "status": "no-change",
+      "details": "No SF or call changes",
+      "timestamp": "2026-03-10T08:07:04.521Z"
+    },
+    "006OG00000CRabaYAD": {
+      "accountName": "Mulberry Company (Sales) Limited",
+      "status": "no-change",
+      "details": "Closed Won - no changes",
+      "timestamp": "2026-03-10T08:07:04.571Z"
+    },
+    "006OG00000HnVs8YAF": {
+      "accountName": "Wacoal Europe",
+      "status": "no-change",
+      "details": "No SF or call changes",
+      "timestamp": "2026-03-10T08:07:04.618Z"
+    },
+    "006OG00000HtxKFYAZ": {
+      "accountName": "Sofa.Com Ltd",
+      "status": "no-change",
+      "details": "No SF or call changes",
+      "timestamp": "2026-03-10T08:07:04.670Z"
+    },
+    "0068V0000113peWQAQ": {
+      "accountName": "ESSENTIEL Antwerp",
+      "status": "no-change",
+      "details": "No SF or call changes",
+      "timestamp": "2026-03-10T08:07:04.714Z"
+    },
+    "006OG00000JUPVtYAP": {
+      "accountName": "Mint Velvet",
+      "status": "no-change",
+      "details": "No SF or call changes",
+      "timestamp": "2026-03-10T08:07:04.761Z"
+    },
+    "006OG00000Fbj8nYAB": {
+      "accountName": "Cycle King & Hawk",
+      "status": "no-change",
+      "details": "Closed Lost - no changes",
+      "timestamp": "2026-03-10T08:07:04.814Z"
+    },
+    "006OG00000FYX8zYAH": {
+      "accountName": "Hawes & Curtis Limited",
+      "status": "no-change",
+      "details": "No SF or call changes",
+      "timestamp": "2026-03-10T08:07:04.918Z"
+    },
+    "006OG00000KW83lYAD": {
+      "accountName": "C.P. Hart & Sons Limited",
+      "status": "no-change",
+      "details": "No SF or call changes",
+      "timestamp": "2026-03-10T08:07:04.969Z"
+    },
+    "006OG00000J4JtxYAF": {
+      "accountName": "Vision Healthcare",
+      "status": "no-change",
+      "details": "No SF or call changes",
+      "timestamp": "2026-03-10T08:07:05.020Z"
+    },
+    "006OG00000KqnifYAB": {
+      "accountName": "axminstertools.com",
+      "status": "no-change",
+      "details": "No SF or call changes",
+      "timestamp": "2026-03-10T08:07:05.073Z"
+    }
+  },
+  "summary": {
+    "noChange": 11,
+    "sfOnly": 7,
+    "newCalls": 0,
+    "errors": 0,
+    "skipped": 0
+  }
+}

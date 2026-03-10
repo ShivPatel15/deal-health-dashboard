@@ -16,49 +16,12 @@ For each recommendation, return JSON:
 
 ---
 
-### Moda in Pelle (0068V0000113rSIQAY)
-Unmatched changes:
-- closeDate: "2026-02-27" → "2026-03-13"
-
-### Whittard of Chelsea (006OG00000EZIy6YAH)
-Unmatched changes:
-- revenue.eCommAmount: "69000" → "75900"
-- revenue.totalRev3yr: "676036.88" → "682936.88"
-
-### Cycle King & Hawk (006OG00000Fbj8nYAB)
-Unmatched changes:
-- stage: "Demonstrate" → "Closed Lost"
-- closeDate: "2026-03-27" → "2026-03-05"
-- probability: "60" → "0"
-- forecastCategory: "Commit" → "Omitted"
-- competitor: "Citrus Lime (incumbent)" → "Other"
-
 ### Direct Wines Limited (006OG00000G28JdYAJ)
 Unmatched changes:
-- revenue.totalRev3yr: "10909191" → "14206191"
-- projectedBilledRevenue: "3813618.5" → "6065019"
-
-### Hawes & Curtis Limited (006OG00000FYX8zYAH)
-Unmatched changes:
-- merchantIntent: "Committed" → "Committed - At Risk"
+- revenue.mcv: "1735000" → "0"
 
 ### TRINNY LONDON (006OG00000JMQ91YAH)
 Unmatched changes:
-- stage: "Demonstrate" → "Deal Craft"
-- closeDate: "2026-06-30" → "2026-03-31"
-- probability: "60" → "80"
-- merchantIntent: "Uncommitted" → "Committed - At Risk"
-- competitor: "" → "commercetools"
-- revenue.totalRev3yr: "3311700" → "4495312.5"
-- revenue.paymentsGpv: "49400000" → "65000000"
-- projectedBilledRevenue: "948568.42" → "1184353.82"
-
-### Vision Healthcare (006OG00000J4JtxYAF)
-Unmatched changes:
-- revenue.eCommAmount: "0" → "82800"
-- revenue.totalRev3yr: "0" → "97557.94"
-
-### axminstertools.com (006OG00000KqnifYAB)
-Unmatched changes:
-- competitor: "" → "Adobe Commerce (Magento)"
+- revenue.totalRev3yr: "4495312.5" → "4345312.5"
+- projectedBilledRevenue: "1184353.82" → "1146238.5"
 

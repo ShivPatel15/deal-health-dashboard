@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-03-09T08:16:30.351Z",
+  "generatedAt": "2026-03-10T08:07:35.826Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -23,7 +23,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2024-07-19",
-      "lastAnalysisDate": "2026-03-06",
+      "lastAnalysisDate": "2026-03-10",
       "revenue": {
         "mcv": 75900,
         "totalRev3yr": 1039799,
@@ -1274,6 +1274,23 @@ const DEAL_DATA = {
             "Competition": 3.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-10",
+          "totalScore": 30,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 3,
+            "Decision Criteria": 3.5,
+            "Paper Process": 2,
+            "Identify Pain": 6.5,
+            "Champion": 3.5,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -1576,7 +1593,7 @@ const DEAL_DATA = {
           "mapProgress": "0/21"
         },
         {
-          "date": "2026-03-09",
+          "date": "2026-03-10",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -1636,7 +1653,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed",
       "type": "New Business",
       "created": "2025-05-29",
-      "lastAnalysisDate": "2026-03-06",
+      "lastAnalysisDate": "2026-03-10",
       "revenue": {
         "mcv": 75900,
         "totalRev3yr": 682936.88,
@@ -1654,7 +1671,7 @@ const DEAL_DATA = {
       ],
       "competitor": "Adobe Commerce (Magento)",
       "compellingEvent": "Salesforce Commerce Cloud Site Genesis reaching end-of-life, non-mobile-native platform with 70% mobile traffic, inability to unlock digital wallets, and ambitious B2C growth targets requiring a modern platform. July 2026 launch target to avoid January 2027 crunch.",
-      "nextStep": "06.03 limesharp chosen partner, fiona set deadline to sign contract 20.03, contract out for review, LOI signed and happy about rates",
+      "nextStep": "06.03 limesharp chosen partner, fiona set deadline to sign contract 20.03, contract out for review , LOI signed and happy about rates",
       "narrative": {
         "oppSummary": "Whittard of Chelsea is a UK-based Food & Beverage retailer migrating from SFCC Site Genesis to Shopify Plus, ~$310K projected billed revenue ($714,900 over 3yr). Merchant intent upgraded to 'Committed'. Target September 2026 launch with contract signing by March 20, 2026. Agency (Lime Sharp) selected, payment rates agreed at 0.8% domestic, Global-e confirmed for international. Deal Craft at 80% probability.",
         "whyChange": "Whittard is on Salesforce Commerce Cloud's Site Genesis, which Fiona stated 'won't be supported by Salesforce for much longer.' The platform is not mobile-native — a critical problem with 70% mobile traffic vs 25% desktop. They cannot unlock digital wallets (Apple Pay, Google Pay). B2C sales are 17-18% of total, targeting 25%. The original evaluation considered a phased approach but has since prioritized full migration by July 2026.",
@@ -2760,6 +2777,23 @@ const DEAL_DATA = {
             "Competition": 3
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-10",
+          "totalScore": 36,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 6,
+            "Economic Buyer": 4,
+            "Decision Process": 4.5,
+            "Decision Criteria": 4,
+            "Paper Process": 1,
+            "Identify Pain": 7,
+            "Champion": 6.5,
+            "Competition": 3
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -3093,7 +3127,7 @@ const DEAL_DATA = {
           "mapProgress": "0/25"
         },
         {
-          "date": "2026-03-09",
+          "date": "2026-03-10",
           "sections": {
             "Metrics": {
               "score": 6,
@@ -3153,7 +3187,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed",
       "type": "New Business",
       "created": "2025-08-19",
-      "lastAnalysisDate": "2026-03-06",
+      "lastAnalysisDate": "2026-03-10",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 4269146.5,
@@ -3175,7 +3209,7 @@ const DEAL_DATA = {
       ],
       "competitor": "None",
       "compellingEvent": "SFCC licensing expires February 2026 — hard contractual deadline, verified across multiple calls. Not a soft preference. Combined with high TCO and operational frustration, doing nothing means renewing a platform they're actively trying to leave.",
-      "nextStep": "06.03, POS demo 09.03, Andy asked payments, and integration points in detail. Martin confirmed They're very close to getting budget signed off any day now",
+      "nextStep": "06.03, POS demo 09.03 , Andy asked payments, and integration points in detail. Martin confirmed They're very close to getting budged signed off \"any day now\"",
       "narrative": {
         "oppSummary": "The Dune Group is a UK fashion footwear retailer with 55+ stores evaluating a full-platform migration from Salesforce Commerce Cloud + Anakta POS to Shopify Plus with POS Pro and Retail Payments. The deal is valued at $82,800 MCV with $4.27M in 3-year total revenue and is in Deal Craft stage at 80% probability. Martin Wareing (Head of IT) confirmed budget sign-off is imminent. The SFCC license expiring in February 2026 creates a hard compelling event, and SI partner Tryzens actively recommended Shopify.",
         "whyChange": "Dune is on Salesforce Commerce Cloud for eCommerce and Anakta for in-store POS, creating significant operational friction. All changes must go through Tryzens in monthly sprints — no in-house control. Martin described having to 'mold ways of working to the platform.' Anakta POS adds complexity around payment gateway management and reconciliation. TCO is high across both stacks, and with SFCC licensing expiring Feb 2026, they face an inflection point: renew an expensive, inflexible stack or migrate.",
@@ -4406,6 +4440,23 @@ const DEAL_DATA = {
             "Competition": 4
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-10",
+          "totalScore": 38.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3.5,
+            "Decision Process": 4.5,
+            "Decision Criteria": 5.5,
+            "Paper Process": 4,
+            "Identify Pain": 6,
+            "Champion": 5.5,
+            "Competition": 4
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -4718,7 +4769,7 @@ const DEAL_DATA = {
           "mapProgress": "0/21"
         },
         {
-          "date": "2026-03-09",
+          "date": "2026-03-10",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -4778,7 +4829,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2025-02-07",
-      "lastAnalysisDate": "2026-03-06",
+      "lastAnalysisDate": "2026-03-10",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 841500,
@@ -6113,6 +6164,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-10",
+          "totalScore": 34.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 4.5,
+            "Identify Pain": 6.5,
+            "Champion": 4,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -6373,7 +6441,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-03-09",
+          "date": "2026-03-10",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -6433,7 +6501,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed",
       "type": "New Business",
       "created": "2025-10-16",
-      "lastAnalysisDate": "2026-03-06",
+      "lastAnalysisDate": "2026-03-10",
       "revenue": {
         "mcv": 285200,
         "totalRev3yr": 1244375,
@@ -7596,6 +7664,23 @@ const DEAL_DATA = {
             "Competition": 4.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-10",
+          "totalScore": 45,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 6,
+            "Economic Buyer": 4,
+            "Decision Process": 7,
+            "Decision Criteria": 5,
+            "Paper Process": 6,
+            "Identify Pain": 7,
+            "Champion": 5.5,
+            "Competition": 4.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -7908,7 +7993,7 @@ const DEAL_DATA = {
           "mapProgress": "0/21"
         },
         {
-          "date": "2026-03-09",
+          "date": "2026-03-10",
           "sections": {
             "Metrics": {
               "score": 6,
@@ -7968,7 +8053,7 @@ const DEAL_DATA = {
       "merchantIntent": "Uncommitted",
       "type": "New Business",
       "created": "2025-10-20",
-      "lastAnalysisDate": "2026-03-06",
+      "lastAnalysisDate": "2026-03-10",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 1220972.06,
@@ -9165,6 +9250,23 @@ const DEAL_DATA = {
             "Competition": 3.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-10",
+          "totalScore": 29,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 4.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 3.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 3,
+            "Identify Pain": 4,
+            "Champion": 4.5,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -9427,7 +9529,7 @@ const DEAL_DATA = {
           "mapProgress": "0/18"
         },
         {
-          "date": "2026-03-09",
+          "date": "2026-03-10",
           "sections": {
             "Metrics": {
               "score": 4.5,
@@ -9487,7 +9589,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2024-07-16",
-      "lastAnalysisDate": "2026-03-06",
+      "lastAnalysisDate": "2026-03-10",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 2333229.33,
@@ -10741,6 +10843,23 @@ const DEAL_DATA = {
             "Competition": 2
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-10",
+          "totalScore": 31,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 4.5,
+            "Decision Process": 4.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 6,
+            "Champion": 4.5,
+            "Competition": 2
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -11047,7 +11166,7 @@ const DEAL_DATA = {
           "mapProgress": "0/21"
         },
         {
-          "date": "2026-03-09",
+          "date": "2026-03-10",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -11107,7 +11226,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "Existing Business",
       "created": "2025-12-12",
-      "lastAnalysisDate": "2026-03-06",
+      "lastAnalysisDate": "2026-03-10",
       "revenue": {
         "mcv": 0,
         "totalRev3yr": 1562351.44,
@@ -12350,6 +12469,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-10",
+          "totalScore": 32,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 3,
+            "Decision Process": 4,
+            "Decision Criteria": 4.5,
+            "Paper Process": 1,
+            "Identify Pain": 6.5,
+            "Champion": 5.5,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -12602,7 +12738,7 @@ const DEAL_DATA = {
           "mapProgress": "0/18"
         },
         {
-          "date": "2026-03-09",
+          "date": "2026-03-10",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -12662,7 +12798,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2025-06-30",
-      "lastAnalysisDate": "2026-03-06",
+      "lastAnalysisDate": "2026-03-10",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 5809546.88,
@@ -12683,7 +12819,7 @@ const DEAL_DATA = {
       ],
       "competitor": "",
       "compellingEvent": "Adobe Commerce contract expires October 2026. Simultaneous NetSuite ERP replacement. RFP narrowed from 6 vendors to ~2. Ben wants to avoid further investment in Adobe.",
-      "nextStep": "06.03 Awaiting statement for RR, claudia confirmed commercials (POS), stacey (Ecomm) sent over tech stack for us to review, next step: follow up meeting and feedback about next round RFP",
+      "nextStep": "06.03 Awaiting statement for RR, claudia confirmed commercials (POS), stacey (Ecomm) sent over tecks stack for us to review, next step: follow up meeting and feedback about next round RFP",
       "narrative": {
         "oppSummary": "Oliver Bonas Limited is an £87M D2C / £25M Retail GMV UK fashion and lifestyle retailer with 90+ stores, evaluating Shopify Plus as a replacement for their current Adobe Commerce (Magento) platform, whose contract expires October 2026. The deal is valued at $82,800 MCV with $1.48M in projected billed revenue and $5.8M total 3-year revenue including payments ($113.1M GPV). The opportunity is in the Demonstrate stage of a competitive RFP process — originally 6 vendors narrowed to approximately 2 — with implementation cost clarity being the primary blocker to advancing the deal.",
         "whyChange": "Oliver Bonas is running on Adobe Commerce (Magento) with a NetSuite ERP that is also being replaced. Ben Curtis, Director of Ecommerce, has explicitly stated they want to avoid 'putting lots of additional investment into Adobe especially with the new ERP system... only to then rip it all out again later,' indicating significant concern about throwing good money after bad. The current tech stack creates complexity around omnichannel capabilities like click & collect, endless aisle, and save-the-sale — features Ben noted 'can be mitigated without additional development if we were to go down a single vendor solution.' The simultaneous ERP replacement and Adobe contract expiry create a natural inflection point where re-platforming makes strategic sense.",
@@ -13971,6 +14107,23 @@ const DEAL_DATA = {
             "Competition": 3.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-10",
+          "totalScore": 29.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 4,
+            "Decision Criteria": 3.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 5.5,
+            "Champion": 4,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -14239,7 +14392,7 @@ const DEAL_DATA = {
           "mapProgress": "0/18"
         },
         {
-          "date": "2026-03-09",
+          "date": "2026-03-10",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -14299,7 +14452,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2025-07-16",
-      "lastAnalysisDate": "2026-03-06",
+      "lastAnalysisDate": "2026-03-10",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 874667.61,
@@ -15553,6 +15706,23 @@ const DEAL_DATA = {
             "Competition": 0.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-10",
+          "totalScore": 22.5,
+          "totalMax": 54,
+          "status": "at-risk",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 2,
+            "Decision Process": 4,
+            "Decision Criteria": 2.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 5,
+            "Champion": 3,
+            "Competition": 0.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -15800,7 +15970,7 @@ const DEAL_DATA = {
           "mapProgress": "0/18"
         },
         {
-          "date": "2026-03-09",
+          "date": "2026-03-10",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -15860,7 +16030,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2025-08-06",
-      "lastAnalysisDate": "2026-03-06",
+      "lastAnalysisDate": "2026-03-10",
       "revenue": {
         "mcv": 1735000,
         "totalRev3yr": 14206191,
@@ -17246,6 +17416,23 @@ const DEAL_DATA = {
             "Competition": 3.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-10",
+          "totalScore": 36.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 4.5,
+            "Decision Process": 5,
+            "Decision Criteria": 5,
+            "Paper Process": 1.5,
+            "Identify Pain": 7,
+            "Champion": 5,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -17591,7 +17778,7 @@ const DEAL_DATA = {
           "mapProgress": "0/30"
         },
         {
-          "date": "2026-03-09",
+          "date": "2026-03-10",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -17651,7 +17838,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2025-07-14",
-      "lastAnalysisDate": "2026-03-09",
+      "lastAnalysisDate": "2026-03-10",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 2040937.5,
@@ -18820,6 +19007,23 @@ const DEAL_DATA = {
             "Score improved by 0.5 points",
             "Paper Process: improved (4 → 4.5)"
           ]
+        },
+        {
+          "date": "2026-03-10",
+          "totalScore": 41.5,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 5,
+            "Decision Process": 5.5,
+            "Decision Criteria": 4.5,
+            "Paper Process": 4.5,
+            "Identify Pain": 7.5,
+            "Champion": 6.5,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -19095,7 +19299,7 @@ const DEAL_DATA = {
           "mapProgress": "0/19"
         },
         {
-          "date": "2026-03-09",
+          "date": "2026-03-10",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -19155,7 +19359,7 @@ const DEAL_DATA = {
       "merchantIntent": "Uncommitted",
       "type": "New Business",
       "created": "2025-04-15",
-      "lastAnalysisDate": "2026-03-06",
+      "lastAnalysisDate": "2026-03-10",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 841500,
@@ -20381,6 +20585,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-10",
+          "totalScore": 28.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 3,
+            "Economic Buyer": 3.5,
+            "Decision Process": 4.5,
+            "Decision Criteria": 3,
+            "Paper Process": 1.5,
+            "Identify Pain": 5.5,
+            "Champion": 5,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -20486,7 +20707,7 @@ const DEAL_DATA = {
           "mapProgress": "0/4"
         },
         {
-          "date": "2026-03-09",
+          "date": "2026-03-10",
           "sections": {
             "Metrics": {
               "score": 3,
@@ -20546,7 +20767,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2026-01-21",
-      "lastAnalysisDate": "2026-03-06",
+      "lastAnalysisDate": "2026-03-10",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 2184000,
@@ -21807,6 +22028,23 @@ const DEAL_DATA = {
             "Competition": 1.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-10",
+          "totalScore": 28,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 2,
+            "Decision Process": 4.5,
+            "Decision Criteria": 2,
+            "Paper Process": 2.5,
+            "Identify Pain": 6,
+            "Champion": 4.5,
+            "Competition": 1.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -21989,7 +22227,7 @@ const DEAL_DATA = {
           "mapProgress": "0/13"
         },
         {
-          "date": "2026-03-09",
+          "date": "2026-03-10",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -22049,7 +22287,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2026-02-24",
-      "lastAnalysisDate": "2026-03-09",
+      "lastAnalysisDate": "2026-03-10",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 4495312.5,
@@ -23293,6 +23531,23 @@ const DEAL_DATA = {
             "Champion: improved (4 → 5.5)",
             "Competition: improved (2 → 3)"
           ]
+        },
+        {
+          "date": "2026-03-10",
+          "totalScore": 40.5,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 6,
+            "Decision Process": 5.5,
+            "Decision Criteria": 4,
+            "Paper Process": 4.5,
+            "Identify Pain": 7,
+            "Champion": 5.5,
+            "Competition": 3
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -23423,7 +23678,7 @@ const DEAL_DATA = {
           "mapProgress": "0/4"
         },
         {
-          "date": "2026-03-09",
+          "date": "2026-03-10",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -23483,7 +23738,7 @@ const DEAL_DATA = {
       "merchantIntent": "Uncommitted",
       "type": "New Business",
       "created": "2026-01-16",
-      "lastAnalysisDate": "2026-03-06",
+      "lastAnalysisDate": "2026-03-10",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 2129400,
@@ -24700,6 +24955,23 @@ const DEAL_DATA = {
             "Competition": 1
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-10",
+          "totalScore": 25,
+          "totalMax": 54,
+          "status": "at-risk",
+          "sectionScores": {
+            "Metrics": 4,
+            "Economic Buyer": 2,
+            "Decision Process": 3,
+            "Decision Criteria": 4,
+            "Paper Process": 0.5,
+            "Identify Pain": 5.5,
+            "Champion": 5,
+            "Competition": 1
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -24898,7 +25170,7 @@ const DEAL_DATA = {
           "mapProgress": "0/0"
         },
         {
-          "date": "2026-03-09",
+          "date": "2026-03-10",
           "sections": {
             "Metrics": {
               "score": 4,
@@ -24958,7 +25230,7 @@ const DEAL_DATA = {
       "merchantIntent": "Uncommitted",
       "type": "New Business",
       "created": "2025-11-27",
-      "lastAnalysisDate": "2026-03-06",
+      "lastAnalysisDate": "2026-03-10",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 97557.94,
@@ -26097,6 +26369,23 @@ const DEAL_DATA = {
             "Competition": 2
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-10",
+          "totalScore": 31,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 4,
+            "Decision Process": 5,
+            "Decision Criteria": 4,
+            "Paper Process": 1,
+            "Identify Pain": 5.5,
+            "Champion": 4.5,
+            "Competition": 2
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -26335,7 +26624,7 @@ const DEAL_DATA = {
           "mapProgress": "0/0"
         },
         {
-          "date": "2026-03-09",
+          "date": "2026-03-10",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -26395,7 +26684,7 @@ const DEAL_DATA = {
       "merchantIntent": "Uncommitted",
       "type": "New Business",
       "created": "2026-02-02",
-      "lastAnalysisDate": "2026-03-06",
+      "lastAnalysisDate": "2026-03-10",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 1544484.38,
@@ -27410,6 +27699,23 @@ const DEAL_DATA = {
             "Competition": 3
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-10",
+          "totalScore": 35.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 3.5,
+            "Identify Pain": 7,
+            "Champion": 5.5,
+            "Competition": 3
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -27584,7 +27890,7 @@ const DEAL_DATA = {
           "mapProgress": "0/0"
         },
         {
-          "date": "2026-03-09",
+          "date": "2026-03-10",
           "sections": {
             "Metrics": {
               "score": 5.5,

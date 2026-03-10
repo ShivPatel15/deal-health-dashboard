@@ -1,0 +1,101 @@
+{
+  "sfChanged": [
+    "006OG00000EZIy6YAH",
+    "006OG00000GJ5IvYAL",
+    "006OG00000CRabaYAD",
+    "0068V0000113peWQAQ",
+    "006OG00000FHHAHYA5",
+    "006OG00000G28JdYAJ",
+    "006OG00000FYX8zYAH",
+    "006OG00000Dh2YXYAZ",
+    "006OG00000KW83lYAD",
+    "006OG00000JMQ91YAH",
+    "006OG00000KOC4YYAX"
+  ],
+  "noChange": [
+    "0068V0000113rSIQAY",
+    "006OG00000HnVs8YAF",
+    "006OG00000HtxKFYAZ",
+    "006OG00000JUPVtYAP",
+    "006OG00000Fbj8nYAB",
+    "006OG00000J4JtxYAF",
+    "006OG00000KqnifYAB"
+  ],
+  "newCalls": [],
+  "diffs": {
+    "006OG00000EZIy6YAH": {
+      "nextStep": {
+        "from": "06.03 limesharp chosen partner, fiona set deadline to sign contract 20.03, contr...",
+        "to": "06.03 limesharp chosen partner, fiona set deadline to sign contract 20.03, contr..."
+      }
+    },
+    "006OG00000GJ5IvYAL": {
+      "nextStep": {
+        "from": "06.03, POS demo 09.03, Andy asked payments, and integration points in detail. Ma...",
+        "to": "06.03, POS demo 09.03 , Andy asked payments, and integration points in detail. M..."
+      }
+    },
+    "006OG00000CRabaYAD": {
+      "nextStep": {
+        "from": "18/02 BR. Legal Are still working through the PLUS contract as we have pushed ba...",
+        "to": "18/02 BR. Legal Are still working..."
+      }
+    },
+    "0068V0000113peWQAQ": {
+      "nextStep": {
+        "from": "4/03 BR RFP has landed and Im speaking to each agency (7) to get a sense check. ...",
+        "to": "4/03 BR RFP has landed and Im speaking to each agency (7)..."
+      }
+    },
+    "006OG00000FHHAHYA5": {
+      "nextStep": {
+        "from": "06.03 Awaiting statement for RR, claudia confirmed commercials (POS), stacey (Ec...",
+        "to": "06.03 Awaiting statement for RR..."
+      }
+    },
+    "006OG00000G28JdYAJ": {
+      "ecommAmount": {
+        "from": 1735000,
+        "to": 0
+      },
+      "nextStep": {
+        "from": "4/03 BR Board meeting on 26th was really positive. Clear appetite to consolidate...",
+        "to": "4/03 BR Board meeting on 26th was really positive..."
+      }
+    },
+    "006OG00000FYX8zYAH": {
+      "nextStep": {
+        "from": "06/03 MF: Speak with Suley, Touker and Sam on the commercials offer expiring thi...",
+        "to": "06/03 MF: Speak with Suley, Touker and Sam on the commercials offer expiring thi..."
+      }
+    },
+    "006OG00000Dh2YXYAZ": {
+      "nextStep": {
+        "from": "23/02 BR Call with Jordan. He is working through biz case but biggest aspect is ...",
+        "to": "23/02 BR Call with Jordan..."
+      }
+    },
+    "006OG00000KW83lYAD": {
+      "nextStep": {
+        "from": "24.02 presented commercials, board meeting this month, awaiting statements for R...",
+        "to": "24.02 presented commercials..."
+      }
+    },
+    "006OG00000JMQ91YAH": {
+      "totalRevenue": {
+        "from": 4495312.5,
+        "to": 4345312.5
+      },
+      "projectedBilledRevenue": {
+        "from": 1184353.82,
+        "to": 1146238.5
+      }
+    },
+    "006OG00000KOC4YYAX": {
+      "nextStep": {
+        "from": "[AS] 16.01 Technical discovery scheduled for 26.01 + intro to deal champion, Chr...",
+        "to": "[AS] 16.01 Technical discovery scheduled for 26.01..."
+      }
+    }
+  }
+}

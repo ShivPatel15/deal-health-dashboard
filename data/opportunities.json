@@ -13,7 +13,7 @@
     "merchantIntent": "Committed - At Risk",
     "type": "New Business",
     "created": "2024-07-19",
-    "lastAnalysisDate": "2026-03-06",
+    "lastAnalysisDate": "2026-03-10",
     "revenue": {
       "mcv": 75900,
       "totalRev3yr": 1039799,
@@ -1456,7 +1456,7 @@
     "merchantIntent": "Committed",
     "type": "New Business",
     "created": "2025-05-29",
-    "lastAnalysisDate": "2026-03-06",
+    "lastAnalysisDate": "2026-03-10",
     "revenue": {
       "mcv": 75900,
       "totalRev3yr": 682936.88,
@@ -1474,7 +1474,7 @@
     ],
     "competitor": "Adobe Commerce (Magento)",
     "compellingEvent": "Salesforce Commerce Cloud Site Genesis reaching end-of-life, non-mobile-native platform with 70% mobile traffic, inability to unlock digital wallets, and ambitious B2C growth targets requiring a modern platform. July 2026 launch target to avoid January 2027 crunch.",
-    "nextStep": "06.03 limesharp chosen partner, fiona set deadline to sign contract 20.03, contract out for review, LOI signed and happy about rates",
+    "nextStep": "06.03 limesharp chosen partner, fiona set deadline to sign contract 20.03, contract out for review , LOI signed and happy about rates",
     "narrative": {
       "oppSummary": "Whittard of Chelsea is a UK-based Food & Beverage retailer migrating from SFCC Site Genesis to Shopify Plus, ~$310K projected billed revenue ($714,900 over 3yr). Merchant intent upgraded to 'Committed'. Target September 2026 launch with contract signing by March 20, 2026. Agency (Lime Sharp) selected, payment rates agreed at 0.8% domestic, Global-e confirmed for international. Deal Craft at 80% probability.",
       "whyChange": "Whittard is on Salesforce Commerce Cloud's Site Genesis, which Fiona stated 'won't be supported by Salesforce for much longer.' The platform is not mobile-native \u2014 a critical problem with 70% mobile traffic vs 25% desktop. They cannot unlock digital wallets (Apple Pay, Google Pay). B2C sales are 17-18% of total, targeting 25%. The original evaluation considered a phased approach but has since prioritized full migration by July 2026.",
@@ -2780,7 +2780,7 @@
     "merchantIntent": "Committed",
     "type": "New Business",
     "created": "2025-08-19",
-    "lastAnalysisDate": "2026-03-06",
+    "lastAnalysisDate": "2026-03-10",
     "revenue": {
       "mcv": 82800,
       "totalRev3yr": 4269146.5,
@@ -2802,7 +2802,7 @@
     ],
     "competitor": "None",
     "compellingEvent": "SFCC licensing expires February 2026 \u2014 hard contractual deadline, verified across multiple calls. Not a soft preference. Combined with high TCO and operational frustration, doing nothing means renewing a platform they're actively trying to leave.",
-    "nextStep": "06.03, POS demo 09.03, Andy asked payments, and integration points in detail. Martin confirmed They're very close to getting budget signed off any day now",
+    "nextStep": "06.03, POS demo 09.03 , Andy asked payments, and integration points in detail. Martin confirmed They're very close to getting budged signed off \"any day now\"",
     "narrative": {
       "oppSummary": "The Dune Group is a UK fashion footwear retailer with 55+ stores evaluating a full-platform migration from Salesforce Commerce Cloud + Anakta POS to Shopify Plus with POS Pro and Retail Payments. The deal is valued at $82,800 MCV with $4.27M in 3-year total revenue and is in Deal Craft stage at 80% probability. Martin Wareing (Head of IT) confirmed budget sign-off is imminent. The SFCC license expiring in February 2026 creates a hard compelling event, and SI partner Tryzens actively recommended Shopify.",
       "whyChange": "Dune is on Salesforce Commerce Cloud for eCommerce and Anakta for in-store POS, creating significant operational friction. All changes must go through Tryzens in monthly sprints \u2014 no in-house control. Martin described having to 'mold ways of working to the platform.' Anakta POS adds complexity around payment gateway management and reconciliation. TCO is high across both stacks, and with SFCC licensing expiring Feb 2026, they face an inflection point: renew an expensive, inflexible stack or migrate.",
@@ -4255,7 +4255,7 @@
     "merchantIntent": "Committed - At Risk",
     "type": "New Business",
     "created": "2025-02-07",
-    "lastAnalysisDate": "2026-03-06",
+    "lastAnalysisDate": "2026-03-10",
     "revenue": {
       "mcv": 82800,
       "totalRev3yr": 841500,
@@ -5776,7 +5776,7 @@
     "merchantIntent": "Committed",
     "type": "New Business",
     "created": "2025-10-16",
-    "lastAnalysisDate": "2026-03-06",
+    "lastAnalysisDate": "2026-03-10",
     "revenue": {
       "mcv": 285200,
       "totalRev3yr": 1244375,
@@ -7161,7 +7161,7 @@
     "merchantIntent": "Uncommitted",
     "type": "New Business",
     "created": "2025-10-20",
-    "lastAnalysisDate": "2026-03-06",
+    "lastAnalysisDate": "2026-03-10",
     "revenue": {
       "mcv": 82800,
       "totalRev3yr": 1220972.06,
@@ -8470,7 +8470,7 @@
     "merchantIntent": "Committed - At Risk",
     "type": "New Business",
     "created": "2024-07-16",
-    "lastAnalysisDate": "2026-03-06",
+    "lastAnalysisDate": "2026-03-10",
     "revenue": {
       "mcv": 82800,
       "totalRev3yr": 2333229.33,
@@ -9865,7 +9865,8 @@
         }
       ],
       "netAssessment": "This is the most thoroughly evaluated deal on the board \u2014 Filip has done more first-principles validation than any merchant in the pipeline. The deal isn't at risk because of platform fit, payment rates, or competitive pressure. It's at risk because the ERP upgrade cost (LS Retail removal + BC upgrade) could blow the combined budget, and management won't approve Shopify without the ERP path being clear. Filip has told us directly that conversion uplift won't count in the business case \u2014 only hard cost savings. The 7-agency RFP and April build target are real, but they're downstream of a management decision on ERP budget that hasn't been made yet. The MCV drop from \u00a3132.8K to \u00a382.8K likely reflects scope being rationalized to make the budget work."
-    }
+    },
+    "seNextSteps": "05/03/26 - Active and progressing. Implementation partner pitches scheduled Mar 10-13 at Essentiel HQ. RFP distributed to 9 partners. Native Order Routing qualified by Filip. Key blocker: US entity structure + ItsPerfect ERP not compatible with Markets \u2014 dual-store vs entity consolidation decision still required. Support partner selection week."
   },
   {
     "id": "006OG00000JUPVtYAP",
@@ -9881,7 +9882,7 @@
     "merchantIntent": "Committed - At Risk",
     "type": "Existing Business",
     "created": "2025-12-12",
-    "lastAnalysisDate": "2026-03-06",
+    "lastAnalysisDate": "2026-03-10",
     "revenue": {
       "mcv": 0,
       "totalRev3yr": 1562351.44,
@@ -11223,7 +11224,7 @@
     "merchantIntent": "Committed - At Risk",
     "type": "New Business",
     "created": "2025-06-30",
-    "lastAnalysisDate": "2026-03-06",
+    "lastAnalysisDate": "2026-03-10",
     "revenue": {
       "mcv": 82800,
       "totalRev3yr": 5809546.88,
@@ -11244,7 +11245,7 @@
     ],
     "competitor": null,
     "compellingEvent": "Adobe Commerce contract expires October 2026. Simultaneous NetSuite ERP replacement. RFP narrowed from 6 vendors to ~2. Ben wants to avoid further investment in Adobe.",
-    "nextStep": "06.03 Awaiting statement for RR, claudia confirmed commercials (POS), stacey (Ecomm) sent over tech stack for us to review, next step: follow up meeting and feedback about next round RFP",
+    "nextStep": "06.03 Awaiting statement for RR, claudia confirmed commercials (POS), stacey (Ecomm) sent over tecks stack for us to review, next step: follow up meeting and feedback about next round RFP",
     "narrative": {
       "oppSummary": "Oliver Bonas Limited is an \u00a387M D2C / \u00a325M Retail GMV UK fashion and lifestyle retailer with 90+ stores, evaluating Shopify Plus as a replacement for their current Adobe Commerce (Magento) platform, whose contract expires October 2026. The deal is valued at $82,800 MCV with $1.48M in projected billed revenue and $5.8M total 3-year revenue including payments ($113.1M GPV). The opportunity is in the Demonstrate stage of a competitive RFP process \u2014 originally 6 vendors narrowed to approximately 2 \u2014 with implementation cost clarity being the primary blocker to advancing the deal.",
       "whyChange": "Oliver Bonas is running on Adobe Commerce (Magento) with a NetSuite ERP that is also being replaced. Ben Curtis, Director of Ecommerce, has explicitly stated they want to avoid 'putting lots of additional investment into Adobe especially with the new ERP system... only to then rip it all out again later,' indicating significant concern about throwing good money after bad. The current tech stack creates complexity around omnichannel capabilities like click & collect, endless aisle, and save-the-sale \u2014 features Ben noted 'can be mitigated without additional development if we were to go down a single vendor solution.' The simultaneous ERP replacement and Adobe contract expiry create a natural inflection point where re-platforming makes strategic sense.",
@@ -12659,7 +12660,7 @@
     "merchantIntent": "Committed - At Risk",
     "type": "New Business",
     "created": "2025-07-16",
-    "lastAnalysisDate": "2026-03-06",
+    "lastAnalysisDate": "2026-03-10",
     "revenue": {
       "mcv": 82800,
       "totalRev3yr": 874667.61,
@@ -14014,7 +14015,7 @@
     "merchantIntent": "Committed - At Risk",
     "type": "New Business",
     "created": "2025-08-06",
-    "lastAnalysisDate": "2026-03-06",
+    "lastAnalysisDate": "2026-03-10",
     "revenue": {
       "mcv": 1735000,
       "totalRev3yr": 14206191,
@@ -14036,7 +14037,7 @@
     ],
     "competitor": "commercetools",
     "compellingEvent": "New CEO has challenged Leadership team in UK to become customer obsessed - D2C experience outlined as below required level. ATG support EOL. Now is Discovery with Fuse Fabric",
-    "nextStep": "4/03 BR Board meeting on 26th was really positive. Clear appetite to consolidate their architecture even further. Fuse presenting revised brand consolidation proposal on 6th to be reviewed by merchant on 12th SLT meeting",
+    "nextStep": "4/03 BR Board meeting on 26th was really positive. Clear appetite to consolidate their architecture even further. Fuse are presenting a revised brand consolidation proposal on 6th to be reviewed by merchant on 12th SLT meeting",
     "narrative": {
       "oppSummary": "Direct Wines Limited is a $1,735,000 D2C + Payments deal with a 3-year total revenue impact of $14.2M and projected billed revenue of $6.1M. The merchant operates 12+ brands across 16+ websites (including Laithwaites Wine) with $476M D2C GMV and $210.6M in Payments GPV. They are evaluating a full platform migration from their current composable architecture (ATG + commercetools) to Shopify Enterprise, with Fuse Fabric engaged as the discovery/implementation partner and a board decision currently in progress with a March 31, 2026 target close.\n\n**Update 2026-03-06:** Board meeting on Feb 26 was 'really positive' with clear appetite to consolidate architecture. Fuse Fabric presenting revised brand consolidation proposal on March 6, to be reviewed at merchant SLT meeting March 12. Octavia's financial model projects migration won't be cost-neutral (~$0.5M savings possible from brand consolidation to 15). Ben securing best-and-final enterprise pricing for 17 brands. Key risk: payment cost gap ('sizeable') vs current provider, and board appetite for net-new investment.",
       "whyChange": "Direct Wines is running a fragmented, legacy technology stack composed of ATG (now end-of-life for support) and commercetools across 12+ brands and 16+ websites. This composable architecture has created significant technical debt, high maintenance costs, and slow time-to-market for new features and brand launches. The new CEO has challenged the UK leadership team to become 'customer obsessed,' and the current D2C experience has been explicitly flagged as below the required standard. The business complexity \u2014 multi-brand, multi-region (UK, US, Australia, New Zealand), subscription/wine club models \u2014 compounds the pain, as each brand requires consistent functionality but the current stack makes this difficult and expensive to manage. Octavia Neuberger (Commercial Finance) voiced concern that the existing platform's ongoing investment burden is unsustainable, noting that business complexity and resource constraints make the status quo increasingly costly. The board is actively questioning whether to continue investing in the current architecture or consolidate onto a single platform.",
@@ -15652,7 +15653,7 @@
     "merchantIntent": "Committed - At Risk",
     "type": "New Business",
     "created": "2025-07-14",
-    "lastAnalysisDate": "2026-03-09",
+    "lastAnalysisDate": "2026-03-10",
     "revenue": {
       "mcv": 82800,
       "totalRev3yr": 2040937.5,
@@ -16268,7 +16269,7 @@
         "pct": 79
       },
       "Economic Buyer": {
-        "score": 5.0,
+        "score": 5,
         "max": 6,
         "pct": 83
       },
@@ -17623,7 +17624,7 @@
         ]
       }
     },
-    "lastAnalysisDate": "2026-03-06",
+    "lastAnalysisDate": "2026-03-10",
     "calls": [
       {
         "date": "2026-01-07",
@@ -17664,7 +17665,7 @@
         "summary": ""
       }
     ],
-    "nextStep": "23/02 BR Call with Jordan. He is working through biz case but biggest aspect is going to be the SP since we will not approve Adyen. Agency decision in March. SP call scheduled for 11th March",
+    "nextStep": "23/02 BR Call with Jordan. He is working through biz case but biggest aspect is going to be the SP since we will not approve Adyen. Agency decision in March. SP call schedulled for 11th March",
     "competitor": "Salesforce Commerce Cloud",
     "dealRisks": [
       {
@@ -18445,7 +18446,7 @@
         ]
       }
     },
-    "lastAnalysisDate": "2026-03-06",
+    "lastAnalysisDate": "2026-03-10",
     "calls": [
       {
         "date": "2026-02-06",
@@ -19403,7 +19404,7 @@
         ]
       }
     },
-    "lastAnalysisDate": "2026-03-09",
+    "lastAnalysisDate": "2026-03-10",
     "calls": [
       {
         "title": "Shopify X Trinny - commercials",
@@ -19725,7 +19726,7 @@
     ],
     "scores": {
       "Metrics": {
-        "score": 5.0,
+        "score": 5,
         "max": 7,
         "pct": 71
       },
@@ -19740,7 +19741,7 @@
         "pct": 79
       },
       "Decision Criteria": {
-        "score": 4.0,
+        "score": 4,
         "max": 7,
         "pct": 57
       },
@@ -19750,7 +19751,7 @@
         "pct": 64
       },
       "Identify Pain": {
-        "score": 7.0,
+        "score": 7,
         "max": 8,
         "pct": 88
       },
@@ -19760,7 +19761,7 @@
         "pct": 79
       },
       "Competition": {
-        "score": 3.0,
+        "score": 3,
         "max": 5,
         "pct": 60
       },
@@ -20474,7 +20475,7 @@
         ]
       }
     },
-    "lastAnalysisDate": "2026-03-06",
+    "lastAnalysisDate": "2026-03-10",
     "calls": [
       {
         "date": "2025-11-20",
@@ -21267,7 +21268,7 @@
         ]
       }
     },
-    "lastAnalysisDate": "2026-03-06",
+    "lastAnalysisDate": "2026-03-10",
     "calls": [
       {
         "id": "6jfqifadb8gda118ffj2d2lulh",
@@ -21461,7 +21462,8 @@
         "openActions": 6,
         "mapProgress": "0/0"
       }
-    ]
+    ],
+    "seNextSteps": "05/03/26 - Deal progressed into commercials. Maissa engaging merchant on commercial terms. Technical validation complete from Dec discovery calls. Key considerations: TummyTox AOV split test results, checkout/COD requirements, subscription technology scoping. Support commercial progression."
   },
   {
     "id": "006OG00000KqnifYAB",
@@ -22111,7 +22113,7 @@
         ]
       }
     },
-    "lastAnalysisDate": "2026-03-06",
+    "lastAnalysisDate": "2026-03-10",
     "calls": [
       {
         "date": "2026-02-25",
@@ -22176,6 +22178,7 @@
         "mapProgress": "0/0"
       }
     ],
-    "nextStep": "06/03 MF: Wants to make a decision in March. Going to see Swanky"
+    "nextStep": "06/03 MF: Wants to make a decision in March. Going to see Swanky",
+    "seNextSteps": "05/03/26 - Board approved migration Jan 2026. SE intro call with Simon Dunne (Tech Manager) needed urgently. Confirm agency decision (Swanky leading). Contract needed to hit March build start for summer go-live. Hosting contract (Sassi) ending ~May adds timing pressure."
   }
 ]
