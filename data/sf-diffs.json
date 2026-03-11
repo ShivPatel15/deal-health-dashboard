@@ -1,17 +1,55 @@
 [
   {
+    "opportunityId": "0068V0000113rSIQAY",
+    "accountName": "Moda in Pelle",
+    "changes": [
+      { "field": "merchantIntent", "oldValue": "Committed - At Risk", "newValue": "Uncommitted" }
+    ]
+  },
+  {
+    "opportunityId": "0068V0000113peWQAQ",
+    "accountName": "ESSENTIEL Antwerp",
+    "changes": [
+      { "field": "nextStep", "oldValue": "4/03 BR RFP has landed and Im speaking to each agency (7) to get a sense check. Timelines on RFP indicate build to start in April", "newValue": "10/03 BR RFP due on 16th. Section by 24th Start in April" }
+    ]
+  },
+  {
+    "opportunityId": "006OG00000JUPVtYAP",
+    "accountName": "Mint Velvet",
+    "changes": [
+      { "field": "nextStep", "oldValue": "4/03 BR BAFO sent and awaiting feedback to close win. Next Board meeting 11/03", "newValue": "10/03 BR Agreed pricing and project plan. Board needs final approval on the 16th before I can close win" }
+    ]
+  },
+  {
     "opportunityId": "006OG00000G28JdYAJ",
     "accountName": "Direct Wines Limited",
     "changes": [
-      { "field": "revenue.mcv", "oldValue": 1735000, "newValue": 0 }
+      { "field": "nextStep", "oldValue": "4/03 BR Board meeting on 26th was really positive. Clear appetite to consolidate their architecture even further. Fuse are presenting a revised brand consolidation proposal on 6th to be reviewed by merchant on 12th SLT meeting", "newValue": "10/03 BR Fuse presenting consolodation prop to SLT tomorrow 11th. We will then have to work on BAFO before baord decision on 24th" }
+    ]
+  },
+  {
+    "opportunityId": "006OG00000Dh2YXYAZ",
+    "accountName": "Bugaboo International B.V",
+    "changes": [
+      { "field": "nextStep", "oldValue": "23/02 BR Call with Jordan. He is working through biz case but biggest aspect is going to be the SP since we will not approve Adyen. Agency decision in March. SP call schedulled for 11th March", "newValue": "10/03 BR Chaser sent to project team for SP call and next steps" }
     ]
   },
   {
     "opportunityId": "006OG00000JMQ91YAH",
     "accountName": "TRINNY LONDON",
     "changes": [
-      { "field": "revenue.totalRev3yr", "oldValue": 4495312.5, "newValue": 4345312.5 },
-      { "field": "projectedBilledRevenue", "oldValue": 1184353.82, "newValue": 1146238.5 }
+      { "field": "merchantIntent", "oldValue": "Committed - At Risk", "newValue": "Committed" },
+      { "field": "nextStep", "oldValue": "06/03 MF: Awaiting responses on final request from rates team and legal team. Looking to sign on March 9th.", "newValue": "10/03 MF: Contract and LOI sent for signature" },
+      { "field": "projectedBilledRevenue", "oldValue": 1184353.82, "newValue": 1146238.5 },
+      { "field": "revenue.totalRev3yr", "oldValue": 4495312.5, "newValue": 4345312.5 }
+    ]
+  },
+  {
+    "opportunityId": "006OG00000KqnifYAB",
+    "accountName": "axminstertools.com",
+    "changes": [
+      { "field": "closeDate", "oldValue": "2026-03-31", "newValue": "2026-06-30" },
+      { "field": "nextStep", "oldValue": "06/03 MF: Wants to make a decision in March. Going to see Swanky", "newValue": "10/03 MF: Merchant setting up a meeting with Swanky. Timelines slightly delayed." }
     ]
   }
 ]

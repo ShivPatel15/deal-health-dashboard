@@ -1,0 +1,58 @@
+[
+  {
+    "opportunityId": "0068V0000113rSIQAY",
+    "adjustments": [
+      {"section":"champion","questionIndex":2,"currentAnswer":"Partial","recommendedAnswer":"No","reason":"Merchant intent downgraded to Uncommitted and merchant is MIA — champion is clearly not selling internally."},
+      {"section":"champion","questionIndex":3,"currentAnswer":"Partial","recommendedAnswer":"No","reason":"Uncommitted intent and no response indicates champion has no vested interest."},
+      {"section":"decisionProcess","questionIndex":1,"currentAnswer":"Partial","recommendedAnswer":"No","reason":"Close date 2 days away but merchant is MIA and uncommitted — timeline is effectively dead."},
+      {"section":"decisionProcess","questionIndex":3,"currentAnswer":"Partial","recommendedAnswer":"Yes","reason":"Risk is clearly identified: merchant gone dark, uncommitted with 2 days to close."}
+    ]
+  },
+  {
+    "opportunityId": "0068V0000113peWQAQ",
+    "adjustments": [
+      {"section":"decisionProcess","questionIndex":1,"currentAnswer":"Partial","recommendedAnswer":"Yes","reason":"Timeline firmed: RFP due March 16th, section by 24th, build starting April."},
+      {"section":"decisionProcess","questionIndex":4,"currentAnswer":"Partial","recommendedAnswer":"Yes","reason":"Next steps clearly documented and sequenced: RFP due 16th, partner pitches Mar 10-13, selection by 24th."}
+    ]
+  },
+  {
+    "opportunityId": "006OG00000JUPVtYAP",
+    "adjustments": [
+      {"section":"decisionProcess","questionIndex":0,"currentAnswer":"Partial","recommendedAnswer":"Yes","reason":"Decision process now clear: pricing agreed, project plan in place, Board approval March 16th."},
+      {"section":"decisionProcess","questionIndex":1,"currentAnswer":"Partial","recommendedAnswer":"Yes","reason":"Firm timeline: Board approval on March 16th is single remaining gate."},
+      {"section":"decisionCriteria","questionIndex":1,"currentAnswer":"Partial","recommendedAnswer":"Yes","reason":"Pricing agreed and project plan accepted — criteria aligned to Shopify."},
+      {"section":"paperProcess","questionIndex":3,"currentAnswer":"Partial","recommendedAnswer":"Yes","reason":"BAFO pricing agreed and project plan in place, pending Board approval."}
+    ]
+  },
+  {
+    "opportunityId": "006OG00000G28JdYAJ",
+    "adjustments": [
+      {"section":"decisionProcess","questionIndex":4,"currentAnswer":"Partial","recommendedAnswer":"Yes","reason":"Next steps documented: Fuse SLT pres today, then BAFO, then Board decision 24th."},
+      {"section":"decisionProcess","questionIndex":1,"currentAnswer":"Yes","recommendedAnswer":"Partial","reason":"Board decision slipped to March 24th with BAFO step inserted — timeline extending."}
+    ]
+  },
+  {
+    "opportunityId": "006OG00000Dh2YXYAZ",
+    "adjustments": [
+      {"section":"champion","questionIndex":2,"currentAnswer":"Partial","recommendedAnswer":"No","reason":"SP call scheduled for March 11th didn't happen. AE now chasing."},
+      {"section":"decisionProcess","questionIndex":4,"currentAnswer":"Partial","recommendedAnswer":"No","reason":"Planned SP call fell through. AE sending chasers with no confirmed next meeting."}
+    ]
+  },
+  {
+    "opportunityId": "006OG00000JMQ91YAH",
+    "adjustments": [
+      {"section":"paperProcess","questionIndex":3,"currentAnswer":"Partial","recommendedAnswer":"Yes","reason":"Contract and LOI sent for signature — paper process at final stage."},
+      {"section":"paperProcess","questionIndex":4,"currentAnswer":"Partial","recommendedAnswer":"Yes","reason":"Contract details finalized — sent for signature with agreed terms."},
+      {"section":"champion","questionIndex":2,"currentAnswer":"Partial","recommendedAnswer":"Yes","reason":"Intent upgraded to Committed. Champion navigated internal process to get contract out."},
+      {"section":"champion","questionIndex":3,"currentAnswer":"Partial","recommendedAnswer":"Yes","reason":"Intent upgrade and contract out for signature demonstrates clear vested interest."}
+    ]
+  },
+  {
+    "opportunityId": "006OG00000KqnifYAB",
+    "adjustments": [
+      {"section":"decisionProcess","questionIndex":1,"currentAnswer":"Partial","recommendedAnswer":"No","reason":"Close date pushed 3 months (March→June). No firm decision timeline."},
+      {"section":"decisionProcess","questionIndex":4,"currentAnswer":"Partial","recommendedAnswer":"No","reason":"Next steps regressed from 'Decision in March' to 'Setting up meeting' — no concrete step."},
+      {"section":"metrics","questionIndex":4,"currentAnswer":"Partial","recommendedAnswer":"No","reason":"3-month close date push with no business consequence signals weak urgency."}
+    ]
+  }
+]

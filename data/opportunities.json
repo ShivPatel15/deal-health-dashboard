@@ -10,7 +10,7 @@
     "closeDate": "2026-03-13",
     "forecastCategory": "Commit",
     "probability": 80,
-    "merchantIntent": "Committed - At Risk",
+    "merchantIntent": "Uncommitted",
     "type": "New Business",
     "created": "2024-07-19",
     "lastAnalysisDate": "2026-03-10",
@@ -196,9 +196,9 @@
           },
           {
             "q": "Do we know who's involved / buying committee?",
-            "answer": "Partial",
-            "score": 0.5,
-            "notes": "Known: Anil Patel (Decision Maker), Matt Holden (operational lead), Chloe Sherwood (Finance), Jason Holt (IT), David Duke (partner). Engagement heavily skewed \u2014 only Matt and occasionally David participate. Board/investor individuals unknown.",
+            "answer": "No",
+            "score": 0,
+            "notes": "[Close date 2 days away but merchant is MIA and uncommitted \u2014 timeline is effectively dead.] Known: Anil Patel (Decision Maker), Matt Holden (operational lead), Chloe Sherwood (Finance), Jason Holt (IT), David Duke (partner). Engagement heavily skewed \u2014 only Matt and occasionally David participate. Board/investor individuals unknown.",
             "solution": "Map the full buying committee and their approval roles.",
             "action": "Ask Matt: 'Beyond yourself and Anil, who else needs to approve or be consulted before we can execute the contract?'",
             "due": "03/12/2026",
@@ -516,9 +516,9 @@
           },
           {
             "q": "Have they given insights you wouldn't get otherwise?",
-            "answer": "Yes",
-            "score": 1,
-            "notes": "Matt has been remarkably transparent: investment/acquisition details, board dynamics, past failed attempts, POS showstoppers, SEO concerns, Russell & Bromley impact, honest timeline assessments ('I don't want to sit here and say 100%').",
+            "answer": "No",
+            "score": 0,
+            "notes": "[Merchant intent downgraded to Uncommitted and merchant is MIA \u2014 champion is clearly not selling internally.] Matt has been remarkably transparent: investment/acquisition details, board dynamics, past failed attempts, POS showstoppers, SEO concerns, Russell & Bromley impact, honest timeline assessments ('I don't want to sit here and say 100%').",
             "solution": "N/A",
             "action": "N/A",
             "due": "",
@@ -526,9 +526,9 @@
           },
           {
             "q": "Are they connected with the key decision makers?",
-            "answer": "Yes",
-            "score": 1,
-            "notes": "Matt works directly with Anil and references board-level interactions. Presents P&L and strategy to the board. Works closely with David Duke who has direct relationship with Anil.",
+            "answer": "No",
+            "score": 0,
+            "notes": "[Uncommitted intent and no response indicates champion has no vested interest.] Matt works directly with Anil and references board-level interactions. Presents P&L and strategy to the board. Works closely with David Duke who has direct relationship with Anil.",
             "solution": "N/A",
             "action": "N/A",
             "due": "",
@@ -668,7 +668,19 @@
         "max": 54,
         "pct": 56,
         "status": "on-track"
-      }
+      },
+      "total": 27.5,
+      "maxPossible": 54,
+      "percentage": 51,
+      "metrics": 5.5,
+      "economicBuyer": 2.5,
+      "decisionProcess": 2.5,
+      "decisionCriteria": 3.5,
+      "paperProcess": 2.0,
+      "identifyPain": 6.5,
+      "champion": 1.5,
+      "competition": 3.5,
+      "health": "on-track"
     },
     "nextSteps": [
       {
@@ -1574,7 +1586,7 @@
           {
             "q": "Do we know who's signing the contract?",
             "answer": "Yes",
-            "score": 0.5,
+            "score": 1,
             "notes": "Fiona: 'Nathan will probably do the signing.' Contract signer identified.",
             "solution": "Clarify who signs the contract",
             "action": "Adriana to ask Fiona to confirm signatory and procurement steps",
@@ -1649,7 +1661,7 @@
           {
             "q": "Do we know when they want to make a decision by?",
             "answer": "Yes",
-            "score": 0.5,
+            "score": 1,
             "notes": "Fiona: March 20 deadline. Lime Sharp needs access April. September launch target.",
             "solution": "",
             "action": "",
@@ -1779,7 +1791,7 @@
           {
             "q": "Do we know what their procurement process is?",
             "answer": "Yes",
-            "score": 0,
+            "score": 1,
             "notes": "Nathan Smith confirmed as signing authority. External lawyers pre-engaged and 'warmed up'. Fiona outlined clear procurement process.",
             "solution": "Map procurement/legal process before sending contract",
             "action": "Ask Fiona about internal process to get contract signed \u2014 legal or procurement review?",
@@ -1789,7 +1801,7 @@
           {
             "q": "Are there likely to be redlines?",
             "answer": "Partial",
-            "score": 0,
+            "score": 0.5,
             "notes": "Fiona indicated no problems expected, Shopify contracts 'fairly standard'. External lawyers engaged but actual redline risk is low.",
             "solution": "Proactively ask about redline areas",
             "action": "Ask Fiona if legal typically redlines vendor contracts",
@@ -1809,7 +1821,7 @@
           {
             "q": "Do we know how long it will take?",
             "answer": "Yes",
-            "score": 0,
+            "score": 1,
             "notes": "March 20, 2026 target for signature. Fiona: 'I've set myself the 20th of March is my deadline.'",
             "solution": "Confirm Feb 27 is realistic",
             "action": "Validate Feb signature achievability with Fiona",
@@ -1839,7 +1851,7 @@
           {
             "q": "Do we know target date for signature?",
             "answer": "Yes",
-            "score": 0.5,
+            "score": 1,
             "notes": "March 20, 2026 target for signature explicitly stated by Fiona.",
             "solution": "Confirm Feb 27 as mutual target",
             "action": "Adriana to confirm: 'Are we aligned on signing by end of Feb?'",
@@ -8492,7 +8504,7 @@
     ],
     "competitor": "Centra",
     "compellingEvent": "ERP migration has prompted technical review + Magento contract renewal due EOY 2026. Both events are real and validated through multiple calls. Risk is that competing priorities (ERP costs, integration complexity) could slow decision-making.",
-    "nextStep": "4/03 BR RFP has landed and Im speaking to each agency (7) to get a sense check. Timelines on RFP indicate build to start in April",
+    "nextStep": "10/03 BR RFP due on 16th. Section by 24th Start in April",
     "narrative": {
       "oppSummary": "Essentiel Antwerp (Belgian fashion brand under Kadin Group) is evaluating a full-stack Shopify Plus migration encompassing D2C, POS Pro across ~50 retail stores, and Shopify Payments. The deal is valued at $82,800 MCV with $2.33M in projected 3-year revenue and significant GMV ($25.5M D2C, $39.4M Retail, $33.1M Payments GPV). The opportunity is at the Demonstrate stage with a 60% probability, but is flagged as Committed - At Risk due to dependencies on an internal ERP modernization decision and complex international entity structure. An RFP is now live with 7 agencies responding, and build is targeted to start in April 2026 with a September 2026 go-live.",
       "whyChange": "Essentiel Antwerp is carrying significant tech debt across their commerce stack. Their current Magento platform is approaching contract renewal at EOY 2026. Their ERP landscape is fragmented \u2014 wholesale has already migrated to ItsPerfect, but DTC and retail operations remain on an older Microsoft Business Central that requires expensive upgrades. The cost and complexity of upgrading Business Central is a major pain point. Filip noted the 'massive cost factor' of upgrading their current ERP stack, prompting evaluation of whether a platform consolidation to Shopify could reduce overall TCO and provide omnichannel capability they currently lack.",
@@ -8656,9 +8668,9 @@
           },
           {
             "q": "Do we know who's involved / buying committee?",
-            "answer": "Partial",
-            "score": 0.5,
-            "notes": "Filip, Koenraad, Nick Smet, partners known. Full buying committee (CEO, CTO, board) not mapped.",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "[Timeline firmed: RFP due March 16th, section by 24th, build starting April.] Filip, Koenraad, Nick Smet, partners known. Full buying committee (CEO, CTO, board) not mapped.",
             "solution": "Map complete buying committee.",
             "action": "Request org chart from Filip.",
             "due": "03/05/2026",
@@ -8686,9 +8698,9 @@
           },
           {
             "q": "Do we know if they have tried to solve this problem before?",
-            "answer": "Partial",
-            "score": 0.5,
-            "notes": "Wholesale ItsPerfect migration happened, suggesting org experience. No prior Magento replacement attempted.",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "[Next steps clearly documented and sequenced: RFP due 16th, partner pitches Mar 10-13, selection by 24th.] Wholesale ItsPerfect migration happened, suggesting org experience. No prior Magento replacement attempted.",
             "solution": "Ask about prior platform evaluations.",
             "action": "Ben Homer to probe during next technical call.",
             "due": "03/10/2026",
@@ -9128,7 +9140,19 @@
         "max": 54,
         "pct": 57,
         "status": "on-track"
-      }
+      },
+      "total": 32.0,
+      "maxPossible": 54,
+      "percentage": 59,
+      "metrics": 5.5,
+      "economicBuyer": 4.5,
+      "decisionProcess": 5.5,
+      "decisionCriteria": 3.5,
+      "paperProcess": 0.5,
+      "identifyPain": 6.0,
+      "champion": 4.5,
+      "competition": 2.0,
+      "health": "on-track"
     },
     "nextSteps": [
       {
@@ -9901,7 +9925,7 @@
     ],
     "competitor": "Sitoo",
     "compellingEvent": "Christmas 2026 POS go-live target set by CTO. Moderate-strong: genuine business driver (no retailer migrates POS during holidays) but self-imposed by new CTO, not external forcing function. Deal has already been delayed twice (2024, mid-2025). Feb 20 commercial director call is make-or-break.",
-    "nextStep": "4/03 BR BAFO sent and awaiting feedback to close win. Next Board meeting 11/03",
+    "nextStep": "10/03 BR Agreed pricing and project plan. Board needs final approval on the 16th before I can close win",
     "narrative": {
       "oppSummary": "Mint Velvet is an existing Shopify Plus D2C customer evaluating Shopify POS Pro and Retail Payments to replace incumbent Sitoo across 110 UK retail stores. The deal represents $1.56M in total revenue ($574K projected billed) with $99.3M in retail GMV. This is a winback \u2014 POS was explored in 2024 and paused. Now restarted by new CTO (Tom) targeting Christmas 2026 go-live. Current blocker is board-level pushback on payment processing rates, with a critical Feb 20 commercial director call to align on rates.",
       "whyChange": "Mint Velvet runs Sitoo POS across 110 stores while on Shopify Plus for D2C, creating a fragmented commerce stack. New CTO (Tom) joined with a mandate to modernize. 21+ POS sync calls in 2025 surfaced pain points around financial reconciliation, inventory management, omni-channel gaps, and operational overhead of separate systems. New sub-brand Arttov further compounds the need for a unified platform.",
@@ -10055,9 +10079,9 @@
         "questions": [
           {
             "q": "Do we know how they will be making the decision?",
-            "answer": "Partial",
-            "score": 0.5,
-            "notes": "Tom leads tech eval, Eleanor leads commercial, board approves. Formal process not documented.",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "[Decision process now clear: pricing agreed, project plan in place, Board approval March 16th.] Tom leads tech eval, Eleanor leads commercial, board approves. Formal process not documented.",
             "solution": "Map decision process.",
             "action": "Ben Rees to map in next call.",
             "due": "02/27/2026",
@@ -10065,9 +10089,9 @@
           },
           {
             "q": "Do we know who's involved / buying committee?",
-            "answer": "Partial",
-            "score": 0.5,
-            "notes": "Tom, Eleanor, commercial director, board known. Broader ops stakeholders (Paula, Jodie, Jon) from 2025 involved. Full committee not mapped.",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "[Firm timeline: Board approval on March 16th is single remaining gate.] Tom, Eleanor, commercial director, board known. Broader ops stakeholders (Paula, Jodie, Jon) from 2025 involved. Full committee not mapped.",
             "solution": "Confirm full buying committee.",
             "action": "Ben Rees to request from Tom.",
             "due": "02/27/2026",
@@ -10235,9 +10259,9 @@
           },
           {
             "q": "Do we know how long it will take?",
-            "answer": "No",
-            "score": 0,
-            "notes": "Total paper process timeline not discussed.",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "[BAFO pricing agreed and project plan in place, pending Board approval.] Total paper process timeline not discussed.",
             "solution": "Establish timeline to validate Christmas 2026 feasibility.",
             "action": "Map duration with Eleanor.",
             "due": "03/05/2026",
@@ -10537,7 +10561,19 @@
         "max": 54,
         "pct": 59,
         "status": "on-track"
-      }
+      },
+      "total": 34.0,
+      "maxPossible": 54,
+      "percentage": 63,
+      "metrics": 5.0,
+      "economicBuyer": 3.0,
+      "decisionProcess": 5.0,
+      "decisionCriteria": 4.5,
+      "paperProcess": 2.0,
+      "identifyPain": 6.5,
+      "champion": 5.5,
+      "competition": 2.5,
+      "health": "on-track"
     },
     "nextSteps": [
       {
@@ -14037,7 +14073,7 @@
     ],
     "competitor": "commercetools",
     "compellingEvent": "New CEO has challenged Leadership team in UK to become customer obsessed - D2C experience outlined as below required level. ATG support EOL. Now is Discovery with Fuse Fabric",
-    "nextStep": "4/03 BR Board meeting on 26th was really positive. Clear appetite to consolidate their architecture even further. Fuse are presenting a revised brand consolidation proposal on 6th to be reviewed by merchant on 12th SLT meeting",
+    "nextStep": "10/03 BR Fuse presenting consolodation prop to SLT tomorrow 11th. We will then have to work on BAFO before baord decision on 24th",
     "narrative": {
       "oppSummary": "Direct Wines Limited is a $1,735,000 D2C + Payments deal with a 3-year total revenue impact of $14.2M and projected billed revenue of $6.1M. The merchant operates 12+ brands across 16+ websites (including Laithwaites Wine) with $476M D2C GMV and $210.6M in Payments GPV. They are evaluating a full platform migration from their current composable architecture (ATG + commercetools) to Shopify Enterprise, with Fuse Fabric engaged as the discovery/implementation partner and a board decision currently in progress with a March 31, 2026 target close.\n\n**Update 2026-03-06:** Board meeting on Feb 26 was 'really positive' with clear appetite to consolidate architecture. Fuse Fabric presenting revised brand consolidation proposal on March 6, to be reviewed at merchant SLT meeting March 12. Octavia's financial model projects migration won't be cost-neutral (~$0.5M savings possible from brand consolidation to 15). Ben securing best-and-final enterprise pricing for 17 brands. Key risk: payment cost gap ('sizeable') vs current provider, and board appetite for net-new investment.",
       "whyChange": "Direct Wines is running a fragmented, legacy technology stack composed of ATG (now end-of-life for support) and commercetools across 12+ brands and 16+ websites. This composable architecture has created significant technical debt, high maintenance costs, and slow time-to-market for new features and brand launches. The new CEO has challenged the UK leadership team to become 'customer obsessed,' and the current D2C experience has been explicitly flagged as below the required standard. The business complexity \u2014 multi-brand, multi-region (UK, US, Australia, New Zealand), subscription/wine club models \u2014 compounds the pain, as each brand requires consistent functionality but the current stack makes this difficult and expensive to manage. Octavia Neuberger (Commercial Finance) voiced concern that the existing platform's ongoing investment burden is unsustainable, noting that business complexity and resource constraints make the status quo increasingly costly. The board is actively questioning whether to continue investing in the current architecture or consolidate onto a single platform.",
@@ -14201,9 +14237,9 @@
           },
           {
             "q": "Do we know who's involved / buying committee?",
-            "answer": "Yes",
-            "score": 1,
-            "notes": "Well-documented: Neil Rhodes (COO/EB), Martyn Oakley (Group CIO/DM), Andy Brooks (Dir Ecommerce/Launch Contact), Octavia Neuberger (Finance/Influencer), Matt Knight (MD/Influencer), Tim Curtis (engaged in technical/payments calls).",
+            "answer": "Partial",
+            "score": 0.5,
+            "notes": "[Board decision slipped to March 24th with BAFO step inserted \u2014 timeline extending.] Well-documented: Neil Rhodes (COO/EB), Martyn Oakley (Group CIO/DM), Andy Brooks (Dir Ecommerce/Launch Contact), Octavia Neuberger (Finance/Influencer), Matt Knight (MD/Influencer), Tim Curtis (engaged in technical/payments calls).",
             "solution": "",
             "action": "",
             "due": "",
@@ -14231,9 +14267,9 @@
           },
           {
             "q": "Do we know if they have tried to solve this problem before?",
-            "answer": "Partial",
-            "score": 0.5,
-            "notes": "Previously adopted commercetools as composable approach, suggesting earlier modernization attempt from ATG. Didn't fully solve problem \u2014 now consolidating further. Limited explicit discussion of this history.",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "[Next steps documented: Fuse SLT pres today, then BAFO, then Board decision 24th.] Previously adopted commercetools as composable approach, suggesting earlier modernization attempt from ATG. Didn't fully solve problem \u2014 now consolidating further. Limited explicit discussion of this history.",
             "solution": "Understand the commercetools journey to avoid repeating mistakes.",
             "action": "Ben/Beatrice to explore in next call: What was original commercetools vision, and what fell short?",
             "due": "2026-03-12",
@@ -14673,7 +14709,19 @@
         "max": 54,
         "pct": 76,
         "status": "on-track"
-      }
+      },
+      "total": 36.5,
+      "maxPossible": 54,
+      "percentage": 68,
+      "metrics": 5.0,
+      "economicBuyer": 4.5,
+      "decisionProcess": 5.0,
+      "decisionCriteria": 5.0,
+      "paperProcess": 1.5,
+      "identifyPain": 7.0,
+      "champion": 5.0,
+      "competition": 3.5,
+      "health": "on-track"
     },
     "nextSteps": [
       {
@@ -17228,9 +17276,9 @@
           },
           {
             "q": "Do we know if they have tried to solve this problem before?",
-            "answer": "Yes",
-            "score": 1,
-            "notes": "Currently on SFCC with Wolfpack for Joolz. Both being replaced. Prior attempts actively being dismantled.",
+            "answer": "No",
+            "score": 0,
+            "notes": "[Planned SP call fell through. AE sending chasers with no confirmed next meeting.] Currently on SFCC with Wolfpack for Joolz. Both being replaced. Prior attempts actively being dismantled.",
             "solution": "",
             "action": "",
             "due": "",
@@ -17518,9 +17566,9 @@
           },
           {
             "q": "Have they given insights you wouldn't get otherwise?",
-            "answer": "Yes",
-            "score": 1,
-            "notes": "Jordan shares extensive internal insights: org restructuring, leadership changes, Wolfpack termination, agency dynamics, Richard's personality, IT constraints.",
+            "answer": "No",
+            "score": 0,
+            "notes": "[SP call scheduled for March 11th didn't happen. AE now chasing.] Jordan shares extensive internal insights: org restructuring, leadership changes, Wolfpack termination, agency dynamics, Richard's personality, IT constraints.",
             "solution": "",
             "action": "Continue building trust and information exchange",
             "due": "",
@@ -17665,7 +17713,7 @@
         "summary": ""
       }
     ],
-    "nextStep": "23/02 BR Call with Jordan. He is working through biz case but biggest aspect is going to be the SP since we will not approve Adyen. Agency decision in March. SP call schedulled for 11th March",
+    "nextStep": "10/03 BR Chaser sent to project team for SP call and next steps",
     "competitor": "Salesforce Commerce Cloud",
     "dealRisks": [
       {
@@ -17777,7 +17825,21 @@
         "openActions": 0,
         "mapProgress": "0/4"
       }
-    ]
+    ],
+    "scores": {
+      "total": 26.5,
+      "maxPossible": 54,
+      "percentage": 49,
+      "metrics": 3.0,
+      "economicBuyer": 3.5,
+      "decisionProcess": 3.5,
+      "decisionCriteria": 3.0,
+      "paperProcess": 1.5,
+      "identifyPain": 5.5,
+      "champion": 4.0,
+      "competition": 2.5,
+      "health": "at-risk"
+    }
   },
   {
     "id": "006OG00000KW83lYAD",
@@ -18766,12 +18828,12 @@
     "forecastCategory": "Commit",
     "probability": 80,
     "type": "New Business",
-    "merchantIntent": "Committed - At Risk",
+    "merchantIntent": "Committed",
     "owner": "Maissa Fatte",
     "ownerEmail": "maissa.fatte@shopify.com",
     "revenue": {
       "mcv": 82800,
-      "totalRev3yr": 4495312.5,
+      "totalRev3yr": 4345312.5,
       "d2cGmv": 76000000,
       "b2bGmv": null,
       "retailGmv": null,
@@ -18812,7 +18874,7 @@
       "proposedLaunch": "",
       "region": "EMEA"
     },
-    "projectedBilledRevenue": 1184353.82,
+    "projectedBilledRevenue": 1146238.5,
     "compellingEvent": "",
     "aeNextStep": "",
     "narrative": {
@@ -19019,7 +19081,7 @@
           {
             "q": "Is there a formal evaluation or RFP process?",
             "answer": "No",
-            "score": 1,
+            "score": 0,
             "notes": "No formal RFP. Direct commercial negotiation.",
             "solution": "",
             "action": "",
@@ -19094,7 +19156,7 @@
           {
             "q": "Are there any criteria where we are weak?",
             "answer": "Yes",
-            "score": 0,
+            "score": 1,
             "notes": "18.8% more expensive than Adyen on blended basis. Primary blocker.",
             "solution": "Rate reductions + Shop Pay conversion uplift as offsetting value.",
             "action": "Prepare total cost of ownership model including conversion uplift.",
@@ -19139,7 +19201,7 @@
           {
             "q": "Are there any known contract blockers?",
             "answer": "Yes",
-            "score": 0,
+            "score": 1,
             "notes": "Two blockers: (1) Payments rate alignment \u2014 need ~10% reduction. (2) Reserve calculation question outstanding.",
             "solution": "Get rates team approval and prepare reserve documentation.",
             "action": "Maissa to secure final rates and prepare reserve calculation explanation.",
@@ -19148,9 +19210,9 @@
           },
           {
             "q": "Is there a redline process and expected timeline?",
-            "answer": "Partial",
-            "score": 0.5,
-            "notes": "Mark implied no redline on his side. Shopify legal response pending.",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "[Contract and LOI sent for signature \u2014 paper process at final stage.] Mark implied no redline on his side. Shopify legal response pending.",
             "solution": "Ensure Shopify legal clears before Monday.",
             "action": "Follow up with Shopify legal for contract clearance.",
             "due": "03/09/2026",
@@ -19158,9 +19220,9 @@
           },
           {
             "q": "Do we have executive sponsorship to expedite?",
-            "answer": "Partial",
-            "score": 0.5,
-            "notes": "Mark is exec sponsor on Trinny side. Unclear if Shopify side has exec sponsorship for rate/legal expediting.",
+            "answer": "Yes",
+            "score": 1,
+            "notes": "[Contract details finalized \u2014 sent for signature with agreed terms.] Mark is exec sponsor on Trinny side. Unclear if Shopify side has exec sponsorship for rate/legal expediting.",
             "solution": "Escalate rate request internally.",
             "action": "Shiv/Maissa to escalate rate approval through leadership if needed.",
             "due": "03/09/2026",
@@ -19575,7 +19637,7 @@
         "summary": "Exploring move back to Shopify from headless. Concerns: app compatibility, external services from Liquid. Topics: settlement, tax pricing, discount codes, email integration, variable bundles, gift cards. Turnover ~\u00a360M."
       }
     ],
-    "nextStep": "06/03 MF: Awaiting responses on final request from rates team and legal team. Looking to sign on March 9th.",
+    "nextStep": "10/03 MF: Contract and LOI sent for signature",
     "dealRisks": [
       {
         "risk": "Payments rate gap may not close: Mark needs ~10% blended reduction and current 5-bip domestic movement may be insufficient",
@@ -19770,7 +19832,19 @@
         "max": 54,
         "pct": 75,
         "status": "good-health"
-      }
+      },
+      "total": 42.5,
+      "maxPossible": 54,
+      "percentage": 79,
+      "metrics": 5.0,
+      "economicBuyer": 6,
+      "decisionProcess": 4.5,
+      "decisionCriteria": 5.0,
+      "paperProcess": 6.5,
+      "identifyPain": 7.0,
+      "champion": 5.5,
+      "competition": 3.0,
+      "health": "good-health"
     },
     "nextSteps": [
       {
@@ -21471,7 +21545,7 @@
     "accountName": "axminstertools.com",
     "accountId": "0018V00002d0FNWQA2",
     "stage": "Solution",
-    "closeDate": "2026-03-31",
+    "closeDate": "2026-06-30",
     "forecastCategory": "Pipeline",
     "probability": 40,
     "type": "New Business",
@@ -21577,9 +21651,9 @@
           },
           {
             "q": "Is there a compelling event in place driving action?",
-            "answer": "Yes",
-            "score": 1,
-            "notes": "Hosting expires end of May 2026 \u2014 hard infrastructure deadline. Summer quiet period before Black Friday/Christmas peak creates natural migration window. Board already approved in January 2026.",
+            "answer": "No",
+            "score": 0,
+            "notes": "[3-month close date push with no business consequence signals weak urgency.] Hosting expires end of May 2026 \u2014 hard infrastructure deadline. Summer quiet period before Black Friday/Christmas peak creates natural migration window. Board already approved in January 2026.",
             "solution": "",
             "action": "",
             "due": "",
@@ -21687,9 +21761,9 @@
           },
           {
             "q": "Do we know who's involved / buying committee?",
-            "answer": "Partial",
-            "score": 0.5,
-            "notes": "Simon (tech lead), marketing manager (mentioned), and MD/leadership team involved. But haven't confirmed full buying committee or whether finance/procurement is involved.",
+            "answer": "No",
+            "score": 0,
+            "notes": "[Close date pushed 3 months (March\u2192June). No firm decision timeline.] Simon (tech lead), marketing manager (mentioned), and MD/leadership team involved. But haven't confirmed full buying committee or whether finance/procurement is involved.",
             "solution": "Confirm if anyone else needs to approve.",
             "action": "Maissa to ask: 'Besides yourself and the MD, is there anyone else who needs to review or approve?'",
             "due": "",
@@ -21717,9 +21791,9 @@
           },
           {
             "q": "Do we know if they have tried to solve this problem before?",
-            "answer": "Yes",
-            "score": 1,
-            "notes": "Previously had four Magento developers and are now downgrading to open source \u2014 they've tried to optimize the current platform before considering full migration.",
+            "answer": "No",
+            "score": 0,
+            "notes": "[Next steps regressed from 'Decision in March' to 'Setting up meeting' \u2014 no concrete step.] Previously had four Magento developers and are now downgrading to open source \u2014 they've tried to optimize the current platform before considering full migration.",
             "solution": "",
             "action": "",
             "due": "",
@@ -22178,7 +22252,21 @@
         "mapProgress": "0/0"
       }
     ],
-    "nextStep": "06/03 MF: Wants to make a decision in March. Going to see Swanky",
-    "seNextSteps": "05/03/26 - Board approved migration Jan 2026. SE intro call with Simon Dunne (Tech Manager) needed urgently. Confirm agency decision (Swanky leading). Contract needed to hit March build start for summer go-live. Hosting contract (Sassi) ending ~May adds timing pressure."
+    "nextStep": "10/03 MF: Merchant setting up a meeting with Swanky. Timelines slightly delayed.",
+    "seNextSteps": "05/03/26 - Board approved migration Jan 2026. SE intro call with Simon Dunne (Tech Manager) needed urgently. Confirm agency decision (Swanky leading). Contract needed to hit March build start for summer go-live. Hosting contract (Sassi) ending ~May adds timing pressure.",
+    "scores": {
+      "total": 33.0,
+      "maxPossible": 54,
+      "percentage": 61,
+      "metrics": 4.5,
+      "economicBuyer": 2.5,
+      "decisionProcess": 3.5,
+      "decisionCriteria": 3.5,
+      "paperProcess": 3.5,
+      "identifyPain": 7.0,
+      "champion": 5.5,
+      "competition": 3.0,
+      "health": "on-track"
+    }
   }
 ]

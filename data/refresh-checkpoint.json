@@ -1,0 +1,114 @@
+{
+  "date": "2026-03-11",
+  "started": "2026-03-11T08:06:03.535Z",
+  "results": {
+    "006OG00000EZIy6YAH": {
+      "accountName": "Whittard of Chelsea",
+      "status": "no-change",
+      "details": "No SF field changes, no new calls",
+      "timestamp": "2026-03-11T08:06:03.535Z"
+    },
+    "006OG00000GJ5IvYAL": {
+      "accountName": "The Dune Group",
+      "status": "no-change",
+      "details": "No SF field changes, no new calls",
+      "timestamp": "2026-03-11T08:06:03.594Z"
+    },
+    "006OG00000CRabaYAD": {
+      "accountName": "Mulberry Company (Sales) Limited",
+      "status": "no-change",
+      "details": "No SF field changes, no new calls",
+      "timestamp": "2026-03-11T08:06:03.641Z"
+    },
+    "006OG00000HnVs8YAF": {
+      "accountName": "Wacoal Europe",
+      "status": "no-change",
+      "details": "No SF field changes, no new calls",
+      "timestamp": "2026-03-11T08:06:03.686Z"
+    },
+    "006OG00000HtxKFYAZ": {
+      "accountName": "Sofa.Com Ltd",
+      "status": "no-change",
+      "details": "No SF field changes, no new calls",
+      "timestamp": "2026-03-11T08:06:03.731Z"
+    },
+    "006OG00000FHHAHYA5": {
+      "accountName": "OLIVER BONAS LIMITED",
+      "status": "no-change",
+      "details": "No SF field changes, no new calls",
+      "timestamp": "2026-03-11T08:06:03.777Z"
+    },
+    "006OG00000Fbj8nYAB": {
+      "accountName": "Cycle King & Hawk",
+      "status": "no-change",
+      "details": "No SF field changes, no new calls",
+      "timestamp": "2026-03-11T08:06:03.822Z"
+    },
+    "006OG00000FYX8zYAH": {
+      "accountName": "Hawes & Curtis Limited",
+      "status": "no-change",
+      "details": "No SF field changes, no new calls",
+      "timestamp": "2026-03-11T08:06:03.867Z"
+    },
+    "006OG00000KW83lYAD": {
+      "accountName": "C.P. Hart & Sons Limited",
+      "status": "no-change",
+      "details": "No SF field changes, no new calls",
+      "timestamp": "2026-03-11T08:06:03.913Z"
+    },
+    "006OG00000KOC4YYAX": {
+      "accountName": "Moss Bros. Group Ltd",
+      "status": "no-change",
+      "details": "No SF field changes, no new calls",
+      "timestamp": "2026-03-11T08:06:03.959Z"
+    },
+    "006OG00000J4JtxYAF": {
+      "accountName": "Vision Healthcare",
+      "status": "no-change",
+      "details": "No SF field changes, no new calls",
+      "timestamp": "2026-03-11T08:06:04.005Z"
+    },
+    "0068V0000113rSIQAY": {
+      "accountName": "Moda in Pelle",
+      "status": "sf-only",
+      "details": "merchantIntent: Committed-At-Risk→Uncommitted. Score 30→27.5 (-2.5). Champion Q2,Q3 downgraded.",
+      "timestamp": "2026-03-11T08:10:11.392Z"
+    },
+    "0068V0000113peWQAQ": {
+      "accountName": "ESSENTIEL Antwerp",
+      "status": "sf-only",
+      "details": "nextStep updated. Score 31→32 (+1). DecisionProcess Q1,Q4 upgraded.",
+      "timestamp": "2026-03-11T08:10:11.441Z"
+    },
+    "006OG00000JUPVtYAP": {
+      "accountName": "Mint Velvet",
+      "status": "sf-only",
+      "details": "nextStep: pricing agreed, board approval 16th. Score 32→34 (+2). DecProcess Q0,Q1, PaperProcess Q3 upgraded.",
+      "timestamp": "2026-03-11T08:10:11.490Z"
+    },
+    "006OG00000G28JdYAJ": {
+      "accountName": "Direct Wines Limited",
+      "status": "sf-only",
+      "details": "nextStep: Fuse SLT pres today, BAFO then board 24th. Score 36.5→36.5 (net 0). Timeline slip offset by next steps clarity.",
+      "timestamp": "2026-03-11T08:10:11.535Z"
+    },
+    "006OG00000Dh2YXYAZ": {
+      "accountName": "Bugaboo International B.V",
+      "status": "sf-only",
+      "details": "nextStep: SP call didn't happen, chasing. Score 28.5→26.5 (-2). Champion Q2, DecProcess Q4 downgraded.",
+      "timestamp": "2026-03-11T08:10:11.580Z"
+    },
+    "006OG00000JMQ91YAH": {
+      "accountName": "TRINNY LONDON",
+      "status": "sf-only",
+      "details": "merchantIntent upgraded to Committed. Contract+LOI sent for signature. Score 40.5→42.5 (+2). PaperProcess Q3,Q4 upgraded.",
+      "timestamp": "2026-03-11T08:10:11.625Z"
+    },
+    "006OG00000KqnifYAB": {
+      "accountName": "axminstertools.com",
+      "status": "sf-only",
+      "details": "closeDate pushed 3mo (Mar→Jun). Timelines delayed. Score 35.5→33 (-2.5). DecProcess Q1,Q4, Metrics Q4 downgraded.",
+      "timestamp": "2026-03-11T08:10:11.672Z"
+    }
+  }
+}

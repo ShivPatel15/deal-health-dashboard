@@ -1,0 +1,137 @@
+{
+  "highImpact": [
+    "0068V0000113rSIQAY",
+    "006OG00000JMQ91YAH",
+    "006OG00000KqnifYAB"
+  ],
+  "lowImpact": [
+    "0068V0000113peWQAQ",
+    "006OG00000JUPVtYAP",
+    "006OG00000G28JdYAJ",
+    "006OG00000Dh2YXYAZ"
+  ],
+  "noChange": [
+    "006OG00000EZIy6YAH",
+    "006OG00000GJ5IvYAL",
+    "006OG00000CRabaYAD",
+    "006OG00000HnVs8YAF",
+    "006OG00000HtxKFYAZ",
+    "006OG00000FHHAHYA5",
+    "006OG00000Fbj8nYAB",
+    "006OG00000FYX8zYAH",
+    "006OG00000KW83lYAD",
+    "006OG00000KOC4YYAX",
+    "006OG00000J4JtxYAF"
+  ],
+  "details": {
+    "0068V0000113rSIQAY": {
+      "name": "Moda in Pelle",
+      "diffs": [
+        {
+          "field": "merchantIntent",
+          "old": "Committed - At Risk",
+          "new": "Uncommitted",
+          "sfField": "Merchant_Intent__c"
+        }
+      ],
+      "highImpact": true
+    },
+    "0068V0000113peWQAQ": {
+      "name": "ESSENTIEL Antwerp",
+      "diffs": [
+        {
+          "field": "nextStep",
+          "old": "4/03 BR RFP has landed and Im speaking to each agency (7) to get a sense check. Timelines on RFP indicate build to start in April",
+          "new": "10/03 BR RFP due on 16th. Section by 24th Start in April",
+          "sfField": "NextStep"
+        }
+      ],
+      "highImpact": false
+    },
+    "006OG00000JUPVtYAP": {
+      "name": "Mint Velvet",
+      "diffs": [
+        {
+          "field": "nextStep",
+          "old": "4/03 BR BAFO sent and awaiting feedback to close win. Next Board meeting 11/03",
+          "new": "10/03 BR Agreed pricing and project plan. Board needs final approval on the 16th before I can close win",
+          "sfField": "NextStep"
+        }
+      ],
+      "highImpact": false
+    },
+    "006OG00000G28JdYAJ": {
+      "name": "Direct Wines Limited",
+      "diffs": [
+        {
+          "field": "nextStep",
+          "old": "4/03 BR Board meeting on 26th was really positive. Clear appetite to consolidate their architecture even further. Fuse are presenting a revised brand consolidation proposal on 6th to be reviewed by merchant on 12th SLT meeting",
+          "new": "10/03 BR Fuse presenting consolodation prop to SLT tomorrow 11th. We will then have to work on BAFO before baord decision on 24th",
+          "sfField": "NextStep"
+        }
+      ],
+      "highImpact": false
+    },
+    "006OG00000Dh2YXYAZ": {
+      "name": "Bugaboo International B.V",
+      "diffs": [
+        {
+          "field": "nextStep",
+          "old": "23/02 BR Call with Jordan. He is working through biz case but biggest aspect is going to be the SP since we will not approve Adyen. Agency decision in March. SP call schedulled for 11th March",
+          "new": "10/03 BR Chaser sent to project team for SP call and next steps",
+          "sfField": "NextStep"
+        }
+      ],
+      "highImpact": false
+    },
+    "006OG00000JMQ91YAH": {
+      "name": "TRINNY LONDON",
+      "diffs": [
+        {
+          "field": "merchantIntent",
+          "old": "Committed - At Risk",
+          "new": "Committed",
+          "sfField": "Merchant_Intent__c"
+        },
+        {
+          "field": "nextStep",
+          "old": "06/03 MF: Awaiting responses on final request from rates team and legal team. Looking to sign on March 9th.",
+          "new": "10/03 MF: Contract and LOI sent for signature",
+          "sfField": "NextStep"
+        },
+        {
+          "field": "projectedBilledRevenue",
+          "old": 1184353.82,
+          "new": 1146238.5,
+          "sfField": "Projected_Billed_Revenue__c"
+        },
+        {
+          "field": "revenue.totalRev3yr",
+          "old": 4495312.5,
+          "new": 4345312.5,
+          "sfField": "Total_Revenue__c"
+        }
+      ],
+      "highImpact": true
+    },
+    "006OG00000KqnifYAB": {
+      "name": "axminstertools.com",
+      "diffs": [
+        {
+          "field": "closeDate",
+          "old": "2026-03-31",
+          "new": "2026-06-30",
+          "sfField": "CloseDate"
+        },
+        {
+          "field": "nextStep",
+          "old": "06/03 MF: Wants to make a decision in March. Going to see Swanky",
+          "new": "10/03 MF: Merchant setting up a meeting with Swanky. Timelines slightly delayed.",
+          "sfField": "NextStep"
+        }
+      ],
+      "highImpact": true
+    }
+  },
+  "newCalls": {}
+}
