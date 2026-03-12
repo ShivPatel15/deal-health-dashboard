@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-11",
+  "date": "2026-03-12",
   "totalOpportunities": 18,
   "remaining": 18,
   "alreadyDone": 0,
@@ -215,7 +215,7 @@
       "lastAnalysisDate": "2026-03-10",
       "lastCallDate": "2026-02-25",
       "owner": "Maissa Fatte",
-      "closeDate": "2026-03-31",
+      "closeDate": "2026-06-30",
       "currentScore": "N/A",
       "currentMax": "N/A",
       "alreadyDone": false

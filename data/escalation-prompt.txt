@@ -18,32 +18,5 @@ For each recommendation, return JSON:
 
 ### Moda in Pelle (0068V0000113rSIQAY)
 Unmatched changes:
-- merchantIntent: "Committed - At Risk" → "Uncommitted"
-
-### ESSENTIEL Antwerp (0068V0000113peWQAQ)
-Unmatched changes:
-- nextStep: "4/03 BR RFP has landed and Im speaking to each agency (7) to get a sense check. Timelines on RFP indicate build to start in April" → "10/03 BR RFP due on 16th. Section by 24th Start in April"
-
-### Mint Velvet (006OG00000JUPVtYAP)
-Unmatched changes:
-- nextStep: "4/03 BR BAFO sent and awaiting feedback to close win. Next Board meeting 11/03" → "10/03 BR Agreed pricing and project plan. Board needs final approval on the 16th before I can close win"
-
-### Direct Wines Limited (006OG00000G28JdYAJ)
-Unmatched changes:
-- nextStep: "4/03 BR Board meeting on 26th was really positive. Clear appetite to consolidate their architecture even further. Fuse are presenting a revised brand consolidation proposal on 6th to be reviewed by merchant on 12th SLT meeting" → "10/03 BR Fuse presenting consolodation prop to SLT tomorrow 11th. We will then have to work on BAFO before baord decision on 24th"
-
-### Bugaboo International B.V (006OG00000Dh2YXYAZ)
-Unmatched changes:
-- nextStep: "23/02 BR Call with Jordan. He is working through biz case but biggest aspect is going to be the SP since we will not approve Adyen. Agency decision in March. SP call schedulled for 11th March" → "10/03 BR Chaser sent to project team for SP call and next steps"
-
-### TRINNY LONDON (006OG00000JMQ91YAH)
-Unmatched changes:
-- nextStep: "06/03 MF: Awaiting responses on final request from rates team and legal team. Looking to sign on March 9th." → "10/03 MF: Contract and LOI sent for signature"
-- projectedBilledRevenue: "1184353.82" → "1146238.5"
-- revenue.totalRev3yr: "4495312.5" → "4345312.5"
-
-### axminstertools.com (006OG00000KqnifYAB)
-Unmatched changes:
-- closeDate: "2026-03-31" → "2026-06-30"
-- nextStep: "06/03 MF: Wants to make a decision in March. Going to see Swanky" → "10/03 MF: Merchant setting up a meeting with Swanky. Timelines slightly delayed."
+- closeDate: "2026-03-13" → "2026-03-31"
 

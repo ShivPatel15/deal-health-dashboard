@@ -1,0 +1,124 @@
+{
+  "date": "2026-03-12",
+  "started": "2026-03-12T08:11:26.080Z",
+  "finished": "2026-03-12T08:12:37.528Z",
+  "totalOpportunities": 18,
+  "processed": 18,
+  "results": {
+    "0068V0000113rSIQAY": {
+      "accountName": "Moda in Pelle",
+      "status": "sf-only",
+      "details": "Close date pushed 2026-03-13 to 2026-03-31",
+      "timestamp": "2026-03-12T08:11:26.080Z"
+    },
+    "006OG00000GJ5IvYAL": {
+      "accountName": "The Dune Group",
+      "status": "new-calls",
+      "details": "1 new call (POS Demo Mar 9, 90min). Score 38.5->40/54. +4 stakeholders, +5 MAP items, +4 deal risks",
+      "timestamp": "2026-03-12T08:11:26.133Z"
+    },
+    "006OG00000EZIy6YAH": {
+      "accountName": "Whittard of Chelsea",
+      "status": "no-change",
+      "details": "No SF changes, no new calls",
+      "timestamp": "2026-03-12T08:11:36.888Z"
+    },
+    "006OG00000CRabaYAD": {
+      "accountName": "Mulberry Company (Sales) Limited",
+      "status": "no-change",
+      "details": "No SF changes, no new calls",
+      "timestamp": "2026-03-12T08:11:36.941Z"
+    },
+    "006OG00000HnVs8YAF": {
+      "accountName": "Wacoal Europe",
+      "status": "no-change",
+      "details": "No SF changes, no new calls",
+      "timestamp": "2026-03-12T08:11:36.987Z"
+    },
+    "006OG00000HtxKFYAZ": {
+      "accountName": "Sofa.Com Ltd",
+      "status": "no-change",
+      "details": "No SF changes, no new calls",
+      "timestamp": "2026-03-12T08:11:37.034Z"
+    },
+    "0068V0000113peWQAQ": {
+      "accountName": "ESSENTIEL Antwerp",
+      "status": "no-change",
+      "details": "No SF changes, no new calls",
+      "timestamp": "2026-03-12T08:11:37.089Z"
+    },
+    "006OG00000JUPVtYAP": {
+      "accountName": "Mint Velvet",
+      "status": "no-change",
+      "details": "No SF changes, no new calls",
+      "timestamp": "2026-03-12T08:11:37.137Z"
+    },
+    "006OG00000FHHAHYA5": {
+      "accountName": "OLIVER BONAS LIMITED",
+      "status": "no-change",
+      "details": "No SF changes, no new calls",
+      "timestamp": "2026-03-12T08:11:37.189Z"
+    },
+    "006OG00000Fbj8nYAB": {
+      "accountName": "Cycle King & Hawk",
+      "status": "no-change",
+      "details": "No SF changes, no new calls",
+      "timestamp": "2026-03-12T08:11:37.238Z"
+    },
+    "006OG00000G28JdYAJ": {
+      "accountName": "Direct Wines Limited",
+      "status": "no-change",
+      "details": "No SF changes, no new calls",
+      "timestamp": "2026-03-12T08:11:37.288Z"
+    },
+    "006OG00000FYX8zYAH": {
+      "accountName": "Hawes & Curtis Limited",
+      "status": "no-change",
+      "details": "No SF changes, no new calls",
+      "timestamp": "2026-03-12T08:11:37.338Z"
+    },
+    "006OG00000Dh2YXYAZ": {
+      "accountName": "Bugaboo International B.V",
+      "status": "no-change",
+      "details": "No SF changes, no new calls",
+      "timestamp": "2026-03-12T08:11:37.389Z"
+    },
+    "006OG00000KW83lYAD": {
+      "accountName": "C.P. Hart & Sons Limited",
+      "status": "no-change",
+      "details": "No SF changes, no new calls",
+      "timestamp": "2026-03-12T08:11:37.439Z"
+    },
+    "006OG00000JMQ91YAH": {
+      "accountName": "TRINNY LONDON",
+      "status": "no-change",
+      "details": "No SF changes, no new calls",
+      "timestamp": "2026-03-12T08:11:37.488Z"
+    },
+    "006OG00000KOC4YYAX": {
+      "accountName": "Moss Bros. Group Ltd",
+      "status": "no-change",
+      "details": "No SF changes, no new calls",
+      "timestamp": "2026-03-12T08:11:37.537Z"
+    },
+    "006OG00000J4JtxYAF": {
+      "accountName": "Vision Healthcare",
+      "status": "no-change",
+      "details": "No SF changes, no new calls",
+      "timestamp": "2026-03-12T08:11:37.587Z"
+    },
+    "006OG00000KqnifYAB": {
+      "accountName": "axminstertools.com",
+      "status": "no-change",
+      "details": "No SF changes, no new calls",
+      "timestamp": "2026-03-12T08:11:37.637Z"
+    }
+  },
+  "summary": {
+    "noChange": 16,
+    "sfOnly": 1,
+    "newCalls": 1,
+    "errors": 0,
+    "skipped": 0
+  }
+}

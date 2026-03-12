@@ -1,0 +1,54 @@
+{
+  "opportunityId": "006OG00000GJ5IvYAL",
+  "accountName": "The Dune Group",
+  "source": "incremental-meddpicc-2026-03-12",
+  "scoreAdjustments": [
+    {"section": "decisionCriteria", "questionIndex": 2, "currentAnswer": "Partial", "recommendedAnswer": "Yes", "reason": "Technical complications now fully surfaced: OneStock integration, GiveX gift cards, ERP product data, ~20K styles with variants, multi-currency catalogs. All addressed in POS demo."},
+    {"section": "decisionProcess", "questionIndex": 1, "currentAnswer": "Partial", "recommendedAnswer": "Yes", "reason": "Buying committee now well-defined: Andy Grainger (CTO) designated Mick Burfoot as project lead. Full technical team identified and engaged."},
+    {"section": "identifyPain", "questionIndex": 3, "currentAnswer": "Partial", "recommendedAnswer": "Yes", "reason": "Affected teams now fully mapped: Business systems team articulated specific pain across POS/eCom/integration/permissions. Store ops across 55+ stores in UK/Ireland/outlets affected."},
+    {"section": "champion", "questionIndex": 4, "currentAnswer": "No", "recommendedAnswer": "Partial", "reason": "While CEO not directly engaged, CTO Andy designated project lead, full tech team engaged. Martin bridging to decision-making structure. Indirect but meaningful progress."}
+  ],
+  "narrativeAdditions": {
+    "oppSummary": "As of March 9, the deal has progressed from executive-level evaluation to active technical validation. Andy Grainger (CTO) has formally designated Mick Burfoot as project lead, and a full 4-person technical team (Mick, Mark, Ryan, Ian) is now deeply engaged. Martin Wareing is transitioning from active evaluator to executive sponsor/observer role. The team is requesting immediate test system access to begin integration work, signaling transition from evaluation to implementation planning.",
+    "whyChange": "March 9 POS demo revealed additional pain points: Dune stopped selling gift cards after migrating to SFCC — lost revenue stream they want to restore. Separate refund systems across channels create operational friction. Current Anakta POS lacks granular user permissions the team needs ('we are control freaks'). ~20,000 product styles with complex variant matrices require delta feeds throughout the day — current integration architecture is fragile.",
+    "whyShopify": "March 9 POS demo validated Shopify's fit on critical requirements: single admin managing UK/Ireland/outlet stores with separate currencies and catalogs (positively received), native GiveX integration enabling gift card sales restart, OneStock confirmed as Shopify partner, granular RBAC permissions matching their control requirements, and unified returns processing across channels. The technical team's reaction was constructive and engaged — no blockers raised.",
+    "whyNow": "Urgency escalated in March 9 call. Mick stated multiple times 'we need to crack on' and referenced time constraints. The team's request for immediate test system access signals they're operating under real deadline pressure. Transition from evaluation to hands-on testing indicates the deal is moving from decision phase to implementation planning.",
+    "supportNeeded": "New from March 9: Immediate test system access for Mick and Ryan to evaluate integration capabilities. Technical enablement for business systems team. API docs for product data feeds, delta stock updates, ERP integration. GiveX integration setup guidance. Hardware demo still needs rescheduling."
+  },
+  "newCall": {
+    "title": "Dune <> Shopify POS Demo",
+    "date": "2026-03-09",
+    "duration": "90 min",
+    "platform": "Google Meet",
+    "attendees": {
+      "shopify": ["Adriana Colacicco (AE)", "Sarah Berelowitz (SE)"],
+      "merchant": ["Mick Burfoot (BSA, Project Lead)", "Mark Hawes (Principal Developer)", "Ryan O'Hara (BSA)", "Ian (Software Developer)", "Martin Wareing (Head of IT)"]
+    },
+    "summary": "Full POS demo covering unified selling, multi-currency/multi-catalog (UK/Ireland/outlet), returns, permissions, integrations (OneStock, GiveX, ERP). Technical team highly engaged with no blockers. Urgent request for test system access to begin integration evaluation.",
+    "eventId": "5tq5ftn6icq0klbmvj4ggttta2"
+  },
+  "newActionItems": [
+    {"text": "Provision test system access (D-shoes store) for Mick Burfoot and Ryan O'Hara", "owner": "Shopify", "dueDate": "2026-03-11", "section": "decisionCriteria"},
+    {"text": "Provide API documentation for product data feeds, delta stock updates, and ERP integration patterns", "owner": "Shopify", "dueDate": "2026-03-14", "section": "decisionCriteria"},
+    {"text": "Share GiveX integration documentation with Mark Hawes", "owner": "Shopify", "dueDate": "2026-03-14", "section": "decisionCriteria"},
+    {"text": "Load product data (~20K styles with variants) into test system", "owner": "Merchant", "dueDate": "2026-03-21", "section": "decisionCriteria"},
+    {"text": "Follow up on budget sign-off status with Martin — has Nigel approved?", "owner": "Shopify", "dueDate": "2026-03-14", "section": "economicBuyer"},
+    {"text": "Reschedule hardware demo (still outstanding)", "owner": "Shopify", "dueDate": "2026-03-17", "section": "decisionCriteria"}
+  ],
+  "resolvedActionItems": [
+    "Reschedule POS demo — completed March 9 with full technical team"
+  ],
+  "newStakeholders": [
+    {"name": "Mick Burfoot", "title": "Business Systems Analyst", "role": "Project Lead (designated by CTO). 4th POS installation — experienced evaluator.", "engagement": "high"},
+    {"name": "Mark Hawes", "title": "Principal Developer", "role": "Technical lead for integrations (Salesforce, ACT, OneStock, ERP).", "engagement": "high"},
+    {"name": "Ryan O'Hara", "title": "Business Systems Analyst", "role": "BSA supporting Mick. Prior Anakta POS installation experience.", "engagement": "high"},
+    {"name": "Ian", "title": "Software Developer", "role": "Developer supporting integration projects.", "engagement": "medium"}
+  ],
+  "newMAPItems": [
+    {"milestone": "Test system access provisioned for Mick and Ryan", "owner": "Shopify", "targetDate": "2026-03-11", "status": "in-progress"},
+    {"milestone": "Product data loaded into test environment (~20K styles)", "owner": "Merchant", "targetDate": "2026-03-21", "status": "not-started"},
+    {"milestone": "Integration testing complete (OneStock, GiveX, ERP)", "owner": "Joint", "targetDate": "2026-03-28", "status": "not-started"},
+    {"milestone": "Hardware demo and POS device evaluation", "owner": "Shopify", "targetDate": "2026-03-17", "status": "not-started"},
+    {"milestone": "Budget sign-off confirmed by Nigel Darwin", "owner": "Merchant", "targetDate": "2026-03-14", "status": "in-progress"}
+  ]
+}

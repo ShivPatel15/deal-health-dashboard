@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-03-11T08:10:33.271Z",
+  "generatedAt": "2026-03-12T08:13:01.259Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -17,13 +17,13 @@ const DEAL_DATA = {
       "owner": "Adriana Colacicco",
       "ownerEmail": "adriana.colacicco@shopify.com",
       "stage": "Deal Craft",
-      "closeDate": "2026-03-13",
+      "closeDate": "2026-03-31",
       "forecastCategory": "Commit",
       "probability": 80,
       "merchantIntent": "Uncommitted",
       "type": "New Business",
       "created": "2024-07-19",
-      "lastAnalysisDate": "2026-03-10",
+      "lastAnalysisDate": "2026-03-12",
       "revenue": {
         "mcv": 75900,
         "totalRev3yr": 1039799,
@@ -1312,6 +1312,23 @@ const DEAL_DATA = {
             "Decision Process: declined (3 → 2.5)",
             "Champion: declined (3.5 → 1.5)"
           ]
+        },
+        {
+          "date": "2026-03-12",
+          "totalScore": 27.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 2.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 2,
+            "Identify Pain": 6.5,
+            "Champion": 1.5,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -1614,7 +1631,7 @@ const DEAL_DATA = {
           "mapProgress": "0/21"
         },
         {
-          "date": "2026-03-11",
+          "date": "2026-03-12",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -2837,6 +2854,23 @@ const DEAL_DATA = {
             "Decision Process: improved (4.5 → 5)",
             "Paper Process: improved (1 → 4)"
           ]
+        },
+        {
+          "date": "2026-03-12",
+          "totalScore": 40,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 6,
+            "Economic Buyer": 4.5,
+            "Decision Process": 5,
+            "Decision Criteria": 4,
+            "Paper Process": 4,
+            "Identify Pain": 7,
+            "Champion": 6.5,
+            "Competition": 3
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -3170,7 +3204,7 @@ const DEAL_DATA = {
           "mapProgress": "0/25"
         },
         {
-          "date": "2026-03-11",
+          "date": "2026-03-12",
           "sections": {
             "Metrics": {
               "score": 6,
@@ -3230,7 +3264,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed",
       "type": "New Business",
       "created": "2025-08-19",
-      "lastAnalysisDate": "2026-03-10",
+      "lastAnalysisDate": "2026-03-12",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 4269146.5,
@@ -3254,11 +3288,11 @@ const DEAL_DATA = {
       "compellingEvent": "SFCC licensing expires February 2026 — hard contractual deadline, verified across multiple calls. Not a soft preference. Combined with high TCO and operational frustration, doing nothing means renewing a platform they're actively trying to leave.",
       "nextStep": "06.03, POS demo 09.03 , Andy asked payments, and integration points in detail. Martin confirmed They're very close to getting budged signed off \"any day now\"",
       "narrative": {
-        "oppSummary": "The Dune Group is a UK fashion footwear retailer with 55+ stores evaluating a full-platform migration from Salesforce Commerce Cloud + Anakta POS to Shopify Plus with POS Pro and Retail Payments. The deal is valued at $82,800 MCV with $4.27M in 3-year total revenue and is in Deal Craft stage at 80% probability. Martin Wareing (Head of IT) confirmed budget sign-off is imminent. The SFCC license expiring in February 2026 creates a hard compelling event, and SI partner Tryzens actively recommended Shopify.",
-        "whyChange": "Dune is on Salesforce Commerce Cloud for eCommerce and Anakta for in-store POS, creating significant operational friction. All changes must go through Tryzens in monthly sprints — no in-house control. Martin described having to 'mold ways of working to the platform.' Anakta POS adds complexity around payment gateway management and reconciliation. TCO is high across both stacks, and with SFCC licensing expiring Feb 2026, they face an inflection point: renew an expensive, inflexible stack or migrate.",
-        "whyShopify": "Unified eCom + POS on a single platform replacing two systems (SFCC + Anakta). Martin excited about in-house control rather than agency dependency. TCO comparison showed meaningful savings. 2-hour demo drew 'very complimentary' feedback. Integrated payments eliminate Anakta gateway complexity. Tryzens — their trusted SI partner — recommended Shopify. Martin asked 'What's the playbook?' showing confidence in Shopify's migration expertise. No competitors in evaluation.",
-        "whyNow": "SFCC licensing expires February 2026 — a hard contractual deadline. Must either renew or migrate. High TCO makes status quo untenable. Martin targeted end-of-January for contract signature, and as of Feb 19, budget sign-off is 'any day now.' Proposed May 1, 2026 launch creates back-pressure on decision timeline.",
-        "supportNeeded": "1) Budget sign-off facilitation — Martin's only concern is internal budget cuts. May need exec-level ROI justification. 2) Monthly invoicing accommodation (non-standard, Martin requested, Shopify pursuing internally). 3) Reschedule cancelled Feb 19 hardware demo. 4) CEO engagement — Nigel Darwin is signatory but has zero Shopify contact. 5) Tryzens SOW finalization. 6) Confirm 'store' definition and contract terms."
+        "oppSummary": "The Dune Group is a UK fashion footwear retailer with 55+ stores evaluating a full-platform migration from Salesforce Commerce Cloud + Anakta POS to Shopify Plus with POS Pro and Retail Payments. The deal is valued at $82,800 MCV with $4.27M in 3-year total revenue and is in Deal Craft stage at 80% probability. Martin Wareing (Head of IT) confirmed budget sign-off is imminent. The SFCC license expiring in February 2026 creates a hard compelling event, and SI partner Tryzens actively recommended Shopify. As of March 9, the deal has progressed from executive-level evaluation to active technical validation. CTO Andy Grainger has formally designated Mick Burfoot as project lead, and a 4-person technical team is now deeply engaged. Martin Wareing is transitioning to executive sponsor role. The team's urgent request for test system access signals transition from evaluation to implementation planning.",
+        "whyChange": "Dune is on Salesforce Commerce Cloud for eCommerce and Anakta for in-store POS, creating significant operational friction. All changes must go through Tryzens in monthly sprints — no in-house control. Martin described having to 'mold ways of working to the platform.' Anakta POS adds complexity around payment gateway management and reconciliation. TCO is high across both stacks, and with SFCC licensing expiring Feb 2026, they face an inflection point: renew an expensive, inflexible stack or migrate. March 9 POS demo revealed additional pain: Dune stopped selling gift cards after SFCC migration (lost revenue stream), separate refund systems across channels, Anakta POS lacks granular permissions, and ~20K product styles require fragile delta feed architecture.",
+        "whyShopify": "Unified eCom + POS on a single platform replacing two systems (SFCC + Anakta). Martin excited about in-house control rather than agency dependency. TCO comparison showed meaningful savings. 2-hour demo drew 'very complimentary' feedback. Integrated payments eliminate Anakta gateway complexity. Tryzens — their trusted SI partner — recommended Shopify. Martin asked 'What's the playbook?' showing confidence in Shopify's migration expertise. No competitors in evaluation. March 9 POS demo validated fit on critical requirements: single admin for UK/Ireland/outlet with separate currencies and catalogs, native GiveX integration, OneStock as Shopify partner, granular RBAC, and unified returns. Technical team's reaction was constructive with no blockers.",
+        "whyNow": "SFCC licensing expires February 2026 — a hard contractual deadline. Must either renew or migrate. High TCO makes status quo untenable. Martin targeted end-of-January for contract signature, and as of Feb 19, budget sign-off is 'any day now.' Proposed May 1, 2026 launch creates back-pressure on decision timeline. Urgency escalated March 9. Mick stated multiple times they need to move fast. Request for immediate test system access signals real deadline pressure. Deal transitioning from decision to implementation planning.",
+        "supportNeeded": "1) Budget sign-off facilitation — Martin's only concern is internal budget cuts. May need exec-level ROI justification. 2) Monthly invoicing accommodation (non-standard, Martin requested, Shopify pursuing internally). 3) Reschedule cancelled Feb 19 hardware demo. 4) CEO engagement — Nigel Darwin is signatory but has zero Shopify contact. 5) Tryzens SOW finalization. 6) Confirm 'store' definition and contract terms. New from March 9: Immediate test system access for Mick and Ryan. Technical enablement for business systems team. API docs for product data feeds, delta stock updates, ERP integration. GiveX integration guidance. Hardware demo still needs rescheduling."
       },
       "meddpicc": {
         "metrics": {
@@ -3416,9 +3450,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we know who's involved / buying committee?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "Martin, Nigel, Andy, Cheryl Lee, Kyle Williams, Haris Majid known. Full committee (CFO, COO, Head of Retail?) not confirmed.",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Buying committee well-defined: Andy Grainger (CTO) designated Mick Burfoot as project lead. Full tech team identified: Mick (BSA/lead), Mark (dev), Ryan (BSA), Ian (dev).",
               "solution": "Confirm full buying committee.",
               "action": "Ask: 'Besides you and Nigel, who else could approve or block?'",
               "due": "02/22/2026",
@@ -3503,7 +3537,7 @@ const DEAL_DATA = {
               "q": "Have we surfaced technical complications (integrations)?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Hardware compatibility detailed. Migration sequencing explored. Broader integrations (ERP, OMS, loyalty) not evident in calls. | [2026-03-03 auto] Andy asking about payments and integration explicitly — technical integrations surfaced.",
+              "notes": "Technical complications now fully surfaced in Mar 9 POS demo: OneStock integration, GiveX gift cards, ERP product data, ~20K styles with variants, multi-currency catalogs. All addressed.",
               "solution": "Ensure all integrations mapped.",
               "action": "Confirm with Martin/Tryzens that all integration touchpoints are in SOW.",
               "due": "02/28/2026",
@@ -3661,9 +3695,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we know what teams are affected and to what extent?",
-              "answer": "Partial",
-              "score": 0.5,
-              "notes": "IT team deeply engaged. Finance involved. Retail ops across 55+ stores affected. Marketing/merchandising impact not documented.",
+              "answer": "Yes",
+              "score": 1,
+              "notes": "Affected teams fully mapped in Mar 9 call: Business systems team articulated specific pain across POS/eCom/integration/permissions. Store ops across 55+ UK/Ireland/outlet stores affected.",
               "solution": "Map broader team impact.",
               "action": "Map all affected teams during implementation planning.",
               "due": "03/10/2026",
@@ -3756,9 +3790,9 @@ const DEAL_DATA = {
             },
             {
               "q": "Have you been introduced to the decision maker?",
-              "answer": "No",
-              "score": 0,
-              "notes": "Nigel Darwin (CEO/Signatory) not in any calls. All engagement through Martin and operational stakeholders.",
+              "answer": "Partial",
+              "score": 0.5,
+              "notes": "CEO not directly engaged but CTO Andy designated project lead, full tech team engaged. Martin bridging to decision structure. Indirect but meaningful progress toward buying group.",
               "solution": "Request executive alignment touchpoint.",
               "action": "Ask Martin for 15-min intro to Nigel to confirm Shopify exec commitment.",
               "due": "02/25/2026",
@@ -3854,9 +3888,9 @@ const DEAL_DATA = {
           "pct": 58
         },
         "Decision Process": {
-          "score": 4.5,
+          "score": 5,
           "max": 7,
-          "pct": 64
+          "pct": 71
         },
         "Decision Criteria": {
           "score": 5.5,
@@ -3869,14 +3903,14 @@ const DEAL_DATA = {
           "pct": 57
         },
         "Identify Pain": {
-          "score": 6,
+          "score": 6.5,
           "max": 8,
-          "pct": 75
+          "pct": 81
         },
         "Champion": {
-          "score": 5.5,
+          "score": 6,
           "max": 7,
-          "pct": 79
+          "pct": 86
         },
         "Competition": {
           "score": 4,
@@ -3884,9 +3918,9 @@ const DEAL_DATA = {
           "pct": 80
         },
         "_total": {
-          "score": 38.5,
+          "score": 40,
           "max": 54,
-          "pct": 71,
+          "pct": 74,
           "status": "on-track"
         }
       },
@@ -3943,117 +3977,103 @@ const DEAL_DATA = {
         {
           "p": 8,
           "cat": "Decision Process",
-          "issue": "Martin, Nigel, Andy, Cheryl Lee, Kyle Williams, Haris Majid known. Full committee (CFO, COO, Head of Retail?) not confirmed.",
-          "rec": "Ask: 'Besides you and Nigel, who else could approve or block?'",
-          "due": "02/22/2026"
-        },
-        {
-          "p": 9,
-          "cat": "Decision Process",
           "issue": "No evidence of previous migration attempts or alternative evaluations.",
           "rec": "Ask: 'Have you looked at migrating before?'",
           "due": "02/28/2026"
         },
         {
-          "p": 10,
+          "p": 9,
           "cat": "Decision Process",
           "issue": "Martin transparent about timeline but full process not formally validated. No documented MAP.",
           "rec": "Ask: 'Once budget approved, what remains before you can sign?'",
           "due": "02/22/2026"
         },
         {
-          "p": 11,
+          "p": 10,
           "cat": "Decision Criteria",
           "issue": "Key criteria known: in-house control, unified eCom+POS, TCO reduction, migration playbook, hardware compat, payments. No formal evaluation doc.",
           "rec": "Ask if there's a formal requirements document.",
           "due": "02/25/2026"
         },
         {
-          "p": 12,
+          "p": 11,
           "cat": "Decision Criteria",
           "issue": "De facto plan exists (hardware demo, SOW, budget, signature, May launch) but no formal documented MAP.",
           "rec": "Draft joint timeline: budget → signature → SOW → hardware → migration → May 1.",
           "due": "02/25/2026"
         },
         {
-          "p": 13,
+          "p": 12,
           "cat": "Decision Criteria",
           "issue": "Martin defines technical/operational criteria. Finance likely defines cost criteria. CEO criteria unknown.",
           "rec": "When engaging Nigel, ask about additional requirements.",
           "due": "03/03/2026"
         },
         {
-          "p": 14,
+          "p": 13,
           "cat": "Paper Process",
           "issue": "Budget approval required, Nigel signs, contract terms discussed. Formal procurement steps (legal, PO) not mapped.",
           "rec": "Ask: 'Does contract go through legal/procurement before Nigel signs?'",
           "due": "02/22/2026"
         },
         {
-          "p": 15,
+          "p": 14,
           "cat": "Paper Process",
           "issue": "Martin raised monthly invoicing (non-standard), 'store' definition, SP integration. Could become redline items.",
           "rec": "Confirm monthly invoicing internally. Prepare responses.",
           "due": "02/22/2026"
         },
         {
-          "p": 16,
+          "p": 15,
           "cat": "Paper Process",
           "issue": "No information on Dune's legal/contract review duration.",
           "rec": "Ask: 'How long does your legal review typically take?'",
           "due": "02/22/2026"
         },
         {
-          "p": 17,
+          "p": 16,
           "cat": "Paper Process",
           "issue": "Martin targeted end-Jan. Now Feb 19, budget not yet signed. ~3 week slippage. Delay is budget, not contract process.",
           "rec": "Validate close date once budget is approved.",
           "due": "02/22/2026"
         },
         {
-          "p": 18,
+          "p": 17,
           "cat": "Paper Process",
           "issue": "Terms discussed in detail. Martin has commercial documentation. Unclear if formal contract sent for signature.",
           "rec": "Verify if formal contract has been sent or is ready to send.",
           "due": "02/22/2026"
         },
         {
-          "p": 19,
+          "p": 18,
           "cat": "Identify Pain",
           "issue": "No evidence of previous migration attempts.",
           "rec": "Ask Martin if this was considered before.",
           "due": "02/28/2026"
         },
         {
-          "p": 20,
-          "cat": "Identify Pain",
-          "issue": "IT team deeply engaged. Finance involved. Retail ops across 55+ stores affected. Marketing/merchandising impact not documented.",
-          "rec": "Map all affected teams during implementation planning.",
-          "due": "03/10/2026"
-        },
-        {
-          "p": 21,
+          "p": 19,
           "cat": "Identify Pain",
           "issue": "No competitor identified. Could renew SFCC or evaluate others. Tryzens specifically recommended Shopify.",
           "rec": "Validate with Martin no other platforms being evaluated.",
           "due": "02/25/2026"
         },
         {
-          "p": 22,
+          "p": 20,
           "cat": "Champion",
-          "issue": "Nigel Darwin (CEO/Signatory) not in any calls. All engagement through Martin and operational stakeholders.",
+          "issue": "CEO not directly engaged but CTO Andy designated project lead, full tech team engaged. Martin bridging to decision structure. Indirect but meaningful progress toward buying group.",
           "rec": "Ask Martin for 15-min intro to Nigel to confirm Shopify exec commitment.",
           "due": "02/25/2026"
         },
         {
-          "p": 23,
+          "p": 21,
           "cat": "Champion",
           "issue": "Martin brought finance and IT team into discussions. But no direct CEO engagement facilitated yet.",
           "rec": "Frame as exec alignment: 'Shopify leadership committed to Dune's success.'",
           "due": "02/25/2026"
         },
         {
-          "p": 24,
+          "p": 22,
           "cat": "Competition",
           "issue": "SFCC renewal is the internal alternative. Unknown if anyone advocates for staying. Budget cuts could force it.",
           "rec": "Ask: 'Is anyone internally advocating for renewing SFCC?'",
@@ -4105,6 +4125,30 @@ const DEAL_DATA = {
           "engagement": "medium",
           "callsAttended": 1,
           "callsInvited": 1
+        },
+        {
+          "name": "Mick Burfoot",
+          "title": "Business Systems Analyst",
+          "role": "Project Lead (designated by CTO). 4th POS installation — experienced evaluator.",
+          "engagement": "high"
+        },
+        {
+          "name": "Mark Hawes",
+          "title": "Principal Developer",
+          "role": "Technical lead for integrations (Salesforce, ACT, OneStock, ERP).",
+          "engagement": "high"
+        },
+        {
+          "name": "Ryan O'Hara",
+          "title": "Business Systems Analyst",
+          "role": "BSA supporting Mick. Prior Anakta POS installation experience.",
+          "engagement": "high"
+        },
+        {
+          "name": "Ian",
+          "title": "Software Developer",
+          "role": "Developer supporting integration projects.",
+          "engagement": "medium"
         }
       ],
       "shopifyTeam": [
@@ -4268,6 +4312,25 @@ const DEAL_DATA = {
           ],
           "summary": "No transcript or AI summary available for this call.",
           "transcript": null
+        },
+        {
+          "title": "Dune <> Shopify POS Demo",
+          "date": "2026-03-09",
+          "duration": "90 min",
+          "platform": "Google Meet",
+          "shopifyAttendees": [
+            "Adriana Colacicco",
+            "Sarah Berelowitz"
+          ],
+          "merchantAttendees": [
+            "Mick Burfoot",
+            "Mark Hawes",
+            "Ryan O'Hara",
+            "Ian",
+            "Martin Wareing"
+          ],
+          "summary": "Full POS demo covering unified selling, multi-currency/multi-catalog, returns, permissions, integrations (OneStock, GiveX, ERP). Technical team highly engaged, no blockers. Urgent request for test system access.",
+          "eventId": "5tq5ftn6icq0klbmvj4ggttta2"
         }
       ],
       "history": [
@@ -4517,32 +4580,49 @@ const DEAL_DATA = {
             "Competition": 4
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-12",
+          "totalScore": 40,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3.5,
+            "Decision Process": 5,
+            "Decision Criteria": 5.5,
+            "Paper Process": 4,
+            "Identify Pain": 6.5,
+            "Champion": 6,
+            "Competition": 4
+          },
+          "changes": [
+            "Score improved by 1.5 points",
+            "Decision Process: improved (4.5 → 5)",
+            "Identify Pain: improved (6 → 6.5)",
+            "Champion: improved (5.5 → 6)"
+          ]
         }
       ],
       "dealRisks": [
         {
-          "risk": "TIMELINE RISK: Close date slipped 1 month (Feb 27 → Mar 30) while next step still reads 'budget signed off any day now' — language unchanged despite delay.",
+          "risk": "CEO Nigel Darwin still has zero Shopify engagement — contract signatory with no direct relationship. Risk of last-minute objections or delays at signature.",
           "severity": "high",
-          "category": "timeline"
+          "category": "stakeholder"
         },
         {
-          "risk": "EXECUTION RISK: 17 action items overdue from Feb 22–25. Critical discovery, decision process, legal/procurement, and champion intro tasks remain unexecuted.",
-          "severity": "high",
-          "category": "execution"
-        },
-        {
-          "risk": "CHAMPION RISK: Multiple requests to introduce Nigel (EB) remain overdue. Deal validation is single-threaded through Martin.",
-          "severity": "high",
-          "category": "champion"
-        },
-        {
-          "risk": "PAPER PROCESS RISK: No evidence that procurement, legal review timelines, or contract details have been discussed. Paper process must start by early March.",
+          "risk": "Test system access not yet provisioned — Mick and Ryan urgently need hands-on access. Delay risks losing momentum from highly positive POS demo.",
           "severity": "medium",
           "category": "timeline"
         },
         {
-          "risk": "CREDIBILITY RISK: 'Any day now' on budget has persisted through a close date slip. If budget isn't confirmed within 1–2 weeks, Mar 30 is also at risk.",
+          "risk": "Hardware demo still not rescheduled — originally cancelled Feb 19. Physical POS device evaluation is a prerequisite for store rollout planning.",
           "severity": "medium",
+          "category": "technical"
+        },
+        {
+          "risk": "Budget sign-off still pending ('any day now' since Feb 19) — 3+ weeks of delay suggests internal friction or competing priorities.",
+          "severity": "high",
           "category": "commercial"
         }
       ],
@@ -4749,6 +4829,46 @@ const DEAL_DATA = {
             "notes": "Multiple overdue asks. Critical for multi-threading."
           },
           {
+            "date": "2026-03-11",
+            "done": false,
+            "milestone": "Test system access provisioned for Mick and Ryan",
+            "ownerMerchant": "",
+            "ownerShopify": "Adriana Colacicco",
+            "notes": ""
+          },
+          {
+            "date": "2026-03-21",
+            "done": false,
+            "milestone": "Product data loaded into test environment (~20K styles)",
+            "ownerMerchant": "",
+            "ownerShopify": "Merchant (Mark Hawes)",
+            "notes": ""
+          },
+          {
+            "date": "2026-03-28",
+            "done": false,
+            "milestone": "Integration testing complete (OneStock, GiveX, ERP)",
+            "ownerMerchant": "",
+            "ownerShopify": "Joint",
+            "notes": ""
+          },
+          {
+            "date": "2026-03-17",
+            "done": false,
+            "milestone": "Hardware demo and POS device evaluation",
+            "ownerMerchant": "",
+            "ownerShopify": "Sarah Berelowitz",
+            "notes": ""
+          },
+          {
+            "date": "2026-03-14",
+            "done": false,
+            "milestone": "Budget sign-off confirmed by Nigel Darwin",
+            "ownerMerchant": "",
+            "ownerShopify": "Merchant (Martin Wareing)",
+            "notes": ""
+          },
+          {
             "date": "",
             "done": false,
             "milestone": "Contract signed ✍️",
@@ -4829,7 +4949,7 @@ const DEAL_DATA = {
           "mapProgress": "0/21"
         },
         {
-          "date": "2026-03-11",
+          "date": "2026-03-12",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -4842,9 +4962,9 @@ const DEAL_DATA = {
               "pct": 58
             },
             "Decision Process": {
-              "score": 4.5,
+              "score": 5,
               "max": 7,
-              "pct": 64
+              "pct": 71
             },
             "Decision Criteria": {
               "score": 5.5,
@@ -4857,14 +4977,14 @@ const DEAL_DATA = {
               "pct": 57
             },
             "Identify Pain": {
-              "score": 6,
+              "score": 6.5,
               "max": 8,
-              "pct": 75
+              "pct": 81
             },
             "Champion": {
-              "score": 5.5,
+              "score": 6,
               "max": 7,
-              "pct": 79
+              "pct": 86
             },
             "Competition": {
               "score": 4,
@@ -6258,6 +6378,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-12",
+          "totalScore": 34.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 4.5,
+            "Identify Pain": 6.5,
+            "Champion": 4,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -6518,7 +6655,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-03-11",
+          "date": "2026-03-12",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -7775,6 +7912,23 @@ const DEAL_DATA = {
             "Competition": 4.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-12",
+          "totalScore": 45,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 6,
+            "Economic Buyer": 4,
+            "Decision Process": 7,
+            "Decision Criteria": 5,
+            "Paper Process": 6,
+            "Identify Pain": 7,
+            "Champion": 5.5,
+            "Competition": 4.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -8087,7 +8241,7 @@ const DEAL_DATA = {
           "mapProgress": "0/21"
         },
         {
-          "date": "2026-03-11",
+          "date": "2026-03-12",
           "sections": {
             "Metrics": {
               "score": 6,
@@ -9378,6 +9532,23 @@ const DEAL_DATA = {
             "Competition": 3.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-12",
+          "totalScore": 29,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 4.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 3.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 3,
+            "Identify Pain": 4,
+            "Champion": 4.5,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -9640,7 +9811,7 @@ const DEAL_DATA = {
           "mapProgress": "0/18"
         },
         {
-          "date": "2026-03-11",
+          "date": "2026-03-12",
           "sections": {
             "Metrics": {
               "score": 4.5,
@@ -10977,6 +11148,23 @@ const DEAL_DATA = {
             "Score improved by 1 points",
             "Decision Process: improved (4.5 → 5.5)"
           ]
+        },
+        {
+          "date": "2026-03-12",
+          "totalScore": 32,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 4.5,
+            "Decision Process": 5.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 6,
+            "Champion": 4.5,
+            "Competition": 2
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -11283,7 +11471,7 @@ const DEAL_DATA = {
           "mapProgress": "0/21"
         },
         {
-          "date": "2026-03-11",
+          "date": "2026-03-12",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -12603,6 +12791,23 @@ const DEAL_DATA = {
             "Decision Process: improved (4 → 5)",
             "Paper Process: improved (1 → 2)"
           ]
+        },
+        {
+          "date": "2026-03-12",
+          "totalScore": 34,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 3,
+            "Decision Process": 5,
+            "Decision Criteria": 4.5,
+            "Paper Process": 2,
+            "Identify Pain": 6.5,
+            "Champion": 5.5,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -12855,7 +13060,7 @@ const DEAL_DATA = {
           "mapProgress": "0/18"
         },
         {
-          "date": "2026-03-11",
+          "date": "2026-03-12",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -14258,6 +14463,23 @@ const DEAL_DATA = {
             "Competition": 3.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-12",
+          "totalScore": 29.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 4,
+            "Decision Criteria": 3.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 5.5,
+            "Champion": 4,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -14526,7 +14748,7 @@ const DEAL_DATA = {
           "mapProgress": "0/18"
         },
         {
-          "date": "2026-03-11",
+          "date": "2026-03-12",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -15874,6 +16096,23 @@ const DEAL_DATA = {
             "Competition": 0.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-12",
+          "totalScore": 22.5,
+          "totalMax": 54,
+          "status": "at-risk",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 2,
+            "Decision Process": 4,
+            "Decision Criteria": 2.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 5,
+            "Champion": 3,
+            "Competition": 0.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -16121,7 +16360,7 @@ const DEAL_DATA = {
           "mapProgress": "0/18"
         },
         {
-          "date": "2026-03-11",
+          "date": "2026-03-12",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -17594,6 +17833,23 @@ const DEAL_DATA = {
             "Competition": 3.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-12",
+          "totalScore": 36.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 4.5,
+            "Decision Process": 5,
+            "Decision Criteria": 5,
+            "Paper Process": 1.5,
+            "Identify Pain": 7,
+            "Champion": 5,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -17939,7 +18195,7 @@ const DEAL_DATA = {
           "mapProgress": "0/30"
         },
         {
-          "date": "2026-03-11",
+          "date": "2026-03-12",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -19202,6 +19458,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-12",
+          "totalScore": 41.5,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 5,
+            "Decision Process": 5.5,
+            "Decision Criteria": 4.5,
+            "Paper Process": 4.5,
+            "Identify Pain": 7.5,
+            "Champion": 6.5,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -19477,7 +19750,7 @@ const DEAL_DATA = {
           "mapProgress": "0/19"
         },
         {
-          "date": "2026-03-11",
+          "date": "2026-03-12",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -20808,6 +21081,23 @@ const DEAL_DATA = {
             "Decision Process: declined (4.5 → 3.5)",
             "Champion: declined (5 → 4)"
           ]
+        },
+        {
+          "date": "2026-03-12",
+          "totalScore": 26.5,
+          "totalMax": 54,
+          "status": "at-risk",
+          "sectionScores": {
+            "Metrics": 3,
+            "Economic Buyer": 3.5,
+            "Decision Process": 3.5,
+            "Decision Criteria": 3,
+            "Paper Process": 1.5,
+            "Identify Pain": 5.5,
+            "Champion": 4,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -20913,7 +21203,7 @@ const DEAL_DATA = {
           "mapProgress": "0/4"
         },
         {
-          "date": "2026-03-11",
+          "date": "2026-03-12",
           "sections": {
             "Metrics": {
               "score": 3,
@@ -22268,6 +22558,23 @@ const DEAL_DATA = {
             "Competition": 1.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-12",
+          "totalScore": 28,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 2,
+            "Decision Process": 4.5,
+            "Decision Criteria": 2,
+            "Paper Process": 2.5,
+            "Identify Pain": 6,
+            "Champion": 4.5,
+            "Competition": 1.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -22450,7 +22757,7 @@ const DEAL_DATA = {
           "mapProgress": "0/13"
         },
         {
-          "date": "2026-03-11",
+          "date": "2026-03-12",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -23779,6 +24086,23 @@ const DEAL_DATA = {
             "Decision Criteria: improved (4 → 5)",
             "Paper Process: improved (4.5 → 6.5)"
           ]
+        },
+        {
+          "date": "2026-03-12",
+          "totalScore": 42.5,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 6,
+            "Decision Process": 4.5,
+            "Decision Criteria": 5,
+            "Paper Process": 6.5,
+            "Identify Pain": 7,
+            "Champion": 5.5,
+            "Competition": 3
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -23909,7 +24233,7 @@ const DEAL_DATA = {
           "mapProgress": "0/4"
         },
         {
-          "date": "2026-03-11",
+          "date": "2026-03-12",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -25220,6 +25544,23 @@ const DEAL_DATA = {
             "Competition": 1
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-12",
+          "totalScore": 25,
+          "totalMax": 54,
+          "status": "at-risk",
+          "sectionScores": {
+            "Metrics": 4,
+            "Economic Buyer": 2,
+            "Decision Process": 3,
+            "Decision Criteria": 4,
+            "Paper Process": 0.5,
+            "Identify Pain": 5.5,
+            "Champion": 5,
+            "Competition": 1
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -25418,7 +25759,7 @@ const DEAL_DATA = {
           "mapProgress": "0/0"
         },
         {
-          "date": "2026-03-11",
+          "date": "2026-03-12",
           "sections": {
             "Metrics": {
               "score": 4,
@@ -26651,6 +26992,23 @@ const DEAL_DATA = {
             "Competition": 2
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-12",
+          "totalScore": 31,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 4,
+            "Decision Process": 5,
+            "Decision Criteria": 4,
+            "Paper Process": 1,
+            "Identify Pain": 5.5,
+            "Champion": 4.5,
+            "Competition": 2
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -26889,7 +27247,7 @@ const DEAL_DATA = {
           "mapProgress": "0/0"
         },
         {
-          "date": "2026-03-11",
+          "date": "2026-03-12",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -28002,6 +28360,23 @@ const DEAL_DATA = {
             "Metrics: declined (5.5 → 4.5)",
             "Decision Process: declined (5 → 3.5)"
           ]
+        },
+        {
+          "date": "2026-03-12",
+          "totalScore": 33,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 4.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 3.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 3.5,
+            "Identify Pain": 7,
+            "Champion": 5.5,
+            "Competition": 3
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -28176,7 +28551,7 @@ const DEAL_DATA = {
           "mapProgress": "0/0"
         },
         {
-          "date": "2026-03-11",
+          "date": "2026-03-12",
           "sections": {
             "Metrics": {
               "score": 4.5,

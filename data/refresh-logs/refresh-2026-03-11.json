@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-11",
+  "started": "2026-03-11T08:10:56.359Z",
+  "finished": "2026-03-11T08:10:56.368Z",
+  "totalOpportunities": 18,
+  "processed": 0,
+  "results": {},
+  "summary": {
+    "noChange": 0,
+    "sfOnly": 0,
+    "newCalls": 0,
+    "errors": 0,
+    "skipped": 18
+  }
+}
