@@ -1,48 +1,185 @@
 {
-  "006OG00000GJ5IvYAL": {
-    "sfDiffs": [],
-    "dealRisks": [
-      {"risk": "CEO Nigel Darwin still has zero Shopify engagement — contract signatory with no direct relationship. Risk of last-minute objections or delays at signature.", "severity": "high", "category": "stakeholder"},
-      {"risk": "Test system access not yet provisioned — Mick and Ryan urgently need hands-on access. Delay risks losing momentum from highly positive POS demo.", "severity": "medium", "category": "timeline"},
-      {"risk": "Hardware demo still not rescheduled — originally cancelled Feb 19. Physical POS device evaluation is a prerequisite for store rollout planning.", "severity": "medium", "category": "technical"},
-      {"risk": "Budget sign-off still pending ('any day now' since Feb 19) — 3+ weeks of delay suggests internal friction or competing priorities.", "severity": "high", "category": "commercial"}
-    ],
+  "006OG00000FYX8zYAH": {
     "meddpiccUpdates": [
-      {"section": "decisionCriteria", "questionIndex": 2, "updates": {"answer": "Yes", "notes": "Technical complications now fully surfaced in Mar 9 POS demo: OneStock integration, GiveX gift cards, ERP product data, ~20K styles with variants, multi-currency catalogs. All addressed."}},
-      {"section": "decisionProcess", "questionIndex": 1, "updates": {"answer": "Yes", "notes": "Buying committee well-defined: Andy Grainger (CTO) designated Mick Burfoot as project lead. Full tech team identified: Mick (BSA/lead), Mark (dev), Ryan (BSA), Ian (dev)."}},
-      {"section": "identifyPain", "questionIndex": 3, "updates": {"answer": "Yes", "notes": "Affected teams fully mapped in Mar 9 call: Business systems team articulated specific pain across POS/eCom/integration/permissions. Store ops across 55+ UK/Ireland/outlet stores affected."}},
-      {"section": "champion", "questionIndex": 4, "updates": {"answer": "Partial", "notes": "CEO not directly engaged but CTO Andy designated project lead, full tech team engaged. Martin bridging to decision structure. Indirect but meaningful progress toward buying group."}}
-    ],
-    "newMAPItems": [
-      {"milestone": "Test system access provisioned for Mick and Ryan", "done": false, "ownerShopify": "Adriana Colacicco", "date": "2026-03-11"},
-      {"milestone": "Product data loaded into test environment (~20K styles)", "done": false, "ownerShopify": "Merchant (Mark Hawes)", "date": "2026-03-21"},
-      {"milestone": "Integration testing complete (OneStock, GiveX, ERP)", "done": false, "ownerShopify": "Joint", "date": "2026-03-28"},
-      {"milestone": "Hardware demo and POS device evaluation", "done": false, "ownerShopify": "Sarah Berelowitz", "date": "2026-03-17"},
-      {"milestone": "Budget sign-off confirmed by Nigel Darwin", "done": false, "ownerShopify": "Merchant (Martin Wareing)", "date": "2026-03-14"}
-    ],
-    "completedMAPMilestones": [],
-    "narrativeAdditions": {
-      "oppSummary": " As of March 9, the deal has progressed from executive-level evaluation to active technical validation. CTO Andy Grainger has formally designated Mick Burfoot as project lead, and a 4-person technical team is now deeply engaged. Martin Wareing is transitioning to executive sponsor role. The team's urgent request for test system access signals transition from evaluation to implementation planning.",
-      "whyChange": " March 9 POS demo revealed additional pain: Dune stopped selling gift cards after SFCC migration (lost revenue stream), separate refund systems across channels, Anakta POS lacks granular permissions ('we are control freaks'), and ~20K product styles require fragile delta feed architecture.",
-      "whyShopify": " March 9 POS demo validated fit on critical requirements: single admin for UK/Ireland/outlet with separate currencies and catalogs, native GiveX integration, OneStock as Shopify partner, granular RBAC, and unified returns. Technical team's reaction was constructive with no blockers.",
-      "whyNow": " Urgency escalated March 9. Mick stated 'we need to crack on' multiple times. Request for immediate test system access signals real deadline pressure. Deal transitioning from decision to implementation planning.",
-      "supportNeeded": " New from March 9: Immediate test system access for Mick and Ryan. Technical enablement for business systems team. API docs for product data feeds, delta stock updates, ERP integration. GiveX integration guidance. Hardware demo still needs rescheduling."
-    },
-    "newCall": {
-      "title": "Dune <> Shopify POS Demo",
-      "date": "2026-03-09",
-      "duration": "90 min",
-      "platform": "Google Meet",
-      "shopifyAttendees": ["Adriana Colacicco", "Sarah Berelowitz"],
-      "merchantAttendees": ["Mick Burfoot", "Mark Hawes", "Ryan O'Hara", "Ian", "Martin Wareing"],
-      "summary": "Full POS demo covering unified selling, multi-currency/multi-catalog, returns, permissions, integrations (OneStock, GiveX, ERP). Technical team highly engaged, no blockers. Urgent request for test system access.",
-      "eventId": "5tq5ftn6icq0klbmvj4ggttta2"
-    },
-    "newStakeholders": [
-      {"name": "Mick Burfoot", "title": "Business Systems Analyst", "role": "Project Lead", "engagement": "high"},
-      {"name": "Mark Hawes", "title": "Principal Developer", "role": "Technical Lead (Integrations)", "engagement": "high"},
-      {"name": "Ryan O'Hara", "title": "Business Systems Analyst", "role": "BSA / Test Evaluator", "engagement": "high"},
-      {"name": "Ian", "title": "Software Developer", "role": "Integration Developer", "engagement": "medium"}
+      {
+        "section": "metrics",
+        "questionIndex": 5,
+        "updates": {
+          "notes": "Technical capabilities validated Sept 2025. Business metrics not validated with economic buyer.",
+          "action": "Validate metrics with Hamma and/or Suley.",
+          "due": "2026-03-17"
+        }
+      },
+      {
+        "section": "metrics",
+        "questionIndex": 6,
+        "updates": {
+          "answer": "Partial",
+          "notes": "CEO pushing modernisation but repeated missed deadlines suggest metrics not compelling enough internally.",
+          "action": "Prepare one-page cost-of-delay summary for Suley.",
+          "due": "2026-03-13"
+        }
+      },
+      {
+        "section": "economicBuyer",
+        "questionIndex": 1,
+        "updates": {
+          "notes": "Access mediated through Suley. No direct Touker access.",
+          "action": "Use Hamma as channel to Touker.",
+          "due": "2026-03-17"
+        }
+      },
+      {
+        "section": "economicBuyer",
+        "questionIndex": 2,
+        "updates": {
+          "notes": "Contract 'with Touker'. Maissa attempting to reach Suley. No direct Touker path confirmed.",
+          "action": "Propose leadership briefing with Touker via Suley or Hamma.",
+          "due": "2026-03-17"
+        }
+      },
+      {
+        "section": "economicBuyer",
+        "questionIndex": 5,
+        "updates": {
+          "notes": "Contract went to Touker. Internal approval workflow unclear.",
+          "action": "Ask Suley: Beyond Touker's sign-off, any other internal step?",
+          "due": "2026-03-14"
+        }
+      },
+      {
+        "section": "decisionProcess",
+        "questionIndex": 0,
+        "updates": {
+          "notes": "Touker final sign-off. Suley operational gatekeeper. Hamma strategic driver. Full workflow unclear.",
+          "action": "Ask Suley: Walk me through what needs to happen internally.",
+          "due": "2026-03-14"
+        }
+      },
+      {
+        "section": "decisionProcess",
+        "questionIndex": 6,
+        "updates": {
+          "answer": "No",
+          "notes": "Process not validated \u2014 contract stalled months. Michael doesn't know internal status.",
+          "action": "Validate decision process with Suley this week.",
+          "due": "2026-03-14"
+        }
+      },
+      {
+        "section": "decisionCriteria",
+        "questionIndex": 4,
+        "updates": {
+          "answer": "No",
+          "notes": "No formal MAP referenced. March 10 ended with ad hoc next steps.",
+          "action": "Draft one-page MAP: signature \u2192 partner selection \u2192 June kickoff.",
+          "due": "2026-03-14"
+        }
+      },
+      {
+        "section": "decisionCriteria",
+        "questionIndex": 6,
+        "updates": {
+          "answer": "No",
+          "notes": "Not discussed. Unknown whether criteria formally defined.",
+          "action": "Ask Hamma what key factors Touker is weighing.",
+          "due": "2026-03-14"
+        }
+      },
+      {
+        "section": "paperProcess",
+        "questionIndex": 0,
+        "updates": {
+          "notes": "Contract goes to Touker. Procurement process beyond that not discussed.",
+          "action": "Ask Suley what internal steps required.",
+          "due": "2026-03-14"
+        }
+      },
+      {
+        "section": "paperProcess",
+        "questionIndex": 1,
+        "updates": {
+          "notes": "Contract 'ready to be signed'. Extended delays could indicate undisclosed issues.",
+          "action": "Confirm with Suley any outstanding contract concerns.",
+          "due": "2026-03-14"
+        }
+      },
+      {
+        "section": "identifyPain",
+        "questionIndex": 4,
+        "updates": {
+          "notes": "CEO wants modernisation but execution urgency low \u2014 multiple deadlines missed.",
+          "answer": "Partial",
+          "action": "Present business-case urgency to Suley.",
+          "due": "2026-03-14"
+        }
+      },
+      {
+        "section": "identifyPain",
+        "questionIndex": 5,
+        "updates": {
+          "answer": "Partial",
+          "notes": "Custom build status quo. No other platforms mentioned."
+        }
+      },
+      {
+        "section": "champion",
+        "questionIndex": 0,
+        "updates": {
+          "answer": "Partial",
+          "notes": "Hamma Chavda emerging as likely champion \u2014 senior, drives next steps. But Maissa hasn't spoken with her yet.",
+          "action": "Reschedule Hamma meeting ASAP.",
+          "due": "2026-03-13"
+        }
+      },
+      {
+        "section": "champion",
+        "questionIndex": 1,
+        "updates": {
+          "answer": "Partial",
+          "notes": "Michael described Hamma as 'more senior' with leadership conversation access. Full capital unknown.",
+          "action": "Assess in Hamma meeting.",
+          "due": "2026-03-14"
+        }
+      },
+      {
+        "section": "champion",
+        "questionIndex": 2,
+        "updates": {
+          "answer": "No",
+          "notes": "Hamma hasn't spoken with Maissa. Limited internal intelligence."
+        }
+      },
+      {
+        "section": "champion",
+        "questionIndex": 4,
+        "updates": {
+          "answer": "Partial",
+          "notes": "Prior Suley interactions but not recent. No Touker access confirmed.",
+          "action": "Re-establish Suley contact.",
+          "due": "2026-03-14"
+        }
+      },
+      {
+        "section": "champion",
+        "questionIndex": 5,
+        "updates": {
+          "answer": "No",
+          "notes": "No evidence of contacts facilitating access to buying group/board.",
+          "action": "Propose leadership briefing in Hamma meeting.",
+          "due": "2026-03-17"
+        }
+      },
+      {
+        "section": "champion",
+        "questionIndex": 6,
+        "updates": {
+          "answer": "No",
+          "notes": "Champion not validated. Hamma's personal motivation unknown. Michael disengaged.",
+          "action": "Ask Hamma: What does successful migration mean for your team?",
+          "due": "2026-03-14"
+        }
+      }
     ]
   }
 }

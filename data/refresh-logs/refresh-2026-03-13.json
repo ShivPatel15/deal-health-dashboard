@@ -1,0 +1,124 @@
+{
+  "date": "2026-03-13",
+  "started": "2026-03-13T08:07:01.118Z",
+  "finished": "2026-03-13T08:18:13.823Z",
+  "totalOpportunities": 18,
+  "processed": 18,
+  "results": {
+    "006OG00000EZIy6YAH": {
+      "accountName": "Whittard of Chelsea",
+      "status": "no-change",
+      "details": "No SF changes, no new calls",
+      "timestamp": "2026-03-13T08:07:01.118Z"
+    },
+    "006OG00000GJ5IvYAL": {
+      "accountName": "The Dune Group",
+      "status": "no-change",
+      "details": "No SF changes, no new calls",
+      "timestamp": "2026-03-13T08:07:01.175Z"
+    },
+    "006OG00000Fbj8nYAB": {
+      "accountName": "Cycle King & Hawk",
+      "status": "no-change",
+      "details": "No SF changes, no new calls (Closed Lost)",
+      "timestamp": "2026-03-13T08:07:01.227Z"
+    },
+    "006OG00000KW83lYAD": {
+      "accountName": "C.P. Hart & Sons Limited",
+      "status": "no-change",
+      "details": "No SF changes, no new calls",
+      "timestamp": "2026-03-13T08:07:01.278Z"
+    },
+    "006OG00000KOC4YYAX": {
+      "accountName": "Moss Bros. Group Ltd",
+      "status": "no-change",
+      "details": "No SF changes, no new calls",
+      "timestamp": "2026-03-13T08:07:01.327Z"
+    },
+    "0068V0000113rSIQAY": {
+      "accountName": "Moda in Pelle",
+      "status": "sf-only",
+      "details": "SE_Next_Steps updated",
+      "timestamp": "2026-03-13T08:18:07.550Z"
+    },
+    "006OG00000CRabaYAD": {
+      "accountName": "Mulberry Company (Sales) Limited",
+      "status": "sf-only",
+      "details": "NextStep updated",
+      "timestamp": "2026-03-13T08:18:07.603Z"
+    },
+    "006OG00000HnVs8YAF": {
+      "accountName": "Wacoal Europe",
+      "status": "sf-only",
+      "details": "NextStep updated - GOT THE GO, contract redlines",
+      "timestamp": "2026-03-13T08:18:07.653Z"
+    },
+    "006OG00000HtxKFYAZ": {
+      "accountName": "Sofa.Com Ltd",
+      "status": "sf-only",
+      "details": "NextStep + SE_Next_Steps updated",
+      "timestamp": "2026-03-13T08:18:07.702Z"
+    },
+    "0068V0000113peWQAQ": {
+      "accountName": "ESSENTIEL Antwerp",
+      "status": "sf-only",
+      "details": "SE_Next_Steps updated",
+      "timestamp": "2026-03-13T08:18:07.753Z"
+    },
+    "006OG00000JUPVtYAP": {
+      "accountName": "Mint Velvet",
+      "status": "sf-only",
+      "details": "SE_Next_Steps updated",
+      "timestamp": "2026-03-13T08:18:07.806Z"
+    },
+    "006OG00000FHHAHYA5": {
+      "accountName": "OLIVER BONAS LIMITED",
+      "status": "sf-only",
+      "details": "NextStep updated",
+      "timestamp": "2026-03-13T08:18:07.855Z"
+    },
+    "006OG00000Dh2YXYAZ": {
+      "accountName": "Bugaboo International B.V",
+      "status": "sf-only",
+      "details": "SE_Next_Steps updated",
+      "timestamp": "2026-03-13T08:18:07.907Z"
+    },
+    "006OG00000JMQ91YAH": {
+      "accountName": "TRINNY LONDON",
+      "status": "sf-only",
+      "details": "CLOSED WON! Stage→Closed Won, CloseDate→2026-03-12, Prob→100",
+      "timestamp": "2026-03-13T08:18:07.959Z"
+    },
+    "006OG00000J4JtxYAF": {
+      "accountName": "Vision Healthcare",
+      "status": "sf-only",
+      "details": "NextStep + SE_Next_Steps updated",
+      "timestamp": "2026-03-13T08:18:08.009Z"
+    },
+    "006OG00000KqnifYAB": {
+      "accountName": "axminstertools.com",
+      "status": "sf-only",
+      "details": "SE_Next_Steps updated",
+      "timestamp": "2026-03-13T08:18:08.059Z"
+    },
+    "006OG00000FYX8zYAH": {
+      "accountName": "Hawes & Curtis Limited",
+      "status": "new-calls",
+      "details": "1 new call (Shopify X H&C sync 2026-03-10) + MEDDPICC updated + narrative updated + 5 deal risks",
+      "timestamp": "2026-03-13T08:18:08.109Z"
+    },
+    "006OG00000G28JdYAJ": {
+      "accountName": "Direct Wines Limited",
+      "status": "new-calls",
+      "details": "1 new call (Ben/Octavia 2026-03-11, no transcript) + NextStep + SE_Next_Steps updated",
+      "timestamp": "2026-03-13T08:18:08.161Z"
+    }
+  },
+  "summary": {
+    "noChange": 5,
+    "sfOnly": 11,
+    "newCalls": 2,
+    "errors": 0,
+    "skipped": 0
+  }
+}

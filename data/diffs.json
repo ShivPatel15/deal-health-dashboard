@@ -1,9 +1,19 @@
 [
   {
-    "opportunityId": "0068V0000113rSIQAY",
-    "accountName": "Moda in Pelle",
+    "opportunityId": "006OG00000JMQ91YAH",
+    "accountName": "TRINNY LONDON",
     "changes": [
-      { "field": "closeDate", "oldValue": "2026-03-13", "newValue": "2026-03-31" }
+      { "field": "stage", "oldValue": "Deal Craft", "newValue": "Closed Won" },
+      { "field": "closeDate", "oldValue": "2026-03-31", "newValue": "2026-03-12" },
+      { "field": "probability", "oldValue": 80, "newValue": 100 },
+      { "field": "forecastCategory", "oldValue": "Commit", "newValue": "Closed" }
+    ]
+  },
+  {
+    "opportunityId": "006OG00000HnVs8YAF",
+    "accountName": "Wacoal Europe",
+    "changes": [
+      { "field": "nextStep", "oldValue": "06/03 MF: Got the GO, finalising contract - should sign by March 11", "newValue": "11/03 MF: Got the GO from the merchant, they came back with redlines on the contract, i pushed back. Gave them deadline to sign March 20th with effective contract date March 27." }
     ]
   }
 ]

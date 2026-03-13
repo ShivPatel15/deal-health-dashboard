@@ -16,7 +16,13 @@ For each recommendation, return JSON:
 
 ---
 
-### Moda in Pelle (0068V0000113rSIQAY)
+### TRINNY LONDON (006OG00000JMQ91YAH)
 Unmatched changes:
-- closeDate: "2026-03-13" → "2026-03-31"
+- closeDate: "2026-03-31" → "2026-03-12"
+- probability: "80" → "100"
+- forecastCategory: "Commit" → "Closed"
+
+### Wacoal Europe (006OG00000HnVs8YAF)
+Unmatched changes:
+- nextStep: "06/03 MF: Got the GO, finalising contract - should sign by March 11" → "11/03 MF: Got the GO from the merchant, they came back with redlines on the contract, i pushed back. Gave them deadline to sign March 20th with effective contract date March 27."
 

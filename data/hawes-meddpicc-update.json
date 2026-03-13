@@ -1,0 +1,334 @@
+{
+  "id": "006OG00000FYX8zYAH",
+  "meddpiccUpdate": {
+    "metrics": {
+      "questions": {
+        "q1_business_reasons": {
+          "answer": "Yes",
+          "notes": "Legacy custom-built platform is limiting growth, innovation, inventory management, and customer experiences."
+        },
+        "q2_quantifiable_goals": {
+          "answer": "Partial",
+          "notes": "Revenue impact of $1.98M referenced. Specific quantifiable KPIs not confirmed in calls.",
+          "action": "Maissa to include quantifiable goals discussion in Hamma introductory meeting.",
+          "due": "2026-03-14"
+        },
+        "q3_platform_change_needed": {
+          "answer": "Yes",
+          "notes": "Current custom-built platform is root cause. Technical workshop validated platform change requirement."
+        },
+        "q4_impact_if_not_achieved": {
+          "answer": "Partial",
+          "notes": "General understanding that legacy prevents growth. Specific financial impact of inaction not quantified.",
+          "action": "Maissa to surface cost-of-inaction in Suley conversation.",
+          "due": "2026-03-14"
+        },
+        "q5_compelling_event": {
+          "answer": "Yes",
+          "notes": "Shopify Payments rates expire April 1, 2026. Three free months if signed by end of March."
+        },
+        "q6_validated_metrics": {
+          "answer": "Partial",
+          "notes": "Technical capabilities validated Sept 2025. Business metrics not validated with economic buyer.",
+          "action": "Validate metrics with Hamma and/or Suley.",
+          "due": "2026-03-17"
+        },
+        "q7_metrics_justify_change": {
+          "answer": "Partial",
+          "notes": "CEO pushing modernisation but repeated missed deadlines suggest metrics not compelling enough internally.",
+          "action": "Prepare one-page cost-of-delay summary for Suley.",
+          "due": "2026-03-13"
+        }
+      }
+    },
+    "economicBuyer": {
+      "questions": {
+        "q1_identified_eb": {
+          "answer": "Yes",
+          "notes": "Touker Suleyman (CEO) is ultimate economic buyer. Suley is operational decision-maker/gatekeeper."
+        },
+        "q2_who_signs": {
+          "answer": "Yes",
+          "notes": "Touker Suleyman. Contract was 'with Touker' per Maissa March 10."
+        },
+        "q3_access_to_eb": {
+          "answer": "Partial",
+          "notes": "Access mediated through Suley. Maissa does not have direct Touker access.",
+          "action": "Use Hamma as channel to Touker if Suley conversation doesn't yield progress.",
+          "due": "2026-03-17"
+        },
+        "q4_can_get_access": {
+          "answer": "Partial",
+          "notes": "Maissa attempting to reach Suley. Hamma also communicates with Suley. No direct Touker path.",
+          "action": "Propose leadership briefing with Touker via Suley or Hamma.",
+          "due": "2026-03-17"
+        },
+        "q5_eb_priorities": {
+          "answer": "Partial",
+          "notes": "Touker pushing modernisation. Specific priorities not confirmed from his perspective.",
+          "action": "Ask Hamma/Suley: What does Touker see as #1 priority?",
+          "due": "2026-03-17"
+        },
+        "q6_decision_budget_allocation": {
+          "answer": "Partial",
+          "notes": "Contract went to Touker for signature. Internal approval workflow unclear beyond Touker sign-off.",
+          "action": "Ask Suley: Beyond Touker's sign-off, is there any other internal step?",
+          "due": "2026-03-14"
+        }
+      }
+    },
+    "decisionProcess": {
+      "questions": {
+        "q1_how_decide": {
+          "answer": "Partial",
+          "notes": "Touker final sign-off. Suley operational gatekeeper. Hamma strategic driver. Full workflow unclear.",
+          "action": "Ask Suley: Walk me through what needs to happen internally.",
+          "due": "2026-03-14"
+        },
+        "q2_buying_committee": {
+          "answer": "Yes",
+          "notes": "Touker (CEO/EB), Suley (ops decision-maker), Hamma (strategic lead), Michael (facilitator), Sam (unclear role)."
+        },
+        "q3_decision_timeline": {
+          "answer": "Yes",
+          "notes": "March 31, 2026 deadline. Merchant informed but missed two prior deadlines (Sept/Oct 2025)."
+        },
+        "q4_timeline_driver": {
+          "answer": "Yes",
+          "notes": "Shopify Payments rate expiration April 1, 2026 and three-month free period."
+        },
+        "q5_tried_before": {
+          "answer": "Partial",
+          "notes": "Evaluated Sitoo for POS. Custom platform suggests prior in-house attempts."
+        },
+        "q6_do_nothing_impact": {
+          "answer": "Partial",
+          "notes": "Remain on legacy platform with limitations. Lose locked-in rates and free months. Financial impact not quantified.",
+          "action": "Include rate comparison in Suley presentation.",
+          "due": "2026-03-13"
+        },
+        "q7_validated_process": {
+          "answer": "No",
+          "notes": "Process not validated \u2014 contract stalled months. Michael doesn't know internal status. Maissa hasn't spoken with Suley recently.",
+          "action": "Validate decision process with Suley this week.",
+          "due": "2026-03-14"
+        }
+      }
+    },
+    "decisionCriteria": {
+      "questions": {
+        "q1_evaluation_criteria": {
+          "answer": "Partial",
+          "notes": "Technical workshop covered capabilities. Specific weighted criteria not documented.",
+          "action": "Ask Hamma what factors are most important.",
+          "due": "2026-03-14"
+        },
+        "q2_capabilities_discussed": {
+          "answer": "Partial",
+          "notes": "POS discussed (Sitoo selected). D2C primary. B2B not discussed. International via Markets discussed."
+        },
+        "q3_technical_complications": {
+          "answer": "Yes",
+          "notes": "Technical workshop Sept 2025 covered integrations. Adyen flagged as not viable. Technical validation complete."
+        },
+        "q4_payments_role": {
+          "answer": "Yes",
+          "notes": "Shopify Payments core part of deal ($32.5M GPV). Rate lock is primary urgency driver."
+        },
+        "q5_mutual_action_plan": {
+          "answer": "No",
+          "notes": "No formal MAP referenced. March 10 ended with ad hoc next steps.",
+          "action": "Draft one-page MAP: signature \u2192 partner selection \u2192 June kickoff.",
+          "due": "2026-03-14"
+        },
+        "q6_shaped_criteria": {
+          "answer": "Partial",
+          "notes": "Workshop and commercials sessions likely influenced criteria. Reinforcing SP advantage and Markets."
+        },
+        "q7_who_defined_criteria": {
+          "answer": "No",
+          "notes": "Not discussed. Unknown whether criteria formally defined.",
+          "action": "Ask Hamma: What key factors are you and Touker weighing?",
+          "due": "2026-03-14"
+        }
+      }
+    },
+    "paperProcess": {
+      "questions": {
+        "q1_procurement_process": {
+          "answer": "Partial",
+          "notes": "Contract goes to Touker. Beyond that, procurement process not discussed. Two prior deadlines passed.",
+          "action": "Ask Suley what internal steps required after Touker decides.",
+          "due": "2026-03-14"
+        },
+        "q2_redlines": {
+          "answer": "Partial",
+          "notes": "Contract described as 'ready to be signed'. Extended delays could indicate undisclosed issues.",
+          "action": "Confirm with Suley whether any outstanding contract concerns.",
+          "due": "2026-03-14"
+        },
+        "q3_review_timeline": {
+          "answer": "No",
+          "notes": "Not discussed."
+        },
+        "q4_how_long": {
+          "answer": "Partial",
+          "notes": "Contract ready since Oct 2025. Could execute quickly if leadership decides.",
+          "action": "Ask Suley: If Touker decides this week, how quickly can we execute?",
+          "due": "2026-03-14"
+        },
+        "q5_contract_details": {
+          "answer": "Yes",
+          "notes": "Contract prepared. Revised commercials Nov 14. Three free months added."
+        },
+        "q6_contract_sent": {
+          "answer": "Yes",
+          "notes": "Contract sent, 'with Touker' per Maissa March 10."
+        },
+        "q7_target_signature": {
+          "answer": "Yes",
+          "notes": "March 31, 2026 to lock in rates and free months."
+        }
+      }
+    },
+    "identifyPain": {
+      "questions": {
+        "q1_current_issues": {
+          "answer": "Yes",
+          "notes": "Legacy platform with tech debt, inventory/order routing/CX limitations, international expansion challenges."
+        },
+        "q2_tried_resolve": {
+          "answer": "Partial",
+          "notes": "Selected Sitoo for POS. Custom platform was attempt at own solution."
+        },
+        "q3_business_impact": {
+          "answer": "Partial",
+          "notes": "General understanding. March 10 revealed Michael preoccupied with 'sale' requiring heavy content/website changes \u2014 platform burden."
+        },
+        "q4_teams_affected": {
+          "answer": "Partial",
+          "notes": "Content/marketing, ops/strategy, leadership affected. Extent per team not quantified."
+        },
+        "q5_urgency": {
+          "answer": "Partial",
+          "notes": "CEO wants modernisation but execution urgency low \u2014 multiple deadlines missed, contacts stepping back.",
+          "action": "Present business-case urgency to Suley, not just rate urgency.",
+          "due": "2026-03-14"
+        },
+        "q6_other_options": {
+          "answer": "Partial",
+          "notes": "Custom build status quo. No other platforms mentioned. Could continue or evaluate others."
+        },
+        "q7_why_now": {
+          "answer": "Partial",
+          "notes": "CEO-driven modernisation. Rate expiration. But no specific business event forcing action now.",
+          "action": "Ask Hamma/Suley: Beyond commercial timeline, what's driving timing internally?",
+          "due": "2026-03-17"
+        },
+        "q8_unique_solution": {
+          "answer": "Yes",
+          "notes": "Group brands already on Shopify. Technical validation complete. Markets for international. SP integrated."
+        }
+      }
+    },
+    "champion": {
+      "questions": {
+        "q1_identified_champion": {
+          "answer": "Partial",
+          "notes": "Hamma Chavda emerging as likely champion \u2014 described as senior, driving next steps. But Maissa hasn't spoken with her yet.",
+          "action": "Reschedule Hamma meeting ASAP.",
+          "due": "2026-03-13"
+        },
+        "q2_political_capital": {
+          "answer": "Partial",
+          "notes": "Michael described Hamma as 'more senior' with leadership conversation access. Full capital unknown.",
+          "action": "Assess in Hamma meeting.",
+          "due": "2026-03-14"
+        },
+        "q3_insider_insights": {
+          "answer": "No",
+          "notes": "Hamma hasn't spoken with Maissa. Michael provided limited internal context."
+        },
+        "q4_connected_to_dm": {
+          "answer": "Yes",
+          "notes": "Hamma communicates with Suley directly."
+        },
+        "q5_introduced_to_dm": {
+          "answer": "Partial",
+          "notes": "Prior Suley interactions but not recent. No Touker access.",
+          "action": "Re-establish Suley contact and request Touker intro.",
+          "due": "2026-03-14"
+        },
+        "q6_board_access": {
+          "answer": "No",
+          "notes": "No evidence of contacts facilitating access to full buying group/board.",
+          "action": "Propose leadership briefing in Hamma meeting.",
+          "due": "2026-03-17"
+        },
+        "q7_why_champion": {
+          "answer": "No",
+          "notes": "Champion not validated. Hamma's personal motivation unknown. Michael disengaged.",
+          "action": "Ask Hamma: What does successful migration mean for your team?",
+          "due": "2026-03-14"
+        }
+      }
+    },
+    "competition": {
+      "questions": {
+        "q1_who_evaluating": {
+          "answer": "Partial",
+          "notes": "Competitor listed as Custom Build (legacy). No other platforms mentioned. Status quo is primary competition.",
+          "action": "Confirm no other vendors being evaluated.",
+          "due": "2026-03-14"
+        },
+        "q2_doing_nothing": {
+          "answer": "Partial",
+          "notes": "Implied through repeated deadline misses. Not explicitly asked.",
+          "action": "Ask: What happens if you stay on current platform for another year?",
+          "due": "2026-03-17"
+        },
+        "q3_internal_alternatives": {
+          "answer": "Partial",
+          "notes": "Custom platform is internal alternative. Could invest in improving it.",
+          "action": "Explore with Hamma.",
+          "due": "2026-03-17"
+        },
+        "q4_why_alternatives": {
+          "answer": "Partial",
+          "notes": "CEO-driven modernisation. Group brands on Shopify. Specific triggers unclear."
+        },
+        "q5_win_or_lose": {
+          "answer": "Partial",
+          "notes": "Win: group alignment, technical validation, strong Payments deal, Markets, free months. Lose: inertia, urgency gap, contact turnover, no MAP, Touker access."
+        }
+      }
+    }
+  },
+  "narrativeUpdates": {
+    "oppSummary": "Hawes & Curtis is an $82,800 MCV Plus deal (projected $2.04M total 3-year revenue) to migrate the UK-based fashion retailer off a legacy custom-built platform onto Shopify Plus, including Shopify Payments ($32.5M GPV). The deal is at 80% probability in Deal Craft stage, with CEO Touker Suleyman pushing the business to modernise. Sitoo POS selected Sept 2024 (unified commerce lost). D2C-only scope remains. As of March 10, day-to-day ownership on the merchant side has shifted from Michael Maynard (Content Manager, interim contact) to Hamma Chavda, a more senior stakeholder who is now driving strategic decisions, partner conversations, and leadership communication \u2014 but Maissa has not yet connected with Hamma directly.",
+    "whyNow": "Shopify's favorable platform and payment rates expire April 1, 2026. Maissa secured three free months (April\u2013June) if contract signed by end of March, giving Hawes & Curtis time to finalize a partner before kicking off in June. As of March 10, Michael confirmed he has no visibility into whether Suley or Touker have progressed the contract internally. Maissa is now escalating directly to Suley to ensure leadership understands the implications of missing the March 31 deadline, particularly the loss of locked-in Shopify Payments rates. With only three weeks remaining and no confirmed internal momentum, the commercial deadline risk is elevated.",
+    "supportNeeded": "Maissa must connect directly with Hamma Chavda urgently \u2014 Hamma is now the strategic point person and has not yet spoken with Maissa. Michael explicitly said Hamma would be 'brilliant' for Maissa to connect with. Maissa to contact Suley directly this week to present the March 31 contract deadline, rate implications, and the three-month free period offer. Prepare a one-page 'cost of delay' summary for Suley/Touker. Draft a simple mutual action plan: signature \u2192 partner selection \u2192 June kickoff. Risk mitigation: establish a backup meeting cadence with both Michael and Hamma to prevent further slippage."
+  },
+  "dealRisks": [
+    {
+      "severity": "critical",
+      "description": "Champion gap \u2014 Maissa has never spoken with Hamma Chavda, who is now the primary strategic driver. With 3 weeks to deadline, this is the #1 risk."
+    },
+    {
+      "severity": "critical",
+      "description": "Internal inertia \u2014 Michael has stepped back, Hamma didn't join March 10 call. Deal is drifting, mirroring Sept/Oct pattern that led to two missed deadlines."
+    },
+    {
+      "severity": "high",
+      "description": "Suley unreachable \u2014 Maissa couldn't reach Suley last week. If unable this week, no mechanism to communicate deadline implications to leadership."
+    },
+    {
+      "severity": "high",
+      "description": "No mutual action plan \u2014 With 21 days to close, no documented plan showing path to signed contract."
+    },
+    {
+      "severity": "medium",
+      "description": "Org contact instability \u2014 Jeie/Junior departed, Michael interim and disengaged, Hamma new to Maissa, Sam's role unclear."
+    }
+  ]
+}

@@ -2,7 +2,7 @@ const DEAL_DATA = {
   "team": {
     "name": "Sales Large — EMEA"
   },
-  "generatedAt": "2026-03-12T08:13:01.259Z",
+  "generatedAt": "2026-03-13T08:18:39.945Z",
   "owners": [
     "Adriana Colacicco",
     "Ben Rees",
@@ -23,7 +23,7 @@ const DEAL_DATA = {
       "merchantIntent": "Uncommitted",
       "type": "New Business",
       "created": "2024-07-19",
-      "lastAnalysisDate": "2026-03-12",
+      "lastAnalysisDate": "2026-03-13",
       "revenue": {
         "mcv": 75900,
         "totalRev3yr": 1039799,
@@ -1329,6 +1329,23 @@ const DEAL_DATA = {
             "Competition": 3.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-13",
+          "totalScore": 27.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 2.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 2,
+            "Identify Pain": 6.5,
+            "Champion": 1.5,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -1631,7 +1648,7 @@ const DEAL_DATA = {
           "mapProgress": "0/21"
         },
         {
-          "date": "2026-03-12",
+          "date": "2026-03-13",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -2871,6 +2888,23 @@ const DEAL_DATA = {
             "Competition": 3
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-13",
+          "totalScore": 40,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 6,
+            "Economic Buyer": 4.5,
+            "Decision Process": 5,
+            "Decision Criteria": 4,
+            "Paper Process": 4,
+            "Identify Pain": 7,
+            "Champion": 6.5,
+            "Competition": 3
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -3204,7 +3238,7 @@ const DEAL_DATA = {
           "mapProgress": "0/25"
         },
         {
-          "date": "2026-03-12",
+          "date": "2026-03-13",
           "sections": {
             "Metrics": {
               "score": 6,
@@ -4602,6 +4636,23 @@ const DEAL_DATA = {
             "Identify Pain: improved (6 → 6.5)",
             "Champion: improved (5.5 → 6)"
           ]
+        },
+        {
+          "date": "2026-03-13",
+          "totalScore": 40,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3.5,
+            "Decision Process": 5,
+            "Decision Criteria": 5.5,
+            "Paper Process": 4,
+            "Identify Pain": 6.5,
+            "Champion": 6,
+            "Competition": 4
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -4949,7 +5000,7 @@ const DEAL_DATA = {
           "mapProgress": "0/21"
         },
         {
-          "date": "2026-03-12",
+          "date": "2026-03-13",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -5009,7 +5060,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2025-02-07",
-      "lastAnalysisDate": "2026-03-10",
+      "lastAnalysisDate": "2026-03-13",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 841500,
@@ -6395,6 +6446,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-13",
+          "totalScore": 34.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 4.5,
+            "Identify Pain": 6.5,
+            "Champion": 4,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -6655,7 +6723,7 @@ const DEAL_DATA = {
           }
         },
         {
-          "date": "2026-03-12",
+          "date": "2026-03-13",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -6715,7 +6783,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed",
       "type": "New Business",
       "created": "2025-10-16",
-      "lastAnalysisDate": "2026-03-10",
+      "lastAnalysisDate": "2026-03-13",
       "revenue": {
         "mcv": 285200,
         "totalRev3yr": 1244375,
@@ -6734,7 +6802,7 @@ const DEAL_DATA = {
       ],
       "competitor": "",
       "compellingEvent": "SAP Commerce contract expires January 2027. Must go-live by November 2026 to give notice. Board approved budget. Previous Alkai migration failed. Offer expires March 13, 2026. Decision expected by Feb 27.",
-      "nextStep": "06/03 MF: Got the GO, finalising contract - should sign by March 11",
+      "nextStep": "11/03 MF: Got the GO from the merchant, they came back with redlines on the contract, i pushed back. Gave them deadline to sign March 20th with effective contract date March 27.",
       "narrative": {
         "oppSummary": "Wacoal Europe is a $285,200 MCV Plus deal ($1.24M 3yr total revenue) to migrate 4 lingerie brands (Wacoal, Fantasy, Freya, Elomi) from SAP Commerce to Shopify Plus with multi-brand, multi-market D2C storefronts and Shopify Payments. The deal is in Deal Craft at 80% probability with a Feb 28, 2026 close date, driven by CIO Danny Dawes, with VML as the implementation partner. The primary negotiation sticking points have been Shopify Payments transaction fees versus their current provider Comptop, preservation of a ~$46K credit, and financial settlement/reconciliation concerns — with Danny explicitly stating he would delay a year and renew with SAP if commercials can't be resolved.",
         "whyChange": "Wacoal Europe's current SAP Commerce platform contract expires in January 2027, creating a hard deadline for a platform decision. The organization has accumulated significant technical debt and operational friction with their existing stack — Danny's team previously attempted a migration with Alkai that failed and wasted ~$40K before being terminated over contractual disagreements around co-marketing discounts. The Black Friday 2025 results underscored challenges with their D2C/ecom channel — Danny noted that 'D2C/ecom was challenging' while brick-and-mortar performed well, suggesting their current platform isn't supporting digital commerce growth. The financial reconciliation and settlement processes on their current stack are causing acute anxiety — Samantha Hadland from the finance team said the settlement piece 'makes me feel sick', and Laura Simon called it 'enormous for us.'",
@@ -7929,6 +7997,23 @@ const DEAL_DATA = {
             "Competition": 4.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-13",
+          "totalScore": 45,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 6,
+            "Economic Buyer": 4,
+            "Decision Process": 7,
+            "Decision Criteria": 5,
+            "Paper Process": 6,
+            "Identify Pain": 7,
+            "Champion": 5.5,
+            "Competition": 4.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -8241,7 +8326,7 @@ const DEAL_DATA = {
           "mapProgress": "0/21"
         },
         {
-          "date": "2026-03-12",
+          "date": "2026-03-13",
           "sections": {
             "Metrics": {
               "score": 6,
@@ -8301,7 +8386,7 @@ const DEAL_DATA = {
       "merchantIntent": "Uncommitted",
       "type": "New Business",
       "created": "2025-10-20",
-      "lastAnalysisDate": "2026-03-10",
+      "lastAnalysisDate": "2026-03-13",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 1220972.06,
@@ -8320,7 +8405,7 @@ const DEAL_DATA = {
       ],
       "competitor": "SAP Commerce Cloud (Hybris)",
       "compellingEvent": "None identified. This is a critical deal risk. The closest driver is aspirational H2 2026 go-live target. Shopify should explore Hybris licensing renewal timelines or peak trading deadlines (pre-Christmas 2026) to create urgency.",
-      "nextStep": "06/03 MF: Chase merchant for an update + review final business case",
+      "nextStep": "11/03 MF: Speaking with merchant tomorrow to review final business case & understand where they are at in terms of approval process.",
       "narrative": {
         "oppSummary": "Sofa.com (owned by Frasers Group) is evaluating a migration from SAP Commerce Cloud (Hybris) to Shopify Plus, representing $82,800 MCV and $1.22M in 3-year total revenue. The deal is currently stuck in the Demonstrate stage at 60% probability, with the primary blocker being Frasers Group's internal IT approval process — Tom Humphrey and Blayne Griffin-Reader have been waiting over two months just to secure an initial meeting with Group IT. VML (agency partner) has built a TCO/business case showing ~£600K savings over 3 years with a 12-month payback period, and a 3-year ROI comparison of Hybris vs Shopify is under review, but no decision can progress until Group IT confirms the current system's inadequacy.",
         "whyChange": "Sofa.com is running on SAP Commerce Cloud (Hybris), which sits within Frasers Group's archaic, centralized tech infrastructure. The platform creates significant operational pain: manual processes dominate day-to-day work, the team has limited internal tech/dev resources, and peak trading periods expose the system's inability to scale efficiently. The complex SKU structure (large volumes of product variations) is poorly served by the current setup. Payment processing through Elevon is causing unnecessary costs. Sofa.com is a 'small cog in a big wheel' at Frasers Group, and the centralized IT approach is holding back a brand that needs agility and modern commerce capabilities.",
@@ -9549,6 +9634,23 @@ const DEAL_DATA = {
             "Competition": 3.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-13",
+          "totalScore": 29,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 4.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 3.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 3,
+            "Identify Pain": 4,
+            "Champion": 4.5,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -9811,7 +9913,7 @@ const DEAL_DATA = {
           "mapProgress": "0/18"
         },
         {
-          "date": "2026-03-12",
+          "date": "2026-03-13",
           "sections": {
             "Metrics": {
               "score": 4.5,
@@ -9871,7 +9973,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2024-07-16",
-      "lastAnalysisDate": "2026-03-10",
+      "lastAnalysisDate": "2026-03-13",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 2333229.33,
@@ -11165,6 +11267,23 @@ const DEAL_DATA = {
             "Competition": 2
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-13",
+          "totalScore": 32,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 4.5,
+            "Decision Process": 5.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 6,
+            "Champion": 4.5,
+            "Competition": 2
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -11471,7 +11590,7 @@ const DEAL_DATA = {
           "mapProgress": "0/21"
         },
         {
-          "date": "2026-03-12",
+          "date": "2026-03-13",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -11531,7 +11650,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "Existing Business",
       "created": "2025-12-12",
-      "lastAnalysisDate": "2026-03-10",
+      "lastAnalysisDate": "2026-03-13",
       "revenue": {
         "mcv": 0,
         "totalRev3yr": 1562351.44,
@@ -12808,6 +12927,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-13",
+          "totalScore": 34,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 3,
+            "Decision Process": 5,
+            "Decision Criteria": 4.5,
+            "Paper Process": 2,
+            "Identify Pain": 6.5,
+            "Champion": 5.5,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -13060,7 +13196,7 @@ const DEAL_DATA = {
           "mapProgress": "0/18"
         },
         {
-          "date": "2026-03-12",
+          "date": "2026-03-13",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -13120,7 +13256,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2025-06-30",
-      "lastAnalysisDate": "2026-03-10",
+      "lastAnalysisDate": "2026-03-13",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 5809546.88,
@@ -14480,6 +14616,23 @@ const DEAL_DATA = {
             "Competition": 3.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-13",
+          "totalScore": 29.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 3,
+            "Decision Process": 4,
+            "Decision Criteria": 3.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 5.5,
+            "Champion": 4,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -14748,7 +14901,7 @@ const DEAL_DATA = {
           "mapProgress": "0/18"
         },
         {
-          "date": "2026-03-12",
+          "date": "2026-03-13",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -16113,6 +16266,23 @@ const DEAL_DATA = {
             "Competition": 0.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-13",
+          "totalScore": 22.5,
+          "totalMax": 54,
+          "status": "at-risk",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 2,
+            "Decision Process": 4,
+            "Decision Criteria": 2.5,
+            "Paper Process": 0.5,
+            "Identify Pain": 5,
+            "Champion": 3,
+            "Competition": 0.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -16360,7 +16530,7 @@ const DEAL_DATA = {
           "mapProgress": "0/18"
         },
         {
-          "date": "2026-03-12",
+          "date": "2026-03-13",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -16420,7 +16590,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2025-08-06",
-      "lastAnalysisDate": "2026-03-10",
+      "lastAnalysisDate": "2026-03-13",
       "revenue": {
         "mcv": 1735000,
         "totalRev3yr": 14206191,
@@ -17362,6 +17532,21 @@ const DEAL_DATA = {
       ],
       "calls": [
         {
+          "eventId": "ben_octavia_20260311",
+          "title": "Ben / Octavia",
+          "date": "2026-03-11",
+          "duration": 30,
+          "platform": "google_meet",
+          "shopifyAttendees": [
+            "Ben Rees"
+          ],
+          "merchantAttendees": [
+            "Octavia Neuberger"
+          ],
+          "hasTranscript": false,
+          "aiSummary": null
+        },
+        {
           "date": "2026-02-24",
           "title": "DW Feature Review",
           "duration": 40,
@@ -17850,6 +18035,23 @@ const DEAL_DATA = {
             "Competition": 3.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-13",
+          "totalScore": 36.5,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 4.5,
+            "Decision Process": 5,
+            "Decision Criteria": 5,
+            "Paper Process": 1.5,
+            "Identify Pain": 7,
+            "Champion": 5,
+            "Competition": 3.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -18195,7 +18397,7 @@ const DEAL_DATA = {
           "mapProgress": "0/30"
         },
         {
-          "date": "2026-03-12",
+          "date": "2026-03-13",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -18255,7 +18457,7 @@ const DEAL_DATA = {
       "merchantIntent": "Committed - At Risk",
       "type": "New Business",
       "created": "2025-07-14",
-      "lastAnalysisDate": "2026-03-10",
+      "lastAnalysisDate": "2026-03-13",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 2040937.5,
@@ -18274,13 +18476,13 @@ const DEAL_DATA = {
       ],
       "competitor": "Custom Build",
       "compellingEvent": "Must be live by August 2026 ahead of peak trading season. CEO Touker Suleyman personally mandating 4-5 month completion timeline. Aggressive growth targets require platform migration.",
-      "nextStep": "06/03 MF: Speak with Suley, Touker and Sam on the commercials offer expiring this month (sent via email)",
+      "nextStep": "11/03 MF: Speak with Suley, Touker and Sam on the commercials offer expiring this month (sent via email).",
       "narrative": {
-        "oppSummary": "Hawes & Curtis is an $82,800 MCV Plus deal (projected $2.04M total 3-year revenue) to migrate the UK-based fashion retailer off a legacy custom-built platform onto Shopify Plus, including Shopify Payments ($32.5M GPV). The deal is at 80% probability in Deal Craft stage, with CEO Touker Suleyman pushing aggressively to sign and go live by August 2026 ahead of peak trading season. Agency selection (implementation partner) is the final gating item before contract signature.",
+        "oppSummary": "Hawes & Curtis is an $82,800 MCV Plus deal (projected $2.04M total 3-year revenue) to migrate the UK-based fashion retailer off a legacy custom-built platform onto Shopify Plus, including Shopify Payments ($32.5M GPV). The deal is at 80% probability in Deal Craft stage, with CEO Touker Suleyman pushing the business to modernise. Sitoo POS selected Sept 2024 (unified commerce lost). D2C-only scope remains. As of March 10, day-to-day ownership on the merchant side has shifted from Michael Maynard (Content Manager, interim contact) to Hamma Chavda, a more senior stakeholder who is now driving strategic decisions, partner conversations, and leadership communication — but Maissa has not yet connected with Hamma directly.",
         "whyChange": "Hawes & Curtis is running on a legacy custom-built platform that is actively preventing the business from growing and innovating. Their current tech stack cannot deliver the customer experiences they need to drive online growth, with technical limitations surfacing around inventory management, order statuses, and the inability to unify D2C and POS without heavy integration work. The CTO's team raised multiple concerns about their current platform's rigidity during the technical workshop. The business has aggressive growth targets and the CEO is personally driving urgency, demanding project completion in four to five months with no delays.",
         "whyShopify": "Other brands within the Hawes & Curtis group are already on Shopify, which means the team has existing Shopify expertise and organizational confidence in the platform. The technical workshop demonstrated strong platform foundations, developer tools, pre-built integrations, and Shopify Markets for consolidating multiple stores. The payments discussion highlighted Shopify's integrated payment solution with superior authorization rates and end-to-end fraud management compared to Adyen. The unified D2C and POS platform eliminates integration friction.",
-        "whyNow": "The urgency has significantly sharpened. Shopify's favorable platform and payment rates, negotiated over six months ago, expire April 1, 2026. Maissa has secured three free months (April-June) if the contract is signed by end of March. Michael was previously unaware of this deadline but acknowledged it creates a concrete timeline to work toward. He is arranging a meeting with HMA leadership for Tuesday March 10 to discuss the commercial urgency and agency selection strategy. The agency evaluation is also converging — Lime Sharp is the frontrunner with a potential budget increase to £180-200K.",
-        "supportNeeded": "- Maissa to present commercial deadline and free-month incentive directly to HMA leadership (Suley, Touker, Sam) in Tuesday March 10 meeting\n- Continued reinforcement that Adyen is not a viable payment integration — agencies still including it in briefs\n- Support Michael in agency negotiation/selection to prevent further delays\n- Ensure Swanky re-engagement doesn't create additional delay to March contract signing\n- Clarify flexibility on April 1 rate expiration if deal slips by days vs. weeks"
+        "whyNow": "Shopify's favorable platform and payment rates expire April 1, 2026. Maissa secured three free months (April-June) if contract signed by end of March, giving Hawes & Curtis time to finalize a partner before kicking off in June. As of March 10, Michael confirmed he has no visibility into whether Suley or Touker have progressed the contract internally. Maissa is now escalating directly to Suley to ensure leadership understands the implications of missing the March 31 deadline, particularly the loss of locked-in Shopify Payments rates. With only three weeks remaining and no confirmed internal momentum, the commercial deadline risk is elevated.",
+        "supportNeeded": "Maissa must connect directly with Hamma Chavda urgently — Hamma is now the strategic point person and has not yet spoken with Maissa. Maissa to contact Suley directly this week to present the March 31 contract deadline, rate implications, and the three-month free period offer. Prepare a one-page 'cost of delay' summary for Suley/Touker. Draft a simple mutual action plan: signature → partner selection → June kickoff. Risk mitigation: establish a backup meeting cadence with both Michael and Hamma to prevent further slippage."
       },
       "meddpicc": {
         "metrics": {
@@ -18340,20 +18542,20 @@ const DEAL_DATA = {
               "q": "Have I validated the metrics with the customer?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Metrics around timeline have been validated directly with Touker and Sam. However, quantifiable business goals have not been explicitly validated with the customer.",
+              "notes": "Technical capabilities validated Sept 2025. Business metrics not validated with economic buyer.",
               "solution": "Formally validate specific measurable outcomes the customer expects post-migration.",
-              "action": "Include metrics validation in next commercial/planning call.",
-              "due": "03/06/2026",
+              "action": "Validate metrics with Hamma and/or Suley.",
+              "due": "2026-03-17",
               "highlight": false
             },
             {
               "q": "Are the metrics compelling enough to justify change?",
-              "answer": "Yes",
+              "answer": "Partial",
               "score": 1,
-              "notes": "CEO is personally driving urgency and refusing delays. 'Don't worry about that. Just sign it. We need to move.' Other group brands on Shopify further validates.",
+              "notes": "CEO pushing modernisation but repeated missed deadlines suggest metrics not compelling enough internally.",
               "solution": "",
-              "action": "",
-              "due": "",
+              "action": "Prepare one-page cost-of-delay summary for Suley.",
+              "due": "2026-03-13",
               "highlight": false
             }
           ]
@@ -18375,20 +18577,20 @@ const DEAL_DATA = {
               "q": "Do we know who's signing the contract?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Touker directed Sam to sign, and Sam is CFO. It's likely Touker or Sam signs the contract, but exact signatory has not been explicitly confirmed.",
+              "notes": "Access mediated through Suley. No direct Touker access.",
               "solution": "Confirm who specifically will be the contract signatory.",
-              "action": "Maissa to confirm with Sam whether he or Touker will execute the agreement.",
-              "due": "03/12/2026",
+              "action": "Use Hamma as channel to Touker.",
+              "due": "2026-03-17",
               "highlight": false
             },
             {
               "q": "Do we have access to this individual?",
               "answer": "Yes",
               "score": 1,
-              "notes": "Touker attended the Jan 30 call directly with Maissa. Maissa has direct access to the economic buyer.",
+              "notes": "Contract 'with Touker'. Maissa attempting to reach Suley. No direct Touker path confirmed.",
               "solution": "",
-              "action": "",
-              "due": "",
+              "action": "Propose leadership briefing with Touker via Suley or Hamma.",
+              "due": "2026-03-17",
               "highlight": false
             },
             {
@@ -18415,10 +18617,10 @@ const DEAL_DATA = {
               "q": "Do you know how they make decisions and allocate budget?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Touker makes decisions quickly and authoritatively. Budget allocation process is less clear — Sam was checking commercials but no formal approval/procurement steps detailed.",
+              "notes": "Contract went to Touker. Internal approval workflow unclear.",
               "solution": "Understand if there's a formal board approval or procurement step beyond Touker's verbal commitment.",
-              "action": "Maissa to confirm with Sam if any additional internal approvals are needed beyond Touker's direction.",
-              "due": "03/12/2026",
+              "action": "Ask Suley: Beyond Touker's sign-off, any other internal step?",
+              "due": "2026-03-14",
               "highlight": false
             }
           ]
@@ -18430,10 +18632,10 @@ const DEAL_DATA = {
               "q": "Do we know how they will be making the decision?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Touker is the final decision-maker and has directed Sam to finalize. Full formal decision process (board approval, procurement steps) hasn't been explicitly mapped. Current blocker is agency selection.",
+              "notes": "Touker final sign-off. Suley operational gatekeeper. Hamma strategic driver. Full workflow unclear.",
               "solution": "Map the full internal decision process — from Touker's approval to contract execution.",
-              "action": "Maissa to ask Sam to walk through exact steps from 'decision made' to 'contract signed'.",
-              "due": "03/12/2026",
+              "action": "Ask Suley: Walk me through what needs to happen internally.",
+              "due": "2026-03-14",
               "highlight": false
             },
             {
@@ -18488,12 +18690,12 @@ const DEAL_DATA = {
             },
             {
               "q": "Have you validated this process with the buyer?",
-              "answer": "Partial",
+              "answer": "No",
               "score": 0.5,
-              "notes": "Process discussed informally — Touker gave direct instructions and timelines. A formal mutual action plan has not been confirmed.",
+              "notes": "Process not validated — contract stalled months. Michael doesn't know internal status.",
               "solution": "Formalize the decision process into a documented mutual action plan.",
-              "action": "Maissa to propose a mutual action plan with key milestones from contract signature through August go-live.",
-              "due": "03/06/2026",
+              "action": "Validate decision process with Suley this week.",
+              "due": "2026-03-14",
               "highlight": false
             }
           ]
@@ -18543,12 +18745,12 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we have a mutual action plan in place?",
-              "answer": "Partial",
+              "answer": "No",
               "score": 0.5,
-              "notes": "No formal mutual action plan mentioned. Touker set informal milestones. AE notes reference agency selection as current step.",
+              "notes": "No formal MAP referenced. March 10 ended with ad hoc next steps.",
               "solution": "Create and share a formal mutual action plan.",
-              "action": "Maissa to draft a mutual action plan covering agency selection → contract signature → project kickoff → go-live.",
-              "due": "03/06/2026",
+              "action": "Draft one-page MAP: signature → partner selection → June kickoff.",
+              "due": "2026-03-14",
               "highlight": false
             },
             {
@@ -18563,12 +18765,12 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we know who defined the decision criteria?",
-              "answer": "Partial",
+              "answer": "No",
               "score": 0.5,
-              "notes": "Criteria internally driven by CTO (technical), CFO (commercial), CEO (speed/growth). Paul Rogers (Vervaunt) involved in agency selection may influence platform expectations.",
+              "notes": "Not discussed. Unknown whether criteria formally defined.",
               "solution": "Understand Vervaunt's role and influence on platform criteria.",
-              "action": "Maissa/Alexandra to assess Vervaunt's influence during next catch-up with Paul Rogers.",
-              "due": "03/12/2026",
+              "action": "Ask Hamma what key factors Touker is weighing.",
+              "due": "2026-03-14",
               "highlight": false
             }
           ]
@@ -18580,20 +18782,20 @@ const DEAL_DATA = {
               "q": "Do we know what their procurement process is?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Sam is reviewing commercials, Touker directed signing. Formal procurement steps (legal review, specific approval workflow) haven't been detailed.",
+              "notes": "Contract goes to Touker. Procurement process beyond that not discussed.",
               "solution": "Map exact procurement steps from Sam's review to executed contract.",
-              "action": "Maissa to ask Sam: 'After you review commercials, what are the exact steps to get this signed?'",
-              "due": "03/12/2026",
+              "action": "Ask Suley what internal steps required.",
+              "due": "2026-03-14",
               "highlight": false
             },
             {
               "q": "Are there likely to be redlines?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Sam wanted to reconfirm commercial terms and had concern about paying from day one before go-live. No legal team mentioned.",
+              "notes": "Contract 'ready to be signed'. Extended delays could indicate undisclosed issues.",
               "solution": "Proactively identify potential redlines by asking Sam if legal review is required.",
-              "action": "Maissa to ask Sam if their legal team will need to review the contract.",
-              "due": "03/12/2026",
+              "action": "Confirm with Suley any outstanding contract concerns.",
+              "due": "2026-03-14",
               "highlight": false
             },
             {
@@ -18693,19 +18895,19 @@ const DEAL_DATA = {
             },
             {
               "q": "Do we know how urgent it is to solve this pain?",
-              "answer": "Yes",
+              "answer": "Partial",
               "score": 1,
-              "notes": "Very urgent — CEO mandating 4-5 month completion, August peak deadline, 'no messing about' directive.",
+              "notes": "CEO wants modernisation but execution urgency low — multiple deadlines missed.",
               "solution": "",
-              "action": "",
-              "due": "",
+              "action": "Present business-case urgency to Suley.",
+              "due": "2026-03-14",
               "highlight": false
             },
             {
               "q": "Can they solve this pain using another option?",
               "answer": "Partial",
               "score": 0.5,
-              "notes": "Alternative is staying on custom build (listed as competitor). No other platforms mentioned. Unclear if they evaluated alternatives.",
+              "notes": "Custom build status quo. No other platforms mentioned.",
               "solution": "Confirm competitive landscape.",
               "action": "Maissa to ask if they've looked at any other platform vendors or if this is Shopify vs. status quo.",
               "due": "03/06/2026",
@@ -18738,29 +18940,29 @@ const DEAL_DATA = {
           "questions": [
             {
               "q": "Have you identified a true champion (influence + motivation)?",
-              "answer": "Yes",
+              "answer": "Partial",
               "score": 1,
-              "notes": "Sam Nesan (CFO) is the primary champion — primary stakeholder, multiple calls, reviewing commercials, operational contact. Touker is EB/sponsor. Chan and Michael are technical champions.",
+              "notes": "Hamma Chavda emerging as likely champion — senior, drives next steps. But Maissa hasn't spoken with her yet.",
               "solution": "",
-              "action": "",
-              "due": "",
+              "action": "Reschedule Hamma meeting ASAP.",
+              "due": "2026-03-13",
               "highlight": false
             },
             {
               "q": "Does your champion have political capital and credibility?",
-              "answer": "Yes",
+              "answer": "Partial",
               "score": 1,
-              "notes": "Sam is CFO with direct access to and authority from Touker. 'Sam, do it by Monday' confirmed trust and delegation. Chan as CTO has technical credibility.",
+              "notes": "Michael described Hamma as 'more senior' with leadership conversation access. Full capital unknown.",
               "solution": "",
-              "action": "",
-              "due": "",
+              "action": "Assess in Hamma meeting.",
+              "due": "2026-03-14",
               "highlight": false
             },
             {
               "q": "Have they given insights you wouldn't get otherwise?",
-              "answer": "Yes",
+              "answer": "No",
               "score": 1,
-              "notes": "Sam provided commercial context (Adyen comparison, cost concerns, PCI priorities). Chan's team provided deep technical requirements during 2-hour workshop.",
+              "notes": "Hamma hasn't spoken with Maissa. Limited internal intelligence.",
               "solution": "",
               "action": "",
               "due": "",
@@ -18778,32 +18980,32 @@ const DEAL_DATA = {
             },
             {
               "q": "Have you been introduced to the decision maker?",
-              "answer": "Yes",
+              "answer": "Partial",
               "score": 1,
-              "notes": "Maissa was on a call directly with Touker. Sam facilitated access. Champion has introduced Shopify to the ultimate decision-maker.",
+              "notes": "Prior Suley interactions but not recent. No Touker access confirmed.",
               "solution": "",
-              "action": "",
-              "due": "",
+              "action": "Re-establish Suley contact.",
+              "due": "2026-03-14",
               "highlight": false
             },
             {
               "q": "Are they willing to bring you into the board/buying group?",
-              "answer": "Partial",
+              "answer": "No",
               "score": 0.5,
-              "notes": "Sam has facilitated access to Touker and broader team. No explicit mention of a board or buying group presentation. Touker's direct involvement may make this unnecessary.",
+              "notes": "No evidence of contacts facilitating access to buying group/board.",
               "solution": "Confirm whether any board or group-level approval is needed beyond Touker.",
-              "action": "Maissa to ask Sam if there are any group-level approvals required.",
-              "due": "03/06/2026",
+              "action": "Propose leadership briefing in Hamma meeting.",
+              "due": "2026-03-17",
               "highlight": false
             },
             {
               "q": "Why are they such a champion for you?",
-              "answer": "Yes",
+              "answer": "No",
               "score": 1,
-              "notes": "Sam championing because: legacy platform creates CFO pain, group brands already on Shopify, reduces PCI burden, and Touker personally mandating the change.",
+              "notes": "Champion not validated. Hamma's personal motivation unknown. Michael disengaged.",
               "solution": "",
-              "action": "",
-              "due": "",
+              "action": "Ask Hamma: What does successful migration mean for your team?",
+              "due": "2026-03-14",
               "highlight": false
             }
           ]
@@ -18930,145 +19132,187 @@ const DEAL_DATA = {
         {
           "p": 3,
           "cat": "Metrics",
-          "issue": "Metrics around timeline have been validated directly with Touker and Sam. However, quantifiable business goals have not been explicitly validated with the customer.",
-          "rec": "Include metrics validation in next commercial/planning call.",
-          "due": "03/06/2026"
+          "issue": "Technical capabilities validated Sept 2025. Business metrics not validated with economic buyer.",
+          "rec": "Validate metrics with Hamma and/or Suley.",
+          "due": "2026-03-17"
         },
         {
           "p": 4,
-          "cat": "Economic Buyer",
-          "issue": "Touker directed Sam to sign, and Sam is CFO. It's likely Touker or Sam signs the contract, but exact signatory has not been explicitly confirmed.",
-          "rec": "Maissa to confirm with Sam whether he or Touker will execute the agreement.",
-          "due": "03/12/2026"
+          "cat": "Metrics",
+          "issue": "CEO pushing modernisation but repeated missed deadlines suggest metrics not compelling enough internally.",
+          "rec": "Prepare one-page cost-of-delay summary for Suley.",
+          "due": "2026-03-13"
         },
         {
           "p": 5,
           "cat": "Economic Buyer",
-          "issue": "Touker makes decisions quickly and authoritatively. Budget allocation process is less clear — Sam was checking commercials but no formal approval/procurement steps detailed.",
-          "rec": "Maissa to confirm with Sam if any additional internal approvals are needed beyond Touker's direction.",
-          "due": "03/12/2026"
+          "issue": "Access mediated through Suley. No direct Touker access.",
+          "rec": "Use Hamma as channel to Touker.",
+          "due": "2026-03-17"
         },
         {
           "p": 6,
-          "cat": "Decision Process",
-          "issue": "Touker is the final decision-maker and has directed Sam to finalize. Full formal decision process (board approval, procurement steps) hasn't been explicitly mapped. Current blocker is agency selection.",
-          "rec": "Maissa to ask Sam to walk through exact steps from 'decision made' to 'contract signed'.",
-          "due": "03/12/2026"
+          "cat": "Economic Buyer",
+          "issue": "Contract went to Touker. Internal approval workflow unclear.",
+          "rec": "Ask Suley: Beyond Touker's sign-off, any other internal step?",
+          "due": "2026-03-14"
         },
         {
           "p": 7,
           "cat": "Decision Process",
-          "issue": "Process discussed informally — Touker gave direct instructions and timelines. A formal mutual action plan has not been confirmed.",
-          "rec": "Maissa to propose a mutual action plan with key milestones from contract signature through August go-live.",
-          "due": "03/06/2026"
+          "issue": "Touker final sign-off. Suley operational gatekeeper. Hamma strategic driver. Full workflow unclear.",
+          "rec": "Ask Suley: Walk me through what needs to happen internally.",
+          "due": "2026-03-14"
         },
         {
           "p": 8,
+          "cat": "Decision Process",
+          "issue": "Process not validated — contract stalled months. Michael doesn't know internal status.",
+          "rec": "Validate decision process with Suley this week.",
+          "due": "2026-03-14"
+        },
+        {
+          "p": 9,
           "cat": "Decision Criteria",
           "issue": "Criteria emerged across calls: platform capability, payments performance/cost, fraud management, unified D2C+POS, speed to go-live, total cost, PCI compliance. Not formally listed or ranked.",
           "rec": "Maissa to confirm with Sam/Chan what the top 3-5 criteria are for final decision.",
           "due": "03/06/2026"
         },
         {
-          "p": 9,
+          "p": 10,
           "cat": "Decision Criteria",
           "issue": "D2C extensively discussed. POS discussed with retail team but decision appears unresolved. B2B not discussed (null GMV). POS team had significant concerns about fraud and hardware.",
           "rec": "Maissa to confirm with Sam whether POS migration is included in initial scope or Phase 2.",
           "due": "03/06/2026"
         },
         {
-          "p": 10,
+          "p": 11,
           "cat": "Decision Criteria",
-          "issue": "No formal mutual action plan mentioned. Touker set informal milestones. AE notes reference agency selection as current step.",
-          "rec": "Maissa to draft a mutual action plan covering agency selection → contract signature → project kickoff → go-live.",
-          "due": "03/06/2026"
+          "issue": "No formal MAP referenced. March 10 ended with ad hoc next steps.",
+          "rec": "Draft one-page MAP: signature → partner selection → June kickoff.",
+          "due": "2026-03-14"
         },
         {
-          "p": 11,
+          "p": 12,
           "cat": "Decision Criteria",
           "issue": "Maissa actively advising against Adyen integration but agencies still including it in briefs. Influence being exerted but not yet fully landed with decision-makers.",
           "rec": "Ensure HMA and agency shortlist aligned on Shopify Payments in Tuesday meeting",
           "due": "03/10/2026"
         },
         {
-          "p": 12,
-          "cat": "Decision Criteria",
-          "issue": "Criteria internally driven by CTO (technical), CFO (commercial), CEO (speed/growth). Paul Rogers (Vervaunt) involved in agency selection may influence platform expectations.",
-          "rec": "Maissa/Alexandra to assess Vervaunt's influence during next catch-up with Paul Rogers.",
-          "due": "03/12/2026"
-        },
-        {
           "p": 13,
-          "cat": "Paper Process",
-          "issue": "Sam is reviewing commercials, Touker directed signing. Formal procurement steps (legal review, specific approval workflow) haven't been detailed.",
-          "rec": "Maissa to ask Sam: 'After you review commercials, what are the exact steps to get this signed?'",
-          "due": "03/12/2026"
+          "cat": "Decision Criteria",
+          "issue": "Not discussed. Unknown whether criteria formally defined.",
+          "rec": "Ask Hamma what key factors Touker is weighing.",
+          "due": "2026-03-14"
         },
         {
           "p": 14,
           "cat": "Paper Process",
-          "issue": "Sam wanted to reconfirm commercial terms and had concern about paying from day one before go-live. No legal team mentioned.",
-          "rec": "Maissa to ask Sam if their legal team will need to review the contract.",
-          "due": "03/12/2026"
+          "issue": "Contract goes to Touker. Procurement process beyond that not discussed.",
+          "rec": "Ask Suley what internal steps required.",
+          "due": "2026-03-14"
         },
         {
           "p": 15,
+          "cat": "Paper Process",
+          "issue": "Contract 'ready to be signed'. Extended delays could indicate undisclosed issues.",
+          "rec": "Confirm with Suley any outstanding contract concerns.",
+          "due": "2026-03-14"
+        },
+        {
+          "p": 16,
           "cat": "Paper Process",
           "issue": "No information on how long legal or procurement review takes at Hawes & Curtis.",
           "rec": "Maissa to ask Sam about their standard contract review timeline.",
           "due": "03/12/2026"
         },
         {
-          "p": 16,
+          "p": 17,
           "cat": "Paper Process",
           "issue": "Touker said 'sign by next Friday' (Jan 30) but AE notes from Feb 13 indicate agency selection delays may push to Q2.",
           "rec": "Maissa to explore whether Shopify contract can be signed independently of agency finalization.",
           "due": "03/12/2026"
         },
         {
-          "p": 17,
+          "p": 18,
           "cat": "Identify Pain",
-          "issue": "Alternative is staying on custom build (listed as competitor). No other platforms mentioned. Unclear if they evaluated alternatives.",
+          "issue": "CEO wants modernisation but execution urgency low — multiple deadlines missed.",
+          "rec": "Present business-case urgency to Suley.",
+          "due": "2026-03-14"
+        },
+        {
+          "p": 19,
+          "cat": "Identify Pain",
+          "issue": "Custom build status quo. No other platforms mentioned.",
           "rec": "Maissa to ask if they've looked at any other platform vendors or if this is Shopify vs. status quo.",
           "due": "03/06/2026"
         },
         {
-          "p": 18,
+          "p": 20,
           "cat": "Champion",
-          "issue": "Sam has facilitated access to Touker and broader team. No explicit mention of a board or buying group presentation. Touker's direct involvement may make this unnecessary.",
-          "rec": "Maissa to ask Sam if there are any group-level approvals required.",
-          "due": "03/06/2026"
+          "issue": "Hamma Chavda emerging as likely champion — senior, drives next steps. But Maissa hasn't spoken with her yet.",
+          "rec": "Reschedule Hamma meeting ASAP.",
+          "due": "2026-03-13"
         },
         {
-          "p": 19,
+          "p": 21,
+          "cat": "Champion",
+          "issue": "Michael described Hamma as 'more senior' with leadership conversation access. Full capital unknown.",
+          "rec": "Assess in Hamma meeting.",
+          "due": "2026-03-14"
+        },
+        {
+          "p": 22,
+          "cat": "Champion",
+          "issue": "Prior Suley interactions but not recent. No Touker access confirmed.",
+          "rec": "Re-establish Suley contact.",
+          "due": "2026-03-14"
+        },
+        {
+          "p": 23,
+          "cat": "Champion",
+          "issue": "No evidence of contacts facilitating access to buying group/board.",
+          "rec": "Propose leadership briefing in Hamma meeting.",
+          "due": "2026-03-17"
+        },
+        {
+          "p": 24,
+          "cat": "Champion",
+          "issue": "Champion not validated. Hamma's personal motivation unknown. Michael disengaged.",
+          "rec": "Ask Hamma: What does successful migration mean for your team?",
+          "due": "2026-03-14"
+        },
+        {
+          "p": 25,
           "cat": "Competition",
           "issue": "Competitor is 'Custom Build' — primary competition is status quo. No other platform vendors mentioned in any calls.",
           "rec": "Maissa to ask Sam directly: 'Did you evaluate any other platforms before landing on Shopify?'",
           "due": "03/06/2026"
         },
         {
-          "p": 20,
+          "p": 26,
           "cat": "Competition",
           "issue": "Doing nothing (staying on custom build) is implicitly an option but Touker's urgency suggests it's not viable. Not explicitly confirmed as ruled out.",
           "rec": "Maissa to validate that staying on the custom platform is definitively off the table.",
           "due": "03/06/2026"
         },
         {
-          "p": 21,
+          "p": 27,
           "cat": "Competition",
           "issue": "Internal alternative is current custom build. Could theoretically rebuild on new custom stack. Not explicitly discussed.",
           "rec": "Maissa or Stephen to confirm with Chan that a new custom build is not being considered.",
           "due": "03/06/2026"
         },
         {
-          "p": 22,
+          "p": 28,
           "cat": "Competition",
           "issue": "Know why current custom build is failing. Haven't explicitly asked why they might consider alternatives to Shopify specifically. Group's existing Shopify usage likely pre-empted broader evaluation.",
           "rec": "Ask Sam to articulate why Shopify was chosen over other options.",
           "due": "03/06/2026"
         },
         {
-          "p": 23,
+          "p": 29,
           "cat": "Competition",
           "issue": "New evidence: favorable commercial terms with free months, strong agency ecosystem, Michael engaged. Risks: agency cost concerns could stall, Adyen confusion persists, internal communication gaps on contract deadline.",
           "rec": "Maissa and Alexandra to actively support agency selection; Stephen to close out open technical items with Chan.",
@@ -19135,6 +19379,21 @@ const DEAL_DATA = {
         }
       ],
       "calls": [
+        {
+          "eventId": "0q3d5d0v08costhv6ngvd0a269",
+          "title": "Shopify X Hawes & Curtis sync",
+          "date": "2026-03-10",
+          "duration": 30,
+          "platform": "google_meet",
+          "shopifyAttendees": [
+            "Maissa Fatte"
+          ],
+          "merchantAttendees": [
+            "Michael Maynard"
+          ],
+          "hasTranscript": true,
+          "aiSummary": "Meeting centered on urgent need to finalize contract by end of March. Hamma Chavda (key strategic contact) did not join. Michael has stepped back to content role. No confirmed progress on contract signing. Maissa to contact Suley directly about deadline implications."
+        },
         {
           "title": "Shopify X Hawes & Curtis - agencies checkin",
           "date": "2026-03-06",
@@ -19475,28 +19734,50 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-13",
+          "totalScore": 41.5,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 5.5,
+            "Economic Buyer": 5,
+            "Decision Process": 5.5,
+            "Decision Criteria": 4.5,
+            "Paper Process": 4.5,
+            "Identify Pain": 7.5,
+            "Champion": 6.5,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
         {
-          "risk": "Contract deadline awareness gap: Michael was unaware of April 1 rate expiration. HMA leadership may also be unaware.",
-          "severity": "high",
-          "mitigation": "Tuesday meeting with HMA leadership is critical — Maissa must present deadline directly to economic buyers."
+          "severity": "critical",
+          "description": "Champion gap — Maissa has never spoken with Hamma Chavda, who is now the primary strategic driver. With 3 weeks to deadline, this is the #1 risk.",
+          "category": "champion"
         },
         {
-          "risk": "Agency selection delay: Michael wants to re-engage Swanky AND negotiate with Lime Sharp, potentially extending beyond March deadline.",
-          "severity": "high",
-          "mitigation": "Reinforce that agency selection and Shopify contract signing are separable. Accelerate agency decision."
+          "severity": "critical",
+          "description": "Internal inertia — Michael has stepped back, Hamma didn't join March 10 call. Deal is drifting, mirroring Sept/Oct pattern that led to two missed deadlines.",
+          "category": "process"
         },
         {
-          "risk": "Adyen confusion persists in agency briefs despite repeated correction.",
+          "severity": "high",
+          "description": "Suley unreachable — Maissa couldn't reach Suley last week. If unable this week, no mechanism to communicate deadline implications to leadership.",
+          "category": "access"
+        },
+        {
+          "severity": "high",
+          "description": "No mutual action plan — With 21 days to close, no documented plan showing path to signed contract.",
+          "category": "process"
+        },
+        {
           "severity": "medium",
-          "mitigation": "Maissa to directly contact agencies with written guidance that Adyen is not available for their GMV tier."
-        },
-        {
-          "risk": "Loss of commercial terms: rates expire April 1, requiring renegotiation from scratch.",
-          "severity": "high",
-          "mitigation": "Make Tuesday HMA meeting the forcing function. Articulate what changes if they miss the deadline."
+          "description": "Org contact instability — Jeie/Junior departed, Michael interim and disengaged, Hamma new to Maissa, Sam's role unclear.",
+          "category": "stakeholder"
         }
       ],
       "dealUndercurrent": {
@@ -19750,7 +20031,7 @@ const DEAL_DATA = {
           "mapProgress": "0/19"
         },
         {
-          "date": "2026-03-12",
+          "date": "2026-03-13",
           "sections": {
             "Metrics": {
               "score": 5.5,
@@ -19810,7 +20091,7 @@ const DEAL_DATA = {
       "merchantIntent": "Uncommitted",
       "type": "New Business",
       "created": "2025-04-15",
-      "lastAnalysisDate": "2026-03-10",
+      "lastAnalysisDate": "2026-03-13",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 841500,
@@ -21098,6 +21379,23 @@ const DEAL_DATA = {
             "Competition": 2.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-13",
+          "totalScore": 26.5,
+          "totalMax": 54,
+          "status": "at-risk",
+          "sectionScores": {
+            "Metrics": 3,
+            "Economic Buyer": 3.5,
+            "Decision Process": 3.5,
+            "Decision Criteria": 3,
+            "Paper Process": 1.5,
+            "Identify Pain": 5.5,
+            "Champion": 4,
+            "Competition": 2.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -21203,7 +21501,7 @@ const DEAL_DATA = {
           "mapProgress": "0/4"
         },
         {
-          "date": "2026-03-12",
+          "date": "2026-03-13",
           "sections": {
             "Metrics": {
               "score": 3,
@@ -22575,6 +22873,23 @@ const DEAL_DATA = {
             "Competition": 1.5
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-13",
+          "totalScore": 28,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 2,
+            "Decision Process": 4.5,
+            "Decision Criteria": 2,
+            "Paper Process": 2.5,
+            "Identify Pain": 6,
+            "Champion": 4.5,
+            "Competition": 1.5
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -22757,7 +23072,7 @@ const DEAL_DATA = {
           "mapProgress": "0/13"
         },
         {
-          "date": "2026-03-12",
+          "date": "2026-03-13",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -22810,14 +23125,14 @@ const DEAL_DATA = {
       "accountId": "0018V00002czmgWQAQ",
       "owner": "Maissa Fatte",
       "ownerEmail": "maissa.fatte@shopify.com",
-      "stage": "Deal Craft",
-      "closeDate": "2026-03-31",
-      "forecastCategory": "Commit",
-      "probability": 80,
+      "stage": "Closed Won",
+      "closeDate": "2026-03-12",
+      "forecastCategory": "Closed",
+      "probability": 100,
       "merchantIntent": "Committed",
       "type": "New Business",
       "created": "2026-02-24",
-      "lastAnalysisDate": "2026-03-10",
+      "lastAnalysisDate": "2026-03-13",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 4345312.5,
@@ -22836,7 +23151,7 @@ const DEAL_DATA = {
       ],
       "competitor": "commercetools",
       "compellingEvent": "",
-      "nextStep": "10/03 MF: Contract and LOI sent for signature",
+      "nextStep": "11/03 MF: Contract signed.",
       "narrative": {
         "oppSummary": "Trinny London is a £82,800 MCV Deal Craft opportunity (£4.5M total 3-year revenue) with £65M Payments GPV migrating from commercetools + Adyen to Shopify Plus + Shopify Payments. Mark (commercial decision-maker) has unilateral signing authority and proposed signing Monday March 9 if payments rates align. The 18.8% blended cost gap between Shopify Payments and Adyen is the primary blocker — Mark needs ~10% reduction to make the math work. Proposed launch November 2, 2026 with 19 POS terminals in scope.",
         "whyChange": "Trinny London is deeply frustrated with Adyen's payment practices. Mark described their reserve calculation as exploitative: 'Adyen are almost crooks. They use it as a way to hold on to a shitload of our money which makes no sense whatsoever.' The 18.8% total cost difference between Shopify Payments and Adyen is quantified and driving the commercial negotiation. Beyond payments, the platform migration from commercetools suggests broader architectural needs — SE notes reference comprehensive discussions around store architecture, dual-store implications, Markets guidance, and tax considerations.",
@@ -24103,6 +24418,23 @@ const DEAL_DATA = {
             "Competition": 3
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-13",
+          "totalScore": 42.5,
+          "totalMax": 54,
+          "status": "good-health",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 6,
+            "Decision Process": 4.5,
+            "Decision Criteria": 5,
+            "Paper Process": 6.5,
+            "Identify Pain": 7,
+            "Champion": 5.5,
+            "Competition": 3
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -24233,7 +24565,7 @@ const DEAL_DATA = {
           "mapProgress": "0/4"
         },
         {
-          "date": "2026-03-12",
+          "date": "2026-03-13",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -25561,6 +25893,23 @@ const DEAL_DATA = {
             "Competition": 1
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-13",
+          "totalScore": 25,
+          "totalMax": 54,
+          "status": "at-risk",
+          "sectionScores": {
+            "Metrics": 4,
+            "Economic Buyer": 2,
+            "Decision Process": 3,
+            "Decision Criteria": 4,
+            "Paper Process": 0.5,
+            "Identify Pain": 5.5,
+            "Champion": 5,
+            "Competition": 1
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -25759,7 +26108,7 @@ const DEAL_DATA = {
           "mapProgress": "0/0"
         },
         {
-          "date": "2026-03-12",
+          "date": "2026-03-13",
           "sections": {
             "Metrics": {
               "score": 4,
@@ -25819,7 +26168,7 @@ const DEAL_DATA = {
       "merchantIntent": "Uncommitted",
       "type": "New Business",
       "created": "2025-11-27",
-      "lastAnalysisDate": "2026-03-10",
+      "lastAnalysisDate": "2026-03-13",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 97557.94,
@@ -27009,6 +27358,23 @@ const DEAL_DATA = {
             "Competition": 2
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-13",
+          "totalScore": 31,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 5,
+            "Economic Buyer": 4,
+            "Decision Process": 5,
+            "Decision Criteria": 4,
+            "Paper Process": 1,
+            "Identify Pain": 5.5,
+            "Champion": 4.5,
+            "Competition": 2
+          },
+          "changes": []
         }
       ],
       "dealRisks": [
@@ -27247,7 +27613,7 @@ const DEAL_DATA = {
           "mapProgress": "0/0"
         },
         {
-          "date": "2026-03-12",
+          "date": "2026-03-13",
           "sections": {
             "Metrics": {
               "score": 5,
@@ -27307,7 +27673,7 @@ const DEAL_DATA = {
       "merchantIntent": "Uncommitted",
       "type": "New Business",
       "created": "2026-02-02",
-      "lastAnalysisDate": "2026-03-10",
+      "lastAnalysisDate": "2026-03-13",
       "revenue": {
         "mcv": 82800,
         "totalRev3yr": 1544484.38,
@@ -28377,6 +28743,23 @@ const DEAL_DATA = {
             "Competition": 3
           },
           "changes": []
+        },
+        {
+          "date": "2026-03-13",
+          "totalScore": 33,
+          "totalMax": 54,
+          "status": "on-track",
+          "sectionScores": {
+            "Metrics": 4.5,
+            "Economic Buyer": 2.5,
+            "Decision Process": 3.5,
+            "Decision Criteria": 3.5,
+            "Paper Process": 3.5,
+            "Identify Pain": 7,
+            "Champion": 5.5,
+            "Competition": 3
+          },
+          "changes": []
         }
       ],
       "dealRisks": [],
@@ -28551,7 +28934,7 @@ const DEAL_DATA = {
           "mapProgress": "0/0"
         },
         {
-          "date": "2026-03-12",
+          "date": "2026-03-13",
           "sections": {
             "Metrics": {
               "score": 4.5,
